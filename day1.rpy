@@ -395,7 +395,9 @@ label start:
     m "That's fine, [p]. Goodnight, and sleep tight, and remember to have fun tomorrow!"
     p "Haha alright, goodnight [mr], goodnight Kaira, I'll see you guys tomorrow."
 
-## Chapter 3
+    jump day2
+
+## Bonus
 
     scene black
     d "And that's all for version 0.1!"
@@ -404,8 +406,5 @@ label start:
 
     scene bonus_1
     $ renpy.pause(2.0,hard=True)
-
-
-
 
 return
