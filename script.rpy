@@ -35,7 +35,6 @@ label start:
     $ player = player.strip()
     if player == "":
         $ player = "Anon"
-#
 
     #Story start Chapter 1
     scene 1_v_serious
