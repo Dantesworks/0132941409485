@@ -186,7 +186,7 @@ label start:
 
     scene 2_int15
     s "OH MY GOD! HELP!"
-    p "Whoa hang on!! It's me, [p], your brother! Remember me?!"
+    p "Whoa hang on!! It's me, [p], you're my [sr]! Remember me?!"
 
     scene 2_int16
     s "...[p]?"
@@ -394,6 +394,13 @@ label start:
     scene 2_int48
     m "That's fine, [p]. Goodnight, and sleep tight, and remember to have fun tomorrow!"
     p "Haha alright, goodnight [mr], goodnight Kaira, I'll see you guys tomorrow."
+
+    scene 2_int49
+    with fade
+    "Christ I'm so tired I can barely keep my eyes open."
+    "I'm surprised I even made it to the-"
+    scene 2_int50
+    "zzzzzz..."
 
     jump day2
 
