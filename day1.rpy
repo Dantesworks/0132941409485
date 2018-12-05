@@ -7,6 +7,7 @@ define e = Character("Angel")
 define p = Character("[player]")
 define m = Character("Amanda")
 define s = Character("Kaira")
+define n = Character("Nicole")
 define x = Character("???")
 define d = Character("Dante")
 # The game starts here.
@@ -395,6 +396,7 @@ label start:
     m "That's fine, [p]. Goodnight, and sleep tight, and remember to have fun tomorrow!"
     p "Haha alright, goodnight [mr], goodnight Kaira, I'll see you guys tomorrow."
 
+    stop music fadeout 1
     scene 2_int49
     with fade
     "Christ I'm so tired I can barely keep my eyes open."
@@ -403,15 +405,3 @@ label start:
     "zzzzzz..."
 
     jump day2
-
-## Bonus
-
-    scene black
-    d "And that's all for version 0.1!"
-    d "Please leave feedback to let me know how you liked Depravity."
-    d "In the meantime, here's a bonus picture!"
-
-    scene bonus_1
-    $ renpy.pause(2.0,hard=True)
-
-return
