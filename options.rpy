@@ -30,7 +30,10 @@ define config.version = "0.2"
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""Thankyou for checking this game out. Please let me know what you think of the game, and what directions you think the game should take.
-All the music is original.
+
+Music - Beach by MBB.
+
+All other music is original.
 """)
 
 

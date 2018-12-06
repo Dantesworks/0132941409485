@@ -4,7 +4,7 @@
 # name of the character.
 
 define e = Character("Angel")
-define p = Character("[player]")
+define p = Character("[player]", color="#55B7DC")
 define m = Character("Amanda")
 define s = Character("Kaira")
 define n = Character("Nicole")

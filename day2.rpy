@@ -4,7 +4,7 @@ label day2:
 
     scene black
     with fade
-    "*Hours later...*"
+    "(A fewHours later)*"
     play music "sounds/cyberpunk.mp3" fadeout 1
     scene 3-1
     with fade
@@ -29,18 +29,18 @@ label day2:
     s "I told you, [p], my boobs are getting too big for my clothes."
     scene 3-7
     p "What do you- what?!"
-    p "You *need* to put something on Kaira!"
+    p "You {i}need{/i} to put something on Kaira!"
     scene 3-8
-    s "What I *need*, [p], is you."
+    s "What I {i}need{/i}, [p], is you."
     scene 3-9
     p "You can't do that! You're not my girlfriend, you're my-"
     scene 3-10
     s "[sr]? Why should we let that come between true love?"
     scene 3-11
-    s "I *need* you, [p]. I've grown a lot since you left."
+    s "I {i}need{/i} you, [p]. I've grown a lot since you left."
     s "Let me show it to you, [p], please."
     scene 3-12
-    s "I need you."
+    s "I {i}need{/i} you."
 ## Dream over
 
     scene black
@@ -276,36 +276,47 @@ label day2:
         p "Fine."
         p "You've got sexy tits Kaira."
         scene 4-17
-        s "There you go! My boobies are 100 percent real too!"
+        s "There you go!"
+        s "You should know, my boobies are 100 percent real too!"
         scene 4-18
         s "But I've still got long way to go to catch up with [mr]."
         scene 4-13
         p "You know, that's not something you necessarily have to aim for."
         p "..."
         p "I reckon they're fine the way they are, hahaha."
+        scene 4-3
+        s "You love them, don't you?"
+        s "Say you love my tits."
+        scene 4-11
+        p "You've got big tits Kaira."
+        s "For you."
         scene 4-19
         p "Hey Kaira. Going forward, I think-"
         scene 4-20
         s "Oh Nicole! I didn't see you!"
-        scene 4-21
-        s "How long have you been standing there?"
-        scene 4-22
-        pause 0.5
 
-        play music "sounds/beach.mp3"
+        s "How long have you been standing there?"
+
+## Nicole entrance
+
+        play music "sounds/beach.mp3" fadeout 1
+        scene 4-21
+        $ renpy.pause(0.5,hard=True)
+        scene 4-22
+        $ renpy.pause(0.5,hard=True)
         scene 4-23:
             pos (0.0, -2.96)
             linear 6 pos (0.0, 0.0)
         $ renpy.pause(6.0,hard=True)
         $ renpy.pause ()
     scene 4-27
-    "Shit! I hope she didn't hear our conversation!"
+    "Shit! I hope she didn't overhear our conversation!"
     scene 4-32
     n "Hello Kaira, and hello to you [p]. It's Nicole."
     n "Kaira has told me a lot about you."
     scene 4-5
     p "Uh.. hahah.. Good things I hope?"
-    "Shit! She's hot! Fuck me if she knows I think my [sr]'s sexy!"
+    "Shit! She's hot! I'm so fucked if she heard what I said about Kaira!"
     scene 4-33
     n "Hmm... You have nothing to worry about, [p]."
     scene 4-34
@@ -316,12 +327,244 @@ label day2:
     scene 4-32
     n "What about you [p]? Why don't I try whip my fashion magic and help you get a little stylish?"
     scene 4-34
-    s "I think you should save it for yourself Nicole, you need it."
+    s "I think you should focus on yourself Nicole, you need it."
     scene 4-33
     n "Oh come on, you work on me, and I'll work on him. Deal?"
     p "I'm due for a wardrobe change anyway, why not."
     n "Excellent."
+## Clothes
+    scene 4-35
+    p "...so, who do {i}I{/i} get to work on?"
+    scene 4-36
+    s "Why not the both of us?"
+    scene 4-37
+    s "We'll try some clothes on, and you tell us which one of us wears it better."
+    p "What kind of things are you going for?"
+    scene 4-39
+    s "Ooh all kinds- from normal to swimwear."
+    scene 4-38
+    n "From casual to sexy."
+    p "...so pretty much everything then."
+    scene 4-40
+    p "Alright ladies. You do your thing. I'll just be around here."
+    n "I'll keep an eye out for an oufit that you can wear as well [p]."
+    p "Can't wait."
 
+    scene black
+    with dissolve
+    "Now I remember why I don't go shopping much. It's so damn boring."
+    "At least this time I'll get something out of it."
+    "(What feels like a few hours later)"
+
+    scene 4-41
+    with dissolve
+    s "We're done! We've each picked out a few things we wanted to try."
+    scene 4-42
+    n "Something for {i}every{/i} occassion."
+    p "What do you mean?"
+    scene 4-41
+    s "Well, first off, we've got the smart casual outfit, then the casual outfit, then finishing off with a swimsuit of course!"
+    s "At least, those were the rules."
+    scene 4-43
+    s "Right, Nicole?"
+    scene 4-44
+    n "What about the forth outfit?"
+    scene 4-41
+    s "Ah yes, we also picked an extra outfit, but they don't fit with the rules, so we can show that off later."
+    scene 4-42
+    s "So which outfit do you want to see first [p]?"
+##
+    $ askflag1 = False
+    $ askflag2 = False
+    $ askflag3 = False
+    menu askoutfit:
+        "Casual.":
+            jump casual
+
+        "Smart Casual.":
+            jump sc
+
+        "Swimsuit.":
+            jump swimsuit
+
+## Casual
+    label casual:
+        $ askflag1 = True
+        $ last = "1"
+        s "One moment!"
+        scene black
+        with fade
+        "..."
+        "They always take so long to change."
+        n "Almost done!"
+        s "When you're ready, Nic!"
+        n "..."
+        n "Ready."
+        scene 4-48
+        with fade
+        $ renpy.pause ()
+        scene 4-46
+        $ renpy.pause ()
+        scene 4-49
+        $ renpy.pause ()
+        scene 4-47
+        $ renpy.pause ()
+        scene 4-45
+        $ renpy.pause ()
+        scene 4-50
+        s "Wow! Look at you Nicole."
+        n "I see we both decided to go with knits."
+        scene 4-51
+        s "I suppose it's casual, but yours is racier than I expected!"
+        scene 4-52
+        n "I might have dressed like trash this morning, but I can turn it on when I want to."
+        scene 4-45
+        s "Well, [p], who's got the better outfit?"
+        menu casualchoice:
+            "Hmm, I'll have to give this one to Kaira.":
+                jump casualKaira
+
+            "Nicole wins this one for me.":
+                jump casualNicole
+        label casualKaira:
+            scene 4-51
+            s "Thanks [p]!"
+            scene 4-50
+            s "You're gorgeous Nicole, but maybe that outfit isn't the best for a casual setting."
+            scene 4-45
+            if (askflag1 and askflag2 and askflag3):
+                jump special
+            p "Let's see the next outfit."
+            jump outfitdone
+        label casualNicole:
+            scene 4-52
+            n "I'm glad [p] can appreciate good taste."
+            scene 4-51
+            s "That knit does look really good on you Nicole. Shows off your figure really well."
+            scene 4-45
+            if (askflag1 and askflag2 and askflag3):
+                jump special
+            p "Let's see the next outfit."
+            jump outfitdone
+## smart casual
+    label sc:
+        $ askflag2 = True
+        s "I'm so excited!"
+        scene black
+        with fade
+        "..."
+        "Any moment now."
+        n "I'm done Kaira, are you close?"
+        s "Finished too!"
+        scene 4-54
+        with fade
+        $ renpy.pause ()
+        scene 4-55
+        $ renpy.pause ()
+        scene 4-56
+        $ renpy.pause ()
+        scene 4-57
+        $ renpy.pause ()
+        scene 4-53
+        $ renpy.pause ()
+        scene 4-58
+        n "Fufu... you're always very proud of your tits, Kaira."
+        n "You never shy away from showing those puppies off!"
+        scene 4-59
+        s "Coming from you Nicole?"
+        s "At least I now know you can also look formal."
+        scene 4-53
+        n "Which outfit do you like more [p]?"
+        menu scchoice:
+            "Hmm, I'll have to give this one to Kaira.":
+                jump scKaira
+
+            "Nicole wins this one for me.":
+                jump scNicole
+        label scKaira:
+            scene 4-59
+            s "You just can't resist me [p]!"
+            scene 4-58
+            n "Using sex appeal on him? You're a dirty girl."
+            scene 4-53
+            if (askflag1 and askflag2 and askflag3):
+                jump special
+            p "I'm looking forward to the next outfit."
+            jump outfitdone
+        label scNicole:
+            scene 4-58
+            n "[p] knows that the hottest girls also know how to look reserved. don't you [p]?"
+            scene 4-59
+            s "Interesting choice."
+            scene 4-53
+            if (askflag1 and askflag2 and askflag3):
+                jump special
+            p "What next?"
+            jump outfitdone
+## Swimsuit
+    label swimsuit:
+        $ askflag3 = True
+        n "Ah - my favourite."
+        scene black
+        with fade
+        "..."
+        "This one shouldn't take too long"
+        n "Done"
+        s "Me too"
+        scene 4-60
+        with fade
+        $ renpy.pause ()
+        scene 4-61
+        $ renpy.pause ()
+        scene 4-62
+        $ renpy.pause ()
+        scene 4-63
+        $ renpy.pause ()
+        scene 4-64
+        $ renpy.pause ()
+        scene 4-65
+        n "Kaira! You've gone skimpier than {i}me{/i}!"
+        scene 4-67
+        s "Feeling jealous?"
+        scene 4-66
+        s "I'm not the girl you used to know!"
+        menu swimsuitchoice:
+            "Hmm, I'll have to give this one to Kaira.":
+                jump swimsuitKaira
+
+            "Nicole wins this one for me.":
+                jump swimsuitNicole
+        label swimsuitKaira:
+            scene 4-66
+            s "Was it my body, or was it the outfit?"
+            s "Maybe it was both, hahaha!"
+            scene 4-64
+            if (askflag1 and askflag2 and askflag3):
+                jump special
+            p "Suprise me with the next one girls!"
+
+            jump outfitdone
+        label swimsuitNicole:
+            scene 4-65
+            n "I'm sorry Kaira, but I have the hotter body."
+            scene 4-67
+            s "At least my body is natural~"
+            scene 4-64
+            if (askflag1 and askflag2 and askflag3):
+                jump special
+            p "Suprise me with the next one girls!"
+            jump outfitdone
+
+
+    label outfitdone:
+
+        if not(askflag1 and askflag2 and askflag3):
+            jump askoutfit
+
+
+label special:
+    p "Well done girls, that's all 3 outfits."
+    p "You guys both looked like super models."
 
 ## Bonus
 
