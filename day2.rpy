@@ -63,7 +63,7 @@ label day2:
     s "I've been yelling at you for 5 whole minutes for you to get up!"
     scene 3-18
     p "You were... yelling at me?"
-    s "YES dummy! I was yelling that I *need* you to wake up!"
+    s "YES dummy! I was yelling that I {i}need{/i} you to wake up!"
     scene 3-19
     s "..."
     scene 3-20
@@ -160,10 +160,11 @@ label day2:
     s "It's not nice to keep people waiting, [p]. Nicole is waiting for us there already."
     s "Anyway, don't you think you'll have better chances of hitting on her if you get there before and impress her?"
     "Damn, she's right..!"
-    p "Hahah, you know how to say the right things!"
+    p "Haha, class act."
     "..."
 
     scene 4-2
+    with dissolve
     s "Ta da! We're here!"
     s "I love this place, they've got tons of clothes that fit a ton of moods."
     scene 4-3
@@ -354,7 +355,7 @@ label day2:
     with dissolve
     "Now I remember why I don't go shopping much. It's so damn boring."
     "At least this time I'll get something out of it."
-    "(What feels like a few hours later)"
+    "(What feels like a few hours later...)"
 
     scene 4-41
     with dissolve
@@ -368,9 +369,9 @@ label day2:
     scene 4-43
     s "Right, Nicole?"
     scene 4-44
-    n "What about the forth outfit?"
+    n "What about the fourth outfit?"
     scene 4-41
-    s "Ah yes, we also picked an extra outfit, but they don't fit with the rules, so we can show that off later."
+    s "Ah yes, we also picked an extra outfit, but they don't fit with the rules, so we can try that on after the game."
     scene 4-42
     s "So which outfit do you want to see first [p]?"
 ##
@@ -392,8 +393,8 @@ label day2:
         $ askflag1 = True
         $ last = "1"
         s "One moment!"
-        scene black
-        with fade
+        scene 4-68
+        with dissolve
         "..."
         "They always take so long to change."
         n "Almost done!"
@@ -450,8 +451,8 @@ label day2:
     label sc:
         $ askflag2 = True
         s "I'm so excited!"
-        scene black
-        with fade
+        scene 4-68
+        with dissolve
         "..."
         "Any moment now."
         n "I'm done Kaira, are you close?"
@@ -505,8 +506,8 @@ label day2:
     label swimsuit:
         $ askflag3 = True
         n "Ah - my favourite."
-        scene black
-        with fade
+        scene 4-68
+        with dissolve
         "..."
         "This one shouldn't take too long"
         n "Done"
@@ -527,7 +528,7 @@ label day2:
         scene 4-67
         s "Feeling jealous?"
         scene 4-66
-        s "I'm not the girl you used to know!"
+        s "I'm not the girl you first met!"
         menu swimsuitchoice:
             "Hmm, I'll have to give this one to Kaira.":
                 jump swimsuitKaira
@@ -537,7 +538,7 @@ label day2:
         label swimsuitKaira:
             scene 4-66
             s "Was it my body, or was it the outfit?"
-            s "Maybe it was both, hahaha!"
+            s "Maybe it was both, hehehe!"
             scene 4-64
             if (askflag1 and askflag2 and askflag3):
                 jump special
@@ -563,18 +564,266 @@ label day2:
 
 
 label special:
-    p "Well done girls, that's all 3 outfits."
+    p "Amazing girls, that's all 3 outfits!"
     p "You guys both looked like super models."
+    p "But you guys said something about a fourth outfit?"
+    n "Oh yes."
+    n "We also chose a another special outfit that we liked."
+    s "There's no theme for it though, so it wasn't part of the game."
+    n "Shall we?"
+    s "Let's!"
+    scene 4-68
+    with dissolve
+    "...so this time they're gonna get changed and I don't get to choose which one I like better?"
+    n "Are you done yet Kaira?"
+    s "Not yet, my one is quite a lot to put on."
+    n "My one's dead simple."
+    n "Alright, I think I'll head out first."
+    scene 4-69
+    with fade
+    n "So, what do you think?"
+    p "Like you said, it's simple, but very effective."
+    n "Simple attire. Difficult to pull off."
+    scene 4-70
+    n "This is something I'm sure a man like yourself can appreciate."
+    p "I can tell this is something you're quite used to."
+    n "Used to what? Being sexy?"
+    p "Very good."
+    play music "sounds/alchemy.mp3" fadeout 1
+    n "Fufufu... I can tell [p]."
+    p "What can you tell?"
+    scene 4-71
+    n "On the surface, you're quite well composed, [p]. But that's just a front, whether you admit it or not."
+    p "..."
+    n "There's something stirring inside you."
+    n "It's bursting through [p], and there's no way you're holding it back for long. Your eyes betray you."
+    n "Not just by where they... land. But also behind them is an abyss that just keeps growing."
+    n "I can see the hunger in your eyes when you look at our bodies."
+    scene 4-72
+    n "I don't mind you doing it to me, that's what I've made myself into. But you also lust after your [sr]."
+    p "... hang on, that's not-"
+    n "Even if you deny it, we both know the things you said to Kaira before I joined you two."
+    "Oh fuck, she {i}did{/i} overhear us."
+    scene 4-91
+    p "What are you trying to say about me?"
+    scene 4-73
+    n "Kaira, are you done yet?"
+    s "Yes, I'm finally done!"
+    scene 4-74
+    s "This outfit I chose is super interesting!"
+    s "I think it's quite fancy and you can sort of choose how you want to wear it."
+    scene 4-75
+    n "I think you look hot as hell Kaira. That shows off your curves perfectly."
+    s "Thanks Nicole!"
+    scene 4-76
+    s "Like I was saying, you can actually take off the leg pieces, like..."
+    scene 4-77
+    s "..this!"
+    scene 4-75
+    n "You've got a shapely ass Kaira, I'd love to bury my face into it."
+    scene 4-79
+    n "... and I'm sure [p] would as well."
+    s "Ahahaha, you're so sweet all of a sudden!"
+    scene 4-80
+    s "What do you think [p]?"
+    "Kaira is so hot, I can't believe I'm thinking this even though she's my [sr]. Is she doing this to me on purpose?"
+    "Her juicy tits, that well formed ass..."
+    "What is this feeling?!"
+    "Why am I feeling this way?!!"
+    s "[p]?"
+    scene 4-82
+    p "..."
+    scene 4-84
+    p "I... think it looks good Kaira..."
+    scene 4-83
+    s "Fufufu... speechless?"
+    scene 4-85
+    s "I like that suit Nicole, it's so you. Straight up oozing sex appeal."
+    s "Are you trying impress [p]?"
+    scene 4-86
+    n "Hmmm.. I think you're onto something."
+    scene 4-82
+    s "You should go for him, he's a {i}great{/i} guy."
+    "Christ, look at my [sr]'s ass."
+    scene 4-87:
+        pos (0.0, -3.34)
+        linear 6 pos (0.0, 0.0)
+    $ renpy.pause(6.0,hard=True)
+    $ renpy.pause ()
+    scene 4-88
+    "These types of feelings are perfectly normal, aren't they?"
+    "It's a physiological response."
+    scene 4-85
+    s "Anyway, Nicole, I {i}did{/i} say that we were going to give you a full makeover right?"
+    scene 4-75
+    n "I'm a lucky girl."
+    scene 4-88
+    s "So my plan is, let's get you all prettied up. I'll go find two more special outfits, one for me, and one for you."
+    s "They're secret, and you have to wear it for when we go get drinks tonight."
+    n "I love unplanned parties."
+    scene 4-89
+    s "[p], you coming?"
+    p "Uh, sure."
+    scene 4-79
+    n "You won't regret it, we'll make {i}sure{/i} you have fun!"
+    scene 4-90
+    s "In the meantime, why don't you show [p] the clothes you picked out for him?"
+    scene 4-75
+    n "No worries."
+    s "Lovely! I'll head off now!"
+    scene 4-79
+    n "Well cowboy, what are you waiting for?"
 
-## Bonus
+## Chapter 5
+
+    scene 5-1
+    n "Step on through."
+    n "We're gonna get you sorted."
+    scene 5-2
+    "..."
+    "What is she planning?"
+    "Don't let your guard down [p]."
+    scene 5-3
+    scene 5-4
+    with dissolve
+    n "Now do you understand what I'm saying about you? You're burning up, [p]."
+    scene 5-6
+    p "You're insane. I have no idea what you're on about."
+    p "Why are you trying to make stories up?"
+    p "There's zero evidence to what you're saying!"
+    scene 5-5
+    n "You don't think anybody will notice that you're horny for your own [sr]?"
+    p "What I'm doing is completely normal."
+    scene 5-6
+    n "Oh you depraved one! Do normal people throw away their morality so easily?"
+    p "I've done nothing like that."
+    scene 5-5
+    n "Is that right? Then what's this here?"
+    scene 5-8
+    n "You're rock hard!"
+    scene 5-7
+    n "We both know it wasn't just me that turned you on!"
+    "{i}PUSH{/i}"
+    scene 5-9
+    p "Uh! What are you-?"
+    n "Relax, [p]. I'm doing you a favour."
+    n "At this rate, you won't be able to control yourself around Kaira anymore."
+    scene 5-12
+    n "Don't fight it, let it happen."
+    p "Get your hands away from -!"
+    scene 5-13
+    n "All it took was a tug for it to slide out [p]."
+    n "Why lie to yourself?"
+    n "You're a big guy."
+    p "For you."
+    scene 5-10
+    "Fuck, her hands feel so good around my cock!"
+    "I can't give her this power over me, but I need this so bad!"
+    scene 5-11
+    n "You're a good size [p], you shouldn't be so shy~"
+    "Urgh...!"
+    scene 5-13
+    n "Do you feel my smooth hands slide around your cock?"
+    n "Now imagine Kaira stroking your cock.. her lucious tits bouncing in front of your face.. her groin grinding against yours.."
+    scene 3-12
+    with fade
+    p "FUCK!"
+    scene 5-14
+    p "I'm cumming!"
+    n "Oh shit! It's going to go everywhere!"
+    scene 5-15
+    p "Arghhh!"
+    n "*Gulp*"
+    n "There's just so much~!"
+    scene 5-16
+    n "*Gulp*"
+    p "That's right you fucking whore."
+    n "*Gulp*"
+    scene 5-17
+    n "How much cum do you have?!"
+    n "Were you trying to drown me?"
+    scene 5-18
+    s "[p]?"
+    "!!"
+    p "Yes?"
+    scene 5-34
+    s "I'm done with my two outfits!"
+    s "How are you going with yours?"
+    scene 5-18
+    p "Yeah I'm trying it on right now, I'll just be a few more minutes!"
+    scene 5-19
+    n "A few minutes huh? You better get hard again quickly then."
+    p "Don't you make a single noise you slut."
+    n "Stop talking and get hard for me."
+    scene 5-21
+    n "That's a good boy~"
+    scene 5-20
+    p "Ergh!"
+    "It's so sensitive!"
+    p "Ha, you fucking slut."
+    n "Mhm.. Mhmm..."
+    s "Hey [p], do you know where Nicole went?"
+    "Oh no!"
+    scene 5-34
+    s "I can't see her anywhere!"
+    scene 5-16
+    p "No idea babe I - argh!"
+    n "Mhmm!!!"
+    p "I'm not sure where she is!"
+    n "*Glug*"
+    p "Hey I'll talk to you when I'm done alright?"
+    s "Alright!"
+    "Phew...I came pretty hard again."
+    scene 5-24
+    p "Who's the depraved one now, you cock sucking whore?"
+    scene 5-25
+    n "Fufufu... I like you more when you're more carnal, when you drop your facade."
+    scene 5-26
+    n "I could get used to this side of you."
+    p "You're responsible for this."
+    n "As responsible as Kaira is for your lust towards her."
+    p "It's her fault too."
+    scene 5-28
+    n "I never said she wasn't depraved herself."
+    n "Though, not quite as sunken in to depravity as you are. Would you drag her in with you?"
+    p "..."
+    n "I'd love to do this again sometime, but there's something that needs attention before that..."
+    scene 5-27
+    n "Quick, get this outfit on, and slip out before me."
+    scene black
+    with dissolve
+    "Quick quick quick!"
+    scene 5-29
+    with dissolve
+    p "..."
+    p "Coast is clear."
+    play music "sounds/heart.mp3" fadeout 1
+    scene 5-30
+    n "So, Kaira, what do you think?"
+    scene 5-32
+    s "There you are Nicole! I was looking for you!"
+    scene 5-31
+    n "That's funny, I was just around here."
+    s "My, my, look at you [p]!"
+    s "What's this one called?"
+    scene 5-29
+    p "I call it, the 'Kishou Arima'."
+    p "You dig it?"
+    scene 5-33
+    s "I like you with glasses, and that jacket look is so much better than your old, dirty shirt!"
+    p "Hey!"
+    s "Hahaha!"
+    s "Well let's not stick around too long, we've got a party to go to!"
+    n "I've got a feeling those outfits you picked are going to be outrageous."
+    scene 5-35
+    s "They are. Just the way you love it."
 
     scene bonus_1
     d "And that's all for version 0.2!"
-    d "Please leave feedback to let me know how you liked Depravity."
-    d "In the meantime, I found something real cool I wanted to show you."
-    d "Turns out that Nicole girl's a bit of a slut and her photoshoot got leaked!"
-    d "I don't know about you, but I would be very eager to see what Nicole gets up to in this next version!"
-
+    d "In the next episode, look forward to partying with the girls in their new sexy outfits, as well as a chance encounter with the mysterious stranger again."
+    d "And always, please leave feedback on the f95zone page to let me know how you liked Depravity. I've also added a patreon link."
+    d "In the meantime, I found something real cool I wanted to show you. Turns out that Nicole girl's a bit of a slut and her photoshoot got leaked!"
+    d "Come check it out!"
 
     scene b1
     $ renpy.pause ()

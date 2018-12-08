@@ -31,6 +31,8 @@ define config.version = "0.2"
 
 define gui.about = _p("""Thankyou for checking this game out. Please let me know what you think of the game, and what directions you think the game should take.
 
+Patreon: patreon.com/danteworks
+
 Music - Beach by MBB.
 
 All other music is original.

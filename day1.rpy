@@ -22,6 +22,14 @@ label splashscreen:
     scene black
     with Dissolve(1)
 
+    scene splash2
+    with Dissolve(1)
+
+    $ renpy.pause(2.0,hard=True)
+
+    scene black
+    with Dissolve(1)
+
     return
 
 label start:
