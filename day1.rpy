@@ -40,7 +40,9 @@ label start:
     with Dissolve(1)
 
 #Player name
-    $ player = renpy.input("Are you alright buddy?! What's your name?")
+
+    x "Are you okay man? What's your name?"
+    $ player = renpy.input("")
     $ player = player.strip()
     if player == "":
         $ player = "Anon"
@@ -62,11 +64,13 @@ label start:
 
     $ mr = renpy.input("The older woman you live at home with is your ???. (Default = landlord)")
     $ mr = mr.strip()
+    $ mr = mr.lower()
     if mr == "":
         $ mr = "landlord"
 
     $ sr = renpy.input("The younger woman you live with at home is your ???. (Default = housemate")
     $ sr = sr.strip()
+    $ sr = sr.lower()
     if sr == "":
         $ sr = "housemate"
 
