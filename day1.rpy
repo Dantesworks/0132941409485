@@ -3,11 +3,12 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Angel")
+define c = Character("Caroline")
 define p = Character("[player]", color="#55B7DC")
 define m = Character("Amanda")
 define s = Character("Kaira")
 define n = Character("Nicole")
+define t = Character("Camille")
 define x = Character("???")
 define d = Character("Dante")
 # The game starts here.
@@ -92,7 +93,7 @@ label start:
     p "..."
     p "Bye!... oh he's already gone."
     "I guess he's right though... it might be a little strange going home without having finished my degree yet, but I need to know when I can't manage."
-    "[mr], sis... I guess I'll be back sooner than expected."
+    "[mr], [sr]... I guess I'll be back sooner than expected."
 
 
 ##Coming home

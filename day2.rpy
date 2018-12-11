@@ -4,7 +4,7 @@ label day2:
 
     scene black
     with fade
-    "(A fewHours later)*"
+    "(A few hours later)"
     play music "sounds/cyberpunk.mp3" fadeout 1
     scene 3-1
     with fade
@@ -54,7 +54,7 @@ label day2:
     p "What the hell was that about?"
     scene 3-15
 
-    play music "sounds/heart.mp3"
+    play music "sounds/heart.mp3" fadeout 1
 
     s "What the hell was what about [p]?"
     scene 3-16
@@ -509,9 +509,9 @@ label day2:
         scene 4-68
         with dissolve
         "..."
-        "This one shouldn't take too long"
-        n "Done"
-        s "Me too"
+        "This one shouldn't take too long."
+        n "Done."
+        s "Me too."
         scene 4-60
         with fade
         $ renpy.pause ()
@@ -817,6 +817,173 @@ label special:
     n "I've got a feeling those outfits you picked are going to be outrageous."
     scene 5-35
     s "They are. Just the way you love it."
+
+## Chapter 6
+    "This place is big, but I barely know any faces here."
+    "If I couldn’t go back to [mr] and Kaira, I would have no business being back at this place."
+    "If I hadn’t met that guy who spoke to me back then, I wouldn’t be here either."
+    "It’s a pity I never got his name. If I met him again I would definitely-"
+    "!!"
+    p "WTF"
+    p "HEY!!"
+    p "Stop!"
+    p "Why are you running from me?"
+    p "Got you!"
+    p "It’s me, [p], remember? You were that one that spoke to me back then."
+    x "Oh, [p]! I remember you!"
+    x "Listen man, I wasn’t running from you, I was running from the chick behind you."
+    p "Huh?"
+    x "Dude, she has to be coming around now, you have to throw her off."
+    p "Hang on, explain-"
+    x "Go man go!"
+    p "...Alright, I’ll do it. Think of it as payback."
+    "Ah, there she is."
+    p "Hey there, are you looking for something?"
+    x  "Oh... hey."
+    x "Sorry... have you seen... Vincent?"
+    p "What does he look like?"
+    x "...someone with...he has black hair and-"
+    p "Oh yeah, I saw a man with black hair run off in that direction. If you keep going that way, you should catch up with him!"
+    x "S-sorry, I mean, thankyou..."
+    "..."
+    p "Seemed like a nice girl. I wonder why he was running away."
+    p "So, it’s Vincent right?"
+    v "That’s me."
+    p "She’s gone."
+    v "Ahh, thank you so much."
+    p "What was that about? I thought you were the virtuous type. Didn’t think you would be going around breaking girl’s hearts."
+    v "Ah well, you know..."
+    p "She was cute too, pity."
+    v "It’s a complicated thing."
+    v "Anyway, it’s good to see you again, how are you holding up?"
+    p "I’m good Vincent, thanks again for talking to me that day."
+    v "No worries!"
+    p "But what are {i}you{/i} doing here?"
+    v "For work. I’m a photographer, I move around a bit."
+    p "How long are you staying for?"
+    v "Quite a while this time, they set up a new studio here."
+    v "Means I should probably get to know the people in this town."
+    v "Do you know many people here?"
+    p "Not really, it’s been too long since I last left."
+    v "God, [p], has put us together."
+    v "Let’s go for a drink! Catch up or something."
+    v "Bar... stripbar... your choice!"
+    p "You are definitely not as virtuous as I thought you were."
+    v "Hey, we’re all a little depraved in our own little ways."
+    p "I’d love to, but I’ve got another appointment later tonight."
+    v "No dramas. Here’s my business card."
+    v "It’s my photography business number, but I answer it all the time. Give me a call sometime."
+    p "Sure thing."
+    v "Alright man, I got to go, see you later."
+    p "Laters!"
+    "..."
+    "The girls should almost be done. It’s probably time to head to the bar."
+    "..."
+## Bar scene
+
+    "Wow, this place isn't bad at all."
+    "The lighting is set up perfectly!"
+    "Wait a minute... is that?"
+    "It's the chick that Vincent was running away from!"
+    "Poor girl, all by herself. Maybe I should go and say hi. But that might be awkward."
+    "Dammit, I really need a drink though. What should I do?"
+    menu talk:
+        "Get a drink for both of you and talk to her.":
+            jump talk
+
+        "Get a drink for yourself and ignore her.":
+            jump notalk
+
+    label talk:
+        p "Hey, I'm looking for a drink."
+        c "what's on your mind?"
+        p "Something creative, innovative, and interesting."
+        p "Something really good."
+        c "I think I have just what you need."
+        c "Here, a glass of Original Dante. It's the best in the house!"
+        c "Enjoy."
+        p "One more thing."
+        c "Yes sir?"
+        p "Please pour one for the lady as well."
+        c "Certainly."
+        x "Hey... thankyou, but you don't..."
+        p "Think nothing of it. I can tell you've had a rough day."
+        x "..."
+        x "Thankyou."
+        jump camille
+
+    label notalk:
+        p "Hey, I'm looking for a drink."
+        c "what's on your mind?"
+        p "Something creative, innovative, and interesting."
+        p "Something really good."
+        c "I think I have just what you need."
+        c "Here, a glass of Original Dante. It's the best in the house!"
+        c "Enjoy."
+        p "Thankyou."
+        "{i}sip{/i}"
+        p "You're right, this is some really good stuff."
+        c "Told you!"
+        p "I like this place."
+        c "Yeah it's usually quite busy, but today it's a bit more quiet."
+        p "It's a good thing right? Gives us more time to chat."
+        c "Aha."
+        c "So, are you by yourself? Or..."
+        p "I'm meeting up with a my [sr] and her friend. They should be arriving pretty soon."
+        p "...but in the meantime, what about you?"
+        c "What {i}about{/i} me?"
+        p "What {i}about{/i} you?"
+        c "Hmmm..."
+        c "I keep customer relationships perfectly professional."
+        c "You could talk to the girl with the red hair over there though, she might be receptive."
+
+        menu talk2:
+            "Talk to the red headed girl.":
+            jump camille
+
+            "Wait for Kaira and Nicole instead.":
+            jump talkdone
+
+    label camille
+        p "Hey, what's your name?"
+        x "My name is... Camille."
+        p "That's a beautiful name."
+        p "Did you manage to find the one man you were looking for."
+        t "...no, I- I couldn't."
+        p "I'm sorry to hear that. Was he important to you?"
+        t "..."
+         "I thought he would be somebody who... who would accept me."
+        t "...but in the end, I wasn't what he expected."
+        p "I'm not sure what to say, but I can tell you're hurt."
+        "Fuck did I play a part in upsetting this girl?"
+        p "Is there anything I can do to help?"
+        t "Y-You're already helping a lot by talking to me, thankyou."
+        "Deja vu, it's just like when Vincent comforted me when I was sad."
+        p "I'm just passing the favour on. Doing my good deed of the day, that sort of thing."
+        p "Hey listen, my [sr] and her friend are coming soon, would you like to join us?"
+        t "Ah- I-I really appreciate it.. but I have to go, I'm sorry!"
+        t "..but, can we talk again? Sometime?"
+        p "Of course, here's my number."
+        t "Thankyou!"
+        t "..."
+        t "Sorry! I forgot to ask your name!"
+        p "Haha, that's okay. My name is [p]."
+        t "...[p]..."
+        p "That's right!"
+        t "Thankyou [p]..."
+        t "[p]..."
+        p "Yeah, you got it!"
+        t "Take care, [p]."
+        p "You too, Camille. Goodbye!"
+        "..."
+        "She's such a nice girl, but was kind of strange."
+        "There must be a reason Vincent didn't go for it. I guess I'll find out sooner or later."
+        jump talkdone
+
+
+
+    label talkdone:
+
 
     scene bonus_1
     d "And that's all for version 0.2!"
