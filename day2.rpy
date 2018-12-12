@@ -797,7 +797,7 @@ label special:
     with dissolve
     p "..."
     p "Coast is clear."
-    play music "sounds/heart.mp3" fadeout 1
+    play music "sounds/beach.mp3" fadeout 1
     scene 5-30
     n "So, Kaira, what do you think?"
     scene 5-32
@@ -817,74 +817,125 @@ label special:
     n "I've got a feeling those outfits you picked are going to be outrageous."
     scene 5-35
     s "They are. Just the way you love it."
+    scene black
+    with fade
+    stop music fadeout 1
 
 ## Chapter 6
+
+    "..."
+    "Guess I have a few moments to kill before they get ready."
+    scene 6-1
+    with fade
+    play music "sounds/cinematic.mp3"
     "This place is big, but I barely know any faces here."
     "If I couldn’t go back to [mr] and Kaira, I would have no business being back at this place."
     "If I hadn’t met that guy who spoke to me back then, I wouldn’t be here either."
+    scene 6-2
     "It’s a pity I never got his name. If I met him again I would definitely-"
+    scene 6-3
+    play music "sounds/cyberpunk.mp3" fadeout 1
     "!!"
+    scene 6-4
     p "WTF"
+    scene 6-5
+    "???"
+    scene 6-6
     p "HEY!!"
+    scene 6-7
     p "Stop!"
+    scene 6-8
     p "Why are you running from me?"
+    scene 6-9
     p "Got you!"
+    x "Pant pant..."
+    scene 6-10
     p "It’s me, [p], remember? You were that one that spoke to me back then."
+    scene 6-11
+    x "..."
+    scene 6-12
     x "Oh, [p]! I remember you!"
     x "Listen man, I wasn’t running from you, I was running from the chick behind you."
     p "Huh?"
+    scene 6-11
     x "Dude, she has to be coming around now, you have to throw her off."
     p "Hang on, explain-"
     x "Go man go!"
-    p "...Alright, I’ll do it. Think of it as payback."
+    p "...Alright, I’ll do it. Think of it as returning the favour."
+    scene 6-17
+    with dissolve
+    play music "sounds/armoir.mp3" fadeout 1
     "Ah, there she is."
+    scene 6-18
     p "Hey there, are you looking for something?"
+    scene 6-19
     x  "Oh... hey."
+    scene 6-20
     x "Sorry... have you seen... Vincent?"
     p "What does he look like?"
+    scene 6-21
     x "...someone with...he has black hair and-"
     p "Oh yeah, I saw a man with black hair run off in that direction. If you keep going that way, you should catch up with him!"
+    scene 6-17
     x "S-sorry, I mean, thankyou..."
+    scene 6-22
     "..."
     p "Seemed like a nice girl. I wonder why he was running away."
+    scene 6-12
+    with dissolve
     p "So, it’s Vincent right?"
     v "That’s me."
     p "She’s gone."
+    scene 6-14
+    play music "sounds/heart.mp3" fadeout 1
     v "Ahh, thank you so much."
     p "What was that about? I thought you were the virtuous type. Didn’t think you would be going around breaking girl’s hearts."
+    scene 6-15
     v "Ah well, you know..."
     p "She was cute too, pity."
     v "It’s a complicated thing."
+    scene 6-13
     v "Anyway, it’s good to see you again, how are you holding up?"
     p "I’m good Vincent, thanks again for talking to me that day."
+    scene 6-14
     v "No worries!"
     p "But what are {i}you{/i} doing here?"
+    scene 6-13
     v "For work. I’m a photographer, I move around a bit."
     p "How long are you staying for?"
     v "Quite a while this time, they set up a new studio here."
+    scene 6-16
     v "Means I should probably get to know the people in this town."
     v "Do you know many people here?"
     p "Not really, it’s been too long since I last left."
+    scene 6-14
     v "God, [p], has put us together."
     v "Let’s go for a drink! Catch up or something."
     v "Bar... stripbar... your choice!"
+    scene 6-16
     p "You are definitely not as virtuous as I thought you were."
+    scene 6-13
     v "Hey, we’re all a little depraved in our own little ways."
+    scene 6-15
     p "I’d love to, but I’ve got another appointment later tonight."
+    scene 6-14
     v "No dramas. Here’s my business card."
     v "It’s my photography business number, but I answer it all the time. Give me a call sometime."
     p "Sure thing."
-    v "Alright man, I got to go, see you later."
+    scene 6-16
+    v "Alright man, have fun with whatever you gotta do. See you later."
     p "Laters!"
-    "..."
-    "The girls should almost be done. It’s probably time to head to the bar."
     scene black
     with fade
+    stop music fadeout 1
     "..."
+    "The girls should almost be done. It’s probably time to head to the bar."
+    "({i}A few minutes later...{/i})"
 ## Bar scene Chapter 7
 
     scene 7-11
     with dissolve
+    play music "sounds/wisteria.mp3"
     "Wow, this place isn't bad at all."
     "The lighting is set up perfectly!"
     scene 7-12
@@ -902,7 +953,8 @@ label special:
 
     label talk:
         scene 7-1
-        p "Hey, I'm looking for a drink."
+        "The nametag says 'Caroline'..."
+        p "Hey, Caroline? I'm looking for a drink."
         scene 7-3
         c "What's on your mind?"
         scene 7-4
@@ -917,37 +969,55 @@ label special:
         p "One more thing."
         c "Yes sir?"
         p "Please pour one for the lady as well."
-        scene 7-10
+        scene 7-4
         c "Certainly."
+        scene 7-18
         x "Hey... thankyou, but you don't..."
         p "Think nothing of it. I can tell you've had a rough day."
+        scene 7-16
         x "..."
+        scene 7-17
         x "Thankyou."
         jump camille
 
     label notalk:
-        p "Hey, I'm looking for a drink."
-        c "what's on your mind?"
+        scene 7-1
+        "The nametag says 'Caroline'..."
+        p "Hey, Caroline? I'm looking for a drink."
+        scene 7-3
+        c "What's on your mind?"
+        scene 7-4
         p "Something creative, innovative, and interesting."
         p "Something really good."
+        scene 7-5
         c "I think I have just what you need."
+        scene 7-6
         c "Here, a glass of Original Dante. It's the best in the house!"
         c "Enjoy."
+        scene 7-7
         p "Thankyou."
+        scene 7-4
         "{i}sip{/i}"
         p "You're right, this is some really good stuff."
+        scene 7-5
         c "Told you!"
+        scene 7-4
         p "I like this place."
         c "Yeah it's usually quite busy, but today it's a bit more quiet."
         p "It's a good thing right? Gives us more time to chat."
+        scene 7-9
         c "Aha."
         c "So, are you by yourself? Or..."
-        p "I'm meeting up with a my [sr] and her friend. They should be arriving pretty soon."
+        p "I'm meeting up with my [sr] and her friend. They should be arriving pretty soon."
         p "...but in the meantime, what about you?"
+        scene 7-8
         c "What {i}about{/i} me?"
         p "What {i}about{/i} you?"
+        scene 7-9
         c "Hmmm..."
+        scene 7-14
         c "I keep customer relationships perfectly professional."
+        scene 7-5
         c "You could talk to the girl with the red hair over there though, she might be receptive."
 
         menu talk2:
@@ -958,36 +1028,52 @@ label special:
                 jump talkdone
 
     label camille:
+        scene 7-16
         p "Hey, what's your name?"
-        x "My name is... Camille."
+        scene 7-19
+        x "My... my name is... Camille."
+        scene 7-19
         p "That's a beautiful name."
-        p "Did you manage to find the one man you were looking for?"
+        p "Did you manage to find the man you were looking for?"
+        scene 7-17
         t "...no, I- I couldn't."
         p "I'm sorry to hear that. Was he important to you?"
+        scene 7-16
         t "..."
         t "I thought he would be somebody who... who would accept me."
+        scene 7-17
         t "...but in the end, I wasn't what he expected."
+        scene 7-18
         p "I'm not sure what to say, but I can tell you're hurt."
         "Fuck did I play a part in upsetting this girl?"
         p "Is there anything I can do to help?"
+        scene 7-22
         t "Y-You're already helping a lot by talking to me, thankyou."
         "Deja vu, it's just like when Vincent comforted me when I was sad."
         p "I'm just passing the favour on. Doing my good deed of the day, that sort of thing."
         p "Hey listen, my [sr] and her friend are coming soon, would you like to join us?"
-        t "Ah- I-I really appreciate it.. but I have to go, I'm sorry!"
+        scene 7-21
+        t "Ah- I-I really appreciate it.. but I've got something on, I'm sorry!"
+        scene 7-20
         t "..but, can we talk again? Sometime?"
         p "Of course, here's my number."
+        scene 7-22
         t "Thankyou!"
         t "..."
+        scene 7-23
         t "Sorry! I forgot to ask your name!"
         p "Haha, that's okay. My name is [p]."
+        scene 7-21
         t "...[p]..."
         p "That's right!"
+        scene 7-22
         t "Thankyou [p]..."
+        scene 7-24
         t "[p]..."
         p "Yeah, you got it!"
-        t "Take care, [p]."
+        t "Take care."
         p "You too, Camille. Goodbye!"
+        scene 7-25
         "..."
         "She's such a nice girl, but was kind of strange."
         "There must be a reason Vincent didn't go for it. I guess I'll find out sooner or later."
@@ -995,8 +1081,88 @@ label special:
 
 
 
-    label talkdone:
-
+label talkdone:
+# Party Chapter 8
+    "..."
+    "Why is Kaira and Nicole taking so long?"
+    scene 7-1
+    p "So, Caroline."
+    scene 7-3
+    c "Yes?"
+    p "Let's say you really liked a person, but society frowns upon your relationship, what would you do?"
+    scene 7-8
+    c "Asking for a friend?"
+    p "Of course."
+    scene 7-13
+    c "Hmm..."
+    scene 7-4
+    c "I would say nothing should come between true love."
+    c "If you really like that person, and they like you back, that's your answer."
+    scene 7-14
+    c "...but what do I know? I'm just a lowly bar maid!"
+    scene 7-4
+    p "Don't say that. You're more than you think."
+    scene 7-8
+    c "And how would you know that?"
+    p "I just do."
+    p "You... work here a lot?"
+    scene 7-4
+    c "It's just a part time thing, it's to support my study."
+    p "So you're smart {i}and{/i} sexy."
+    scene 7-8
+    c "How original!"
+    p "Just like this glass of Original Dante."
+    p "What do you study?"
+    scene 7-9
+    c "I want to be a doctor one day, so I'm studying medicine."
+    p "Impressive, that must be hard."
+    scene 7-14
+    c "Everyone says that, but I think as long as you put in the work, it can be done!"
+    p "Well, people say I walk funny, and I'm pretty confused with what's happening in my life right now."
+    p "Diagnose me Caroline, what's wrong with me?"
+    scene 7-8
+    c "Well, your eyes are darting around a bit. I don't know if you're just shy to meet my eyes, or if you have nystagmus."
+    c "Either way, these signs are in keeping with Wernicke's Encephalopathy."
+    p "Hang on- how?"
+    scene 7-13
+    c "I'm saying don't drink too much! Or you'll progress to Karsakoff Psychosis, and that's serious."
+    p "...!"
+    scene 7-14
+    c "I'm joking, you don't have thiamine deficiency!"
+    c "You're fun to mess with."
+    scene 7-4
+    c "But really, don't drink too much. You wouldn't want to embarrass yourself in front of your friends that have just arrived, would you?"
+    "!!"
+## Chapter 8 Party
+    s "[p]!"
+    p "Oh damn you guys are finally here!"
+    p "And what is this?"
+    s "Sexy outfits huh?"
+    p "It's really skimpy."
+    n "Don't worry, it covers the important bits."
+    s "Well Nicole, why don't you tell [p] about your outfit?"
+    n "..."
+    n "Well it's a sexy bra, sexy panties, sexy heels and these sexy leg things that really accentuate the hips."
+    s "Good choice right?"
+    p "I love it."
+    s "All me!"
+    s "And what about my one?"
+    s "I know you love my boobs, [p], so I picked something that leaves little for your imagination!"
+    s "Do you like them even more now?"
+    n "How scandalous!"
+    n "[p] is nowhere near as perverted as you are Kaira."
+    n "Isn't that right [p]?"
+    p "Yeah, Kaira, keep it in your pants."
+    s "Hmph!"
+    s "Looks like I'll have to try harder!"
+    n "So, [p], are you going to buy us drinks or not?"
+    p "Of course ladies!"
+    p "I recommend Original Dante, apparently it's really creative."
+    n "Just what you need Kaira."
+    n "You need to learn to be more {i}creative{/i}."
+    s "I think you're {i}creative{/i} enough for the both of us hehe."
+    p "Hey Caroline!"
+    p "3 Original Dantes please!"
 
     scene bonus_1
     d "And that's all for version 0.2!"
