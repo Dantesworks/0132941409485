@@ -878,16 +878,22 @@ label special:
     p "Laters!"
     "..."
     "The girls should almost be done. It’s probably time to head to the bar."
+    scene black
+    with fade
     "..."
-## Bar scene
+## Bar scene Chapter 7
 
+    scene 7-11
+    with dissolve
     "Wow, this place isn't bad at all."
     "The lighting is set up perfectly!"
+    scene 7-12
     "Wait a minute... is that?"
     "It's the chick that Vincent was running away from!"
+    scene 7-11
     "Poor girl, all by herself. Maybe I should go and say hi. But that might be awkward."
     "Dammit, I really need a drink though. What should I do?"
-    menu talk:
+    menu bar:
         "Get a drink for both of you and talk to her.":
             jump talk
 
@@ -895,16 +901,23 @@ label special:
             jump notalk
 
     label talk:
+        scene 7-1
         p "Hey, I'm looking for a drink."
-        c "what's on your mind?"
+        scene 7-3
+        c "What's on your mind?"
+        scene 7-4
         p "Something creative, innovative, and interesting."
         p "Something really good."
+        scene 7-5
         c "I think I have just what you need."
+        scene 7-6
         c "Here, a glass of Original Dante. It's the best in the house!"
         c "Enjoy."
+        scene 7-7
         p "One more thing."
         c "Yes sir?"
         p "Please pour one for the lady as well."
+        scene 7-10
         c "Certainly."
         x "Hey... thankyou, but you don't..."
         p "Think nothing of it. I can tell you've had a rough day."
@@ -939,20 +952,20 @@ label special:
 
         menu talk2:
             "Talk to the red headed girl.":
-            jump camille
+                jump camille
 
             "Wait for Kaira and Nicole instead.":
-            jump talkdone
+                jump talkdone
 
-    label camille
+    label camille:
         p "Hey, what's your name?"
         x "My name is... Camille."
         p "That's a beautiful name."
-        p "Did you manage to find the one man you were looking for."
+        p "Did you manage to find the one man you were looking for?"
         t "...no, I- I couldn't."
         p "I'm sorry to hear that. Was he important to you?"
         t "..."
-         "I thought he would be somebody who... who would accept me."
+        t "I thought he would be somebody who... who would accept me."
         t "...but in the end, I wasn't what he expected."
         p "I'm not sure what to say, but I can tell you're hurt."
         "Fuck did I play a part in upsetting this girl?"

@@ -10,6 +10,7 @@ define s = Character("Kaira")
 define n = Character("Nicole")
 define t = Character("Camille")
 define x = Character("???")
+define v = Character("Vincent")
 define d = Character("Dante")
 # The game starts here.
 
@@ -404,7 +405,7 @@ label start:
     p "Alright I'll go-"
     scene 2_int34
     s "Yippie!"
-    p "-but I'm really tired, so I'll have go to bed night if I want to wake up tomorrow."
+    p "-but I'm really tired, so I'll have go to bed now if I want to wake up tomorrow."
     scene 2_int48
     m "That's fine, [p]. Goodnight, and sleep tight, and remember to have fun tomorrow!"
     p "Haha alright, goodnight [mr], goodnight Kaira, I'll see you guys tomorrow."
