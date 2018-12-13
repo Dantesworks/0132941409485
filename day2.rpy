@@ -926,7 +926,7 @@ label special:
     v "It’s my photography business number, but I answer it all the time. Give me a call sometime."
     p "Sure thing."
     scene 6-16
-    v "Alright man, have fun with whatever you gotta do. See you later."
+    v "Alright man, have fun with whatever you gotta do. See you later!"
     p "Laters!"
     scene black
     with fade
@@ -1094,6 +1094,7 @@ label talkdone:
     scene 7-1
     p "So, Caroline."
     scene 7-3
+    play music "sounds/dreams.mp3" fadeout 1
     c "Yes?"
     p "Let's say you really liked a person, but society frowns upon your relationship, what would you do?"
     scene 7-8
@@ -1140,88 +1141,176 @@ label talkdone:
     c "But really, don't drink too much. You wouldn't want to embarrass yourself in front of your friends that have just arrived, would you?"
     "!!"
 ## Chapter 8 Party
+    stop music fadeout 1
     s "[p]!"
+    play music "sounds/beach.mp3"
+    scene 8-0:
+        pos (0.0, -1.67)
+        linear 6 pos (0.0, 0.0)
+    $ renpy.pause(6.0,hard=True)
+    $ renpy.pause ()
+    scene 8-1
     p "Oh damn you guys are finally here!"
     p "And what is this?"
+    scene 8-4
     s "Sexy outfits huh?"
     p "It's really skimpy."
+    scene 8-5
     n "Don't worry, it covers the important bits."
-    s "Well Nicole, why don't you tell [p] about your outfit?"
-    n "..."
+    scene 8-3
+    s "Well Nicole, why don't you tell [p] about your makeover?"
+    scene 8-6
+    n "Uhh..."
+    scene 8-5
     n "Well it's a sexy bra, sexy panties, sexy heels and these sexy leg things that really accentuate the hips."
+    scene 8-7
+    n "I also got a hair styling. Makes me look classy!"
     s "Good choice right?"
+    scene 8-2
     p "I love it."
+    scene 8-12
     s "All me!"
+    scene 8-4
     s "And what about my one?"
+    scene 8-12
     s "I know you love my boobs, [p], so I picked something that leaves little for your imagination!"
     s "Do you like them even more now?"
+    scene 8-9
     n "How scandalous!"
+    scene 8-8
     n "[p] is nowhere near as perverted as you are Kaira."
+    scene 8-10
     n "Isn't that right [p]?"
+    scene 8-1
     p "Yeah, Kaira, keep it in your pants."
+    scene 8-13
     s "Hmph!"
+    scene 8-14
     s "Looks like I'll have to try harder!"
+    scene 8-5
     n "So, [p], are you going to buy us drinks or not?"
+    scene 8-1
     p "Of course ladies!"
     p "I recommend Original Dante, apparently it's really creative."
+    scene 8-10
     n "Just what you need Kaira."
     n "You need to learn to be more {i}creative{/i}."
+    scene 8-14
     s "I think you're {i}creative{/i} enough for the both of us hehe."
+    scene 7-1
     p "Hey Caroline!"
+    scene 7-3
     p "2 Original Dantes please!"
+    scene 8-15
     c "Coming right up!"
+    scene 8-16
     c "As requested, 2 Original Dantes."
+    scene 8-18
     s "One for each of his girlfriends!"
+    scene 7-8
     c "I thought you said one of them were your [sr]?"
+    scene 8-19
     p "She is! I have no idea what she's on about."
+    scene 7-9
     c "You have interesting relationships [p]."
+    scene 8-20
     p "You have no idea."
+    scene 8-17
     n "Stop talking and start drinking."
-    "{i}sip{/i}"
+    scene 8-38
+    s "{i}sip{/i}"
+    scene 8-37
+    s "..."
+    scene 8-29
     s "Bleh!"
+    scene 8-22
     p "So what do you think?"
+    scene 8-30
     s "Alcohol!"
+    scene 8-28
     n "Well of course it's alcohol dummy!"
+    scene 8-26
     n "You don't really drink at all do you Kaira?"
+    scene 8-32
     s "I can drink!"
+    scene 8-38
+    with dissolve
     s "{i}glug...glug...{/i}"
+    scene 8-35
+    with dissolve
     s "{i}Burp{/i}"
+    scene 8-30
     s "Ooohhh..."
     s "..."
+    scene 8-31
     s "I love it!"
+    scene 8-20
     p "You sure Kaira?"
+    scene 8-27
     n "This place is so dead."
+    scene 8-34
     n "What's the point of dressing up all sexy if noone's gonna watch?"
+    scene 8-18
     s "That's okay!"
     s "We've got [p] to watch us dance all slutty hahaha!"
+    scene 8-25
     p "I think you're drunk Kaira."
+    scene 8-32
     s "No I'm not!"
     s "Nicole, tell him!"
+    scene 8-26
     n "..."
+    scene 8-28
     n "I think Kaira could do with a few more drinks!"
+    scene 8-34
     n "Grab two more for us, would you Caroline?"
+    scene 8-19
     p "Hey what about {i}my{/i} drink?"
+    scene 8-28
     n "No more for you [p]..."
+    scene 8-33
     n "I need you to be able to get it up later fufufu..."
     "Wow. Jesus Christ."
+    scene 8-16
     c "Here, two more Original Dantes."
+    scene 8-35
     n "Come on Kaira, here's your medication!"
+    scene 8-32
     s "A good girl always takes her medication!"
+    scene 8-37
+    with dissolve
     s "{i}Drinks in silence{/i}"
     play music "sounds/popstars.mp3" fadeout 1
+    scene 8-30
+    s "I can do this all day!"
+    scene 8-31
     s "OOOOH It's my favourite song from KDA!"
     s "Did you know Nicole! Kaisa and Evelynn are going to come to have a signing event soon!"
+    scene 8-28
     n "Oh yeah I've heard of them."
+    scene 8-22
     p "KDA? What's that?"
+    scene 8-26
     s "You haven't heard of them?"
-    s "They're only the hottest girl group around. Like I said, two of the are coming over sometime soon."
+    scene 8-25
+    s "They're only the hottest girl group around. Like I said, two of them are coming over sometime soon."
+    scene 8-40
+    with dissolve
     n "I love Kaisa. She's got a sexy body with a huge ass."
+    scene 8-41
+    with dissolve
     s "Really? Evelynn's seductive as hell though."
     s "I wanna be more like her."
+    scene 8-18
     s "But I have the biggest tits!"
+    scene 8-31
     s "Come on, let's dance!"
+    scene 8-33
     n "You need to fuel up before that, come finish my drink!"
+    scene 8-38
+    with dissolve
     s "More more more!"
+    scene 8-39
     s "Aahahaha!"
 ## dance floor
     s "Wooo!"
