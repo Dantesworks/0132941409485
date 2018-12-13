@@ -833,10 +833,11 @@ label special:
     "If I hadn’t met that guy who spoke to me back then, I wouldn’t be here either."
     scene 6-2
     "It’s a pity I never got his name. If I met him again I would definitely-"
+    stop music fadeout 1
     scene 6-3
-    play music "sounds/cyberpunk.mp3" fadeout 1
     "!!"
     scene 6-4
+    play music "sounds/wistful.mp3"
     p "WTF"
     scene 6-5
     "???"
@@ -847,10 +848,11 @@ label special:
     scene 6-8
     p "Why are you running from me?"
     scene 6-9
-    p "Got you!"
+    with fade
     x "Pant pant..."
+    p "Got you!"
     scene 6-10
-    p "It’s me, [p], remember? You were that one that spoke to me back then."
+    p "It’s me, [p], remember? You were that one that consoled me what I was upset!"
     scene 6-11
     x "..."
     scene 6-12
@@ -887,7 +889,7 @@ label special:
     v "That’s me."
     p "She’s gone."
     scene 6-14
-    play music "sounds/heart.mp3" fadeout 1
+    play music "sounds/wistful.mp3" fadeout 1
     v "Ahh, thank you so much."
     p "What was that about? I thought you were the virtuous type. Didn’t think you would be going around breaking girl’s hearts."
     scene 6-15
@@ -903,6 +905,7 @@ label special:
     scene 6-13
     v "For work. I’m a photographer, I move around a bit."
     p "How long are you staying for?"
+    scene 6-14
     v "Quite a while this time, they set up a new studio here."
     scene 6-16
     v "Means I should probably get to know the people in this town."
@@ -1030,9 +1033,9 @@ label special:
     label camille:
         scene 7-16
         p "Hey, what's your name?"
-        scene 7-19
+        scene 7-18
         x "My... my name is... Camille."
-        scene 7-19
+        scene 7-16
         p "That's a beautiful name."
         p "Did you manage to find the man you were looking for?"
         scene 7-17
@@ -1040,10 +1043,12 @@ label special:
         p "I'm sorry to hear that. Was he important to you?"
         scene 7-16
         t "..."
-        t "I thought he would be somebody who... who would accept me."
         scene 7-17
+        t "I thought he would be somebody who... who would accept me."
+        scene 7-19
         t "...but in the end, I wasn't what he expected."
-        scene 7-18
+        scene 7-21
+        with dissolve
         p "I'm not sure what to say, but I can tell you're hurt."
         "Fuck did I play a part in upsetting this girl?"
         p "Is there anything I can do to help?"
@@ -1052,9 +1057,9 @@ label special:
         "Deja vu, it's just like when Vincent comforted me when I was sad."
         p "I'm just passing the favour on. Doing my good deed of the day, that sort of thing."
         p "Hey listen, my [sr] and her friend are coming soon, would you like to join us?"
-        scene 7-21
+        scene 7-23
         t "Ah- I-I really appreciate it.. but I've got something on, I'm sorry!"
-        scene 7-20
+        scene 7-22
         t "..but, can we talk again? Sometime?"
         p "Of course, here's my number."
         scene 7-22
@@ -1074,6 +1079,7 @@ label special:
         t "Take care."
         p "You too, Camille. Goodbye!"
         scene 7-25
+        with dissolve
         "..."
         "She's such a nice girl, but was kind of strange."
         "There must be a reason Vincent didn't go for it. I guess I'll find out sooner or later."
@@ -1162,7 +1168,231 @@ label talkdone:
     n "You need to learn to be more {i}creative{/i}."
     s "I think you're {i}creative{/i} enough for the both of us hehe."
     p "Hey Caroline!"
-    p "3 Original Dantes please!"
+    p "2 Original Dantes please!"
+    c "Coming right up!"
+    c "As requested, 2 Original Dantes."
+    s "One for each of his girlfriends!"
+    c "I thought you said one of them were your [sr]?"
+    p "She is! I have no idea what she's on about."
+    c "You have interesting relationships [p]."
+    p "You have no idea."
+    n "Stop talking and start drinking."
+    "{i}sip{/i}"
+    s "Bleh!"
+    p "So what do you think?"
+    s "Alcohol!"
+    n "Well of course it's alcohol dummy!"
+    n "You don't really drink at all do you Kaira?"
+    s "I can drink!"
+    s "{i}glug...glug...{/i}"
+    s "{i}Burp{/i}"
+    s "Ooohhh..."
+    s "..."
+    s "I love it!"
+    p "You sure Kaira?"
+    n "This place is so dead."
+    n "What's the point of dressing up all sexy if noone's gonna watch?"
+    s "That's okay!"
+    s "We've got [p] to watch us dance all slutty hahaha!"
+    p "I think you're drunk Kaira."
+    s "No I'm not!"
+    s "Nicole, tell him!"
+    n "..."
+    n "I think Kaira could do with a few more drinks!"
+    n "Grab two more for us, would you Caroline?"
+    p "Hey what about {i}my{/i} drink?"
+    n "No more for you [p]..."
+    n "I need you to be able to get it up later fufufu..."
+    "Wow. Jesus Christ."
+    c "Here, two more Original Dantes."
+    n "Come on Kaira, here's your medication!"
+    s "A good girl always takes her medication!"
+    s "{i}Drinks in silence{/i}"
+    play music "sounds/popstars.mp3" fadeout 1
+    s "OOOOH It's my favourite song from KDA!"
+    s "Did you know Nicole! Kaisa and Evelynn are going to come to have a signing event soon!"
+    n "Oh yeah I've heard of them."
+    p "KDA? What's that?"
+    s "You haven't heard of them?"
+    s "They're only the hottest girl group around. Like I said, two of the are coming over sometime soon."
+    n "I love Kaisa. She's got a sexy body with a huge ass."
+    s "Really? Evelynn's seductive as hell though."
+    s "I wanna be more like her."
+    s "But I have the biggest tits!"
+    s "Come on, let's dance!"
+    n "You need to fuel up before that, come finish my drink!"
+    s "More more more!"
+    s "Aahahaha!"
+## dance floor
+    s "Wooo!"
+    n "Come on [p], dance with us."
+    n "Don't hold back!"
+    p "I'm trying I swear."
+    p "I'm just shit at dancing."
+    s "Heheheh, you just have to let go!"
+    n "Come, [p]. Slut drop with me when the beat drops."
+    n "..."
+    n "Now!"
+    p "Damn that's hot."
+    s "What about this one, [p]?"
+    s "I call it the grind."
+    n "Oh Kaira you are so hot when you let loose."
+    s "Am I turning you on Nicole?"
+    n "Not as much as you're turning [p] on hehe."
+    s "Show us your move [p]!"
+    menu dancemove:
+        "The T Pose":
+            jump T
+        "Mr Sexy Smexy":
+            jump smexy
+        "The Seizureman":
+            jump seizure
+    label T:
+        p "I call this one, the T!"
+        n "That's so dumb! I think I'm going to be sick!"
+        jump dancemovedone
+    label smexy:
+         p "I call this one, Mr Sexy Smexy!"
+         n "Hey! Not bad!"
+         jump dancemovedone
+    label seizure:
+        p "I call this one, the Seizureman!"
+        n "...impressive."
+        jump dancemovedone
+
+label dancemovedone:
+    s "Uhh..."
+    s "I don't feel so well..."
+    p "I know I suck but I didn't know I was that bad-"
+    n "..!"
+    n "Take her to the bathroom!"
+    n "The girl's drunk too much!"
+
+## Chapter 9 bar bathroom
+
+    n "..."
+    n "She is just out of it! Hahahah!"
+    s "Nuu..! I'm fine!"
+    s "Nico- You're always trying to ruin my fun and-"
+    s "..."
+    s "[p]..."
+    s "Do you love me [p]?"
+    s "Am I sexy?"
+    s "I can try harder I promise."
+    s "You're always that big brother in my life. But I want you to love me."
+    s "If you won't fall in love with me, will you fall in love with my body?"
+    "..."
+    "Fuck it's happening again, and I don't know how to-"
+    n "You're rock hard again, [p]."
+    n "Let me free you up!"
+    p "No!"
+    "..."
+    p "What are you trying to do?!"
+    n "She's barely conscious. She's just functioning purely off impulses."
+    n "Calm down, she won't remember at thing tomorrow."
+    n "Meanwhile, you can do to her supple body whatever you like."
+    n "Should I nibble her tits while you take her virginity?"
+    n "She {i}is{/i} a virgin, you know."
+    "The urges are so strong..."
+    "But... I can't..."
+    p "I won't do it. I can fight my depravity."
+    p "I won't rape my own [sr]."
+    n "I don't know why you want me to."
+    n "I just want us all to have some fun, but if you're not ready for it, I don't mind."
+    s "Please [p], let me show you..."
+    p "..Kaira..."
+    s "Noone has ever seen them before."
+    n "You're doing a good job Kaira! Squeeze them together for us."
+    s "Is this good, [p]?"
+    n "Look at how hard [p]'s cock is! That's all because of you Kaira!"
+    s "Fufufu..."
+    s "I'm so glad I make you happy [p]..."
+    "With Nicole rubbing me off and Kaira watching, I think I'm about to-!"
+    "ARGH!"
+    n "Good boy~"
+    n "Did you like that Kaira?"
+    n "If you make [p] cum, then that means you've done a good job!"
+    s "..."
+    s "This...is... cum?"
+    n "I think you'll make a beautiful cumslut Kaira, but now it's my turn."
+    p "Wait a moment!"
+    n "I already know you can go at least twice in one go so shut up and feed me."
+    p "Fuck it's so sensitive."
+    # scene of Kaira tasting cum.
+    n "Cum for me [p], you know how much I crave your juicy cum."
+    n "Come on, don't be a shy boy."
+    p "God you really know how to rile me up."
+    # animation?
+    p "Fuck I'm close!"
+    s "..."
+    s "I...want..more... cum..."
+    n "You already had some Kaira, let me have my turn."
+    "I was so close!"
+    s "But I want more! {i}sob{/i}"
+    n "You've got it all over your face and tits. Why don't you just lick it off yourself?"
+    s "Just because you're a hoe with fake tits doesn't mean you get to keep all the delicious cum to yourself!"
+    n "(I'm never getting this bitch drunk again.)"
+    n "Fine, I'll share some with you later. Now let me finish him off."
+    scene white
+    "I'm spent..."
+    # cum swap
+    s "mmmm"
+    n "Jeez, look at this dirty girl."
+    n "Her's pussy's begging for it so much, the floor is covered with her pussy grool."
+    n "Too bad you're not up for it [p]. Kaira got you off and you won't even return the favour!"
+    n "If it were up to me, I'd fuck you till you screamed you gorgeous girl~"
+    p "Enough, we have to clean up and go. It's a miracle noone's walked in on us."
+    p "Can you stand Kaira?"
+    p "..."
+    p "You're helping me take her home Nicole."
+    n "Of course, I'd do anything to spend more time with you and your cute [sr]."
+
+## Chapter 10 back at home
+
+    p "Remember to be quiet. It's super late and my [mr] is probably asleep."
+    n "You're making the noise not me."
+    p "I'll take her to bed, go wait for me in the living room."
+    n "Cool."
+    n "This is fun, What a nice living room."
+    n "Urgh, but I'm still so horny from before."
+    "Man this day has just been so long..."
+    "Nicole really is a vixen."
+    "!!"
+    p "Ni-Nicole?"
+    n "I've gotten you off 4 times today, [p], but you haven't returned the favour even once!"
+    n "I know you're tired baby, so I'll do the work, like I always do."
+    n "Get on your back."
+    n "You're a sex fiend, [p], you can just keep going on and on."
+    p "Fake tits, fake ass.. you've fully embraced being a whore haven't you?"
+    n "Ouch, I'll have you know the ass is real, but I'm always open to augmenting myself, [p]..."
+    n "I can be your personal bimbo~"
+    p "That's what I like to hear, especially after the shit you pulled at the bar today."
+    n "Oh come on, I know you enjoyed it as much as I did."
+    n "Now, make love to me [p]."
+    p "!!"
+    p "You depraved little bitch, it slid right in."
+    n "It's your fault for getting me so worked up!"
+    scene black
+    with fade
+    m "(I think I heard a noise...)"
+    m "!!"
+    m "(Wow, how bold of them to do in the living room!)"
+    m "(But I suppose [p] has his needs too...)"
+    m "(He's grown so much...)"
+    m "(And his thick cock, with that girl's pussy sliding up and down its girth...)"
+    m "(It's been so long... somehow, I wish it were me... bouncing on-)"
+    m "(Calm yourself down Amanda!)"
+    m "(Let [p] have his personal space.)"
+
+    p "I'm... tired."
+    n "But I'm so close!"
+    n "..."
+    n "Ahh~!!"
+    p "Haa!"
+    scene white
+    n "Goodnight [p]."
+    n "You stay comfortable here. I'll show myself out~"
+
 
     scene bonus_1
     d "And that's all for version 0.2!"
