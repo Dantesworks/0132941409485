@@ -1302,7 +1302,7 @@ label talkdone:
     s "Really? Evelynn's seductive as hell though."
     s "I wanna be more like her."
     scene 8-18
-    s "But I have the biggest tits!"
+    s "But neither of them have tits my size!"
     scene 8-31
     s "Come on, let's dance!"
     scene 8-33
@@ -1313,22 +1313,39 @@ label talkdone:
     scene 8-39
     s "Aahahaha!"
 ## dance floor
+    scene 8-42
+    with fade
     s "Wooo!"
+    scene 8-43
     n "Come on [p], dance with us."
     n "Don't hold back!"
+    scene 8-21
     p "I'm trying I swear."
+    scene 8-23
     p "I'm just shit at dancing."
+    scene 8-45
     s "Heheheh, you just have to let go!"
+    scene 8-44
     n "Come, [p]. Slut drop with me when the beat drops."
     n "..."
     n "Now!"
+    scene 8-47
+    with dissolve
+    $ renpy.pause ()
     p "Damn that's hot."
+    scene 8-46
     s "What about this one, [p]?"
+    scene 8-48
+    with dissolve
     s "I call it the grind."
+    scene 8-49
+    with dissolve
     n "Oh Kaira you are so hot when you let loose."
+    scene 8-50
     s "Am I turning you on Nicole?"
     n "Not as much as you're turning [p] on hehe."
-    s "Show us your move [p]!"
+    scene 8-51
+    s "Show us your moves [p]!"
     menu dancemove:
         "The T Pose":
             jump T
@@ -1337,104 +1354,219 @@ label talkdone:
         "The Seizureman":
             jump seizure
     label T:
+        scene 8-52
+        with fade
         p "I call this one, the T!"
         n "That's so dumb! I think I'm going to be sick!"
         jump dancemovedone
     label smexy:
-         p "I call this one, Mr Sexy Smexy!"
-         n "Hey! Not bad!"
-         jump dancemovedone
+        scene 8-53
+        with fade
+        p "I call this one, Mr Sexy Smexy!"
+        n "Hey! Not bad!"
+        jump dancemovedone
     label seizure:
+        scene 8-54
+        with fade
         p "I call this one, the Seizureman!"
         n "...impressive."
         jump dancemovedone
 
 label dancemovedone:
+    scene 8-55
     s "Uhh..."
     s "I don't feel so well..."
+    scene 8-19
     p "I know I suck but I didn't know I was that bad-"
+    scene 8-56
     n "..!"
     n "Take her to the bathroom!"
-    n "The girl's drunk too much!"
 
 ## Chapter 9 bar bathroom
-
-    n "..."
+    scene black
+    with fade
+    "..."
+    scene 9-1
+    with fade
     n "She is just out of it! Hahahah!"
+    scene 9-3
     s "Nuu..! I'm fine!"
+    p "Why did you have to get her so drunk?"
+    p "You're her friend, shouldn't you know that she can't take any-"
+    scene 9-2
+    n "And she's your [sr]! I didn't see you stopping her from drinking!"
+    scene 9-4
     s "Nico- You're always trying to ruin my fun and-"
+    scene 9-5
+    with dissolve
     s "..."
+    scene 9-6
     s "[p]..."
+    p "...?"
+    scene 9-7
     s "Do you love me [p]?"
+    p "Ah fuck."
+    scene 9-8
     s "Am I sexy?"
+    scene 9-9
     s "I can try harder I promise."
-    s "You're always that big brother in my life. But I want you to love me."
+    s "You're always act like the big brother in my life. But I love you in a different way."
+    scene 9-10
     s "If you won't fall in love with me, will you fall in love with my body?"
+    scene 9-11
     "..."
     "Fuck it's happening again, and I don't know how to-"
+    scene 9-12
     n "You're rock hard again, [p]."
+    scene 9-13
     n "Let me free you up!"
     p "No!"
+    scene 9-20
+    with dissolve
     "..."
+    scene 9-14
     p "What are you trying to do?!"
-    n "She's barely conscious. She's just functioning purely off impulses."
-    n "Calm down, she won't remember at thing tomorrow."
+    scene 9-15
+    n "Look, she's barely conscious. She's just functioning purely off impulses."
+    scene 9-16
+    n "Calm down, she won't remember a thing tomorrow."
+    scene 9-17
     n "Meanwhile, you can do to her supple body whatever you like."
+    scene 9-18
     n "Should I nibble her tits while you take her virginity?"
+    scene 9-19
     n "She {i}is{/i} a virgin, you know."
+    scene 9-21
     "The urges are so strong..."
     "But... I can't..."
+    scene 9-22
     p "I won't do it. I can fight my depravity."
     p "I won't rape my own [sr]."
-    n "I don't know why you want me to."
+    p "I don't know why you want me to."
+    scene 9-23
     n "I just want us all to have some fun, but if you're not ready for it, I don't mind."
+    scene 9-24
     s "Please [p], let me show you..."
     p "..Kaira..."
+    scene 9-25
+    with dissolve
     s "Noone has ever seen them before."
     n "You're doing a good job Kaira! Squeeze them together for us."
+    scene 9-26
+    with dissolve
     s "Is this good, [p]?"
+    scene 9-28
     n "Look at how hard [p]'s cock is! That's all because of you Kaira!"
+    scene 9-27
     s "Fufufu..."
     s "I'm so glad I make you happy [p]..."
+    scene 9-29
+    "Am I just going to let this happen?"
+    "I can't move!"
+    scene 9-30
+    s "Spread it all over me [p]~"
+    scene 9-31
     "With Nicole rubbing me off and Kaira watching, I think I'm about to-!"
+    scene white
+    with fade
     "ARGH!"
     n "Good boy~"
     n "Did you like that Kaira?"
-    n "If you make [p] cum, then that means you've done a good job!"
+    n "If you make [p] cum, then that means you've been a good girl!"
+    scene 9-32
+    with fade
     s "..."
+    scene 9-33
+    with dissolve
     s "This...is... cum?"
+    scene 9-34
+    with dissolve
+    s "It tastes..."
+    scene 9-35
+    with dissolve
+    s "Mmm..."
+    scene 9-36
+    with dissolve
+    s "..."
+    scene 9-37
+    n "Isn't she the cutest thing? Too bad she'll forget everything by tomorrow."
+    scene 9-38
     n "I think you'll make a beautiful cumslut Kaira, but now it's my turn."
+    scene 9-40
     p "Wait a moment!"
+    scene 9-39
     n "I already know you can go at least twice in one go so shut up and feed me."
-    p "Fuck it's so sensitive."
-    # scene of Kaira tasting cum.
+    scene 9-41
+    stop music fadeout 1
+    n "You should be begging me for this."
+    scene
+    $ renpy.movie_cutscene("animations/nicole1.mpg")
+    scene 9-42
     n "Cum for me [p], you know how much I crave your juicy cum."
     n "Come on, don't be a shy boy."
     p "God you really know how to rile me up."
-    # animation?
     p "Fuck I'm close!"
     s "..."
-    s "I...want..more... cum..."
+    scene 9-43
+    s "I...want..more... cum...!"
+    scene 9-44
     n "You already had some Kaira, let me have my turn."
     "I was so close!"
+    scene 9-45
     s "But I want more! {i}sob{/i}"
+    scene 9-46
     n "You've got it all over your face and tits. Why don't you just lick it off yourself?"
+    scene 9-47
     s "Just because you're a hoe with fake tits doesn't mean you get to keep all the delicious cum to yourself!"
+    scene 9-48
     n "(I'm never getting this bitch drunk again.)"
+    scene 9-49
     n "Fine, I'll share some with you later. Now let me finish him off."
+    scene
+    $ renpy.movie_cutscene("animations/nicole2.mpg")
     scene white
     "I'm spent..."
-    # cum swap
+    scene 9-50
+    with fade
+    play music "sounds/alchemy.mp3"
+    $ renpy.pause ()
+    scene 9-51
+    with dissolve
+    $ renpy.pause ()
+    scene 9-52
+    with dissolve
+    $ renpy.pause ()
+    scene 9-53
+    with dissolve
+    n "Hmm!"
+    scene 9-54
+    with dissolve
+    $ renpy.pause ()
+    scene 9-55
+    with dissolve
+    $ renpy.pause ()
+    scene 9-56
+    with dissolve
     s "mmmm"
-    n "Jeez, look at this dirty girl."
-    n "Her's pussy's begging for it so much, the floor is covered with her pussy grool."
+    scene 9-57
+    with dissolve
+    $ renpy.pause ()
+    scene 9-58
+    n "(You're so beautiful, Kaira.)"
+    scene 9-59
+    n "Jeez, look at this girl huh?"
+    n "Her's pussy's so horny, the floor is covered with her pussy grool."
     n "Too bad you're not up for it [p]. Kaira got you off and you won't even return the favour!"
+    scene 9-60
     n "If it were up to me, I'd fuck you till you screamed you gorgeous girl~"
-    p "Enough, we have to clean up and go. It's a miracle noone's walked in on us."
+    scene 9-61
+    p "Enough! We have to clean up and go. It's a miracle noone's walked in on us."
+    scene 9-62
     p "Can you stand Kaira?"
     p "..."
     p "You're helping me take her home Nicole."
-    n "Of course, I'd do anything to spend more time with you and your cute [sr]."
+    scene 9-63
+    n "Of course! Anything to spend more time with you and your cute little [sr]."
 
 ## Chapter 10 back at home
 
@@ -1465,7 +1597,7 @@ label dancemovedone:
     with fade
     m "(I think I heard a noise...)"
     m "!!"
-    m "(Wow, how bold of them to do in the living room!)"
+    m "(Wow, how bold of them to do it in the living room!)"
     m "(But I suppose [p] has his needs too...)"
     m "(He's grown so much...)"
     m "(And his thick cock, with that girl's pussy sliding up and down its girth...)"
