@@ -35,7 +35,7 @@ label splashscreen:
     return
 
 label start:
-
+    $ depravity = 0
     play music "sounds/path.mp3" fadeout 1
 
     scene 1_v_shocked
@@ -172,8 +172,6 @@ label start:
 
     label choice1_yes:
 
-        $ menu_flag = True
-
         "*knock knock*"
         "..."
         s "Please come in!"
@@ -182,7 +180,7 @@ label start:
 
     label choice1_no:
 
-        $ menu_flag = False
+        $ depravity += 1
 
         jump choice1_done
 

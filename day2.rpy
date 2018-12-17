@@ -125,6 +125,7 @@ label day2:
             jump hug
 
     label hug:
+        $ depravity -= 1
         scene 3-34
         pause 0.5
         scene 3-35
@@ -219,6 +220,7 @@ label day2:
 
 
     label sexy1:
+        $ depravity += 1
         scene 4-12
         s "Fufu.. I didn't think you'd actually say it! Really?"
         p "What do you know, I'm an honest guy. It's the truth."
@@ -348,7 +350,7 @@ label day2:
     p "...so pretty much everything then."
     scene 4-40
     p "Alright ladies. You do your thing. I'll just be around here."
-    n "I'll keep an eye out for an oufit that you can wear as well [p]."
+    n "I'll keep an eye out for an outfit that you can wear as well [p]."
     p "Can't wait."
 
     scene black
@@ -361,7 +363,7 @@ label day2:
     with dissolve
     s "We're done! We've each picked out a few things we wanted to try."
     scene 4-42
-    n "Something for {i}every{/i} occassion."
+    n "Something for {i}every{/i} occasion."
     p "What do you mean?"
     scene 4-41
     s "Well, first off, we've got the smart casual outfit, then the casual outfit, then finishing off with a swimsuit of course!"
@@ -542,7 +544,7 @@ label day2:
             scene 4-64
             if (askflag1 and askflag2 and askflag3):
                 jump special
-            p "Suprise me with the next one girls!"
+            p "Surprise me with the next one girls!"
 
             jump outfitdone
         label swimsuitNicole:
@@ -553,7 +555,7 @@ label day2:
             scene 4-64
             if (askflag1 and askflag2 and askflag3):
                 jump special
-            p "Suprise me with the next one girls!"
+            p "Surprise me with the next one girls!"
             jump outfitdone
 
 
@@ -724,7 +726,7 @@ label special:
     "Urgh...!"
     scene 5-13
     n "Do you feel my smooth hands slide around your cock?"
-    n "Now imagine Kaira stroking your cock.. her lucious tits bouncing in front of your face.. her groin grinding against yours.."
+    n "Now imagine Kaira stroking your cock.. her luscious tits bouncing in front of your face.. her groin grinding against yours.."
     scene 3-12
     with fade
     p "FUCK!"
@@ -1031,6 +1033,7 @@ label special:
                 jump talkdone
 
     label camille:
+        $ camille_flag = True
         scene 7-16
         p "Hey, what's your name?"
         scene 7-18
@@ -1132,7 +1135,7 @@ label talkdone:
     c "Either way, these signs are in keeping with Wernicke's Encephalopathy."
     p "Hang on- how?"
     scene 7-13
-    c "I'm saying don't drink too much! Or you'll progress to Karsakoff Psychosis, and that's serious."
+    c "I'm saying don't drink too much! Or you'll progress to Korsakoff Psychosis, and that's serious."
     p "...!"
     scene 7-14
     c "I'm joking, you don't have thiamine deficiency!"
@@ -1497,10 +1500,9 @@ label dancemovedone:
     scene 9-39
     n "I already know you can go at least twice in one go so shut up and feed me."
     scene 9-41
-    stop music fadeout 1
     n "You should be begging me for this."
     scene
-    $ renpy.movie_cutscene("animations/nicole1.mpg")
+    $ renpy.movie_cutscene("animations/nicole1.mpg", loops=-1, stop_music=False)
     scene 9-42
     n "Cum for me [p], you know how much I crave your juicy cum."
     n "Come on, don't be a shy boy."
@@ -1523,12 +1525,11 @@ label dancemovedone:
     scene 9-49
     n "Fine, I'll share some with you later. Now let me finish him off."
     scene
-    $ renpy.movie_cutscene("animations/nicole2.mpg")
+    $ renpy.movie_cutscene("animations/nicole2.mpg", loops=-1, stop_music=False)
     scene white
     "I'm spent..."
     scene 9-50
     with fade
-    play music "sounds/alchemy.mp3"
     $ renpy.pause ()
     scene 9-51
     with dissolve
@@ -1555,7 +1556,7 @@ label dancemovedone:
     n "(You're so beautiful, Kaira.)"
     scene 9-59
     n "Jeez, look at this girl huh?"
-    n "Her's pussy's so horny, the floor is covered with her pussy grool."
+    n "Her pussy's so horny, the floor is covered with her pussy grool."
     n "Too bad you're not up for it [p]. Kaira got you off and you won't even return the favour!"
     scene 9-60
     n "If it were up to me, I'd fuck you till you screamed you gorgeous girl~"
@@ -1567,92 +1568,159 @@ label dancemovedone:
     p "You're helping me take her home Nicole."
     scene 9-63
     n "Of course! Anything to spend more time with you and your cute little [sr]."
+    scene black
+    with fade
+    stop music fadeout 1
+    "(A few moments later...)"
 
 ## Chapter 10 back at home
 
-    p "Remember to be quiet. It's super late and my [mr] is probably asleep."
+    scene 10-1
+    with fade
+    play music "sounds/alchemy.mp3" fadeout 1
+    p "Remember to be quiet. It's super late and my [mr]'s probably asleep."
+    scene 10-2
     n "You're making the noise not me."
+    scene 10-3
     p "I'll take her to bed, go wait for me in the living room."
-    n "Cool."
+    s "{i}Groan{/i}"
+    scene 10-4
+    n "Don't have too much fun without me~"
+    scene 10-5
+    n "Poor Kaira, she'll take a bit to break in."
+    scene 10-6
+    n "But we'll violate you soon enough~"
+    scene 10-9
+    with fade
     n "This is fun, What a nice living room."
+    n "It's been a while since I've visited Kaira."
+    scene 10-10
     n "Urgh, but I'm still so horny from before."
+    n "Why can't anyone match my appetite?"
+    scene 10-46
+    with fade
     "Man this day has just been so long..."
+    scene 10-48
     "Nicole really is a vixen."
+    scene 10-14
+    with fade
     "!!"
+    scene 10-11
     p "Ni-Nicole?"
-    n "I've gotten you off 4 times today, [p], but you haven't returned the favour even once!"
+    scene 10-12
+    n "What are you gawking at [p]?"
+    scene 10-13
+    n "I've gotten you off 4 times today, why don't you come and return the favour?"
+    scene 10-15
+    p "I'm so tired, I can barely stand."
+    scene 10-18
     n "I know you're tired baby, so I'll do the work, like I always do."
-    n "Get on your back."
+    n "Don't worry. Once we get started, you'll wish we never stopped."
+    scene 10-15
     n "You're a sex fiend, [p], you can just keep going on and on."
     p "Fake tits, fake ass.. you've fully embraced being a whore haven't you?"
+    scene 10-17
     n "Ouch, I'll have you know the ass is real, but I'm always open to augmenting myself, [p]..."
+    scene 10-18
     n "I can be your personal bimbo~"
     p "That's what I like to hear, especially after the shit you pulled at the bar today."
+    scene 10-16
     n "Oh come on, I know you enjoyed it as much as I did."
-    n "Now, make love to me [p]."
-    p "!!"
+    n "Now {i}get{/i} on the floor!"
+    scene 10-7
+    with fade
+    m "Did... I just hear something?"
+    scene 10-8
+    m "It's from the living room!"
+    scene 10-19
+    with fade
+    n "How does it feel to be straddled?"
+    n "Let's edge together all night long~"
+    scene
+    $ renpy.movie_cutscene("animations/nicole3.mpg", loops=-1, stop_music=False)
+    scene 10-20
+    n "Are you coming along?"
+    n "Do you want to put it in?"
+    n "I want to put it in too~!"
+    scene 10-21
+    p "You little minx."
+    p "One of these days you'll flip my switch."
+    scene 10-36
+    with fade
+    m "!!"
+    scene 10-37
+    m "([p] and... Kaira's friend?)"
+    m "(Wow, how bold of them to do it in the living room!)"
+    scene 10-38
+    n "!!"
+    scene 10-39
+    n "(Shit, that's [p]'s [mr]!)"
+    scene 10-40
+    n "(Let me show you what you're missing out on Amanda!)"
+    scene 10-22
+    with dissolve
+    n "Say out loud what you'll do to my voluptuous body [p]."
+    p "I will fuck you until your eyes-"
+    scene
+    $ renpy.movie_cutscene("animations/nicole4.mpg", loops=0, stop_music=False)
+    scene 10-23
+    n "Ahhh~!!"
     p "You depraved little bitch, it slid right in."
-    n "It's your fault for getting me so worked up!"
+    n "Hang tight, [p]. I'm about to rock your world!"
+    scene
+    $ renpy.movie_cutscene("animations/nicole5.mpg", loops=-1, stop_music=False)
+    scene 10-24
+    p "I can't believe it. You really are just a horny little slut aren't you?"
+    n "It... feels.... so... good~"
+    scene 10-41
+    m "(I can't believe [p] and Nicole are fucking in front of my eyes!)"
+    scene 10-44
+    m "(He's grown so much...)"
+    m "(And his thick cock thrusting in and out of her pussy...)"
+    scene
+    $ renpy.movie_cutscene("animations/nicole6.mpg", loops=-1, stop_music=False)
+    scene 10-25
+    n "Faster~ faster~ faster~!"
+    scene 10-45
+    m "(It's been so long, and somehow... I wish it were me bouncing on that cock!"
+    scene
+    $ renpy.movie_cutscene("animations/nicole7.mpg", loops=-1, stop_music=False)
+    scene 10-26
+    n "Oooh I'm close I'm so fucking close~!"
+    scene 10-43
+    m "(Calm yourself down Amanda!)"
+    scene 10-42
+    m "(Let [p] have his personal space...)"
+    scene 10-27
+    n "AHHHH~!!!!!"
+    scene
+    $ renpy.movie_cutscene("animations/nicole8.mpg", loops=0, stop_music=False)
+    scene 10-28
+    n "{i}Pant...pant...{/i}"
+    p "Just... like a cheap whore."
+    scene 10-29
+    n "It's been such a long time since I came this hard."
+    n "Your cock is amazing."
+    scene 10-30
+    "I'm so tired... I can barely stay awake."
+    p "Go on, just give me a few moments..."
+    scene 10-31
+    n "You did a great job [p]~"
+    n "You made me cum like a fountain!"
+    scene 10-32
+    p "Don't just leave me here... help.."
+    n "Oh no I think I've outstayed my hospitality."
+    scene 10-33
+    n "See you in the morning [p]."
+    n "Well..."
+    scene 10-34
+    n "...I won't be, but your [sr] or [mr] will."
+    n "Wouldn't it be fun for them to find you passed out like this?"
+    n "Goodnight [p]~"
+    scene 10-35
+    p "You.... bitch....."
+    p "zzzzzzzzz"
     scene black
     with fade
-    m "(I think I heard a noise...)"
-    m "!!"
-    m "(Wow, how bold of them to do it in the living room!)"
-    m "(But I suppose [p] has his needs too...)"
-    m "(He's grown so much...)"
-    m "(And his thick cock, with that girl's pussy sliding up and down its girth...)"
-    m "(It's been so long... somehow, I wish it were me... bouncing on-)"
-    m "(Calm yourself down Amanda!)"
-    m "(Let [p] have his personal space.)"
 
-    p "I'm... tired."
-    n "But I'm so close!"
-    n "..."
-    n "Ahh~!!"
-    p "Haa!"
-    scene white
-    n "Goodnight [p]."
-    n "You stay comfortable here. I'll show myself out~"
-
-
-    scene bonus_1
-    d "And that's all for version 0.2!"
-    d "In the next episode, look forward to partying with the girls in their new sexy outfits, as well as a chance encounter with the mysterious stranger again."
-    d "And always, please leave feedback on the f95zone page to let me know how you liked Depravity. I've also added a patreon link."
-    d "In the meantime, I found something real cool I wanted to show you. Turns out that Nicole girl's a bit of a slut and her photoshoot got leaked!"
-    d "Come check it out!"
-
-    scene b1
-    $ renpy.pause ()
-    scene b2
-    $ renpy.pause ()
-    scene b3
-    $ renpy.pause ()
-    scene b4
-    $ renpy.pause ()
-    scene b5
-    $ renpy.pause ()
-    scene b6
-    $ renpy.pause ()
-    scene b7
-    $ renpy.pause ()
-    scene b8
-    $ renpy.pause ()
-    scene b9
-    $ renpy.pause ()
-    scene b10
-    $ renpy.pause ()
-    scene b11
-    $ renpy.pause ()
-    scene b12
-    $ renpy.pause ()
-    scene b13
-    $ renpy.pause ()
-    scene b14
-    $ renpy.pause ()
-    scene b15
-    $ renpy.pause ()
-    scene b16
-    $ renpy.pause ()
-
-return
+    jump bonus
