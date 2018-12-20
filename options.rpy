@@ -190,6 +190,26 @@ init python:
     build.classify('**/.**', None)
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
+    build.classify('game/.git/**', None)
+    #Declare two archives.
+    build.archive("original", "all")
+    build.archive("dante", "all")
+    build.archive("drink", "all")
+    build.archive("creative", "all")
+
+    # Put script files into the scripts archive.
+    build.classify("game/**.rpy", "original")
+    build.classify("game/**.rpyc", "original")
+
+    # Put images into the images archive.
+    build.classify("game/**.jpg", "dante")
+    build.classify("game/**.png", "dante")
+    # animation
+    build.classify("game/**.mpg", "drink")
+
+    # sound
+    build.classify("game/**.mp3", "creative")
+
 
     ## To archive files, classify them as 'archive'.
 
