@@ -15,7 +15,7 @@ label bonus:
 
     jump christmas
 
-    return
+
     scene b1
     $ renpy.pause ()
     scene b2
@@ -48,5 +48,3 @@ label bonus:
     $ renpy.pause ()
     scene b16
     $ renpy.pause ()
-
-    return

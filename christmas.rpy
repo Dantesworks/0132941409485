@@ -129,6 +129,5 @@ label christmasdone:
     scene black
     "..."
     d "And that folks, is truly the end of this version, I hope you enjoyed!"
-
-
-return
+    $ displayText = ""
+    jump base
