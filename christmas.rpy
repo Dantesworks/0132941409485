@@ -127,7 +127,6 @@ label christmasdone:
     scene c-32
     s "I'm your [sr], dummy! Just come talk to me in the morning!"
     scene black
+    with fade
     "..."
-    d "And that folks, is truly the end of this version, I hope you enjoyed!"
-    $ displayText = ""
     jump base

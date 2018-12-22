@@ -375,6 +375,17 @@ screen main_menu():
             text "[config.version]":
                 style "main_menu_version"
 
+    imagebutton:
+        focus_mask True
+        idle "logo_patron.png"
+        hover "logo_patron_hover.png"
+        action OpenURL("https://www.patreon.com/danteworks")
+    imagebutton:
+        focus_mask True
+        idle "logo_discord.png"
+        hover "logo_discord_hover.png"
+        action OpenURL("https://discord.gg/mVjjbDG")
+
 
 style main_menu_frame is empty
 style main_menu_vbox is vbox
