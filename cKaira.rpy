@@ -43,5 +43,5 @@ label Kaira:
 
 
         $ kairalvl += 1
-        $ nicoleday = day + 1
+        $ nicoledelay = day + 1
         jump kaira_room

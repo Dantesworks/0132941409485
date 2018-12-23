@@ -677,7 +677,6 @@ label special:
     n "Well cowboy, what are you waiting for?"
 
 ## Chapter 5
-
     scene 5-1
     n "Step on through."
     n "We're gonna get you sorted."

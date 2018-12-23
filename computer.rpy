@@ -1,13 +1,13 @@
 label computer:
     hide screen map_icon
+    hide screen daytime
     call screen computer
+    default bgswap = True
     screen computer():
-        add "wallpaper.png"
-        imagebutton:
-            focus_mask True
-            idle "back.png"
-            hover "back_hover.png"
-            action Jump("player_room")
+        if bgswap:
+            add "wallpaper.png"
+        else:
+            add "wallpaper2.png"
         imagebutton:
             focus_mask True
             idle "logo_patron.png"
@@ -18,8 +18,25 @@ label computer:
             idle "logo_discord.png"
             hover "logo_discord_hover.png"
             action OpenURL("https://discord.gg/mVjjbDG")
-        imagebutton: ## Replay
+        imagebutton: ## The Grand Museum of Patrons
+            focus_mask True
+            idle "museum.png"
+            hover "museum_hover.png"
+            hovered [SetVariable("bgswap", False), With(dissolve)]
+            unhovered [SetVariable("bgswap", True), With(dissolve)]
+            action [SetVariable("bgswap", True), Jump("museum")]
+        imagebutton: ## Memories
             focus_mask True
             idle "logo_treasured.png"
             hover "logo_treasured_hover.png"
-            action Jump("nicole_bj")
+            action Jump("gallery1")
+        imagebutton: ## Characters
+            focus_mask True
+            idle "logo_characters.png"
+            hover "logo_characters_hover.png"
+            action Jump("profile")
+        imagebutton: ## back
+            focus_mask True
+            idle "back.png"
+            hover "back_hover.png"
+            action Jump("player_room")

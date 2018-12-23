@@ -1,13 +1,18 @@
-default nicoleshow = True
-default kairashow = True
-default amandashow = True
+default nicoleboth = False
+default kairaboth = False
+default amandaboth = False
+
+default kairaday = 2
+default nicoleday = 2
+default amandaday = 1
+
 default amandalvl = 1
 default kairalvl = 1
 default nicolelvl = 1
 default cash = 0
 default daytime = 1
 default day = 1
-default nicoleday = 0
+default nicoledelay = 0
 ## Day Cycle
 if daytime > 3:
     $ daytime = 1
@@ -15,16 +20,10 @@ if daytime > 3:
 ## Sleep
 label sleep:
     scene black
-    if daytime < 3:
-        menu sleep1:
-            "Take a nap.":
-                $ daytime += 1
+    menu:
+        "Take a nap." if daytime < 3:
+            $ daytime += 1
 
-            "Sleep until the next day.":
-                $ daytime = 1
-                $ day += 1
-        jump player_room
-    menu sleep2:
         "Sleep until the next day.":
             $ daytime = 1
             $ day += 1

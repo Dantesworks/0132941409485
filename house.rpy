@@ -1,5 +1,4 @@
 screen displayTextScreen:
-    key "hide_windows" action NullAction()
     zorder 100
     default displayText = ("")
 
@@ -43,7 +42,7 @@ label living_room:
             hover "living_room_hover"
             hotspot(3,14,214,691) action [Hide("displayTextScreen"), Jump("hallway")] hovered Show("displayTextScreen", displayText = "Hallway") unhovered Hide("displayTextScreen")
             hotspot(1259,29,206,435) action [Hide("displayTextScreen"), Jump("kitchen")] hovered Show("displayTextScreen", displayText = "Kitchen") unhovered Hide("displayTextScreen")
-        if nicoleday <= day and daytime == 2 and nicoleshow:
+        if nicoledelay <= day and ((daytime == nicoleday or nicoleboth) and daytime != 3):
             imagebutton:
                 focus_mask True
                 idle "nicole_couch_idle.png"
@@ -76,8 +75,8 @@ label kaira_room:
         if daytime == 2:
             add "kaira_room_idle"
         if daytime == 3:
-            add "hallway_idle"
-        if daytime == 2 and kairashow:
+            add "kaira_room_idle"
+        if (daytime == kairaday or kairaboth) and daytime != 3:
             imagebutton:
                 focus_mask True
                 idle "kaira_sitting_idle.png"
@@ -100,7 +99,7 @@ label amanda_room:
             add "amanda_room_idle"
         if daytime == 3:
             add "amanda_room_2"
-        if daytime == 1 and amandashow:
+        if (daytime == amandaday or amandaboth) and daytime != 3:
             imagebutton:
                 focus_mask True
                 idle "amanda_standing_idle.png"
