@@ -982,7 +982,7 @@ label special:
         x "..."
         scene 7-17
         x "Thankyou."
-        jump camille
+        jump camillet
 
     label notalk:
         scene 7-1
@@ -1026,12 +1026,12 @@ label special:
 
         menu talk2:
             "Talk to the red headed girl.":
-                jump camille
+                jump camillet
 
             "Wait for Kaira and Nicole instead.":
                 jump talkdone
 
-    label camille:
+    label camillet:
         $ camille_flag = True
         scene 7-16
         p "Hey, what's your name?"

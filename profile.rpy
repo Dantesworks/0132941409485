@@ -5,7 +5,7 @@ label profile:
         grid 2 3:
             transpose True
             xfill True
-            xpos 217
+            xpos 280
             ypos 80
             imagebutton: ## Kaira
                 focus_mask True
@@ -26,12 +26,12 @@ label profile:
                 focus_mask True
                 idle "characters/caroline.png"
                 hover "characters/caroline_hover.png"
-                action Jump("nicole_bj")
+                action Jump("caroline")
             imagebutton: ## Camille
                 focus_mask True
                 idle "characters/camille.png"
                 hover "characters/camille_hover.png"
-                action Jump("nicole_bj")
+                action Jump("camille")
             null
         imagebutton: ## back
             focus_mask True

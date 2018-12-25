@@ -48,7 +48,7 @@ label base:
     p "Aahah [mr]! What are you doing here?"
     m "I was going to the kitchen to get something to eat!"
     m "Why are you naked?"
-    p "Uh, um... I know it looks weeird but I was.."
+    p "Uh, um... I know it looks weird but I was.."
     p "...Sleep walking!"
     m "Sleep walking?"
     m "(Hmm, should I keep pressing him?)"
@@ -58,8 +58,9 @@ label base:
     m "Need me to tuck you in to bed?"
     p "Can we continue this after I've covered myself up?!"
     m "Don't be shy, [p], it's nothing your [mr] hasn't seen before!"
-    m "(My boy is all grown up!)"
-    m "(Maybe I can finally move on now, and find a man for myself.)"
+    m "(Oh my, thank god I didn't act too flustered!)"
+    m "(It's normal to feel this way, isn't it? Especially since he has such a-)"
+    m "(Oh no, snap yourself out of it Amanda!)"
 
     scene living_room_idle with fade
     "Ahh, finally done."

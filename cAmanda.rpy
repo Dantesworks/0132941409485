@@ -1,4 +1,4 @@
-label amanda:
+label Amanda:
 
     if amandalvl == 1:
         scene black
