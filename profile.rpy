@@ -32,7 +32,11 @@ label profile:
                 idle "characters/camille.png"
                 hover "characters/camille_hover.png"
                 action Jump("camille")
-            null
+            imagebutton: ## Vincent
+                focus_mask True
+                idle "characters/vincent.png"
+                hover "characters/vincent_h.png"
+                action Jump("vincent")
         imagebutton: ## back
             focus_mask True
             idle "back.png"

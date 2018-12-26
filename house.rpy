@@ -9,6 +9,12 @@ screen displayTextScreen:
             text "{size=+6}[displayText]{/size}"
 
 label hallway:
+    if daytime != 4:
+        if renpy.music.get_playing() != "sounds/heart.mp3":
+            play music "sounds/heart.mp3" fadeout 1
+    if daytime == 4:
+        if renpy.music.get_playing() != "sounds/alchemy.mp3":
+            play music "sounds/alchemy.mp3" fadeout 1
     show screen map_icon
     show screen daytime
     call screen hallway
@@ -108,8 +114,14 @@ label amanda_room:
                 idle "back.png"
                 hover "back_hover.png"
                 action Jump("hallway")
-    jump amandanight
+    jump amandalocked
 label player_room:
+    if daytime != 4:
+        if renpy.music.get_playing() != "sounds/heart.mp3":
+            play music "sounds/heart.mp3" fadeout 1
+    if daytime == 4:
+        if renpy.music.get_playing() != "sounds/alchemy.mp3":
+            play music "sounds/alchemy.mp3" fadeout 1
     hide screen map_icon
     show screen daytime
     call screen player_room
@@ -137,7 +149,7 @@ label player_room:
 
 ## Room Permission Labels
 
-label amandanight:
+label amandalocked:
     scene hallway2
     "The door is locked."
     jump hallway

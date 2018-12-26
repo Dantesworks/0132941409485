@@ -1,29 +1,40 @@
 default kairashow = ["2"]
 default nicoleshow = []
-default amandashow = ["1"]
+default amandashow = ["1","3"]
 default camilleshow = ["1"]
-default carolineshow = ["1"]
+default carolineshow = ["1", "4"]
 
 default amandalvl = 1
 default kairalvl = 1
 default nicolelvl = 1
 default camillelvl = 1
 default carolinelvl = 1
+default carolinebarlvl = 1
 
 default cash = 0
+default items = []
 default daytime = 1
 default daytimes = str(daytime)
 default day = 1
 default nicoledelay = 0
+default pocketmoney = True
+default premiumcount = 0
 
+default dante = False #drinks
+default russian = False #drinks
+default drinks = False
+
+label drinks:
+    if dante == True or russian == True:
+        $ drinks = True
+    return
 ## Permissions
 
 default loungestatus = False
 default amandanight = False
+
+
 ## Day Cycle
-if daytime > 4:
-    $ daytime = 1
-    $ day += 1
 label daykeep:
     $ daytime += 1
     $ daytimes = str(daytime)
@@ -40,6 +51,11 @@ label sleep:
             $ daytime = 1
             $ day += 1
     $ daytimes = str(daytime)
+    $ carolineshow = ["1","4"]
+    $ pocketmoney = True
+    $ dante = False
+    $ russian = False
+    $ drinks = False
     jump player_room
 ## Daytime Screen
 screen daytime():
@@ -52,3 +68,8 @@ screen daytime():
         add "ui_evening.png"
     if daytime == 4:
         add "ui_night.png"
+    add "cash_ui.png"
+    text "[cash]" xpos 210 ypos 75 size 24 text_align 1
+## Misc.
+define flash = Fade(0.1, 0.0, 0.5, color="#fff")
+define lastplayed = ""

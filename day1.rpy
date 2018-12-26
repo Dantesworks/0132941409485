@@ -9,6 +9,7 @@ define m = Character("Amanda")
 define s = Character("Kaira")
 define n = Character("Nicole")
 define t = Character("Camille")
+define ellie = Character("Cafe girl")
 define x = Character("???")
 define v = Character("Vincent")
 define d = Character("Dante")
@@ -16,13 +17,18 @@ define d = Character("Dante")
 
 label splashscreen:
 
-    scene splash
+    scene splash3
     with Dissolve(1)
 
     $ renpy.pause(2.0,hard=True)
 
     scene black
     with Dissolve(1)
+
+    scene splash4
+    with Dissolve(1)
+
+    $ renpy.pause(2.0,hard=True)
 
     scene splash2
     with Dissolve(1)

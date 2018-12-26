@@ -1,4 +1,6 @@
 label computer:
+    if renpy.music.get_playing() != "sounds/dreams.mp3":
+        play music "sounds/dreams.mp3" fadeout 1
     hide screen map_icon
     hide screen daytime
     call screen computer

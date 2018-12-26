@@ -8,6 +8,8 @@ screen map_icon():
 
 
 label map:
+    $ lastplayed = "m"
+    play music "sounds/wanderer.mp3"
     hide screen map_icon
     show screen daytime
     call screen map
@@ -25,7 +27,7 @@ label map:
             if daytime == 1:
                 action Jump("cafe")
             else:
-                action Jump("cafeclosed")
+                action Show("cafeclosed")
         imagebutton: #bar
             focus_mask True
             idle "map_bar.png"
@@ -33,18 +35,17 @@ label map:
             if daytime == 4:
                 action Jump("barentrance")
             else:
-                action Jump("barclosed")
+                action Show("barclosed")
 
-label cafeclosed:
-    scene mapfill
-    show screen daytime
-    show cafeclosed
-    $ renpy.pause()
-    jump map
+screen cafeclosed():
+    add "cafeclosed.png"
+    imagebutton:
+        idle "close.png"
+        action Hide("cafeclosed")
 
-label barclosed:
-    scene mapfill
-    show screen daytime
-    show barclosed
-    $ renpy.pause()
-    jump map
+
+screen barclosed():
+    add "barclosed.png"
+    imagebutton:
+        idle "close.png"
+        action Hide("barclosed")

@@ -1,7 +1,7 @@
 label Kaira:
     hide screen daytime
-
-    if kairalvl == 1:
+    hide screen map_icon
+    if amandalvl == 2 and kairalvl == 1:
         scene k-1
         play music "sounds/automata.mp3" fadeout 1
         p "Hi Kaira."
@@ -45,7 +45,7 @@ label Kaira:
         s "Mm!"
         p "Speaking of Nicole, did you meet her in the morning?"
         scene k-10
-        s "She came by and we went to grab a cup of coffee at the cafe. I needed it sooo badly. I was feeling so groggy!"
+        s "She came by and we went to grab a cup of coffee. I needed it sooo badly. I was feeling so groggy!"
         p "Where is she now?"
         scene k-12
         s "Why do you want to know anyway? Do you like her?"
@@ -54,11 +54,11 @@ label Kaira:
         s "Yeah they're big, but like, they're not real ya know? Not like mine!"
         p "That's not what I meant by handful haha."
         p "She's a... strange character."
-        scene k-8
+        scene k-12
         s "Ooh, intriguing!"
         s "Do you want to learn more?"
         p "Yeah, I guess. How exactly did you guys meet?"
-        scene k-7
+        scene k-10
         s "Hmm... we met in school and just sort of got along."
         s "Maybe she saw something in me?"
         scene k-8
@@ -117,7 +117,7 @@ label Kaira:
             scene black with fade
             s "Hey [p]!"
             scene k-13 with dissolve
-            s "Sorry for cutting this short, we'll talk more about it later!"
+            s "Sorry for cutting this short, we'll talk more about it later, ok?"
             s "Please don't hate me!"
             p "Never, Kaira. You tell me when you're ready."
             p "Bye!"
