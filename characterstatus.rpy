@@ -56,6 +56,11 @@ label sleep:
     $ dante = False
     $ russian = False
     $ drinks = False
+    ## remove cafe drinks
+    if "coffee" in items:
+        $ items.remove("coffee")
+    if "water" in items:
+        $ items.remove("water")
     jump player_room
 ## Daytime Screen
 screen daytime():
