@@ -36,6 +36,8 @@ Patreon: patreon.com/danteworks
 Music - Beach by MBB (Nicole's theme)
         Dreams by Joakim Karud (Caroline's theme)
         KDA Popstars Instrumental by Riot Games
+        A Cup of Coffee by DJ Okawari
+        Wanderer by Dion
 
 All other music is original.
 """)

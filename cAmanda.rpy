@@ -62,6 +62,7 @@ label amandatalk:
         p "Anyway, I should probably check up on Kaira."
         scene a-9
         m "She's gone out with Nicole to the cafe to get some coffee. They might be on their way back now. She should be back in the afternoon!"
+        m "You can take a nap on your bed to pass time."
         p "And where will you be?"
         scene a-8
         m "Oh dearie, [mr] has to go and work."

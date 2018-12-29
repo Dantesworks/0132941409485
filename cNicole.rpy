@@ -1,0 +1,66 @@
+label Nicole:
+    hide screen map_icon
+    hide screen daytime
+    if nicolelvl == 1:
+        p "Hey Nicole."
+        n "Afternoon [p]."
+        p "Kaira mentioned you'd swing around."
+        n "I used to come visit a lot."
+        n "Your [sr] and I are quite close."
+        p "Yeah, I can tell haha."
+        n "Come on, take a seat. Don't be a shy; this is {i}your{/i} house after all."
+        n "So, what did you think?"
+        p "Of what?"
+        n "Of the party."
+        n "Of the drinks."
+        n "Of Kaira on her knees and flashing her tits in front of your face."
+        p "Of you with my cock in your mouth, sucking away like a cum slut?"
+        n "Remember, it was actually Kaira begging me to let her have your cum."
+        n "You could've enjoyed a blowjob from two hotties if you were up for it."
+        p "Ha, I don't think so."
+        n "You definitely missed out. I bet Kaira's a natural at giving head."
+        n "I can tell by how her slutty little tongue was swimming around in my mouth."
+        p "..."
+        n "Come on, I'm just teasing!"
+        n "You're fun to mess with."
+        menu:
+            "But seriously, are you saying Kaira is, or isn't good at blowjobs?":
+                $ depravity += 1
+                n "Well, that's up to you to find out [p]!"
+            "Why are you so interested in Kaira?":
+                n "I've been friends with her since we were kids."
+                n "Shouldn't you be asking why I'm so interested in you instead?"
+        p "Why {i}are{/i} you so interested in us both?"
+        n "I've already told you, I just want to have fun."
+        p "What so you fuck any guy you meet?"
+        n "And girl."
+        n "Well, I'm not telling the whole truth. I only pick fun people to have fun with."
+        n "You know, it's fun to play the cheap whore, but I'm a bit classier than that."
+        p "Just a bit."
+        p "You... haven't done anything with my [sr] have you?"
+        n "Do what?"
+        p "You know what I'm talking about."
+        n "I'm pretty sure she's straight."
+        p "Yeah, don't think that'd stop you though."
+        n "In any case, what you saw the other night was the only thing we've ever done."
+        n "Does that make you feel better?"
+        menu:
+            "Slightly.":
+                n "Why's that?"
+                p "..."
+                p "She's dear to me."
+                n "Ha, that's got nothing to do with who she chooses to have sex with!"
+                p "With you, Nicole, it's more like coercion."
+
+            "Not really":
+                n "Well it should."
+                p "And why's that?"
+                n "It means you still have a chance to be first to defile your [sr]."
+                n "I won't be making it easy for you to win though."
+        p "What's the end goal here?"
+        n "Life's short [p]. It's better to just have fun, like I said."
+        n "It's not like its been at your expense anyway. I know you enjoy it too."
+        p "Sex is sex right?"
+        n "It's never just sex, not with me."
+        p "It's your lifestyle."
+        n "We speak the same language."

@@ -36,7 +36,7 @@ label Caroline:
             c "Aww that's okay. It's hard to find a job in today's market."
         if "water" in items and "coffee" in items:
             scene cc-5
-            c "You've got a coffee {i}and{/i} and water."
+            c "You've got a coffee {i}and{/i} water."
             c "Is the coffee too strong by itself?"
             p "I just couldnt decide which one to buy, so I bought both."
         if "coffee" in items and not "water" in items:
@@ -122,7 +122,7 @@ label Caroline:
         $ carolinelvl += 1
         $ daytime += 1
         $ daytimes = str(daytime)
-        jump cafe
+        jump map
     scene cc-2
     p "Good morning Caroline!"
     scene cc-3

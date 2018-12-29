@@ -36,6 +36,14 @@ label map:
                 action Jump("barentrance")
             else:
                 action Show("barclosed")
+        imagebutton: #resort
+            focus_mask True
+            idle "map_resort.png"
+            hover "map_resort_hover.png"
+            if daytime == 2 or daytime == 3:
+                action Jump("lobby")
+            else:
+                action Show("resortclosed")
 
 screen cafeclosed():
     add "cafeclosed.png"
@@ -49,3 +57,9 @@ screen barclosed():
     imagebutton:
         idle "close.png"
         action Hide("barclosed")
+
+screen resortclosed():
+    add "resortclosed.png"
+    imagebutton:
+        idle "close.png"
+        action Hide("resortclosed")

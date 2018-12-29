@@ -43,14 +43,14 @@ label base:
     #Amanda wakes up player Chapter 11
     play music "sounds/heart.mp3" fadeout 1
     scene 11-3 with fade
-    m "(I still can't believe I saw [p] having sex last night.)"
-    m "(I could barely go to sleep after that...)"
+    m "I still can't believe I saw [p] having sex last night."
+    m "I could barely go to sleep after that..."
     scene 11-1
-    m "(I'm sure Nicole saw me, but she continued to ride him anyway!"
-    m "(Was she just taunting me?)"
+    m "I'm sure Nicole saw me, but she continued to ride him anyway!"
+    m "Was she just taunting me?"
     scene 11-2
-    m "(What should I say when I see him?)"
-    m "(Should I pretend I never saw it or-)"
+    m "What should I say when I see him?"
+    m "Should I pretend I never saw it or-"
     p "Eurghh..."
     scene 11-4 with dissolve
     m "!!"
@@ -90,7 +90,7 @@ label base:
     m "(It's like my pussy is just hungering for that large, thick cock.)"
     scene 11-17
     m "(Thrusting in and out, in and out, hngg~)"
-    m "(It's normal to feel this way, isn't it? Especially since he has such a-)"
+    m "(It's normal to feel this way, isn't it? Especially since he has such a- )"
     scene 11-16
     m "(Oh no, snap yourself out of it Amanda!)"
     m "(I need go to to to my room and clear my thoughts...)"
