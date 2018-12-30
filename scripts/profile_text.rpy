@@ -29,11 +29,18 @@ label nicole:
         add "characters/nicole.png" xalign 0.5 ypos 50
         vbox xsize 1800 xalign 0.5 yalign 0.36:
             text "[p] first met Nicole through Kaira. To say she made an impression was an understatment. \
-If her looks didn't betray her already, Nicole is a seductress. Her perfecly sculpted body, Kaira reveals, \
+If her looks didn't betray her already, Nicole is a seductress. Her perfectly sculpted body, Kaira reveals, \
 may not have been entirely scuplted by nature, but perhaps in part by a surgical blade. Recognising the depravity within [p], \
 Nicole doesn't hesitate to goad him into actions he might not usually perform, including intimate experiences with his own [sr]. \
 The only certainty about Nicole is her confidence in her own appearance, and the willingness to augment herself to further sex appeal. \
 Other than that, her motivations regarding [p] and [sr] are an enigma, and is something that [p] has resolved himself to elucidate." justify True size 28
+        if kairalvl > 1 and nicolelvl == 1:
+            vbox xsize 1800 xalign 0.5 yalign 0.5:
+                text "Nicole enjoys visiting [p]'s house in the afternoons, Kaira reveals." justify True size 28
+        if nicolelvl > 1:
+            vbox xsize 1800 xalign 0.5 yalign 0.36:
+                text "True to Kaira's word, Nicole can be found in the living room most afternoons. [p] interacted with her, and she proved \
+a temptress as she ever was. This was just the first of many interactions to come." justify True size 28
         imagebutton: ## back
             focus_mask True
             idle "back.png"
@@ -63,12 +70,15 @@ label camille:
         add "wallpaper"
         add "textbox.png"
         add "characters/camille.png" xalign 0.5 ypos 50
-        if camillelvl == 1:
+        if camillelvl > 0:
             vbox xsize 1800 xalign 0.5 yalign 0.35:
                 text "[p] first met Camille by accident and his first conduct with her was one of trickery, as he lied about the location \
 of the man she was pursuing. This may be fitting however, as there is an aura of a certain mystery surrounding Camille, and [p] cannot \
 put his finger on it. Something is not as it seems. Perhaps these impressions are in part due to her shy and demure nature, and of her few words. The one thing clear is \
 that Camille shared some history with Vincent. Perhaps interrogating Vincent will yield some clues on this mysterious figure." justify True size 28
+        if camillelvl > 1:
+            vbox xsize 1800 xalign 0.5 yalign 0.48:
+                text "[p] met this girl again at the local resort, where she works as a receptionist." justify True size 28
         imagebutton: ## back
             focus_mask True
             idle "back.png"

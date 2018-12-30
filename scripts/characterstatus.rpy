@@ -1,7 +1,7 @@
 default kairashow = ["2"]
 default nicoleshow = []
 default amandashow = ["1","3"]
-default camilleshow = ["1"]
+default camilleshow = []
 default carolineshow = ["1", "4"]
 
 default amandalvl = 1
@@ -14,7 +14,7 @@ default carolinebarlvl = 1
 default nicoletalk = 0
 default amandatalk = 0
 default kairatalk = 0
-default camiletalk = 0
+default camilletalk = 0
 default carolinetalk = 0
 
 default cash = 0
@@ -36,9 +36,27 @@ label drinks:
     return
 ## Permissions
 
+default facilitiesintro = False
+default resortmembership = 0
+label membershipcheck:
+    if resortmembership == 0:
+        $ membership = "no"
+        $ nextmembership = "Bronze"
+        $ membershipcost = 100
+    elif resortmembership == 1:
+        $ membership = "Bronze"
+        $ nextmembership = "Silver"
+        $ membershipcost = 200
+    elif resortmembership == 2:
+        $ membership = "Silver"
+        $ nextmembership = "Gold"
+        $ membershipcost = 500
+    elif resortmembership == 3:
+        $ membership = "Gold"
+    return
+
 default loungestatus = False
 default amandanight = False
-
 
 ## Day Cycle
 label daykeep:

@@ -6,7 +6,7 @@ label base:
     x "What you do or say reveals who you are."
     x "It's now time to take a look at the choices you've made."
     x "Did you knock on Kaira's door, or did you just walk in?"
-    menu dep1:
+    menu:
         "I knocked":
             $ depravity = 0
             x "How polite."
@@ -15,20 +15,26 @@ label base:
             x "Bold."
 
     x "Did you hug Kaira before you went shopping with her?"
-    menu dep2:
+    menu:
         "I left for shopping straight away.":
             x "I see."
 
         "I said I had something to do first.":
             $ depravity -= 1
             x "Wholesome."
-    x "And finally, did you tell Kaira you thought she was sexy, or cute?"
-    menu dep3:
+    x "Did you tell Kaira you thought she was sexy, or cute?"
+    menu:
         "I said she was sexy.":
             x "Very honest."
             $ depravity += 1
         "I said she was cute.":
             x "Good job."
+    x "Finally, did you talk to the red headed girl at the bar, or not?"
+    menu:
+        "I went ahead and said hi.":
+            $ talkcamille = True
+        "It was awkward, so I kind of ignored her.":
+            $ depravity +=1
 
     p "Why are you asking me these questions?"
     x "What you choose to say or do is up to you."

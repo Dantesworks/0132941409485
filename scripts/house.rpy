@@ -83,7 +83,7 @@ label kaira_room:
                 idle "kaira_sitting_idle.png"
                 hover "kaira_sitting_hover.png"
                 hovered Show("displayTextScreen", displayText = "Kaira") action [Hide("displayTextScreen"), Jump("Kaira")] unhovered Hide("displayTextScreen")
-        imagebutton:
+        imagebutton: ## back
             focus_mask True
             idle "back.png"
             hover "back_hover.png"
@@ -118,10 +118,10 @@ label amanda_room:
 label player_room:
     if daytime != 4:
         if renpy.music.get_playing() != "sounds/heart.mp3":
-            play music "sounds/heart.mp3" fadeout 1
+            play music "sounds/heart.mp3"
     if daytime == 4:
         if renpy.music.get_playing() != "sounds/alchemy.mp3":
-            play music "sounds/alchemy.mp3" fadeout 1
+            play music "sounds/alchemy.mp3"
     hide screen map_icon
     show screen daytime
     call screen player_room

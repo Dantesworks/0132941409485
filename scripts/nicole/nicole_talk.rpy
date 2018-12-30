@@ -182,6 +182,62 @@ label nicoletalk:
         $ nicoletalk = day
         $ nicolelvl += 1
         jump living_room
+    if nicolelvl == 2 and day > nicoleday:
+        p "Good afternoon, Nicole."
+        n "Good afternoon to you too."
+        p "How's the couch treating you?"
+        n "Hmm, it feels a little empty."
+        n "I think it's missing you, why don't you sit down?"
+        p "I envy you sometimes you know?"
+        p "You seem to live such a carefree life."
+        p "What are doing today? Bumming around on my couch?"
+        n "I like this place. It gives me good memories."
+        n "This is where you you first claimed me, remember?"
+        p "You're an interesting girl, Nicole."
+        n "Are you trying to figure me out?"
+        menu:
+            "I'm gonna rescue you somehow.":
+                n "I'm comfortable with myself, [p]."
+                n "Are you?"
+            "I'm drawn to mysterious ladies.":
+                $ depravity += 1
+                n "Then I should stay as far away from you as possible!"
+                p "How come?"
+                n "If you finally figure me out, maybe you won't like me anymore~"
+        p "I want to get to know you better, Nicole."
+        p "What do you think?"
+        n "Are you asking me out?"
+        p "..."
+        p "I never really liked that phrase, it's not exactly-"
+        n "You {i}are{/i} asking me out."
+        p "Just casually, as friends, and we can see how it goes."
+        n "I think we've already gone beyond 'friends', [p]."
+        p "So is that a yes?"
+        n "Hmm, I don't know about you, [p], but I haven't really had a dedicated relationship before."
+        p "No way!"
+        n "I never really saw the point."
+        n "You know, Kaira's been talking."
+        p "?"
+        n "She really wants to set us up."
+        n "You know what I think?"
+        n "She wants to make you unavailable, and I have to wonder why."
+        p "You don't think that will stop me, do you?"
+        n "A man of your appetite? Kaira has the same traits as you."
+        n "I think we're all going to have a lot of fun together, fufufu~"
+        p "Then it's sorted."
+        n "I expect my boyfriend to treat me {i}really{/i} well."
+        n "I've been looking at the new iDante smart phone, just letting you know."
+        p "Sorry to say, but I'm broke beyond belief. Plus, gold diggers are a huge turn off."
+        n "Don't worry, I'm not as high maintenance as I can look."
+        n "Remember how trashy I looked the first day I met you with Kaira?"
+        menu:
+            "Yeah, I was too focused on your tits to notice.":
+                $ depravity += 1
+                n "I'll take that as a compliment."
+            "You? Trashy? No way!":
+                n "Eurgh."
+                n "You get my point."
+
     scene n-4
     p "Still lazing around I see?"
     scene n-3

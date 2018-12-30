@@ -7,7 +7,7 @@ label Nicole:
     menu:
         "Talk":
             jump nicoletalk
-        "May over Nicole, I'm coming in.":
+        "Move over Nicole, I'm coming in.":
             jump amanda_money
         "Actually, never mind.":
             jump living_room
