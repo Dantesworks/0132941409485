@@ -28,7 +28,7 @@ label drinksmenu:
     c "Lovely!"
     c "What would the gentleman like today?"
     menu:
-        "Original Dante - $10":
+        "Original Dante - $20":
             if cash - 10 < 0:
                 scene cb-3
                 c "You don't have enough money - are you sure you're not drunk already?"
@@ -37,11 +37,11 @@ label drinksmenu:
                 c "You should finish your drink before you order another one."
             else:
                 "Very original!"
-                $ cash -= 10
-                $ premiumcount += 10
+                $ cash -= 20
+                $ premiumcount += 20
                 $ dante = True
                 call drinks from _call_drinks
-        "The Pink Russian - $8":
+        "The Pink Russian - $10":
             if cash - 8 < 0:
                 scene cb-3
                 c "You don't have enough money - are you sure you're not drunk already?"
@@ -50,8 +50,8 @@ label drinksmenu:
                 c "You should finish your drink before you order another one."
             else:
                 c "Fantastic choice."
-                $ cash -= 8
-                $ premiumcount += 8
+                $ cash -= 10
+                $ premiumcount += 10
                 $ russian = True
                 call drinks from _call_drinks_1
         "Damn, too expensive.":

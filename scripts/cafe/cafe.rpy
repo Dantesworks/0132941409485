@@ -44,6 +44,16 @@ label ellie_menu:
                     $ cash -= 1
                     $ items.append("water")
                     ellie "Always a good idea to stay hydrated!"
+        "Do you have any job openings?" if cafejobask:
+            ellie "Actually, we do! We're looking for a part-timer who can wash the dishes."
+            p "Sounds like something I can do."
+            p "When do I start?"
+            ellie "Just pop over in the mornings and you can start your shift."
+            "Sweet, getting a job is so easy."
+            $ cafejob = True
+            $ cafejobask = False
+        "I'm here to start my shift." if cafejob:
+            jump cafeJob
         "Actually, nothing for me.":
             ellie "No worries, do come back if you change your mind!"
     jump cafe

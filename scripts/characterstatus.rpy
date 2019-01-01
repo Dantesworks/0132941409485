@@ -1,9 +1,11 @@
+## At home only
 default kairashow = ["2"]
 default nicoleshow = []
-default amandashow = ["1","3"]
+default amandashow = ["1"]
 default camilleshow = []
 default carolineshow = ["1", "4"]
 
+## Character lvl
 default amandalvl = 1
 default kairalvl = 1
 default nicolelvl = 1
@@ -11,11 +13,15 @@ default camillelvl = 1
 default carolinelvl = 1
 default carolinebarlvl = 1
 
-default nicoletalk = 0
-default amandatalk = 0
-default kairatalk = 0
-default camilletalk = 0
-default carolinetalk = 0
+## Character event delay
+default amandaday = 1
+default kairaday = 1
+default nicoleday = 1
+default camilleday = 1
+default carolineday = 1
+default carolinebarday = 1
+## Outside home show commands
+default amandakitchen = False
 
 default cash = 0
 default items = []
@@ -26,6 +32,9 @@ default nicoledelay = 0
 default pocketmoney = True
 default premiumcount = 0
 
+default cafejob = False
+default cafejobask = True
+
 default dante = False #drinks
 default russian = False #drinks
 default drinks = False
@@ -33,10 +42,12 @@ default drinks = False
 label drinks:
     if dante == True or russian == True:
         $ drinks = True
+    if premiumcount >= 100:
+        $ loungestatus = True
     return
 ## Permissions
 
-default facilitiesintro = False
+default facilitiesIntro = False
 default resortmembership = 0
 label membershipcheck:
     if resortmembership == 0:
@@ -57,6 +68,7 @@ label membershipcheck:
 
 default loungestatus = False
 default amandanight = False
+default talkcamille = False
 
 ## Day Cycle
 label daykeep:
@@ -80,6 +92,10 @@ label sleep:
     $ dante = False
     $ russian = False
     $ drinks = False
+    if nicolelvl == 4:
+        $ nicoleshow = []
+
+
     ## remove cafe drinks
     if "coffee" in items:
         $ items.remove("coffee")

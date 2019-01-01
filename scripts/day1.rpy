@@ -15,30 +15,30 @@ define v = Character("Vincent")
 define d = Character("Dante")
 # The game starts here.
 
-# label splashscreen:
-#
-#     scene splash3
-#     with Dissolve(1)
-#
-#     $ renpy.pause(2.0,hard=True)
-#
-#     scene black
-#     with Dissolve(1)
-#
-#     scene splash4
-#     with Dissolve(1)
-#
-#     $ renpy.pause(2.0,hard=True)
-#
-#     scene splash2
-#     with Dissolve(1)
-#
-#     $ renpy.pause(2.0,hard=True)
-#
-#     scene black
-#     with Dissolve(1)
-#
-#     return
+label splashscreen:
+
+    scene splash3
+    with Dissolve(1)
+
+    $ renpy.pause(2.0,hard=True)
+
+    scene black
+    with Dissolve(1)
+
+    scene splash4
+    with Dissolve(1)
+
+    $ renpy.pause(2.0,hard=True)
+
+    scene splash2
+    with Dissolve(1)
+
+    $ renpy.pause(2.0,hard=True)
+
+    scene black
+    with Dissolve(1)
+
+    return
 
 label start:
     $ depravity = 0
@@ -204,7 +204,7 @@ label start:
     p "...hey Kaira I -"
 
     scene 2_int15
-    s "OH MY GOD! HELP!"
+    s "OH MY GOD! WHO ARE YOU!"
     p "Whoa hang on!! It's me, [p], you're my [sr]! Remember me?!"
 
     scene 2_int16
@@ -295,7 +295,7 @@ label start:
     m "Kaira! You've kept us waiting!"
     s "Sorry [mr], I got held up a little bit but the food smells sooooo good!"
     p "You took your time!"
-    scene 2_int31
+    scene 2_int31 with dissolve
     s "Hey [p]! When the last time the three of us ate together?"
     p "I don't remember, Kaira, but I'm looking forward to it. Come grab a seat."
     scene 2_int32

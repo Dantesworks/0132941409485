@@ -39,6 +39,6 @@ screen computer():
         action Jump("profile")
     imagebutton: ## back
         focus_mask True
-        idle "back.png"
-        hover "back_hover.png"
+        idle "powerback.png"
+        hover "powerback_hover.png"
         action Jump("player_room")

@@ -31,7 +31,8 @@ label barside:
             focus_mask True
             idle "back.png"
             hover "back_hover.png"
-            action Jump("bar")
+            action Jump("barentrance")
+
 label loungestatusfalse:
     scene black
     "Area closed for now."

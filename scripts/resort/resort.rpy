@@ -1,4 +1,5 @@
 label lobby:
+    call resortEvents from _call_resortEvents
     show screen map_icon
     show screen daytime
     if renpy.music.get_playing() != "sounds/slopes.mp3":

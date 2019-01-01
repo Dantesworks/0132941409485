@@ -59,6 +59,12 @@ label kitchen:
         add "kitchen"
         if daytime == 4:
             add "kitchen2"
+        if daytime == 3 and amandakitchen:
+            imagebutton:
+                focus_mask True
+                idle "amanda_kitchen_idle.png"
+                hover "amanda_kitchen_hover.png"
+                action Jump("amandakitchen")
         imagebutton:
             focus_mask True
             idle "back.png"

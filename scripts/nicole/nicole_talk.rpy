@@ -181,62 +181,158 @@ label nicoletalk:
         play music "sounds/heart.mp3" fadeout 1
         $ nicoletalk = day
         $ nicolelvl += 1
+        $ nicoleday = day
         jump living_room
     if nicolelvl == 2 and day > nicoleday:
+        scene black
+        play music "sounds/beach.mp3" fadeout 1
+        scene n-4 with fade
         p "Good afternoon, Nicole."
+        scene n-3
         n "Good afternoon to you too."
         p "How's the couch treating you?"
+        scene n-5
         n "Hmm, it feels a little empty."
+        scene n-3
         n "I think it's missing you, why don't you sit down?"
+        scene n-7 with dissolve
         p "I envy you sometimes you know?"
         p "You seem to live such a carefree life."
         p "What are doing today? Bumming around on my couch?"
+        scene n-8
         n "I like this place. It gives me good memories."
+        scene n-9
         n "This is where you you first claimed me, remember?"
         p "You're an interesting girl, Nicole."
-        n "Are you trying to figure me out?"
+        scene n-12
+        n "Am I a puzzle for you to solve?"
         menu:
             "I'm gonna rescue you somehow.":
+                scene n-9
                 n "I'm comfortable with myself, [p]."
+                scene n-8
                 n "Are you?"
             "I'm drawn to mysterious ladies.":
                 $ depravity += 1
+                scene n-14
                 n "Then I should stay as far away from you as possible!"
                 p "How come?"
+                scene n-10
                 n "If you finally figure me out, maybe you won't like me anymore~"
+        scene n-7
         p "I want to get to know you better, Nicole."
         p "What do you think?"
+        scene n-9
         n "Are you asking me out?"
         p "..."
         p "I never really liked that phrase, it's not exactly-"
+        scene n-11
         n "You {i}are{/i} asking me out."
         p "Just casually, as friends, and we can see how it goes."
+        scene n-12
         n "I think we've already gone beyond 'friends', [p]."
         p "So is that a yes?"
+        scene n-15
         n "Hmm, I don't know about you, [p], but I haven't really had a dedicated relationship before."
         p "No way!"
         n "I never really saw the point."
+        scene n-13
         n "You know, Kaira's been talking."
-        p "?"
+        p "..?"
+        scene n-7
         n "She really wants to set us up."
+        p "Well there you go."
         n "You know what I think?"
+        scene n-8
         n "She wants to make you unavailable, and I have to wonder why."
-        p "You don't think that will stop me, do you?"
-        n "A man of your appetite? Kaira has the same traits as you."
+        p "You think she's crushing on me."
+        p "If that's the case, why make me unavailable?"
+        scene n-17 with dissolve
+        n "Psychology works in wonderful ways, [p]."
+        n "I would say she knows it's depraved, and she would rather not deal with the option at all."
+        p "Good, nothing's wrong with that."
+        scene n-9 with dissolve
+        n "The thing is, [p]... it means that she doesn't trust herself not to seduce you if you were available."
+        scene n-10
+        n "Isn't that just so sexy?"
+        scene n-14
         n "I think we're all going to have a lot of fun together, fufufu~"
-        p "Then it's sorted."
+        p "I'm glad you're happy."
+        p "It's sorted then."
+        scene n-12
+        n "Word of warning..."
         n "I expect my boyfriend to treat me {i}really{/i} well."
-        n "I've been looking at the new iDante smart phone, just letting you know."
+        scene n-11
+        n "I've been looking at the new iDante smartphone, just letting you know."
         p "Sorry to say, but I'm broke beyond belief. Plus, gold diggers are a huge turn off."
+        scene n-7
         n "Don't worry, I'm not as high maintenance as I can look."
         n "Remember how trashy I looked the first day I met you with Kaira?"
         menu:
             "Yeah, I was too focused on your tits to notice.":
                 $ depravity += 1
+                scene n-11
                 n "I'll take that as a compliment."
             "You? Trashy? No way!":
-                n "Eurgh."
-                n "You get my point."
+                scene n-15
+                n "Eww, sarcasm."
+        scene n-14
+        n "Point is, I'm a flexible girl."
+        p "Flexible in many ways, no doubt."
+        scene n-7
+        n "How should we stay in touch?"
+        p "Well you're here every afternoon anyway."
+        scene n-8
+        n "Aren't you going to ask for my number?"
+        p "Yeah, remember the part about me being broke?"
+        p "I had to sell my phone."
+        scene n-9
+        n "Now that won't do at all."
+        p "Calm."
+        p "I'll get a new one. You'll be able to send me your nudes soon enough."
+        scene n-11
+        n "Aren't you confident!"
+        scene n-10
+        n "So, where are you going to take me?"
+        p "I'll think about it..."
+        "Nice, [p], you scored a date!"
+        "Maybe I could take her to the resort?"
+        "Bathing sounds nice."
+        "I'll need the appropriate membership..."
+        $ nicoletalk = day
+        $ nicolelvl += 1
+        jump living_room
+    if nicolelvl == 3:
+        if resortmembership == 0: ## resort check
+            scene n-3
+            n "Have you decided where to take me yet?"
+            p "I'm working on it Nicole."
+            "Shit, I need that membership!"
+            jump living_room
+        ## Invite nicole to resort
+        scene n-4
+        p "Afternoon Nicole!"
+        scene n-3
+        n "You sound excited."
+        p "You should too, because I've finally sorted it out."
+        n "Where are you taking me?"
+        scene n-4
+        p "It wasn't easy, but I got a membership at the resort."
+        p "You been before?"
+        scene n-5
+        n "No, I haven't."
+        p "...well, I think you'll enjoy it."
+        p "We're going bathing, and that means showing off your skin, your favourite pastime."
+        scene n-3
+        n "I have to be a good girl now, and save myself {i}just{/i} for your eyes."
+        p "That's what I like to hear."
+        p "Remember to bring your clothes."
+        p "Meet me tomorrow at the resort, let's say... in the afternoon?"
+        n "I'll be there!"
+        $ nicolelvl += 1
+        $ nicoleday = day
+        jump living_room
+
 
     scene n-4
     p "Still lazing around I see?"

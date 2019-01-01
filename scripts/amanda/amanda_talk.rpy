@@ -44,6 +44,7 @@ label amandatalk:
         play music "sounds/heart.mp3" fadeout 1
         $ amandalvl += 1
         $ amandatalk = day
+        $ amandakitchen = True
         jump amanda_room
     scene a-1
     p "Looking good [mr]!"
