@@ -34,11 +34,11 @@ may not have been entirely scuplted by nature, but perhaps in part by a surgical
 Nicole doesn't hesitate to goad him into actions he might not usually perform, including intimate experiences with his own [sr]. \
 The only certainty about Nicole is her confidence in her own appearance, and the willingness to augment herself to further sex appeal. \
 Other than that, her motivations regarding [p] and [sr] are an enigma, and is something that [p] has resolved himself to elucidate." justify True size 28
-        if kairalvl > 1 and nicolelvl == 1:
+        if kairalvl > 1 and nicolelvl > 1:
             vbox xsize 1800 xalign 0.5 yalign 0.5:
                 text "Nicole enjoys visiting [p]'s house in the afternoons, Kaira reveals." justify True size 28
         if nicolelvl > 1:
-            vbox xsize 1800 xalign 0.5 yalign 0.36:
+            vbox xsize 1800 xalign 0.5 yalign 0.56:
                 text "True to Kaira's word, Nicole can be found in the living room most afternoons. [p] interacted with her, and she proved \
 a temptress as she ever was. This was just the first of many interactions to come." justify True size 28
         imagebutton: ## back

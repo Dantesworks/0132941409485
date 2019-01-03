@@ -332,6 +332,256 @@ label nicoletalk:
         $ nicolelvl += 1
         $ nicoleday = day
         jump living_room
+    if nicolelvl == 5 and day > nicoleday:
+        scene black
+        scene n-4 with fade
+        play music "sounds/beach.mp3" fadeout 1
+        p "Nicole."
+        scene n-3
+        n "Good to see you, [p]."
+        p "Are you able to walk fine?"
+        n "Since the amazing sex that we had?"
+        scene n-5
+        n "I'm managing."
+        p "Always good to hear."
+        scene n-8 with dissolve
+        n "You still don't have a phone yet, do you?"
+        p "It's true, sadly."
+        scene n-9
+        n "Like I said, it just won't do."
+        scene n-7
+        n "You know what? I decided to get the new iDante phone."
+        n "I can't resist the newest gadgets."
+        p "Wow, real nice of you to rub it in my face."
+        scene n-14
+        n "Hahahaha!"
+        scene n-12 with dissolve
+        n "Hold on, I'm not finished yet."
+        n "I thought you could have my old phone."
+        scene n-7
+        n "Sure, it's one generation older, but its still pretty much brand new."
+        p "They just keep releasing them don't they?"
+        scene n-11
+        n "And I {i}must{/i} have the newest."
+        p "Well, I'm not going to say no!"
+        p "Thanks so much!"
+        scene n-10
+        play music "sounds/alchemy.mp3" fadeout 1
+        n "I'll bring it over next time, but there's a catch."
+        p "Hmm?"
+        scene n-9
+        n "I need you do to something for me."
+        n "But before that, we should go to your room."
+        n "Not the best idea to talk about it here."
+        p "..."
+        scene n-12 with dissolve
+        p "Are you trading sex for the phone?"
+        p "I'd probably do it anyway, but still."
+        scene n-13
+        n "What I want you to do is a little... out of the ordinary."
+        n "And I need you to say yes."
+        "Alright, now I'm suspicious."
+        p "What's the plan?"
+        scene n-8
+        n "Like I said, Mr. Impatient, we'll talk more about it in your room!"
+        p "..."
+        p "Alright... let's go."
+        scene ns-1 with fade
+        n "This is your room?"
+        n "Hmm, not too shabby!"
+        scene ns-2
+        p "It's functional."
+        p "I haven't even lived in here for very long, so I haven't really decorated it."
+        scene ns-3 with dissolve
+        n "And this place was empty until you came back?"
+        p "Well yeah, nobody else lives here besides Kaira and [mr]."
+        scene ns-5
+        n "You may not have a phone, but at least you have a laptop."
+        scene ns-6 with dissolve
+        n "That {i}is{/i} your laptop right?"
+        scene ns-7
+        p "Of course. I wouldn't survive without it."
+        scene ns-8
+        n "You watch a lot of internet porn on that thing?"
+        p "Well! Um, haha, you know..."
+        n "I don't think you need porn anymore, with me around."
+        p "Is that so?"
+        p "So, what did you want to ask me about?"
+        scene ns-9 with dissolve
+        n "Hmmm..."
+        n "I think I'd like to see you take charge a bit more."
+        scene ns-10
+        n "Have you ever tried any rough play before?"
+        "I haven't had much success with ladies before, let alone rough stuff..."
+        p "I've, uh, seen a few videos and I think I know what you're talking about."
+        scene ns-13
+        n "Hahaha! Well, let me tell you about it."
+        scene ns-12 with dissolve
+        n "There's nothing sexier than getting fucked while you're choking for air with your hands pinned down."
+        n "Being spanked so hard that pain and pleasure become the same thing."
+        scene ns-11 with dissolve
+        n "You know what I'm saying?"
+        "Damn this is some pretty hardcore stuff."
+        scene ns-15
+        p "You like to play rough, I see."
+        scene ns-14
+        n "One person playing rough isn't enough, it's a team effort."
+        n "So can you do it?"
+        p "Yeah, I can try."
+        n "Wonderful."
+        scene ns-16 with dissolve
+        n "Before anything else, we need to decide on a safe word."
+        n "You know what that is?"
+        p "Yeah, like something you call out if you want the roleplay to stop?"
+        n "You got it. So what should it be?"
+        scene ns-17
+        p "Let me see..."
+        $ safeword = renpy.input("What should the safeword be?")
+        scene ns-18 with dissolve
+        n "Really? You chose [safeword]?"
+        scene ns-19
+        n "Fine."
+        p "Okay, now what?"
+        scene ns-20 with dissolve
+        n "Now, I bend over like this..."
+        scene ns-21 with dissolve
+        $ renpy.pause()
+        scene ns-22 with dissolve
+        n "...and you punish your little girl~"
+        p "Whoa, really?"
+        scene ns-23 with dissolve
+        n "Come on daddy, punish your little girl, please?"
+        "Daddy? Haha, let's do this."
+        scene ns-24
+        p "You've been a naughty girl, Nicky, and now it's time to get punished!"
+        scene ns-25 with dissolve
+        n "I've been a bad girl-"
+        "{i}Smack!{/i}"
+        scene
+        $ renpy.movie_cutscene("animations/ns1.mpg", loops=-1, stop_music=False)
+        scene ns-27
+        n"-Ah!"
+        p "You like that?"
+        n "Spank me daddy!"
+        scene ns-25
+        p "A slut like you needs to learn her place!"
+        "{i}Smack!{/i}"
+        scene
+        $ renpy.movie_cutscene("animations/ns2.mpg", loops=-1, stop_music=False)
+        scene ns-28
+        n "AHH!"
+        scene ns-30 with dissolve
+        n "No please daddy you're hurting me now, don't hit me so hard!"
+        "She hasn't said the safeword, I should probably hit even harder."
+        scene ns-25
+        p "I'm not stopping till you've learned your fucking lesson."
+        "{i}Smack!{/i}"
+        scene
+        $ renpy.movie_cutscene("animations/ns1.mpg", loops=-1, stop_music=False)
+        scene ns-30
+        n "Ahh~!!!!!!"
+        scene
+        $ renpy.movie_cutscene("animations/ns3.mpg", loops=0, stop_music=False)
+        scene ns-29
+        p "You came like a fountain again."
+        n "I-love-you-daddy..."
+        p "You think you can whore your way out of it?"
+        scene ns-25
+        p "This isn't over yet!"
+        "{i}Smack!{/i}"
+        scene
+        $ renpy.movie_cutscene("animations/ns5.mpg", loops=-1, stop_music=False)
+        scene ns-30
+        n "Stop [p]!"
+        "{i}Smack!{/i}"
+        scene
+        $ renpy.movie_cutscene("animations/ns4.mpg", loops=-1, stop_music=False)
+        scene ns-31
+        n "It's hurting for real- ah~!!"
+        "{i}Smack!{/i}"
+        scene
+        $ renpy.movie_cutscene("animations/ns5.mpg", loops=-1, stop_music=False)
+        scene ns-31
+        n "Fuck, stop!"
+        "{i}Smack!{/i}"
+        scene
+        $ renpy.movie_cutscene("animations/ns4.mpg", loops=-1, stop_music=False)
+        scene ns-32
+        n "HNGGG!"
+        scene ns-31
+        n "[p], [safeword], [safeword]!!"
+        menu:
+            "Stop hitting her.":
+                scene ns-32
+                p "You said the safe word, I'll stop."
+                scene ns-33 with dissolve
+                n "My god."
+                n "You really had me worried there for a moment!"
+                scene ns-35
+                p "Well its part of the roleplay right?"
+                p "I feel like I'm eerily good at this."
+                scene ns-34
+                n "Not to brag, but, I saw the potential from the start."
+                p "Sure."
+            "Keep going.":
+                $ depravity += 1
+                "{i}Smack!{/i}"
+                scene
+                $ renpy.movie_cutscene("animations/ns5.mpg", loops=-1, stop_music=False)
+                scene ns-31
+                n "What are you doing?!"
+                scene ns-37 with fade
+                n "{i}Sob{/i}"
+                scene ns-36
+                n "I told you to stop!"
+                scene ns-38
+                p "Shit."
+                p "I'm sorry, I got really into it, and I fucked up."
+                p "My bad."
+                scene ns-39
+                n "..."
+                n "I-I really felt like I was in danger..."
+                scene ns-40 with dissolve
+                n "...but, it was kind of fucking hot."
+                p "..."
+                scene ns-42 with dissolve
+                n "Look at you, [p]. You really had me going."
+                p "Sorry."
+                scene ns-43
+                n "At the same time, it was so exicting."
+                scene ns-44
+                n "I think we just need to build that trust."
+                n "Then I can just let you handle me, with or without safeword."
+        scene ns-45 with fade
+        p "You screamed pretty loudly when I was spanking away."
+        p "I hope Kaira didn't hear us in her room."
+        scene ns-46
+        n "Would it be such a bad idea to introduce her to these kind of things?"
+        n "Shouldn't you teach her?"
+        p "Easy for you to say."
+        scene ns-46
+        n "Whatever the case, you've done well today, [p]."
+        n "I think I made a fine choice."
+        scene ns-47
+        p "Awesome, where's my compensation?"
+        scene ns-48
+        n "Ah, the phone? I'll bring it over next time."
+        p "You just want another reason to see me again."
+        scene ns-50
+        n "I'll go for any chance I get to see daddy again~"
+        scene ns-45
+        p "Don't call me that outside the bedroom, okay?"
+        p "It's fucking weird."
+        scene ns-50
+        n "If you say so, daddy~"
+        scene ns-48
+        n "I'll see you tomorrow."
+        n "Goodbye, Nicole."
+        scene black with fade
+        call daykeep from _call_daykeep_3
+        $ nicolelvl += 1
+        $ nicoleday = day
+        jump player_room
 
 
     scene n-4

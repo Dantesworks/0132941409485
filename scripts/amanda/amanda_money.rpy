@@ -10,7 +10,7 @@ label amanda_money:
         p "Thanks!"
         "I wonder if there's a way to help [mr] out."
         $ pocketmoney = False
-        $ cash += 1500
+        $ cash += 15
         jump amanda_room
     scene a-4 with dissolve
     m "You've already asked for money today!"

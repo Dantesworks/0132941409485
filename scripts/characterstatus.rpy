@@ -7,6 +7,7 @@ default carolineshow = ["1", "4"]
 
 ## Character lvl
 default amandalvl = 1
+default amandakitchenlvl = 1
 default kairalvl = 1
 default nicolelvl = 1
 default camillelvl = 1
@@ -86,12 +87,12 @@ label sleep:
         "Sleep until the next day.":
             $ daytime = 1
             $ day += 1
+            call future
+            $ pocketmoney = True
+            $ dante = False
+            $ russian = False
+            $ drinks = False
     $ daytimes = str(daytime)
-    $ carolineshow = ["1","4"]
-    $ pocketmoney = True
-    $ dante = False
-    $ russian = False
-    $ drinks = False
     if nicolelvl == 4:
         $ nicoleshow = []
 

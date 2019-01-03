@@ -35,5 +35,5 @@ label barside:
 
 label loungestatusfalse:
     scene black
-    "Area closed for now."
+    "Non VIP members need not apply."
     jump barentrance

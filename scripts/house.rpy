@@ -52,6 +52,12 @@ label living_room:
                 hovered Show("displayTextScreen", displayText = "Nicole") action [Hide("displayTextScreen"), Jump("Nicole")] unhovered Hide("displayTextScreen")
 
 label kitchen:
+    if daytime != 4:
+        if renpy.music.get_playing() != "sounds/heart.mp3":
+            play music "sounds/heart.mp3" fadeout 1
+    if daytime == 4:
+        if renpy.music.get_playing() != "sounds/alchemy.mp3":
+            play music "sounds/alchemy.mp3" fadeout 1
     hide screen map_icon
     show screen daytime
     call screen kitchen

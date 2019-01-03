@@ -120,8 +120,7 @@ label Caroline:
         "Hmm, this town ain't so bad."
         "Maybe I should go and see her tonight at the bar?"
         $ carolinelvl += 1
-        $ daytime += 1
-        $ daytimes = str(daytime)
+        call daykeep from _call_daykeep_4
         jump map
     scene cc-2
     p "Good morning Caroline!"

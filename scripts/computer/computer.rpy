@@ -37,8 +37,14 @@ screen computer():
         idle "logo_characters.png"
         hover "logo_characters_hover.png"
         action Jump("profile")
+    imagebutton: ## Gallery
+        focus_mask True
+        idle "logo_gallery.png"
+        hover "logo_gallery_hover.png"
+        action Jump("gallery")
     imagebutton: ## back
         focus_mask True
         idle "powerback.png"
         hover "powerback_hover.png"
         action Jump("player_room")
+    textbutton "Hacks" action Jump("hacks")
