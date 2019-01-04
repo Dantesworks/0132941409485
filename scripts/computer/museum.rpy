@@ -1,24 +1,47 @@
 label museum:
+    if renpy.music.get_playing() != "sounds/medicine.mp3":
+        play music "sounds/medicine.mp3" fadeout 1
     call screen museum
     screen museum():
         add "wallpaper2.png"
-        add "gallery_buttons/museum/title.png"
+        #add "gallery_buttons/museum/title.png"
         imagebutton: ## back
             focus_mask True
             idle "back.png"
             hover "back_hover.png"
             action Jump("computer")
-        imagebutton:
-            focus_mask True
-            idle "gallery_buttons/museum/frame1.png"
-            hover "gallery_buttons/museum/frame1_hover.png"
-            action Jump("mus1")
-        add "gallery_buttons/museum/sig1.png"
-        add "gallery_buttons/museum/sub1.png"
-
-label mus1:
-    image mus1 = "/images/gallery_buttons/museum/1.jpg"
-    scene mus1
+        grid 3 3:
+            xfill
+            yfill
+            align (0.5, 0.5)
+            spacing 100
+            imagebutton: ## lyda
+                focus_mask True
+                idle "/images/gallery_buttons/museum/lyda_i.png"
+                hover "/images/gallery_buttons/museum/lyda_h.png"
+                action Jump("lyda")
+            imagebutton: ## dante
+                focus_mask True
+                idle "/images/gallery_buttons/museum/dante_i.png"
+                hover "/images/gallery_buttons/museum/dante_h.png"
+                action Jump("dante")
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+label lyda:
+    image lyda = "/images/gallery_buttons/museum/lyda.jpg"
+    scene lyda
     $ renpy.pause()
-    "Kaira - commissioned by Dante. Daemon tier and above patrons can commission their own with custom signature, subtitle, and message."
+    "\"Looking forward to taming Amanda\" | Commissioned by Lyda"
+    jump museum
+
+label dante:
+    image dante = "/images/gallery_buttons/museum/dante.jpg"
+    scene dante
+    $ renpy.pause()
+    "\"Commission for Android+ patrons\" | Commissioned by Dante"
     jump museum

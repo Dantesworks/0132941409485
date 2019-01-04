@@ -548,7 +548,7 @@ label nicoletalk:
                 n "Look at you, [p]. You really had me going."
                 p "Sorry."
                 scene ns-43
-                n "At the same time, it was so exicting."
+                n "At the same time, it was so exciting."
                 scene ns-44
                 n "I think we just need to build that trust."
                 n "Then I can just let you handle me, with or without safeword."
@@ -558,7 +558,7 @@ label nicoletalk:
         scene ns-46
         n "Would it be such a bad idea to introduce her to these kind of things?"
         n "Shouldn't you teach her?"
-        p "Easy for you to say."
+        p "Maybe... some other time."
         scene ns-46
         n "Whatever the case, you've done well today, [p]."
         n "I think I made a fine choice."
@@ -566,24 +566,24 @@ label nicoletalk:
         p "Awesome, where's my compensation?"
         scene ns-48
         n "Ah, the phone? I'll bring it over next time."
-        p "You just want another reason to see me again."
+        p "You just want to set up another chance to see me again."
         scene ns-50
-        n "I'll go for any chance I get to see daddy again~"
+        n "Oh please, I chill on your couch everyday anyway."
+        n "But it's true, I'll go for any chance I get to see daddy again~"
         scene ns-45
         p "Don't call me that outside the bedroom, okay?"
-        p "It's fucking weird."
+        p "It feels weird."
         scene ns-50
-        n "If you say so, daddy~"
+        n "If you say so... daddy~"
+        "Christ..."
         scene ns-48
         n "I'll see you tomorrow."
-        n "Goodbye, Nicole."
+        p "Goodbye, Nicole."
         scene black with fade
         call daykeep from _call_daykeep_3
         $ nicolelvl += 1
         $ nicoleday = day
         jump player_room
-
-
     scene n-4
     p "Still lazing around I see?"
     scene n-3

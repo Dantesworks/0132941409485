@@ -41,7 +41,7 @@ screen computer():
         focus_mask True
         idle "logo_gallery.png"
         hover "logo_gallery_hover.png"
-        action Jump("gallery")
+        action Jump("cgGallery")
     imagebutton: ## back
         focus_mask True
         idle "powerback.png"
