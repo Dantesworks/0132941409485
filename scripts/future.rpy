@@ -11,5 +11,6 @@ label future:
         x "Is it possible to sink into depravity, and yet remain virtuous?"
         x "Learn more about her, so that you can learn more about yourself."
         scene black with fade
+        "Am I still dreaming?"
         $ nicolelvl += 1
         return

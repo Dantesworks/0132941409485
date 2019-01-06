@@ -174,7 +174,8 @@ label nicoletalk:
         n "Alright! I was just checking myself out in the reflection."
         p "Fine. I'll leave you be."
         scene n-20
-        n "Tell your [mr] I said hi, [p]."
+        n "Oh, by the way, [p]."
+        n "Tell your [mr] I said hi."
         p "Very clever."
         scene n-24 with dissolve
         n "Cleverer than you know..."
@@ -386,6 +387,7 @@ label nicoletalk:
         n "Like I said, Mr. Impatient, we'll talk more about it in your room!"
         p "..."
         p "Alright... let's go."
+        scene black with fade
         scene ns-1 with fade
         n "This is your room?"
         n "Hmm, not too shabby!"

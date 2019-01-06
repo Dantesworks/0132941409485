@@ -42,7 +42,7 @@ label drinksmenu:
                 $ dante = True
                 call drinks from _call_drinks
         "The Pink Russian - $10":
-            if cash - 8 < 0:
+            if cash - 10 < 0:
                 scene cb-3
                 c "You don't have enough money - are you sure you're not drunk already?"
             elif drinks:

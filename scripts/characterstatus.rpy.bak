@@ -43,6 +43,8 @@ default drinks = False
 label drinks:
     if dante == True or russian == True:
         $ drinks = True
+    if premiumcount >= 100:
+        $ loungestatus = True
     return
 ## Permissions
 
@@ -77,7 +79,7 @@ label daykeep:
 
 ## Sleep
 label sleep:
-    show screen player_room
+    scene black
     menu:
         "Take a nap." if daytime < 4:
             $ daytime += 1
@@ -85,7 +87,7 @@ label sleep:
         "Sleep until the next day.":
             $ daytime = 1
             $ day += 1
-            call future from _call_future
+            call future
             $ pocketmoney = True
             $ dante = False
             $ russian = False

@@ -16,7 +16,7 @@ label barentrance:
             focus_mask True
             idle "premiumlounge.png"
             hover "premiumlounge_hover.png"
-            if loungestatus:
+            if premiumcount >= 100:
                 action Jump("barside")
             else:
                 action Jump("loungestatusfalse")

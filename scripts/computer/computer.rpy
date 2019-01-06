@@ -42,6 +42,11 @@ screen computer():
         idle "logo_gallery.png"
         hover "logo_gallery_hover.png"
         action Jump("cgGallery")
+    imagebutton: ## Friends
+        focus_mask True
+        idle "logo_friends.png"
+        hover "logo_friends_hover.png"
+        action Jump("friends")
     imagebutton: ## back
         focus_mask True
         idle "powerback.png"

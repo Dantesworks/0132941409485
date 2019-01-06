@@ -6,7 +6,7 @@ label kairatalk:
         p "Hi Kaira."
         scene k-2 with dissolve
         $ renpy.pause()
-        scene k-3
+        scene k-3 with dissolve
         s "Afternoon [p]!"
         p "You were pretty wasted last night."
         p "How are you holding up?"

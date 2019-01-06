@@ -23,7 +23,7 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "0.4"
+define config.version = "0.4c"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -33,11 +33,13 @@ define gui.about = _p("""Thankyou for checking this game out. Please let me know
 
 Patreon: patreon.com/danteworks
 
-Music - Beach by MBB (Nicole's theme)
-        Dreams by Joakim Karud (Caroline's theme)
-        KDA Popstars Instrumental by Riot Games
-        A Cup of Coffee by DJ Okawari
-        Wanderer by Dion
+Music - Beach by MBB (Nicole's theme).
+        Dreams by Joakim Karud (Caroline's theme).
+        KDA Popstars Instrumental by Riot Games.
+        A Cup of Coffee by DJ Okawari.
+        Wanderer by Dion.
+        Medicine by Joji.
+        Slopes of the Blessure from Witcher 3.
 
 All other music is original.
 """)

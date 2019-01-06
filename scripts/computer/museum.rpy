@@ -20,6 +20,11 @@ label museum:
                 idle "/images/gallery_buttons/museum/lyda_i.png"
                 hover "/images/gallery_buttons/museum/lyda_h.png"
                 action Jump("lyda")
+            imagebutton: ## lama
+                focus_mask True
+                idle "/images/gallery_buttons/museum/lama_i.png"
+                hover "/images/gallery_buttons/museum/lama_h.png"
+                action Jump("lama")
             imagebutton: ## dante
                 focus_mask True
                 idle "/images/gallery_buttons/museum/dante_i.png"
@@ -31,17 +36,23 @@ label museum:
             null
             null
             null
-            null
 label lyda:
     image lyda = "/images/gallery_buttons/museum/lyda.jpg"
     scene lyda
     $ renpy.pause()
-    "\"Looking forward to taming Amanda\" | Commissioned by Lyda"
+    "Looking forward to taming Amanda | Commissioned by Lyda"
+    jump museum
+
+label lama:
+    image lama = "/images/gallery_buttons/museum/lama.jpg"
+    scene lama
+    $ renpy.pause()
+    "J'en ai marre | Commissioned by Lama"
     jump museum
 
 label dante:
     image dante = "/images/gallery_buttons/museum/dante.jpg"
     scene dante
     $ renpy.pause()
-    "\"Commission for Android+ patrons\" | Commissioned by Dante"
+    "Commission for Android+ patrons | Commissioned by Dante"
     jump museum
