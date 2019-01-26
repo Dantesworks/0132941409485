@@ -16,7 +16,7 @@ screen fastforward():
 label map:
     if renpy.music.get_playing() != "sounds/wanderer.mp3":
         play music "sounds/wanderer.mp3"
-    call hidescreens
+    call hidescreens from _call_hidescreens_3
     show screen daytime
     show screen fastforward
     call screen map

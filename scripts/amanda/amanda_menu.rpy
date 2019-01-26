@@ -1,5 +1,5 @@
 label Amanda:
-    call hidescreens
+    call hidescreens from _call_hidescreens_4
     scene a-1
     if amandalvl == 1:
         jump amandatalk

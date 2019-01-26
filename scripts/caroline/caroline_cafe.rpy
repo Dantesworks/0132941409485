@@ -1,5 +1,5 @@
 label Caroline:
-    call hidescreens
+    call hidescreens from _call_hidescreens
     if carolinelvl == 1:
         scene black
         scene cc-1 with fade

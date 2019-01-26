@@ -1,5 +1,5 @@
 label Nicole:
-    call hidescreens
+    call hidescreens from _call_hidescreens_7
     scene n-1
     if nicolelvl == 1:
         jump nicoletalk

@@ -1,5 +1,5 @@
 label Carolinebar:
-    call hidescreens
+    call hidescreens from _call_hidescreens_8
     scene cb-1
     p "Hey Caroline!"
     scene cb-2

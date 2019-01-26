@@ -1,5 +1,5 @@
 label Camille:
-    call hidescreens
+    call hidescreens from _call_hidescreens_2
     if renpy.music.get_playing() != "sounds/slopes.mp3":
         play music "sounds/slopes.mp3" fadeout 1
     scene cam-6

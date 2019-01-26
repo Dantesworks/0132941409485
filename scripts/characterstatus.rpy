@@ -90,12 +90,12 @@ label sleep:
         "Sleep until the next day.":
             $ daytime = 1
             $ day += 1
-            call future
+            call future from _call_future
             $ pocketmoney = True
             $ dante = False
             $ russian = False
             $ drinks = False
-            call cryptoChange
+            call cryptoChange from _call_cryptoChange
     $ daytimes = str(daytime)
     if nicolelvl == 4:
         $ nicoleshow = []

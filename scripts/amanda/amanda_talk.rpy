@@ -8,7 +8,7 @@ label amandatalk:
         p "Oooh, I'm so sorry about that."
         scene a-2
         p "I can't help it you know, my feet just take me to random places when I'm sleep walking!"
-        scene a-9
+        scene a-1
         m "Did you have a wild night last night?"
         "I probably shouldn't tell her I fucked Nicole..."
         p "Uh, no uh, of course not, it was a pretty normal night. What do you mean wild?"
@@ -31,7 +31,7 @@ label amandatalk:
         m "Well maybe you can meet her in a different context, and ask her out sometime."
         p "I'll have to meet her again first."
         p "Anyway, I should probably check up on Kaira."
-        scene a-9
+        scene a-1
         m "She's gone out with Nicole to the cafe to get some coffee. They might be on their way back now. She should be back in the afternoon!"
         m "You can take a nap on your bed to pass time."
         p "And where will you be?"
@@ -48,30 +48,39 @@ label amandatalk:
         jump amanda_room
     if amandalvl == 2 and amandakitchenlvl == 2 and day > amandatalk:
         scene black
-        scene a-1 with fade
+        scene a-2 with fade
         play music "sounds/wisteria.mp3" fadeout 1
         p "Good morning, [mr]!"
         p "Getting ready for another day of work?"
+        scene a-1
         m "The work never stops."
         p "It's enjoyable work though, right?"
+        scene a-8
         m "..."
+        scene a-2 with dissolve
         m "Yes, it's quite fun."
         "She doesn't sound too convinced?"
         p "Tell me about it."
         p "What kind of work do you do?"
+        scene a-3
         m "Well, I model. I go into the studio, get some shots done, and I get some payment."
         p "Is it stressful?"
+        scene a-4 with dissolve
         m "Well..."
+        scene a-5 with dissolve
         m "It's never an easy thing you know, to relax in front of the camera."
         m "It takes a lot of honesty, and you have to be very confident to do it well."
         p "You should be really confident, you're gorgeous [mr]!"
         p "I can't imagine you could take a bad picture."
+        scene a-6 with dissolve
         m "Oh, [p], fufufu..."
         m "Thanks for the encouragement!"
         p "I'm only telling the truth, you know that."
+        scene a-7
         m "And how are you going yourself?"
         p "Just hanging around town, getting to know different people I guess."
         p "Enjoy work, [mr]."
+        scene a-5
         m "I will. I'll tell you all about it when I get back this evening~!"
         $ amandalvl += 1
         $ amandatalk = day

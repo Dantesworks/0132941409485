@@ -1,7 +1,7 @@
 label computer:
     if renpy.music.get_playing() != "sounds/dreams.mp3":
         play music "sounds/dreams.mp3"
-    call hidescreens
+    call hidescreens from _call_hidescreens_6
     call screen computer
     default bgswap = True
 screen computer():

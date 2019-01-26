@@ -1,6 +1,5 @@
 label Caroline:
-    hide screen map_icon
-    hide screen daytime
+    call hidescreens
     if carolinelvl == 1:
         scene black
         scene cc-1 with fade
@@ -120,7 +119,7 @@ label Caroline:
         "Hmm, this town ain't so bad."
         "Maybe I should go and see her tonight at the bar?"
         $ carolinelvl += 1
-        call daykeep
+        call daykeep from _call_daykeep_4
         jump map
     scene cc-2
     p "Good morning Caroline!"
