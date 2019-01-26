@@ -1,5 +1,5 @@
 label Carolinebar:
-    hide screen map_icon
+    call hidescreens
     scene cb-1
     p "Hey Caroline!"
     scene cb-2

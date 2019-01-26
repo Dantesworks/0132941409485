@@ -1,6 +1,5 @@
 label Nicole:
-    hide screen map_icon
-    hide screen daytime
+    call hidescreens
     scene n-1
     if nicolelvl == 1:
         jump nicoletalk

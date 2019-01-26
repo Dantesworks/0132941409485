@@ -1,6 +1,5 @@
 label Amanda:
-    hide screen daytime
-    hide screen map_icon
+    call hidescreens
     scene a-1
     if amandalvl == 1:
         jump amandatalk

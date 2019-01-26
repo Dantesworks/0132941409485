@@ -3,6 +3,8 @@ label barentrance:
         play music "sounds/popstars.mp3" fadeout 1
     show screen map_icon
     show screen daytime
+    show screen phone_icon
+    hide screen fastforward
     call screen barentrance
     screen barentrance():
         add "barentrance"

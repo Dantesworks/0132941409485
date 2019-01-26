@@ -2,6 +2,8 @@ label lobby:
     call resortEvents from _call_resortEvents
     show screen map_icon
     show screen daytime
+    show screen phone_icon
+    hide screen fastforward
     if renpy.music.get_playing() != "sounds/slopes.mp3":
         play music "sounds/slopes.mp3" fadeout 1
     call screen lobby

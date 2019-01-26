@@ -17,6 +17,8 @@ label hallway:
             play music "sounds/alchemy.mp3" fadeout 1
     show screen map_icon
     show screen daytime
+    show screen phone_icon
+    hide screen fastforward
     call screen hallway
     screen hallway():
         imagemap:
@@ -34,6 +36,7 @@ label hallway:
 label living_room:
     hide screen map_icon
     show screen daytime
+    show screen phone_icon
     call screen living_room
     screen living_room():
         imagemap:
@@ -60,6 +63,7 @@ label kitchen:
             play music "sounds/alchemy.mp3" fadeout 1
     hide screen map_icon
     show screen daytime
+    show screen phone_icon
     call screen kitchen
     screen kitchen():
         add "kitchen"
@@ -79,6 +83,7 @@ label kitchen:
 label kaira_room:
     hide screen map_icon
     show screen daytime
+    show screen phone_icon
     call screen kaira_room
     screen kaira_room():
         add "kaira_room_idle"
@@ -104,6 +109,7 @@ label kaira_room:
 label amanda_room:
     hide screen map_icon
     show screen daytime
+    show screen phone_icon
     if amandanight or daytime != 4:
         call screen amanda_room
         screen amanda_room():
@@ -136,6 +142,7 @@ label player_room:
             play music "sounds/alchemy.mp3"
     hide screen map_icon
     show screen daytime
+    show screen phone_icon
     call screen player_room
     screen player_room():
         imagemap:

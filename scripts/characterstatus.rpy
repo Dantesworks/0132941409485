@@ -76,6 +76,11 @@ label daykeep:
     return
 
 ## Sleep
+label fastforward:
+    if daytime < 4:
+        $ daytime += 1
+        $ daytimes = str(daytime)
+    jump map
 label sleep:
     show screen player_room
     menu:
@@ -85,16 +90,15 @@ label sleep:
         "Sleep until the next day.":
             $ daytime = 1
             $ day += 1
-            call future from _call_future
+            call future
             $ pocketmoney = True
             $ dante = False
             $ russian = False
             $ drinks = False
+            call cryptoChange
     $ daytimes = str(daytime)
     if nicolelvl == 4:
         $ nicoleshow = []
-
-
     ## remove cafe drinks
     if "coffee" in items:
         $ items.remove("coffee")
@@ -113,7 +117,11 @@ screen daytime():
     if daytime == 4:
         add "ui_night.png"
     add "cash_ui.png"
-    text "[cash]" xpos 210 ypos 75 size 24 text_align 1
+    text "[cash]" xanchor 1.0 xpos 270 ypos 73 size 24
 ## Misc.
 define flash = Fade(0.1, 0.0, 0.5, color="#fff")
-define lastplayed = ""
+label hidescreens:
+    hide screen daytime
+    hide screen map_icon
+    hide screen phone_icon
+    return

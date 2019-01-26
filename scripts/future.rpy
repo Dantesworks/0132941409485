@@ -1,5 +1,6 @@
 label future:
     hide screen daytime
+    hide screen player_room
     if nicolelvl == 6:
         scene black
         play music "sounds/cyberpunk.mp3"

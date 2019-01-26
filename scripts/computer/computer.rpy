@@ -1,8 +1,7 @@
 label computer:
     if renpy.music.get_playing() != "sounds/dreams.mp3":
         play music "sounds/dreams.mp3"
-    hide screen map_icon
-    hide screen daytime
+    call hidescreens
     call screen computer
     default bgswap = True
 screen computer():
@@ -53,3 +52,4 @@ screen computer():
         hover "powerback_hover.png"
         action Jump("player_room")
     textbutton "Hacks" action Jump("hacks")
+    # textbutton "App" action [Show("btc"), Play("voice", "sounds/boom.mp3"), PauseAudio("music", True)] xalign 0.5

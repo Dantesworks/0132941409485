@@ -1,6 +1,5 @@
 label Caroline:
-    hide screen map_icon
-    hide screen daytime
+    call hidescreens
     if carolinelvl == 1:
         scene black
         scene cc-1 with fade

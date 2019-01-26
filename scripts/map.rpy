@@ -5,13 +5,20 @@ screen map_icon():
         idle "map_icon.png"
         hover "map_icon_hover.png"
         action Jump("map")
-
+screen fastforward():
+    zorder 5
+    imagebutton:
+        focus_mask True
+        idle "ui_forward.png"
+        hover "ui_forward_hover.png"
+        action Jump("fastforward")
 
 label map:
-    $ lastplayed = "m"
-    play music "sounds/wanderer.mp3"
-    hide screen map_icon
+    if renpy.music.get_playing() != "sounds/wanderer.mp3":
+        play music "sounds/wanderer.mp3"
+    call hidescreens
     show screen daytime
+    show screen fastforward
     call screen map
     screen map():
         add "map"

@@ -1,6 +1,5 @@
 label Camille:
-    hide screen map_icon
-    hide screen daytime
+    call hidescreens
     if renpy.music.get_playing() != "sounds/slopes.mp3":
         play music "sounds/slopes.mp3" fadeout 1
     scene cam-6

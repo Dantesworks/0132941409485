@@ -1,6 +1,5 @@
 label Kaira:
-    hide screen daytime
-    hide screen map_icon
+    call hidescreens
     scene k-1
     if amandalvl == 2 and kairalvl == 1:
         jump kairatalk

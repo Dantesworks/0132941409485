@@ -46,6 +46,37 @@ label amandatalk:
         $ amandatalk = day
         $ amandakitchen = True
         jump amanda_room
+    if amandalvl == 2 and amandakitchenlvl == 2 and day > amandatalk:
+        scene black
+        scene a-1 with fade
+        play music "sounds/wisteria.mp3" fadeout 1
+        p "Good morning, [mr]!"
+        p "Getting ready for another day of work?"
+        m "The work never stops."
+        p "It's enjoyable work though, right?"
+        m "..."
+        m "Yes, it's quite fun."
+        "She doesn't sound too convinced?"
+        p "Tell me about it."
+        p "What kind of work do you do?"
+        m "Well, I model. I go into the studio, get some shots done, and I get some payment."
+        p "Is it stressful?"
+        m "Well..."
+        m "It's never an easy thing you know, to relax in front of the camera."
+        m "It takes a lot of honesty, and you have to be very confident to do it well."
+        p "You should be really confident, you're gorgeous [mr]!"
+        p "I can't imagine you could take a bad picture."
+        m "Oh, [p], fufufu..."
+        m "Thanks for the encouragement!"
+        p "I'm only telling the truth, you know that."
+        m "And how are you going yourself?"
+        p "Just hanging around town, getting to know different people I guess."
+        p "Enjoy work, [mr]."
+        m "I will. I'll tell you all about it when I get back this evening~!"
+        $ amandalvl += 1
+        $ amandatalk = day
+        jump amanda_room
+
     scene a-1
     p "Looking good [mr]!"
     scene a-6 with dissolve

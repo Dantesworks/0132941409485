@@ -23,7 +23,7 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "0.4c"
+define config.version = "0.5"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -40,6 +40,7 @@ Music - Beach by MBB (Nicole's theme).
         Wanderer by Dion.
         Medicine by Joji.
         Slopes of the Blessure from Witcher 3.
+        Wake Me Up Before You Go-Go - George Michael
 
 All other music is original.
 """)

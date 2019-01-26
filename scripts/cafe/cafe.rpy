@@ -3,6 +3,8 @@ label cafe:
         play music "sounds/coffee.mp3" fadeout 1
     show screen map_icon
     show screen daytime
+    show screen phone_icon
+    hide screen fastforward
     call screen cafe
     screen cafe():
         add "cafe"
@@ -63,6 +65,6 @@ label nodrink:
     scene black
     "Don't tell me you're actually going to sit down with her without a drink in hand."
     "What are you, some kind of freeloader?"
-    "What are you, fucking gay?"
+    "What are you, a motherfucker?"
     "Try again, fool."
     jump cafe
