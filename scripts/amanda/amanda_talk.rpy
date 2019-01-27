@@ -85,6 +85,35 @@ label amandatalk:
         $ amandalvl += 1
         $ amandatalk = day
         jump amanda_room
+    if amanda lvl == 3 and amandakitchenlvl == 3 and day > amandatalk:
+        scene black
+        scene a-2 with fade
+        play music "sounds/wisteria.mp3" fadeout 1
+        p "Hello [mr]."
+        m "Good morning!"
+        p "Getting ready for work?"
+        m "It's the same routine everyday."
+        p "Where do you go to work anyway?"
+        m "It's a small studio somewhere in town..."
+        p "Can you take me one day?"
+        m "Umm, haha... it's really nothing at all."
+        m "Don't worry about it."
+        p "Come on, I wanna see where you work!"
+        m "It's really nothing special. It's not worth fussing about."
+        p "Aww!"
+        m "Besides, I might not be working there for much longer anyway."
+        p "What do you mean?"
+        m "My photoshoots are getting cut shorter and shorter, and-"
+        m "..."
+        m "I guess we'll see."
+        p "I'm sorry I brought it up."
+        m "Oh, that's okay. I'll see you in the evening, okay?"
+        p "Sure thing, [mr]!"
+        $ amandalvl += 1
+        $ amandatalk = day
+        jump amanda_room
+
+
 
     scene a-1
     p "Looking good [mr]!"

@@ -96,6 +96,7 @@ label sleep:
             $ russian = False
             $ drinks = False
             call cryptoChange from _call_cryptoChange
+            $ bogged = False
     $ daytimes = str(daytime)
     if nicolelvl == 4:
         $ nicoleshow = []

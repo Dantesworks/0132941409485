@@ -1,5 +1,5 @@
 label future:
-    call hidescreens from _call_hidescreens_10
+    call hidescreens
     hide screen player_room
     if nicolelvl == 6:
         scene black

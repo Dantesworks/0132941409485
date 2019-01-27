@@ -33,6 +33,7 @@ style button_text is gui_text:
     yalign 0.5
 
 
+
 style label_text is gui_text:
     properties gui.text_properties("label", accent=True)
 
@@ -206,7 +207,6 @@ style input:
 
 screen choice(items):
     style_prefix "choice"
-
     vbox:
         for i in items:
             textbutton i.caption action i.action
@@ -224,7 +224,6 @@ style choice_button_text is button_text
 style choice_vbox:
     xalign 0.5
     yalign 0.6
-
 
     spacing gui.choice_spacing
 
@@ -374,6 +373,17 @@ screen main_menu():
 
             text "[config.version]":
                 style "main_menu_version"
+
+    imagebutton:
+        focus_mask True
+        idle "logo_patron.png"
+        hover "logo_patron_hover.png"
+        action OpenURL("https://www.patreon.com/danteworks")
+    imagebutton:
+        focus_mask True
+        idle "logo_discord.png"
+        hover "logo_discord_hover.png"
+        action OpenURL("https://discord.gg/mVjjbDG")
 
 
 style main_menu_frame is empty

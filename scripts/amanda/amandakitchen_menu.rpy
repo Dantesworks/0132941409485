@@ -113,11 +113,16 @@ label amandakitchen:
                 $ depravity += 1
                 "Hehe, what's the harm?"
                 scene ae-1 with fade
-                "Wow."
+                "Oh"
+                "My"
+                "God"
+                "..."
                 "I've never seen [mr] like this before."
-                "Her tits are massive. No wonder Kaira is jealous!"
-                "Definitely model material... how is she still single?"
-                "But I shouldn't stare too long..."
+                "She's got her top off, and her breasts are in full display."
+                "No wonder Kaira is jealous..."
+                "Definitely model material... how on earth is she still single?"
+                "..."
+                "I shouldn't stare too long..."
                 scene ae-2 with fade
                 "..."
         m "You can turn around now, [p]."
@@ -220,7 +225,6 @@ label amandakitchen:
         p "..."
         m "It's been a while, [p]."
         p "It really has."
-        scene black with fade
         scene ae-29 with fade
         $ renpy.pause()
         m "It's... getting late, isn't it?"
@@ -229,6 +233,61 @@ label amandakitchen:
         p "See you tomorrow, [mr]."
         $ amandakitchenlvl += 1
         call daykeep from _call_daykeep_5
+        jump hallway
+    if amandalvl == 4:
+        scene black
+        scene ak-1 with fade
+        play music "sounds/wisteria.mp3" fadeout 1
+        p "Good to see you, [mr]."
+        p "How did work go today?"
+        m "It was... alright."
+        "She doesn't seem too cheerful."
+        "I wonder what's gone wrong."
+        p "You don't sound like your usual self."
+        m "..."
+        m "Oh [p], I just don't know what to do."
+        p "You can tell me, [mr]."
+        m "{i}Sigh{/i}"
+        m "I don't think people want to see me anymore."
+        m "My hours are getting cut; the photographer is spending less time with me; soon I might not even have a job!"
+        m "What am I going to do?"
+        m "Am I losing my touch?"
+        m "For a while, I felt like I had things under control."
+        m "Am I only worth how I look like?"
+        p "Don't say that!"
+        p "It's not true."
+        p "You don't even know if you'll lose the job yet."
+        m "Let's not kid ourselves, [p]. This has been happening for a while now."
+        m "I'm getting old. People just don't like to see me anymore."
+        m "It's the way the industry is."
+        "God I just can't bear to see her like this."
+        p "Hey, look."
+        p "I think I've been through this before, and you were there for me [mr]."
+        p "When I lost everything, I could count on you guys."
+        p "I guess what I'm trying to say is..."
+        p "No matter what happens, I'll be here."
+        p "I'll help you out. I promise."
+        m "I'm bothering you with my troubles again!"
+        p "Please don't say that!"
+        p "You're still beautiful [mr], don't let anyone tell you otherwise!"
+        p "Like I said, you just need the breakout."
+        p "Heck, we don't even need the photographers and everything!"
+        p "Anyone can take photos!"
+        m "Oh [p] I really appreciate it, but it's the agency.. I don't have the contacts or the means."
+        p "Fuck em'."
+        p "We'll figure something out."
+        p "It's the age of the internet. I'm sure we can market your modelling pictures somewhere."
+        p "Leave it to me."
+        m "..."
+        m "Don't put this onto yourself, if you-"
+        p "I'm not, [mr]. Come on!"
+        p "You've got the looks already, this makes the rest easy!"
+        m "Fufu~"
+        m "You always know how to cheer me up."
+        p "Haha, take care in the meantime."
+        "If [mr] loses her job, I'll need a camera at the very least to continue taking shots."
+        "It won't be cheap, but it's the least I can do."
+        $ amandakitchenlvl += 1
         jump hallway
 
     scene ak-1
