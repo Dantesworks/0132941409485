@@ -289,7 +289,53 @@ label amandakitchen:
         "It won't be cheap, but it's the least I can do."
         $ amandakitchenlvl += 1
         jump hallway
-
+    if amandalvl == 5:
+        scene black
+        scene ak-1 with fade
+        play music "sounds/wisteria.mp3" fadeout 1
+        p "I ask this alot, but how'd work go?"
+        m "It's the same pattern. Hours are getting shorter and shorter."
+        m "I'm not sure how sustainable it will be in the future."
+        m "I had a think about this plan of yours."
+        p "Really? What did you think?"
+        m "Well, I spoke to one of my friends in the industry, and she told me a few things that we need."
+        m "We need to have some sort of camera to start off with, and we need to advertise ourselves."
+        p "Easy, right?"
+        m "I'd like to think so, but those are two things that I don't have access to."
+        m "I don't know how to work a camera, or even how to choose one. On top of that, how can I advertise myself?"
+        m "That's what the agency is supposed to be for, and they don't even want me."
+        p "Leave it all to me, I'll figure something out."
+        p "I can source a camera, no worries. I did a little bit of photography in university."
+        p "As for the marketing, posting it on websites and stuff will do, but I'll ask around. We can build it up slowly."
+        p "I'm confident that once we get you out there, your pictures will do the rest."
+        m "Are you sure, [p]?"
+        p "I'm confident."
+        p "Just keep working as you are. I'll let you know when I've got a camera, and we can start there."
+        m "Thank you so much."
+        p "No worries, [mr]. You did the same for me."
+        $ amandakitchenlvl += 1
+        jump hallway
+    if amandalvl == 6:
+        scene black
+        scene ak-1 with fade
+        play music "sounds/wisteria.mp3" fadeout 1
+        p "Not too tired from work I hope?"
+        m "Work is always tiring, but I've been waiting the whole day to get back home."
+        m "You said you were going to take some pictures of me?"
+        p "Haha, I'm a bit rusty, but yes."
+        p "So, I'm not actually too knowledgeable about how photoshoots work."
+        p "Do you just stand there, and then I take pictures?"
+        m "Well usually, there's an outfit picked for me, and I do a few poses. The photographer might also instruct me to do something as well."
+        p "What does the photographer tell you to do?"
+        m "Specific poses, facial expressions, anything."
+        p "Oh cool. What about the outfit part? I haven't really got an outfit for you, haha."
+        m "Hmm, maybe I can dig through what I already own."
+        m "Like I said before, its not usual that I get to take outfits home."
+        p "Sounds like a plan."
+        p "Let's go to your room."
+        p "To be honest, I'm really new to this. I feel like you'll be giving {i}me{/i} the instructions!"
+        m "Oh don't worry [p]. Look at it like we're having fun together."
+        ## Transition
     scene ak-1
     p "Hey, I love you [mr]!"
     scene ak-2

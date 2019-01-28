@@ -49,6 +49,7 @@ label amandatalk:
     if amandalvl == 2 and amandakitchenlvl == 2 and day > amandatalk:
         scene black
         scene a-2 with fade
+        $ amandashow = ["1"]
         play music "sounds/wisteria.mp3" fadeout 1
         p "Good morning, [mr]!"
         p "Getting ready for another day of work?"
@@ -108,13 +109,65 @@ label amandatalk:
         m "I guess we'll see."
         p "I'm sorry I brought it up."
         m "Oh, that's okay. I'll see you in the evening, okay?"
-        p "Sure thing, [mr]!"
+        p "Take it easy, [mr]."
         $ amandalvl += 1
         $ amandatalk = day
         jump amanda_room
-
-
-
+    if amandalvl == 4 and amandakitchenlvl == 4 and day > amandatalk:
+        scene black
+        scene a-1 with fade
+        play music "sounds/wisteria.mp3" fadeout 1
+        p "Hi [mr]."
+        m "Good to see you [p]."
+        m "I was... thinking about what you said the other day."
+        p "About not relying on the agency?"
+        m "Yes, but how is that going to work?"
+        m "The agency gives me work, how could I possibly find work without them?"
+        p "Like I said, it's the age of the internet."
+        p "It's easy to reach people these days."
+        m "How are we going to do that?"
+        p "We just need to get you out there. Get an audience."
+        p "Afterward, set up a Patreon, or something like that."
+        m "People will pay money for my pictures?"
+        p "People don't {i}have{/i} to pay on Patreon, but only cheap fucks freeload."
+        m "Hmm..."
+        m "That sounds a little exciting."
+        m "But will people really pay money? For me?"
+        p "You're a beautiful woman, [mr]. Of course they will."
+        p "The stupid agency has gotten you doubting yourself."
+        p "Leave it to me, I'll sort something out."
+        m "You're too sweet."
+        m "I'll see you when I'm back from work."
+        "Hmm, we might be able to make something new."
+        $ amandalvl += 1
+        $ amandatalk = day
+        jump amanda_room
+    if amandalvl == 5 and amandakitchenlvl == 5 and day > amandatalk and DSLR == True:
+        scene black
+        scene a-1 with fade
+        play music "sounds/wisteria.mp3" fadeout 1
+        p "Exciting news, [mr]!"
+        p "I got us a camera!"
+        p "Cost me a pretty penny too."
+        m "Is it one of those 'pro' ones?"
+        p "It's a DSLR camera, all the pros use them."
+        m "So how is it going to work?"
+        p "Just go to work as usual, and when you come back in the evening, we can start taking pictures."
+        p "We can build it up slowly so that we have solid content to release to people."
+        m "You're having me work throughout the whole day!"
+        p "Ahaha, sorry [mr]. Do you think it might be better if you quit your job first?"
+        m "Well, this is all very exciting, but I think I'll keep my job for now, even if it's not going too well."
+        m "If this thing takes off, maybe I could look at quitting then."
+        p "I just don't want you to burn out from working too long."
+        m "Oh don't worry, [mr] was just teasing!"
+        m "I enjoyed our evening session last time, and that was kind of like modelling, no?"
+        m "I'm sure it'll be a lot of fun."
+        p "Awesome, we'll give it a go when you come back tonight."
+        p "Take care, [mr]!"
+        m "You too, sweetie!"
+        $ amandalvl += 1
+        $ amandatalk = day
+        $ amandakitchen = True
     scene a-1
     p "Looking good [mr]!"
     scene a-6 with dissolve

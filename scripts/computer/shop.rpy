@@ -1,6 +1,6 @@
 default DSLR = False
-default 50mm = False
-default 85mm = False
+default primes_50 = False
+default primes_85 = False
 default Zoom = False
 default tripod = False
 default bogged = False
@@ -10,7 +10,7 @@ label online_shop:
         "Camera Equipment":
             jump camera_equipment
         "Favours from Bogdanoff":
-            if bogged:
+            if bogged == True:
                 "Bogdanoffs will only manipulate the market for you once per day."
                 jump online_shop
             else:
@@ -28,20 +28,20 @@ label camera_equipment:
                 $ DSLR = True
                 "Thankyou for your purchase."
             jump camera_equipment
-        "50mm Prime Lens - $500" if 50mm == False:
+        "50mm Prime Lens - $500" if primes_50 == False:
             if cash < 500:
                 "Transaction failed - insufficient funds."
             else:
                 $ cash =- 500
-                $ 50mm = True
+                $ primes_50 = True
                 "Thankyou for your purchase."
             jump camera_equipment
-        "85mm Prime Lens - $1000" if 85mm == False:
+        "85mm Prime Lens - $1000" if primes_85 == False:
             if cash < 1000:
                 "Transaction failed - insufficient funds."
             else:
                 $ cash =- 1000
-                $ 85mm = True
+                $ primes_85 = True
                 "Thankyou for your purchase."
             jump camera_equipment
         "70-200mm HQ Zoom Lens - $1500" if Zoom == False:
@@ -65,6 +65,7 @@ label camera_equipment:
     jump online_shop
 
 label bog:
+    "Hello"
     menu:
         "Reset BCC value to 10 - $10":
             "Are you sure?"
@@ -75,9 +76,18 @@ label bog:
                 "No":
                     jump bog
         "Pump it (Increases BCC value by 100) - $200":
-            $ exchangeRate += 100
-            $ bogged = True
-        "Dump it (Decreases BCC value by 20%) - $200":
-            $ exchangeRate = exchangeRate*0.8
-            $ bogged = True
+            if cash < 200:
+                "Transaction failed - insufficient funds."
+            else:
+                $ exchangeRate += 100
+                $ bogged = True
+                "We're all going to make it."
+        "Dump it (Decreases BCC value by 20 percent) - $200":
+            if cash < 200:
+                "Transaction failed - insufficient funds."
+            else:
+                $ exchangeRate = exchangeRate*0.8
+                $ bogged = True
+                "We're all going to make it."
+
     jump online_shop
