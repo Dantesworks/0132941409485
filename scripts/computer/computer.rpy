@@ -31,11 +31,11 @@ screen computer():
         idle "logo_treasured.png"
         hover "logo_treasured_hover.png"
         action Jump("gallery1")
-    imagebutton: ## Characters
+    imagebutton: ## Shop
         focus_mask True
         idle "logo_characters.png"
         hover "logo_characters_hover.png"
-        action Jump("profile")
+        action Jump("online_shop")
     imagebutton: ## Gallery
         focus_mask True
         idle "logo_gallery.png"

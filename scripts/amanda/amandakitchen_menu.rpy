@@ -232,7 +232,7 @@ label amandakitchen:
         m "Goodnight, [p]."
         p "See you tomorrow, [mr]."
         $ amandakitchenlvl += 1
-        call daykeep from _call_daykeep_5
+        call daykeep
         jump hallway
     if amandalvl == 4:
         scene black
@@ -336,8 +336,389 @@ label amandakitchen:
         p "To be honest, I'm really new to this. I feel like you'll be giving {i}me{/i} the instructions!"
         m "Oh don't worry [p]. Look at it like we're having fun together."
         ## Transition
+        m "So, what do you want me to do?"
+        p "Do you want to put on an outfit? Or maybe just wear the one you have now?"
+        m "Hmm..."
+        m "What would you like me to wear?"
+        p "Well..."
+        p "You're wearing kind of professional looking clothes, I guess its a good place to start."
+        m "Oh come on, I'm not wearing what I usually wear to work."
+        m "We can go with professional, but let's choose a different outfit."
+        p "Okay, sure. Whatcha got?"
+        m "Turn around and close your eyes, I'll show you."
+        ## Turn around
+        scene ae-2 with fade
+        "..."
+        "So [mr]'s going with professional..."
+        "I wonder if the outfit will be spicy enough to draw in an audience..."
+        m "Let's see..."
+        "..."
+        p "Is everything okay?"
+        m "Well, I'm thinking of something conservative."
+        "Aww."
+        menu:
+            "Wait for [mr] to put on her outfit.":
+                "Professional and conservative. I wonder how she'll pull it off."
+                "..."
+            "Sneak a peek.":
+                $ depravity += 1
+                "I might as well steal a look if I'm getting no treats later."
+                scene ae-1 with fade
+                "Mmmmmm....."
+                "She is so hot, I can't believe the modelling agency doesn't want her."
+                "Those lucious legs and those thighs - what a thigh gap."
+                "If we can harness this potential, we could make something really big."
+                "Alright [p], keep it together!"
+                scene ae-2 with fade
+                "..."
+        m "Done!"
+        scene amanda3 with fade:
+            pos (0.0, -3.22)
+            linear 6 pos (0.0, 0.0)
+        $ renpy.pause(6.0,hard=True)
+        $ renpy.pause ()
+        m "Classy and professional."
+        m "I added the glasses for the extra touch."
+        p "It looks amazing, {i}You{/i} look amazing."
+        m "Do you think people would like this?"
+        p "Definitely!"
+        p "Tons of people dig the more reserved look with glasses."
+        p "People love glasses."
+        p "We could slowly build up the portfolio to have a wide range of outfits."
+        p "From covered up, to you... well, you know."
+        m "To skimpy?"
+        p "I didn't want to say it, but yeah, sex sells."
+        m "Well! I don't have a wardrobe full of stripper clothes. Do you think that's appropriate for my portfolio?"
+        p "Umm, I'm not talking about that level of clothing, but like, in general, I think we could go for a variety of looks."
+        p "Just like at your work, right?"
+        m "You can be the photographer - keep on the lookout for clothing that you'd like me to wear!"
+        p "Sure thing, I'll look around."
+        p "So, do you wanna get into a few poses and I'll snap a few shots?"
+        m "Would you like to direct me?"
+        p "You probably have more experience than me, ahha."
+        p "I'll do some reading on how to take photos and direct models."
+        p "In the meantime, can you go through a few standard poses."
+        m "Aww, its more fun and interesting when I get directions, but sure, I'll lead this session."
+        ## Poses
+        ## Poses finished
+        p "Just absolutely stunning pictures."
+        m "Looks like you got some great pictures."
+        p "The pictures are only as good as the model."
+        m "There you go again!"
+        p "So, what can you say about this oufit?"
+        m "I imagine this is what a smart casual doctor's outfit might look like."
+        m "Like a sexy doctor."
+        p "So you can cure things."
+        p "Like this tension in my pants..."
+        m "Sorry?"
+        p "Nothing."
+        m "Well, this has been a fun session, but I've got work again tomorrow."
+        m "Let's get better together, and hopefully I won't have to work there anymore."
+        p "I'll be your manager and your photographer."
+        p "If we take off, I want some part of the cut, hehehe..."
+        m "You'll have to get good at giving directions first!"
+        p "Don't worry, I'll work on it."
+        m "I'm counting on it."
+        $ amandakitchenlvl += 1
+        call daykeep from _call_daykeep_5
+        jump hallway
+    if amandalvl == 7 and (long_gown or security_dress or gym_clothes): ## Room photoshoot
+        scene black
+        scene ak-1 with fade
+        play music "sounds/wisteria.mp3" fadeout 1
+        p "Evening [mr]."
+        p "Hope work was fun."
+        m "It was alright! Have you spotted some nice looking clothes I should wear?"
+        p "A woman like you doesn't need clothes to look nice!"
+        m "Aww, thankyou."
+        "I meant that in multiple ways..."
+        p "But really, I got the clothes, [mr]!"
+        m "Wow, I can't wait to see what you have in mind!"
+        m "Which one am I trying on today?"
+        menu:
+            "Long Gown" if long_gown == True and long_gown_done == False:
+                $ long_gown_done = True
+                call long_gown_scene
+            "Security Dress" if security_dress == True and security_dress_done == False:
+                $ security_dress_done = True
+                call security_dress_scene
+            "Gym Clothes" if gym_clothes == True and gym_clothes_done == False:
+                $ gym_clothes_done = True
+                call gym_clothes_dress_scene
+            "Actually, I haven't bought the outfit I wanted yet.":
+                jump kitchen
+        $ amandakitchenlvl += 1
+        call daykeep
+        jump hallway
+    if amandalvl == 8 and (long_gown or security_dress or gym_clothes): ## Room photoshoot 2
+        scene black
+        scene ak-1 with fade
+        play music "sounds/wisteria.mp3" fadeout 1
+        p "Hiya!"
+        p "Excited for our next session?"
+        m "Hello to you too, [p]."
+        m "Work tires me out, but I always get energy when our sessions are about to start."
+        m "I've been thinking all day about what you've picked for me."
+        p "I hope I won't dissappoint..."
+        menu:
+            "Long Gown" if long_gown == True and long_gown_done == False:
+                $ long_gown_done = True
+                call long_gown_scene
+            "Security Dress" if security_dress == True and security_dress_done == False:
+                $ security_dress_done = True
+                call security_dress_scene
+            "Gym Clothes" if gym_clothes == True and gym_clothes_done == False:
+                $ gym_clothes_done = True
+                call gym_clothes_dress_scene
+            "Actually, I haven't bought the outfit I wanted yet.":
+                jump kitchen
+        $ amandakitchenlvl += 1
+        call daykeep
+        jump hallway
+    if amandalvl == 9 and (long_gown or security_dress or gym_clothes): ## Room photoshoot 3
+        scene black
+        scene ak-1 with fade
+        play music "sounds/wisteria.mp3" fadeout 1
+        p "Hello [mr]!"
+        p "Today's photo are gonna be important."
+        p "Well, they all are, but it's our best chance to show Vincent what we've got."
+        m "You're making me stressed out, and I do this for a living!"
+        m "What's the outfit I'm going to be wearing this time?"
+        menu:
+            "Long Gown" if long_gown == True and long_gown_done == False:
+                $ long_gown_done = True
+                call long_gown_scene
+            "Security Dress" if security_dress == True and security_dress_done == False:
+                $ security_dress_done = True
+                call security_dress_scene
+            "Gym Clothes" if gym_clothes == True and gym_clothes_done == False:
+                $ gym_clothes_done = True
+                call gym_clothes_dress_scene
+            "Actually, I haven't bought the outfit I wanted yet.":
+                jump kitchen
+        $ amandakitchenlvl += 1
+        call daykeep
+        jump hallway
     scene ak-1
     p "Hey, I love you [mr]!"
     scene ak-2
     m "I love you too sweetie!"
     jump kitchen
+
+## Photoshoot scenes
+label long_gown_scene:
+    p "This one is really fancy."
+    p "It's a bit more... revealing though."
+    m "I see what you mean."
+    m "Is this what you want to see on me?"
+    p "Well, it's probably what the audience wants to see."
+    m "Don't you think it might be pushing it a bit?"
+    p "Aaha, [mr], it's good to have a good range in the portfolio!"
+    m "Alright, dear. Turn around for a minute and I'll get it on."
+    ## Turn around
+    scene ae-2 with fade
+    "..."
+    "I can't wait to see her wear the gown. I think it'll look real nice on her."
+    "..."
+    p "Is eveything okay?"
+    m "Sorry, I'm not used to wearing something like this!"
+    p "Shouldn't be too much to work out."
+    "It's barely any clothing anyway, hehe."
+    menu:
+        "Wait for [mr] to put on the gown.":
+            "It's better to play it safe..."
+            "..."
+        "Sneak a peek.":
+            $ depravity += 1
+            "For... research purposes."
+            scene ae-1 with fade
+            "Oh..."
+            "Yeah..."
+            m "I hope you've still got your eyes closed~"
+            "Shit!"
+            scene ae-2 with fade
+            "..."
+    m "You can turn around now, [p]."
+    scene amanda3 with fade:
+        pos (0.0, -3.22)
+        linear 6 pos (0.0, 0.0)
+    $ renpy.pause(6.0,hard=True)
+    $ renpy.pause ()
+    "Damn..."
+    m "[p]! Are you going to pick your jaw up for the floor?"
+    p "Eh uh, had a ministroke there."
+    m "You really know how to pick a nice looking outfit!"
+    p "It's not the outfit, it's the woman."
+    m "You make me one happy [mr]~"
+    m "So, what shots will you take? Mr Photographer?"
+    p "Let's see...."
+    p "I'll focus on the shots for now, and you work the poses."
+    menu photoshoot1:
+        "Head" if photo1 == False:
+            $ photo1 = True
+            jump photoshoot1
+        "Front" if photo2 == False:
+            $ photo2 = True
+            jump photoshoot1
+        "Back" if photo3 == False:
+            $ photo3 = True
+            jump photoshoot1
+        "Done" if photo1 == True and photo2 == True and photo 3 == True:
+            $ photo1 = False
+            $ photo2 = False
+            $ photo3 = False
+    p "You're a stunner, [mr]."
+    m "Of course I am!"
+    m "Aren't you proud of having such a beauitful [mr]?"
+    p "I will be if this takes off!"
+    m "Fufufu~"
+    p "So what did you think of this outfit?"
+    m "It's beautiful, but a little revealing."
+    p "You don't like showing skin, [mr]?"
+    m "I supposed I do it occasionally at work, but it's something that I just have to be more comfortable with."
+    p "Be confident and just express yourself, I think."
+    m "Did you take that line from the book?"
+    p "...maybe."
+    m "It sounded like something an actual photographer would say."
+    p "I {i}am{/i} an actual photographer."
+    m "That's cute."
+    m "See you next time, [p]."
+    p "See you."
+    return
+label security_dress_scene:
+    p "Hahahah!"
+    p "This one really is something."
+    m "I see..."
+    m "Feeling naughty, [p]?"
+    m "Need some discipline?"
+    p "Christ, you're not even in the outfit yet."
+    p "Get in character then!"
+    m "As you wish~"
+    m "You know the drill."
+    p "Alright."
+    ## Turn around
+    scene ae-2 with fade
+    "..."
+    "Spicy stuff, can't wait to see her put it on."
+    menu:
+        "Wait for [mr] to put on the dress.":
+            "I better be a good boy, or she might discipline me...hehe"
+            "..."
+        "Sneak a peek.":
+            $ depravity += 1
+            "It would be fitting to play the criminal..."
+            scene ae-1 with fade
+            "What would she even do to me if she found me looking?"
+            "Maybe I should get caught on purpose one of these days."
+            "..."
+            "God that ass."
+            scene ae-2 with fade
+            "..."
+    m "I'm ready."
+    scene amanda3 with fade:
+        pos (0.0, -3.22)
+        linear 6 pos (0.0, 0.0)
+    $ renpy.pause(6.0,hard=True)
+    $ renpy.pause ()
+    p "What can I say?"
+    p "Amazing as always."
+    m "Good choice from you too!"
+    m "It's a fierce outfit - I feel strong."
+    m "Sexy and strong."
+    p "I'm glad you like as it as much as I do."
+    p "I'm going to take a few shots now."
+    menu photoshoot2:
+        "Head" if photo1 == False:
+            $ photo1 = True
+            jump photoshoot2
+        "Front" if photo2 == False:
+            $ photo2 = True
+            jump photoshoot2
+        "Back" if photo3 == False:
+            $ photo3 = True
+            jump photoshoot2
+        "Done" if photo1 == True and photo2 == True and photo 3 == True:
+            $ photo1 = False
+            $ photo2 = False
+            $ photo3 = False
+    p "I think people will really like these shots."
+    p "Good job [mr]."
+    m "You're the one who set this all up, thank you."
+    p "It's nothing at all, like I said. I'm happy to help."
+    p "I think we just need to get a few more photos, then we can think about marketing it."
+    m "I'll leave it in your capable hands."
+    p "Sounds good. See you later [mr]."
+    m "See you."
+    return
+label gym_clothes_scene:
+    p "I wonder what you'll think about this one."
+    m "Haha, seriously?"
+    m "I haven't worn something like this since I was a school girl."
+    m "Are people into this?"
+    p "Trust me, they are."
+    p "Ooooh yes. They are."
+    m "Okay, let's see if this will fit me..."
+    ## Turn around
+    scene ae-2 with fade
+    "..."
+    "This is a more innocent look. We're really going to cover the whole range."
+    menu:
+        "Wait for [mr] to put on the outfit.":
+            "..."
+        "Sneak a peek.":
+            $ depravity += 1
+            "Let's play the school pervert."
+            scene ae-1 with fade
+            "I was never one to peek at girls in the changing room."
+            "But then again, the average girl don't look like [mr]."
+            "I have a beautiful [mr]."
+            scene ae-2 with fade
+            "..."
+    m "This is kinda tight, but I'm done."
+    scene amanda3 with fade:
+        pos (0.0, -3.22)
+        linear 6 pos (0.0, 0.0)
+    $ renpy.pause(6.0,hard=True)
+    $ renpy.pause ()
+    p "I feel like I've done something very right, or very wrong."
+    m "What do you mean?"
+    p "It's just, well..."
+    p "You must've been very popular in high school [mr]."
+    m "I had a few boys coming my way back then."
+    p "If you weren't my [mr], I might just have been one of them."
+    m "You are so flattering!"
+    m "Work your magic, Mr Photographer!"
+    menu photoshoot3:
+        "Head" if photo1 == False:
+            $ photo1 = True
+            jump photoshoot3
+        "Front" if photo2 == False:
+            $ photo2 = True
+            jump photoshoot3
+        "Back" if photo3 == False:
+            $ photo3 = True
+            jump photoshoot3
+        "Done" if photo1 == True and photo2 == True and photo 3 == True:
+            $ photo1 = False
+            $ photo2 = False
+            $ photo3 = False
+    p "Did you use to wear something like this back in school?"
+    m "Yes, but not frequently."
+    m "I was never a fan of sports."
+    m "Running around was always a chore."
+    p "Oh, how come?"
+    m "It's a problem men like you won't understand~"
+    p "Ah, I see."
+    p "Thanks for the good work today, [mr]."
+    p "Jeez, I'm getting tired!"
+    m "Me too, I'll see you tomorrow."
+    p "Goodnight."
+    return
+## Tracking
+default photo1 = False
+default photo2 = False
+default photo3 = False
+
+default long_gown_done = False
+default security_dress_done = False
+default gym_clothes_done = False

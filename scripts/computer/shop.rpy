@@ -3,12 +3,22 @@ default primes_50 = False
 default primes_85 = False
 default Zoom = False
 default tripod = False
+default guide = False
+
+default long_gown = False
+default security_dress = False
+default gym_clothes = False
+
 default bogged = False
 
+
 label online_shop:
+    scene wallpaper
     menu:
         "Camera Equipment":
             jump camera_equipment
+        "Outfits":
+            jump outfits
         "Favours from Bogdanoff":
             if bogged == True:
                 "Bogdanoffs will only manipulate the market for you once per day."
@@ -24,7 +34,7 @@ label camera_equipment:
             if cash < 400:
                 "Transaction failed - insufficient funds."
             else:
-                $ cash =- 400
+                $ cash -= 400
                 $ DSLR = True
                 "Thankyou for your purchase."
             jump camera_equipment
@@ -32,7 +42,7 @@ label camera_equipment:
             if cash < 500:
                 "Transaction failed - insufficient funds."
             else:
-                $ cash =- 500
+                $ cash -= 500
                 $ primes_50 = True
                 "Thankyou for your purchase."
             jump camera_equipment
@@ -40,7 +50,7 @@ label camera_equipment:
             if cash < 1000:
                 "Transaction failed - insufficient funds."
             else:
-                $ cash =- 1000
+                $ cash -= 1000
                 $ primes_85 = True
                 "Thankyou for your purchase."
             jump camera_equipment
@@ -48,7 +58,7 @@ label camera_equipment:
             if cash < 1500:
                 "Transaction failed - insufficient funds."
             else:
-                $ cash =- 1500
+                $ cash -= 1500
                 $ Zoom = True
                 "Thankyou for your purchase."
             jump camera_equipment
@@ -56,16 +66,48 @@ label camera_equipment:
             if cash < 100:
                 "Transaction failed - insufficient funds."
             else:
-                $ cash =- 100
+                $ cash -= 100
                 $ tripod = True
                 "Thankyou for your purchase."
             jump camera_equipment
+        "Guide to Photography in the Modelling Industry - $50" if guide == False:
+            if cash < 50:
+                "Transaction failed - insufficient funds."
+            else:
+                $ cash -= 50
+                $ guide = True
+                "Thankyou for your purchase."
+                p "Hmm, I should be able to take better pictures and direct [mr] now."
+        "Back":
+            jump online_shop
+    jump online_shop
+
+label outfits:
+    menu:
+        "Long Gown - $50" if long_gown == False:
+            if cash < 50:
+                "Transaction failed - insufficient funds."
+            else:
+                $ cash -= 50
+                $ long_gown = True
+                "Thankyou for your purchase."
+        "Security Dress - $50" if security_dress == False:
+            if cash < 50:
+                "Transaction failed - insufficient funds."
+            else:
+                $ cash -= 50
+                $ security_dress = True
+        "Gym Clothes - $50." if gym_clothes == False:
+            if cash < 50:
+                "Transaction failed - insufficient funds."
+            else:
+                $ cash -= 50
+                $ gym_clothes = True
         "Back":
             jump online_shop
     jump online_shop
 
 label bog:
-    "Hello"
     menu:
         "Reset BCC value to 10 - $10":
             "Are you sure?"
@@ -89,5 +131,6 @@ label bog:
                 $ exchangeRate = exchangeRate*0.8
                 $ bogged = True
                 "We're all going to make it."
-
+        "Back":
+            jump online_shop
     jump online_shop

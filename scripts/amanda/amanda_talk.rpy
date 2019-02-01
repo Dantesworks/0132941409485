@@ -86,7 +86,7 @@ label amandatalk:
         $ amandalvl += 1
         $ amandatalk = day
         jump amanda_room
-    if amanda lvl == 3 and amandakitchenlvl == 3 and day > amandatalk:
+    if amandalvl == 3 and amandakitchenlvl == 3 and day > amandatalk:
         scene black
         scene a-2 with fade
         play music "sounds/wisteria.mp3" fadeout 1
@@ -167,7 +167,86 @@ label amandatalk:
         m "You too, sweetie!"
         $ amandalvl += 1
         $ amandatalk = day
-        $ amandakitchen = True
+        jump amanda_room
+    if amandalvl == 6 and amandakitchenlvl == 6 and day > amandatalk and guide == True:
+        scene black
+        scene a-1 with fade
+        play music "sounds/wisteria.mp3" fadeout 1
+        p "Good morning [mr]."
+        m "Good morning to you too, [p]!"
+        p "I did some reading on the whole modelling and photography thing."
+        p "I think we could definitely try taking some pictures when you come back from work."
+        m "Can you give me directions?"
+        p "I'm still working on that bit. I think I should work on camera angles first."
+        m "That's good to hear!"
+        m "A good photographer always has an outfit picked out for their model - have you any for me?"
+        p "I'll make sure to pick a nice outfit before we have our next shoot."
+        m "I'm looking fowrward to it!"
+        $ amandalvl += 1
+        $ amandatalk = day
+        jump amanda_room
+    if amandalvl == 7 and amandakitchenlvl == 7 and day > amandatalk:
+        scene black
+        scene a-1 with fade
+        play music "sounds/wisteria.mp3" fadeout 1
+        p "How was the photoshoot yesterday, [mr]?"
+        m "It was really fun."
+        m "You were like a real pro!"
+        m "If we keep at it for a few more sessions, I'm sure you can move on to giving directions!"
+        p "I know, I'm a slow learner. I'm still figuring out the different types of shots."
+        p "What's an example of a direction I could give?"
+        m "You could tell me to look at the camera, arch my back, bite my lip..."
+        m "That sort of direction."
+        p "Sounds exciting, but I'll master taking shots for the next two sessions, and then I'll try some of that."
+        m "If you please!"
+        $ amandalvl += 1
+        $ amandatalk = day
+        jump amanda_room
+    if amandalvl == 8 and amandakitchenlvl == 8 and day > amandatalk and nicolelvl >= 6:
+        scene black
+        scene a-1 with fade
+        play music "sounds/wisteria.mp3" fadeout 1
+        p "Good morning, [mr.]"
+        m "Good morning, [p!]!"
+        p "You know I've been thinking about how to market you and get break you into the scene."
+        m "That parts always the challenge, isn't it?"
+        p "It is, but I think I can call on someone for help."
+        p "It's a long story, but I've got a friend called Vincent. He works in the photo industry."
+        p "I think I'll give him a call and see if he has any tips."
+        p "Actually, I can just call him now."
+        m "You know some interesting people!"
+        p "Give me a moment..."
+        p "He gave me his number before..."
+        p "{i}Buzz... buzz{/i}."
+        v "Hey there, Vincent here. Professional photography, modelling services and more. How can I help?"
+        p "Um, hey Vincent. It's me, [p]."
+        v "...[p]?"
+        v "Jesus man, I thought you'd never call."
+        v "How's it going?"
+        p "I'm going good, Vincent. Hey listen."
+        p "You said you worked at some photography business right?"
+        v "I do a bit of this and a bit of that, what's up?"
+        p "My [mr]'s a model, but she's considering going freelance."
+        p "Do you have any insights about how she can have her breakthrough to reach a large audience?"
+        v "Well, I have a few ideas, but we should talk about it over coffee or something."
+        v "You should also show me a few pictures, that way I'd know where she could fit into the market."
+        p "Oh that's no problem at all."
+        p "I'm going to take more pictures tonight, so I chat with you tomorrow."
+        v "Cool. How does coffee tomorrow morning sound?"
+        p "I'm good with that, I'll see you at the cafe tomorrow."
+        v "see you tomorow"
+        "..."
+        p "Looks like I've got some contacts in the business!"
+        m "What did he say?"
+        p "He said that he's got a few ideas for us, but that he'd need to see your pictures first."
+        p "You know, to kind of get an idea of what you're going for."
+        m "Sounds fair."
+        p "We'll meet up tomorrow after we get the shoot done tonight."
+        m "More to look forward to!"
+        $ amandalvl += 1
+        $ amandatalk = day
+        jump amanda_room
+
     scene a-1
     p "Looking good [mr]!"
     scene a-6 with dissolve
