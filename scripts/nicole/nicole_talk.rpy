@@ -586,6 +586,37 @@ label nicoletalk:
         $ nicolelvl += 1
         $ nicoleday = day
         jump player_room
+    ## Future scene where nicolelvl = 6
+    if nicolelvl == 7 and day > nicoleday:
+        scene black
+        scene n-4 with fade
+        play music "sounds/beach.mp3" fadeout 1
+        p "And how's my beautiful girlfriend doing?"
+        scene n-3
+        n "I'm doing very well [p]. And you?"
+        p "Good, good."
+        scene n-7 with dissolve
+        n "You're just talking to me because you want my phone, aren't you?"
+        p "..."
+        p "I only want the phone so I can start to call and text you."
+        scene n-14
+        n "Hahahah!"
+        scene n-9 with dissolve
+        n "It's fine, I was the one nagging you to get a phone."
+        scene n-17 with fade
+        n "Well here it is."
+        n "Do you have anything for me?"
+        p "Only my love and affection."
+        scene n-24 with dissolve
+        n "Let me sample that."
+        scene n-29 with dissolve
+        n "Mhmm..."
+        scene n-30 with dissolve
+        n "Enjoy your present, [p]."
+        p "Thank you. I will."
+        $ nicolelvl += 1
+        $ nicoleday = day
+        jump kitchen
     scene n-4
     p "Still lazing around I see?"
     scene n-3

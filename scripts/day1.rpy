@@ -13,6 +13,9 @@ define ellie = Character("Cafe girl")
 define x = Character("???")
 define v = Character("Vincent")
 define d = Character("Dante")
+define a = Character("Announcer")
+define g1 = Character("Guest 1")
+define g2 = Character("Guest 2")
 # The game starts here.
 
 label splashscreen:

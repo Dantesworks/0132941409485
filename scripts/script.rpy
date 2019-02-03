@@ -104,4 +104,8 @@ label base:
     scene living_room_idle with fade
     "Ahh, finally done."
     "I should probably head to [mr]'s room and try explain myself a bit better."
+    d "The free-roaming part of the game has started!"
+    d "Access the map in the top right corner in the hallway."
+    d "Advance time by sleeping, or by using the fast-forward button on the top left corner of the map."
+    d "Have fun!"
     jump living_room

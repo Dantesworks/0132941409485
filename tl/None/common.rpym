@@ -410,8 +410,8 @@ translate None strings:
     new "Skip Mode"
 
     # 00library.rpy:279
-    old "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
-    new "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
+    old ""
+    new ""
 
     # 00preferences.rpy:207
     old "display"
@@ -1148,4 +1148,3 @@ translate None strings:
     # 00console.rpy:639
     old "jump <label>: jumps to label"
     new "jump <label>: jumps to label"
-

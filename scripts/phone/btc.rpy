@@ -4,7 +4,7 @@ default balanceCash = 0
 default exchangeRate = 10
 
 label cryptoChange:
-    $ crypto_int = renpy.random.randint(-40, 70)
+    $ crypto_int = renpy.random.randint(-40, 67)
     $ crypto_float = float(crypto_int)
     $ crypto_ratio = crypto_float/100
     $ delta = exchangeRate*crypto_ratio

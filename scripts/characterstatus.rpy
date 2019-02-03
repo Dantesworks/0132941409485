@@ -105,6 +105,7 @@ label sleep:
         $ items.remove("coffee")
     if "water" in items:
         $ items.remove("water")
+    hide screen player_room
     jump player_room
 ## Daytime Screen
 screen daytime():
@@ -119,6 +120,18 @@ screen daytime():
         add "ui_night.png"
     add "cash_ui.png"
     text "[cash]" xanchor 1.0 xpos 270 ypos 73 size 24
+screen skip_evening:
+    zorder 3
+    imagebutton:
+        focus_mask True
+        idle "ui_skip_evening.png"
+        hover "ui_skip_evening_hover.png"
+        action [Hide("skip_evening"), Jump("skip_evening")]
+label skip_evening:
+    call daykeep from _call_daykeep_11
+    call daykeep from _call_daykeep_12
+    jump amanda_room
+
 ## Misc.
 define flash = Fade(0.1, 0.0, 0.5, color="#fff")
 label hidescreens:

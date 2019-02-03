@@ -97,12 +97,14 @@ label outfits:
             else:
                 $ cash -= 50
                 $ security_dress = True
+                "Thankyou for your purchase."
         "Gym Clothes - $50." if gym_clothes == False:
             if cash < 50:
                 "Transaction failed - insufficient funds."
             else:
                 $ cash -= 50
                 $ gym_clothes = True
+                "Thankyou for your purchase."
         "Back":
             jump online_shop
     jump online_shop

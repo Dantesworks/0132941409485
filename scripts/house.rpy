@@ -110,6 +110,8 @@ label amanda_room:
     hide screen map_icon
     show screen daytime
     show screen phone_icon
+    if daytime == 1:
+        show screen skip_evening
     if amandanight or daytime != 4:
         call screen amanda_room
         screen amanda_room():
@@ -131,7 +133,7 @@ label amanda_room:
                 focus_mask True
                 idle "back.png"
                 hover "back_hover.png"
-                action Jump("hallway")
+                action [Hide("skip_evening"), Jump("hallway")]
     jump amandalocked
 label player_room:
     if daytime != 4:
