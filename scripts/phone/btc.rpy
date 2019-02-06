@@ -23,7 +23,7 @@ screen btc():
     imagebutton: ## Home
         focus_mask True
         idle "phone/home.png"
-        action [Hide("btc"), PauseAudio("music", False), Stop("voice")]
+        action [Hide("btc"), Show("homescreen"), PauseAudio("music", False), Stop("voice")]
     imagebutton: ## Question
         focus_mask True
         idle "phone/question.png"

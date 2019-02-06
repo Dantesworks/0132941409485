@@ -9,7 +9,7 @@ label cgGallery:
             idle "back.png"
             hover "back_hover.png"
             action Jump("computer")
-        imagebutton: ## previous
+        imagebutton: ## next
             focus_mask True
             idle "logo_next.png"
             hover "logo_next_hover.png"

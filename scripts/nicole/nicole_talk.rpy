@@ -616,7 +616,7 @@ label nicoletalk:
         p "Thank you. I will."
         $ nicolelvl += 1
         $ nicoleday = day
-        jump kitchen
+        jump living_room
     scene n-4
     p "Still lazing around I see?"
     scene n-3

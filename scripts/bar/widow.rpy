@@ -1,0 +1,13 @@
+label widow:
+    p "Widowmaker?!."
+    p "God damn, Caroline wasn't lying when she said VIPs come here."
+    w "A gentleman would introduce himself."
+    p "My bad Miss Widowmaker, my name's [p]."
+    w "What a foolish name."
+    p "Hey!"
+    p "Look, I'm sorry to disturb you, but I'm a huge fan."
+    p "I play Overwatch all the time. I didn't know you were a real thing!"
+    w "{i}Thing?{/i} I am no thing, I am Widowmaker."
+    w "Go be a fly somewhere else, oui? Unless you want this spider will eat you."
+    "Jesus christ she is one cold bitch."
+    "I should probably buy her a drink, and maybe she'll warm up to me."

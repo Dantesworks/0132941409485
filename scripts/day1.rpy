@@ -16,6 +16,8 @@ define d = Character("Dante")
 define a = Character("Announcer")
 define g1 = Character("Guest 1")
 define g2 = Character("Guest 2")
+
+define w = Character("Widowmaker")
 # The game starts here.
 
 label splashscreen:

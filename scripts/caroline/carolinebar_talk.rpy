@@ -1,5 +1,5 @@
 label bartalk:
-    if carolinebarlvl == 1:
+    if carolinelvl == 2 and carolinebarlvl == 1:
         play music "sounds/dreams.mp3" fadeout 1
         scene black
         scene cb-5 with fade

@@ -1,6 +1,6 @@
 label Caroline:
     call hidescreens from _call_hidescreens
-    if carolinelvl == 1:
+    if carolinelvl == 1 and carolinebarlvl == 1:
         scene black
         scene cc-1 with fade
         p "Hey there. Caroline right?"

@@ -29,6 +29,11 @@ label barside:
     screen barside():
         if daytime == 4:
             add "barside"
+        imagebutton: ## widow
+            focus_mask True
+            idle "barside_widow_idle.png"
+            hover "barside_widow_hover.png"
+            action Jump("widow")
         imagebutton: ## back
             focus_mask True
             idle "back.png"
