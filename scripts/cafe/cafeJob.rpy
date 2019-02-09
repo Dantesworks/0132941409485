@@ -1,6 +1,5 @@
 label cafeJob:
-    hide screen map_icon
-    hide screen daytime
+    call hidescreens
     ellie "Just come on around the back."
     scene black with fade
     scene cafework with fade

@@ -1,5 +1,6 @@
 label kaira_sleep:
-    hide screen daytime
+    call hidescreens
+    hide screen phone_icon
     scene black
     scene ks-1 with fade
     "Kaira's sleeping in just her underwear."

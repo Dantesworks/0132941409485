@@ -12,15 +12,16 @@ screen caroline_profile():
         action [Show("homescreen"), Hide("caroline_profile")]
     viewport xalign 0.5 yanchor 0 ypos 480 xsize 350 ysize 420 draggable True mousewheel True arrowkeys True:
         vbox xsize 350:
-            text "When [p] met Kaira again, he discovered that she was no longer \
-the young girl she had once been. She had grown in many ways, and she knew this too. She hints that she is still not fully content, however and [p] has noted that there have been a few times where she expressed \
-envy when confronted by other woman with larger breasts than her. Nevertheless, she is learning to use guile and charm to manipulate \
-others to satisfy her desires, and who better to practise on than [p]? With the influence of caroline, she will be a \
-force to be reckoned with indeed. She put these skills to practise on the second day, wearing alluring outfits to catch the eye of \
-[p]. The day would culminate in an intimate experience between all parties involved, yet Kaira will deny remembering any of it." justify True size 20
+            text "Caroline is a medical student who is independent and capable. Despite her rigorous study, she works a part time job \
+at the local bar. If approached flirtatiously during work, Caroline would reject advances, demonstrating professionalism and responsibility. \
+She appears to be quite optimisic about the idea of love, and tells [p] that no matter how society may view a relationship, it should not matter if \
+the two people are truly in love with one another. While polite and reserved, Caroline attracts a level of respect from most people, and [p] \
+unwittingly gains more and more respect for her at every interaction." justify True size 18
     viewport xalign 0.5 yanchor 0 ypos 410 xsize 350 ysize 40 draggable True mousewheel True arrowkeys True:
         vbox xsize 350:
             if carolinelvl == 1 and carolinebarlvl == 1:
-                text "Go to the Cafe." justify True size 20
+                text "Go to the Cafe." justify True size 18
             if carolinelvl == 2 and carolinebarlvl == 1:
-                text "Go to the Bar." justify True size 20
+                text "Go to the Bar." justify True size 18
+            else:
+                text "Content complete for this version! Vote for this character on Patreon to see more." justify True size 18

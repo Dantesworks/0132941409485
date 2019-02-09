@@ -12,15 +12,13 @@ screen nicole_profile():
         action [Show("homescreen"), Hide("nicole_profile")]
     viewport xalign 0.5 yanchor 0 ypos 480 xsize 350 ysize 420 draggable True mousewheel True arrowkeys True:
         vbox xsize 350:
-            text "When [p] met Kaira again, he discovered that she was no longer \
-the young girl she had once been. She had grown in many ways, and she knew this too. She hints that she is still not fully content, however and [p] has noted that there have been a few times where she expressed \
-envy when confronted by other woman with larger breasts than her. Nevertheless, she is learning to use guile and charm to manipulate \
-others to satisfy her desires, and who better to practise on than [p]? With the influence of Nicole, she will be a \
-force to be reckoned with indeed. She put these skills to practise on the second day, wearing alluring outfits to catch the eye of \
-[p]. The day would culminate in an intimate experience between all parties involved, yet Kaira will deny remembering any of it." justify True size 20
+            text "[p] first met Nicole through Kaira. To say she made an impression was an understatment. \
+If her looks didn't betray her already, Nicole is a seductress. Her perfectly sculpted body, Kaira reveals, \
+may not have been entirely scuplted by nature, but perhaps in part by a surgical blade. Recognising the depravity within [p], \
+Nicole doesn't hesitate to goad him into actions he might not usually perform, including intimate experiences with his own [sr]. \
+The only certainty about Nicole is her confidence in her own appearance, and the willingness to augment herself to further sex appeal. \
+Other than that, her motivations regarding [p] and [sr] are an enigma, and is something that [p] has resolved himself to elucidate." justify True size 18
     viewport xalign 0.5 yanchor 0 ypos 410 xsize 350 ysize 40 draggable True mousewheel True arrowkeys True:
         vbox xsize 350:
-            text "once been. She had grown in many ways, and she knew this too. She hints that she is still not fully content, however and [p] has noted that there have been a few times where she expressed \
-            envy when confronted by other woman with larger breasts than her. Nevertheless, she is learning to use guile and charm to manipulate \
-            others to satisfy her desires, and who better to practise on than [p]? With the influence of Nicole, she will be a \
-            force to be reckoned with indeed. She put these skills to p" justify True size 20
+            if nicolelvl == 8:
+                text "Content complete for this version! Vote for this character on Patreon to see more." justify True size 18

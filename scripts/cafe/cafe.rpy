@@ -60,8 +60,7 @@ label ellie_menu:
             ellie "No worries, do come back if you change your mind!"
     jump cafe
 label nodrink:
-    hide screen daytime
-    hide screen map_icon
+    call hidescreens
     scene black
     "Don't tell me you're actually going to sit down with her without a drink in hand."
     "What are you, some kind of freeloader?"
