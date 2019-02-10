@@ -49,7 +49,7 @@ urges will triumph." justify True size 18
             elif amandalvl == 8 and amandakitchenlvl == 7:
                 text "Purchase some outfits, then talk to [mr] in the kitchen in the evening." justify True size 18
             elif amandalvl == 8 and amandakitchenlvl == 8:
-                text "Get a phone from Nicole, then talk to [mr] in her room in the morning." justify True size 18
+                text "Talk to [mr] in her room in the morning." justify True size 18
             elif amandalvl == 9 and amandakitchenlvl == 8:
                 text "Purchase some outfits, then talk to [mr] in the kitchen in the evening." justify True size 18
             elif amandalvl == 9 and amandakitchenlvl == 9:

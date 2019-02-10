@@ -1,5 +1,6 @@
 label kaira_sleep:
-    hide screen daytime
+    call hidescreens
+    hide screen phone_icon
     scene black
     scene ks-1 with fade
     "Kaira's sleeping in just her underwear."
@@ -15,7 +16,7 @@ label kaira_sleep:
             "I wonder what you're dreaming of."
             menu:
                 "Go further.":
-                    call wip
+                    call wip from _call_wip
                     "Alright, that's enough, I need to get out of here."
                     jump kaira_room
 

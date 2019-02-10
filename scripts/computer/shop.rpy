@@ -111,12 +111,17 @@ label outfits:
 
 label bog:
     menu:
-        "Reset BCC value to 10 - $10":
+        "Reset BCC value to 10 - $200":
             "Are you sure?"
             menu:
                 "Yes":
-                    $ exchangeRate = 10
-                    $ bogged = True
+                    if cash < 200:
+                        "Transaction failed - insufficient funds."
+                    else:
+                        $ exchangeRate = 10
+                        $ cash -= 200
+                        $ bogged = True
+                        "We're all going to make it."
                 "No":
                     jump bog
         "Pump it (Increases BCC value by 100) - $200":
@@ -124,6 +129,7 @@ label bog:
                 "Transaction failed - insufficient funds."
             else:
                 $ exchangeRate += 100
+                $ cash -= 200
                 $ bogged = True
                 "We're all going to make it."
         "Dump it (Decreases BCC value by 20 percent) - $200":
@@ -131,6 +137,7 @@ label bog:
                 "Transaction failed - insufficient funds."
             else:
                 $ exchangeRate = exchangeRate*0.8
+                $ cash-= 200
                 $ bogged = True
                 "We're all going to make it."
         "Back":

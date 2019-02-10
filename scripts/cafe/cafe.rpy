@@ -60,7 +60,7 @@ label ellie_menu:
             ellie "No worries, do come back if you change your mind!"
     jump cafe
 label nodrink:
-    call hidescreens
+    call hidescreens from _call_hidescreens_13
     scene black
     "Don't tell me you're actually going to sit down with her without a drink in hand."
     "What are you, some kind of freeloader?"

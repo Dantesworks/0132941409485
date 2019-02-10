@@ -1,5 +1,5 @@
 label kaira_sleep:
-    call hidescreens
+    call hidescreens from _call_hidescreens_14
     hide screen phone_icon
     scene black
     scene ks-1 with fade

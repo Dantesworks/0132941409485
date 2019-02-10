@@ -36,7 +36,12 @@ label gallery1:
                     action Jump("nicole_event2")
             else:
                 null
-            null
+            if widowlvl > 1:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/6.png"
+                    hover "gallery_buttons/6_hover.png"
+                    action Jump("widow_1")
             null
             null
             null

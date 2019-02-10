@@ -1,6 +1,5 @@
 label cafeJob:
-    hide screen map_icon
-    hide screen daytime
+    call hidescreens
     ellie "Just come on around the back."
     scene black with fade
     scene cafework with fade
@@ -8,5 +7,5 @@ label cafeJob:
     scene black with fade
     "You have gained $30!"
     $ cash += 30
-    call daykeep
+    call daykeep from _call_daykeep
     jump map

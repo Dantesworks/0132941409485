@@ -31,5 +31,6 @@ label renamer:
 
 label wip:
     scene black
-    "Work in progress! Check back later!"
+    d "Work in progress! Check back later!"
+    d "Vote Kaira and I promise you a scene next update."
     return

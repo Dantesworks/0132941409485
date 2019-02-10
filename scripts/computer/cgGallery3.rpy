@@ -49,7 +49,14 @@ label cgGallery3:
                     action Jump("g23")
             else:
                 null
-            null
+            if widowlvl > 1:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/24-i.png"
+                    hover "gallery_buttons/cGGallery/24-h.png"
+                    action Jump("g24")
+            else:
+                null
             null
             null
             null
@@ -68,5 +75,9 @@ label g22:
     jump cgGallery3
 label g23:
     scene 23
+    $ renpy.pause()
+    jump cgGallery3
+label g24:
+    scene 24
     $ renpy.pause()
     jump cgGallery3

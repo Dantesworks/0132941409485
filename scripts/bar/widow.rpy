@@ -1,5 +1,5 @@
 label widow:
-    call hidescreens
+    call hidescreens from _call_hidescreens_11
     scene black
     scene w-5 with fade
     p "Widowmaker?!"
@@ -126,51 +126,116 @@ label widowaskdone:
     w "Va te faire enculer!"
     p "Haha, alright. We'll see if you can still talk when your mouth's full."
     ## transition
+    scene w-13 with fade
     w "You should know, I'm only doing this to for the sake of Talon."
     w "You will tell me afterwards how you found the information, yes?"
+    scene w-14 with dissolve
     p "At the rate you're talking, you'll never find out."
     p "Come here, I've been dreaming of this moment for a long time."
+    scene w-15
     w "You blackmailing dog... how many have you done this to?"
     p "Blackmail? Don't make me laugh. You want this, don't you?"
+    scene w-16
     w "Let's just get this over with, I'm only doing this for intelligence."
     p "Whatever you say, but when this ends is up to you."
+    scene w-17 with dissolve
     p "Don't try to hide it now. You're wondering what's inside these pants, aren't you?"
     p "Now come here and warm up my dick, you slut."
+    scene w-18 with dissolve
     w "I... in my mouth?"
     p "Well it ain't gone suck itself."
+    scene w-19 with dissolve
+    w "..."
+    scene w-20 with dissolve
+    p "On your knees."
+    scene w-21 with dissolve
     w "I hate you."
     p "You will love me by the end of our time together, Amelie."
     p "Now come on, I'm not doing your work for you."
-    p "Lick the tip."
-    p "Good."
+    p "Now Lick the tip."
+    scene
+    $ renpy.movie_cutscene("animations/w1.mpg", loops=-1, stop_music=False)
+    scene w-22
+    p "Good girl."
     p "Now take me in."
+    scene w-23 with dissolve
     w "..."
+    w "(Just do it Amelie, think of it as my mission...)"
+    scene
+    $ renpy.movie_cutscene("animations/w2.mpg", loops=-1, stop_music=False)
+    scene w-24
     "Shit, she's really good. I might not last too long at this rate!"
     p "Stop!"
+    scene w-25 with dissolve
     w "Are you finished? Will you tell me how you have the intel now?"
     p "You think this is over? We haven't even started yet."
+    scene w-26
     p "Has your frigid little ass forgotten how a man finishes?"
+    scene w-28
     w "What else must I do!"
-    p "Work those fine hips of yours, Amelie. You know what to do."
+    scene w-27
+    p "Stand up bitch."
+    p "Now."
+    w "..."
+    scene w-29 with dissolve
+    w "What will you do with me...?"
+    p "Expose your breasts."
+    w "..."
+    scene w-30 with dissolve
+    $ renpy.pause()
+    "Look at those perky puppies."
+    scene w-31
+    w "Are you happy? Does this bring you joy?!"
+    scene w-32
+    p "Look at how stiff your nipples are."
+    p "You're enjoying this more than you're showing."
+    scene w-33 with dissolve
+    p "I'll be happy once you work those fine hips of yours, Amelie. You know what to do."
+    w "(I have no choice, he's forcing me!)"
+    scene w-34 with dissolve
     p "Not as frigid as you make yourself seem, huh?"
+    p "Straddle me and enjoy the ride."
+    w "This will give me no pleasure!"
+    scene
+    $ renpy.movie_cutscene("animations/w3.mpg", loops=0, stop_music=False)
+    scene w-36
+    w "It's so big- you're filling me up~"
+    p "I slid right into you, slut. Start bouncing you whore."
+    scene
+    $ renpy.movie_cutscene("animations/w4.mpg", loops=-1, stop_music=False)
+    scene w-37
     p "You're coming around, good girl!"
     p "What a natural."
     w "This isn't...I feel... please. Let me stop."
     p "What's this Amelie? Are you close to the edge?"
     p "You've already come so far, keep rocking."
+    scene
+    $ renpy.movie_cutscene("animations/w4.mpg", loops=-1, stop_music=False)
+    scene w-36
     w "...I can't...."
     w "Unghh!"
+    scene
+    $ renpy.movie_cutscene("animations/w5.mpg", loops=0, stop_music=False)
+    scene w-38
+    w "Ahhhh~~~~!"
     "Damn, she came."
+    scene w-40 with dissolve
     p "Looks like you finished before me, slut."
+    scene w-39 with dissolve
     p "You whole body is quivering, you're out for the count. Shame."
+    scene w-41
     w "You... must keep it a secret. Tell me now, how did you find... the intel...?"
     p "I'm not telling you anything Amelie. You've cum like a brainless bimbo and left me dry."
     p "A selfish woman like you will have to make it up to me."
     p "I'll see you another time."
+    scene w-42 with hpunch
     w "Wait, noo!"
     w "Please!"
+    p "Stay beautiful bitch."
+    $ widowlvl += 1
+    jump barside
 
 
-
+default widowlvl = 1
 default widowask1 = False
 default widowask2 = False

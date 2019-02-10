@@ -1,5 +1,5 @@
 label cafeJob:
-    call hidescreens
+    call hidescreens from _call_hidescreens_12
     ellie "Just come on around the back."
     scene black with fade
     scene cafework with fade
