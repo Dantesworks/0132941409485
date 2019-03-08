@@ -140,7 +140,7 @@ label amandatalk:
         p "Afterward, set up a Patreon, or something like that."
         scene a-5 with dissolve
         m "People will pay money for my pictures?"
-        p "People don't {i}have{/i} to pay on Patreon, but only cheap fucks freeload."
+        p "People don't {i}have{/i} to pay on Patreon, but they will if they want to go to heaven."
         scene a-4 with dissolve
         m "Hmm..."
         m "That sounds a little exciting."

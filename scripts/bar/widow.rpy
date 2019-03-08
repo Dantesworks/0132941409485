@@ -127,7 +127,7 @@ label widowaskdone:
     p "Haha, alright. We'll see if you can still talk when your mouth's full."
     ## transition
     scene w-13 with fade
-    w "You should know, I'm only doing this to for the sake of Talon."
+    w "You should know, I'm only doing this for the sake of Talon."
     w "You will tell me afterwards how you found the information, yes?"
     scene w-14 with dissolve
     p "At the rate you're talking, you'll never find out."

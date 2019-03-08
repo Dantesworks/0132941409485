@@ -107,5 +107,7 @@ label base:
     d "The free-roaming part of the game has started!"
     d "Access the map in the top right corner in the hallway."
     d "Advance time by sleeping, or by using the fast-forward button on the top left corner of the map."
+    d "You will get an automatic quest guide once you get Nicole's phone, so do her quest first if you get stuck."
+    d "To do this, talk to Amanda in the morning, Kaira in the afternoon, then you will find Nicole in the living room in the afternoon on the next day."
     d "Have fun!"
     jump living_room

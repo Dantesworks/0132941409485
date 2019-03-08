@@ -58,7 +58,5 @@ urges will triumph." justify True size 18
                 text "Go talk to [mr] in the kitchen in the evening." justify True size 18
             elif amandalvl == 10 and amandakitchenlvl == 10:
                 text "Go talk to [mr] in her room in the morning." justify True size 18
-            elif amandalvl == 11 and amandakitchenlvl == 11:
-                text "Go talk to [mr] in the kitchen in the evening." justify True size 18
             else:
                 text "Content complete for this version! Vote for this character on Patreon to see more." justify True size 18

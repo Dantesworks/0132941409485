@@ -42,6 +42,8 @@ label gallery1:
                     idle "gallery_buttons/6.png"
                     hover "gallery_buttons/6_hover.png"
                     action Jump("widow_1")
+            else:
+                null
             null
             null
             null

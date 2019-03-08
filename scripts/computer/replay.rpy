@@ -621,7 +621,7 @@ label nicole_event2:
     jump gallery1
 
 label widow_1:
-    scene w-13 with fade
+    scene w-13
     w "You should know, I'm only doing this to for the sake of Talon."
     w "You will tell me afterwards how you found the information, yes?"
     scene w-14 with dissolve
