@@ -15,6 +15,11 @@ label museum:
             yfill
             align (0.5, 0.5)
             spacing 100
+            imagebutton: ## born2game
+                focus_mask True
+                idle "/images/gallery_buttons/museum/born2game_i.png"
+                hover "/images/gallery_buttons/museum/born2game_h.png"
+                action Jump("born2game")
             imagebutton: ## yakai
                 focus_mask True
                 idle "/images/gallery_buttons/museum/yakai_i.png"
@@ -39,13 +44,17 @@ label museum:
             null
             null
             null
-            null
+label born2game:
+    scene born2game
+    $ renpy.pause()
+    "Relaxing after work | Commissioned by Born2Game"
+    jump museum
+
 label yakai:
     scene yakai
     $ renpy.pause()
     "The picture we've all been waiting for | Commissioned by Yakai"
     jump museum
-
 
 label lyda:
     scene lyda

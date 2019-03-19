@@ -585,9 +585,122 @@ label kairatalk:
         "[p], what are you doing...?"
         $ kairalvl += 1
         $ kairatalk = day
-        daytime = 4
+        $ daytime = 4
         jump hallway
-
+    if kairalvl == 3:
+        scene black
+        scene k-1 with fade
+        play music "sounds/automata.mp3" fadeout 1
+        s "Hi [p]. How are you?"
+        p "I’m good. How are you, Kaira?"
+        s "Not too bad. I really want to spend some more time with you."
+        p "We could maybe watch a movie later today?"
+        s "I guess ... But I want to go out! Do something that’s not at home."
+        s "[p], do you remember when mom used to take us to the beach? We would spend a whole day there just swimming and playing."
+        p "Yeah I remember that. It was a lot of fun. But there’s not really any beaches close to here."
+        s "Yeah you don’t have to tell me that ... I know. I miss the beach."
+        p "Is that why you’re feeling down?"
+        p "You know what ... Do you know that resort place? It might not be the beach, but they have a swimming area."
+        s "Yeah I’ve heard about it. It’s supposed to be really nice."
+        s "Doesn’t really matter though. I could never afford the membership price for that place."
+        p "I don’t like seeing Kaira like this. I bet I could make her feel better if I could get her into that resort."
+        p "I'll need the gold membership."
+        $ kairalvl += 1
+        $ kairatalk = day
+        jump kaira_room
+    if kairalvl == 4:
+        if resortmembership < 3: ## resort check gold
+            scene black
+            scene k-1 with fade
+            play music "sounds/automata.mp3" fadeout 1
+            p "Hi, Kaira"
+            s "Hey, [p]"
+            p "Still feeling a bit down?"
+            s "I'm not reaaally down, I was just a little bored. I’ll be fine"
+            p "You know what I think would really make things great?"
+            s "What?"
+            p "It's a gold membership, Kaira. I've got one."
+            s "Are you serious? You have a membership for the resort and you haven’t told me until now?"
+            p "I only recently got it."
+            s "[p] you have to take me there!"
+            p "Yeah we can probably figure out a day, maybe next weekend or maybe..."
+            s "Right now! We’re going right now!"
+            p "But Kaira..."
+            s "Yay! Get ready soon."
+            s "I can barely wait"
+            "I guess I’m going to the resort today..."
+            ## Transition to resort
+            s "Wow this place is so nice!"
+            s "Look at you, [p], you're taking me out on a date!"
+            p "Yeah haha. Don't get too excited."
+            p "Hi, Camille. My [sr] and I are going to spend some time in the bathhouse."
+            c "Okay no problem, [p]. You can just head in whenever you’re ready."
+            s "I can’t believe you can afford a membership for this place. This is awesome."
+            p "Bitcoin bros."
+            s "Sorry?"
+            p "Nothing."
+            ## Transition to inside bathhouse
+            s "The water looks amazing. I’m going to get changed. You should too."
+            ## Changing
+            p "You ready to get in the water, Kaira?"
+            s "I sure am."
+            s "Actually I can’t even wait!"
+            ## Kaira jumps in to the water. Cannon ball possibly?
+            p "Hahaha nice form."
+            s "I bet you can’t do better."
+            p "I would have to disagree."
+            ## MC cannon balls into the water. Splashing a lot of water on Kaira.
+            s "Hehehe, I guess that was pretty good."
+            ## Kaira and MC spends a fun day at the resort. Wouldn’t go too much into it in my opinion. I would do a short montage and write "I spent a fun day at the resort with Karia. It seems like see really enjoyed it."
+            p "It’s getting late, Kaira. I think we should change and head home."
+            s "Aw, but it’s so much fun!"
+            p "We can come back another day. I still have the membership."
+            s "I guess it is getting late."
+            #They both get changed.
+            #They walk back home.
+            s "Thank you so much for taking me to the resort. I had such an amazing time"
+            p "No problem. I’m glad you enjoyed it."
+            s "[p], I was wondering ... I really like having you back home. And I'm having so much fun."
+            p "I’m really glad I came home, Kaira. I think I’ve wasted a lot of time. I should have come home a lot earlier to spend some time with my lovely [sr]."
+            p "But what are you wondering, Kaira?"
+            s "You’re so sweet, [p]. I was just thinking ..."
+            s "Remember when we were younger? We used to sleep in the same bed"
+            p "Yeah I do remember that. We didn’t sleep much, though. I think we spent most of the time joking around until [mr] would come in and demand that we go to sleep"
+            s "Hehehe, yeah I guess you’re right about that."
+            s "I was just wondering if we could maybe try that again"
+            p "Uhm ..."
+            s "Oh come on. It would be like having a sleepover."
+            s "I just remember how nice it was to not sleep all alone."
+            "I’m not sure about this. It would be nice to not sleep alone. But she’s my [sr], and we’re not kids anymore. But somehow that doesn’t deter me."
+            p "Kaira, we were a loooot younger back then."
+            s "And so what? There’s nothing wrong with having a sleepover with your [sr]."
+            s "It would be fun! And I think we would sleep a lot better."
+            p "I guess we could try it ..."
+            s "Yay!"
+            s "When it’s time to go to bed, I’ll come into your room."
+            p "Okay sure, Kaira."
+            # Next time MC goes to bed:
+            "Okay time to get some sleep"
+            # Hears door open slowly
+            "Oh, I almost forgot that Kaira would come tonight"
+            s "Hey, [p]. Ready for our sleepover?"
+            p "Yes, Kaira. But I’m actually really tired."
+            s "Don’t worry. I’m really tired too."
+            p "I think you forgot most of your pajamas for the pajamas party"
+            s "Hehehe you know I don’t like sleeping in a lot of clothes"
+            p "I just thought it might be different when we’re going to sleep in the same bed"
+            s "No, silly. You don’t mind, do you?"
+            p "No, Kaira, just get into bed"
+            ## Kaira gets into the bed next to MC
+            p "Once again you were right. This actually feels really nice."
+            s "I got an idea that could make it even nicer."
+            p "What’s that?"
+            s "Will you hold me tonight?"
+            p "Sure, Kaira."
+            ## MC spoons Kaira
+            s "This is a lot better. I feel so secure with your arms around me."
+            p "I like it a lot, too."
+            "I’m not sure if this is right or wrong, but it feels so nice to have Kaira next to me." p thinking "It feels so good to feel her skin on my skin." p thinking "Nobody will know, so who cares?" Falls asleep spooning.
 
 
     scene k-1

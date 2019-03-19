@@ -121,6 +121,120 @@ label Caroline:
         $ carolinelvl += 1
         call daykeep from _call_daykeep_4
         jump map
+    if carolinelvl == 2 and carolinebarlvl == 2:
+        scene black
+        scene cc-1 with fade
+        p "Caroline!"
+        scene cc-2 with dissolve
+        c "[p]!"
+        scene cc-3
+        c "Please, take a seat!"
+        p "Gladly."
+        scene cc-5 with dissolve
+        p "You really do like to come every morning."
+        c "It's true - I can't survive without my coffee."
+        p "How many do you have a day?"
+        c "Hmmm..."
+        c "Three?"
+        p "Whoa, three!"
+        p "Surely, doctor, that's not good for you?"
+        c "I'm not a doctor yet."
+        c "It's the coffee withdrawal that's the bad part."
+        c "That's why I can't stop."
+        p "A hostage to your vices, Caroline!"
+        c "It's not such a bad thing, it helps me concentrate anyway."
+        c "Maybe you'll think of dabbling more into coffee? It's a great pastime."
+        p "Yeah, sure. Teach me about it."
+        p "That is, if it won't get in the way of yoru study."
+        c "No, no- I don't mind. It's always nice to take a break for company."
+        c "What would you like to know?"
+        p "What's the difference between instant coffee and the one they have here?"
+        c "There's a huge difference."
+        p "How?"
+        c "Can't you taste the difference?"
+        p "Umm..."
+        c "Hahaha!"
+        c "Let me explain..."
+        c "The espresso here is made from freshly ground beans. The fresh part is important."
+        c "This is because the oils in the beans haven't evaporated yet. It's the oils that give it that great taste."
+        c "The espresso is basically super concentrated coffee. It's a bit too strong for most people though."
+        c "That's why we might add milk or water to it."
+        c "Instant coffee is... well, not like espresso."
+        p "Huh! So coffee is espresso plus milk?"
+        c "Anything with espresso is coffee. There are just different ways of having it."
+        c "For example, a Latte is espresso with some milk added to it."
+        p "Oooh! So that's what the names mean."
+        p "What's a 'cup of chino' then?"
+        c "Do you mean a Cappuccino?"
+        p "Yeah, that."
+        c "It's like a Latte, except the milk that is added is more frothy."
+        p "Frothy?"
+        c "Yup, they have a milk frother which heats up the milk and sort of makes it creamier."
+        p "Creamy! Yum."
+        p "Which kind of coffee do you like the most?"
+        c "For me, it's a Latte everytime. I love milk, but a Cappuccino is just too airy for me."
+        p "Fair enough."
+        p "So for you it's not just about getting the caffeine to help you study."
+        c "Coffee is an experience."
+        c "From cupping it in your hands, feeling the warmth of the coffee, and the hustle bustle of life."
+        p "What are you thinking of now?"
+        c "..."
+        c "I'm thinking I'm having a pleasant time."
+        c "But! All good times {i}must{/i} come to an end."
+        p "Hang on-you're leaving?"
+        c "I'm meeting up with some friends to do some group study."
+        p "Weren't you already studying?"
+        c "Group study is useful sometimes for remembering things."
+        c "We all study up on something and teach each other about it, and it helps us remember what we study more."
+        p "Study with me! I'm an empty tea cup. I'll learn anything you have to teach."
+        c "I'll tell you a few things next time, but I really have to go now."
+        p "See you!"
+        c "Take care, [p]."
+    if carolinelvl == 3:
+        scene black
+        scene cc-1 with fade
+        p "Good morning, Caroline!"
+        scene cc-2 with dissolve
+        c "Ah, [p]."
+        scene cc-3
+        c "I was wondering when you'd get here."
+        scene cc-5 with dissolve
+        c "So, what have you been up to?"
+        p "I'm up to some learning, that's what."
+        c "Learning?"
+        p "Where we left off last time, you said you'd teach me about what you're studying."
+        c "You're an eager beaver, what's up?"
+        p "Oh you got me."
+        p "I really just want to hear your voice."
+        c "Oh gee..."
+        c "Chessy line, [p]!"
+        p "Yeah well, did you like it?"
+        c "I can always appreciate an honest guy."
+        c "Question is: Do you say this to all the girls?"
+        menu:
+            "Only the pretty ones.":
+                $ depravity += 1
+                c "Daring play, [p]."
+                p "Is it working?"
+                c "Let's find out."
+            "Just you.":
+                c "Are you hitting on me?"
+                p "Am I?"
+                c "That's up to you."
+        c "..."
+        c "It's a pity."
+        c "A relationship isn't really what I'm looking for at the moment."
+        c "My study takes up a lot of my time - medicine is as time consuming as they say."
+        c "I'm sorry [p]."
+        "...wasn't she leading me on?"
+        p "Hey, that's okay."
+        p "Worth a try right?"
+        c "Don't get me wrong, [p]. I like you, and I like your company. I enjoy talking to you."
+        c "I just don't have the time to commit to a relationship."
+        p "Haha, I think..."
+        p ""
+
+
     scene cc-2
     p "Good morning Caroline!"
     scene cc-3
