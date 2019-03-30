@@ -49,6 +49,13 @@ label camilletalk:
         $ camillelvl += 1
         $ camilletalk = day
         jump Camille
+    if camillelvl == 2:
+        play music "sounds/armoir.mp3" fadeout 1
+        p "Hello Camille!"
+        t "H-hey [p]."
+        t "Is there somwhere where you'd like to go? Something I can help you with?"
+
+
     ## generic
     scene cam-5
     p "Working hard Camille?"
