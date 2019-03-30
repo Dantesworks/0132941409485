@@ -54,6 +54,21 @@ label camilletalk:
         p "Hello Camille!"
         t "H-hey [p]."
         t "Is there somwhere where you'd like to go? Something I can help you with?"
+        p "Nothing right now, I was just wondering how you're doing."
+        p "Remember when we first met? You seemed quite flustered and everything, and I haven't asked you about that since."
+        t "Oh, that wasn't anything, really!"
+        t "Umm..."
+        p "Hey, how about this?"
+        p "Let's go off somewhere, and we'll have a man to ma- I mean, man to woman talk."
+        t "I- I'm working right now, I couldn't just go off- I mean, I'd love to, but still!"
+        p "I think people are gonna be alright here. If someone comes, they'll ring the bell, right?"
+        t "I.. suppose."
+        t "But where are we going?"
+        p "You know this place better than I do, why don't you show me around the VIP areas!"
+        t "I can't get you into the VIP, or I'll get into trouble. Maybe next time- but how about-"
+        t "I think I can probably show you the other areas in the back?"
+        p "That's VIP enough for me!"
+        
 
 
     ## generic

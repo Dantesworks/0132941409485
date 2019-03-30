@@ -22,5 +22,13 @@ force to be reckoned with indeed. She put these skills to practise on the second
         vbox xsize 350: # tips
             if kairalvl == 1:
                 text "Talk to Kaira in her room in the morning." justify True size 18
+            if kairalvl == 2:
+                text "Talk to Kaira in her room in the morning." justify True size 18
+            if kairalvl == 3:
+                text "Talk to Kaira in her room in the morning." justify True size 18
+            if kairalvl == 4:
+                text "Purchase the gold membership from the resort, then talk to Kaira in her room in the morning." justify True size 18
+            if kairalvl == 5:
+                text "Go to bed." justify True size 18
             else:
                 text "Content complete for this version! Vote for this character on Patreon to see more." justify True size 18

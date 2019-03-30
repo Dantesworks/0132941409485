@@ -363,179 +363,253 @@ label kairatalk:
         p "I- I just got distracted for a bit. Sorry, what's up?"
         s "..."
         s "Never mind, [p]~"
-        s "We've arrived."
+        s "We've here!"
+        scene k-32 with fade
+        play music "sounds/missingyou.ogg" fadeout 1
         s "Let's go grab a seat, go go go!"
         p "American diner, huh?"
+        scene k-33 with dissolve
         s "Old school. I just looove the decor. I swear, a nice looking place makes the food taste ten times better."
         p "Well, let's hope the food here tastes as good as the place looks."
+        scene k-34 with dissolve
         s "Oh it does. You will love it!"
         p "You feeling hungry yet?"
         s "A little. You?"
+        scene k-35 with dissolve
         p "I'm medium hungry. What's on the menu?"
         s "Aha! Since you're my guest, let me take care of that for you~"
         p "Sure, sure. So what does little Kaira here suggest?"
         s "Little? Hmph..."
+        scene k-36 with dissolve
         s "The pizzas here are great. What do you think about ordering one and sharing?"
         p "Sharing is caring."
+        scene k-37 with dissolve
         s "I'll take that as a yes."
         s "Excuse me!"
+        scene k-51 with fade
         wai "Yes miss, what would you like to order?"
         s "The pizza special please!"
         wai "We make our pizza fresh here, so it may take a while. Will that be alright?"
+        scene k-52 with dissolve
         s "Of course. It'll be worth the wait [p]!"
+        scene k-50 with dissolve
         wai "Thank you for your patience."
+        scene k-38 with dissolve
         s "Haha! I should have let you know. The wait can take a while."
         p "Just means more time I get to spend with you - all the better."
+        scene k-44
         s "Aww, I'm glad you think so."
         p "Kaira, Kaira, Kaira."
+        scene k-45
         s "[p]?"
+        scene k-40
         p "I can totally see you being a psychologist."
         s "Really now?"
         p "Yeah."
+        scene k-49
         s "You're lying!"
         p "No, no, I'm serious."
         s "What makes you say that?"
         p "I just think you're easy to talk to. You obviously care about other people."
         p "You're empathetic and willing to listen."
+        scene k-36 with dissolve
         s "You... really mean that?"
         p "You bet I do. I think a psychologist really needs to earn trust, so that the patient can share all their secrets."
+        scene k-39 with dissolve
         p "With you, Kaira, I feel like I can."
         s "..."
+        scene k-47
         s "Are you trying to say in a roundabout way that you... need mental help?"
+        scene k-41 with hpunch
         p "No no no, jesus."
+        scene k-38 with dissolve
         p "I'm saying that as if I were a patient in general."
         "But really, I'm tempted to tell her everything."
+        scene k-48 with dissolve
         s "That means so much to me [p].  You have no idea."
         s "Growing up, I was always the small and cute girl. Nobody really took me seriously."
         s "To have your faith that I can do something like that... it's really touching."
         p "Kaira, why didn't they take you seriously?"
+        scene k-46
         s "Maybe it's the way I look."
         p "The way you look?"
+        scene k-47
         s "I've got a cute face. Cute girls aren't taken seriously."
         p "You've got everything in you to show the world you deserve to be taken seriously."
         p "Think about it Kaira. You've got the looks, and you've got your inner qualities as well."
         p "Not such a bad thing, is it!"
+        scene k-45 with dissolve
         s "Well, if you put it like that, hehe."
+        scene k-44
         s "I'm the best [sr] in the world, aren't I?"
         s "I bet your friends are all jealous of you."
         p "Jealous how?"
+        scene k-49
         s "That you get to spend your time with your awesome [sr], of course!"
+        scene k-40
         p "Knowing my friends, they'd be trying to get in your pants."
         s "Ooh, I just get allll the boys."
+        scene k-39
         p "I realise I haven't asked you yet. You getting any attention from the boys?"
+        scene k-49 with dissolve
         s "Hmm. What if I am, what if I'm not?"
         p "Well, I think if you say you aren't you're a liar."
+        scene k-36
         s "I had some attention when my boobies started to develop, but they just want me for my body."
         s "That doesn't mean much for me."
         p "So it's true then, girls that get hit on don't really appreciate that they're getting hit on."
         s "I would if they wanted something deeper, but it's always awkward and shy boys that can't even look at me in the eyes."
         s "I swear I can't even have a decent conversation without there being an ulterior motive."
         s "It's not like talking to you."
+        scene k-38 with dissolve
         s "Now, I'm relaxed and I feel safe."
         s "You know, I'm not like this in front of the other guys."
         p "Wow, guess I'm special then. Why do I get such special treatment?"
         s "Well, I've known you for a long time and I just don't think you'd take advantage of me, and you'll always consider my feelings."
+        scene k-45 with dissolve
         s "... and of course, I'm your [sr], so there's that too."
         p "You can come to me for anything Kaira, I'm always here for you."
         s "Maybe that's why I feel like nothing can go wrong, since I know there's you watching out for me."
         s "..."
+        scene k-58 with dissolve
         s "You know what, [p]?"
         p "Yeah Kaira?"
+        scene k-36
         s "Sometimes I wonder what it would be like if I wasn't your [sr]."
         p "What are you talking about, Kaira?"
+        scene k-41 with dissolve
         s "I- I'm not sure, I guess sometimes I just feel-"
+        scene k-42 with hpunch
         wai "Sorry for the wait!"
+        scene k-53
         wai "Here's our pizza special for the lovely couple~"
+        scene k-55
         s "Hehehe."
         p "Oh no, we're not-!"
         s "(He's so funny when he's flustered.)"
         s "(I'm not surprised she thinks we're a couple though...)"
         s "(I wonder what we would be like if I wasn't her [sr].)"
+        scene k-54 with dissolve
         s "Thank you so much! It smells delicious."
         "I'm not going to lie, the pizza looks amazing."
         p "I can't wait to tuck in."
         s "You first, give it a go."
         p "I will!"
+        scene k-57 with fade
         p "..."
         "*Nonomnomom*"
         s "What do you think?"
+        scene k-56
         p "You really weren't wrong Kaira. This pizza is really good."
         s "I told you!"
-        s "Woo, my turn now."
+        s "Woo, my turn now!"
         p "Enjoy, hahahah."
-        s "(Hanging out wiht [p] is different from hanging out with Nicole somehow.)"
+        scene k-58 with dissolve
+        s "(Hanging out with [p] is different from hanging out with Nicole somehow.)"
         s "(It's fun, in a different kind of way.)"
+        scene k-57 with dissolve
         "I think one day when I look back, this will be one of those good days."
         "Right now, I can forget about everything and just enjoy some good company."
         "The atmosphere {i}does{/i} add to the whole exper-"
+        scene k-59
+        play music "sounds/wistful.mp3" fadeout 1
         s "I... I don't feel so good."
         p "Oh no, what's wrong?"
         s "The... pizza..."
+        scene k-60 with vpunch
         p "...!"
         p "Did you really finish the rest of it by yourself?"
-        P "Did you just really?!"
+        p "Did you just really?!"
+        scene k-61
         s "Don't judge me!"
         s "... it tasted really good..."
         p "C'mon Kaira, you gotta learn how to control yourself."
+        scene k-62 with dissolve
         s "..."
         p "Oh man... you're not going to puke, are you?"
+        scene k-63
         s "No... pwomises..."
         "We were having such a good time too!"
         p "Oh man. What are we going to do with you Kaira?"
-        s "I feel so full!"
+        scene k-64
+        s "I feel so full..."
         p "Do you need to puke? Go to the bathroom. You'll feel better."
+        scene k-65 with dissolve
         s "Be... right back."
+        scene k-66 with dissolve
+        $ renpy.pause()
+        scene k-67 with dissolve
         "Christ, that girl, I swear."
         "Just as I was praising her, she acts like a little kid again."
         "She'll always be my younger [sr]."
         x "Will she? [p]?"
+        scene k-68 with hpunch
+        play music "sounds/cyberpunk.mp3"
+        p "???"
+        scene k-69 with hpunch
         p "Who- what?"
         p "How did you?!"
         p "..."
         p "Who... are you?"
+        scene k-70
         x "Do you really want to know?"
         p "Yes, tell me who you are."
         p "Why do you show up in my dreams?"
         x "The answers to those questions won't change anything."
         p "I need some answer now, this is too fucking strange."
+        scene k-71 with dissolve
         x "Giving you answers have never helped before."
         x "They never have, and they never will."
         p "I have no idea what you're talking about."
         x "Compose yourself, [p]. She's about to return."
         p "What?"
         s "[p]?"
+        scene k-72 with vpunch
+        play music "sounds/automata.mp3" fadeout 1
         p "Ah!"
+        scene k-73 with dissolve
         p "..."
         p "What just happened?"
         s "I don't know, were you sleeping?"
         p "I... guess I must have dozed off."
         p "Did- did you puke? How are you feeling now?"
+        scene k-74
         s "I did... a little bit, but I'm still not feeling super good."
         s "(I still want to spend time with him, but I'm not feeling too well. God, he must think I'm horrible!)"
         s "I wanna go home. I'm sorry, [p]."
-        p "Don't even worry about  that Kaira, no problem."
+        scene k-75
+        p "Don't even worry about that Kaira, no problem."
+        p "Your welfare is the most important thing."
         p "Let me handle the bill."
+        scene k-76 with fade
         p "..."
         p "Hey, thanks for the pizza. How much is that going to be?"
+        scene k-77
         wai "Oh, don't worry. This one's on the house. We're sorry it made your partner sick!"
         p "Oh no, there was nothing wrong with the pizza-"
         wai "Please sir, we wouldn't be able to accept the money in good faith."
         p "..."
         p "Okay, I see then."
+        scene k-78 with dissolve
         p "Oh and by the way-"
         wai "Yes?"
         p "Did- did you see a girl around by any chance?"
         p "White hair. Sort of, purple suit."
         p "Did you... did you see something like that?"
+        scene k-79
         wai "There hasn't been anyone after you two I believe."
         wai "Were you expecting someone else to arrive?"
         p "You... didn't see anyone?"
+        scene k-80 with dissolve
         wai "I'm sorry sir, I don't believe there was anyone else."
         p "..."
+        scene k-81
         s "[p]! Can we go now?"
         p "..."
+        scene k-82
         p "Thanks for the meal."
         p "Let's go Kaira."
+        scene black with fade
         ## Transition to night scene
         p "My little Kaira."
         p "Are you feeling better now?"
@@ -544,9 +618,9 @@ label kairatalk:
         p "I just want to keep you safe."
         p "Are you feeling tired?"
         s "Mhm."
-        s "You want to go to bed?"
-        s "(Please don't go yet. Just a little longer...)"
+        p "You want to go to bed?"
         s "I can talk for a bit longer."
+        s "(Please don't go yet. Just a little longer...)"
         p "We've had a lot of fun today already. You can go rest if you want."
         p "You don't need to stay up for me."
         s "..."
@@ -621,7 +695,7 @@ label kairatalk:
         $ kairatalk = day
         jump kaira_room
     if kairalvl == 4:
-        if resortmembership < 3: ## resort check gold
+        if resortmembership > 2: ## resort check gold
             scene black
             scene k-1 with fade
             play music "sounds/automata.mp3" fadeout 1
@@ -736,11 +810,9 @@ label kairatalk:
             $ kairatalk = day
             $ daytime = 4
             jump kaira_room
-
-            
-
-
-
+        else:
+            "Hang on, I need that gold membership first."
+            jump kaira_room
     scene k-1
     p "How's my beautiful [sr] doing?"
     scene k-3

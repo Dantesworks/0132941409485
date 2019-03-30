@@ -15,6 +15,11 @@ label museum:
             yfill
             align (0.5, 0.5)
             spacing 100
+            imagebutton: ## raze
+                focus_mask True
+                idle "/images/gallery_buttons/museum/raze_i.png"
+                hover "/images/gallery_buttons/museum/raze_h.png"
+                action Jump("raze")
             imagebutton: ## born2game
                 focus_mask True
                 idle "/images/gallery_buttons/museum/born2game_i.png"
@@ -43,7 +48,12 @@ label museum:
             null
             null
             null
-            null
+label raze:
+    scene raze
+    $ renpy.pause()
+    "Full of sweat | Commissioned by RAZE"
+    jump museum
+
 label born2game:
     scene born2game
     $ renpy.pause()
