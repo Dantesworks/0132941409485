@@ -205,7 +205,7 @@ label kairatalk:
         s "I feel happy? I am, most of the time."
         scene k-17
         s "I've been feeling it more since you've been back. How's that!"
-        p "Glad to hear it. I'm been happy too since I've been back. It's so good to come back to you guys."
+        p "Glad to hear it. I've been happy too since I've been back. It's so good to come back to you guys."
         scene k-18
         s "My turn!"
         s "Have I changed since the last time we met? Be honest."
@@ -611,84 +611,141 @@ label kairatalk:
         p "Let's go Kaira."
         scene black with fade
         ## Transition to night scene
+        scene k-83 with fade
         p "My little Kaira."
         p "Are you feeling better now?"
+        scene k-84
         s "I think I walked a little bit of it off."
         s "Thanks for helping me home, [p]."
         p "I just want to keep you safe."
         p "Are you feeling tired?"
+        scene k-83 with dissolve
         s "Mhm."
         p "You want to go to bed?"
+        scene k-84
         s "I can talk for a bit longer."
+        scene k-86 with dissolve
         s "(Please don't go yet. Just a little longer...)"
         p "We've had a lot of fun today already. You can go rest if you want."
         p "You don't need to stay up for me."
         s "..."
         p "I'll let you sleep now."
+        scene k-87
         s "No..."
         p "Hmmm?"
         s "Just stay for a bit longer."
+        scene k-88
         s "I'm not sleeping just yet, still got to get out of these clothes first..."
+        scene k-86 with dissolve
         s "It'll be okay, you can just look away."
-        s "(I feel like if he lives, I don't know when I'll get to see him again.)"
+        scene k-90 with dissolve
+        s "(I feel like if he leaves, I don't know when I'll get to see him again.)"
         p "Alright."
         scene black with fade
         menu:
             "Keep my eyes shut.":
                 "I shouldn't risk it."
+                "..."
             "Who am I kidding? Sneak a look.":
                 $ depravity += 1
+                scene k-108:
+                    pos (0.0, -3)
+                    linear 6 pos (0.0, 0.0)
+                $ renpy.pause(6.0,hard=True)
+                $ renpy.pause ()
+                scene k-91
                 "She's as gorgeous as I remember."
                 "Her... curves are amazing; I would love to just... run my hands along her body."
                 "Feel her skin beneath my touch..."
                 "Kaira's such a precious girl. I know I shouldn't be having these thoughts but..."
+                scene black with fade
                 "I'm glad I have someone like her close to me."
         s "...I'm ready now."
+        scene k-92 with fade
         p "You don't like sleeping with much clothes do you?"
+        scene k-93
         s "It's more comfortable this way."
         p "If you say so."
         p "Anything else?"
+        scene k-94 with dissolve
+        play music "sounds/missingyou.ogg" fadeout 1
         s "Can you tuck me into bed?"
         p "Haha, how?"
         s "Just like how [mr] used to do it."
-        p "Just for you, Kaira. On the cheek right?"
+        p "Oh right, when we were small."
+        p "Just for you, Kaira, sure thing."
+        p "On the cheek right?"
+        scene k-95
         s "Mhm."
+        p "Okay..."
+        scene k-96 with dissolve
+        p "Mwah!"
         p "Happy?"
-        s "The left one too."
+        scene k-97 with dissolve
+        s "That's not all of it, the left one too."
         p "Did [mr] used to give two kisses? That was such a long time ago."
-        s "There's one more."
+        p "Fine."
+        scene k-98 with dissolve
+        p "Mwah!"
+        scene k-99 with dissolve
+        p "That was two for the price of one, Kaira!"
+        p "Aren't you a lucky girl."
+        scene k-100
+        s "There's one more, remember?"
         p "..."
         p "Ah, I remember."
-        s "Mmmm."
-        ## hand clench
-        s "Ah..."
+        p "Quick one."
+        s "Mhm."
+        scene k-101 with dissolve
+        s "..."
+        p "..."
+        scene k-102 with dissolve
+        $ renpy.pause ()
+        scene k-103 with dissolve
+        s "...!"
+        "Her breath rose sharply."
+        scene k-104 with dissolve
+        s "Mmmmm..."
+        scene k-105 with dissolve
+        s "(I... feel strange....)"
+        scene k-106 with vpunch
+        s "Ah...!"
         s "[p], I-"
         p "I- I just remembered! I've got something to get to!"
-        p "Goodnight Kaira."
+        scene k-107
+        s "Oh, I- me too! I mean..."
+        p "Goodnight Kaira!"
         s "G-goodnight [p]."
+        scene black with fade
         "Shit, what was that?"
         "That... felt like it lasted forever."
         "[p], what are you doing...?"
         $ kairalvl += 1
         $ kairatalk = day
-        $ daytime = 4
+        call daykeep
+        call daykeep
         jump hallway
     if kairalvl == 3:
         scene black
-        scene k-1 with fade
+        scene k-2 with fade
         play music "sounds/automata.mp3" fadeout 1
         s "Hi [p]. How are you?"
         p "I'm good. How are you, Kaira?"
+        scene k-3
         s "Not too bad. I really want to spend some more time with you."
         p "We could maybe watch a movie later today?"
+        scene k-9
         s "I guess ... But I want to go out! Do something that's not at home."
         s "[p], do you remember when mom used to take us to the beach? We would spend a whole day there just swimming and playing."
         p "Yeah I remember that. It was a lot of fun. But there's not really any beaches close to here."
+        scene k-12
         s "Yeah you don't have to tell me that ... I know. I miss the beach."
         p "Is that why you're feeling down?"
-        p "You know what ... Do you know that resort place? It might not be the beach, but they have a swimming area."
+        p "You know what... Do you know that resort place? It might not be the beach, but they have a swimming area."
         s "Yeah I've heard about it. It's supposed to be really nice."
+        scene k-11
         s "Doesn't really matter though. I could never afford the membership price for that place."
+        scene k-7 with dissolve
         p "I don't like seeing Kaira like this. I bet I could make her feel better if I could get her into that resort."
         p "I'll need the gold membership."
         $ kairalvl += 1
@@ -700,12 +757,15 @@ label kairatalk:
             scene k-1 with fade
             play music "sounds/automata.mp3" fadeout 1
             p "Hi, Kaira"
+            scene k-2
             s "Hey, [p]"
             p "Still feeling a bit down?"
             s "I'm not reaaally down, I was just a little bored. I'll be fine"
             p "You know what I think would really make things great?"
+            scene k-6 with vpunch
             s "What?"
             p "It's a gold membership, Kaira. I've got one."
+            scene ke-1 with hpunch
             s "Are you serious? You have a membership for the resort and you haven't told me until now?"
             p "I only recently got it."
             s "[p] you have to take me there!"
@@ -713,18 +773,22 @@ label kairatalk:
             s "Right now! We're going right now!"
             p "Hang on-"
             s "Yay! Get ready soon [p]!"
+            scene ke-4 with dissolve
             s "I'm going to think about what to wear."
             s "What do you think [p]?"
             p "Just wear your regular stuff, plus a swimsuit of course."
+            scene k-3
             s "A swimsuit?"
             "Yeah, the one you modelled for me the other day? Hehehe..."
             p "Yeah, we're going swimming. It's the resort."
             s "Do people do anything there besides swimming?"
             p "I'm... sure there's plenty to do."
+            scene ke-2
             p "With the higher tier memberships, of course."
             s "There's higher than gold?"
             p "I think there will be. Its a work in progress."
             p "Something something renovations and a new architect. Or something."
+            scene ke-3 with dissolve
             "..."
             "The resort is pretty big, I'm sure theres tons to do there."
             s "Alright then! I've picked out a swimsuit."
@@ -732,87 +796,297 @@ label kairatalk:
             s "Hmph!"
             s "Enough chit-chat, [p], it's time to go!"
             ## Transition to resort
+            scene black with fade
+            scene ne-0 with fade
+            play music "sounds/slopes.mp3" fadeout 1
+            p "Well Kaira, this is it."
             s "Wow this place is so nice!"
+            scene ke-5 with dissolve
             s "You've got a gold membership too."
+            scene ke-6 with dissolve
             s "Look at you, [p], you're taking me out on a date!"
             p "Yeah haha. Don't get too excited."
+            scene cam-6 with dissolve
             p "Hi, Camille. Good to see you again. My [sr] and I are going to spend some time in the private pool."
+            scene cam-5
             t "Okay no problem, [p]. You can just head in whenever you're ready."
+            scene ke-7 with dissolve
             s "I can't believe you can afford a membership for this place. This is awesome."
             p "Bitcoin bros."
+            scene ke-8 with dissolve
             s "Sorry?"
             p "Nothing."
+            scene black with fade
             ## Transition to inside bathhouse
+            scene ke-9 with fade
             t "Here you go, you two. Please enjoy yourselves."
+            t "The private pool is a great place to just relax and enjoy some privacy."
+            scene ke-10 with dissolve
             t "If there's anything that you need, please let me know!"
+            scene ke-11 with dissolve
+            s "I hope you're not scared of water, [p]!"
+            p "Me? Get real, I come here all the time."
+            p "If anyone's afraid, it's you little girl."
+            s "I'm great at swimming!"
+            p "I hope so Kaira, coz' I'm not giving CPR."
+            scene ke-12 with dissolve
             t "(Those two seem very close, if I didn't know I would-)"
+            scene ke-13 with vpunch
             t "(Ah- you're imagining things again, Camille!)"
-            s "The water looks amazing. I'm going to get changed. You should too."
+            scene ke-14 with dissolve
+            s "The water looks amazing, [p]. I'm going to get changed. You should too."
+            p "Right after you."
+            scene black with fade
             ## Changing
+            play music "sounds/masked.mp3" fadeout 1
+            scene ke-15 with fade
             "As always, the women take the longest."
+            scene ke-16 with dissolve
             "Alright [p], you gotta ready yourself. Act normal around Kaira."
             "Remember there are barriers."
+            scene ke-17
             "Oh here she comes!"
             s "Hey~!"
             s "How do you like swimsuit?"
+            scene ke-18:
+                pos (0.0, -2.6)
+                linear 6 pos (0.0, 0.0)
+            $ renpy.pause(6.0,hard=True)
+            $ renpy.pause ()
+            scene ke-19
             "Whoa."
-            "But at the same time, how could you not lust over something like that?"
+            "But at the same time, how could I not be attracted over something like that?"
             "Something so close, and yet so innocent..."
             s "..."
             s "Is everything okay [p]?"
             p "-I."
+            scene ke-20
             s "Quite a bombshell this swimsuit!"
-            p "Sure, geez."
+            p "Sure."
             p "I just got a bit distracted."
+            scene ke-21 with dissolve
             s "Distracted by what?"
             p "The uh- colour of your swimsuit- it's just so interesting."
-            p "(It's showing nearly everything! The way it hugs her frame and just entices me to touch her. As if daring me to make a move…"
-            s "Okay, sure!"
-            p "Enough talk."
+            "It's showing nearly everything! The way it hugs her frame and just entices me to touch her. As if daring me to make a move…"
+            s "The colour?"
+            s "[p], its completely white..."
+            p "That was what was so interesting about it, you know?"
+            scene ke-22 with dissolve
+            s "Whatever [p]."
             p "You ready to get in the water, Kaira?"
             s "I sure am."
             s "Actually I can't even wait!"
-            ## Kaira jumps in to the water. Cannon ball possibly?
-            p "Hahaha nice form."
-            s "I bet you can't do better."
-            p "I would have to disagree."
-            ## MC cannon balls into the water. Splashing a lot of water on Kaira.
-            s "Hehehe, I guess that was pretty good."
-            ## Kaira and MC spends a fun day at the resort. Wouldn't go too much into it in my opinion. I would do a short montage and write "I spent a fun day at the resort with Karia. It seems like see really enjoyed it."
-            p "It's getting late, Kaira. I think we should change and head home."
-            s "Aw, but it's so much fun!"
-            p "We can come back another day. I still have the membership."
-            s "I guess it is getting late."
+            scene ke-23 with fade
+            p "How is it?"
+            p "Hot? Cold?"
+            s "I haven't even gone in yet, hold up."
+            scene ke-24 with dissolve
+            s "..."
+            s "Hmm...."
+            p "Well?"
+            scene ke-25 with dissolve
+            s "Why don't you come in and find out for yourself?"
+            p "Cheeky girl."
+            s "Why are you so afraid of a little bit of water, [p]?"
+            p "As you know Kaira, I hate the cold."
+            p "Cold makes my balls shrink."
+            p "I don't care if it's my [sr], I can't have my balls shrink in front of a woman."
+            scene ke-26 with dissolve
+            s "Haha... what?"
+            scene ke-27 with dissolve
+            p "Alright let's do it."
+            s "You know, I hate cold water too."
+            scene ke-26 with dissolve
+            s "My nipples become stiff sometimes, it's quite embarassing!"
+            p "It's cool how we can just say those sorts of things so casually."
+            s "Why not? It's just you and me in here."
+            s "And besides, I've said worse things to you already hehehe."
+            p "You've got a point, I guess it's nothing new."
+            scene ke-27 with dissolve
+            p "Alright Kaira. You wanted me to try the water for myself?"
+            p "I'll show you how I try the water."
+            scene ke-28
+            s "What are you-"
+            scene ke-29 with hpunch
+            s "[p]!"
+            scene ke-30
+            p "It's the OLYMPIC SPLASHUOOOO!!!"
+            scene ke-31
+            $ renpy.pause()
+            scene ke-32 with flash
+            s "..."
+            p "Hey! It's not so cold after all."
+            scene ke-33 with dissolve
+            s "Well, [p], nobody said it was..."
+            p "I hope you enjoyed the shower anyhow."
+            s "Hey [p], since you're the one that took me out on this date, what do you plan we do next?"
+            scene ke-35
+            p "You probably haven't been swimming in ages, just enjoy yourself and try some use of my gold membership."
+            scene ke-37
+            s "Oh I will, but I want you to enjoy it too."
+            scene ke-38 with dissolve
+            p "What, did you have something in mind?"
+            s "Let's just get exhausted and give it everything we got."
+            p "They might have a gym here as well, I'm sure we'll be able to-"
+            scene ke-39
+            s "Stop, I've got a better idea."
+            s "Hey, try catch me in the water!"
+            scene ke-40 with dissolve
+            s "Hehehehe!"
+            scene ke-41
+            "..."
+            "Guess I'll play along."
+            scene ke-42 with hpunch
+            p "I'm coming for you Kaira! You better run!"
+            s "AHHHH~!!"
+            "While we swam and splashed around in the pool I had forgotten about my desires for her for a while."
+            "It was nice to see her having fun like we used to all those years ago."
+            "We tackled, fought and yelled with fun."
+            scene ke-43 with dissolve
+            "I have to admit I even found myself acting a bit like a child as well, but this kind of fun felt nostalgic."
+            "From the look on her face she seemed to really enjoy it as well."
+            scene ke-44 with dissolve
+            "In just a moment, both of us were exhausted."
+            scene ke-45 with dissolve
+            play music "sounds/missingyou.ogg" fadeout 1
+            s "You're pretty fast in the water, [p]."
+            p "Catching you was hard!"
+            scene ke-46 with dissolve
+            s "Oh I'm so tired, who knew it would be such a work out."
+            p "You're breathing hard."
+            p "Maybe you should go to the gym more."
+            scene ke-47
+            s "Hey!"
+            scene ke-48 with dissolve
+            s "Hehehe, I should go to the gym though. Nicole does."
+            p "I need to go to the gym too. I'm actually so unfit these da-"
+            scene ke-49 with vpunch
+            "!!!"
+            "Her top must have come off when we were splashing around!"
+            "Shit, should I tell her?"
+            "But at the same time, this sight is bringing out my carnal desires."
+            "I can't deny them for much longer. How could I?"
+            menu:
+                "Ahem, Kaira?":
+                    p "I think something's wrong with your swimsuit..."
+                    scene ke-50 with dissolve
+                    s "..."
+                    scene ke-51
+                    s "Eeek!"
+                    scene ke-52
+                    s "Oh, [p]!"
+                    p "I'm so sorry, I didn't know, I let you knew as soon as I could."
+                "Nah, I think I'll enjoy it for a bit longer...":
+                    $ depravity += 1
+                    s "What's wrong, [p]?"
+                    s "You suddenly cut off?"
+                    scene ke-50 with dissolve
+                    s "Hang on..."
+                    scene ke-51
+                    s "Eeek!"
+                    scene ke-52
+                    s "Oh, [p]!"
+                    p "I was just about to say, I just lost my words!"
+            scene ke-53 with dissolve
+            $ renpy.pause ()
+            scene ke-54 with dissolve
+            s "Ahh haha! That's alright."
+            scene ke-54 with dissolve
+            s "You've seen me without my top before."
+            p "I... have?"
+            scene ke-56
+            s "When we were kids, silly!"
+            s "A little nudity doesn't matter, right?"
+            scene ke-57
+            s "We've already seen each other at our most vulnerable..."
+            scene ke-58 with dissolve
+            s "... and it looks like you've got something to show as well..."
+            "Oh fuck, don't tell me."
+            scene ke-59 with dissolve
+            s "Having a party in your pants, [p]?"
+            scene ke-61 with dissolve
+            s "How come I wasn't invited?"
+            scene ke-60
+            p "Oh..."
+            p "Well..."
+            p "Ummm..."
+            s "That's called a 'boner', isn't it?"
+            p "It's uh, well... what have you seen one before?"
+            scene ke-62
+            s "I've seen it before. On the internet."
+            p "Purely physiological. Perfectly normal."
+            p "Don't read too much into it okay? Hahahah..."
+            scene ke-63 with dissolve
+            s "Alright~ I won't bring it up again aha-"
+            p "You know what Kaira?"
+            ## event end
+            scene ke-64
+            p "I think it's getting late. I think we should change and head home."
+            scene ke-65
+            s "Aw, but we were having so much fun!"
+            p "Nah! Time to go!"
+            s "Just because I teased you!"
+            scene ke-66 with dissolve
+            s "Ok fine."
+            s "I guess it {i}is{/i} getting late."
+            scene ke-67 with dissolve
+            s "I'll get changed first, see you outside?"
+            p "Seeya."
+            scene ke-68 with dissolve
+            $ renpy.pause ()
+            scene ke-69
+            "Wow, what was that."
+            "That was too close, [p]."
+            "She's kinda pushing it herself too."
+            "Does she know what she's doing?"
+            "..."
+            "In either case, I need to get changed."
+            scene black with fade
             #They both get changed.
+            scene ke-70 with fade
+            p "Ready to head back home?"
+            s "As long as you're there to escort me."
+            p "{i}You're{/i} the escort."
+            scene ke-71 with dissolve
+            s "Phh! Do I like like an escort?"
+            p "Stop wasting energy, come on let's go."
+            scene black with fade
             #They walk back home.
+            scene k-95 with fade
             s "Thank you so much for taking me to the resort. I had such an amazing time"
             p "No problem. I'm glad you enjoyed it."
-            s "[p], I was wondering ... I really like having you back home. And I'm having so much fun."
-            p "I'm really glad I came home, Kaira. I think I've wasted a lot of time. I should have come home a lot earlier to spend some time with my lovely [sr]."
+            s "[p], I was wondering ... I really like having you back home. And I've been having so much fun."
+            s "Thank you."
+            p "I'm really glad I came home, Kaira. I think I've wasted a lot of time. I should have come home a lot earlier."
             p "But what are you wondering, Kaira?"
-            s "You're so sweet, [p]. I was just thinking ..."
+            scene k-94 with dissolve
+            s "You're so sweet, [p]. I was just thinking..."
             s "Remember when we were younger? We used to sleep in the same bed."
             p "Yeah I do remember that. We didn't sleep much, though. I think we spent most of the time joking around until [mr] would come in and demand that we go to sleep"
+            scene k-93 with dissolve
             s "Hehehe, yeah I guess you're right about that."
             s "I was just wondering if we could maybe try that again"
             p "Uhm ..."
+            scene k-94 with dissolve
             s "Oh come on. It would be like having a sleepover."
             s "I just remember how nice it was to not sleep all alone."
             "I'm not sure about this. It would be nice to not sleep alone. But she's my [sr], and we're not kids anymore. But somehow that doesn't deter me."
             p "Kaira, we were a loooot younger back then."
+            scene k-92 with dissolve
             s "And so what? There's nothing wrong with having a sleepover with your [sr]."
             s "It would be fun! And I think we would sleep a lot better."
             p "I guess we could try it ..."
+            scene k-97 with dissolve
             s "Yay!"
             s "When it's time to go to bed, I'll come into your room."
-            p "Okay sure, Kaira."
+            p "Okay, we can give it a go."
             $ kairalvl += 1
             $ kairatalk = day
-            $ daytime = 4
+            call daykeep
+            call daykeep
             jump kaira_room
-        else:
-            "Hang on, I need that gold membership first."
-            jump kaira_room
+        "Hang on, I need that gold membership first."
+        jump kaira_room
     scene k-1
     p "How's my beautiful [sr] doing?"
     scene k-3

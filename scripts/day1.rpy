@@ -27,6 +27,7 @@ label splashscreen:
     with Dissolve(1)
 
     $ renpy.pause(2.0,hard=True)
+    $ renpy.pause()
 
     scene black
     with Dissolve(1)
@@ -35,6 +36,16 @@ label splashscreen:
     with Dissolve(1)
 
     $ renpy.pause(2.0,hard=True)
+    $ renpy.pause()
+
+    scene black
+    with Dissolve(1)
+
+    scene splash5
+    with Dissolve(1)
+
+    $ renpy.pause(2.0,hard=True)
+    $ renpy.pause()
 
     scene splash2
     with Dissolve(1)

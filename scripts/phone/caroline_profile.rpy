@@ -21,7 +21,11 @@ unwittingly gains more and more respect for her at every interaction." justify T
         vbox xsize 350:
             if carolinelvl == 1 and carolinebarlvl == 1:
                 text "Go to the Cafe." justify True size 18
-            if carolinelvl == 2 and carolinebarlvl == 1:
+            elif carolinelvl == 2 and carolinebarlvl == 1:
                 text "Go to the Bar." justify True size 18
+            elif carolinelvl == 2 and carolinebarlvl == 2:
+                text "Go to the Cafe." justify True size 18
+            elif carolinelvl == 3:
+                text "Go to the Cafe." justify True size 18
             else:
                 text "Content complete for this version! Vote for this character on Patreon to see more." justify True size 18

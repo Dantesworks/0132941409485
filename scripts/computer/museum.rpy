@@ -51,7 +51,7 @@ label museum:
 label raze:
     scene raze
     $ renpy.pause()
-    "Full of sweat | Commissioned by RAZE"
+    "Spending time at the sauna | Commissioned by Raze"
     jump museum
 
 label born2game:
