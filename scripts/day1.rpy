@@ -17,6 +17,10 @@ define a = Character("Announcer")
 define g1 = Character("Guest 1")
 define g2 = Character("Guest 2")
 define wai = Character("Waitress")
+define s1 = Character("Woman #1")
+define s2 = Character("Woman #2")
+define o = Character("Olivia")
+define ver = Character("Veronica")
 
 define w = Character("Widowmaker")
 # The game starts here.
@@ -26,7 +30,7 @@ label splashscreen:
     scene splash3
     with Dissolve(1)
 
-    $ renpy.pause(2.0,hard=True)
+    $ renpy.pause(2.0,hard=False)
     $ renpy.pause()
 
     scene black
@@ -35,7 +39,7 @@ label splashscreen:
     scene splash4
     with Dissolve(1)
 
-    $ renpy.pause(2.0,hard=True)
+    $ renpy.pause(2.0,hard=False)
     $ renpy.pause()
 
     scene black
@@ -44,7 +48,7 @@ label splashscreen:
     scene splash5
     with Dissolve(1)
 
-    $ renpy.pause(2.0,hard=True)
+    $ renpy.pause(2.0,hard=False)
     $ renpy.pause()
 
     scene splash2

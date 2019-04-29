@@ -134,62 +134,86 @@ label Caroline:
         p "You really do like to come every morning."
         c "It's true - I can't survive without my coffee."
         p "How many do you have a day?"
+        scene cc-4
         c "Hmmm..."
+        scene cc-5
         c "Three?"
         p "Whoa, three!"
         p "Surely, doctor, that's not good for you?"
+        scene cc-6
         c "I'm not a doctor yet."
         c "It's the coffee withdrawal that's the bad part."
         c "That's why I can't stop."
         p "A hostage to your vices, Caroline!"
+        scene cc-14
         c "It's not such a bad thing, it helps me concentrate anyway."
+        scene cc-6 with dissolve
         c "Maybe you'll think of dabbling more into coffee? It's a great pastime."
         p "Yeah, sure. Teach me about it."
-        p "That is, if it won't get in the way of yoru study."
+        p "That is, if it won't get in the way of your study."
+        scene cc-9
         c "No, no- I don't mind. It's always nice to take a break for company."
         c "What would you like to know?"
         p "What's the difference between instant coffee and the one they have here?"
+        scene cc-5
         c "There's a huge difference."
         p "How?"
+        scene cc-6 with dissolve
         c "Can't you taste the difference?"
         p "Umm..."
+        scene cc-14
         c "Hahaha!"
         c "Let me explain..."
+        scene coffee with dissolve
         c "The espresso here is made from freshly ground beans. The fresh part is important."
         c "This is because the oils in the beans haven't evaporated yet. It's the oils that give it that great taste."
         c "The espresso is basically super concentrated coffee. It's a bit too strong for most people though."
         c "That's why we might add milk or water to it."
         c "Instant coffee is... well, not like espresso."
         p "Huh! So coffee is espresso plus milk?"
+        scene cc-4 with dissolve
         c "Anything with espresso is coffee. There are just different ways of having it."
         c "For example, a Latte is espresso with some milk added to it."
         p "Oooh! So that's what the names mean."
         p "What's a 'cup of chino' then?"
+        scene cc-6 with dissolve
         c "Do you mean a Cappuccino?"
         p "Yeah, that."
+        scene cc-5
         c "It's like a Latte, except the milk that is added is more frothy."
         p "Frothy?"
         c "Yup, they have a milk frother which heats up the milk and sort of makes it creamier."
         p "Creamy! Yum."
         p "Which kind of coffee do you like the most?"
+        scene cc-12
         c "For me, it's a Latte everytime. I love milk, but a Cappuccino is just too airy for me."
         p "Fair enough."
         p "So for you it's not just about getting the caffeine to help you study."
+        scene cc-9 with dissolve
         c "Coffee is an experience."
         c "From cupping it in your hands, feeling the warmth of the coffee, and the hustle bustle of life."
         p "What are you thinking of now?"
+        scene cc-15 with dissolve
         c "..."
+        scene cc-8 with dissolve
         c "I'm thinking I'm having a pleasant time."
         c "But! All good times {i}must{/i} come to an end."
         p "Hang on-you're leaving?"
+        scene cc-6
         c "I'm meeting up with some friends to do some group study."
         p "Weren't you already studying?"
+        scene cc-5
         c "Group study is useful sometimes for remembering things."
         c "We all study up on something and teach each other about it, and it helps us remember what we study more."
+        scene cc-9
         p "Study with me! I'm an empty tea cup. I'll learn anything you have to teach."
         c "I'll tell you a few things next time, but I really have to go now."
         p "See you!"
         c "Take care, [p]."
+        scene cc-17 with dissolve
+        $ carolinelvl += 1
+        call daykeep
+        jump map
     if carolinelvl == 3:
         scene black
         scene cc-1 with fade
@@ -288,7 +312,7 @@ label Caroline:
         "But now the pressure's on me to find a place after the morning coffee..."
         "I'll come up with something."
         $ carolinelvl += 1
-        call daykeep
+        call daykeep from _call_daykeep_17
         jump map
     scene cc-2
     p "Good morning Caroline!"

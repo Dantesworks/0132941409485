@@ -110,6 +110,7 @@ label outfits:
     jump online_shop
 
 label bog:
+    scene bog
     menu:
         "Reset BCC value to 10 - $200":
             "Are you sure?"

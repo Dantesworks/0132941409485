@@ -57,9 +57,30 @@ label cgGallery3:
                     action Jump("g24")
             else:
                 null
-            null
-            null
-            null
+            if kairalvl > 2:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/25-i.png"
+                    hover "gallery_buttons/cGGallery/25-h.png"
+                    action Jump("g25")
+            else:
+                null
+            if kairalvl > 4:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/27-i.png"
+                    hover "gallery_buttons/cGGallery/27-h.png"
+                    action Jump("g27")
+            else:
+                null
+            if kairalvl > 4:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/26-i.png"
+                    hover "gallery_buttons/cGGallery/26-h.png"
+                    action Jump("g26")
+            else:
+                null
             null
 label g20:
     scene 20
@@ -79,5 +100,17 @@ label g23:
     jump cgGallery3
 label g24:
     scene 24
+    $ renpy.pause()
+    jump cgGallery3
+label g25:
+    scene 25
+    $ renpy.pause()
+    jump cgGallery3
+label g26:
+    scene 26
+    $ renpy.pause()
+    jump cgGallery3
+label g27:
+    scene 27
     $ renpy.pause()
     jump cgGallery3

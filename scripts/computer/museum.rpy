@@ -11,10 +11,18 @@ label museum:
             hover "back_hover.png"
             action Jump("computer")
         grid 3 3:
-            xfill
-            yfill
-            align (0.5, 0.5)
-            spacing 100
+            align (0.5, 0.3)
+            spacing 80
+            imagebutton: ## coil
+                focus_mask True
+                idle "/images/gallery_buttons/museum/coil_i.png"
+                hover "/images/gallery_buttons/museum/coil_h.png"
+                action Jump("coil")
+            imagebutton: ## raze2
+                focus_mask True
+                idle "/images/gallery_buttons/museum/raze2_i.png"
+                hover "/images/gallery_buttons/museum/raze2_h.png"
+                action Jump("raze2")
             imagebutton: ## raze
                 focus_mask True
                 idle "/images/gallery_buttons/museum/raze_i.png"
@@ -46,8 +54,19 @@ label museum:
                 hover "/images/gallery_buttons/museum/dante_h.png"
                 action Jump("dante")
             null
-            null
-            null
+label coil:
+    scene coil
+    $ renpy.pause()
+    "Will you sleep with me tonight? | Commissioned by Coil X Tesla"
+    jump museum
+
+
+label raze2:
+    scene raze2
+    $ renpy.pause()
+    "More sweat | Commissioned by Raze"
+    jump museum
+
 label raze:
     scene raze
     $ renpy.pause()

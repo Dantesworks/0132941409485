@@ -21,13 +21,13 @@ force to be reckoned with indeed. She put these skills to practise on the second
     viewport xalign 0.5 yanchor 0 ypos 410 xsize 350 ysize 40 draggable True mousewheel True arrowkeys True:
         vbox xsize 350: # tips
             if kairalvl == 1:
-                text "Talk to Kaira in her room in the morning." justify True size 18
+                text "Talk to Kaira in her room in the afternoon." justify True size 18
             elif kairalvl == 2:
-                text "Talk to Kaira in her room in the morning." justify True size 18
+                text "Talk to Kaira in her room in the afternoon." justify True size 18
             elif kairalvl == 3:
-                text "Talk to Kaira in her room in the morning." justify True size 18
+                text "Talk to Kaira in her room in the afternoon." justify True size 18
             elif kairalvl == 4:
-                text "Purchase the gold membership from the resort, then talk to Kaira in her room in the morning." justify True size 18
+                text "Purchase the gold membership from the resort, then talk to Kaira in her room in the afternoon." justify True size 18
             elif kairalvl == 5:
                 text "Go to bed." justify True size 18
             else:

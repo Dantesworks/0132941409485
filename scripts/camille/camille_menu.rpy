@@ -40,7 +40,7 @@ label Camille:
             t "You may upgrade to [nextmembership] membership for $[membershipcost]."
             menu:
                 "Let's do it!":
-                    if cash - membershipcost > 0:
+                    if cash - membershipcost >= 0:
                         $ resortmembership += 1
                         $ cash -= membershipcost
                         scene cam-7

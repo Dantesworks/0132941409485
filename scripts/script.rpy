@@ -34,7 +34,7 @@ label base:
         "I went ahead and said hi.":
             $ talkcamille = True
         "It was awkward, so I kind of ignored her.":
-            $ depravity +=1
+            $ depravity += 1
 
     p "Why are you asking me these questions?"
     x "What you choose to say or do is up to you."
@@ -108,6 +108,7 @@ label base:
     d "Access the map in the top right corner in the hallway."
     d "Advance time by sleeping, or by using the fast-forward button on the top left corner of the map."
     d "You will get an automatic quest guide once you get Nicole's phone, so do her quest first if you get stuck."
+    d "Some routes are also LOCKED until you get the phone! So get the phone from Nicole first!!"
     d "To do this, talk to Amanda in the morning, Kaira in the afternoon, then you will find Nicole in the living room in the afternoon on the next day."
     d "Have fun!"
     jump living_room

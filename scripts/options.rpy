@@ -23,7 +23,7 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "0.51a"
+define config.version = "0.51c"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -75,7 +75,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-define config.main_menu_music = "sounds/automata.mp3"
+define config.main_menu_music = "sounds/armoir.mp3"
 
 
 ## Transitions #################################################################

@@ -212,7 +212,7 @@ label Caroline:
         c "Take care, [p]."
         scene cc-17 with dissolve
         $ carolinelvl += 1
-        call daykeep
+        call daykeep from _call_daykeep_18
         jump map
     if carolinelvl == 3:
         scene black
@@ -225,34 +225,43 @@ label Caroline:
         scene cc-5 with dissolve
         c "So, what have you been up to?"
         p "I'm up to some learning, that's what."
+        scene cc-6
         c "Learning?"
         p "Where we left off last time, you said you'd teach me about what you're studying."
+        scene cc-8
         c "You're an eager beaver, what's up?"
         p "Oh you got me."
         p "I really just want to hear your voice."
+        scene cc-13 with dissolve
         c "Oh gee..."
         c "Chessy line, [p]!"
         p "Yeah well, did you like it?"
+        scene cc-6 with dissolve
         c "I can always appreciate an honest guy."
         c "Question is: Do you say this to all the girls?"
         menu:
             "Only the pretty ones.":
                 $ depravity += 1
+                scene cc-8
                 c "Daring play, [p]."
                 p "Is it working?"
                 c "Let's find out."
             "Just you.":
+                scene cc-12
                 c "Are you hitting on me?"
                 p "Am I?"
                 c "That's up to you."
+        scene cc-15 with dissolve
         c "..."
         c "It's a pity."
+        scene cc-16
         c "A relationship isn't really what I'm looking for at the moment."
         c "My study takes up a lot of my time - medicine is as time consuming as they say."
         c "I'm sorry [p]."
         "...wasn't she leading me on?"
         p "Hey, that's okay."
         p "Worth a try right?"
+        scene cc-10
         c "Don't get me wrong, [p]. I like you, and I like your company. I enjoy talking to you."
         c "I just don't have the time to commit to a relationship."
         p "That's all good."
@@ -260,54 +269,73 @@ label Caroline:
         p "I mean, what we've got going on right now... chatting over coffee."
         p "Making plans to meet again in the future..."
         p "We're virtually dating already!"
+        scene cc-5 with dissolve
         c "Interesting point of view."
         p "I'll never come between you and your studies, and I don't want you to sacrifice that for me. Never."
         c "That's considerate of you."
         p "Guess what I'm trying to say is. I'm not asking for a lot of commitment."
         p "I... just wanted to let you know where I was coming from."
+        scene cc-4
         c "Well, [p], I appreciate your frankness."
         c "I really do."
+        scene cc-6
         c "If we're already virtually dating, why don't we keep it up then?"
         p "Lets!"
         p "Hey, you mentioned last time you'd teach me a few things about what you're learning?"
+        scene cc-4
         c "Yeah, I love teaching. It helps me remember it better too."
         p "What is it that you're learning right now again?"
+        scene cc-5
         c "Psychiatry."
         p "That's similar to psychology right?"
         c "Well, similar, yes, but different."
         p "What's the difference? Always seemed quite similar to a layperson like myself."
+        scene c-12 with dissolve
         c "How can I put it..."
         c "Psychiatry is about dealing with mental diseases - the more disabling ones."
         c "You would need to know how the human mind works for both, but practically psychiatrists would deal with mental illnesses like severe depression, and schizophrenia."
         p "Oh so you're more into mental illnesses then?"
+        scene cc-9
         c "The more severe ones, yes."
-        p "Schizophrenia, what is that again?"
+        p "I've heard of this thing called schizophrenia, what is that again?"
+        scene cc-8
         c "Well, it's the one that people typically think of when you say someone's psychotic."
         p "Psychotic as in crazy?"
         c "It's a specific kind of crazy. People who are psychotic hear or see things that aren't there."
         p "Ah, that kind of crazy."
+        scene cc-9
         c "Of course, psychosis is just a symptom. Many things can cause psychosis, just like how many things can cause chest pain."
         p "Such as?"
+        scene cc-12 with dissolve
         c "For chest pain?"
-        p "Sure."
+        p "Sure, gimme a few examples."
+        scene cc-5 with dissolve
         c "A lot of things can cause chest pain. A heart attack can. A pulmonary embolism, pneumonia, reflux, costochondritis are just some other examples that can all cause chest pain."
         c "Of course, pulling your pectoralis major muscle during your bench-pressing at the gym will also cause chest pain."
         p "Oh I get it, so many things can cause psychosis too? What's the most common?"
+        scene cc-6
         c "Well, schizophrenia probably jumps to people's minds the first, but the most common is probably drug-induced. Taking methamphetamine and other illicit drugs can make you crazy."
         p "Cannabis is safe though, right?"
         c "Well, it's what a lot of people like to believe, but it's also a common cause for psychotic presentations."
         p "Wow, everything in moderation, huh?"
+        scene cc-9
         c "Definitely!"
         c "Phew, that was good revision."
         p "Man, Caroline, you know a lot!"
         c "Thank you, I spent a long time studying it!"
+        p "You've also got a ton of passion for this kind of stuff."
         p "Tell me about depression next, I know a lot of people have it. What's the deal with it?"
+        scene cc-12 with dissolve
         c "That's a large topic, [p], and... one that we might not have time for."
         p "Are you going already?"
+        scene cc-11 with dissolve
         c "Yes, I'm sorry, but- yes."
+        scene cc-4
         c "But listen, maybe next time we could do something else? After coffee? I'll free up some time."
         p "Um, of course! I'd love to, did you have something in mind?"
-        c "I'll... leave that up to you! Take care, [p]!"
+        scene cc-14
+        c "I'll... leave that up to you! Gotta go! Take care, [p]!"
+        scene cc-17 with dissolve
         "Huh, I'm glad she's come around and found some time for me in her busy schedule."
         "But now the pressure's on me to find a place after the morning coffee..."
         "I'll come up with something."

@@ -1,5 +1,5 @@
 label kairatalk:
-    if amandalvl == 2 and kairalvl == 1:
+    if amandalvl >= 2 and kairalvl == 1:
         scene black
         scene k-1 with fade
         play music "sounds/automata.mp3" fadeout 1
@@ -129,6 +129,7 @@ label kairatalk:
             $ kairatalk = day
             $ nicoledelay = day + 1
             $ nicoleshow = ["2"]
+            call daykeep
             play music "sounds/heart.mp3" fadeout 1
             jump kaira_room
     if kairalvl == 2:
@@ -488,7 +489,7 @@ label kairatalk:
         p "Oh no, we're not-!"
         s "(He's so funny when he's flustered.)"
         s "(I'm not surprised she thinks we're a couple though...)"
-        s "(I wonder what we would be like if I wasn't her [sr].)"
+        s "(I wonder what we would be like if I wasn't his [sr].)"
         scene k-54 with dissolve
         s "Thank you so much! It smells delicious."
         "I'm not going to lie, the pizza looks amazing."
@@ -722,8 +723,8 @@ label kairatalk:
         "[p], what are you doing...?"
         $ kairalvl += 1
         $ kairatalk = day
-        call daykeep
-        call daykeep
+        call daykeep from _call_daykeep_19
+        call daykeep from _call_daykeep_20
         jump hallway
     if kairalvl == 3:
         scene black
@@ -1048,7 +1049,7 @@ label kairatalk:
             s "As long as you're there to escort me."
             p "{i}You're{/i} the escort."
             scene ke-71 with dissolve
-            s "Phh! Do I like like an escort?"
+            s "Phh! Do I look like an escort?"
             p "Stop wasting energy, come on let's go."
             scene black with fade
             #They walk back home.
@@ -1075,15 +1076,16 @@ label kairatalk:
             scene k-92 with dissolve
             s "And so what? There's nothing wrong with having a sleepover with your [sr]."
             s "It would be fun! And I think we would sleep a lot better."
-            p "I guess we could try it ..."
+            p "I guess we could try it..."
             scene k-97 with dissolve
             s "Yay!"
             s "When it's time to go to bed, I'll come into your room."
-            p "Okay, we can give it a go."
+            p "Haha alright. I'll be waiting."
+            p "Just like old times."
             $ kairalvl += 1
             $ kairatalk = day
-            call daykeep
-            call daykeep
+            call daykeep from _call_daykeep_21
+            call daykeep from _call_daykeep_22
             jump kaira_room
         "Hang on, I need that gold membership first."
         jump kaira_room

@@ -34,7 +34,7 @@ label hallway:
             hotspot(987, 270, 77, 504) hovered Show("displayTextScreen", displayText = "My Bedroom") action [Hide("displayTextScreen"), Jump("player_room")] unhovered Hide("displayTextScreen")
 
 label living_room:
-    hide screen map_icon
+    show screen map_icon
     show screen daytime
     show screen phone_icon
     call screen living_room
@@ -81,7 +81,7 @@ label kitchen:
             hover "back_hover.png"
             action Jump("living_room")
 label kaira_room:
-    hide screen map_icon
+    show screen map_icon
     show screen daytime
     show screen phone_icon
     call screen kaira_room
@@ -107,7 +107,7 @@ label kaira_room:
             action Jump("hallway")
 
 label amanda_room:
-    hide screen map_icon
+    show screen map_icon
     show screen daytime
     show screen phone_icon
     if daytime == 1:
@@ -142,7 +142,7 @@ label player_room:
     if daytime == 4:
         if renpy.music.get_playing() != "sounds/alchemy.mp3":
             play music "sounds/alchemy.mp3"
-    hide screen map_icon
+    show screen map_icon
     show screen daytime
     show screen phone_icon
     call screen player_room

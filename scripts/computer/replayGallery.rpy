@@ -44,7 +44,14 @@ label gallery1:
                     action Jump("widow_1")
             else:
                 null
-            null
+            if kairalvl > 5:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/7.png"
+                    hover "gallery_buttons/7_hover.png"
+                    action Jump("k_1")
+            else:
+                null
             null
             null
         imagebutton: ## back
