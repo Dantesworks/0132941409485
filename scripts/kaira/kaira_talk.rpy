@@ -823,7 +823,7 @@ label kairatalk:
             t "Here you go, you two. Please enjoy yourselves."
             t "The private pool is a great place to just relax and enjoy some privacy."
             scene ke-10 with dissolve
-            t "If there's anything that you need, please let me know!"
+            t "If there's anything that you need, please let me know."
             scene ke-11 with dissolve
             s "I hope you're not scared of water, [p]!"
             p "Me? Get real, I come here all the time."

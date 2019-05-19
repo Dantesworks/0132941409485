@@ -62,6 +62,7 @@ label splashscreen:
     return
 
 label start:
+
     $ depravity = 0
     play music "sounds/path.mp3" fadeout 1
 
