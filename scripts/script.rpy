@@ -110,5 +110,6 @@ label base:
     d "You will get an automatic quest guide once you get Nicole's phone, so do her quest first if you get stuck."
     d "Some routes are also LOCKED until you get the phone! So get the phone from Nicole first!!"
     d "To do this, talk to Amanda in the morning, Kaira in the afternoon, then you will find Nicole in the living room in the afternoon on the next day."
+    d "Nicole's phone will also unlock money making through cryptocurrency investing - be sure to do this in combination with the Bogdanoff Favours in the online shop."
     d "Have fun!"
     jump living_room
