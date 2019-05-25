@@ -590,7 +590,6 @@ label nicoletalk:
     if nicolelvl == 7 and day > nicoleday:
         scene black
         scene n-4 with fade
-        play music "sounds/beach.mp3" fadeout 1
         p "And how's my beautiful girlfriend doing?"
         scene n-3
         n "I'm doing very well [p]. And you?"
@@ -617,6 +616,67 @@ label nicoletalk:
         $ nicolelvl += 1
         $ nicoleday = day
         jump living_room
+    if nicolelvl == 8 and day > nicoleday:
+        $ amandakitchen = True
+        $ amandashow = ["1"]
+        p "Afternoon, Nicky."
+        n "Hey girlfriend."
+        p "That's my line."
+        n "Hey listen, are you free this afternoon?"
+        p "I'm always free."
+        n "Good. Because we're going out for some lunch."
+        p "Oh really? Where to?"
+        n "I was searching earlier online about romantic restaurants, and this place came up."
+        p "Is it close?"
+        n "Nope."
+        p "How are we going to get there? I don't have a car."
+        n "Uber."
+        n "Oh don't give me that look. I'll pay for it."
+        p "We could split it."
+        n "No that's alright."
+        "Whoa, she's got money to throw around."
+        n "So?"
+        p "What?"
+        n "You wanna come?"
+        p "I still don't know anything about it, but sure. I'll take a backseat."
+        n "Excellent."
+        p "So when are we going?"
+        n "As soon as you can get ready."
+        p "Don't you have to make a reservation or something first?"
+        n "Already done."
+        p "Hmm. How did you know I would be free this afternoon?"
+        n "I didn't."
+        p "So what would happen if I said I couldn't go?"
+        n "I would've gone myself."
+        n "Just kidding! I knew you'd probably be free, and even if you weren't, we could just reschedule."
+        p "What's so cool about this restaurant?"
+        n "The reviews say it's romantic. Beautiful scenery and good atmosphere. Isn't that the perfect place for us?"
+        p "Mmmm."
+        n "We're a couple now, it's fitting."
+        n "Will you get ready now?"
+        p "I'm always ready. Let's go."
+        ## Transition
+        scene black with fade
+        "(A few moments later...)"
+        p "My god. Uber is great."
+        n "Hm?"
+        p "Compared to public transport. I used to take the bus all the time and let me tell you, it's not great."
+        n "What's so bad about it?"
+        p "Have you been on a bus before?"
+        n "I don't think I've ever. My parents used to drive me around, and nowadays I just uber to get from A to B."
+        p "That's a good life you lead. In comparison, the bus is slow, uncomfortable and either too late or too early all the time."
+        p "Uber is basically like having a personal driver just minutes away - even better than a taxi!"
+        n "I suppose it is, [p]. Welcome to my life."
+        p "I want to see more."
+        n "You're about to. Though I haven't been, this restaurant is going to be very impressive."
+        wai "Hello, table for two?"
+        n "Yes."
+        wai "This way please."
+        p "Wow, Nicole. This place is really amazing. Look at the view!"
+        n "It's awesome, I know. Isn't it great? This is the first time we've done something properly romantic together."
+        p "With you Nicole, it's always the main course first before the starters."
+        n "Hahaha. You know me."
+        n "Look, [p]. It's just you, me and the rest of the world is far away. Let's enjoy this moment."
     scene n-4
     p "Still lazing around I see?"
     scene n-3

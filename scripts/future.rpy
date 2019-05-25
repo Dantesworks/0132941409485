@@ -266,7 +266,7 @@ label future:
         scene k-167 with dissolve
         s "(I didn't want to leave, hmmm. I'll have to make another sleepover sometime soon."
         scene k-168 with dissolve
-        s "I'll see you in the next update."
+        s "I can't wait to sese [p] again."
         $ kairalvl += 1
         return
     # if kairalvl == 6:

@@ -50,6 +50,8 @@ label camilletalk:
         $ camilletalk = day
         jump Camille
     if camillelvl == 2:
+        $ amandakitchen = True
+        $ amandashow = ["1"]
         p "Hello Camille!"
         t "H-hey [p]."
         t "Is there somwhere where you'd like to go? Something I can help you with?"
@@ -573,6 +575,10 @@ label camilletalk:
         t "I was just curious."
         p "..."
         p "I came myself out of boredom, but got chatting with some friendly guy along the way."
+        p "How often do you come?"
+        t "I love it so much, I come almost every morning."
+        p "Dessert in the mornings?"
+        t "Helps get me through my day!"
         t "Did you see something on the menu you liked?"
         p "I didn't actually get to have anything, so I'm looking forward to this one."
         p "What do you suggest?"
@@ -664,6 +670,62 @@ label camilletalk:
         t "[p]?"
         p "Camille."
         t "You can open your eyes now."
+        ## Shock
+        "{i}Record Scratch{/i}"
+        "{i}Freeze Frame{/i}"
+        "Yup. That's me, [p]."
+        "You're probably wondering how I got myself into this situation."
+        "Truth be told, I'm not too sure myself."
+        ## Flashback to Vincent dialogue
+        v "I'd say Camille is a person who's had a tough past. Probably due to her experiences, she is less trusting then normal. That's why on the surface she seems quite shy and doesn't really engage."
+        v "But under the right cirumstance, she can't supress the feelings she had previously been punished for showing."
+        "Dammit Vince. What kind of shit were you telling me before? Why didn't you tell me upfront?"
+        "Was he afraid? Ashamed of being surprised too?"
+        "Guilty that he rejected her?"
+        "Does this mean Camille is actually a boy?"
+        "But I was wholly convinced that she was a girl, and I was just getting on with her."
+        "Vincent. What should I do?"
+        v "Well... she just wasn't for me man. I wouldn't do it myself if I were you, but of course, we already know that."
+        scene black with fade
+        v "Go say hi to her, [p]. The best way is probably for you to find out about her through talking to her yourself."
+        "Oh my god, what do I do now!"
+        t "[p]?"
+        p "Camille, I-"
+        p "...this wasn't what I was expecting."
+        t "I thought, but, I thought you knew everything!"
+        p "Jeez. Clearly there are a few gaps."
+        t "This always happens to me..."
+        p "No, no, Camille, I'm just a bit surprised that's all."
+        p "...need some time."
+        p "I need to go."
+        "Holy fuck!"
+        "I need to talk to somebody."
+        "Let me call Vincent..."
+        "{i}Ring ring ring{/i}"
+        p "Pick up you fucker."
+        v "Vincent here. Photography-"
+        p "Listen man, it's me [p]."
+        p "You didn't tell me Camille had a dick."
+        v "..."
+        v "Whoa, [p], you didn't ask!"
+        p "Bullshit."
+        p "You don't think it's important for me to know?!"
+        v "Man, I tried to tell you but I just thought it was one of those things you have to figure out on your own."
+        p "No man, she thought I already knew she had a penis and that's why she got comfortable with- fuck!"
+        v "Join the club, [p]."
+        p "I still care about how she feels man. She? He?"
+        p "Man that experience must have destroyed her."
+        v "I don't know how to help you buddy. I'm still working through it myself."
+        P "Sigh. Thanks anyway."
+        v "No problem. I'll be happy to meet up another time to debrief."
+        p "Sure. Laters man."
+        v "Laters."
+        "I need to talk to [mr]... ask her what I should do."
+        $ camillelvl += 1
+        call daykeep
+        call daykeep
+        jump map
+    ## Camillelvl 5 with Amanda question
 
     ## generic
     scene cam-5

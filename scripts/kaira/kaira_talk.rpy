@@ -133,6 +133,8 @@ label kairatalk:
             play music "sounds/heart.mp3" fadeout 1
             jump kaira_room
     if kairalvl == 2:
+        $ amandakitchen = True
+        $ amandashow = ["1"]
         scene black
         scene k-1 with fade
         play music "sounds/automata.mp3" fadeout 1

@@ -240,8 +240,6 @@ label runway: ## Amanda first show
     "I'm tired. It's time to go home."
     $ amandalvl += 1
     $ amandakitchenlvl += 1
-    $ amandakitchen = False
-    $ amandashow = []
     call daykeep from _call_daykeep_13
     call daykeep from _call_daykeep_14
     call daykeep from _call_daykeep_15
