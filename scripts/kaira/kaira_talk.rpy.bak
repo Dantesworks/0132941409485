@@ -1,5 +1,5 @@
 label kairatalk:
-    if amandalvl == 2 and kairalvl == 1:
+    if amandalvl >= 2 and kairalvl == 1:
         scene black
         scene k-1 with fade
         play music "sounds/automata.mp3" fadeout 1
@@ -129,9 +129,12 @@ label kairatalk:
             $ kairatalk = day
             $ nicoledelay = day + 1
             $ nicoleshow = ["2"]
+            call daykeep
             play music "sounds/heart.mp3" fadeout 1
             jump kaira_room
     if kairalvl == 2:
+        $ amandakitchen = True
+        $ amandashow = ["1"]
         scene black
         scene k-1 with fade
         play music "sounds/automata.mp3" fadeout 1
@@ -488,7 +491,7 @@ label kairatalk:
         p "Oh no, we're not-!"
         s "(He's so funny when he's flustered.)"
         s "(I'm not surprised she thinks we're a couple though...)"
-        s "(I wonder what we would be like if I wasn't her [sr].)"
+        s "(I wonder what we would be like if I wasn't his [sr].)"
         scene k-54 with dissolve
         s "Thank you so much! It smells delicious."
         "I'm not going to lie, the pizza looks amazing."
@@ -722,8 +725,8 @@ label kairatalk:
         "[p], what are you doing...?"
         $ kairalvl += 1
         $ kairatalk = day
-        call daykeep
-        call daykeep
+        call daykeep from _call_daykeep_19
+        call daykeep from _call_daykeep_20
         jump hallway
     if kairalvl == 3:
         scene black
@@ -822,7 +825,7 @@ label kairatalk:
             t "Here you go, you two. Please enjoy yourselves."
             t "The private pool is a great place to just relax and enjoy some privacy."
             scene ke-10 with dissolve
-            t "If there's anything that you need, please let me know!"
+            t "If there's anything that you need, please let me know."
             scene ke-11 with dissolve
             s "I hope you're not scared of water, [p]!"
             p "Me? Get real, I come here all the time."
@@ -1048,7 +1051,7 @@ label kairatalk:
             s "As long as you're there to escort me."
             p "{i}You're{/i} the escort."
             scene ke-71 with dissolve
-            s "Phh! Do I like like an escort?"
+            s "Phh! Do I look like an escort?"
             p "Stop wasting energy, come on let's go."
             scene black with fade
             #They walk back home.
@@ -1083,8 +1086,8 @@ label kairatalk:
             p "Just like old times."
             $ kairalvl += 1
             $ kairatalk = day
-            call daykeep
-            call daykeep
+            call daykeep from _call_daykeep_21
+            call daykeep from _call_daykeep_22
             jump kaira_room
         "Hang on, I need that gold membership first."
         jump kaira_room

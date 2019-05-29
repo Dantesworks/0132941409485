@@ -54,7 +54,7 @@ label splashscreen:
     scene splash2
     with Dissolve(1)
 
-    $ renpy.pause(2.0,hard=True)
+    $ renpy.pause(2.0,hard=False)
 
     scene black
     with Dissolve(1)
@@ -62,7 +62,6 @@ label splashscreen:
     return
 
 label start:
-
     $ depravity = 0
     play music "sounds/path.mp3" fadeout 1
 

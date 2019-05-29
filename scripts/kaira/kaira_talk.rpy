@@ -129,7 +129,7 @@ label kairatalk:
             $ kairatalk = day
             $ nicoledelay = day + 1
             $ nicoleshow = ["2"]
-            call daykeep
+            call daykeep from _call_daykeep_23
             play music "sounds/heart.mp3" fadeout 1
             jump kaira_room
     if kairalvl == 2:

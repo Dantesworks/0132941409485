@@ -1,10 +1,16 @@
 label museum:
-    if renpy.music.get_playing() != "sounds/medicine.mp3":
-        play music "sounds/medicine.mp3" fadeout 1
+    if from_computer:
+        play music "sounds/special.mp3" fadeout 0.5
+        $ from_computer = False
     call screen museum
     screen museum():
         add "wallpaper2.png"
         #add "gallery_buttons/museum/title.png"
+        imagebutton: ## juke
+            focus_mask True
+            idle "juke_i.png"
+            hover "juke_h.png"
+            action Jump("juke_box")
         imagebutton: ## back
             focus_mask True
             idle "back.png"
@@ -13,6 +19,11 @@ label museum:
         grid 3 3:
             align (0.5, 0.3)
             spacing 80
+            imagebutton: ## coil2
+                focus_mask True
+                idle "/images/gallery_buttons/museum/coil2_i.png"
+                hover "/images/gallery_buttons/museum/coil2_h.png"
+                action Jump("coil2")
             imagebutton: ## coil
                 focus_mask True
                 idle "/images/gallery_buttons/museum/coil_i.png"
@@ -53,52 +64,56 @@ label museum:
                 idle "/images/gallery_buttons/museum/dante_i.png"
                 hover "/images/gallery_buttons/museum/dante_h.png"
                 action Jump("dante")
-            null
+label coil2:
+    scene coil2
+    $ renpy.pause()
+    "Greek Goddess Kaira! | Coil X Tesla"
+    jump museum
 label coil:
     scene coil
     $ renpy.pause()
-    "Will you sleep with me tonight? | Commissioned by Coil X Tesla"
+    "Will you sleep with me tonight? | Coil X Tesla"
     jump museum
 
 
 label raze2:
     scene raze2
     $ renpy.pause()
-    "More sweat | Commissioned by Raze"
+    "More sweat | Raze"
     jump museum
 
 label raze:
     scene raze
     $ renpy.pause()
-    "Spending time at the sauna | Commissioned by Raze"
+    "Spending time at the sauna | Raze"
     jump museum
 
 label born2game:
     scene born2game
     $ renpy.pause()
-    "Relaxing after work | Commissioned by Born2Game"
+    "Relaxing after work | Born2Game"
     jump museum
 
 label yakai:
     scene yakai
     $ renpy.pause()
-    "The picture we've all been waiting for | Commissioned by Yakai"
+    "The picture we've all been waiting for | Yakai"
     jump museum
 
 label lyda:
     scene lyda
     $ renpy.pause()
-    "Looking forward to taming Amanda | Commissioned by Lyda"
+    "Looking forward to taming Amanda | Lyda"
     jump museum
 
 label lama:
     scene lama
     $ renpy.pause()
-    "J'en ai marre | Commissioned by Lama"
+    "J'en ai marre | Lama"
     jump museum
 
 label dante:
     scene dante
     $ renpy.pause()
-    "Commission for Android+ patrons | Commissioned by Dante"
+    "Commission for Android+ patrons | Dante"
     jump museum

@@ -4,6 +4,7 @@ label computer:
     call hidescreens from _call_hidescreens_6
     call screen computer
     default bgswap = True
+    default from_computer = False
 screen computer():
     if bgswap:
         add "wallpaper.png"
@@ -25,7 +26,7 @@ screen computer():
         hover "museum_hover.png"
         hovered [SetVariable("bgswap", False), With(dissolve)]
         unhovered [SetVariable("bgswap", True), With(dissolve)]
-        action [SetVariable("bgswap", True), Jump("museum")]
+        action [SetVariable("bgswap", True), SetVariable("from_computer", True), Jump("museum")]
     imagebutton: ## Memories
         focus_mask True
         idle "logo_treasured.png"

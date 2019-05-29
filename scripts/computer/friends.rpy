@@ -15,7 +15,11 @@ label friends:
                 idle "gallery_buttons/friends/lykanz.png"
                 hover "gallery_buttons/friends/lykanz_hover.png"
                 action OpenURL("https://www.patreon.com/theinn")
-            null
+            imagebutton:
+                focus_mask True
+                idle "gallery_buttons/friends/glacerose.png"
+                hover "gallery_buttons/friends/glacerose_hover.png"
+                action OpenURL("https://www.patreon.com/glacerose")
             null
             null
             null

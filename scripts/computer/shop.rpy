@@ -10,7 +10,15 @@ default security_dress = False
 default gym_clothes = False
 
 default bogged = False
+default juke = False
 
+## Music
+default amanda_theme = False
+default camille_theme = False
+default caroline_theme = False
+default kaira_theme = False
+default nicole_theme = False
+default vincent_theme = False
 
 label online_shop:
     scene wallpaper
@@ -25,6 +33,11 @@ label online_shop:
                 jump online_shop
             else:
                 jump bog
+        "Juke Box" if juke == False:
+            jump juke
+        "Music Tracks" if juke:
+            "All tracks cost 5 BCC."
+            jump tracks
         "Exit":
             jump computer
 
@@ -144,3 +157,92 @@ label bog:
         "Back":
             jump online_shop
     jump online_shop
+
+label juke:
+    "Spend BCC to unlock the Juke Box in the Museum of Patrons to play tracks that you purchase."
+    "Would you like to purchase the Juke Box for 10 BCC?"
+    menu:
+        "Yes":
+            if balanceBTC < 10:
+                "Transaction failed - insufficient funds."
+            else:
+                $ balanceBTC -= 10
+                $ juke = True
+                "Make sure to purchase tracks to play."
+            jump online_shop
+        "No":
+            jump online_shop
+
+label tracks:
+    menu:
+        "Amanda's Theme" if amanda_theme == False:
+            if balanceBTC < 5:
+                "Transaction failed - insufficient funds."
+            else:
+                $ balanceBTC -= 5
+                $ amanda_theme = True
+                "Enjoy the track in the Museum of Patrons."
+            jump tracks
+        "Camille's Theme" if camille_theme == False:
+            if balanceBTC < 5:
+                "Transaction failed - insufficient funds."
+            else:
+                $ balanceBTC -= 5
+                $ camille_theme = True
+                "Enjoy the track in the Museum of Patrons."
+            jump tracks
+        "Caroline's Theme" if caroline_theme == False:
+            if balanceBTC < 5:
+                "Transaction failed - insufficient funds."
+            else:
+                $ balanceBTC -= 5
+                $ caroline_theme = True
+                "Enjoy the track in the Museum of Patrons."
+            jump tracks
+        "Kaira's Theme" if kaira_theme == False:
+            if balanceBTC < 5:
+                "Transaction failed - insufficient funds."
+            else:
+                $ balanceBTC -= 5
+                $ kaira_theme = True
+                "Enjoy the track in the Museum of Patrons."
+            jump tracks
+        "Nicole's Theme" if nicole_theme == False:
+            if balanceBTC < 5:
+                "Transaction failed - insufficient funds."
+            else:
+                $ balanceBTC -= 5
+                $ nicole_theme = True
+                "Enjoy the track in the Museum of Patrons."
+            jump tracks
+        "Vincent's Theme" if vincent_theme == False:
+            if balanceBTC < 5:
+                "Transaction failed - insufficient funds."
+            else:
+                $ balanceBTC -= 5
+                $ vincent_theme = True
+                "Enjoy the track in the Museum of Patrons."
+            jump tracks
+
+        "Back":
+            jump online_shop
+
+## Juke Box
+label juke_box:
+    scene wallpaper2
+    menu:
+        "Amanda's Theme" if amanda_theme == True:
+            play music "sounds/wisteria.mp3" fadeout 1
+        "Camille's Theme" if camille_theme == True:
+            play music "sounds/armoir.mp3" fadeout 1
+        "Caroline's Theme" if caroline_theme == True:
+            play music "sounds/dreams.mp3" fadeout 1
+        "Kaira's Theme" if kaira_theme == True:
+            play music "sounds/automata.mp3" fadeout 1
+        "Nicole's Theme" if nicole_theme == True:
+            play music "sounds/beach.mp3" fadeout 1
+        "Vincent's Theme" if vincent_theme == True:
+            play music "sounds/wistful.mp3" fadeout 1
+        "Back":
+            jump museum
+    jump juke_box
