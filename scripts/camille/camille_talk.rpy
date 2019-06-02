@@ -1055,7 +1055,8 @@ label camilletalk:
                 "Wow, she {i}is{/i} stripping."
                 "I've never seen Camille wear anything racy or provocative."
                 "She's always been modestly dressed, This is the first time I'm seeing her... like this."
-                "I don't think many people have seen her like this at all - I should count myself lucky."
+                "I don't think many people have seen her like this at all - her silky smooth skin... round bottom."
+                "I'm a lucky guy."
                 scene black with fade
             "Wait.":
                 "She deserves this bit of respsect."
@@ -1069,6 +1070,7 @@ label camilletalk:
         $ renpy.pause(3.0,hard=True)
         play music "sounds/jojo.mp3"
         scene cam-237 with hpunch
+        play sound "sounds/scratch.mp3"
         $ renpy.pause()
         ## Shock
         scene cam-238
@@ -1076,6 +1078,7 @@ label camilletalk:
         "{i}Freeze Frame{/i}"
         "Yup. That's me, [p]."
         scene cam-239
+        "And that's a penis."
         "You're probably wondering how I got myself into this situation."
         "Truth be told..."
         "I'm not too sure myself."

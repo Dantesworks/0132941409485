@@ -52,8 +52,22 @@ label gallery1:
                     action Jump("k_1")
             else:
                 null
-            null
-            null
+            if camillelvl > 3:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/8.png"
+                    hover "gallery_buttons/8_hover.png"
+                    action Jump("cam_bj")
+            else:
+                null
+            if camillelvl > 5:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/9.png"
+                    hover "gallery_buttons/9_hover.png"
+                    action Jump("cam_anal_doggy")
+            else:
+                null
         imagebutton: ## back
             focus_mask True
             idle "back.png"

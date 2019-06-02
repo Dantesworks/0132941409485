@@ -21,6 +21,7 @@ define s1 = Character("Woman #1")
 define s2 = Character("Woman #2")
 define o = Character("Olivia")
 define ver = Character("Veronica")
+define saf = Character("Saffron")
 
 define w = Character("Widowmaker")
 # The game starts here.
@@ -77,16 +78,16 @@ label start:
         $ player = "Anon"
 
     #Story start Chapter 1
-    scene 1_v_serious
+    scene 1_v_serious with dissolve
     x "Hey [p], why are you upset? what's the matter?"
     p "I'm sorry, I must look like such a mess right now. A lot of bad things are happening in my life and I don't know how to handle it."
     x "Happens to all of us buddy, happens to all of us. You don't have to, but would you like to tell me about it?"
     p "... I've made a lot of dumb choices, and... and I've lost a looot of money."
-    scene 1_v_shocked
-    x "What happened?"
-    scene 1_v_serious
+    scene 1_v_shocked with dissolve
+    x "What happened?" with dissolve
+    scene 1_v_serious with dissolve
     p "... remember when bitcoin was booming? I put a LOT of money in at the top, I thought it'd keep going up! And now, I've lost everything! Fucking bogs took everything from me!"
-    scene 1_v_shocked
+    scene 1_v_shocked with dissolve
     x "That's awful! How has it affected your life?"
     p "I can't pay rent, I can't pay my tuition fees, I've got nothing left! I moved away from home just to study, and now I can't even stay here anymore!"
     x "You mentioned home, what about your family? Can anyone help you out?"
@@ -104,20 +105,20 @@ label start:
         $ sr = "housemate"
 
     p "Well, I've got [mr] and [sr] back at home... my father passed away when I was young."
-    scene 1_v_serious
+    scene 1_v_serious with dissolve
     x "I'm sorry to hear that."
     p "That's okay, I don't remember much about him anymore."
     x "What about your [mr] and [sr]?"
     p "I moved out years ago... It's been a while, but we're on good terms."
-    scene 1_v_determined
+    scene 1_v_determined with dissolve
     x "I don't know a lot about you buddy, but I know that it's important to have a strong support system to get you back onto your feet. When you lose everything, family is what you need."
     p "...sigh..."
     p "Maybe you're right... It might be time to swallow my pride and go back home."
     p "Thank you so much for coming and saying hi... if you hadn't... I have no idea what I would've done. How can I thank you, what's your name?"
     x "Oh don't worry about it buddy! I just like being helpful! Doing my good deed of the day, that sort of thing."
-    scene 1_v_shit
+    scene 1_v_shit with hpunch
     x "Gosh! I have to get going now, or I'll be late! Goodbye and take care!"
-    scene 1_v_gone
+    scene 1_v_gone with dissolve
     p "..."
     p "Bye!... oh he's already gone."
     "I guess he's right though... it might be a little strange going home without having finished my degree yet, but I need to know when I can't manage."

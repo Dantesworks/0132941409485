@@ -6,7 +6,7 @@ label Nicole:
     menu:
         "Talk":
             jump nicoletalk
-        # "Move over Nicole, I'm coming in." if nicolelvl == 10:
-        #     jump amanda_money
+        "You're looking lonely there." if nicolelvl > 1:
+            jump nicolesit
         "Actually, never mind.":
             jump living_room

@@ -898,3 +898,146 @@ label k_1:
     p "I redoubled my efforts, thrusting faster and faster while she screamed with joy-"
     p "And then I- and then I!"
     jump gallery1
+
+label cam_bj:
+    scene cam-89 with dissolve
+    "Acting in a way that nobody could have imagined, she got down gingerly on her knees."
+    "Expert hands that did not belong to her pulled out my tightening penis."
+    p "Heh, seen one before, Camille?"
+    scene cam-90 with dissolve
+    t "Yes... yes I have."
+    "She took a look at it and I could tell there was a deep hunger behind those eyes, but also, something to prove."
+    "To become so intimate with someone like her so quickly, I could not ever imagine."
+    "There is something more to her, definitely, than meets the eye."
+    "And then she took me."
+    scene
+    $ renpy.movie_cutscene("animations/cam-1.mp4", loops=-1, stop_music=False)
+    scene cam-91
+    t "Mmmm."
+    p "Argh."
+    p "You're so damn good, Camille."
+    p "How did you get so good?!"
+    "She sucked my cock with expert technique that she had no right in knowing."
+    "It seemed like she knew exactly where a penis is most sensitive."
+    scene
+    $ renpy.movie_cutscene("animations/cam-2.mp4", loops=-1, stop_music=False)
+    scene cam-92
+    "She knew how a penis worked like it was the back of her hand."
+    "Her tongue carressed the underside of my shaft and I took her a lot more seriously."
+    scene
+    $ renpy.movie_cutscene("animations/cam-3.mp4", loops=-1, stop_music=False)
+    scene cam-92
+    p "At this rate, Camille, I don't know how much longer I'll last!"
+    scene cam-93 with dissolve
+    p "Oh fuck!"
+    scene cam-94 with flash
+    $ renpy.pause ()
+    scene cam-95 with dissolve
+    p "Oh that was good. Are you alright Camille?"
+    p "...Camille?"
+    t "I..."
+    scene cam-96 with dissolve
+    t "Sorry I'm feeling a bit tired, I need to rest now."
+    p "Are you feeling okay?"
+    t "I'll see you again tomorrow okay? I just..."
+    scene cam-97 with dissolve
+    t "I'm not feeling too well and I need to rest."
+    scene cam-98
+    p "I'm sorry if it's anything I did."
+    t "Don't be! I just-"
+    scene cam-99 with dissolve
+    t "Please, I just need some time to myself."
+    t "I still want to see you again though. I'll see you tomorrow okay?"
+    scene cam-100 with dissolve
+    t "Nothing went wrong... Like I said, I just need some time."
+    scene cam-101 with dissolve
+    p "... Alright Camille, I respect that. I also want to see you again sometime."
+    p "We were moving a bit too quickly, I think."
+    scene cam-100 with dissolve
+    t "I'm sorry to end the night quick. I do like you, [p]."
+    t "There's just something I need to think about."
+    p "By all means."
+    p "I'll see you tomorrow again, okay?"
+    scene cam-102 with dissolve
+    t "Thank you [p]. Goodnight."
+    p "Take care."
+    jump gallery1
+
+label cam_anal_doggy:
+    scene cam-283 with dissolve
+    "We looked at each other's bodies and there was a sense of disbelief."
+    "As though we couldn't believe this was happening."
+    scene cam-284 with dissolve
+    t "Y-you look excited, [p]."
+    scene cam-285 with dissolve
+    "She gestures towards my erect member."
+    p "And it's all because of you."
+    scene cam-286 with dissolve
+    "Her penis remained flaccid."
+    t "It takes a bit for mine to be excited."
+    scene cam-287 with dissolve
+    "Our breathing grew heavier as we moved towards each other."
+    scene cam-288 with dissolve
+    t "I can't believe this is happening, [p]."
+    t "I feel like I'm dreaming."
+    p "Don't pinch yourself."
+    scene cam-289 with dissolve
+    "We kissed in an embrace of passion."
+    "Her penis brushed gently across mine, yet remained soft and tender."
+    "Mine grew harder as blood coarsed through its veins."
+    scene cam-290 with dissolve
+    p "You need something more exciting it seems."
+    p "Looks like you need to be roughed up."
+    scene cam-291 with vpunch
+    "I push her towards the ground as she protested meekly."
+    t "[p], what will you do to me?"
+    scene cam-292
+    p "Taking you where you're most vulnerable."
+    t "Ah!"
+    scene
+    $ renpy.movie_cutscene("animations/cam4.mp4", loops=0, stop_music=False)
+    scene cam-293
+    "She gasped for air as I thrust in her ass."
+    image cam5 = Movie(play="/animations/cam5.mp4")
+    show cam5
+    t "It hurts, [p]."
+    p "I'm sorry Camille, should we slow down?"
+    t "...no. Go faster!"
+    hide cam5
+    image cam6 = Movie(play="/animations/cam6.mp4")
+    show cam6
+    "She moaned more as I thrust in and out, her limp penis pushed back and forth."
+    p "Is this enough to get you excited?"
+    t "Mmm!"
+    p "Your dick's still limp"
+    p "Looks like we still need to go harder!"
+    hide cam6
+    image cam7 = Movie(play="/animations/cam7.mp4")
+    show cam7
+    t "Ahh!!"
+    hide cam7
+    $ renpy.movie_cutscene("animations/cam8.mp4", loops=0, stop_music=False)
+    scene cam-294
+    "Her whole body shuddered."
+    "As she shook, her limp penis shot out semen, coating the floor with her fluid."
+    scene cam-296 with dissolve
+    p "You came from anal, you dirty little girl."
+    scene cam-295 with dissolve
+    p "And it looks like you've ejaculated without even having an errection."
+    p "You were hiding your hornyness the whole time Camille? How naughty?"
+    t "I... I won't be able to sit for days."
+    scene cam-297 with dissolve
+    "She was dazed and in an absolute bliss."
+    p "Good thing you stand and not sit at the reception then huh?"
+    t "Re...ception?"
+    scene cam-298 with hpunch
+    t "Ah! That's right! I've got work now!"
+    t "I need to get changed."
+    p "I'll get changed too. Don't be late for work!"
+    scene cam-299 with dissolve
+    t "Thank you for everything [p]. I really loved today."
+    p "Thank you too, Camille. This is the happiest I've ever seen you."
+    scene cam-300 with dissolve
+    t "I- I love you [p]."
+    p "Love you too, girl."
+    jump gallery1

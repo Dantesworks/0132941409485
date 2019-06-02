@@ -20,5 +20,14 @@ that Camille shared some history with Vincent. Perhaps interrogating Vincent wil
         vbox xsize 350: #tips
             if camillelvl == 1:
                 text "Go to the resort." justify True size 18
+            elif camillelvl == 2:
+                text "Make sure you have Nicole's phone, then go to the resort." justify True size 18
+            elif camillelvl == 3:
+                text "Make sure you have silver membership, then talk to Camille." justify True size 18
+            elif camillelvl == 4:
+                text "Go to the resort." justify True size 18
+            elif camillelvl == 5:
+                text "Go talk to Amanda in her bedroom in the morning." justify True size 18
+
             else:
                 text "Content complete for this version! Vote for this character on Patreon to see more." justify True size 18
