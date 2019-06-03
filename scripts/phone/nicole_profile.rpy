@@ -34,5 +34,11 @@ Other than that, her motivations regarding [p] and [sr] are an enigma, and is so
                 text "Go to sleep." justify True size 18
             elif nicolelvl == 7:
                 text "Talk to Nicole in the afternoon." justify True size 18
+            elif nicolelvl == 8:
+                text "Talk to Nicole in the afternoon." justify True size 18
+            elif nicolelvl == 9:
+                text "Talk to Nicole in the afternoon." justify True size 18
+            elif nicolelvl == 10:
+                text "Go to sleep." justify True size 18
             else:
                 text "Content complete for this version! Vote for this character on Patreon to see more." justify True size 18

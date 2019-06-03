@@ -46,7 +46,7 @@ label splashscreen:
     scene black
     with Dissolve(1)
 
-    scene splash5
+    scene splash6
     with Dissolve(1)
 
     $ renpy.pause(2.0,hard=False)

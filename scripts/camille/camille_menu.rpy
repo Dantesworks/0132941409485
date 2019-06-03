@@ -15,6 +15,11 @@ label Camille:
                     t "Certainly, right this way!"
                     scene black with fade
                     jump publicbathouse
+                "Gym:" if resortmembership > 0:
+                    scene cam-5
+                    t "Take a right when you reach the stairs, or you'll end up at the wrong place!"
+                    scene black with fade
+                    jump gym
                 "Sauna." if resortmembership > 1:
                     scene cam-5
                     t "Enjoy the steam!"

@@ -174,7 +174,8 @@ label nicoletalk:
         n "Alright! I was just checking myself out in the reflection."
         p "Fine. I'll leave you be."
         scene n-20
-        n "Tell your [mr] I said hi, [p]."
+        n "Oh, by the way, [p]."
+        n "Tell your [mr] I said hi."
         p "Very clever."
         scene n-24 with dissolve
         n "Cleverer than you know..."
@@ -386,6 +387,7 @@ label nicoletalk:
         n "Like I said, Mr. Impatient, we'll talk more about it in your room!"
         p "..."
         p "Alright... let's go."
+        scene black with fade
         scene ns-1 with fade
         n "This is your room?"
         n "Hmm, not too shabby!"
@@ -492,7 +494,7 @@ label nicoletalk:
         scene
         $ renpy.movie_cutscene("animations/ns5.mpg", loops=-1, stop_music=False)
         scene ns-30
-        n "No [p]!"
+        n "Stop [p]!"
         "{i}Smack!{/i}"
         scene
         $ renpy.movie_cutscene("animations/ns4.mpg", loops=-1, stop_music=False)
@@ -548,7 +550,7 @@ label nicoletalk:
                 n "Look at you, [p]. You really had me going."
                 p "Sorry."
                 scene ns-43
-                n "At the same time, it was so exicting."
+                n "At the same time, it was so exciting."
                 scene ns-44
                 n "I think we just need to build that trust."
                 n "Then I can just let you handle me, with or without safeword."
@@ -558,7 +560,7 @@ label nicoletalk:
         scene ns-46
         n "Would it be such a bad idea to introduce her to these kind of things?"
         n "Shouldn't you teach her?"
-        p "Easy for you to say."
+        p "Maybe... some other time."
         scene ns-46
         n "Whatever the case, you've done well today, [p]."
         n "I think I made a fine choice."
@@ -566,24 +568,446 @@ label nicoletalk:
         p "Awesome, where's my compensation?"
         scene ns-48
         n "Ah, the phone? I'll bring it over next time."
-        p "You just want another reason to see me again."
+        p "You just want to set up another chance to see me again."
         scene ns-50
-        n "I'll go for any chance I get to see daddy again~"
+        n "Oh please, I chill on your couch everyday anyway."
+        n "But it's true, I'll go for any chance I get to see daddy again~"
         scene ns-45
         p "Don't call me that outside the bedroom, okay?"
-        p "It's fucking weird."
+        p "It feels weird."
         scene ns-50
-        n "If you say so, daddy~"
+        n "If you say so... daddy~"
+        "Christ..."
         scene ns-48
         n "I'll see you tomorrow."
-        n "Goodbye, Nicole."
+        p "Goodbye, Nicole."
         scene black with fade
-        call daykeep
+        call daykeep from _call_daykeep_3
         $ nicolelvl += 1
         $ nicoleday = day
         jump player_room
-
-
+    ## Future scene where nicolelvl = 6
+    if nicolelvl == 7 and day > nicoleday:
+        scene black
+        scene n-4 with fade
+        p "And how's my beautiful girlfriend doing?"
+        scene n-3
+        n "I'm doing very well [p]. And you?"
+        p "Good, good."
+        scene n-7 with dissolve
+        n "You're just talking to me because you want my phone, aren't you?"
+        p "..."
+        p "I only want the phone so I can start to call and text you."
+        scene n-14
+        n "Hahahah!"
+        scene n-9 with dissolve
+        n "It's fine, I was the one nagging you to get a phone."
+        scene n-17 with fade
+        n "Well here it is."
+        n "Do you have anything for me?"
+        p "Only my love and affection."
+        scene n-24 with dissolve
+        n "Let me sample that."
+        scene n-29 with dissolve
+        n "Mhmm..."
+        scene n-30 with dissolve
+        n "Enjoy your present, [p]."
+        p "Thank you. I will."
+        $ nicolelvl += 1
+        $ nicoleday = day
+        jump living_room
+    if nicolelvl == 8 and day > nicoleday:
+        $ amandakitchen = True
+        $ amandashow = ["1"]
+        scene black
+        scene n-1 with fade
+        p "Afternoon, Nicky."
+        scene n-2 with dissolve
+        n "Hey girlfriend."
+        p "That's my line."
+        scene n-7 with dissolve
+        n "Hey listen, are you free this afternoon?"
+        p "I'm always free."
+        n "Good. Because we're going out for some lunch."
+        p "Oh really? Where to?"
+        scene n-17 with dissolve
+        n "I was searching earlier online about romantic restaurants, and this place came up."
+        p "Is it close?"
+        n "Nope."
+        p "How are we going to get there? I don't have a car."
+        scene n-13 with dissolve
+        n "Uber."
+        scene n-15 with dissolve
+        n "Oh don't give me that look. I'll pay for it."
+        p "We could split it."
+        scene n-9 with dissolve
+        n "No that's alright."
+        "Whoa, she's got money to throw around."
+        n "So?"
+        p "What?"
+        n "You wanna come?"
+        p "I still don't know anything about it, but sure. I'll take a backseat."
+        scene n-9 with dissolve
+        n "Excellent."
+        p "So when are we going?"
+        scene n-12 with dissolve
+        n "As soon as you can get ready."
+        p "Don't you have to make a reservation or something first?"
+        n "Already done."
+        p "Hmm. How did you know I would be free this afternoon?"
+        n "I didn't."
+        p "So what would happen if I said I couldn't go?"
+        scene n-13 with dissolve
+        n "I would've gone myself."
+        scene n-14 with dissolve
+        n "Just kidding! I knew you'd probably be free, and even if you weren't, we could just reschedule."
+        p "What's so cool about this restaurant?"
+        scene n-24 with dissolve
+        n "The reviews say it's romantic. Beautiful scenery and good atmosphere."
+        scene n-20 with dissolve
+        n "Isn't that just..."
+        scene n-18 with dissolve
+        n "...the perfect place for us?"
+        scene n-19 with dissolve
+        n "Hmmm?"
+        p "Mmmm."
+        n "We're a couple now, it's fitting."
+        p "Ooof."
+        scene n-24 with dissolve
+        n "So shall we go, cowboy?"
+        p "I'm always ready. Let's go."
+        ## Transition
+        stop music fadeout 1
+        scene black with fade
+        "(A few moments later...)"
+        scene n-31 with fade
+        play music "sounds/ereve.mp3"
+        p "My god. Uber is great."
+        n "Hm?"
+        scene n-32 with dissolve
+        p "Compared to public transport. I used to take the bus all the time and let me tell you, it's not great."
+        scene n-33 with dissolve
+        n "What's so bad about it?"
+        p "Have you been on a bus before?"
+        scene n-34 with dissolve
+        n "I don't think I've ever. My parents used to drive me around, and nowadays I just uber to get from A to B."
+        scene n-35 with dissolve
+        p "That's a good life you lead. In comparison, the bus is slow, uncomfortable and either too late or too early all the time."
+        p "Uber is basically like having a personal driver just minutes away - even better than a taxi!"
+        scene n-36 with dissolve
+        n "I suppose it is, [p]. Welcome to my life."
+        p "Show me more."
+        n "I'm about to. Take a look at the location. This restaurant is going to be very impressive!"
+        wai "Hello, table for two?"
+        scene n-37 with dissolve
+        $ renpy.pause ()
+        n "Yes."
+        scene n-38 with dissolve
+        wai "This way please."
+        scene n-39 with dissolve
+        p "Wow, Nicole. This place is really amazing. Look at the view!"
+        scene n-40 with dissolve
+        n "It's awesome, I know. Isn't it great?"
+        n "This is the first time we've done something properly romantic together."
+        scene n-41 with dissolve
+        p "That's because with you Nicole, it's always the main course first before the starters."
+        n "Hahaha. You know me."
+        scene n-42 with dissolve
+        n "Look, [p]. It's just you, me and the rest of the world is far away. Let's enjoy this moment."
+        p "I'm enjoying it right now, staring at you."
+        n "Hah!"
+        scene n-44 with dissolve
+        p "So, what are we having?"
+        n "We can have anything, [p]. From pancakes to salads."
+        p "Fascinating. Let's do that then."
+        scene n-43 with dissolve
+        n "Sure, let's do it."
+        scene n-39 with dissolve
+        n "..."
+        p "Will they even have it?"
+        n "I have no idea, hahaha!"
+        scene n-45 with dissolve
+        p "Hahaha... alright let's see."
+        scene n-46 with dissolve
+        wai "Can I help you?"
+        scene n-47 with dissolve
+        p "We were wondering... do you do pancakes and salads?"
+        scene n-48 with dissolve
+        p "You probably do salads but I understand if the pancakes are a tall order."
+        scene n-49 with dissolve
+        wai "We can do whatever you like sir."
+        p "...alright! Pancakes and salad it is."
+        scene n-50 with dissolve
+        wai "Is that for the both of you?"
+        n "Ah..."
+        n "..okay."
+        wai "Thank you for your order."
+        scene n-51 with dissolve
+        p "Fantastic service here. To think they actually do pancakes."
+        p "But, you seem a bit reluctant there."
+        scene n-52 with dissolve
+        n "I went through with it in the end."
+        p "I bet those pancakes are going to be good."
+        scene n-53 with dissolve
+        $ renpy.pause()
+        scene n-54 with dissolve
+        n "..."
+        n "You're staring at me."
+        p "You can't blame me, you're a beautiful woman, Nicole. I'm serious."
+        scene n-55 with dissolve
+        n "Oh I'm flattered."
+        scene n-56 with dissolve
+        p "No really. But it's not just your look. It's your vibe."
+        scene n-57 with dissolve
+        n "Vibe?"
+        p "It's the femme fatale."
+        scene n-58 with dissolve
+        n "Careful. You're reminding me of my acting days now."
+        p "Acting? Tell me a story."
+        scene n-59 with dissolve
+        n "I used to do acting classes along with my sister-"
+        scene n-60 with hpunch
+        p "Sister?!"
+        p "You have a sister? Any others?"
+        scene n-61 with dissolve
+        n "Just... a sister. She's older by a year."
+        scene n-62 with dissolve
+        p "How did the acting classes go? Are you an actress?"
+        scene n-63 with dissolve
+        n "Me? God no, haha."
+        scene n-64 with dissolve
+        n "My sister was always the better one in acting... modelling..."
+        scene n-65 with dissolve
+        n "I guess it just... wasn't for me."
+        p "You're beautiful though, Nicole. I'm sure you would be a fine model."
+        scene n-66 with dissolve
+        n "But my sister was better. She was all natural and had all the attention."
+        scene n-67 with dissolve
+        n "My... enhancements came later in life."
+        "Is Nicole insecure about this?"
+        scene n-68 with dissolve
+        p "Do you get to meet up with your sister often?"
+        scene n-69 with dissolve
+        n "On occassion. She's busy now though. I hear she's quite big in modelling."
+        p "Do you reckon I'd be able to tell she's your sister just by looking at her?"
+        n "We used to be confused as twins, so probably."
+        n "You'll probably spot her soon, if you haven't already. She's big in the modelling industry."
+        scene n-70 with dissolve
+        p "And your father? Mother?"
+        n "My father's a rich business man. Realestate. My mom married him for the money."
+        n "So if you get a spoilt girl vibe, it's probably from my dad. I'm not a gold digger though."
+        p "Calling me poor?"
+        scene n-72 with dissolve
+        n "...I think you're rich on the inside."
+        p "Love ya."
+        scene n-73 with dissolve
+        n "Hahaha!"
+        p "No wonder you have the newest gadgets all the time. What, the new iDante model X?"
+        n "Yes, my daddy treats me well. But {i}you're{/i} my other daddy."
+        p "Only in the bedroom. Which we're not in right now."
+        scene n-74 with dissolve
+        n "Oh~?"
+        n "..."
+        scene n-75 with dissolve
+        n "How long do you think it will take for the food to get here?"
+        p "Pancakes and salad... I don't even know."
+        scene n-76 with dissolve
+        n "But I'm hungry!"
+        p "Huh?"
+        p "Eh, probably 10 minutes. What are you playing at?"
+        scene n-77 with dissolve
+        n "How about I make you a deal?"
+        n "Since I'm sooo hungry, can you feed me with your cock?"
+        scene n-78 with dissolve
+        n "It'll be a quick blow job... you can trust me on that~"
+        menu:
+            "Yes":
+                $ depravity += 1
+                p "It's on the taps, you dirty whore."
+                n "Thanks daddy~"
+                scene n-88 with fade
+                $ renpy.pause()
+                scene n-87 with dissolve
+                $ renpy.pause()
+                scene n-86 with dissolve
+                p "You're on the clock."
+                n "It will be my pleasure~"
+                scene white
+                image n1 = Movie(play="/animations/n1.mp4")
+                show n1 with dissolve
+                "Without pausing, she went straight forward and made love to my cock."
+                "Carressing it, and putting me in paradise."
+                hide n1
+                image n2 = Movie(play="/animations/n2.mp4")
+                show n2 with dissolve
+                p "Oh Nicole. I've forgotten how good you are."
+                m "Mmm~"
+                "I looked at the horizon and appreciated the view when feeling the velvety textures of her mouth."
+                "As her tongue wrapped itself around my shaft, I realised how much of a slut Nicole was."
+                "She bobbed back and forth rythmically, working me up slowly."
+                "Then suddenly, as if to shock me, she picked up the pace!"
+                hide n2
+                image n3 = Movie(play="/animations/n3.mp4")
+                show n3 with dissolve
+                p "Argh!"
+                p "You've gotten better since the first time."
+                p "Why are you so good at sucking dick, huh Nicole?"
+                p "It's because this is where you belong. Down on your knees, your mouth around my cock and looking up at me."
+                n "Mmm!"
+                "Fuck!"
+                "She's gotten so much better I'm about to blow!"
+                p "Swallow it whore!"
+                hide n3
+                scene white with flash
+                $ renpy.movie_cutscene("animations/n4.mp4", loops=0, stop_music=False)
+                $ renpy.movie_cutscene("animations/n5.mp4", loops=0, stop_music=False)
+                scene n-89
+                n "Mmm-mmm~"
+                n "So delicious."
+                p "I hope that filled you up."
+                scene n-90 with dissolve
+                n "How'd I do for time?"
+                p "Not too shabby."
+                n "I'm gotten better, haven't I?"
+            "No":
+                p "Time and place, girl."
+                p "I'm sure you'll hold for ten minutes."
+                scene n-79 with dissolve
+                n "Playing hard to get?"
+                n "Please daddy, I'll be a good girl."
+                p "You can be a good girl by sucking my cock not at a public spot like this."
+                scene n-80 with dissolve
+                n "Fine."
+        scene black with fade
+        scene n-81 with fade
+        wai "Thank you for being so patient!"
+        scene n-82 with dissolve
+        wai "Pancakes and salad, as requested!"
+        p "Motherfucking pancakes and salad. Let's go."
+        p "What are you thinking? Don't forget, this was your idea."
+        n "I just suggested it as an example of ordering whatever you want."
+        scene n-83 with dissolve
+        n "Whether pancakes are a good idea or not at such a fancy restaurant is besides the point."
+        scene n-84 with dissolve
+        p "Some would just think that if you're at a fancy restaurant, you might as well go for the stuff you can only get at fancy restaurants."
+        scene n-71 with dissolve
+        n "Don't fret, [p]. I'll show you something truly fancy and luxurious."
+        p "Oh what's this?"
+        n "It's something I've been planning. Well. There's not acutally too much to plan."
+        scene n-72 with dissolve
+        n "My father has a holiday park. Something like a country club?"
+        n "He owns so many properties I haven't actually been to this one, so I thought we could christen it together."
+        p "Are there other people there?"
+        n "Do you want other people to watch?"
+        p "Hahaha."
+        scene n-71 with dissolve
+        n "Don't worry, it's not too busy there. Admission prices are usually quite steep!"
+        n "For us of course, it'll be free."
+        p "Now {i}I'm{/i} the gold digger."
+        scene n-74 with dissolve
+        n "You can pay me back by buying me a new pair of tits."
+        n "My family doesn't want to spend that kind of money on me."
+        scene n-68 with dissolve
+        p "I think you look great already Nicole."
+        n "You're just saying that, but there's always more to improve on."
+        p "I guess that's true, but it's a rabbit hole, that kind of stuff."
+        scene n-43 with dissolve
+        n "This is {i}my{/i} depravity. What's fun about being a square? I love the attention and sex appeal."
+        n "Isn't that why you love me?"
+        scene n-68 with dissolve
+        menu:
+            "I like you for your personality.":
+                p "There's always the physical, but the inside counts too."
+                p "The femme fatale - I mean, that's a characteristic."
+                scene n-63 with dissolve
+                n "What a gentleman."
+            "It's true.":
+                $ depravity += 1
+                p "A nice set of tits and ass never hurts."
+                scene n-63 with dissolve
+                n "What a scholar."
+        scene n-65 with dissolve
+        n "This is why I like you, [p]. Because you say things like that."
+        scene n-72 with dissolve
+        n "But also because you're so great in bed."
+        p "You're not too bad yourself."
+        scene black with fade
+        scene n-42 with fade
+        n "Final verdict?"
+        scene n-44 with dissolve
+        p "Pancakes and salad are great individually. Not so much as a pair."
+        p "You?"
+        n "It's all about trying new things right?"
+        p "So you weren't particularly enamoured either."
+        scene n-43 with dissolve
+        p "But yes, I'm glad we tried something new."
+        n "It's good being spontaneous."
+        scene n-41 with dissolve
+        n "Isn't this just the perfect relationship?"
+        p "It's not too bad, Nicole. It's not too bad."
+        $ nicolelvl += 1
+        call daykeep
+        jump map
+    if nicolelvl == 9 and day > nicoleday:
+        scene black
+        scene n-3 with fade
+        n "Chin up, girlfriend."
+        p "Yeah?"
+        n "I've got good news, and I've got bad news."
+        n "Which one do you want to hear?"
+        p "Just say it."
+        scene n-7 with dissolve
+        n "I spoke to my father and we can go to the holiday park."
+        p "Did you mention me?"
+        scene n-8 with dissolve
+        n "Of course I did. I said I was taking my boyfriend."
+        p "Alright. What's the good news then?"
+        scene n-9 with dissolve
+        n "Haha, that {i}was{/i} the good news. You men are so non-committal."
+        n "The bad news is, it'll be on one of the quieter days, so less people are going to watch you fuck my brains out."
+        p "You're the exhibitionist."
+        scene n-10 with dissolve
+        n "The fun is pretending that I'm not."
+        p "So what else should I know?"
+        scene n-12 with dissolve
+        n "It's a pool party, so bring some swimming gear."
+        p "..."
+        scene n-8 with dissolve
+        n "What's up?"
+        p "Am I going to... am I going to meet your dad?"
+        scene n-11 with dissolve
+        n "Is that what you're worked up about?"
+        scene n-14 with dissolve
+        n "Haha, no, you're not. He's a busy man. He never mentioned it and I doubt he has time to anyway."
+        p "Phew."
+        p "Looks like it's all good news then. A romantic getaway with my honey."
+        scene n-10 with dissolve
+        n "Devil."
+        scene n-16 with dissolve
+        p "So when are we going? Now?"
+        n "It's a whole day thing. It's far too late now. How about early in the morning tomorrow?"
+        p "Ooh. I'm not an early morning kind of guy. Mornings suck!"
+        n "Can't you set an alarm?"
+        p "I suppose I can."
+        scene n-20 with dissolve
+        n "How about this? I'll come over tomorrow morning and we can set off together."
+        p "How are you going to get in? I don't think my [sr] will be up that early to let you in."
+        scene n-21 with dissolve
+        n "She gave me a key."
+        p "Oh."
+        p "Okay then, I'll see you early tomorrow morning, yay."
+        scene n-21 with dissolve
+        n "Sound more excited, won't you [p]?"
+        p "Believe me Nicole, I am, and I really appreciate the time we spend together."
+        scene n-24 with dissolve
+        n "Aww... now you're going to make me cry."
+        n "..."
+        n "First thing tomorrow morning okay?"
+        p "Okay."
+        call daykeep
+        $ nicolelvl += 1
+        jump living_room
+    ## nicolelvl 10 in future
     scene n-4
     p "Still lazing around I see?"
     scene n-3

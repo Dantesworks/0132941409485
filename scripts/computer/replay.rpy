@@ -583,7 +583,7 @@ label nicole_event2:
             n "Not to brag, but, I saw the potential from the start."
             p "Sure."
         "Keep going.":
-            $ depravity += 1
+
             "{i}Smack!{/i}"
             scene
             $ renpy.movie_cutscene("animations/ns5.mpg", loops=-1, stop_music=False)
@@ -870,7 +870,6 @@ label k_1:
     s "I mean, who we are. Our relationship."
     menu:
         "Yes.":
-            $ depravity += 1
             p "We never look backwards, Kaira."
         "No.":
             p "Nothing between us will ever change."
@@ -1041,3 +1040,641 @@ label cam_anal_doggy:
     t "I- I love you [p]."
     p "Love you too, girl."
     jump gallery1
+
+label nicole_bj2:
+    scene n-86
+    p "You're on the clock."
+    n "It will be my pleasure~"
+    scene white
+    image n1 = Movie(play="/animations/n1.mp4")
+    show n1 with dissolve
+    "Without pausing, she went straight forward and made love to my cock."
+    "Carressing it, and putting me in paradise."
+    hide n1
+    image n2 = Movie(play="/animations/n2.mp4")
+    show n2 with dissolve
+    p "Oh Nicole. I've forgotten how good you are."
+    m "Mmm~"
+    "I looked at the horizon and appreciated the view when feeling the velvety textures of her mouth."
+    "As her tongue wrapped itself around my shaft, I realised how much of a slut Nicole was."
+    "She bobbed back and forth rythmically, working me up slowly."
+    "Then suddenly, as if to shock me, she picked up the pace!"
+    hide n2
+    image n3 = Movie(play="/animations/n3.mp4")
+    show n3 with dissolve
+    p "Argh!"
+    p "You've gotten better since the first time."
+    p "Why are you so good at sucking dick, huh Nicole?"
+    p "It's because this is where you belong. Down on your knees, your mouth around my cock and looking up at me."
+    n "Mmm!"
+    "Fuck!"
+    "She's gotten so much better I'm about to blow!"
+    p "Swallow it whore!"
+    hide n3
+    scene white with flash
+    $ renpy.movie_cutscene("animations/n4.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/n5.mp4", loops=0, stop_music=False)
+    scene n-89
+    n "Mmm-mmm~"
+    n "So delicious."
+    p "I hope that filled you up."
+    scene n-90 with dissolve
+    n "How'd I do for time?"
+    p "Not too shabby."
+    n "I'm gotten better, haven't I?"
+    jump gallery2
+
+label nicole_park:
+    scene n-116 with dissolve
+    n "Well, the water's heated. The drinks are great and-"
+    p "What's not to love? Awesome!"
+    scene n-117 with dissolve
+    p "What a great view too... mm mmm!"
+    n "Yeah, the water looks so clear."
+    p "Of course, but I was talking more about your ass."
+    scene n-118 with dissolve
+    n "I'll stare in the distance thoughtfully and give you a few more moments to appreciate it."
+    p "Leave it me, I will."
+    scene n-119 with dissolve
+    "My god, look at that ass. Her narrow waist makes it look even bigger."
+    "They don't call that the virgin killer for nothing."
+    p "You need to go commando in this one day, Nicole."
+    n "You don't think I'm showing enough already?"
+    p "Nope. But don't worry about it, I'll fix it for you... heheheh."
+    scene n-120 with dissolve
+    "Ah, perfect."
+    scene n-121 with hpunch
+    n "Did you just pull my panties off~!"
+    p "It makes you look better, I swear."
+    scene n-122 with dissolve
+    p "See?"
+    n "Haha, look, [p]..."
+    scene n-123 with dissolve
+    n "If you wanted me to show you more skin, you could have just asked."
+    scene n-124 with dissolve
+    $ renpy.pause()
+    n "See?"
+    "Wow! She was wearing an open bra with a nipple slip!"
+    n "Do my nipples look good?"
+    scene n-125 with dissolve
+    n "I love wearing this bra because they make my nipples..."
+    scene n-126 with dissolve
+    n "...excited."
+    "Oh my god."
+    scene n-127
+    n "Are you finished gawking yet?"
+    n "Don't get {i}too{/i} excited, we've got a long day ahead of us!"
+    p "...Alright, I'll uh... go get changed now."
+    scene black with fade
+    $ renpy.pause()
+    scene n-130 with fade
+    "Again, I get finished changing first."
+    "It happens so often, maybe it's a super power of mine."
+    scene n-131 with dissolve
+    "But I appreciate the time I get to reflect by myself for just a moment."
+    "Man, today is going to be wild. I can just tell!"
+    n "What are you doing there looking so gloomy?"
+    scene n-132:
+        pos (0.0, -2.84)
+        linear 6 pos (0.0, 0.0)
+    $ renpy.pause(6.0,hard=True)
+    $ renpy.pause ()
+    scene n-133
+    p "Nice swimsuit! Looking good."
+    scene n-138 with dissolve
+    n "Can anything look bad on me?"
+    p "We'll figure it out one of these days."
+    n "So, big boy, what do you want to do first?"
+    menu holidaypark_replay:
+        "Let's go for a dip!":
+            p "Last one in is a rotten egg!"
+            scene n-135 with vpunch
+            p "Wheee!!!"
+            ## run into pool
+            scene white with flash
+            scene n-137 with dissolve
+            p "You're taking your time!"
+            scene n-136
+            n "The last time we were at a pool you pushed me in."
+            n "Today? I'm taking my sweet time warming up."
+            p "Warming up? You giving me a dance routine?"
+            scene n-138 with dissolve
+            n "Just watch and be stunned?"
+            scene
+            $ renpy.movie_cutscene("animations/n9.mp4", loops=0, stop_music=False)
+            scene n-139
+            p "That was sexy."
+            n "You know it."
+            p "What other tricks can you do?"
+            n "I can make someone cum. Again, and again, and again."
+            scene n-140 with dissolve
+            n "Until they {i}beg{/i} me to stop."
+            p "{i}Swallows{/i}."
+            p "Y-yeah?"
+            n "Of course, I don't stop."
+            n "I keep going, even after they've drained their last bit of load. I suck it {i}all{/i} out."
+            scene n-141 with dissolve
+            n "Every."
+            n "Last."
+            n "Drop."
+            scene n-142 with dissolve
+            n "That's my trick, [p]. What's yours?"
+            menu:
+                "I'm a sex demon.":
+
+                    scene n-143
+                    p "My trick is, I can just keep going."
+                    p "Sluts think they can take me, but they always end up shaking after I force them into climax."
+                    p "And I leave them, dazed in a pool of their cum juice."
+                    scene n-144
+                    n "Is that a challenge?"
+                    p "Let's put you to the test."
+                "I'm a good boy.":
+                    scene n-143
+                    p "My trick is, I make it to bed at 10pm everyday."
+                    n "Oh really?"
+                    scene n-144 with dissolve
+                    n "Because I {i}love{/i} turning good boys bad."
+                    p "Is that right?"
+            scene n-145 with dissolve
+            n "Come over here, [p]."
+            scene n-146 with dissolve
+            n "What do you think?"
+            scene n-147 with dissolve
+            n "Enjoying the view?"
+            n "Come over here and fuck me already."
+            p "Beg me to."
+            scene n-148 with dissolve
+            n "Please daddy~ put your cock in me~!"
+            p "Now you've done it."
+            scene white
+            image n10 = Movie(play="/animations/n10.mp4")
+            show n10 with dissolve
+            n "Oh YES it feels SO good~!"
+            n "Daddy, you stud! Drill me harder!"
+            p "We haven't even gone fast yet."
+            p "Don't have too much fun; if you cum before me, I'll punish you."
+            n "Faster faster!"
+            p "Hnng!"
+            hide n10
+            image n11 = Movie(play="/animations/n11.mp4")
+            show n11 with dissolve
+            n "Ah~! Ah~! Ah~! Ah~!"
+            n "I'm burning so hard!"
+            p "This is your reward for being a good slut and sucking my dick good before."
+            p "Fucking remember this, Nicole. This is how good I can make you feel."
+            p "You need me. You love me."
+            p "Eveytime you get horny and your pussy starts dripping..."
+            p "Everytime you start touching yourself because you can't help your slutty nature..."
+            p "You MUST think of me. Only then, will I allow you to cum."
+            n "Yes [p], YES YES YES I'm cumming!!!"
+            n "AHHH~~!!!"
+            hide n11
+            $ renpy.movie_cutscene("animations/n12.mp4", loops=0, stop_music=False)
+            scene n-149 with dissolve
+            n "Ah~ hah... aha ha...."
+            p "Your orgasm fried your brain."
+            n "I... can't move anymore."
+            p "But I don't remember letting you cum. And you came before me, again."
+            scene n-150 with dissolve
+            p "You're not getting a break."
+            p "Get ready for round 2."
+            scene n-151 with dissolve
+            n "No no no no [p], I, please, just-"
+            scene white
+            $ renpy.movie_cutscene("animations/n13.mp4", loops=0, stop_music=False)
+            image n14 = Movie(play="/animations/n14.mp4")
+            show n14 with dissolve
+            n "It's huuurting!!"
+            p "You talked so much about making guys cum before, Nicole, and now you're being fucked silly?"
+            p "Can't back up your words?"
+            n "Mmm~!"
+            n "..."
+            n "Yes... I promised..."
+            n "Use... my body as your cum dump..."
+            n "Use me to help you cum~!"
+            "Fuck that's hot!"
+            p "I'm cumming!"
+            hide n14
+            scene n-152 with dissolve
+            $ renpy.pause()
+            scene white with flash
+            scene n-153 with dissolve
+            $ renpy.pause()
+            scene white with flash
+            scene n-154 with dissolve
+            $ renpy.pause()
+            scene n-155 with dissolve
+            p "And now I leave you, dripping filth."
+            n "Ugh..."
+            n "You'll... pay for this... I would kill you..."
+            scene n-156 with dissolve
+            n "...if only I didn't love you and your cock so much..."
+            n "Just... give me a moment."
+            scene black with fade
+            $ renpy.pause ()
+            scene n-158 with fade
+            n "That was some of the best sex ever, right?"
+            scene n-159 with dissolve
+            n "Ahahaha..."
+            p "I loved it too Nicole."
+            n "We make the perfect couple."
+            n "Now let me clean myself up."
+            scene n-160 with dissolve
+            $ renpy.pause ()
+            scene n-161 with dissolve
+            $ renpy.pause ()
+            scene n-162 with dissolve
+            n "Alright stud, I'm ready to play more."
+            n "Where to next?"
+            jump holidaypark_replay
+
+        "Let's have a few drinks.":
+            scene black with fade
+            scene n-164 with fade
+            p "So, what is there to drink? You were speaking highly of the drinks here."
+            scene n-165 with dissolve
+            n "I already know what drink you're going to ask about."
+            scene n-163
+            p "Really? What is it?"
+            n "Dante's original. You order that every time, [p]."
+            scene n-166 with dissolve
+            p "You got me there."
+            n "How about I order something for you, and we get to try something new?"
+            p "Deal."
+            scene black with fade
+            # Drinks, pussy juice, Cunnilingus?
+            scene n-167 with fade
+            p "So what are we having?"
+            n "It's something called Pussy Juice."
+            p "Really? That's trashy as fuck. I expected something a bit classier from this place."
+            scene n-168 with dissolve
+            p "Looks gross too."
+            scene n-170
+            n "It's great marketing. Doesn't it just make you want to try it?"
+            p "To find out it tastes nothing like it?"
+            scene n-169 with dissolve
+            p "And even if it did, who would buy it?"
+            scene n-171
+            n "You don't like eating pussy?"
+            p "Don't get me wrong, I'm your man, believe me."
+            p "But it's something you do in the moment. In a non-sexual setting, why would you want to actually drink pussy juice?"
+            p "Not exactly my go-to beverage. But hey, maybe it's just me, hahaha."
+            scene n-172 with dissolve
+            n "You don't think pussy juice tastes good?"
+            p "Well it's not exactly maple syrup."
+            scene n-173 with dissolve
+            n "I guess that's because you haven't tried mine."
+            p "..."
+            p "Have you... tasted yourself?"
+            scene n-174 with dissolve
+            n "Haven't you?"
+            p "I, hmmm..."
+            p "What, so you taste sweet?"
+            scene n-175 with dissolve
+            n "Like nectar."
+            "Christ."
+            p "Ah.. you're certainly something Nicole."
+            p "That's amazing. I'll have to try it, for research."
+            n "I'll be your specimen, all you have to do is ask."
+            p "Hah, wow."
+            scene n-176 with dissolve
+            n "Aww, I'm making you all hot and bothered~"
+            p "It's just going to end with me taking it out on you."
+            scene n-177 with dissolve
+            n "Too bad Kaira isn't here. You could've taken out your tension on her as well."
+            n "It would've been fun, wouldn't it?"
+            p "Hey, you were the one that didn't invite her. You wanted the one on one date."
+            n "That's true. I get selfish sometimes. Sometimes, I want you all to myself."
+            scene n-178 with dissolve
+            n "How's your relationship with her, anyway?"
+            p "She's cute. Little [sr]s often are, I feel."
+            p "How's {i}your{/i} sister? She's older right?"
+            scene n-179
+            n "Haha, no way she thinks I'm cute. Sister - sister dynamics are different."
+            p "Aw what? You don't get along well?"
+            n "We haven't met in a long time since she got big in acting and modelling and all that. Screw her."
+            scene n-180 with dissolve
+            n "She grew up prettier, was more confident and had all the success. Now that she's made it, she doesn't think about me anymore."
+            scene n-181 with dissolve
+            n "Whatever, I've made my own way."
+            p "..."
+            p "Sounds like it was quite competitive between you two."
+            p "I think maybe-"
+            scene n-182 with hpunch
+            n "Argh, speak of the fucking devil."
+            x "Nicky? Is that you?!"
+            # Pan
+            play music "sounds/psycho.mp3"
+            scene n-183:
+                pos (0.0, -2.96)
+                linear 6 pos (0.0, 0.0)
+            $ renpy.pause(6.0,hard=True)
+            $ renpy.pause ()
+            scene n-184
+            x "Father let me know that you were coming by, so I had to come and see you!"
+            scene n-185
+            n "Hello Saffron. How long has it been? I only see you in magazines these days."
+            scene n-186 with dissolve
+            saf "Yes, work has kept me really busy, but I should have made time to catch up more often."
+            scene n-187 with dissolve
+            saf "You look beautiful by the way."
+            scene n-188
+            n "Thanks, Saffron, you look good too."
+            scene n-189
+            n "This is [p], by the way."
+            scene n-190 with dissolve
+            n "He's my boyfriend."
+            scene n-191 with dissolve
+            saf "Ah, sorry for not introducing myself. I'm Saffron, Nicole's elder sister."
+            p "Very nice to meet you, Saffron."
+            if amandalvl > 10:
+                scene n-192 with dissolve
+                p "I think I've seen you before."
+                p "You're a model at Dante's studio right?"
+                scene n-193 with dissolve
+                saf "Ooh? I have a fan! Yes, that was me. I had a different hair style then though."
+                p "The girl at the end, Amanda? That's my [mr]."
+                scene n-194 with dissolve
+                saf "Really? I can't believe it, she looks so young!"
+                p "Don't say that in front of her, ahahaha!"
+                p "I'd never hear the end of it."
+            scene n-195 with dissolve
+            saf "It's so good to see you have a boyfriend, Nicky!"
+            saf "Make sure to treat my sister well, alright [p]?"
+            p "Always."
+            scene n-196 with dissolve
+            n "How are you relationships going, Saffron?"
+            saf "I'm single at the moment, unfortunately."
+            p "What a tragedy!"
+            scene n-197 with dissolve
+            n "Don't feel too sorry for her, Saffron's had plenty of experience."
+            scene n-198 with dissolve
+            saf "Ahaha, my little sister knows me too well~"
+            scene n-199
+            "Damn, Saffron is stunning. Now if I had to pick between Nicole and Saffron, huehueuhue..."
+            "Hmmm..."
+            scene n-200 with dissolve
+            "Nicole's tits are definitely larger than her sister's, but her sister's look more natural."
+            "Nicole's had some enhancement done, whilst her sister hasn't..."
+            saf "My eyes are up here, [p]."
+            scene n-201 with dissolve
+            p "Um, err..."
+            scene n-202 with dissolve
+            saf "Don't mind me, ahaha! I'm just having a bit of fun."
+            scene n-203
+            n "Stop flirting with my [p]. He's all mine!"
+            saf "Unfortunately for you, [p], my sister doesn't like sharing her toys."
+            n "Unfortunately?"
+            saf "I like to have some fun too, Nicole."
+            scene n-204 with dissolve
+            p "Saffron sounds exactly like you, babe. This is hilarious."
+            scene n-205 with dissolve
+            saf "So what do you say, [p]? Why don't all three of us have some fun?"
+            n "Huh? Eww!"
+            scene n-202 with dissolve
+            saf "I love teasing Nicole."
+            scene n-198 with dissolve
+            saf "Alright, I'll leave you two lovebirds to your own devices."
+            saf "Love you, sis~"
+            scene n-206 with dissolve
+            n "..."
+            scene n-207 with dissolve
+            saf "I'm just going to go for a quick swim."
+            saf "Look after my clothes, won't you?"
+            scene n-208 with dissolve
+            $ renpy.pause()
+            scene n-209 with dissolve
+            $ renpy.pause()
+            scene n-210 with dissolve
+            $ renpy.pause()
+            scene n-211 with dissolve
+            $ renpy.pause()
+            scene n-212 with dissolve
+            $ renpy.pause()
+            scene n-213 with dissolve
+            "Jesus Christ, Saffron gives Nicole a run for her money!"
+            "Ah, but I shouldn't fantasise about her sister like that."
+            "But still, she's so hot."
+            "She has tits smaller than Nicole's, but the natural look is just as attractive."
+            scene n-214 with dissolve
+            "That family is just full of fine asses. Look how tight that is."
+            scene n-215 with dissolve
+            saf "I'd like to model for you some more, [p], but I've got to get wet."
+            saf "I'm sure I'll see you later?"
+            "My god."
+            play music "sounds/beach.mp3" fadeout 1
+            scene n-216 with dissolve
+            $ renpy.pause()
+            scene n-217
+            p "Hahahah! She's literally an older version of you."
+            n "We're nothing alike."
+            p "Say what you want, but I think you two are cute together and that she's your role model."
+            scene n-179
+            n "She's too perfect."
+            p "You know, you don't have to try to be exactly like her."
+            p "You're you. Don't forget that."
+            scene n-178 with dissolve
+            n "Sigh, [p]. Thanks, I know. I'll make my own way."
+            scene black with fade
+            scene n-164 with fade
+            n "Okay, where to next?"
+            jump holidaypark_replay
+
+        "Let's just chill around.":
+            p "It's a big place."
+            n "For you."
+            scene black with fade
+            scene n-220 with fade
+            n "So, [p]. How's life?"
+            scene n-218 with dissolve
+            p "Life's interesting, in no small part due to you."
+            p "What about you? What's your ambition?"
+            scene n-220 with dissolve
+            n "My ambition?"
+            p "Yeah. Your goal in life."
+            scene n-219 with dissolve
+            n "There's no bigger picture at the moment. I just want to do what makes me happy."
+            scene n-221 with dissolve
+            n "And right now, that's by your side, [p]."
+            scene n-223 with dissolve
+            n "Sure the sex is good. But there's something else."
+            p "Something else?"
+            scene n-224 with dissolve
+            n "I saw it on the first day I met you, at the clothes shop, remember?"
+            n "I saw it in your eyes. You're like me."
+            p "I remember you saying something like I'm depraved."
+            scene n-222 with dissolve
+            n "And as 'revenge', you made me suck your dick."
+            p "Oh, I made {i}you{/i}?"
+            scene n-221 with dissolve
+            n "I was impressed at how quickly you could get hard again."
+            n "It's a testament to how arousing I must be."
+            p "You are, Nicole. You're good looking."
+            p "But what did you mean I was like you?"
+            scene n-223 with dissolve
+            n "We're both depraved, and I love it."
+            n "You and Kaira want to fuck each other, and I think that's really hot."
+            p "And what about you? Would you have sex with your sister?"
+            scene n-222 with dissolve
+            n "Yes, but it'll be a power thing. To make her scream and to dominate her completely."
+            p "Wow."
+            n "You've got to be a sub sometimes, and a dom sometimes. But with my sister, I want to to see her beneath me."
+            n "Her perfect face begging me to stop."
+            p "That {i}is{/i} pretty depraved. A power fantasy."
+            scene n-220 with dissolve
+            n "See? We understand each other."
+            p "I think we do. Not only that, I can even read your mind."
+            n "What am I thinking?"
+            p "All this talk has made you excited, and you're getting wet between the legs."
+            p "Enough talk, Nicole. You're just longing for someeone to take you roughly from behind."
+            n "Oooh~!"
+            scene n-225 with dissolve
+            n "You know, no one has taken my butthole before."
+            scene n-226 with dissolve
+            n "My cute, tight, little butthole."
+            p "In that case, we'll just have to do it then won't we?"
+            p "We'll go slow, don't worry."
+            scene n-227 with dissolve
+            n "Okay, [p], just don't make my tight, slutty little asshole too sore~"
+            scene black with fade
+            ##nervous sex scene
+            scene n-228 with dissolve
+            n "I'm still a anal virgin, so don't be too rough, okay?"
+            p "You're so cute Nicole."
+            scene white
+            $ renpy.movie_cutscene("animations/n15.mp4", loops=0, stop_music=False)
+            image n16 = Movie(play="/animations/n16.mp4")
+            show n16 with dissolve
+            p "How... how does it feel Nicole?"
+            n "It's a bit rough, but I like it."
+            n "How's my asshole feel?"
+            p "It's fucking tight, babe."
+            n "It's dry, but that makes it hotter doesn't it?"
+            n "It's forbidden territory~"
+            p "I'm picking up the pace okay?"
+            n "Not too fast~"
+            hide n16
+            image n17 = Movie(play="/animations/n17.mp4")
+            show n17 with dissolve
+            n "Ahh!"
+            p "Does it hurt?"
+            n "A little bit!"
+            p "Is it pleasurable?"
+            n "It feels nice, I guess..."
+            p "We'll have to train up your anal, get it all loosened up because my god..."
+            p "You're so fucking tight I'm about to blow!"
+            n "Cumming before me~!"
+            p "Argh!"
+            hide n17
+            $ renpy.movie_cutscene("animations/n18.mp4", loops=0, stop_music=False)
+            scene n-229
+            "Despite not cumming, Nicole was in a blissful trance."
+            n "Oh, I don't think I'll be able to walk in a while."
+            p "You'll get better."
+            n "Yeah maybe, but I'll be shitting blood for days."
+            scene n-230 with dissolve
+            n "Just let me pull myself up..."
+            scene n-231 with dissolve
+            n "Phew, feels like acid is up my ass."
+            n "So how was my little butthole?"
+            p "Super tight, though I think we'll get to loosen it up over time."
+            p "Still burning?"
+            scene n-232 with dissolve
+            n "I'll get over it. I'll need to if I want to keep up with you."
+            scene n-233 with dissolve
+            n "Time for me to put something back on."
+            scene n-234 with dissolve
+            $ renpy.pause()
+            scene n-235 with dissolve
+            n "Ready!"
+            n "And I'm feeling better already."
+            p "Um, I can still see your pussy slipping out."
+            scene n-236 with dissolve
+            n "Ah, now I see where your eyes are always at."
+            scene n-237 with dissolve
+            $ renpy.pause()
+            scene n-238 with dissolve
+            $ renpy.pause()
+            scene n-239 with dissolve
+            n "Better."
+            n "Now, are good to go?"
+            jump holidaypark_replay
+        "Time to go.":
+            play music "sounds/masked.mp3" fadeout 1
+            scene black with fade
+            scene n-240 with fade
+            p "What a day!"
+            n "I wouldn't mind doing this again, you know?"
+            p "I'd like to as well."
+            scene n-241
+            n "I can't wait for our trip with Kaira."
+            p "It'll be fun, but you gotta behave yourself alright?"
+            p "I don't want my [sr] picking up your bad habits."
+            scene n-242
+            n "Hah, me?"
+            n "You love me for my bad habits~"
+            p "I love you for many things, Nicole."
+            scene n-243 with dissolve
+            n "What's one of them?"
+            p "Hmm, how about the sexy way you walked into the pool? You're such a diva."
+            p "Okay, my turn, what's one thing you like about me?"
+            scene n-244 with dissolve
+            n "I love how you your sexual appetite can match mine, and I think we have great chemistry!"
+            scene n-245 with dissolve
+            n "I also loved how you took my anal virginity, though I hope this pain gets better soon."
+            p "Ah well, something to remember me by."
+            p "I also got to meet your sister today. You're similar to her in some ways."
+            p "I'm starting to think your whole family is like that."
+            scene n-246 with dissolve
+            n "You mean being a slut?"
+            p "I wouldn't say that usually, but I guess for you it's a compliment. So sure."
+            p "You're both huge sluts."
+            scene n-247 with dissolve
+            n "We've got the looks to back it up."
+            n "..."
+            scene n-248 with dissolve
+            n "Which one of us is sexier, [p]? Me or my sister?"
+            p "Oh come on, you both look great."
+            scene n-249 with dissolve
+            n "Which. One?"
+            p "Oooh, I don't know. Help me make up my mind."
+            scene n-250 with dissolve
+            n "Does this help?"
+            p "Hmm, I think I need a little extra."
+            scene n-251 with dissolve
+            n "How about this?"
+            p "Still not sure. Try touching yourself."
+            scene n-252 with dissolve
+            n "With pleasure."
+            scene white
+            image n19 = Movie(play="/animations/n19.mp4")
+            image n20 = Movie(play="/animations/n20.mp4")
+            show n19 with dissolve
+            n "Ah~"
+            n "My fingers feel pretty good too."
+            n "Just the right size. I don't think my pussy could take another cock right now."
+            n "It's super sensitive right now as well, do I need to cum?"
+            p "Cum for me."
+            n "Okay daddy~"
+            hide n19
+            show n20 with dissolve
+            n "Ah~ ah~ ah~ ah~"
+            n "Aah~~~!!!"
+            hide n20
+            $ renpy.movie_cutscene("animations/n21.mp4", loops=0, stop_music=False)
+            scene n-253
+            n "Am I the sexiest now, [p]?"
+            p "Right now? Yes. You certainly are."
+            scene n-254 with dissolve
+            n "You mean it changes~?"
+            p "Of course. You're going to have to keep it up."
+            scene n-255 with dissolve
+            n "So I'll be the sexiest as long as I'm your cock sleeve."
+            scene n-256 with dissolve
+            n "Hahahaha!"
+            scene n-257 with dissolve
+            n "It's a kinky idea."
+            scene n-258 with dissolve
+            n "I'll play."
+            jump gallery2

@@ -24,5 +24,5 @@ label nicolesit:
             "She kisses so passionately it's like she's trying to make love to my lips."
             scene n-30
             n "(I'm a lucky girl~ Finally someone as raw as you.)"
-    call daykeep
+    call daykeep from _call_daykeep_27
     jump living_room

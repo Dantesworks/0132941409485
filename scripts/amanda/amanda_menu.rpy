@@ -5,7 +5,7 @@ label Amanda:
     if amandalvl == 1:
         jump amandatalk
     menu:
-        "Talk.":
+        "Talk":
             jump amandatalk
         "Hey [mr]. Can I have some money?" if amandakitchenlvl < 10:
             jump amanda_money

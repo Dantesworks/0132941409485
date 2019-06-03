@@ -2,6 +2,13 @@ label gallery1:
     call screen gallery1
     screen gallery1:
         add "wallpaper"
+        vbox xalign 0.5 ypos 1000:
+            text "Page 1"
+        imagebutton: ## next
+            focus_mask True
+            idle "logo_next.png"
+            hover "logo_next_hover.png"
+            action Jump("gallery2")
         grid 3 3:
             align (0.5, 0.3)
             spacing 80

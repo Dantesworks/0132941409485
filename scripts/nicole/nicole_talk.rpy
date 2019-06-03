@@ -946,7 +946,7 @@ label nicoletalk:
         n "Isn't this just the perfect relationship?"
         p "It's not too bad, Nicole. It's not too bad."
         $ nicolelvl += 1
-        call daykeep
+        call daykeep from _call_daykeep_25
         jump map
     if nicolelvl == 9 and day > nicoleday:
         scene black
@@ -1004,7 +1004,7 @@ label nicoletalk:
         n "..."
         n "First thing tomorrow morning okay?"
         p "Okay."
-        call daykeep
+        call daykeep from _call_daykeep_26
         $ nicolelvl += 1
         jump living_room
     ## nicolelvl 10 in future

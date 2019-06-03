@@ -1070,7 +1070,7 @@ label camilletalk:
         $ renpy.pause(3.0,hard=True)
         play music "sounds/jojo.mp3"
         scene cam-237 with hpunch
-        play sound "sounds/scratch.mp3"
+        play sound "sounds/effects/scratch.mp3"
         $ renpy.pause()
         ## Shock
         scene cam-238

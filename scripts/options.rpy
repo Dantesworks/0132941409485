@@ -213,7 +213,7 @@ init python:
     build.classify("game/**.png", "dante")
     # animation
     build.classify("game/**.mpg", "drink")
-    build.classify("game/**.mpg", "drinks")
+    build.classify("game/**.mp4", "drinks")
 
     # sound
     build.classify("game/**.mp3", "creative")
