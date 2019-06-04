@@ -10,22 +10,22 @@ label Camille:
             jump camilletalk
         "I'd like access to the..." if resortmembership > 0:
             menu:
-                "Public bathouse." if resortmembership > 0:
+                "Public bathouse" if resortmembership > 0:
                     scene cam-5
                     t "Certainly, right this way!"
                     scene black with fade
                     jump publicbathouse
-                "Gym:" if resortmembership > 0:
+                "Gym" if resortmembership > 0:
                     scene cam-5
                     t "Take a right when you reach the stairs, or you'll end up at the wrong place!"
                     scene black with fade
                     jump gym
-                "Sauna." if resortmembership > 1:
+                "Sauna" if resortmembership > 1:
                     scene cam-5
                     t "Enjoy the steam!"
                     scene black with fade
                     jump sauna
-                "Private pool." if resortmembership > 2:
+                "Private pool" if resortmembership > 2:
                     scene cam-5
                     t "A pool just for you and your friends!"
                     scene black with fade

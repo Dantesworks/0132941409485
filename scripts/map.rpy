@@ -51,13 +51,21 @@ label map:
                 action Jump("lobby")
             else:
                 action Show("resortclosed")
+        if gym_intro:
+            imagebutton: #university
+                focus_mask True
+                idle "map_uni.png"
+                hover "map_uni_hover.png"
+                if daytime == 2 or daytime == 3:
+                    action Jump("uni")
+                else:
+                    action Show("uniclosed")
 
 screen cafeclosed():
     add "cafeclosed.png"
     imagebutton:
         idle "close.png"
         action Hide("cafeclosed")
-
 
 screen barclosed():
     add "barclosed.png"
@@ -70,3 +78,9 @@ screen resortclosed():
     imagebutton:
         idle "close.png"
         action Hide("resortclosed")
+
+screen uniclosed():
+    add "uniclosed.png"
+    imagebutton:
+        idle "close.png"
+        action Hide("uniclosed")

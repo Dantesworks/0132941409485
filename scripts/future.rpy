@@ -596,7 +596,7 @@ label future:
                 n "AHHH~~!!!"
                 hide n11
                 $ renpy.movie_cutscene("animations/n12.mp4", loops=0, stop_music=False)
-                scene n-149 with dissolve
+                scene n-149 with flash
                 n "Ah~ hah... aha ha...."
                 p "Your orgasm fried your brain."
                 n "I... can't move anymore."
@@ -623,11 +623,9 @@ label future:
                 hide n14
                 scene n-152 with dissolve
                 $ renpy.pause()
-                scene white with flash
-                scene n-153 with dissolve
+                scene n-153 with flash
                 $ renpy.pause()
-                scene white with flash
-                scene n-154 with dissolve
+                scene n-154 with flash
                 $ renpy.pause()
                 scene n-155 with dissolve
                 p "And now I leave you, dripping filth."

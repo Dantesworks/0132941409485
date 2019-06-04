@@ -9,6 +9,9 @@ default long_gown = False
 default security_dress = False
 default gym_clothes = False
 
+default dildo = False
+default plug = False
+
 default bogged = False
 default juke = False
 
@@ -27,6 +30,8 @@ label online_shop:
             jump camera_equipment
         "Outfits":
             jump outfits
+        "Sex shop" if olivialvl > 1:
+            jump sex_shop
         "Favours from Bogdanoff":
             if bogged == True:
                 "Bogdanoffs will only manipulate the market for you once per day."
@@ -121,7 +126,26 @@ label outfits:
         "Back":
             jump online_shop
     jump online_shop
-
+label sex_shop:
+    menu:
+        "Dildo - $50":
+            if cash < 50:
+                "Transaction failed - insufficient funds."
+            else:
+                $ cash -= 50
+                $ dildo = True
+                "Thankyou for your purchase."
+            jump sex_shop
+        "Butt Plug - $80":
+            if cash < 50:
+                "Transaction failed - insufficient funds."
+            else:
+                $ cash -= 50
+                $ plug = True
+                "Thankyou for your purchase."
+            jump sex_shop
+        "Exit":
+            jump sex_shop
 label bog:
     scene bog
     menu:
