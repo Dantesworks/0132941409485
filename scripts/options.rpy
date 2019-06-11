@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Depravity")
+define config.name = _("Depravity | Depraved Edition")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -23,7 +23,7 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "0.52a"
+define config.version = "0.52c"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -33,17 +33,7 @@ define gui.about = _p("""Thankyou for checking this game out. Please let me know
 
 Patreon: patreon.com/danteworks
 
-Music - Beach by MBB (Nicole's theme).
-        Dreams by Joakim Karud (Caroline's theme).
-        KDA Popstars Instrumental by Riot Games.
-        A Cup of Coffee by DJ Okawari.
-        Wanderer by Dion.
-        Medicine by Joji.
-        Slopes of the Blessure from Witcher 3.
-        Wake Me Up Before You Go-Go - George Michael
-        Masked Reaver - Vexento
-
-All other music is original.
+Music is comprised of original and unoriginal tracks.
 """)
 
 

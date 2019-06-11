@@ -1,3 +1,4 @@
+default from_museum = 0
 label museum:
     if from_computer:
         play music "sounds/special.mp3" fadeout 0.5
@@ -10,15 +11,25 @@ label museum:
             focus_mask True
             idle "juke_i.png"
             hover "juke_h.png"
-            action Jump("juke_box")
+            action [SetVariable("from_museum", 1), Jump("juke_box")]
         imagebutton: ## back
             focus_mask True
             idle "back.png"
             hover "back_hover.png"
             action Jump("computer")
+        imagebutton: ## next
+            focus_mask True
+            idle "logo_next.png"
+            hover "logo_next_hover.png"
+            action Jump("museum2")
         grid 3 3:
             align (0.5, 0.3)
             spacing 80
+            imagebutton: ## coil3
+                focus_mask True
+                idle "/images/gallery_buttons/museum/coil3_i.png"
+                hover "/images/gallery_buttons/museum/coil3_h.png"
+                action Jump("coil3")
             imagebutton: ## coil2
                 focus_mask True
                 idle "/images/gallery_buttons/museum/coil2_i.png"
@@ -59,11 +70,8 @@ label museum:
                 idle "/images/gallery_buttons/museum/lama_i.png"
                 hover "/images/gallery_buttons/museum/lama_h.png"
                 action Jump("lama")
-            imagebutton: ## dante
-                focus_mask True
-                idle "/images/gallery_buttons/museum/dante_i.png"
-                hover "/images/gallery_buttons/museum/dante_h.png"
-                action Jump("dante")
+
+
 label coil2:
     scene coil2
     $ renpy.pause()

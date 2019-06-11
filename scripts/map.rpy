@@ -17,6 +17,17 @@ label map:
     if renpy.music.get_playing() != "sounds/wanderer.mp3":
         play music "sounds/wanderer.mp3"
     call hidescreens from _call_hidescreens_3
+    hide screen homescreen
+    hide screen amanda_profile
+    hide screen nicole_profile
+    hide screen kaira_profile
+    hide screen camille_profile
+    hide screen caroline_profile
+    hide screen olivia_profile
+    hide screen veronica_profile
+    hide screen btc
+    hide screen questionBTC
+    hide screen skip_evening
     show screen daytime
     show screen fastforward
     call screen map

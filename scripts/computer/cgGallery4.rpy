@@ -57,11 +57,44 @@ label cgGallery4:
                     action Jump("g33")
             else:
                 null
-            null
-            null
-            null
+            if gym_intro:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/34-i.png"
+                    hover "gallery_buttons/cGGallery/34-h.png"
+                    action Jump("g34")
+            else:
+                null
+            if gym_intro:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/35-i.png"
+                    hover "gallery_buttons/cGGallery/35-h.png"
+                    action Jump("g35")
+            else:
+                null
+            if olivialvl > 1:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/36-i.png"
+                    hover "gallery_buttons/cGGallery/36-h.png"
+                    action Jump("g36")
+            else:
+                null
             null
 
+label g36:
+    scene 36
+    $ renpy.pause()
+    jump cgGallery4
+label g35:
+    scene 35
+    $ renpy.pause()
+    jump cgGallery4
+label g34:
+    scene 34
+    $ renpy.pause()
+    jump cgGallery4
 label g32:
     scene 32
     $ renpy.pause()

@@ -1085,7 +1085,7 @@ label nicole_bj2:
     jump gallery2
 
 label nicole_park:
-    scene n-116 with dissolve
+    scene n-116
     n "Well, the water's heated. The drinks are great and-"
     p "What's not to love? Awesome!"
     scene n-117 with dissolve
@@ -1678,3 +1678,129 @@ label nicole_park:
             scene n-258 with dissolve
             n "I'll play."
             jump gallery2
+label ver_bj:
+    scene r-85
+    p "It's just us two now, Miss Veronica."
+    scene r-86 with dissolve
+    ver "You can call me Veronica."
+    p "I know, but I like calling you Miss Veronica, not Mrs Veronica."
+    scene r-87 with dissolve
+    p "You're my teacher from all the way back then, and while we're together, you're my Miss Veronica."
+    p "Forget about him."
+    scene r-90 with dissolve
+    p "You just need to give it a go. Just the tip. And you'll never look back."
+    ver "[p], I..."
+    scene r-89 with dissolve
+    p "Just the tip. Have a taste, Miss V."
+    # looks around, cara around corner
+    scene r-91 with dissolve
+    $ renpy.pause()
+    scene r-92 with dissolve
+    $ renpy.pause()
+    scene r-94 with dissolve
+    ver "O-Okay."
+    scene r-93 with dissolve
+    ver "This is just a one off thing, alright? Just to see what it's like."
+    p "Of course."
+    scene r-95 with fade
+    p "Don't be nervous, Miss Veronica. You're very beautiful."
+    ver "(His penis is so much bigger than my husband's!)"
+    ver "(Is this what it's like to feel lust after such a long time?)"
+    scene white
+    image ver1 = Movie(play="/animations/ver1.mp4")
+    image ver2 = Movie(play="/animations/ver2.mp4")
+    show ver1 with dissolve
+    "The timid and uncertain way she licked the tip of my cock was strangely hot."
+    "Despite her only licking such a small area, I could tell there was a dark longing there."
+    "I was enjoying myself."
+    ver "Lick, lick, lick, lick..."
+    p "How are you liking it?"
+    ver "Sorry I'm a bit awkward."
+    p "You'll ease into it. Why don't you go faster?"
+    ver "I'll try that."
+    hide ver1
+    show ver2 with dissolve
+    "She picked up her speed, flicking my cock up with every stroke of her tongue on the underside of my penis."
+    "The area where she licked became hot and wet with as she moisturised it with her saliva."
+    "It would become cool as the air rushed around it only to become warm again after her tongue swept in again."
+    ver "(Am I... enjoying this?)"
+    p "You're so good at this, I'm about to-!"
+    scene r-96 with dissolve
+    $ renpy.pause()
+    scene r-97 with flash
+    $ renpy.pause()
+    scene r-98 with flash
+    $ renpy.pause()
+    scene r-99 with dissolve
+    p "That was fun, wasn't it?"
+    scene r-99 with dissolve
+    ver "[p]."
+    ver "I feel really guilty. How could I have done this..?"
+    scene r-100 with dissolve
+    ver "My loyal husband... waiting for me at home..."
+    scene r-102 with dissolve
+    ver "I won't be able to face him anymore!"
+    "Ah shit."
+    scene r-104 with dissolve
+    ver "I was just trying this, this wasn't serious, right [p]?"
+    ver "I'm a good wife, right [p]?"
+    scene r-103 with dissolve
+    ver "...right?!"
+    p "..."
+    scene r-105 with dissolve
+    ver "I-I'm going to forget this. This isn't me."
+    scene r-106 with dissolve
+    p "I'll be here for you, Veronica."
+    ver "I... need to go now."
+    p "Very well."
+    scene r-107 with dissolve
+    "That was fucking hot. A bit rocky, sure."
+    "She'll come around. After all..."
+    scene r-108 with dissolve
+    "...her depravity is plain for all to see."
+    jump gallery2
+
+label o_bj:
+    scene o-25
+    "Speechlessly, she got on her knees."
+    scene o-26 with dissolve
+    "Shamefully, she looked down, yet maintained her defiant expression."
+    p "Come on, Olivia. Make love to my penis."
+    o "..."
+    p "No? You asked for this."
+    "Without warning, I grab a large tuft of her hair and pull it upwards."
+    scene o-27 with vpunch
+    o "Ahh!"
+    p "One way or another, you will play ball."
+    p "Now choke on it!"
+    o "Noo!!"
+    scene white
+    image o1 = Movie(play="/animations/o1.mp4")
+    image o2 = Movie(play="/animations/o2.mp4")
+    show o1 with dissolve
+    p "You're so much prettier when you're not talking Olivia."
+    p "Your lips were made to be around a cock."
+    o "Mm!!!"
+    p "Lets take it up a notch, shall we? You can handle it."
+    hide o1
+    show o2 with dissolve
+    o "Mm, mm, mm, mm..."
+    p "You sound so much nicer making those kind of sounds."
+    p "Now get on the fucking ground. I'm about to bust my load over you."
+    hide o2
+    scene o-28 with dissolve
+    $ renpy.pause()
+    scene o-29 with flash
+    $ renpy.pause()
+    scene o-30 with flash
+    $ renpy.pause()
+    scene o-31 with dissolve
+    ## forced fellatio
+    p "That wasn't so bad, was it?"
+    scene o-32
+    o "Fuck you. I hope you die in a fire!"
+    p "I don't doubt for one moment you want me dead."
+    p "I imagine you want me dead very much indeed, but unfortunately for you?"
+    p "I have no intention of going anywhere, anytime soon."
+    p "I own you now, Olivia."
+    jump gallery2

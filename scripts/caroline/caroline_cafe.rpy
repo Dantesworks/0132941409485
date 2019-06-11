@@ -234,7 +234,7 @@ label Caroline:
         p "I really just want to hear your voice."
         scene cc-13 with dissolve
         c "Oh gee..."
-        c "Chessy line, [p]!"
+        c "Cheesy line, [p]!"
         p "Yeah well, did you like it?"
         scene cc-6 with dissolve
         c "I can always appreciate an honest guy."
@@ -290,7 +290,7 @@ label Caroline:
         p "That's similar to psychology right?"
         c "Well, similar, yes, but different."
         p "What's the difference? Always seemed quite similar to a layperson like myself."
-        scene c-12 with dissolve
+        scene cc-12 with dissolve
         c "How can I put it..."
         c "Psychiatry is about dealing with mental diseases - the more disabling ones."
         c "You would need to know how the human mind works for both, but practically psychiatrists would deal with mental illnesses like severe depression, and schizophrenia."

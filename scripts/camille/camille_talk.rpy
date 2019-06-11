@@ -983,7 +983,7 @@ label camilletalk:
         p "..."
         scene cam-220 with dissolve
         "Vincent said he didn't like Camille because of something about how she suppresses her feelings."
-        " She's not as trusting and is shy to start with. Something to do with her past experiences."
+        "She's not as trusting and is shy to start with. Something to do with her past experiences."
         "But isn't this how you want girls to be?"
         play music "sounds/armoir.mp3" fadeout 1
         p "You know, I want to come clean."

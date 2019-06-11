@@ -945,6 +945,7 @@ label nicoletalk:
         scene n-41 with dissolve
         n "Isn't this just the perfect relationship?"
         p "It's not too bad, Nicole. It's not too bad."
+        scene black with fade
         $ nicolelvl += 1
         call daykeep from _call_daykeep_25
         jump map

@@ -30,7 +30,7 @@ label online_shop:
             jump camera_equipment
         "Outfits":
             jump outfits
-        "Sex shop" if olivialvl > 1:
+        "Sex shop" if olivialvl > 2:
             jump sex_shop
         "Favours from Bogdanoff":
             if bogged == True:
@@ -54,7 +54,7 @@ label camera_equipment:
             else:
                 $ cash -= 400
                 $ DSLR = True
-                "Thankyou for your purchase."
+                "Thank you for your purchase."
             jump camera_equipment
         "50mm Prime Lens - $500" if primes_50 == False:
             if cash < 500:
@@ -62,7 +62,7 @@ label camera_equipment:
             else:
                 $ cash -= 500
                 $ primes_50 = True
-                "Thankyou for your purchase."
+                "Thank you for your purchase."
             jump camera_equipment
         "85mm Prime Lens - $1000" if primes_85 == False:
             if cash < 1000:
@@ -70,7 +70,7 @@ label camera_equipment:
             else:
                 $ cash -= 1000
                 $ primes_85 = True
-                "Thankyou for your purchase."
+                "Thank you for your purchase."
             jump camera_equipment
         "70-200mm HQ Zoom Lens - $1500" if Zoom == False:
             if cash < 1500:
@@ -78,7 +78,7 @@ label camera_equipment:
             else:
                 $ cash -= 1500
                 $ Zoom = True
-                "Thankyou for your purchase."
+                "Thank you for your purchase."
             jump camera_equipment
         "Tripod - $100" if tripod == False:
             if cash < 100:
@@ -86,7 +86,7 @@ label camera_equipment:
             else:
                 $ cash -= 100
                 $ tripod = True
-                "Thankyou for your purchase."
+                "Thank you for your purchase."
             jump camera_equipment
         "Guide to Photography in the Modelling Industry - $50" if guide == False:
             if cash < 50:
@@ -94,7 +94,7 @@ label camera_equipment:
             else:
                 $ cash -= 50
                 $ guide = True
-                "Thankyou for your purchase."
+                "Thank you for your purchase."
                 p "Hmm, I should be able to take better pictures and direct [mr] now."
         "Back":
             jump online_shop
@@ -108,44 +108,44 @@ label outfits:
             else:
                 $ cash -= 50
                 $ long_gown = True
-                "Thankyou for your purchase."
+                "Thank you for your purchase."
         "Security Dress - $50" if security_dress == False:
             if cash < 50:
                 "Transaction failed - insufficient funds."
             else:
                 $ cash -= 50
                 $ security_dress = True
-                "Thankyou for your purchase."
+                "Thank you for your purchase."
         "Gym Clothes - $50." if gym_clothes == False:
             if cash < 50:
                 "Transaction failed - insufficient funds."
             else:
                 $ cash -= 50
                 $ gym_clothes = True
-                "Thankyou for your purchase."
+                "Thank you for your purchase."
         "Back":
             jump online_shop
     jump online_shop
 label sex_shop:
     menu:
-        "Dildo - $50":
+        "Dildo - $50" if dildo == False:
             if cash < 50:
                 "Transaction failed - insufficient funds."
             else:
                 $ cash -= 50
                 $ dildo = True
-                "Thankyou for your purchase."
+                "Thank you for your purchase."
             jump sex_shop
-        "Butt Plug - $80":
+        "Butt Plug - $80" if plug == False:
             if cash < 50:
                 "Transaction failed - insufficient funds."
             else:
                 $ cash -= 50
                 $ plug = True
-                "Thankyou for your purchase."
+                "Thank you for your purchase."
             jump sex_shop
         "Exit":
-            jump sex_shop
+            jump online_shop
 label bog:
     scene bog
     menu:
@@ -268,5 +268,8 @@ label juke_box:
         "Vincent's Theme" if vincent_theme == True:
             play music "sounds/wistful.mp3" fadeout 1
         "Back":
-            jump museum
+            if from_museum == 1:
+                jump museum
+            elif from_museum == 2:
+                jump museum2
     jump juke_box

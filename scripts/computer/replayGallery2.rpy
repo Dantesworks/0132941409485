@@ -28,8 +28,22 @@ label gallery2:
                     action Jump("nicole_park")
             else:
                 null
-            null
-            null
+            if gym_intro:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/12.png"
+                    hover "gallery_buttons/12_h.png"
+                    action Jump("ver_bj")
+            else:
+                null
+            if gym_intro:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/13.png"
+                    hover "gallery_buttons/13_h.png"
+                    action Jump("o_bj")
+            else:
+                null
             null
             null
             null

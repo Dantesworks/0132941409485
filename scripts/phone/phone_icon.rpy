@@ -13,7 +13,7 @@ screen phone_icon():
             hover "guide_h.png"
             action Show("guide")
 
-screen guide():
+screen guide(): ## How to get Nicole Phone
     viewport xalign 0.5 yanchor 0 ypos 410 xsize 350 draggable True mousewheel True arrowkeys True:
         vbox xsize 350:
             if nicolelvl == 1:

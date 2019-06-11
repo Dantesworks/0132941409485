@@ -8,6 +8,9 @@ label gym:
         "Man this gym is hard to find."
         "Trying to get there is a workout in and of itself!"
         "Hang on... I think this is it."
+        scene splash6 with fade
+        d "You are about to enjoy content with commissioned side characters with very depraved themes, including blackmail and corruption."
+        d "Proceed at your own risk!"
         scene r-1 with fade
         "Huh. It's smaller than I expected."
         "It's empty right now, but it wouldn't be able to hold that many people."
@@ -109,7 +112,7 @@ label gym:
         ver "I teach at the same highschool, and I met a wonderful man and got married!"
         p "How'd you meet this guy?"
         scene r-25 with dissolve
-        ver "Oh, he's a travellimg businessman, and we met each other at the bar."
+        ver "Oh, he's a travelling businessman, and we met each other at the bar."
         p "Romantic!"
         ver "It was very exciting!"
         p "Are you guys, you know, settling down? Starting a family?"

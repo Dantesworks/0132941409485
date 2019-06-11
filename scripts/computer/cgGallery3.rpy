@@ -92,6 +92,8 @@ label cgGallery3:
                     idle "gallery_buttons/cGGallery/28-i.png"
                     hover "gallery_buttons/cGGallery/28-h.png"
                     action Jump("g28")
+            else:
+                null
 
 label g28:
     scene 28
