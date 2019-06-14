@@ -79,7 +79,7 @@ label start:
 
     #Story start Chapter 1
     scene 1_v_serious with dissolve
-    x "Hey [p], why are you upset? what's the matter?"
+    x "Hey [p], why are you upset? What's the matter?"
     p "I'm sorry, I must look like such a mess right now. A lot of bad things are happening in my life and I don't know how to handle it."
     x "Happens to all of us buddy, happens to all of us. You don't have to, but would you like to tell me about it?"
     p "... I've made a lot of dumb choices, and... and I've lost a looot of money."

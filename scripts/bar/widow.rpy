@@ -26,8 +26,8 @@ label widow:
     scene cb-5 with dissolve
     c "Hmmm..."
     scene cb-6 with dissolve
-    c "How about the Original Dante, that's always special!"
-    p "Is it popular?"
+    c "How about the Original Dante, that's {i}always{/i} special!"
+    p "Is it that popular?"
     c "Extremely!"
     p "Lovely, I'll take one."
     c "Just a moment~"
@@ -53,7 +53,7 @@ label widow:
     p "I mean, you're welcome."
     scene w-5 with fade
     w "You know I am Widowmaker."
-    p "Of course, I'm a big fan. I've also like to find out more about you."
+    p "Of course, I'm a big fan. I'd also like to find out more about you."
     p "You're a very interesting person."
     scene w-3
     w "Oooh?"

@@ -5,7 +5,7 @@ screen phone_icon():
             focus_mask True
             idle "phone/icon.png"
             hover "phone/iconhover.png"
-            action Show("homescreen")
+            action Show("homescreen")#, Hide("phone_icon")]
     else:
         imagebutton:
             focus_mask True

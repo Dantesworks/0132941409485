@@ -123,5 +123,5 @@ label lama:
 label dante:
     scene dante
     $ renpy.pause()
-    "Commission for Android+ patrons | Dante"
+    "Commission for Daemon+ patrons | Dante"
     jump museum

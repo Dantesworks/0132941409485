@@ -13,6 +13,7 @@ label cryptoChange:
 
 ## Screens
 screen btc():
+    zorder 7
     imagebutton: ## Close
         idle "phone/close.png"
         action [Hide("btc"), PauseAudio("music", False), Stop("voice")]

@@ -23,13 +23,13 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "0.52c"
+define config.version = "0.52d"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""Thankyou for checking this game out. Please let me know what you think of the game, and what directions you think the game should take.
+define gui.about = _p("""Thank you for playing. Please leave feedback on patreon and f95.
 
 Patreon: patreon.com/danteworks
 

@@ -4,7 +4,7 @@ screen map_icon():
         focus_mask True
         idle "map_icon.png"
         hover "map_icon_hover.png"
-        action Jump("map")
+        action [Hide ("player_room"), Jump("map")]
 screen fastforward():
     zorder 5
     imagebutton:

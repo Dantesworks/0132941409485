@@ -1,4 +1,5 @@
 screen nicole_profile():
+    zorder 7
     imagebutton: ## Close
         idle "phone/close.png"
         action Hide("nicole_profile")
