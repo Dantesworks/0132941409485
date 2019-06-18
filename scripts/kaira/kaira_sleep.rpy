@@ -21,7 +21,7 @@ label kaira_sleep:
                     scene ks-4 with dissolve
                     "They're so soft yet firm at the same time. So this is what large and natural breasts feel like."
                     scene
-                    $ renpy.movie_cutscene("animations/ks1.mpg", loops=-1, stop_music=False)
+                    $ renpy.movie_cutscene("animations/ks1.mp4", loops=-1, stop_music=False)
                     scene ks-5
                     s "Uhh... zzzz"
                     "Oh shit, is she waking?"

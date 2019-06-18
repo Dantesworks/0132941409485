@@ -1501,7 +1501,7 @@ label dancemovedone:
     scene 9-41
     n "You should be begging me for this."
     scene
-    $ renpy.movie_cutscene("animations/nicole1.mpg", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole1.mp4", loops=-1, stop_music=False)
     scene 9-42
     n "Cum for me [p], you know how much I crave your juicy cum."
     n "Come on, don't be a shy boy."
@@ -1524,7 +1524,7 @@ label dancemovedone:
     scene 9-49
     n "Fine, I'll share some with you later. Now let me finish him off."
     scene
-    $ renpy.movie_cutscene("animations/nicole2.mpg", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole2.mp4", loops=-1, stop_music=False)
     scene white
     "I'm spent..."
     scene 9-50
@@ -1636,7 +1636,7 @@ label dancemovedone:
     n "How does it feel to be straddled?"
     n "Let's edge together all night long~"
     scene
-    $ renpy.movie_cutscene("animations/nicole3.mpg", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole3.mp4", loops=-1, stop_music=False)
     scene 10-20
     n "Are you coming along?"
     n "Do you want to put it in?"
@@ -1661,13 +1661,13 @@ label dancemovedone:
     n "Say out loud what you'll do to my voluptuous body [p]."
     p "I will fuck you until your eyes-"
     scene
-    $ renpy.movie_cutscene("animations/nicole4.mpg", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole4.mp4", loops=0, stop_music=False)
     scene 10-23
     n "Ahhh~!!"
     p "You depraved little bitch, it slid right in."
     n "Hang tight, [p]. I'm about to rock your world!"
     scene
-    $ renpy.movie_cutscene("animations/nicole5.mpg", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole5.mp4", loops=-1, stop_music=False)
     scene 10-24
     p "I can't believe it. You really are just a horny little slut aren't you?"
     n "It... feels.... so... good~"
@@ -1677,13 +1677,13 @@ label dancemovedone:
     m "(He's grown so much...)"
     m "(And his thick cock thrusting in and out of her pussy...)"
     scene
-    $ renpy.movie_cutscene("animations/nicole6.mpg", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole6.mp4", loops=-1, stop_music=False)
     scene 10-25
     n "Faster~ faster~ faster~!"
     scene 10-45
     m "(It's been so long, and somehow... I wish it were me bouncing on that cock!"
     scene
-    $ renpy.movie_cutscene("animations/nicole7.mpg", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole7.mp4", loops=-1, stop_music=False)
     scene 10-26
     n "Oooh I'm close I'm so fucking close~!"
     scene 10-43
@@ -1693,7 +1693,7 @@ label dancemovedone:
     scene 10-27
     n "AHHHH~!!!!!"
     scene
-    $ renpy.movie_cutscene("animations/nicole8.mpg", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole8.mp4", loops=0, stop_music=False)
     scene 10-28
     n "{i}Pant...pant...{/i}"
     p "Just... like a cheap whore."

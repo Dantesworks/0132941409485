@@ -146,7 +146,11 @@ label runway: ## Amanda first show
     $ renpy.pause ()
     a "Saffron takes great pride in her natural assets, and she won't hesitate to flaunt them and show skin!"
     "..."
-    "Strange, she both looks and sounds like Nicole."
+    if nicolelvl > 10:
+        "Oh, Saffron! She's sporting a different hair cut, but I think I could recognise her and Nicole anywhere."
+        "She really has made it big."
+    else:
+        "Strange, she both looks and sounds like Nicole."
     scene ae-126 with dissolve
     $ renpy.pause ()
     scene ae-127 with dissolve

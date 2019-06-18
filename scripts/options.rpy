@@ -202,7 +202,6 @@ init python:
     build.classify("game/**.jpg", "dante")
     build.classify("game/**.png", "dante")
     # animation
-    build.classify("game/**.mpg", "drink")
     build.classify("game/**.mp4", "drinks")
 
     # sound

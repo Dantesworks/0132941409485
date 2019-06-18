@@ -154,7 +154,7 @@ label widowaskdone:
     p "Now come on, I'm not doing your work for you."
     p "Now Lick the tip."
     scene
-    $ renpy.movie_cutscene("animations/w1.mpg", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/w1.mp4", loops=-1, stop_music=False)
     scene w-22
     p "Good girl."
     p "Now take me in."
@@ -162,7 +162,7 @@ label widowaskdone:
     w "..."
     w "(Just do it Amelie, think of it as my mission...)"
     scene
-    $ renpy.movie_cutscene("animations/w2.mpg", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/w2.mp4", loops=-1, stop_music=False)
     scene w-24
     "Shit, she's really good. I might not last too long at this rate!"
     p "Stop!"
@@ -197,12 +197,12 @@ label widowaskdone:
     p "Straddle me and enjoy the ride."
     w "This will give me no pleasure!"
     scene
-    $ renpy.movie_cutscene("animations/w3.mpg", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/w3.mp4", loops=0, stop_music=False)
     scene w-36
     w "It's so big- you're filling me up~"
     p "I slid right into you, slut. Start bouncing you whore."
     scene
-    $ renpy.movie_cutscene("animations/w4.mpg", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/w4.mp4", loops=-1, stop_music=False)
     scene w-37
     p "You're coming around, good girl!"
     p "What a natural."
@@ -210,12 +210,12 @@ label widowaskdone:
     p "What's this Amelie? Are you close to the edge?"
     p "You've already come so far, keep rocking."
     scene
-    $ renpy.movie_cutscene("animations/w4.mpg", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/w4.mp4", loops=-1, stop_music=False)
     scene w-36
     w "...I can't...."
     w "Unghh!"
     scene
-    $ renpy.movie_cutscene("animations/w5.mpg", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/w5.mp4", loops=0, stop_music=False)
     scene w-38
     w "Ahhhh~~~~!"
     "Damn, she came."

@@ -460,7 +460,7 @@ label nicoletalk:
         n "I've been a bad girl-"
         "{i}Smack!{/i}"
         scene
-        $ renpy.movie_cutscene("animations/ns1.mpg", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns1.mp4", loops=-1, stop_music=False)
         scene ns-27
         n"-Ah!"
         p "You like that?"
@@ -469,7 +469,7 @@ label nicoletalk:
         p "A slut like you needs to learn her place!"
         "{i}Smack!{/i}"
         scene
-        $ renpy.movie_cutscene("animations/ns2.mpg", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns2.mp4", loops=-1, stop_music=False)
         scene ns-28
         n "AHH!"
         scene ns-30 with dissolve
@@ -479,11 +479,11 @@ label nicoletalk:
         p "I'm not stopping till you've learned your fucking lesson."
         "{i}Smack!{/i}"
         scene
-        $ renpy.movie_cutscene("animations/ns1.mpg", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns1.mp4", loops=-1, stop_music=False)
         scene ns-30
         n "Ahh~!!!!!!"
         scene
-        $ renpy.movie_cutscene("animations/ns3.mpg", loops=0, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns3.mp4", loops=0, stop_music=False)
         scene ns-29
         p "You came like a fountain again."
         n "I-love-you-daddy..."
@@ -492,22 +492,22 @@ label nicoletalk:
         p "This isn't over yet!"
         "{i}Smack!{/i}"
         scene
-        $ renpy.movie_cutscene("animations/ns5.mpg", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns5.mp4", loops=-1, stop_music=False)
         scene ns-30
         n "Stop [p]!"
         "{i}Smack!{/i}"
         scene
-        $ renpy.movie_cutscene("animations/ns4.mpg", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns4.mp4", loops=-1, stop_music=False)
         scene ns-31
         n "It's hurting for real- ah~!!"
         "{i}Smack!{/i}"
         scene
-        $ renpy.movie_cutscene("animations/ns5.mpg", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns5.mp4", loops=-1, stop_music=False)
         scene ns-31
         n "Fuck, stop!"
         "{i}Smack!{/i}"
         scene
-        $ renpy.movie_cutscene("animations/ns4.mpg", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns4.mp4", loops=-1, stop_music=False)
         scene ns-32
         n "HNGGG!"
         scene ns-31
@@ -529,7 +529,7 @@ label nicoletalk:
                 $ depravity += 1
                 "{i}Smack!{/i}"
                 scene
-                $ renpy.movie_cutscene("animations/ns5.mpg", loops=-1, stop_music=False)
+                $ renpy.movie_cutscene("animations/ns5.mp4", loops=-1, stop_music=False)
                 scene ns-31
                 n "What are you doing?!"
                 scene ns-37 with fade

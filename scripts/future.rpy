@@ -104,7 +104,7 @@ label future:
         "I felt her juices coat my fingers and could only imagine how it would feel on my cock."
         "And like that, I teased her, again and again, while she moaned in rhythm to my handiwork."
         scene
-        $ renpy.movie_cutscene("animations/k1.mpg", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/k1.mp4", loops=-1, stop_music=False)
         scene k-131
         p "Are you ready for the next step Kaira?"
         s "Am... I?"
@@ -113,7 +113,7 @@ label future:
         s "Mmmm..."
         "Well lubricated by her own juices, my fingers slipped in effortlessly."
         scene
-        $ renpy.movie_cutscene("animations/k2.mpg", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/k2.mp4", loops=-1, stop_music=False)
         scene k-132
         "Her chest rose and fell as she let out breathless labored gasps of air, trying to remain silent herself."
         p "You're having difficulty keeping in Kaira."
@@ -122,7 +122,7 @@ label future:
         p "Let's bring you over."
         "I increased the speed of my penetration, and Kaira reacted sharply."
         scene
-        $ renpy.movie_cutscene("animations/k3.mpg", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/k3.mp4", loops=-1, stop_music=False)
         scene k-133
         s "Ahh!!!"
         s "Mmm!!"
@@ -132,7 +132,7 @@ label future:
         s "I- ahhh!"
         "She buckles under my touch."
         scene
-        $ renpy.movie_cutscene("animations/k4.mpg", loops=0, stop_music=False)
+        $ renpy.movie_cutscene("animations/k4.mp4", loops=0, stop_music=False)
         scene k-134
         s "Oh, [p]!!!"
         p "Kaira, oh, I think you just had an orgasm."
@@ -201,7 +201,7 @@ label future:
         "I ignored her thrusted steadily."
         "In. Out. In Out."
         scene
-        $ renpy.movie_cutscene("animations/k5.mpg", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/k5.mp4", loops=-1, stop_music=False)
         scene k-151
         "Her eyes clenched shut from both pain and pleasure."
         "I continued to tear into her, sending shocks rocking her body."

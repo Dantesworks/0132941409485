@@ -143,20 +143,20 @@ label Amanda:
                     scene cam-292
                     p "Taking you where you're most vulnerable."
                     t "Ah!"
-                    scene
+                    scene white
                     $ renpy.movie_cutscene("animations/cam4.mp4", loops=0, stop_music=False)
                     scene cam-293
                     "She gasped for air as I thrust my penis into the depths of her asshole."
-                    scene white
                     image cam5 = Movie(play="/animations/cam5.mp4")
-                    show cam5 with dissolve
+                    scene cam5 with fade
+                    pause
                     t "It hurts, [p]."
                     p "I know Camille, we're not lubed up."
                     p "Should we slow down?"
                     t "...no. I can take it. Go faster!"
-                    hide cam5
                     image cam6 = Movie(play="/animations/cam6.mp4")
-                    show cam6 with dissolve
+                    scene cam6 with dissolve
+                    pause
                     p "You asked for this girl."
                     "She moaned more as I thrust in and out, her limp penis pushed back and forth."
                     p "Is this enough to get you excited?"
@@ -164,13 +164,13 @@ label Amanda:
                     p "Your dick's still limp though."
                     p "Looks like we still need to go harder!"
                     "I could feel skin tearing against skin as I thrust into her anus and hear her whimpers as she was undoubtedly feeling it too."
-                    hide cam6
                     image cam7 = Movie(play="/animations/cam7.mp4")
-                    show cam7 with dissolve
+                    scene cam7 with dissolve
+                    pause
                     "This feeling heightened ten times."
                     p "I'm getting close!"
                     t "Ahh!!"
-                    hide cam7
+                    scene white with flash
                     $ renpy.movie_cutscene("animations/cam8.mp4", loops=0, stop_music=False)
                     scene cam-294 with dissolve
                     "Her whole body shuddered."
