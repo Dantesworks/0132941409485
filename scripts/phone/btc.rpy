@@ -2,6 +2,7 @@
 default balanceBTC = 0
 default balanceCash = 0
 default exchangeRate = 10
+default withdrawal_amount = 50
 
 label cryptoChange:
     $ crypto_int = renpy.random.randint(-40, 67)
@@ -40,25 +41,25 @@ screen btc():
         idle "phone/sell.png"
         hover "phone/sellhover.png"
         action [Play("sound", "sounds/effects/mmm.mp3"), SetVariable("balanceBTC", 0), SetVariable("balanceCash", balanceCash+balanceBTC*exchangeRate)]
-    if balanceCash >= 50:
+    if balanceCash >= withdrawal_amount:
         imagebutton: ## withdraw
             focus_mask True
             idle "phone/withdraw.png"
             hover "phone/withdrawhover.png"
-            action [Play("sound", "sounds/effects/wo.mp3"), SetVariable("balanceCash", balanceCash-50), SetVariable("cash", cash+50)]
-    if balanceCash < 50:
+            action [Play("sound", "sounds/effects/wo.mp3"), SetVariable("balanceCash", balanceCash-withdrawal_amount), SetVariable("cash", cash+withdrawal_amount)]
+    if balanceCash < withdrawal_amount:
         imagebutton: ## withdraw 2
             focus_mask True
             idle "phone/withdraw.png"
             hover "phone/withdrawhover.png"
             action Show("btc")
-    if cash >= 50:
+    if cash >= withdrawal_amount:
         imagebutton: ## deposit
             focus_mask True
             idle "phone/deposit.png"
             hover "phone/deposithover.png"
-            action [Play("sound", "sounds/effects/wassa.mp3"), SetVariable("balanceCash", balanceCash+50), SetVariable("cash", cash-50)]
-    if cash < 50:
+            action [Play("sound", "sounds/effects/wassa.mp3"), SetVariable("balanceCash", balanceCash+withdrawal_amount), SetVariable("cash", cash-withdrawal_amount)]
+    if cash < withdrawal_amount:
         imagebutton: ## deposit2
             focus_mask True
             idle "phone/deposit.png"
@@ -85,3 +86,12 @@ screen questionBTC():
         idle "phone/question.png"
         hover "phone/questionhover.png"
         action [Show("btc"), Hide("questionBTC")]
+    hbox xalign 0.5 yalign 0.5 spacing 10:
+        frame:
+            textbutton "$5" action SetVariable("withdrawal_amount", 5)
+        frame:
+            textbutton "$50" action SetVariable("withdrawal_amount", 50)
+        frame:
+            textbutton "$500" action SetVariable("withdrawal_amount", 500)
+        frame:
+            textbutton "$5000" action SetVariable("withdrawal_amount", 5000)
