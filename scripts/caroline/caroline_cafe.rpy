@@ -296,35 +296,35 @@ label Caroline:
         c "You would need to know how the human mind works for both, but practically psychiatrists would deal with mental illnesses like severe depression, and schizophrenia."
         p "Oh so you're more into mental illnesses then?"
         scene cc-9
-        c "The more severe ones, yes."
-        p "I've heard of this thing called schizophrenia, what is that again?"
+        c "Well, it's what I'm studying right now."
+        p "Something that I know of is called schizophrenia. What exactly is that?"
         scene cc-8
         c "Well, it's the one that people typically think of when you say someone's psychotic."
         p "Psychotic as in crazy?"
-        c "It's a specific kind of crazy. People who are psychotic hear or see things that aren't there."
-        p "Ah, that kind of crazy."
+        c "It's a specific kind of crazy. Technically, people who are psychotic hear or see things that aren't there."
+        p "Ah, that kind."
         scene cc-9
         c "Of course, psychosis is just a symptom. Many things can cause psychosis, just like how many things can cause chest pain."
         p "Such as?"
         scene cc-12 with dissolve
         c "For chest pain?"
-        p "Sure, gimme a few examples."
+        p "Sure."
         scene cc-5 with dissolve
         c "A lot of things can cause chest pain. A heart attack can. A pulmonary embolism, pneumonia, reflux, costochondritis are just some other examples that can all cause chest pain."
         c "Of course, pulling your pectoralis major muscle during your bench-pressing at the gym will also cause chest pain."
-        p "Oh I get it, so many things can cause psychosis too? What's the most common?"
+        p "Oh I see. What's the most common cause of, um, psychosis?"
         scene cc-6
-        c "Well, schizophrenia probably jumps to people's minds the first, but the most common is probably drug-induced. Taking methamphetamine and other illicit drugs can make you crazy."
+        c "Well, schizophrenia probably jumps to people's minds the first, but the most common is probably drug-induced. Taking methamphetamine and other illicit drugs..."
         p "Cannabis is safe though, right?"
         c "Well, it's what a lot of people like to believe, but it's also a common cause for psychotic presentations."
-        p "Wow, everything in moderation, huh?"
+        p "Hmm, that's not what reddit told me. Everything in moderation, huh?"
         scene cc-9
-        c "Definitely!"
+        c "Definitely."
         c "Phew, that was good revision."
-        p "Man, Caroline, you know a lot!"
+        p "Man, Caroline, you know a lot."
         c "Thank you, I spent a long time studying it!"
         p "You've also got a ton of passion for this kind of stuff."
-        p "Tell me about depression next, I know a lot of people have it. What's the deal with it?"
+        p "Teach me more!"
         scene cc-12 with dissolve
         c "That's a large topic, [p], and... one that we might not have time for."
         p "Are you going already?"
@@ -492,6 +492,11 @@ label Caroline:
         p "Well, I do see you there every morning."
         P "What after that?"
         c "Oh I might come back home, I might go to a lecture, or I might go to the library."
+        p "Nice TV! What do you watch?"
+        c "I don't really watch television, but I do play games occassionally."
+        p "You're a gamer?"
+        c "Sometimes, I don't get much time usually though."
+        p "Neat."
         p "Hang on, is that a coffee maker over there?"
         p "Then how come you always go to the cafe?"
         p "Looks like a fairly robust machine too. I'm sure you could pump out some good joe with this."
@@ -559,6 +564,239 @@ label Caroline:
         p "{i}Yawn...{/i} just a quick rest."
         p "What are you gonna do in the meantime?"
         c "More study."
+        "Caroline's really got it together."
+        "Responsible, ambitious... could I ever be like that?"
+        "Man, she's the opposite of Nicole. Of course, everything has its pros and cons, but I could really appreciate this feeling of peace with Caroline."
+        "Zzz..."
+        ## Dreams scene
+        "When I'm with you, I feel like you make me a better person."
+        "You inspire to me to live life to the fullest."
+        "I only hope that I could do a fraction of that for you."
+        ## end
+        p "Urgh... how long was I out for?"
+        c "Welcome back, [p]."
+        p "Whoa, where are your clothes? Am I still dreaming?"
+        c "This is as real as it gets, [p]."
+        c "Sorry if I'm embarassing you. I'm one of those girls that feel more comfortable in just her skin."
+        c "Especially when I'm at home."
+        p "Oh on, I'm not embarassed. I just thought that {i}you{/i} might be?"
+        c "In medical school we get very used to the idea of bodies, and we often practise phsyical exams on each other."
+        c "I guess, I'm pretty used to the idea of people seeing my body."
+        c "I probably would have been more insecure about it before medschool though!"
+        p "You've got nothing to be insecure about."
+        c "Thank you."
+        c "Did you have a sweet dream?"
+        p "Err, dream?"
+        c "You were mumbling stuff in your sleep. It was pretty funny!"
+        p "Ah..ahahha..."
+        p "Nothing too incriminating, I hope."
+        p "It was an okay dream."
+        p "..."
+        p "Did I say anything?"
+        c "It didn't make sense entirely, but I felt like you were dreaming about someone important to you."
+        c "Wanna talk about it?"
+        p "Haha, there's not much to talk about."
+        p "It was good dream, though. It's rare for me to have that kind of dream."
+        c "What do you usually dream about?"
+        p "It's pretty messed up stuff haha."
+        c "Well it sounds like you just got a break. Told you this place has good vibes."
+        p "Maybe you're right. I should come here more often then."
+        c "Taking advantage of my hospitality, [p]?"
+        p "I'll make it worth your while, promise."
+        c "I'll hold you to that."
+        p "How was your study?"
+        c "It was good. I felt productive."
+        p "You're always working so hard. You'll really make it big one day. I wish you every success."
+        c "Oh I'm going to blush."
+        c "Haha!"
+        c "It's just as well. I've got work soon."
+        p "Right, at the bar. Is it that time already?"
+        c "I'll have to change into my uniform. Be right back."
+        ## After change
+        c "Tada~!"
+        p "It's actually skimpier than I thought before, the uniform."
+        c "The back is quite revealing isn't it?"
+        c "Shows off my... well defined and non-wasted back muscles."
+        p "I must say I prefer your previous outfit though."
+        c "Cheeky."
+        p "Alright, time to go."
+        p "Enjoy work, Caroline."
+        p "I don't know if what we had was a date but it was fun."
+        p "Let's do it again."
+        c "I wouldn't mind~"
+        p "Laters."
+        $ carolinelvl += 1
+        call daykeep
+        call daykeep
+        call daykeep
+        jump map
+    label carolinevisit: ## carolinelvl == 5, carolinebarlvl == 3
+        scene ellie_menu
+        "I guess Caroline hasn't arrived yet. I'll grab a coffee and wait for her."
+        ellie "Oh, [p], I've got a message for you."
+        p "A message?"
+        ellie "It's from that girl you always meet, Caroline. She says she won't be coming in today."
+        p "Oh..."
+        ellie "Instead, she asked me to tell you to just go to her apartment."
+        p "Ah! I see. Thanks for the message!"
+        ellie "Sounds exciting [p], good luck!"
+        p "Haha, I have no idea what you're talking about."
+        "Caroline wants to invite me straight to her place!"
+        "Wow, this must mean she trusts me more. Maybe even... to take it to the next level."
+        "Don't get ahead of yourself [p]..."
+        # transition
+        p "{i}Knock knock{/i}"
+        p "Good morning Caroline."
+        p "I believe you summoned me?"
+        c "Hey! I wasn't sure if you'd go to the cafe this morning, so I left the cafe girl a message."
+        p "Let's swap numbers. You can just call me next time instead."
+        c "Coffee?"
+        p "Yes please."
+        c "Okay, just hang tight. I'm curious to see if the one I make today will taste the same as the one before."
+        c "Why don't you put a game on, or something?"
+        c "I'll be done real quick."
+        p "Sure!"
+        stop music fadeout 1
+        scene black with fade
+        "A few moments later..."
+    label AOT:
+        ## Scene change Attack on titan
+        play music "sounds/effects/aot1.mp3"
+        scene aot-1 with hpunch
+        p "V-Vincent?"
+        scene aot-2 with dissolve
+        p "What are you-?"
+        scene aot-3 with vpunch
+        v "[p]!"
+        v "Argh!"
+        scene aot-4 with hpunch
+        p "What's the matter, are you okay?!"
+        scene aot-5 with dissolve
+        v "I-I don't have too much time."
+        v "[p], oh [p]..."
+        p "Vincent!"
+        scene aot-6 with dissolve
+        v "I'm... sorry...."
+        scene aot-4 with hpunch
+        p "Don't say that Vincent, you're going to be alright, you hear me!"
+        scene aot-6 with dissolve
+        v "She's... so much... stronger than we could have thought..."
+        v "Haha- {i}cough{/i}. How could we have known?"
+        v "How, possibly, could we have figured it out?"
+        scene aot-7 with dissolve
+        p "No, no, no!"
+        scene aot-8 with dissolve
+        v "We... don't have much time."
+        scene aot-9 with dissolve
+        $ renpy.pause()
+        scene aot-10 with hpunch
+        v "She's upon us!!"
+        ## Scene to future
+        scene aot-11
+        x "Hidden charge-"
+        scene aot-12 with flash
+        x "Static discord."
+        scene aot-13 with hpunch
+        p "Argh!!"
+        scene aot-14 with dissolve
+        v "[p], you don't have to worry about me anymore."
+        v "Use the power... save yourself."
+        p "But if I use it, you'll-!"
+        scene aot-15 with dissolve
+        v "It's... going to be alright."
+        v "I'll find a way."
+        p "But-!"
+        scene aot-16 with vpunch
+        v "[p]!!!"
+        scene aot-17
+        p "Are you sure about this?!"
+        scene aot-4 with hpunch
+        p "Am I using it here?! For real?!"
+        scene aot-16 with hpunch
+        v "You must! For the sake of humanity! For the sake of those who have fallen before us!"
+        v "This may be mankind's only chance!"
+        p "I-! I understand!"
+        scene aot-18 with dissolve
+        "For most of my life I've been unsure of my true calling. But now..."
+        "Now, I finally believe in myself."
+        scene aot-19 with dissolve
+        p "Take care of yourself Vincent. At this point, I can't guarantee what happens after."
+        scene aot-20 with dissolve
+        v "Mm!"
+        v "(You were always the best of us.)"
+        v "(My friend... I have no regrets.)"
+        p "ARGH!!!"
+        play music "sounds/effects/aot2.mp3"
+        scene aot-21 with hpunch
+        $ renpy.pause(2.0,hard=True)
+        scene aot-22 with dissolve
+        $ renpy.pause(3.5,hard=True)
+        scene aot-29 with dissolve
+        $ renpy.pause(3,hard=True)
+        scene aot-23 with dissolve
+        $ renpy.pause(3,hard=True)
+        scene aot-25 with dissolve
+        $ renpy.pause(1.5,hard=True)
+        scene aot-26 with vpunch
+        $ renpy.pause()
+        scene aot-30 with dissolve
+        $ renpy.pause()
+        scene aot-28 with dissolve
+        $ renpy.pause()
+        stop music fadeout 1
+        c "So? What do you think?"
+        scene black with fade
+        p "I think it's pretty cool how you can customise the characters to your choosing - even the party members and villain."
+        c "Oooh, she's not necessarily the villain but I won't spoil it for you."
+        p "All in all it's a pretty good game."
+        c "Why did you custmise the characters that way, anyway? Do you know them in real life?"
+        p "Yeah, Vincent's a good mate. The girl is just random I met once or twice."
+        c "She seems to have left an impression on you."
+        p "Oh her? Nah, she just has this creepy vibe."
+        p "Thanks for the coffee, by the way."
+        c "My pleasure, [p]."
+        c "Did you like it?"
+        p "Yeah, the coffee was good. Great as always, I'm sure."
+        c "Really? There was no difference?"
+        p "Uh, was there supposed to be a difference?"
+        c "..."
+        p "Oh I remember now! It's even BETTER than it was."
+        p "You must've used different beans! Or something..."
+        c "You'll have to try again later, [p]."
+        p "Ah..."
+        p "I'm not good at this stuff, you know that."
+        c "Practice makes perfect, right?"
+        p "Right."
+        p "By the way, I love how serious you are at the bar."
+        c "You mean my professionalism."
+        p "Not many people can keep their composure around me you know?"
+        c "Haha! Jeez."
+        p "I guess that makes you special."
+        c "Because I can resist your charms?"
+        p "Only for the time being."
+        p "Love, uh, always finds a way."
+        c "That's from Jurassic Park!"
+        p "Jeff Goldblum, I think it was. Great movie too."
+        p "Except I think instead of love, he said life, so I made a little twist on it you see."
+        c "Very original and creative."
+        p "Just like Dante's."
+        p "On that note, don't you have a lot of study to do?"
+        c "Umm, a little."
+        p "What are you learning about now?"
+        c "I'm just doing some revision on cell cycles - basic microbiology."
+        p "Ooft. Sounds complicated. I don't want to hold you up anymore. You need to study, right?"
+        c "Oh, ah, I was planning do some study a little later."
+        p "No, no, I really don't want to get in the way of that."
+        c "I don't need to study straight away, why don't you-?"
+        p "Absence makes the heart grow fonder."
+        c "Always a clever quote. Fine, I'll see you around?"
+        p "See you around!"
+        "Absence {i}does{/i} make the heart grow fonder. I'm regretting leaving so soon already."
+        "Maybe it'll make her warm up to me more tonight at the bar."
+        call daykeep
+        call daykeep
+        $ carolinelvl += 1
+        jump map
     scene cc-2
     p "Good morning Caroline!"
     scene cc-3

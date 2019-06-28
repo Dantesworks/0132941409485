@@ -61,8 +61,6 @@ label drinksmenu:
 
 label nobardrink:
     scene black
-    "Are you fucking retarded?"
     "At least buy a drink before you talk to the lady."
-    "Try again, fool!"
     scene cb-1
     jump barask

@@ -1,7 +1,6 @@
-screen displayTextScreen:
+default displayText = ("")
+screen displayTextScreen():
     zorder 100
-    default displayText = ("")
-
     vbox:
         xalign 0.5
         ypos 50
@@ -27,11 +26,10 @@ label hallway:
             if daytime == 4:
                 idle "hallway2"
                 hover "hallway2_hover"
-
-            hotspot(422,385,119,269) hovered Show("displayTextScreen", displayText = "Living Room") action [Hide("displayTextScreen"), Jump("living_room")] unhovered Hide("displayTextScreen")
-            hotspot(1446, 6, 297, 1051) hovered Show("displayTextScreen", displayText = "Kaira's Bedroom") action [Hide("displayTextScreen"), Jump("kaira_room")] unhovered Hide("displayTextScreen")
-            hotspot(869, 378, 34, 283) hovered Show("displayTextScreen", displayText = "Amanda's Bedroom") action [Hide("displayTextScreen"), Jump("amanda_room")] unhovered Hide("displayTextScreen")
-            hotspot(987, 270, 77, 504) hovered Show("displayTextScreen", displayText = "My Bedroom") action [Hide("displayTextScreen"), Jump("player_room")] unhovered Hide("displayTextScreen")
+            hotspot(422,385,119,269) hovered [SetVariable("displayText", "Living Room"), Show("displayTextScreen")] action [Hide("displayTextScreen"), Jump("living_room")] unhovered Hide("displayTextScreen")
+            hotspot(1446, 6, 297, 1051) hovered [SetVariable("displayText", "Kaira's Bedroom"), Show("displayTextScreen")] action [Hide("displayTextScreen"), Jump("kaira_room")] unhovered Hide("displayTextScreen")
+            hotspot(869, 378, 34, 283) hovered [SetVariable("displayText", "Amanda's Bedroom"), Show("displayTextScreen")] action [Hide("displayTextScreen"), Jump("amanda_room")] unhovered Hide("displayTextScreen")
+            hotspot(987, 270, 77, 504) hovered [SetVariable("displayText", "My Bedroom"), Show("displayTextScreen")] action [Hide("displayTextScreen"), Jump("player_room")] unhovered Hide("displayTextScreen")
 
 label living_room:
     show screen map_icon
@@ -45,8 +43,8 @@ label living_room:
             if daytime == 4:
                 idle "living_room2"
                 hover "living_room2_hover"
-            hotspot(3,14,214,691) action [Hide("displayTextScreen"), Jump("hallway")] hovered Show("displayTextScreen", displayText = "Hallway") unhovered Hide("displayTextScreen")
-            hotspot(1259,29,206,435) action [Hide("displayTextScreen"), Jump("kitchen")] hovered Show("displayTextScreen", displayText = "Kitchen") unhovered Hide("displayTextScreen")
+            hotspot(3,14,214,691) hovered [SetVariable("displayText", "Hallway"), Show("displayTextScreen")] action [Hide("displayTextScreen"), Jump("hallway")] unhovered Hide("displayTextScreen")
+            hotspot(1259,29,206,435) hovered [SetVariable("displayText", "Kitchen"), Show("displayTextScreen")] action [Hide("displayTextScreen"), Jump("kitchen")] unhovered Hide("displayTextScreen")
         if nicoledelay <= day and (daytimes in nicoleshow):
             imagebutton:
                 focus_mask True
@@ -99,7 +97,7 @@ label kaira_room:
                 focus_mask True
                 idle "kaira_sitting_idle.png"
                 hover "kaira_sitting_hover.png"
-                hovered Show("displayTextScreen", displayText = "Kaira") action [Hide("displayTextScreen"), Jump("Kaira")] unhovered Hide("displayTextScreen")
+                action Jump("Kaira")
         imagebutton: ## back
             focus_mask True
             idle "back.png"
@@ -122,13 +120,12 @@ label amanda_room:
                     focus_mask True
                     idle "amanda_sleep.png"
                     hover "amanda_sleep_hover.png"
-                    hovered Show("displayTextScreen", displayText = "Amanda") action [Hide("displayTextScreen"), Jump("amanda_sleep")] unhovered Hide("displayTextScreen")
             if daytimes in amandashow:
                 imagebutton:
                     focus_mask True
                     idle "amanda_standing_idle.png"
                     hover "amanda_standing_hover.png"
-                    hovered Show("displayTextScreen", displayText = "Amanda") action [Hide("displayTextScreen"), Jump("Amanda")] unhovered Hide("displayTextScreen")
+                    action Jump("Amanda")
             imagebutton:
                 focus_mask True
                 idle "back.png"
@@ -153,20 +150,20 @@ label player_room:
             if daytime == 4:
                 idle "player_room2"
                 hover "player_room2_hover"
-            hotspot(614, 212, 180, 522) action [Hide("displayTextScreen"), Jump("hallway")] hovered Show("displayTextScreen", displayText = "Hallway") unhovered Hide("displayTextScreen") #hallway
-            hotspot(1461, 695, 456, 242) action [Hide("displayTextScreen"), Jump("sleep")] hovered Show("displayTextScreen", displayText = "Bed") unhovered Hide("displayTextScreen") #bed
+            hotspot(614, 212, 180, 522) action [Hide("displayTextScreen"), Jump("hallway")] hovered [SetVariable("displayText", "Hallway"), Show("displayTextScreen")] unhovered Hide("displayTextScreen") #hallway
+            hotspot(1461, 695, 456, 242) action [Hide("displayTextScreen"), Jump("sleep")] hovered [SetVariable("displayText", "Bed"), Show("displayTextScreen")] unhovered Hide("displayTextScreen") #bed
 
         imagebutton:
             if daytime != 4:
                 focus_mask True
                 idle "laptop.png"
                 hover "laptop_hover.png"
-                hovered Show("displayTextScreen", displayText = "Computer") action [Hide("displayTextScreen"), Jump("computer")] unhovered Hide("displayTextScreen") # computer
+                hovered [SetVariable("displayText", "Computer"), Show("displayTextScreen")] action [Hide("displayTextScreen"), Jump("computer")] unhovered Hide("displayTextScreen") # computer
             else:
                 focus_mask True
                 idle "laptop2.png"
                 hover "laptop2_hover.png"
-                hovered Show("displayTextScreen", displayText = "Computer") action [Hide("displayTextScreen"), Jump("computer")] unhovered Hide("displayTextScreen") # computer
+                hovered [SetVariable("displayText", "Computer"), Show("displayTextScreen")] action [Hide("displayTextScreen"), Jump("computer")] unhovered Hide("displayTextScreen") # computer
 
 ## Room Permission Labels
 

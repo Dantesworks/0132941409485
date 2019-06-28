@@ -13,7 +13,7 @@ label cafe:
             idle "elliecafe.png"
             hover "elliecafe_hover.png"
             action Jump("ellie_menu")
-        if daytimes in carolineshow:
+        if daytimes in carolineshow and carolinelvl != 5 and carolinebarlvl != 3:
             imagebutton: ## caroline
                 focus_mask True
                 idle "carolinecafe.png"
@@ -23,6 +23,8 @@ label cafe:
                 else:
                     action Jump("nodrink")
 label ellie_menu:
+    if carolinelvl == 5 and carolinebarlvl == 3:
+        jump carolineVisit
     scene ellie_menu
     ellie "Good morning sir! What would you like to drink today?"
     menu:
@@ -63,7 +65,4 @@ label nodrink:
     call hidescreens from _call_hidescreens_13
     scene black
     "Don't tell me you're actually going to sit down with her without a drink in hand."
-    "What are you, some kind of freeloader?"
-    "What are you, a motherfucker?"
-    "Try again, fool."
     jump cafe

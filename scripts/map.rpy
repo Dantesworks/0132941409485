@@ -71,7 +71,21 @@ label map:
                     action Jump("uni")
                 else:
                     action Show("uniclosed")
+        if amandalvl > 10:
+            imagebutton: #studio
+                focus_mask True
+                idle "map_studios.png"
+                hover "map_studios_hover.png"
+                if daytime == 1:
+                    action Jump("studio_lobby")
+                else:
+                    action Show("studioclosed")
 
+screen studioclosed():
+    add "studioclosed.png"
+    imagebutton:
+        idle "close.png"
+        action Hide("studioclosed")
 screen cafeclosed():
     add "cafeclosed.png"
     imagebutton:

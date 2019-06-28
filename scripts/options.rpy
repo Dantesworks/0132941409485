@@ -193,6 +193,7 @@ init python:
     build.archive("drink", "all")
     build.archive("creative", "all")
     build.archive("drinks", "all")
+    build.archive("danteworks", "all")
 
     # Put script files into the scripts archive.
     build.classify("game/**.rpy", "original")
@@ -201,6 +202,7 @@ init python:
     # Put images into the images archive.
     build.classify("game/**.jpg", "dante")
     build.classify("game/**.png", "dante")
+    build.classify("game/**.webp", "danteworks")
     # animation
     build.classify("game/**.mp4", "drinks")
 

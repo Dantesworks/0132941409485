@@ -22,6 +22,8 @@ define s2 = Character("Woman #2")
 define o = Character("Olivia")
 define ver = Character("Veronica")
 define saf = Character("Saffron")
+define ny = Character("Nyx")
+define ma = Character("Maya")
 
 define w = Character("Widowmaker")
 # The game starts here.
@@ -55,7 +57,8 @@ label splashscreen:
     scene splash2
     with Dissolve(1)
 
-    $ renpy.pause(2.0,hard=False)
+    $ renpy.pause(2.0,hard=True)
+    $ renpy.pause()
 
     scene black
     with Dissolve(1)
@@ -63,7 +66,14 @@ label splashscreen:
     return
 
 label start:
-    $ depravity = 0
+    default depravity = 0
+    stop music fadeout 1
+    "It's the feeling of deja vu. I feel - no, I know I've been here before."
+    "All of this feels too... familiar."
+    ## All endings are also beginnings. Where one chapter ends, another begins.
+    scene quote with dissolve
+    $ renpy.pause(2.0, hard = True)
+    $ renpy.pause()
     play music "sounds/path.mp3" fadeout 1
 
     scene 1_v_shocked
@@ -80,18 +90,20 @@ label start:
     #Story start Chapter 1
     scene 1_v_serious with dissolve
     x "Hey [p], why are you upset? What's the matter?"
-    p "I'm sorry, I must look like such a mess right now. A lot of bad things are happening in my life and I don't know how to handle it."
-    x "Happens to all of us buddy, happens to all of us. You don't have to, but would you like to tell me about it?"
-    p "... I've made a lot of dumb choices, and... and I've lost a looot of money."
+    p "I'm sorry, I must look like such a mess right now."
+    p "A lot of bad things are happening in my life and I can't... handle it."
+    x "Happens to all of us buddy, happens to all of us. You don't have to, but would you like to talk about it?"
+    p "... I've made a lot of bad choices, and... and I've lost a lot of money."
     scene 1_v_shocked with dissolve
-    x "What happened?" with dissolve
+    x "What happened man?" with dissolve
     scene 1_v_serious with dissolve
     p "... remember when bitcoin was booming? I put a LOT of money in at the top, I thought it'd keep going up! And now, I've lost everything! Fucking bogs took everything from me!"
     scene 1_v_shocked with dissolve
-    x "That's awful! How has it affected your life?"
-    p "I can't pay rent, I can't pay my tuition fees, I've got nothing left! I moved away from home just to study, and now I can't even stay here anymore!"
+    x "That's awful!"
+    p "I can't pay rent, I can't pay my tuition fees, I've got nothing left!"
+    p "I moved away from home just to study, I thought be independent, and now I can't even stay here anymore!"
     x "You mentioned home, what about your family? Can anyone help you out?"
-
+    p "F-family?"
     $ mr = renpy.input("The older woman you live at home with is your ???. (Default = landlord)")
     $ mr = mr.strip()
     $ mr = mr.lower()
@@ -109,12 +121,12 @@ label start:
     x "I'm sorry to hear that."
     p "That's okay, I don't remember much about him anymore."
     x "What about your [mr] and [sr]?"
-    p "I moved out years ago... It's been a while, but we're on good terms."
+    p "I moved out years ago... It's been a while."
     scene 1_v_determined with dissolve
     x "I don't know a lot about you buddy, but I know that it's important to have a strong support system to get you back onto your feet. When you lose everything, family is what you need."
-    p "...sigh..."
-    p "Maybe you're right... It might be time to swallow my pride and go back home."
-    p "Thank you so much for coming and saying hi... if you hadn't... I have no idea what I would've done. How can I thank you, what's your name?"
+    p "..."
+    p "Maybe you're right, ha... It might be time to swallow my pride and go back home."
+    p "Thank you so much for consoling me and saying hi. if you hadn't... I have no idea what I would've done. How can I thank you, what's your name?"
     x "Oh don't worry about it buddy! I just like being helpful! Doing my good deed of the day, that sort of thing."
     scene 1_v_shit with hpunch
     x "Gosh! I have to get going now, or I'll be late! Goodbye and take care!"
@@ -122,14 +134,14 @@ label start:
     p "..."
     p "Bye!... oh he's already gone."
     "I guess he's right though... it might be a little strange going home without having finished my degree yet, but I need to know when I can't manage."
-    "[mr], [sr]... I guess I'll be back sooner than expected."
+    "Heh... [mr], [sr]... I guess I'll be back sooner than expected."
 
 
 ##Coming home
     play music "sounds/heart.mp3" fadeout 1
     scene 1_entrance1
     with Dissolve(2)
-    "The plane ride was hell, and I'm sooo tired, but I think I'm finally here. Back home. These familiar streets remind me of the old times when I didn't have anything to worry about."
+    "The plane ride was hell, and I'm so tired, but I think I'm finally here. Back home. These familiar streets remind me of the old times when I didn't have anything to worry about."
     "I wonder if [mr] or Kaira have changed. Back in school the boys would always talk about how hot [mr] was. It's so wrong but I'd probably have to agree. It's a pity she hasn't been able to find somebody since dad passed away."
     "Kaira was just a kid when I left, but she's now in her final few years of school. I guess she's would be almost grown up now, wouldn't she?"
     scene 1_entrance2
@@ -155,7 +167,7 @@ label start:
 
     scene 2_int3
     m "Oh.. wow you-you've grown so much!"
-    p "And you haven't changed at all [mr]!"
+    p "And you haven't changed at all [mr]."
 
     scene 2_int4
     m "You've got a silver tongue [p]!"
@@ -176,6 +188,8 @@ label start:
     pause 1
 
     scene 2_int8
+    m "Remember, [p], we'll always be here for you."
+    p "Haha, I know."
     m "You must be starving [p]! Let me go cook something for you!"
     m "Go say hi to your [sr] in the meantime. She's probably locked up in her room and didn't even hear you come in!"
     p "Sure thing, I'll be looking forward to that meal!"
@@ -241,7 +255,7 @@ label start:
 
     scene 2_int19
     p "Whoa take it easy!"
-    s "[p], [p], [p]! You're finally here! Oooh I'm so sorry for shouting at you, I thought you were [mr]!"
+    s "[p], [p], [p]! You're finally here! Oooh I'm so sorry for shouting at you, I thought you were [mr] coming in and then I saw you and then-"
     p "There, there, take it easy. It's all good!"
     p "I'm happy to see you too."
     s "Sorry I couldn't greet you when you arrived. I was busy with... stuff."
@@ -308,7 +322,7 @@ label start:
     m "I get worried sometimes though. She hasn't experienced something like this before."
     m "When I had my spurt, I faced many struggles that I didn't expect."
     m "You'll be there to help her through it, won't you [p]?"
-    "What is [mr] suggesting I do to help Kaira???"
+    "What is [mr] suggesting I do to help Kaira?"
     "I've got no clue..."
     p "I'm not sure exactly what-"
     s "Ahoy!"

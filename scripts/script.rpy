@@ -2,10 +2,10 @@ label base:
     scene future with flash
     play music "sounds/cyberpunk.mp3" fadeout 1
     x "Hello [p]."
-    x "I'm here because choices have consequences."
-    x "What you do or say reveals who you are."
-    x "It's now time to take a look at the choices you've made."
-    x "Did you knock on Kaira's door, or did you just walk in?"
+    x "There's not much to know about me, but I'm here because choices have consequences."
+    x "What you do or say reveals to me your inner depravity."
+    x "I'll be watching the choices you make."
+    x "Now tell me, did you knock on Kaira's door, or did you just walk in?"
     menu:
         "I knocked":
             $ depravity = 0
@@ -41,6 +41,7 @@ label base:
     x "But the consequences always follow."
     x "Your destiny is in your hands."
     p "Wait! You haven't answered my question yet!"
+    p "If you're already watching, why do you have to ask me these questions?"
     x "Fear not, human, for we will meet again."
     x "Until then, know that we will be watching with great interest."
     scene black with fade
