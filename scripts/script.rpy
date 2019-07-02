@@ -2,7 +2,7 @@ label base:
     scene future with flash
     play music "sounds/cyberpunk.mp3" fadeout 1
     x "Hello [p]."
-    x "There's not much to know about me, but I'm here because choices have consequences."
+    x "I'm here because choices have consequences."
     x "What you do or say reveals to me your inner depravity."
     x "I'll be watching the choices you make."
     x "Now tell me, did you knock on Kaira's door, or did you just walk in?"

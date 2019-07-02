@@ -343,136 +343,215 @@ label Caroline:
         call daykeep from _call_daykeep_17
         jump map
     if carolinelvl == 4:
+        scene black
+        scene cc-2 with fade
         p "Good morning Caroline."
+        scene cc-3 with dissolve
         c "Hello, [p]. Will you be following up with your promise today?"
         p "Promise?"
         c "You remember the promise?"
         c "I freed up my schedule for this, you know. Where are we going?"
         p "Ah you were talking about that."
+        scene cc-4 with dissolve
         p "You're in such a rush! Let's have some a drink first."
         "Oh shit, I haven't thought of a place to go yet!"
+        scene cc-5 with dissolve
         c "Oh, we are definitely having a coffee first, but I'm curious about your grand plans!"
         p "Grand? Ahahahah..."
         p "Really, really, you're putting the pressure on me!"
+        scene cc-6 with dissolve
         c "No pressure."
         p "It's a suprise, Caroline."
+        scene cc-9 with dissolve
         c "Ooh, I don't know how I feel about surprises."
         p "Take a guess."
+        scene cc-13 with dissolve
         c "Hmmm... how about a clue?"
         p "Uh, it's a cool place that you probably want to go to very much."
         c "A cool place, that I want to go to..."
+        scene cc-12 with dissolve
         c "Are we going to the music theatre?!"
+        scene cc-14 with dissolve
         p "Bingo! That's exactly where I'm taking you! Ahaha...ahahha..."
         "Well played, [p], well played. This trick always works."
         "But damn, what the hell am I going to do at the music theatre?"
-        C "Are we watching a musical, listening to a concert?"
+        c "Are we watching a musical, listening to a concert?"
         p "Um..."
         "Ah, shit."
         p "It's uh, a surprise."
+        scene cc-9 with dissolve
         c "I love music. It's nice to know that you also appreciate that sort of thing."
         c "How did you come across the music theatre?"
         p "I went once or twice back when I was in high school."
         p "Never really to watch any shows - I'd go to one of the side rooms and have fun with some of the instruments."
+        scene cc-5 with dissolve
         c "Do you play anything?"
         p "Not anything well, haha. But yeah, I like to just make some noise sometimes."
+        scene cc-6 with dissolve
         c "It's like a release, I know what you mean."
         p "Do you play anything?"
+        scene cc-4 with dissolve
         c "I've been playing the piano since I was a child, so I suppose I can play that quite well."
         c "I've also tried playing the violin, but that wasn't as fun."
         p "That's amazing. You didn't like the violin?"
+        scene cc-12 with dissolve
         c "Getting started with the violin is always hard. A lot about sounding good is about how you draw the bow across the strings."
         c "With piano, there's not much skill - you just hit the note."
         c "With the violin, I was sounding really horrible, so I just thought I'd maybe revisit it another day."
+        scene cc-13 with dissolve
         c "And you know what? That day never came."
         p "I reckon being good at the piano is awesome enough."
+        scene cc-8 with dissolve
         c "Thank you, [p]. So, what have you been up to recently?"
         p "Just finding my feet. Making friends. Talking to... cool people like you!"
         c "Aww, aren't you nice."
+        scene cc-6 with dissolve
         c "You know, I've been thinking. We're chatting quite pleasantly right now, and I like your company."
         c "But, what inspired you to come over in the first place?"
         p "I met you at the bar, remember? I always like saying hi to a familiar face."
         c "Oh that's right."
         p "You didn't remember? You even told me that you like to keep things professional at work, haha."
+        scene cc-13 with dissolve
         c "Oh, I tell a lot of people that, [p]. It's hard to keep track sometimes."
         p "Very good. A very popular lady."
+        scene cc-14 with dissolve
         c "No, I'm not!"
         p "You get hit on at the bar, no?"
+        scene cc-6 with dissolve
         c "By drunk guys. They'll hit on anybody."
         p "Ever get hit on by girls?"
+        scene cc-8 with dissolve
         c "Of course, but they're drunk too!"
         p "You ever get to have any fun, you know, enjoy yourself?"
+        scene cc-12 with dissolve
         c "I'm a professional, [p]! I wasn't interested."
+        scene cc-4 with dissolve
         p "You know, {i}I{/i} wasn't drunk when I said hi to you."
         p "Just something to keep in mind, you know, just saying."
+        scene cc-9 with dissolve
         c "Haha, what's your point?"
         p "I'm a sincere guy, a real professional too."
         p "Someone with uh, integrity."
+        scene cc-8 with dissolve
         c "Good character traits to have."
         p "I'm happy you think so too!"
         ## Time passes
+        scene black with fade
+        scene cc-5 with dissolve
         c "Are you ready to head off?"
         p "Let's go."
-        "Ah shit, I haven't actually got anything prepared."
-        "I'll just have to wing it."
+        "Oh no, I haven't actually got anything prepared."
+        "Damn, it looks like I'll just have to wing it."
         ## Time passes
+        scene black with fade
+        "A few moments later..."
         c "This is interesting, [p], we've left the theatre."
         c "Are we not watching a show?"
         p "We're going to one of the side rooms - surprise! Hahaha..."
+        scene cc-19 with fade
         c "What a twist!"
+        scene cc-18 with dissolve
         p "I was thinking, why watch a show, listen to music, when we can make our own?"
+        scene cc-19 with dissolve
         p "I came here a bit when I was in high school and this was always a calm place where I could get away from it all."
         c "You come here by yourself?"
         p "Those who don't enjoy solitude cannot enjoy freedom."
-        c "A wordsmith too, [p]?"
+        scene cc-21 with dissolve
+        c "Didn't know you were a poet too, [p]."
+        scene cc-18 with dissolve
         p "It's not my quote. My old math teacher used to write a quote on the whiteboard everyday, and this one resonated with me."
+        scene cc-20 with dissolve
         c "Well this time, you're not alone."
         c "Are you going to play something?"
+        scene cc-26 with dissolve
         p "I was never any good, and besides, it's been a while anyway."
         p "Maybe you could grace this place with some music?"
+        scene cc-22 with dissolve
         c "I haven't played in a long time either!"
+        scene cc-23 with dissolve
         c "But, let's see if I can improvise something."
-        c "Just letting you know, I'm making this up on the spot okay!"
+        scene cc-24 with dissolve
+        p "Improv? That takes some skill, doesn't it?"
+        scene cc-25 with dissolve
+        p "I'm pretty much stuck on trying to read whatever's on the music sheet."
+        c "Oh, anyone can improv! Improv that sounds nice is the challenge..."
+        scene cc-26 with dissolve
+        p "I guess, but for the sake of prosperity, maybe I'll stay away from the improv myself."
+        scene cc-27 with dissolve
+        c "Just letting you know, don't expect too much, okay!"
+        scene cc-28 with dissolve
+        "Caroline gracefully stretched across the piano seat with a sense of familiarity and ease."
+        "I could tell at this point, that this was a woman of class, confidence and elegance."
+        "Yet above all, she exuded beauty in spite of her conservative manner of dress."
+        "I... guess I'm starstruck."
+        scene cc-27 with dissolve
         p "I can't stand the anticipation."
         c "Oh, stop. Anyway!"
         c "Here goes."
         ## play music
-        p "Wow, good job. Really suits the atmosphere in this place."
+        scene cc-29 with fade
+        "Um, let's see..."
+        play music "sounds/caroline.mp3"
+        "♫"
+        scene cc-29
+        $ renpy.pause(24.0,hard=True)
+        stop music
+        scene cc-26 with dissolve
+        "How honest, and vulnerable at the same time. Is this you, Caroline?"
+        p "Wow, that was beautiful. Really suits the atmosphere in this place."
+        p "That was comfy."
+        scene cc-30 with dissolve
         c "Thanks. I ended the tune with a funny chord. I think it made it sound more wistful."
         p "Are you going to make that into a full song at any stage?"
+        scene cc-31 with dissolve
         c "Ooh, I might. But that's one of the great things about sitting down at the piano and playing what comes to mind."
         c "You get these short pieces and ideas, some you won't remember but if it's good enough, you'll write it down."
         p "This one has potential."
+        scene cc-32 with dissolve
         p "I can imagine sitting in another room, next to the fireplace in the middle of a rainy day."
+        scene black with fade
         p "The music floating through the hallway..."
+        scene cc-33 with fade
         c "And with a mug of coffee in hand?"
         p "That's my idea of a good time."
         menu:
             "A good looking girl next to me wouldn't hurt.":
                 $ depravity += 1
+                scene cc-34 with dissolve
                 c "That's great to know, [p]."
             "Having someone else to share it with wouldn't hurt.":
+                scene cc-34 with dissolve
                 c "And would that somebody be me?"
                 p "It could be. I don't discriminate."
+                scene cc-35 with dissolve
                 c "Ha!"
+        scene cc-37 with dissolve
         c "So how are you rating this date?"
         p "It's not bad. It's just the start."
         p "What do you reckon?"
+        scene cc-36 with dissolve
         c "I think it's very original and creative."
         p "Like Dante's original."
+        scene cc-39 with dissolve
         c "You do love that drink very much, don't you? I should get you a week's supply for your birthday!"
+        scene cc-38 with dissolve
         c "But as I was saying, this was an original date, [p], and that's endearing."
         p "If this is endearing, you'll love part two."
         c "You've done this much already, let me handle our next destination."
+        scene cc-32 with dissolve
         p "Taking charge!"
+        scene cc-40 with dissolve
         c "I want to share my studio apartment with you - it's a slice of heaven."
         c "And a good place for me to teach you more about coffee!"
         p "Oh, what's so special about this apartment?"
+        scene cc-41 with dissolve
         c "It's... ambient. I think you'll enjoy the aesthetic."
         p "You're setting high expectations."
         c "Oh, its not fancy, that's not what it's about. It's just a nice place, like this one you know?"
         c "You feel wholesome."
         p "Like nothing can go wrong."
         p "If those are the vibes, than give me more."
+        scene cc-42 with dissolve
         c "That's what I'm saying! So come on, let's go!"
         ## transition
         c "Welcome to my abode."
@@ -659,7 +738,6 @@ label Caroline:
         stop music fadeout 1
         scene black with fade
         "A few moments later..."
-    label AOT:
         ## Scene change Attack on titan
         play music "sounds/effects/aot1.mp3"
         scene aot-1 with hpunch
@@ -753,6 +831,10 @@ label Caroline:
         p "Yeah, Vincent's a good mate. The girl is just random I met once or twice."
         c "She seems to have left an impression on you."
         p "Oh her? Nah, she just has this creepy vibe."
+        c "Is it strange, playing yourself and your friends in a game?"
+        p "Hmm, it is. I mean, to them it's like everything happening in the game is real."
+        p "What if {i}we{/i} were actually in a game? How freaky would that be!"
+        c "It's interesting to think about."
         p "Thanks for the coffee, by the way."
         c "My pleasure, [p]."
         c "Did you like it?"
@@ -767,7 +849,7 @@ label Caroline:
         p "I'm not good at this stuff, you know that."
         c "Practice makes perfect, right?"
         p "Right."
-        p "By the way, I love how serious you are at the bar."
+        p "By the way, can I just say, I love how serious you are at the bar."
         c "You mean my professionalism."
         p "Not many people can keep their composure around me you know?"
         c "Haha! Jeez."
@@ -797,6 +879,75 @@ label Caroline:
         call daykeep
         $ carolinelvl += 1
         jump map
+    if carolinelvl == 6 and carolinebarlvl == 5:
+        p "Hey, Caroline."
+        p "What's going on?"
+        p "How's my favourite person doing?"
+        c "Good morning [p]. I'm glad to see you're so cheery."
+        c "..."
+        p "What's going on? Did I do something?"
+        c "[p]... There's something I want to talk to you about."
+        p "..."
+        p "What's up?"
+        c "I've had a lot of fun with you, [p], but I've been thinking really hard."
+        "Oh no."
+        c "It's this relationship stuff - I just don't know if I can commit this time."
+        c "My studies are really important to me."
+        p "Are you... is this serious?"
+        c "I'm sorry, [p] but I don't want you to think that I had sex with you just to take advantage of you!"
+        c "At the time... I really wanted to."
+        c "It's just... the timing of it all."
+        p "Huh."
+        c "I hope you're not taking it the wrong way..."
+        menu:
+            "You just love to keep stringing me along, don't you?":
+                $ depravity += 1
+                p "You love flirting so close to the line, then pulling away."
+                p "What is the matter with you?"
+                c "No! [p]! That's not what it's like!"
+            "It can't be helped.":
+                p "Is... this what you really want?"
+        c "I really wanted it to work, and I gave it a good go."
+        p "I thought you liked me. I liked you."
+        c "I like you too, [p]. I really liked the time we-"
+        p "Then why are you doing this? It was working so well!"
+        p "This is just... so out of the blue."
+        c "[p], please! I... can't commit enough time to make it work out."
+        c "I'm just at this stage in my life where a lot of things are on the line."
+        c "I told you as soon as I could, I promise!"
+        p "We can work through it, set expectations."
+        c "It's nothing you did wrong, [p]. There is just a lot on my plate."
+        p "A lot on your... plate."
+        c "..."
+        p "It wasn't so long ago that I also had a lot on my plate. I think I get it."
+        p "You just want a break from it all and recollect yourself."
+        c "It's just all the trips and exams coming up, I'm losing myself."
+        p "...I can understand that."
+        p "I was like that too, and someone listened to me, and heard me out."
+        p "If it's for the best, it's for the best."
+        c "I'm going on my trip soon. It's the right time now anyway. I tried to do it as soon as I could."
+        p "Mm. I guess I'll see you when you're back."
+        c "Well, until then, I still want to be your good friend."
+        p "A friend, huh?"
+        c "You know what I mean, [p]."
+        p "We'll be good friends. Take care, Caroline."
+        c "[p]..."
+        ## Autumn Scene
+        x "What happened?"
+        p "The worst outcome. Got dumped."
+        x "What did you do wrong?"
+        p "I don't think I did anything wrong, but everything went to shit anyway."
+        p "Wh-What is this?"
+        p "IF YOU FUCKING SAY THAT AGAIN, ILL STRANGLE YOU BITCH!"
+        c "No! [p]! I'm sorry! I said I'm sorry!"
+        p "This isn't me, I didn't do this! This... isn't me!"
+        p "YOU just think you're so much better than me, don't you?"
+        p "Looking at me like, I'm some kind of FUCKED up, DEPRAVED-"
+        x "It's happened before, perhaps in the past, or in the future, or somewhere else entirely."
+        x "But it's happened."
+        p "..."
+        x "All things considered, your outcome isn't the worst, is it?"
+        x "Continue on, [p]. You have much yet to learn about depravity."
     scene cc-2
     p "Good morning Caroline!"
     scene cc-3

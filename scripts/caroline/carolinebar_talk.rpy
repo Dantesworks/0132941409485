@@ -159,7 +159,7 @@ label bartalk:
         c "You too!"
         p "No but, really, you've got a great pussy."
         c "And your penis was the perfect size. Really filled me out, I think."
-        c "I might have gone a {i}little{/i} too hard.,, ouch."
+        c "I might have gone a {i}little{/i} too hard... ouch."
         p "Man, Caroline, I'm still surprised you go this in you."
         c "Didn't you say it already? Still waters run deep."
         p "Clean on the streets."
@@ -178,9 +178,20 @@ label bartalk:
         c "Coffee, [p]?"
         p "It would be a pleasure."
         call daykeep
-        $ carolinelvl +=1
+        $ carolinebarlvl +=1
         jump map
-
+    if carolinelvl == 6 and carolinelvl == 4:
+        p "How's it going Caroline!"
+        c "Hi, [p]. After the other day, sorry, but I'm just going to concentrate on my work for a bit."
+        p "Aww."
+        p "That's alright. I'll see you around."
+        c "Thanks for understanding."
+        "Hmm, I thought she would be warming up to me overtime, surely."
+        "Maybe she just needs some distance?"
+        "Yes, that's probably the type of girl she is."
+        "I'll go have a coffee with her again tomorrow, and see what's up."
+        $ carolinebarlvl += 1
+        jump barask
     ## Generic
     scene cb-5
     p "Good to see you Caroline!"

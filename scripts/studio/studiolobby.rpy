@@ -76,6 +76,18 @@ label studio_lobby: # Vincent
         p "In that case, I'll leave you to work."
         m "It's for the best. I love you [p]."
         p "Love ya, [mr]."
+        # Transition
+        v "Enjoy the tour, [p]?"
+        p "Great place you got here."
+        p "Not a bad place to work in. Is there anyway I can help?"
+        v "Help? Hmm..."
+        v "Well there's always photoshoots you can look at doing."
+        v "You any good?"
+        p "It's a skill I'm building up over time. I mean, you saw the shots of [mr] right?"
+        v "Oh, that's right. So there is some talent there, aye?"
+        v "Get back to me in a bit, I'll see what I can do for you."
+        $ studio_intro = True
+        jump studio_lobby
     call screen studio
     screen studio():
         add "studio"
@@ -83,4 +95,4 @@ label studio_lobby: # Vincent
                 focus_mask True
                 idle "vincent.png"
                 hover "vincent_hover.png"
-                action Jump("map")
+                action Jump("vincent_studio")
