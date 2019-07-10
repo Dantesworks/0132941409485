@@ -24,6 +24,7 @@ define ver = Character("Veronica")
 define saf = Character("Saffron")
 define ny = Character("Nyx")
 define ma = Character("Maya")
+define b = Character("Belle")
 
 define w = Character("Widowmaker")
 # The game starts here.

@@ -440,18 +440,27 @@ label Caroline:
         scene cc-5 with dissolve
         c "Are you ready to head off?"
         p "Let's go."
+        scene cc-17 with dissolve
         "Oh no, I haven't actually got anything prepared."
         "Damn, it looks like I'll just have to wing it."
         ## Time passes
+        stop music fadeout 1
         scene black with fade
         "A few moments later..."
         c "This is interesting, [p], we've left the theatre."
         c "Are we not watching a show?"
         p "We're going to one of the side rooms - surprise! Hahaha..."
-        scene cc-19 with fade
+        play music "sounds/yu.mp3" fadeout 1
+        scene cc-43 with fade
         c "What a twist!"
         scene cc-18 with dissolve
         p "I was thinking, why watch a show, listen to music, when we can make our own?"
+        scene cc-44 with dissolve
+        c "Wow, it's almost like a library in here!"
+        p "Aha, of course you would love the books."
+        scene cc-45 with dissolve
+        p "But I think the main character here is the grand piano in the middle."
+        c "It's hard to miss it, for sure."
         scene cc-19 with dissolve
         p "I came here a bit when I was in high school and this was always a calm place where I could get away from it all."
         c "You come here by yourself?"
@@ -491,12 +500,11 @@ label Caroline:
         ## play music
         scene cc-29 with fade
         "Um, let's see..."
-        play music "sounds/caroline.mp3"
+        play music "sounds/caroline.mp3" fadeout 1
         "♫"
         scene cc-29
         $ renpy.pause(24.0,hard=True)
         stop music
-        scene cc-26 with dissolve
         "How honest, and vulnerable at the same time. Is this you, Caroline?"
         p "Wow, that was beautiful. Really suits the atmosphere in this place."
         p "That was comfy."
@@ -511,6 +519,7 @@ label Caroline:
         p "I can imagine sitting in another room, next to the fireplace in the middle of a rainy day."
         scene black with fade
         p "The music floating through the hallway..."
+        play music "sounds/caroline.mp3"
         scene cc-33 with fade
         c "And with a mug of coffee in hand?"
         p "That's my idea of a good time."
@@ -553,51 +562,106 @@ label Caroline:
         p "If those are the vibes, than give me more."
         scene cc-42 with dissolve
         c "That's what I'm saying! So come on, let's go!"
+        stop music fadeout 1
+        scene black with fade
+        "Does she like me?"
+        "I think I felt a skip in my heart beat."
+        "Is this what its like? To feel strongly attracted to someone?"
         ## transition
+        play music "sounds/something.mp3" fadeout 1
+        scene cc-46 with fade
         c "Welcome to my abode."
-        p "Nice! There are industrial flavours, its very much modern."
+        p "Wow, nice place!"
+        scene cc-47 with dissolve
+        c "Take a look around!"
+        p "I would love to."
+        scene cc-48 with dissolve
+        $ renpy.pause()
+        "This is really spacious."
+        scene cc-49 with dissolve
+        $ renpy.pause()
+        "There are industrial flavours, its very much modern."
+        scene cc-50 with dissolve
+        $ renpy.pause()
+        "Mhmm. Even the tubes on the ceiling. I wonder if this place was ever like a warehouse or something that was repurposed."
+        scene cc-51 with dissolve
+        $ renpy.pause()
+        "Very modern decorations. Flat colours."
+        scene cc-52 with dissolve
+        $ renpy.pause()
+        "All in all..."
+        scene cc-53 with dissolve
+        $ renpy.pause()
+        "Not shabby at all!"
+        scene cc-54 with dissolve
+        $ renpy.pause()
+        "With a killer view to boot."
         p "When you said it was all wholesome and ambient, I was expecting something with darker colours."
         p "More... earthy?"
+        scene cc-55 with dissolve
         c "Oh I get what you mean. Wood and all that right?"
+        scene cc-56 with dissolve
         c "The fireplace crackling, and all that."
         c "But this is a different feeling. It's clean and contemporary."
+        scene cc-60 with dissolve
         c "You wake up in the morning and you feel like you're going to be productive."
+        scene cc-57 with dissolve
         p "You've really got your life in order, wow!"
         c "It's a feeling of potential."
         p "So what's the average day for you like?"
+        scene cc-58 with dissolve
         c "I wake up in the morning, get changed, and then I-"
+        scene cc-57
         p "Go to the cafe for coffee?"
+        scene cc-61 with dissolve
         c "Ah, I'm that predictable, aren't I?"
+        scene cc-30 with dissolve
         p "Well, I do see you there every morning."
-        P "What after that?"
+        p "What after that?"
+        scene cc-59 with dissolve
         c "Oh I might come back home, I might go to a lecture, or I might go to the library."
-        p "Nice TV! What do you watch?"
-        c "I don't really watch television, but I do play games occassionally."
+        scene cc-62 with dissolve
+        p "By the way, nice TV!"
+        scene cc-63 with dissolve
+        p "What do you watch?"
+        c "Umm, I don't really watch television, but I do play games occassionally."
+        scene cc-64 with dissolve
         p "You're a gamer?"
         c "Sometimes, I don't get much time usually though."
         p "Neat."
+        scene cc-65 with dissolve
         p "Hang on, is that a coffee maker over there?"
         p "Then how come you always go to the cafe?"
+        scene cc-66 with dissolve
         p "Looks like a fairly robust machine too. I'm sure you could pump out some good joe with this."
+        scene cc-67 with dissolve
         c "Oh I can, but like I said, cafe in the mornings is a ritual."
         c "It's the hustle and bustle of people. It's the way coffee is supposed to be had - with other people!"
         c "It's no fun having it by yourself."
+        scene cc-56 with dissolve
         p "Well, I'm here now, right? What say we enjoy one together?"
         c "I'd love to show you more about coffee."
+        scene cc-70 with dissolve
         c "How do you take it?"
         p "Um, what are the options again?"
+        scene cc-68 with dissolve
         c "Well you could always just have a shot of espresso, but that's no fun by itself."
-        c "How about a latte?"
-        p "Sounds nice."
+        scene cc-69 with dissolve
+        c "So how about a latte?"
+        p "I'll take you up on that offer."
         c "Great. You know, this is one of the reasons I bought a coffee machine."
+        scene cc-67 with dissolve
         c "To share with other people."
-        p "So, are you going to make it, like right now?"
-        c "Yeah, should only be a few minutes."
+        p "I think that's very generous of you."
+        c "Just make yourself at home, [p], I'll only be a few minutes."
         p "Sure, I'll just chill out here."
+        scene cc-71 with dissolve
         "Despite what Caroline says, this place is quite fancy."
         "There's a beautiful view and if I woke up to this everyday, I'd be motivated and productive."
-        c "What are you up to, [p]?"
-        p "Oh, just checking something out on my phone."
+        scene cc-72 with dissolve
+        p "I'll just crash on the couch."
+        c "Relaxing, [p]?"
+        p "Oh definitely. I'm just uh, checking something out on my phone."
         c "Whatcha looking at?"
         p "Just some coffee mugs"
         c "Thinking of getting your own coffee setup already? Have I converted you into the life of coffee yet?"
@@ -610,7 +674,10 @@ label Caroline:
         ## coffee done
         c "Ah, perfect. Here, try it out. What do you think?"
         p "Mmmm..."
-        p "That's creamy!"
+        p "Smells good."
+        p "So does the coffee."
+        c "Ahahaha."
+        p "It tastes really creamy. Good job!"
         c "That's the frothed milk. But what do you think about the beans?"
         p "The beans themselves? Ooh I'm not sure I'm that good at picking that out."
         c "I'm using some Kenyan beans, and they're more stronger than say, the one at the cafe, don't you think?"
@@ -648,6 +715,22 @@ label Caroline:
         "Man, she's the opposite of Nicole. Of course, everything has its pros and cons, but I could really appreciate this feeling of peace with Caroline."
         "Zzz..."
         ## Dreams scene
+    label cdcd:
+        scene cd-1
+        pause (0.2)
+        scene cd-2
+        pause (0.2)
+        scene cd-3
+        pause (0.2)
+        scene cd-4
+        pause (0.2)
+        scene cd-5
+        pause (0.2)
+        scene cd-6
+        pause (0.2)
+        scene cd-7
+        $ renpy.pause()
+        scene cd-8 with dissolve
         "When I'm with you, I feel like you make me a better person."
         "You inspire to me to live life to the fullest."
         "I only hope that I could do a fraction of that for you."
@@ -685,10 +768,10 @@ label Caroline:
         c "I'll hold you to that."
         p "How was your study?"
         c "It was good. I felt productive."
-        p "You're always working so hard. You'll really make it big one day. I wish you every success."
+        p "You're always working so hard. You'll really make it big one day. You're gonne be a champ, I know it."
         c "Oh I'm going to blush."
         c "Haha!"
-        c "It's just as well. I've got work soon."
+        c "In other news, I've got work soon."
         p "Right, at the bar. Is it that time already?"
         c "I'll have to change into my uniform. Be right back."
         ## After change
@@ -698,6 +781,10 @@ label Caroline:
         c "Shows off my... well defined and non-wasted back muscles."
         p "I must say I prefer your previous outfit though."
         c "Cheeky."
+        p "But, I don't mind this one either."
+        p "Especially this area here...."
+        c "Hey, where are your hands going cowboy?"
+        p "Nowhere, I'm just on the way out."
         p "Alright, time to go."
         p "Enjoy work, Caroline."
         p "I don't know if what we had was a date but it was fun."

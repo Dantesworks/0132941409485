@@ -1527,7 +1527,7 @@ label nicole_park:
             p "I think we do. Not only that, I can even read your mind."
             n "What am I thinking?"
             p "All this talk has made you excited, and you're getting wet between the legs."
-            p "Enough talk, Nicole. You're just longing for someeone to take you roughly from behind."
+            p "Enough talk, Nicole. You're just longing for someone to take you roughly from behind."
             n "Oooh~!"
             scene n-225 with dissolve
             n "You know, no one has taken my butthole before."

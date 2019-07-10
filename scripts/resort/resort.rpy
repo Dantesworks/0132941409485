@@ -46,3 +46,9 @@ label pool:
             idle "back.png"
             hover "back_hover.png"
             action Jump("lobby")
+        if daytime == 3:
+            imagebutton:
+                focus_mask True
+                idle "pool_belle_idle.png"
+                hover "pool_belle_hover.png"
+                action Jump("belle")

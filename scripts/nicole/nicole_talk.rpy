@@ -841,7 +841,7 @@ label nicoletalk:
                 image n2 = Movie(play="/animations/n2.mp4")
                 show n2 with dissolve
                 p "Oh Nicole. I've forgotten how good you are."
-                m "Mmm~"
+                n "Mmm~"
                 "I looked at the horizon and appreciated the view when feeling the velvety textures of her mouth."
                 "As her tongue wrapped itself around my shaft, I realised how much of a slut Nicole was."
                 "She bobbed back and forth rythmically, working me up slowly."

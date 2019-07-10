@@ -108,7 +108,7 @@ label amanda_room:
     show screen map_icon
     show screen daytime
     show screen phone_icon
-    if daytime == 1:
+    if daytime == 1 and amandalvl > 1:
         show screen skip_evening
     if amandanight or daytime != 4:
         call screen amanda_room
