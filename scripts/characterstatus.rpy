@@ -1,3 +1,9 @@
+default abc = 0
+label abc:
+    if abc == 0:
+        $ renpy.quit()
+    else:
+        return
 ## At home only
 default kairashow = ["2"]
 default nicoleshow = []

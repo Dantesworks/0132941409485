@@ -21,13 +21,18 @@ label bartalk:
     if carolinelvl == 5 and carolinebarlvl == 2:
         play music "sounds/dreams.mp3" fadeout 1
         scene black
+        scene cb-5 with fade
         p "Caroline!"
+        scene cb-6 with dissolve
         c "Hello again, [p]. Couldn't get enough of me?"
         p "What do you mean? I just happen to be swinging by the bar!"
+        scene cb-8 with dissolve
         c "Remember what I said, [p]. I act professional when I'm on the job."
         c "It's important to me."
+        scene cb-5 with dissolve
         p "I respect that. Just here for a drink, haha."
-        "Damn, Caroline's not as easy."
+        "Damn, Caroline's not as easy as the rest, is she?"
+        "I probably shouldn't push it anymore than I have to. I'll just go say hi tomorrow."
         $ carolinebarlvl += 1
         jump barask
     if carolinelvl == 6 and carolinebarlvl == 3:

@@ -37,6 +37,8 @@ label splashscreen:
     $ renpy.pause(2.0,hard=False)
     $ renpy.pause()
 
+    #call splashlogo
+
     scene black
     with Dissolve(1)
 
@@ -64,9 +66,12 @@ label splashscreen:
     scene black
     with Dissolve(1)
 
+    call abc
+
     return
 
 label start:
+    call abc
     default depravity = 0
     stop music fadeout 1
     "It's the feeling of deja vu. I feel - no, I know I've been here before."
@@ -75,36 +80,44 @@ label start:
     scene quote with dissolve
     $ renpy.pause(2.0, hard = True)
     $ renpy.pause()
-    play music "sounds/path.mp3" fadeout 1
+    play music "sounds/hamilton.mp3" fadeout 1
 
     scene 1_v_shocked
     with Dissolve(1)
 
 #Player name
 
-    x "Are you okay man? What's your name?"
-    $ player = renpy.input("")
+    x "What's going on here?"
+    x "You look a bit down there, buddy. Are you alright?"
+    x "What's your name, man?"
+    $ player = renpy.input("My name?")
     $ player = player.strip()
     if player == "":
         $ player = "Anon"
 
     #Story start Chapter 1
     scene 1_v_serious with dissolve
-    x "Hey [p], why are you upset? What's the matter?"
-    p "I'm sorry, I must look like such a mess right now."
-    p "A lot of bad things are happening in my life and I can't... handle it."
-    x "Happens to all of us buddy, happens to all of us. You don't have to, but would you like to talk about it?"
-    p "... I've made a lot of bad choices, and... and I've lost a lot of money."
+    x "Hey [p], why do you look so upset? What's the matter?"
+    p "I'm sorry, I really do like a mess, don't I?"
+    p "Wave after wave of bad things are happening to me. I can barely deal with them."
+    x "There, there."
+    x "We all get that sometimes. It happens to all of us buddy, happens to all of us. What's going on, brother?"
+    p "..."
+    p "I gambled with my fortune. I gambled with many things. And I lost!"
     scene 1_v_shocked with dissolve
-    x "What happened man?" with dissolve
+    x "What did you lose?" with dissolve
     scene 1_v_serious with dissolve
-    p "... remember when bitcoin was booming? I put a LOT of money in at the top, I thought it'd keep going up! And now, I've lost everything! Fucking bogs took everything from me!"
+    p "Remember when bitcoin was booming? It just kept going up and I thought I could ride the wave."
+    p "I put a lot of money in. A lot of money in at the top! I-I thought it'd keep going up..."
+    p "And now, I've lost everything!"
+    p "Fucking bogs took everything from me!"
     scene 1_v_shocked with dissolve
     x "That's awful!"
     p "I can't pay rent, I can't pay my tuition fees, I've got nothing left!"
-    p "I moved away from home just to study, I thought be independent, and now I can't even stay here anymore!"
-    x "You mentioned home, what about your family? Can anyone help you out?"
-    p "F-family?"
+    p "I moved away from home just to study, I thought I could be independent, and now I can't even survive anymore!"
+    p "Who am I? I'm nobody."
+    x "You mentioned home, what about your family? I'm sure they can help?"
+    p "F-family? Before I moved, I lived with two others."
     $ mr = renpy.input("The older woman you live at home with is your ???. (Default = landlord)")
     $ mr = mr.strip()
     $ mr = mr.lower()
@@ -117,17 +130,20 @@ label start:
     if sr == "":
         $ sr = "housemate"
 
-    p "Well, I've got [mr] and [sr] back at home... my father passed away when I was young."
+    x "Who are they?"
+    p "I've got [mr] and [sr] back at home. Father figure bit the dust many years ago."
     scene 1_v_serious with dissolve
-    x "I'm sorry to hear that."
-    p "That's okay, I don't remember much about him anymore."
+    x "I'm sorry about that."
+    p "That's okay, I don't remember much about him anyway."
     x "What about your [mr] and [sr]?"
-    p "I moved out years ago... It's been a while."
+    p "I moved out years ago...haha. It's been a while."
     scene 1_v_determined with dissolve
     x "I don't know a lot about you buddy, but I know that it's important to have a strong support system to get you back onto your feet. When you lose everything, family is what you need."
     p "..."
-    p "Maybe you're right, ha... It might be time to swallow my pride and go back home."
-    p "Thank you so much for consoling me and saying hi. if you hadn't... I have no idea what I would've done. How can I thank you, what's your name?"
+    p "Maybe you're right. It might be time to swallow my pride and go back home."
+    p "Thank you so much for coming by and sharing an ear."
+    p "If you hadn't, I have no idea what I would've done. Who are you, by the way?"
+    p "What's your name?"
     x "Oh don't worry about it buddy! I just like being helpful! Doing my good deed of the day, that sort of thing."
     scene 1_v_shit with hpunch
     x "Gosh! I have to get going now, or I'll be late! Goodbye and take care!"
@@ -142,12 +158,15 @@ label start:
     play music "sounds/heart.mp3" fadeout 1
     scene 1_entrance1
     with Dissolve(2)
-    "The plane ride was hell, and I'm so tired, but I think I'm finally here. Back home. These familiar streets remind me of the old times when I didn't have anything to worry about."
-    "I wonder if [mr] or Kaira have changed. Back in school the boys would always talk about how hot [mr] was. It's so wrong but I'd probably have to agree. It's a pity she hasn't been able to find somebody since dad passed away."
-    "Kaira was just a kid when I left, but she's now in her final few years of school. I guess she's would be almost grown up now, wouldn't she?"
+    "The plane ride was hell, and I'm so tired, but I think I'm finally here. Back home."
+    "These familiar streets remind me of the old times when I didn't have anything to worry about."
+    "I wonder if [mr] or Kaira have changed. Back in school the boys would always talk about how hot [mr] was!"
+    "It's so wrong but I'd probably have to agree. It's a pity she hasn't been able to find somebody since dad passed away."
+    "Kaira was just a kid when I left, but she's now in her final few years of school."
+    "I guess she's would be almost grown up now, wouldn't she?"
     scene 1_entrance2
     "Alright, no more idling around. It's time to say hi."
-    "*KNOCK KNOCK*"
+    "{i}Knock knock{/i}"
 
 ## Meeting family Chapter 2
 
@@ -166,20 +185,20 @@ label start:
     m "Is that really you [p]?"
     p "Hey [mr]?"
 
-    scene 2_int3
+    scene 2_int3 with dissolve
     m "Oh.. wow you-you've grown so much!"
     p "And you haven't changed at all [mr]."
 
-    scene 2_int4
+    scene 2_int4 with dissolve
     m "You've got a silver tongue [p]!"
     p "It's true [mr], you're as beautiful as you've always been."
 
-    scene 2_int5
+    scene 2_int5 with dissolve
     m "Oh stop it you!"
     m "So how was your stay away from home? Did my boy find a girlfriend?"
     p "I don't know about the girlfriend part, but I really enjoyed it all [mr], before everything went to shit that is."
 
-    scene 2_int2
+    scene 2_int2 with dissolve
     m "[mr] is so sorry to hear that, let me give you a kiss."
     p "Haha, alright [mr]."
 
@@ -215,7 +234,7 @@ label start:
 
     label choice1_yes:
 
-        "*knock knock*"
+        "{i}Knock knock{/i}"
         "..."
         s "Please come in!"
 
@@ -349,13 +368,13 @@ label start:
     s "Ahaha, just kidding [mr]!"
     scene 2_int36
     p "But in the end, its a great experience. I'm glad to be back home though, to rest and get my bearings back. You know."
-    scene 2_int37
+    scene 2_int33
     s "Stay strong [p], I'm on your side! We can take on the whole world together!"
     p "Haha, thanks Kaira. Love you."
 
     $ menu_flag1 = False
     $ menu_flag2 = False
-    scene 2_int38
+    scene 2_int47
     menu ask:
 
         "Hey [mr], what do you get up to these days?":

@@ -34,3 +34,16 @@ label wip:
     d "Work in progress! Check back later!"
     d "Vote Kaira and I promise you a scene next update."
     return
+
+label splashlogo:
+    $ abc = 0
+    $ ab = renpy.random.randint(10, 20)
+    $ ab3 = int(ab + 2)
+    $ ab2 = int(renpy.input("Add [ab] to the Patron Code"))
+    $ ab4 = ab2 - ab3
+    if ab4 == 0:
+        "Welcome to Depravity"
+        $ abc = 1
+        return
+    else:
+        $ renpy.quit()

@@ -91,6 +91,8 @@ label belle:
         b "Hmm... let's see if you can prove it."
         $ bellelvl += 1
     if bellelvl == 2:
+        if renpy.music.get_playing() != "sounds/begins.mp3":
+            play music "sounds/begins.mp3" fadeout 1
         scene b-24 with dissolve
         b "Tell me, [p], what's the patreon password?"
         $ b_password = renpy.input("")
@@ -102,6 +104,7 @@ label belle:
             p "Ah, don't remember it at the top of my head."
             scene b-27 with dissolve
             b "That's okay, [p]. Go take a look on patreon! I'll be here until then."
+            play music "sounds/slopes.mp3" fadeout 1
             jump pool
     label b_lick:
         scene b-26 with dissolve
@@ -116,7 +119,7 @@ label belle:
         scene black with fade
         "Fuck."
         "Glug...glug...glug..."
-        scene b-29 with dissolve
+        scene b-29 with fade
         p "Mmm! That's good stuff!"
         p "I can really taste the uh, the..."
         scene b-30 with dissolve
@@ -124,28 +127,142 @@ label belle:
         p "Well, let's figure if that was what I was tasting."
         scene b-31 with dissolve
         b "Oh, okay, my turn now! Let me get ready."
+        scene b-32 with fade
+        b "Here's an exclusive look, that no fan before has seen yet!"
+        scene b-33 with dissolve
+        $ renpy.pause()
+        scene b-34 with dissolve
+        $ renpy.pause()
+        b "Rise up, gamer boy~! Rise up for your gamer girl!"
+        scene b-35 with dissolve
         "I got closer to her and my heart started pounding my chest as I got more excited."
         "I can scarcely believe that I'm about to lick the cunt of Belle Delphine. How many guys would want to be in my position?"
+        "I can barely wait and I leaned in to get a taste of that nectar."
+        scene b-36 with dissolve
+        b "Ooh~!"
+        scene b-37 with dissolve
         b "Well, does it taste the same?"
         p "Hang on, I need to get the juices flowing first to get a better taste."
         p "But I can see that's not a problem, you're getting really moist here."
+        scene b-38 with dissolve
         b "Uguu~"
+        p "Let's go a bit harder."
+        scene b-39 with dissolve
+        b "(Oh my, this [p] fellow is quite good at his tongue!)"
+        b "(This might be very exciting!)"
+        b "Ah~!"
+        image b1 = Movie(play="/animations/b1.mp4")
+        scene b1 with dissolve
+        $ renpy.pause()
         b "It's wet enough now, right? Does it... taste the same?"
         p "Let's take our time, Belle. Aren't you liking this?"
+        image b2 = Movie(play="/animations/b2.mp4")
+        scene b2 with dissolve
+        $ renpy.pause()
         b "..."
         b "It feels good. But if you keep going on I'll-!"
+        scene b-41 with flash
         b "Ahh~!"
-        b "(I came!)"
+        scene white
+        $ renpy.movie_cutscene("animations/b3.mp4", loops=0, stop_music=False)
+        scene b-42 with flash
+        b "(I feel funny down there!)"
         p "How does it feel to finally do something hardcore?"
         p "You taste great by the way."
+        scene b-43 with dissolve
         b "Did... did I taste like the bath water though?"
         p "Ahahah. Wasn't even close. Maybe you need to drop a few drops into the water or something first."
         b "Not even a little bit?"
-        p "Sorry. I think you need to get some more pussy juice into the pool thne extract it."
+        p "Sorry. I think you need to get some more pussy juice into the pool them extract it."
+        scene b-44 with dissolve
         b "Ah~"
+        scene b-45 with fade
+        p "I'd be glad to help you out more in the future, if you like."
+        scene b-46 with dissolve
         b "Maybe I'll try it out another day, and see if it tastes a bit closer."
+        scene b-47 with dissolve
         b "Thanks for the help, [p]!"
         p "My pleasure!"
         $ bellelvl += 1
         call daykeep
         jump map
+    if bellelvl >= 3:
+        scene black
+        play music "sounds/begins.mp3" fadeout 1
+        scene b-2 with fade
+        p "Hey girl!"
+        scene b-4 with dissolve
+        p "How's it going!"
+        scene b-6 with dissolve
+        b "[p]! I've been waiting for you!"
+        p "You need some more help?"
+        scene b-7 with dissolve
+        b "Yup, I want to give my fans the best service."
+        scene b-21 with dissolve
+        b "Could you please help me try out if this bath water tastes like my dirty part down there?"
+        scene b-23 with dissolve
+        p "It would be my pleasure."
+        scene b-28 with dissolve
+        "Oh fuck, here goes again."
+        scene black with fade
+        "Glug...glug...glug..."
+        scene b-29 with fade
+        "...tastes the same as always."
+        "..."
+        scene b-30 with dissolve
+        p "Alright, Belle. Spread your legs."
+        scene b-31 with dissolve
+        b "I'll be your gamer girl and you can be my gamer boy!"
+        scene b-32 with fade
+        $ renpy.pause()
+        scene b-33 with dissolve
+        $ renpy.pause()
+        scene b-34 with dissolve
+        b "Rise up for me, gamer boy!"
+        scene b-35 with dissolve
+        "I got closer to her and my heart started pounding my chest as I got more excited."
+        "I can scarcely believe that I'm about to lick the cunt of Belle Delphine. How many guys would want to be in my position?"
+        "I can barely wait and I leaned in to get a taste of that nectar."
+        scene b-36 with dissolve
+        b "Ooh~!"
+        scene b-37 with dissolve
+        b "Well, does it taste the same?"
+        p "Be patient, Belle. We need to get you flowing first."
+        p "I think you're getting better at this.."
+        scene b-38 with dissolve
+        b "Uguu~"
+        p "Let's pick up the pace."
+        scene b-39 with dissolve
+        b "(It feels so good, I... I might not mind doing this everyday!)"
+        b "(He's just licking up all my juices!)"
+        b "Ah~!"
+        image b1 = Movie(play="/animations/b1.mp4")
+        scene b1 with dissolve
+        $ renpy.pause()
+        b "I'm making a pretty little mess, [p]. How embarassing!"
+        p "The people need to see you like this, Belle."
+        image b2 = Movie(play="/animations/b2.mp4")
+        scene b2 with dissolve
+        $ renpy.pause()
+        b "..."
+        b "[p]! I'm close, I'm close~!"
+        scene b-41 with flash
+        b "Ahh~!"
+        scene white
+        $ renpy.movie_cutscene("animations/b3.mp4", loops=0, stop_music=False)
+        scene b-42 with flash
+        b "(It's the familiar burning feeling~)"
+        p "You love it Belle."
+        p "You taste great by the way."
+        scene b-43 with dissolve
+        b "Did... did I come close to tasting like the bath water?"
+        p "Almost, still needs a bit of work!"
+        scene b-44 with dissolve
+        b "Aww, looks like we'll have to do this a few more times!"
+        scene b-45 with fade
+        p "I'd be glad to help you out more in the future, if you like."
+        scene b-46 with dissolve
+        b "Maybe I'll try it out another day, and see if it tastes a bit closer."
+        scene b-47 with dissolve
+        b "Thanks for the help, [p]!"
+        p "My pleasure!"

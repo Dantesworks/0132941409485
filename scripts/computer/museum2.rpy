@@ -39,4 +39,4 @@ label coil3:
     scene coil3
     $ renpy.pause()
     "The temperature of the hot spring is just right, why don’t you... | Coil X Tesla"
-    jump museum2
+    jump museum

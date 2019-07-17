@@ -124,4 +124,4 @@ label dante:
     scene dante
     $ renpy.pause()
     "Commission for Daemon+ patrons | Dante"
-    jump museum
+    jump museum2

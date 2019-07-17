@@ -50,7 +50,7 @@ label living_room:
                 focus_mask True
                 idle "nicole_couch_idle.png"
                 hover "nicole_couch_hover.png"
-                hovered Show("displayTextScreen", displayText = "Nicole") action [Hide("displayTextScreen"), Jump("Nicole")] unhovered Hide("displayTextScreen")
+                action Jump("Nicole")
 
 label kitchen:
     if daytime != 4:

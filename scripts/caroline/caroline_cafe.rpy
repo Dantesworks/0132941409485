@@ -615,7 +615,7 @@ label Caroline:
         p "Go to the cafe for coffee?"
         scene cc-61 with dissolve
         c "Ah, I'm that predictable, aren't I?"
-        scene cc-30 with dissolve
+        scene cc-60 with dissolve
         p "Well, I do see you there every morning."
         p "What after that?"
         scene cc-59 with dissolve
@@ -660,64 +660,117 @@ label Caroline:
         "There's a beautiful view and if I woke up to this everyday, I'd be motivated and productive."
         scene cc-72 with dissolve
         p "I'll just crash on the couch."
+        scene cc-74 with fade
+        p "Mmm... so comfortable!"
+        scene cc-73 with dissolve
         c "Relaxing, [p]?"
-        p "Oh definitely. I'm just uh, checking something out on my phone."
+        p "Oh definitely. In such a lovely place, anyone would be."
+        scene cc-75 with dissolve
+        p "Relaxing and, uh, checking something out on my phone."
         c "Whatcha looking at?"
+        scene redbubble with dissolve
         p "Just some coffee mugs"
+        scene cc-76 with dissolve
         c "Thinking of getting your own coffee setup already? Have I converted you into the life of coffee yet?"
+        scene redbubble2 with dissolve
         p "Maybe. I'm just taking a look at some custom mugs."
         c "Do they look good?"
         p "Not bad. Price seems alright."
         p "How's the coffee coming along?"
+        scene cc-77 with dissolve
         c "Err, just a moment. I've almost finished the second. The second one always tastes better than the first, so I'll give you that one."
         p "Oh, thanks!"
+        scene cc-78 with dissolve
+        c "But let me just say, I like how these ones are turning out!"
+        scene cc-75 with dissolve
+        p "I'm looking forward to it!"
+        "I wonder how the coffee would look in these mugs..."
+        c "Hey, [p]!"
+        p "Yeah?"
+        scene cc-79 with dissolve
+        c "The coffee's ready, come on over!"
+        p "Oh boy!"
         ## coffee done
-        c "Ah, perfect. Here, try it out. What do you think?"
+        scene cc-80 with fade
+        c "Here, one for me, and one for you."
+        c "Extra milk for you!"
+        scene cc-81 with dissolve
         p "Mmmm..."
         p "Smells good."
         p "So does the coffee."
-        c "Ahahaha."
+        c "Smooth."
+        scene cc-82 with dissolve
+        c "Bottom's up?"
+        p "Bottom's up."
+        scene cc-83 with fade
+        p "Mmm, mmm, mmmMM!"
         p "It tastes really creamy. Good job!"
+        scene cc-84 with dissolve
+        c "Nice!"
         c "That's the frothed milk. But what do you think about the beans?"
+        scene cc-87 with dissolve
         p "The beans themselves? Ooh I'm not sure I'm that good at picking that out."
         c "I'm using some Kenyan beans, and they're more stronger than say, the one at the cafe, don't you think?"
         p "I guess, but it's subtle. I might not have picked it up if you didn't say so."
+        scene cc-84 with dissolve
         c "The strength, or the bitterness, is a slap in the face to really help me wake up sometimes."
         c "That's why I sometimes go for it over fruitier flavours."
         p "You really {i}do{/i} know your stuff."
+        scene cc-85 with dissolve
         c "Oh, I just experiment and see what works for me. That's all."
         c "I might be completely wrong! This is just the way I analyse it."
+        scene cc-86 with dissolve
         c "How do {i}you{/i} see it?"
         p "Hmm, my analysis?"
         p "I'd say... this coffee is like... you!"
         p "You started off with the espresso, which is like the serious and bitter stuff, but you have mixed with it the milk, which is creamy and good."
+        scene cc-89 with dissolve
         c "That's an interesting metaphor."
         p "Like, there's a seriousness to your character but you're smooth and cool at the same time. You know?"
+        scene cc-90 with dissolve
         c "That's a nice compliment, I suppose. I haven't really thought of myself as a cup of coffee before."
         p "It {i}is{/i} something you're associated with though, isn't it?"
         p "Careful, Caroline. Drink too many and you might turn into actual coffee!"
         c "You think!"
+        scene cc-91 with dissolve
         c "That wouldn't be such a bad thing. I think I'd make as a nice cup of coffee."
         p "Not too bitter, I hope!"
         c "I would be the sweetest cup of coffee."
         p "I'd drink that."
+        scene cc-88 with dissolve
         c "I'd be offended otherwise, haha!"
+        scene cc-92 with dissolve
         p "Haha, oh man. The cream's a little heavy. I'm feeling a bit drowsy."
-        c "I'm used to it by now."
+        c "Aha - that's why I had less milk."
         p "I thought coffee was meant to make you feel more awake."
-        c "Hmm, maybe it would be better for you to have just coffee without the milk next time."
+        scene cc-93 with dissolve
+        c "Hmm, maybe it would be better for you to have just coffee without the milk next time~"
         c "You can have a rest if you want. I'm not going to be doing too much anyway."
+        scene cc-94 with dissolve
         p "{i}Yawn...{/i} just a quick rest."
+        scene cc-95 with dissolve
         p "What are you gonna do in the meantime?"
-        c "More study."
+        scene cc-96 with dissolve
+        c "More study...."
+        scene cc-95 with dissolve
+        c "So in the meantime, just take a rest on the couch, and let me know if you need anything."
+        p "What are you gonna be doing for real?"
+        c "I'll pop into my room to get changed then I'll just study on the table."
+        p "Right on."
+        scene cc-97 with dissolve
+        "Fuck this couch is nice."
         "Caroline's really got it together."
         "Responsible, ambitious... could I ever be like that?"
         "Man, she's the opposite of Nicole. Of course, everything has its pros and cons, but I could really appreciate this feeling of peace with Caroline."
         "Zzz..."
+        scene black with fade
+        play music "sounds/yu.mp3" fadeout 1
+        $ renpy.pause()
         ## Dreams scene
-    label cdcd:
-        scene cd-1
-        pause (0.2)
+        p "Uh, Caroline?"
+        c "Yes, [p]?"
+        scene cd-1 with fade
+        $ renpy.pause()
         scene cd-2
         pause (0.2)
         scene cd-3
@@ -731,97 +784,259 @@ label Caroline:
         scene cd-7
         $ renpy.pause()
         scene cd-8 with dissolve
-        "When I'm with you, I feel like you make me a better person."
-        "You inspire to me to live life to the fullest."
+        "When I'm with you, I feel like I could rise above it all and be a better person."
+        "You inspire to me to improve."
         "I only hope that I could do a fraction of that for you."
+        stop music fadeout 1
+        scene black with fade
+        "Zzz..."
+        $ renpy.pause ()
         ## end
+        scene cc-98 with fade
         p "Urgh... how long was I out for?"
+        play music "sounds/something.mp3" fadeout 1
         c "Welcome back, [p]."
+        scene cc-99 with dissolve
+        p "Oh hey! Good morning Caroline."
         p "Whoa, where are your clothes? Am I still dreaming?"
+        scene cc-100 with dissolve
         c "This is as real as it gets, [p]."
         c "Sorry if I'm embarassing you. I'm one of those girls that feel more comfortable in just her skin."
         c "Especially when I'm at home."
+        scene cc-101 with dissolve
+        "Oh my god. I never thought I'd be able to see Caroline like this."
+        "She's really... oh wow."
+        scene cc-103 with dissolve
         p "Oh on, I'm not embarassed. I just thought that {i}you{/i} might be?"
         c "In medical school we get very used to the idea of bodies, and we often practise phsyical exams on each other."
+        scene cc-102 with dissolve
         c "I guess, I'm pretty used to the idea of people seeing my body."
         c "I probably would have been more insecure about it before medschool though!"
+        scene cc-134 with dissolve
+        c "Speaking of which... there's still so much work left to do."
         p "You've got nothing to be insecure about."
-        c "Thank you."
-        c "Did you have a sweet dream?"
+        scene cc-103 with dissolve
+        c "Thank you, you're sweet."
+        scene cc-104 with dissolve
+        c "I've been sitting down the whole time! I can barely feel my legs."
+        scene cc-105 with dissolve
+        c "Aah~! That feels good!"
+        scene cc-106 with dissolve
+        c "So, did you have a sweet dream?"
         p "Err, dream?"
+        scene cc-107 with dissolve
         c "You were mumbling stuff in your sleep. It was pretty funny!"
         p "Ah..ahahha..."
         p "Nothing too incriminating, I hope."
         p "It was an okay dream."
         p "..."
         p "Did I say anything?"
+        scene cc-108 with dissolve
         c "It didn't make sense entirely, but I felt like you were dreaming about someone important to you."
         c "Wanna talk about it?"
+        scene cc-109 with dissolve
         p "Haha, there's not much to talk about."
         p "It was good dream, though. It's rare for me to have that kind of dream."
+        scene cc-110 with dissolve
         c "What do you usually dream about?"
         p "It's pretty messed up stuff haha."
+        scene cc-111 with dissolve
         c "Well it sounds like you just got a break. Told you this place has good vibes."
         p "Maybe you're right. I should come here more often then."
+        scene cc-112 with dissolve
         c "Taking advantage of my hospitality, [p]?"
         p "I'll make it worth your while, promise."
+        scene cc-111 with dissolve
         c "I'll hold you to that."
+        scene cc-113 with dissolve
+        c "So, what do you think about the view?"
+        p "The view?"
+        scene cc-114 with dissolve
+        p "Not bad I'd say. Not bad at all."
+        scene cc-115 with dissolve
+        p "Let me get a closer look."
+        scene cc-116 with dissolve
+        c "Look, you can even see the shops on the other side."
+        p "Oh you were talking about that view?"
+        scene cc-117 with dissolve
+        c "Oh [p], you're incorrigible!"
+        p "That's a big word."
+        menu:
+            "It's not the only big thing about me.":
+                $ depravity += 1
+                c "Be careful not to set expectations too high~"
+            "Oh I'm not so bad.":
+                c "I really don't mind, [p]. I think it's funny!"
+        scene cc-118 with dissolve
         p "How was your study?"
+        scene cc-117 with dissolve
         c "It was good. I felt productive."
         p "You're always working so hard. You'll really make it big one day. You're gonne be a champ, I know it."
-        c "Oh I'm going to blush."
-        c "Haha!"
-        c "In other news, I've got work soon."
+        scene cc-119 with dissolve
+        c "Oh stop I'm going to blush."
+        p "But no really. You're so smart and beautiful at the same time. It's just not fair. Really."
+        scene cc-120 with dissolve
+        c "[p]!"
+        c "Oh now I'm really going to blush."
+        p "I'm talking from my heart."
+        scene cc-121 with dissolve
+        p "I just think you're really attractive. And as man, I like to put my best foot forward."
+        p "Come here, Caroline."
+        scene cc-122 with dissolve
+        c "..."
+        c "Oh what the hell..."
+        scene cc-124 with dissolve
+        c "You're so good at this, aren't you?"
+        p "We're all just trying our best in this world, aren't we?"
+        scene cc-125 with dissolve
+        c "{i}Sigh{/i}... [p]..."
+        scene cc-126 with dissolve
+        c "Oh, alright."
+        scene cc-127 with dissolve
+        c "Mmm~"
+        "Caroline... I think I'm in love."
+        scene cc-128 with dissolve
+        c "(Oh I've forgotten how this feels like...)"
+        scene cc-129 with dissolve
+        c "..."
+        p "Well, well well."
+        scene cc-130 with dissolve
+        c "You're not half bad."
+        p "Ah, but you were better."
+        scene cc-131 with dissolve
+        c "Ahem! I've got work soon! I've got to get changed."
         p "Right, at the bar. Is it that time already?"
-        c "I'll have to change into my uniform. Be right back."
+        p "It's like they say, time flies."
+        scene cc-132 with dissolve
+        c "I'll... have to change into my uniform. Give me a moment alright?"
+        scene cc-133 with dissolve
+        c "I'll be right back."
+        scene cc-135 with dissolve
+        "My god, what was that moment?"
+        "I just kissed a girl and I felt like I had to somewhat work for it."
+        "Caroline, Caroline, Caroline."
+        scene cc-136 with dissolve
+        "It is truly a beautiful day today."
+        "What a gorgeous view indeed."
+        scene cc-137 with fade
+        c "[p]!"
+        p "Done?"
         ## After change
         c "Tada~!"
+        play music "sounds/dreams.mp3" fadeout 1
+        scene cc-155:
+            pos (0.0, -2.33)
+            linear 6 pos (0.0, 0.0)
+        $ renpy.pause(6.0,hard=True)
+        $ renpy.pause ()
+        scene cc-138 with dissolve
         p "It's actually skimpier than I thought before, the uniform."
+        scene cc-139 with dissolve
+        $ renpy.pause()
+        scene cc-140 with dissolve
+        $ renpy.pause()
+        scene cc-141 with dissolve
+        $ renpy.pause()
+        scene cc-142 with dissolve
         c "The back is quite revealing isn't it?"
-        c "Shows off my... well defined and non-wasted back muscles."
+        c "Shows off my..."
+        scene cc-143 with dissolve
+        c "Well defined and non-wasted back muscles."
         p "I must say I prefer your previous outfit though."
+        scene cc-144 with dissolve
         c "Cheeky."
         p "But, I don't mind this one either."
+        scene cc-145 with dissolve
         p "Especially this area here...."
-        c "Hey, where are your hands going cowboy?"
-        p "Nowhere, I'm just on the way out."
-        p "Alright, time to go."
-        p "Enjoy work, Caroline."
-        p "I don't know if what we had was a date but it was fun."
-        p "Let's do it again."
-        c "I wouldn't mind~"
-        p "Laters."
+        scene cc-146 with dissolve
+        $ renpy.pause()
+        c "Ooh, where are your hands going cowboy?"
+        scene cc-147 with dissolve
+        p "Mm, what's this?"
+        scene cc-148 with dissolve
+        c "[p]! You know I've got work soon!"
+        p "Oh I know, I know."
+        scene cc-149 with dissolve
+        p "I'll just be on the way out."
+        p "Alright, time to go. Enjoy work, Caroline."
+        scene cc-150 with dissolve
+        p "All good times must come to an end."
+        c "..."
+        scene cc-151 with dissolve
+        c "Hey, [p]-"
+        scene cc-152 with dissolve
+        p "You know, I don't know if what we had was a date but it was fun."
+        p "Let's do it again, Caroline."
+        c "It was fun, [p]. I... really enjoyed it."
+        c "I'll see you again tomrrow, okay?"
+        scene cc-152 with dissolve
+        p "Deal. See you tomorrow!"
+        stop music fadeout 1
+        scene black with fade
+        "Once again, [p], well played! To think that I could score a second date with Caroline. Awesome!"
+        scene cc-154 with fade
+        c "(I think I might... like him, but-)"
+        c "(...)"
+        c "(We'll just have to see how this one goes.)"
+        scene blak with fade
         $ carolinelvl += 1
         call daykeep
         call daykeep
         call daykeep
         jump map
     label carolinevisit: ## carolinelvl == 5, carolinebarlvl == 3
-        scene ellie_menu
+        scene cc-160
         "I guess Caroline hasn't arrived yet. I'll grab a coffee and wait for her."
+        scene ellie_menu with dissolve
+        p "Hey, good morning."
+        scene cc-156 with dissolve
         ellie "Oh, [p], I've got a message for you."
         p "A message?"
         ellie "It's from that girl you always meet, Caroline. She says she won't be coming in today."
         p "Oh..."
+        scene cc-157 with dissolve
         ellie "Instead, she asked me to tell you to just go to her apartment."
         p "Ah! I see. Thanks for the message!"
+        scene cc-158 with dissolve
         ellie "Sounds exciting [p], good luck!"
         p "Haha, I have no idea what you're talking about."
+        scene cc-159 with dissolve
         "Caroline wants to invite me straight to her place!"
         "Wow, this must mean she trusts me more. Maybe even... to take it to the next level."
         "Don't get ahead of yourself [p]..."
+        scene black with fade
+        "A few moments later..."
         # transition
         p "{i}Knock knock{/i}"
-        p "Good morning Caroline."
-        p "I believe you summoned me?"
+        c "Who's there?"
+        p "It's me, [p]!"
+        c "I'll be there just in a moment!"
+        "..."
+        c "Welcome!"
+        scene cc-167:
+            pos (0.0, -2.4)
+            linear 6 pos (0.0, 0.0)
+        $ renpy.pause(6.0,hard=True)
+        $ renpy.pause ()
+        scene cc-161 with dissolve
+        p "Good morning Caroline, you're dressed in something else today!"
+        c "You like it? It's comfy and really, that's what matters right?"
+        p "Anyway, I believe you summoned me."
+        scene cc-162 with dissolve
         c "Hey! I wasn't sure if you'd go to the cafe this morning, so I left the cafe girl a message."
         p "Let's swap numbers. You can just call me next time instead."
-        c "Coffee?"
+        scene cc-163 with dissolve
+        c "Good idea! In the meantime, Coffee?"
         p "Yes please."
+        scene cc-164 with dissolve
         c "Okay, just hang tight. I'm curious to see if the one I make today will taste the same as the one before."
         c "Why don't you put a game on, or something?"
+        scene cc-165 with dissolve
         c "I'll be done real quick."
         p "Sure!"
+        scene cc-166 with fade
+        "..."
+        "Now, if only I could figure out how to work this..."
         stop music fadeout 1
         scene black with fade
         "A few moments later..."
@@ -904,6 +1119,7 @@ label Caroline:
         $ renpy.pause(1.5,hard=True)
         scene aot-26 with vpunch
         $ renpy.pause()
+        p "[i]ROOOAAAAARRRRR!!!!!!!!!!![/i]"
         scene aot-30 with dissolve
         $ renpy.pause()
         scene aot-28 with dissolve
@@ -914,12 +1130,12 @@ label Caroline:
         p "I think it's pretty cool how you can customise the characters to your choosing - even the party members and villain."
         c "Oooh, she's not necessarily the villain but I won't spoil it for you."
         p "All in all it's a pretty good game."
-        c "Why did you custmise the characters that way, anyway? Do you know them in real life?"
+        c "Why did you customise the characters that way, anyway? Do you know them in real life?"
         p "Yeah, Vincent's a good mate. The girl is just random I met once or twice."
         c "She seems to have left an impression on you."
-        p "Oh her? Nah, she just has this creepy vibe."
+        p "Oh her? Nah, she just has this creepy vibe that really sticks with you."
         c "Is it strange, playing yourself and your friends in a game?"
-        p "Hmm, it is. I mean, to them it's like everything happening in the game is real."
+        p "Hmm, it is. I mean, in their perspective, to them it's like everything happening in the game is real."
         p "What if {i}we{/i} were actually in a game? How freaky would that be!"
         c "It's interesting to think about."
         p "Thanks for the coffee, by the way."
@@ -957,10 +1173,12 @@ label Caroline:
         c "Oh, ah, I was planning do some study a little later."
         p "No, no, I really don't want to get in the way of that."
         c "I don't need to study straight away, why don't you-?"
+        p "Ah, I just don't wanna intrude. Anyway, didn't you know?"
         p "Absence makes the heart grow fonder."
-        c "Always a clever quote. Fine, I'll see you around?"
+        c "Always a clever quote you've got ready. Fine, I'll see you around?"
         p "See you around!"
-        "Absence {i}does{/i} make the heart grow fonder. I'm regretting leaving so soon already."
+        "I'm a little petty sometimes, playing hard to get. Hmm..."
+        "Absence {i}does{/i} make the heart grow fonder. Hah, I'm regretting leaving so soon already."
         "Maybe it'll make her warm up to me more tonight at the bar."
         call daykeep
         call daykeep
@@ -972,17 +1190,18 @@ label Caroline:
         p "How's my favourite person doing?"
         c "Good morning [p]. I'm glad to see you're so cheery."
         c "..."
-        p "What's going on? Did I do something?"
+        p "What's going on? You're being a bit weird."
         c "[p]... There's something I want to talk to you about."
         p "..."
         p "What's up?"
         c "I've had a lot of fun with you, [p], but I've been thinking really hard."
         "Oh no."
-        c "It's this relationship stuff - I just don't know if I can commit this time."
-        c "My studies are really important to me."
+        c "It's this relationship stuff - I just don't know if I can commit to... all of this."
+        c "It's hard finding the time f-for everything like my studies, and-"
         p "Are you... is this serious?"
         c "I'm sorry, [p] but I don't want you to think that I had sex with you just to take advantage of you!"
         c "At the time... I really wanted to."
+        p "You'r breaking up with me."
         c "It's just... the timing of it all."
         p "Huh."
         c "I hope you're not taking it the wrong way..."
@@ -998,7 +1217,7 @@ label Caroline:
         p "I thought you liked me. I liked you."
         c "I like you too, [p]. I really liked the time we-"
         p "Then why are you doing this? It was working so well!"
-        p "This is just... so out of the blue."
+        p "This is just... so out of the blue. Why?!"
         c "[p], please! I... can't commit enough time to make it work out."
         c "I'm just at this stage in my life where a lot of things are on the line."
         c "I told you as soon as I could, I promise!"
@@ -1006,13 +1225,13 @@ label Caroline:
         c "It's nothing you did wrong, [p]. There is just a lot on my plate."
         p "A lot on your... plate."
         c "..."
-        p "It wasn't so long ago that I also had a lot on my plate. I think I get it."
-        p "You just want a break from it all and recollect yourself."
-        c "It's just all the trips and exams coming up, I'm losing myself."
-        p "...I can understand that."
+        p "It wasn't so long ago that I also had a lot on my plate myself."
+        p "At the time, I wanted a break from it all. To recollect yourself."
+        p "After that, I met you, Caroline."
+        c "I'm sorry. It's just all the trips and exams coming up, I'm losing myself. I can't devote the time."
         p "I was like that too, and someone listened to me, and heard me out."
-        p "If it's for the best, it's for the best."
-        c "I'm going on my trip soon. It's the right time now anyway. I tried to do it as soon as I could."
+        p "If that's how it is, what can I do?"
+        c "I'm going on my trip soon. I'll be leaving. That's why it's the right time to tell you now anyway. I tried to do it as soon as I could."
         p "Mm. I guess I'll see you when you're back."
         c "Well, until then, I still want to be your good friend."
         p "A friend, huh?"
@@ -1020,14 +1239,16 @@ label Caroline:
         p "We'll be good friends. Take care, Caroline."
         c "[p]..."
         ## Autumn Scene
+        p "For all the fuckings things that could have happened, fuck!"
+        p "Fuckity fuck fuck! Did I, [p], just get dumped?!"
         x "What happened?"
-        p "The worst outcome. Got dumped."
+        p "The worst outcome. Got dumped. Fuck!"
         x "What did you do wrong?"
         p "I don't think I did anything wrong, but everything went to shit anyway."
         p "Wh-What is this?"
         p "IF YOU FUCKING SAY THAT AGAIN, ILL STRANGLE YOU BITCH!"
         c "No! [p]! I'm sorry! I said I'm sorry!"
-        p "This isn't me, I didn't do this! This... isn't me!"
+        p "Wha- I don't remember doing this. This isn't me, I didn't do this! This... isn't me!"
         p "YOU just think you're so much better than me, don't you?"
         p "Looking at me like, I'm some kind of FUCKED up, DEPRAVED-"
         x "It's happened before, perhaps in the past, or in the future, or somewhere else entirely."
