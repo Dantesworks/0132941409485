@@ -1,6 +1,10 @@
 label cafe:
     if renpy.music.get_playing() != "sounds/coffee.mp3":
         play music "sounds/coffee.mp3" fadeout 1
+    if carolinelvl == 5 and carolinebarlvl == 3:
+        hide screen daytime
+        hide screen fastforward
+        jump carolineVisit
     show screen map_icon
     show screen daytime
     show screen phone_icon
@@ -23,8 +27,6 @@ label cafe:
                 else:
                     action Jump("nodrink")
 label ellie_menu:
-    if carolinelvl == 5 and carolinebarlvl == 3:
-        jump carolineVisit
     scene ellie_menu
     ellie "Good morning sir! What would you like to drink today?"
     menu:

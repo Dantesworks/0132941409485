@@ -365,7 +365,7 @@ label amandatalk:
         scene ae-80 with fade
         v "So, what is it that you wanted to talk about?"
         p "I know you're in the photography/modelling industry, and I'm wondering if you had some insights."
-        p "My [mr] is looking to quit the agency she's with the go solo."
+        p "My [mr] is looking to quit the agency she's with and go solo."
         p "I think she's got the chops to do it, we just need to have a breakout."
         scene ae-78
         v "Let's see the pictures you took."

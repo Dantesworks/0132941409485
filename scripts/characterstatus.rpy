@@ -94,6 +94,7 @@ label sleep:
             $ daytime += 1
 
         "Sleep until the next day.":
+            #call abc
             $ daytime = 1
             $ day += 1
             call future from _call_future
@@ -115,7 +116,7 @@ label sleep:
     jump player_room
 ## Daytime Screen
 screen daytime():
-    zorder 3
+    zorder 10
     if daytime == 1:
         add "ui_morning.png"
     if daytime == 2:

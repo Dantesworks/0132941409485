@@ -353,7 +353,7 @@ label Caroline:
         c "I freed up my schedule for this, you know. Where are we going?"
         p "Ah you were talking about that."
         scene cc-4 with dissolve
-        p "You're in such a rush! Let's have some a drink first."
+        p "You're in such a rush! Let's have a drink first."
         "Oh shit, I haven't thought of a place to go yet!"
         scene cc-5 with dissolve
         c "Oh, we are definitely having a coffee first, but I'm curious about your grand plans!"
@@ -696,12 +696,11 @@ label Caroline:
         c "Extra milk for you!"
         scene cc-81 with dissolve
         p "Mmmm..."
-        p "Smells good."
-        p "So does the coffee."
-        c "Smooth."
+        p "Smells good. So does the coffee."
+        c "Wow, that was smooth!"
         scene cc-82 with dissolve
-        c "Bottom's up?"
-        p "Bottom's up."
+        c "Go on, have a taste."
+        p "Alright, let's have a taste!"
         scene cc-83 with fade
         p "Mmm, mmm, mmmMM!"
         p "It tastes really creamy. Good job!"
@@ -800,7 +799,7 @@ label Caroline:
         p "Oh hey! Good morning Caroline."
         p "Whoa, where are your clothes? Am I still dreaming?"
         scene cc-100 with dissolve
-        c "This is as real as it gets, [p]."
+        c "This is no dream, [p]."
         c "Sorry if I'm embarassing you. I'm one of those girls that feel more comfortable in just her skin."
         c "Especially when I'm at home."
         scene cc-101 with dissolve
@@ -966,10 +965,11 @@ label Caroline:
         c "Hey, [p]-"
         scene cc-152 with dissolve
         p "You know, I don't know if what we had was a date but it was fun."
+        scene cc-154 with dissolve
         p "Let's do it again, Caroline."
+        scene cc-153 with dissolve
         c "It was fun, [p]. I... really enjoyed it."
-        c "I'll see you again tomrrow, okay?"
-        scene cc-152 with dissolve
+        c "I'll see you again tomorrow, okay?"
         p "Deal. See you tomorrow!"
         stop music fadeout 1
         scene black with fade
@@ -978,287 +978,365 @@ label Caroline:
         c "(I think I might... like him, but-)"
         c "(...)"
         c "(We'll just have to see how this one goes.)"
-        scene blak with fade
+        scene black with fade
         $ carolinelvl += 1
         call daykeep
         call daykeep
         call daykeep
         jump map
-    label carolinevisit: ## carolinelvl == 5, carolinebarlvl == 3
-        scene cc-160
-        "I guess Caroline hasn't arrived yet. I'll grab a coffee and wait for her."
-        scene ellie_menu with dissolve
-        p "Hey, good morning."
-        scene cc-156 with dissolve
-        ellie "Oh, [p], I've got a message for you."
-        p "A message?"
-        ellie "It's from that girl you always meet, Caroline. She says she won't be coming in today."
-        p "Oh..."
-        scene cc-157 with dissolve
-        ellie "Instead, she asked me to tell you to just go to her apartment."
-        p "Ah! I see. Thanks for the message!"
-        scene cc-158 with dissolve
-        ellie "Sounds exciting [p], good luck!"
-        p "Haha, I have no idea what you're talking about."
-        scene cc-159 with dissolve
-        "Caroline wants to invite me straight to her place!"
-        "Wow, this must mean she trusts me more. Maybe even... to take it to the next level."
-        "Don't get ahead of yourself [p]..."
-        scene black with fade
-        "A few moments later..."
-        # transition
-        p "{i}Knock knock{/i}"
-        c "Who's there?"
-        p "It's me, [p]!"
-        c "I'll be there just in a moment!"
-        "..."
-        c "Welcome!"
-        scene cc-167:
-            pos (0.0, -2.4)
-            linear 6 pos (0.0, 0.0)
-        $ renpy.pause(6.0,hard=True)
-        $ renpy.pause ()
-        scene cc-161 with dissolve
-        p "Good morning Caroline, you're dressed in something else today!"
-        c "You like it? It's comfy and really, that's what matters right?"
-        p "Anyway, I believe you summoned me."
-        scene cc-162 with dissolve
-        c "Hey! I wasn't sure if you'd go to the cafe this morning, so I left the cafe girl a message."
-        p "Let's swap numbers. You can just call me next time instead."
-        scene cc-163 with dissolve
-        c "Good idea! In the meantime, Coffee?"
-        p "Yes please."
-        scene cc-164 with dissolve
-        c "Okay, just hang tight. I'm curious to see if the one I make today will taste the same as the one before."
-        c "Why don't you put a game on, or something?"
-        scene cc-165 with dissolve
-        c "I'll be done real quick."
-        p "Sure!"
-        scene cc-166 with fade
-        "..."
-        "Now, if only I could figure out how to work this..."
-        stop music fadeout 1
-        scene black with fade
-        "A few moments later..."
-        ## Scene change Attack on titan
-        play music "sounds/effects/aot1.mp3"
-        scene aot-1 with hpunch
-        p "V-Vincent?"
-        scene aot-2 with dissolve
-        p "What are you-?"
-        scene aot-3 with vpunch
-        v "[p]!"
-        v "Argh!"
-        scene aot-4 with hpunch
-        p "What's the matter, are you okay?!"
-        scene aot-5 with dissolve
-        v "I-I don't have too much time."
-        v "[p], oh [p]..."
-        p "Vincent!"
-        scene aot-6 with dissolve
-        v "I'm... sorry...."
-        scene aot-4 with hpunch
-        p "Don't say that Vincent, you're going to be alright, you hear me!"
-        scene aot-6 with dissolve
-        v "She's... so much... stronger than we could have thought..."
-        v "Haha- {i}cough{/i}. How could we have known?"
-        v "How, possibly, could we have figured it out?"
-        scene aot-7 with dissolve
-        p "No, no, no!"
-        scene aot-8 with dissolve
-        v "We... don't have much time."
-        scene aot-9 with dissolve
-        $ renpy.pause()
-        scene aot-10 with hpunch
-        v "She's upon us!!"
-        ## Scene to future
-        scene aot-11
-        x "Hidden charge-"
-        scene aot-12 with flash
-        x "Static discord."
-        scene aot-13 with hpunch
-        p "Argh!!"
-        scene aot-14 with dissolve
-        v "[p], you don't have to worry about me anymore."
-        v "Use the power... save yourself."
-        p "But if I use it, you'll-!"
-        scene aot-15 with dissolve
-        v "It's... going to be alright."
-        v "I'll find a way."
-        p "But-!"
-        scene aot-16 with vpunch
-        v "[p]!!!"
-        scene aot-17
-        p "Are you sure about this?!"
-        scene aot-4 with hpunch
-        p "Am I using it here?! For real?!"
-        scene aot-16 with hpunch
-        v "You must! For the sake of humanity! For the sake of those who have fallen before us!"
-        v "This may be mankind's only chance!"
-        p "I-! I understand!"
-        scene aot-18 with dissolve
-        "For most of my life I've been unsure of my true calling. But now..."
-        "Now, I finally believe in myself."
-        scene aot-19 with dissolve
-        p "Take care of yourself Vincent. At this point, I can't guarantee what happens after."
-        scene aot-20 with dissolve
-        v "Mm!"
-        v "(You were always the best of us.)"
-        v "(My friend... I have no regrets.)"
-        p "ARGH!!!"
-        play music "sounds/effects/aot2.mp3"
-        scene aot-21 with hpunch
-        $ renpy.pause(2.0,hard=True)
-        scene aot-22 with dissolve
-        $ renpy.pause(3.5,hard=True)
-        scene aot-29 with dissolve
-        $ renpy.pause(3,hard=True)
-        scene aot-23 with dissolve
-        $ renpy.pause(3,hard=True)
-        scene aot-25 with dissolve
-        $ renpy.pause(1.5,hard=True)
-        scene aot-26 with vpunch
-        $ renpy.pause()
-        p "[i]ROOOAAAAARRRRR!!!!!!!!!!![/i]"
-        scene aot-30 with dissolve
-        $ renpy.pause()
-        scene aot-28 with dissolve
-        $ renpy.pause()
-        stop music fadeout 1
-        c "So? What do you think?"
-        scene black with fade
-        p "I think it's pretty cool how you can customise the characters to your choosing - even the party members and villain."
-        c "Oooh, she's not necessarily the villain but I won't spoil it for you."
-        p "All in all it's a pretty good game."
-        c "Why did you customise the characters that way, anyway? Do you know them in real life?"
-        p "Yeah, Vincent's a good mate. The girl is just random I met once or twice."
-        c "She seems to have left an impression on you."
-        p "Oh her? Nah, she just has this creepy vibe that really sticks with you."
-        c "Is it strange, playing yourself and your friends in a game?"
-        p "Hmm, it is. I mean, in their perspective, to them it's like everything happening in the game is real."
-        p "What if {i}we{/i} were actually in a game? How freaky would that be!"
-        c "It's interesting to think about."
-        p "Thanks for the coffee, by the way."
-        c "My pleasure, [p]."
-        c "Did you like it?"
-        p "Yeah, the coffee was good. Great as always, I'm sure."
-        c "Really? There was no difference?"
-        p "Uh, was there supposed to be a difference?"
-        c "..."
-        p "Oh I remember now! It's even BETTER than it was."
-        p "You must've used different beans! Or something..."
-        c "You'll have to try again later, [p]."
-        p "Ah..."
-        p "I'm not good at this stuff, you know that."
-        c "Practice makes perfect, right?"
-        p "Right."
-        p "By the way, can I just say, I love how serious you are at the bar."
-        c "You mean my professionalism."
-        p "Not many people can keep their composure around me you know?"
-        c "Haha! Jeez."
-        p "I guess that makes you special."
-        c "Because I can resist your charms?"
-        p "Only for the time being."
-        p "Love, uh, always finds a way."
-        c "That's from Jurassic Park!"
-        p "Jeff Goldblum, I think it was. Great movie too."
-        p "Except I think instead of love, he said life, so I made a little twist on it you see."
-        c "Very original and creative."
-        p "Just like Dante's."
-        p "On that note, don't you have a lot of study to do?"
-        c "Umm, a little."
-        p "What are you learning about now?"
-        c "I'm just doing some revision on cell cycles - basic microbiology."
-        p "Ooft. Sounds complicated. I don't want to hold you up anymore. You need to study, right?"
-        c "Oh, ah, I was planning do some study a little later."
-        p "No, no, I really don't want to get in the way of that."
-        c "I don't need to study straight away, why don't you-?"
-        p "Ah, I just don't wanna intrude. Anyway, didn't you know?"
-        p "Absence makes the heart grow fonder."
-        c "Always a clever quote you've got ready. Fine, I'll see you around?"
-        p "See you around!"
-        "I'm a little petty sometimes, playing hard to get. Hmm..."
-        "Absence {i}does{/i} make the heart grow fonder. Hah, I'm regretting leaving so soon already."
-        "Maybe it'll make her warm up to me more tonight at the bar."
-        call daykeep
-        call daykeep
-        $ carolinelvl += 1
-        jump map
+
     if carolinelvl == 6 and carolinebarlvl == 5:
+        scene black
+        scene cc-2 with fade
         p "Hey, Caroline."
         p "What's going on?"
         p "How's my favourite person doing?"
+        scene cc-3 with dissolve
         c "Good morning [p]. I'm glad to see you're so cheery."
+        scene cc-10 with dissolve
         c "..."
         p "What's going on? You're being a bit weird."
+        scene cc-11 with dissolve
         c "[p]... There's something I want to talk to you about."
         p "..."
         p "What's up?"
+        play music "sounds/san.mp3" fadeout 1
         c "I've had a lot of fun with you, [p], but I've been thinking really hard."
         "Oh no."
+        scene cc-15 with dissolve
         c "It's this relationship stuff - I just don't know if I can commit to... all of this."
         c "It's hard finding the time f-for everything like my studies, and-"
         p "Are you... is this serious?"
+        scene cc-294 with dissolve
         c "I'm sorry, [p] but I don't want you to think that I had sex with you just to take advantage of you!"
         c "At the time... I really wanted to."
-        p "You'r breaking up with me."
-        c "It's just... the timing of it all."
+        p "You're breaking up with me."
+        scene cc-295 with dissolve
+        c "I just want to put things on a pause for it a bit. It's just... the timing of it all."
         p "Huh."
+        scene cc-296 with dissolve
         c "I hope you're not taking it the wrong way..."
         menu:
             "You just love to keep stringing me along, don't you?":
                 $ depravity += 1
                 p "You love flirting so close to the line, then pulling away."
                 p "What is the matter with you?"
+                scene cc-298 with dissolve
                 c "No! [p]! That's not what it's like!"
             "It can't be helped.":
                 p "Is... this what you really want?"
-        c "I really wanted it to work, and I gave it a good go."
+        c "I really wanted it to work, and I gave it a good go. But right now, I think I need a break."
         p "I thought you liked me. I liked you."
+        scene cc-297 with dissolve
         c "I like you too, [p]. I really liked the time we-"
-        p "Then why are you doing this? It was working so well!"
+        p "Then why are you doing this? It was working so well! It's just so sudden."
         p "This is just... so out of the blue. Why?!"
+        scene cc-299 with dissolve
         c "[p], please! I... can't commit enough time to make it work out."
         c "I'm just at this stage in my life where a lot of things are on the line."
         c "I told you as soon as I could, I promise!"
         p "We can work through it, set expectations."
+        scene cc-300 with dissolve
         c "It's nothing you did wrong, [p]. There is just a lot on my plate."
         p "A lot on your... plate."
+        scene cc-301 with dissolve
         c "..."
         p "It wasn't so long ago that I also had a lot on my plate myself."
         p "At the time, I wanted a break from it all. To recollect yourself."
         p "After that, I met you, Caroline."
+        scene cc-302 with dissolve
         c "I'm sorry. It's just all the trips and exams coming up, I'm losing myself. I can't devote the time."
         p "I was like that too, and someone listened to me, and heard me out."
         p "If that's how it is, what can I do?"
         c "I'm going on my trip soon. I'll be leaving. That's why it's the right time to tell you now anyway. I tried to do it as soon as I could."
         p "Mm. I guess I'll see you when you're back."
+        scene cc-303 with dissolve
         c "Well, until then, I still want to be your good friend."
         p "A friend, huh?"
+        scene cc-304 with dissolve
         c "You know what I mean, [p]."
-        p "We'll be good friends. Take care, Caroline."
+        scene cc-305 with dissolve
+        p "Oh we'll be good friends. Goodbye, Caroline."
+        scene cc-306 with dissolve
         c "[p]..."
         ## Autumn Scene
+        scene cd-9 with vpunch
         p "For all the fuckings things that could have happened, fuck!"
+        scene cd-10 with flash
         p "Fuckity fuck fuck! Did I, [p], just get dumped?!"
-        x "What happened?"
-        p "The worst outcome. Got dumped. Fuck!"
+        scene cd-11 with dissolve
+        x "Tell me, [p]. What happened?"
+        p "The worst outcome. Got dumped."
         x "What did you do wrong?"
+        scene cd-12 with dissolve
         p "I don't think I did anything wrong, but everything went to shit anyway."
+        p "Why do you care about my life anyway?"
+        x "Why indeed."
+        scene cd-13 with dissolve
+        p "Eh, what's the point, I don't understand."
+        x "You will come to learn more later, but I don't do this without reason."
+        x "Watch."
+        scene cd-14 with dissolve
+        $ renpy.pause()
+        scene cd-15 with hpunch
         p "Wh-What is this?"
-        p "IF YOU FUCKING SAY THAT AGAIN, ILL STRANGLE YOU BITCH!"
+        scene cd-16 with hpunch
+        p "WHAT THE FUCK DID YOU JUST SAY TO ME?"
+        scene cd-17 with dissolve
+        p "YOU WANNA BREAK UP WITH ME? THINK YOU'VE HAD ENOUGH?!"
+        scene cd-18 with hpunch
         c "No! [p]! I'm sorry! I said I'm sorry!"
-        p "Wha- I don't remember doing this. This isn't me, I didn't do this! This... isn't me!"
-        p "YOU just think you're so much better than me, don't you?"
+        scene cd-19 with dissolve
+        p "Wha- who-?. This isn't me, I didn't do this! This... isn't me!"
+        scene cd-20 with hpunch
+        p "Well, well, look who it is. YOU just think you're so much better than me, don't you?"
+        scene cd-21 with dissolve
         p "Looking at me like, I'm some kind of FUCKED up, DEPRAVED-"
+        scene cd-22 with dissolve
+        $ renpy.pause()
         x "It's happened before, perhaps in the past, or in the future, or somewhere else entirely."
+        scene cd-23 with dissolve
         x "But it's happened."
         p "..."
+        scene cd-24 with dissolve
         x "All things considered, your outcome isn't the worst, is it?"
         x "Continue on, [p]. You have much yet to learn about depravity."
+        scene splash_caroline with dissolve
+        d "This is the end of Caroline's chapter so far - I hope you enjoyed it and stay tuned for next time!"
+        $ carolinelvl += 1
+        call daykeep
+        jump map
     scene cc-2
     p "Good morning Caroline!"
     scene cc-3
     c "Good morning, [p]."
     c "I'm trying to cram right now. Sorry about this, but could you give me a moment?"
     jump cafe
+
+label carolineVisit: ## carolinelvl == 5, carolinebarlvl == 3
+    scene cc-160
+    "I guess Caroline hasn't arrived yet. I'll grab a coffee and wait for her."
+    scene ellie_menu with dissolve
+    p "Hey, good morning."
+    scene cc-156 with dissolve
+    ellie "Oh, [p], I've got a message for you."
+    p "A message?"
+    ellie "It's from that girl you always meet, Caroline. She says she won't be coming in today."
+    p "Oh..."
+    scene cc-157 with dissolve
+    ellie "Instead, she asked me to tell you to just go to her apartment."
+    p "Ah! I see. Thanks for the message!"
+    scene cc-158 with dissolve
+    ellie "Sounds exciting [p], good luck!"
+    p "Haha, I have no idea what you're talking about."
+    scene cc-159 with dissolve
+    "Caroline wants to invite me straight to her place!"
+    "Wow, this must mean she trusts me more. Maybe even... to take it to the next level."
+    "Don't get ahead of yourself [p]..."
+    scene black with fade
+    "A few moments later..."
+    # transition
+    p "{i}Knock knock{/i}"
+    c "Who's there?"
+    p "It's me, [p]!"
+    c "I'll be there just in a moment!"
+    "..."
+    c "Welcome!"
+    scene cc-167:
+        pos (0.0, -2.4)
+        linear 6 pos (0.0, 0.0)
+    $ renpy.pause(6.0,hard=True)
+    $ renpy.pause ()
+    scene cc-161 with dissolve
+    p "Good morning Caroline, you're dressed in something else today!"
+    c "You like it? It's comfy and really, that's what matters right?"
+    p "Anyway, I believe you summoned me."
+    scene cc-162 with dissolve
+    c "Hey! I wasn't sure if you'd go to the cafe this morning, so I left the cafe girl a message."
+    p "Let's swap numbers. You can just call me next time instead."
+    scene cc-163 with dissolve
+    c "Good idea! In the meantime, Coffee?"
+    p "Yes please."
+    scene cc-164 with dissolve
+    c "Okay, just hang tight. I'm curious to see if the one I make today will taste the same as the one before."
+    c "Why don't you put a game on, or something?"
+    scene cc-165 with dissolve
+    c "I'll be done real quick."
+    p "Sure!"
+    scene cc-166 with fade
+    "..."
+    "Now, if only I could figure out how to work this..."
+    stop music fadeout 1
+    scene black with fade
+    "A few moments later..."
+    ## Scene change Attack on titan
+    play music "sounds/effects/aot1.mp3"
+    scene aot-1 with hpunch
+    p "V-Vincent?"
+    scene aot-2 with dissolve
+    p "What are you-?"
+    scene aot-3 with vpunch
+    v "[p]!"
+    v "Argh!"
+    scene aot-4 with hpunch
+    p "What's the matter, are you okay?!"
+    scene aot-5 with dissolve
+    v "I-I don't have too much time."
+    v "[p], oh [p]..."
+    p "Vincent!"
+    scene aot-6 with dissolve
+    v "I'm... sorry...."
+    scene aot-4 with hpunch
+    p "Don't say that Vincent, you're going to be alright, you hear me!"
+    scene aot-6 with dissolve
+    v "She's... so much... stronger than we could have thought..."
+    v "Haha- {i}cough{/i}. How could we have known?"
+    v "How, possibly, could we have figured it out?"
+    scene aot-7 with dissolve
+    p "No, no, no!"
+    scene aot-8 with dissolve
+    v "We... don't have much time."
+    scene aot-9 with dissolve
+    $ renpy.pause()
+    scene aot-10 with hpunch
+    v "She's upon us!!"
+    ## Scene to future
+    scene aot-11
+    x "Hidden charge:"
+    scene aot-12 with flash
+    x "Static discord."
+    scene aot-13 with hpunch
+    p "Argh!!"
+    scene aot-14 with dissolve
+    v "[p], you don't have to worry about me anymore."
+    v "Use the power... save yourself."
+    p "But if I use it, you'll-!"
+    scene aot-15 with dissolve
+    v "It's... going to be alright."
+    v "I'll find a way."
+    p "But-!"
+    scene aot-16 with vpunch
+    v "[p]!!!"
+    scene aot-17
+    p "Are you sure about this?!"
+    scene aot-4 with hpunch
+    p "Am I using it here?! For real?!"
+    scene aot-16 with hpunch
+    v "You must! For the sake of humanity! For the sake of those who have fallen before us!"
+    v "This may be mankind's only chance!"
+    p "I-! I understand!"
+    scene aot-18 with dissolve
+    "For most of my life I've been unsure of my true calling. But now..."
+    "Now, I finally believe in myself."
+    scene aot-19 with dissolve
+    p "Take care of yourself Vincent. At this point, I can't guarantee what happens after."
+    scene aot-20 with dissolve
+    v "Mm!"
+    v "(You were always the best of us.)"
+    v "(My friend... I have no regrets.)"
+    p "ARGH!!!"
+    play music "sounds/effects/aot2.mp3"
+    scene aot-21 with hpunch
+    $ renpy.pause(2.0,hard=True)
+    scene aot-22 with dissolve
+    $ renpy.pause(3.5,hard=True)
+    scene aot-29 with dissolve
+    $ renpy.pause(3,hard=True)
+    scene aot-23 with dissolve
+    $ renpy.pause(3,hard=True)
+    scene aot-25 with dissolve
+    $ renpy.pause(1.5,hard=True)
+    scene aot-26 with vpunch
+    $ renpy.pause()
+    p "{i}ROOOAAAAARRRRR!!!!!!!!!!!{/i}"
+    scene aot-30 with dissolve
+    $ renpy.pause()
+    scene aot-28 with dissolve
+    $ renpy.pause()
+    stop music fadeout 1
+    c "So? What do you think?"
+    play music "sounds/something.mp3" fadeout 1
+    scene cc-168 with fade
+    p "Wow, what a game. Let's see."
+    p "I think it's pretty cool how you can customise the characters to your choosing - even the party members and villain."
+    scene cc-169 with dissolve
+    c "Oooh, she's not necessarily the villain but I won't spoil it for you."
+    scene cc-170 with dissolve
+    p "All in all it's a pretty good game."
+    scene cc-171 with dissolve
+    c "Why did you customise the characters that way, anyway? Do you know them in real life?"
+    p "Yeah, Vincent's a good mate. The girl is just random I met once or twice."
+    scene cc-172 with dissolve
+    c "She seems to have left an impression on you."
+    p "Oh her? Nah, she just has this creepy vibe that really sticks with you."
+    scene cc-173 with dissolve
+    c "Is it strange, playing yourself and your friends in a game?"
+    p "Hmm, it is. I mean, in their perspective, to them it's like everything happening in the game is real."
+    p "What if {i}we{/i} were actually in a game? How freaky would that be!"
+    scene cc-174 with dissolve
+    c "It's interesting to think about."
+    scene cc-175 with dissolve
+    p "Thanks for the coffee, by the way."
+    c "My pleasure, [p]."
+    c "Did you like it?"
+    p "Yeah, the coffee was good. Great as always, I'm sure."
+    scene cc-176 with dissolve
+    c "Really? There was no difference?"
+    p "Uh, was there supposed to be a difference?"
+    scene cc-177 with dissolve
+    c "..."
+    scene cc-178 with hpunch
+    p "Oh I remember now! It's even BETTER than it was."
+    p "You must've used different beans! Or something..."
+    scene cc-179 with dissolve
+    c "You'll have to try again later, [p]."
+    p "Ah..."
+    p "I'm not good at this stuff, you know that."
+    scene cc-180 with dissolve
+    c "Practice makes perfect, right?"
+    p "Right."
+    scene cc-181 with dissolve
+    p "By the way, can I just say, I love how serious you are at the bar."
+    c "You mean my professionalism."
+    p "Not many people can keep their composure around me you know?"
+    c "Haha! Jeez."
+    scene cc-182 with dissolve
+    p "I guess that makes you special."
+    c "Because I can resist your charms?"
+    p "Only for the time being."
+    scene cc-183 with dissolve
+    p "Love, uh, always finds a way."
+    c "That's from Jurassic Park!"
+    scene cc-174 with dissolve
+    p "Jeff Goldblum, I think it was. Great movie too."
+    p "Except I think instead of love, he said life, so I made a little twist on it you see."
+    c "Very original and creative."
+    p "Just like Dante's."
+    scene cc-184 with dissolve
+    p "On that note, don't you have a lot of study to do?"
+    c "Umm, a little."
+    p "What are you learning about now?"
+    scene cc-185 with dissolve
+    c "I'm just doing some revision on cell cycles - basic microbiology."
+    p "Ooft. Sounds complicated. I don't want to hold you up anymore. You need to study, right?"
+    scene cc-186 with dissolve
+    c "Oh, ah, I was planning do some study a little later."
+    p "No, no, I really don't want to get in the way of that."
+    scene cc-187 with dissolve
+    c "I don't need to study straight away, why don't you-?"
+    p "Ah, I just don't wanna intrude. Anyway, didn't you know?"
+    scene cc-188 with dissolve
+    p "Absence makes the heart grow fonder."
+    c "Always a clever quote you've got ready, huh?"
+    p "Always."
+    scene cc-189 with dissolve
+    c" Fine, have it your way. I'll see you around?"
+    p "See you around!"
+    scene black with fade
+    "I'm a little petty sometimes, playing hard to get. Hmm..."
+    "Absence {i}does{/i} make the heart grow fonder. Hah, I'm regretting leaving so soon already."
+    "Maybe it'll make her warm up to me more tonight at the bar."
+    call daykeep
+    call daykeep
+    $ carolinelvl += 1
+    jump map

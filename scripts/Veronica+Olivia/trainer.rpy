@@ -311,7 +311,7 @@ label trainer:
                     scene o-111 with hpunch
                     o "Get out!"
                     o "I already gave you what you wanted today!"
-                    p "You are a Slut and you will give be whatever I want, whenever I want."
+                    p "You are a Slut and you will give me whatever I want, whenever I want."
                     p "And now, I want you to spread your legs."
                     scene o-112 with flash
                     o "No, please! I'm dirty down there, at least let me wipe first!"

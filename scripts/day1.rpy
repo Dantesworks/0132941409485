@@ -66,12 +66,10 @@ label splashscreen:
     scene black
     with Dissolve(1)
 
-    call abc
 
     return
 
 label start:
-    call abc
     default depravity = 0
     stop music fadeout 1
     "It's the feeling of deja vu. I feel - no, I know I've been here before."

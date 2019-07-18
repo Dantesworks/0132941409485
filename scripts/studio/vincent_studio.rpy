@@ -2,16 +2,7 @@ default vincent_work = 1
 label vincent_studio:
     menu:
         "Talk":
-            if amandalvl == 11:
-                p "Just going to say hi to my [mr]."
-                v "All good man. You know the way."
-                p "Hey [mr]!"
-                m "Back already?"
-                p "What, you're not glad to see me?"
-                m "Yes, [p], but I've got work to do!"
-                p "I think I'm going to help Vincent around with some photo work, so perhaps I've got some work to do too."
-                m "Some of the other girls have photoshoots to do."
-                p "Yeah I know. I'll go look at that."
+            jump amanda_studio
         "Work":
             if amandalvl == 11 and vincent_work == 1:
                 v "[p]!"
@@ -21,8 +12,7 @@ label vincent_studio:
                 v "I'm glad you understand."
                 v "Nyx has a photoshoot coming up soon, and we're looking for some close up shots of her face."
                 v "Standard close ups. Centre the face, then just click."
-                p "Sounds easy enough."
-                p "I have a camera and lens already."
+                p "Sounds easy enough. I have a camera and lens already."
                 v "We're looking for a more specific kind of shot."
                 v "You'll need one of those low aperture lens. Hmm, something like 50mm primes."
                 p "Yeah, I'll look into that."
@@ -100,6 +90,19 @@ label vincent_studio:
                     "You have gained $100!"
                     $ cash += 100
                     p "Sweet."
+                    v "By the way, uh, Nyx. She's really something isn't she?"
+                    p "Oh for sure!"
+                    v "Did she, you know, say something about me?"
+                    p "Erm. I don't know, was she meant to tell me something?"
+                    v "Ah mate, never mind, don't worry! Hahaha..."
+                    p "..."
+                    p "You've got the hots for her haven't you?"
+                    v "Shh! Don't say that around here man."
+                    p "What's the matter, bro? There's nothing wrong with that, she's hot."
+                    v "Yeah that may be, but I wouldn't be tangled in her affairs man."
+                    v "Hey. You just haven't heard the stories."
+                    p "Stories? What stories?"
+                    v "A tale for another time."
                     v "Come back next time, [p]. See if I can find you more work."
                     $ vincent_work += 1
                     call daykeep
@@ -123,15 +126,15 @@ label vincent_studio:
                 ma "Nyx told me about you, [p]."
                 p "Good things?"
                 ma "Haha! Something about being an up and coming photographer for Dante studios?"
-                ma "We have a great work culture here. The photographers treat the models well, ane vice versa."
+                ma "We have a great work culture here. The photographers treat the models well, and vice versa."
                 p "Sounds awesome."
                 ma "We're actually looking for a portrait shot of me to go up on the website on the page where the models are listed."
                 ma "It'll have a lot of other models up there too, so make sure I stand out!"
                 p "I can't imagine that would be difficult for you."
                 ma "Hmm?"
-                p "I mean, you have those ears, right? It's a very... exotic look."
-                p "Are those elf ears?"
-                ma "Ears? Is something the matter with my ears?"
+                p "I mean, you have those ears, right? It's a very exotic look."
+                p "Are those elf ears, by the way?"
+                ma "Elf ears? Is something the matter with my ears?"
                 p "..."
                 p "Yeah. Are those like, prosthetics or something?"
                 ma "Prosthetics?"
@@ -148,3 +151,43 @@ label vincent_studio:
                 ma "Yes, but let's also get a little bit creative."
                 ma "Why don't you just start off with a basic shot of me standing still?"
                 p "Alright, done."
+                ma "Did Nyx give you any pointers on how to shoot?"
+                p "Yeah, a bit. Let me try out what I learned."
+                p "Could you put your hands on your hips?"
+                p "Great."
+                p "Now kneel down, with your hands above your head."
+                ma "Oh, you're getting creative."
+                p "Awesome."
+                p "Now stick your tongue out and look..."
+                ma "Sexy?"
+                p "Right on."
+                p "That's a nice collection. Good job, Maya!"
+                ma "Nyx must have taught you quite a bit, I can tell!"
+                ma "She usually likes the more suggestive poses and expressions."
+                p "And what do you like?"
+                ma "Who knows? I'm an enigma."
+                p "You are indeed. Anyway, let me get these shots back to Vincent. I think you'll stand out plenty on that website!"
+                # transition
+                v "So, how'd it go?"
+                p "It went great! I think Dante will be pleased with these shots. I got a few questions about Maya though."
+                p "What is up with her ears?"
+                v "Who knows man. All the models are a little strange in their own ways."
+                p "We're all a little strange, I feel."
+                v "Oh we all have quirks. Definitely. But we don't have ears twice the normal size now do we?"
+                p "What's up with that?"
+                v "I wish I knew. Well, that's probably a lie. But see, it makes her unique and thats one of the things that Dante Studios likes."
+                p "Makes sense to me."
+                v "Good. Here's your pay."
+                $ cash += 100
+                "You have gained $100!"
+                v "I've got good news coming your way. At this rate, you might get a job that will pay more. Amanda and the other models are talking about it."
+                v "Have a chat to your [mr] tomorrow and she might be able to update you."
+                v "As for me? I feel like some ice cream..."
+                $ vincent_work += 1
+                $ amandalvl += 1
+                call daykeep
+                jump map
+            else:
+                v "What's up [p]?"
+                v "Sorry, no work for you just yet!"
+                jump vincent_studio

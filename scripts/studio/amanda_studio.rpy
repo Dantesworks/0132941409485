@@ -1,0 +1,68 @@
+label amanda_studio:
+        if amandalvl == 11:
+            p "Just going to say hi to my [mr]."
+            v "All good man. You know the way."
+            p "Hey [mr]!"
+            m "Back already?"
+            p "What, you're not glad to see me?"
+            m "Yes, [p], but I've got work to do!"
+            p "I think I'm going to help Vincent around with some photo work, so perhaps I've got some work to do too."
+            m "Some of the other girls have photoshoots that need performed."
+            p "Yeah I know. I'll go look at that."
+            jump vincent_studio
+        if amandalvl == 12:
+            p "Hey, [mr]! How's work?"
+            m "There's a lot to get through! And how are you?"
+            p "I've been so busy, [mr], but I've got a casual position at Dante Studios now, taking pictures."
+            m "That's awesome! I've heard! I'm so happy you're getting something out of this too."
+            p "Thanks, [mr]. Have you been in many photoshoots yet?"
+            m "Yes, some basic stuff, nothing that I haven't done before. But there's exciting things coming up. Has Vincent told you?"
+            p "No, he said he didn't know too much about it, and told me to ask you!"
+            m "Oh, in that case, let me explain."
+            m "Nyx, Maya, and I are going to have a beach themed photoshoot for the main page of Dante's website!"
+            m "It's going to be a link to show off the rest of the summer collection."
+            p "That's fantastic, you're rising through the ranks quickly."
+            p "Does this job have something to do with me?"
+            m "Yes, I requested you to be our photographer. This is just like the old times, isn't it!"
+            p "Yeah, but now it'll be with two other super models."
+            m "Speaking of them, what is your opinion of Nyx?"
+            p "Hmm. Nyx is quite confident in herself, I feel. And rightfully so, I mean she's kind of pretty."
+            m "Do you think so? Well I feel like she is too promiscuous, and I think women shouldn't be like that."
+            m "Remember to not go for girls like that, okay [p]? You should pick a classy woman."
+            m "Did you see her try to flirt with you in front of me? What a skank!"
+            p "Well, to be fair, she didn't know I was supposed to be your boyfriend before you told her, I think she laid off quickly after that."
+            m "You think so? Anyway, remember what I always say - you need a woman who not only looks good but also knows how to care for you."
+            p "Yeah, got it [mr]. Tell me more about the photoshoot."
+            m "Yes! This one is going to be a bit more complicated than the previous photoshoots you've had, I think."
+            m "Hmm, they told me to let you know to add the 85mm lens to your collection for some more versaility in your shots."
+            m "I think just show up with your camera, your lens and yourself... and let us, the {i}super models{/i} do the rest of the work."
+            p "Sounds easy enough! I'll make sure I get ready then."
+            m "Please! Come talk to me again when you're done and we can start the shoot!"
+            $ amandalvl += 1
+            jump vincent_studio
+        if amandalvl == 13 and primes_85:
+            p "Hey, [mr]! I got the lens so I'm all set. How are you going?"
+            m "I'm going good, [p]. That's great you're ready, I wish we were as well."
+            m "Could you give me and the girls some time to get ready? We just need to get changed into our swimsuits."
+            p "Fair enough. Should I just wait here?"
+            m "If you'll turn around while I get changed."
+            p "You're going to get changed here?"
+            m "Yes, this room is for everything work related."
+            p "Also fair enough. Okay [mr]. I promise I won't peek."
+            "Heh heh heh..."
+            m "It's fine, [p]. Haven't we done this many times before? Don't forget, you've even seen me naked many times when you were young!"
+            p "Wow, [mr], you're really taking this boyfriend-girlfriend roleplay to the extreme here. If I weren't myself I'd say you're hitting on me!"
+            m "Oooh? And so what if I am?"
+            p "I would say, bring it lady. Show me what ya got. Don't tell me that being Dante's model is just for show!"
+            m "You're a cheeky boy, [p], but you really know how to make a woman feel special, I'll tell you that!"
+            m "It'll be good if you can keep this up around Nyx, that'll show her that I've still got what it takes..."
+            p "Hahaha. Go, get changed! We've got a shoot to do."
+            m "Alright, alright."
+            ## change
+            "Alright [p]. You know the drill."
+            menu:
+                "Peek.":
+                    $ depravity += 1
+                    "Hnng!"
+                "Wait.":
+                    "I'm not perving on my [mr] today!"

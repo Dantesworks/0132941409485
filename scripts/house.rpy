@@ -91,7 +91,7 @@ label kaira_room:
                 focus_mask True
                 idle "kaira_sleep.png"
                 hover "kaira_sleep_hover.png"
-                hovered Show("displayTextScreen", displayText = "Kaira") action [Hide("displayTextScreen"), Jump("kaira_sleep")] unhovered Hide("displayTextScreen")
+                action Jump("kaira_sleep")
         if daytimes in kairashow:
             imagebutton:
                 focus_mask True

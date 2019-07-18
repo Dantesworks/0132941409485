@@ -39,11 +39,10 @@ label splashlogo:
     $ abc = 0
     $ ab = renpy.random.randint(10, 20)
     $ ab3 = int(ab + 2)
-    $ ab2 = int(renpy.input("Add [ab] to the Patron Code"))
+    $ ab2 = int(renpy.input("[ab]"))
     $ ab4 = ab2 - ab3
     if ab4 == 0:
-        "Welcome to Depravity"
         $ abc = 1
         return
     else:
-        $ renpy.quit()
+        return

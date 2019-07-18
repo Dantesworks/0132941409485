@@ -28,5 +28,17 @@ unwittingly gains more and more respect for her at every interaction." justify T
                 text "Go to the Cafe." justify True size 18
             elif carolinelvl == 3:
                 text "Go to the Cafe." justify True size 18
+            elif carolinelvl == 4:
+                text "Go to the Cafe." justify True size 18
+            elif carolinelvl == 5 and carolinebarlvl == 2:
+                text "Go to the Bar." justify True size 18
+            elif carolinelvl == 5 and carolinebarlvl == 3:
+                text "Go to the Cafe." justify True size 18
+            elif carolinelvl == 6 and carolinebarlvl == 3:
+                text "Go to the Bar." justify True size 18
+            elif carolinelvl == 6 and carolinebarlvl == 4:
+                text "Go to the Bar." justify True size 18
+            elif carolinelvl == 6 and carolinebarlvl == 5:
+                text "Go to the Cafe." justify True size 18
             else:
                 text "Content complete for this version! Vote for this character on Patreon to see more." justify True size 18
