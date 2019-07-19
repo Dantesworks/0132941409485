@@ -1,7 +1,7 @@
 default vincent_work = 1
 label vincent_studio:
     menu:
-        "Talk":
+        "Visit Amanda":
             jump amanda_studio
         "Work":
             if amandalvl == 11 and vincent_work == 1:
@@ -187,6 +187,29 @@ label vincent_studio:
                 $ amandalvl += 1
                 call daykeep
                 jump map
+            if amandalvl == 13:
+                v "[p]!"
+                v "What the hell was that earlier? Apparently you just left in the middle of a shoot!"
+                p "Oh, right. Something important came up, and I had to leave with Amanda."
+                p "Sorry about that. Are Maya and Nyx really pissed off?"
+                v "No, not really. They seemed understanding."
+                p "Oh really? That's nice."
+                v "It might have been because I promised that you'd make it up to them."
+                p "How am I gonna make it up to them?"
+                v "I don't know. They wanted to talk to you and come to an arrangement. I'll let them handle it."
+                v "Girls!"
+                v "You girls wanted [p]?"
+                ny "That's right. Could you please leave us for a moment, Vincent?"
+                v "Aww, okay."
+                p "This is scary guys, what did you want to chat about?"
+                ma "Nyx?"
+                ny "Fine. I'm sorry for what happened with Amanda earlier. I overstepped my boundaries."
+                p "Oh? Haha, I see."
+                p "To be honest, I don't mind really, so don't worry about it. Just don't do it again. And shouldn't you be apologising to Amanda, not me?"
+                ny "..."
+                ny "I've already done so, don't worry. Anyway, as an apology, I wanted to show you something."
+                ma "Oh Nyx, are you really?"
+                
             else:
                 v "What's up [p]?"
                 v "Sorry, no work for you just yet!"
