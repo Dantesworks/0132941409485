@@ -17,6 +17,10 @@ screen homescreen():
         yspacing 50
         imagebutton:
             focus_mask True
+            idle "phone/icon/rb_icon.png"
+            action OpenURL("https://www.redbubble.com/people/danteworks/works/40125245-caroline-prestige?asc=u")
+        imagebutton:
+            focus_mask True
             idle "phone/icon/amanda_icon.png"
             action [Hide("homescreen"), Show("amanda_profile")]
         imagebutton:
@@ -47,7 +51,6 @@ screen homescreen():
             focus_mask True
             idle "phone/icon/BCC_icon.png"
             action [Hide("homescreen"), Show("btc"), Play("voice", "sounds/boom.mp3"), PauseAudio("music", True)]
-        null
         null
         null
         null

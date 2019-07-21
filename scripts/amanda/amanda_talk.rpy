@@ -49,7 +49,6 @@ label amandatalk:
     if amandalvl == 2 and amandakitchenlvl == 2 and day > amandatalk:
         scene black
         scene a-2 with fade
-        $ amandashow = ["1"]
         play music "sounds/wisteria.mp3" fadeout 1
         p "Good morning, [mr]!"
         p "Getting ready for another day of work?"

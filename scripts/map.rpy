@@ -76,7 +76,7 @@ label map:
                 focus_mask True
                 idle "map_studios.png"
                 hover "map_studios_hover.png"
-                if daytime == 1:
+                if daytime == 2:
                     action Jump("studio_lobby")
                 else:
                     action Show("studioclosed")

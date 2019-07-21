@@ -88,7 +88,7 @@ label start:
     x "What's going on here?"
     x "You look a bit down there, buddy. Are you alright?"
     x "What's your name, man?"
-    $ player = renpy.input("My name?")
+    $ player = renpy.input("My name?",default="Anon")
     $ player = player.strip()
     if player == "":
         $ player = "Anon"
@@ -108,7 +108,7 @@ label start:
     p "Remember when bitcoin was booming? It just kept going up and I thought I could ride the wave."
     p "I put a lot of money in. A lot of money in at the top! I-I thought it'd keep going up..."
     p "And now, I've lost everything!"
-    p "Fucking bogs took everything from me!"
+    p "{i}Fucking{/i} bogs took everything from me!"
     scene 1_v_shocked with dissolve
     x "That's awful!"
     p "I can't pay rent, I can't pay my tuition fees, I've got nothing left!"
@@ -116,13 +116,13 @@ label start:
     p "Who am I? I'm nobody."
     x "You mentioned home, what about your family? I'm sure they can help?"
     p "F-family? Before I moved, I lived with two others."
-    $ mr = renpy.input("The older woman you live at home with is your ???. (Default = landlord)")
+    $ mr = renpy.input("The older woman you live at home with is your?",default="landlord")
     $ mr = mr.strip()
     $ mr = mr.lower()
     if mr == "":
         $ mr = "landlord"
 
-    $ sr = renpy.input("The younger woman you live with at home is your ???. (Default = housemate")
+    $ sr = renpy.input("The younger woman you live with at home is your?",default="housemate")
     $ sr = sr.strip()
     $ sr = sr.lower()
     if sr == "":

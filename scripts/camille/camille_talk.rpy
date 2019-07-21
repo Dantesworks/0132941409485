@@ -50,8 +50,6 @@ label camilletalk:
         $ camilletalk = day
         jump Camille
     if camillelvl == 2 and nicolelvl >= 8:
-        $ amandakitchen = True
-        $ amandashow = ["1"]
         scene black
         scene cam-8 with fade
         p "Hello Camille!"

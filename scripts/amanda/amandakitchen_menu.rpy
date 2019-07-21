@@ -597,6 +597,27 @@ label amandakitchen:
         $ amandakitchenlvl += 1
         call daykeep from _call_daykeep_16
         jump kitchen
+    if amandalvl == 16:
+        p "Hey [mr]."
+        m "Hi sweetie!"
+        p "Long day at work?"
+        m "Oh it was great. I love working with the rest of the Dante Studio girls."
+        p "That's nice to hear!"
+        "Wow, it's like she's completely forgotten what happened before."
+        "Time to bring that back up. I can't wait to see [mr] crawling over my cock."
+        p "Hey, there's something I want to show you."
+        m "Show me? Ah..."
+        m "I'm a bit tired today. Like you said, it has been a long day. After I finish up in the kitchen I'll be taking an early day off."
+        p "It won't be too long."
+        m "How about tomorrow, [p]?"
+        p "Oh, alright then. That'll work."
+        m "Thank you."
+        "Did she know what I was trying to force do something funny?"
+        "Was I too horny? Did I give it away?"
+        "..."
+        "No matter. I'll go straight to her work tomorrow."
+        $ amandalvl += 1
+        jump kitchen
     scene ak-1
     p "Hey, I love you [mr]!"
     scene ak-2

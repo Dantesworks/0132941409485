@@ -577,25 +577,21 @@ label Caroline:
         p "I would love to."
         scene cc-48 with dissolve
         $ renpy.pause()
-        "This is really spacious."
         scene cc-49 with dissolve
         $ renpy.pause()
-        "There are industrial flavours, its very much modern."
         scene cc-50 with dissolve
         $ renpy.pause()
-        "Mhmm. Even the tubes on the ceiling. I wonder if this place was ever like a warehouse or something that was repurposed."
         scene cc-51 with dissolve
         $ renpy.pause()
-        "Very modern decorations. Flat colours."
-        scene cc-52 with dissolve
-        $ renpy.pause()
-        "All in all..."
         scene cc-53 with dissolve
         $ renpy.pause()
-        "Not shabby at all!"
-        scene cc-54 with dissolve
+        scene cc-52 with dissolve
         $ renpy.pause()
-        "With a killer view to boot."
+        "This is really spacious and there are industrial flavours, its very much modern."
+        "Mhmm. Even the tubes on the ceiling. I wonder if this place was ever like a warehouse or something that was repurposed."
+        "With a killer view to boot as well."
+        "All in all, not too shabby!"
+        scene cc-54 with dissolve
         p "When you said it was all wholesome and ambient, I was expecting something with darker colours."
         p "More... earthy?"
         scene cc-55 with dissolve

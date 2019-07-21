@@ -617,8 +617,6 @@ label nicoletalk:
         $ nicoleday = day
         jump living_room
     if nicolelvl == 8 and day > nicoleday:
-        $ amandakitchen = True
-        $ amandashow = ["1"]
         scene black
         scene n-1 with fade
         p "Afternoon, Nicky."
