@@ -598,20 +598,28 @@ label amandakitchen:
         call daykeep from _call_daykeep_16
         jump kitchen
     if amandalvl == 16:
+        scene black
+        scene ak-1 with fade
         p "Hey [mr]."
+        scene ak-2 with dissolve
         m "Hi sweetie!"
         p "Long day at work?"
+        scene ak-7 with dissolve
         m "Oh it was great. I love working with the rest of the Dante Studio girls."
         p "That's nice to hear!"
         "Wow, it's like she's completely forgotten what happened before."
         "Time to bring that back up. I can't wait to see [mr] crawling over my cock."
         p "Hey, there's something I want to show you."
+        scene ak-8 with dissolve
         m "Show me? Ah..."
+        scene ak-7 with dissolve
         m "I'm a bit tired today. Like you said, it has been a long day. After I finish up in the kitchen I'll be taking an early day off."
         p "It won't be too long."
         m "How about tomorrow, [p]?"
         p "Oh, alright then. That'll work."
+        scene ak-12 with dissolve
         m "Thank you."
+        scene black with fade
         "Did she know what I was trying to force do something funny?"
         "Was I too horny? Did I give it away?"
         "..."

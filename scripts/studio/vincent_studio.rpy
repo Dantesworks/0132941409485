@@ -1,8 +1,7 @@
 default vincent_work = 1
 label vincent_studio:
     call hidescreens
-    scene black
-    scene a-16 with fade
+    scene a-16
     menu:
         "Visit Amanda":
             if studio_intro == False:
@@ -261,6 +260,7 @@ label vincent_studio:
                 p "You are indeed. Anyway, let me get these shots back to Vincent. I think you'll stand out plenty on that website!"
                 # transition
                 scene black
+                play music "sounds/want.mp3" fadeout 1
                 scene a-17 with fade
                 v "So, how'd it go?"
                 p "It went great! I think Dante will be pleased with these shots. I got a few questions about Maya though."
@@ -287,113 +287,204 @@ label vincent_studio:
                 call daykeep
                 jump map
             if amandalvl == 15:
+                scene black
+                scene a-217 with fade
                 v "[p]! I was going to say..."
                 v "What the hell was that earlier? Apparently you just left in the middle of a shoot!"
                 p "Oh, right. Something important came up, and I had to leave with Amanda."
                 p "Sorry about that. Are Maya and Nyx really pissed off?"
+                scene a-218 with dissolve
                 v "No, not really. They seemed understanding."
                 p "Oh really? That's good."
+                scene a-219 with dissolve
                 v "It might have been because I promised that you'd make it up to them."
                 p "How am I gonna make it up to them?"
                 v "I don't know. They wanted to talk to you and come to an arrangement. I'll let them handle it."
+                scene a-220 with vpunch
                 v "Girls!"
+                scene a-221 with dissolve
                 v "You girls wanted [p]?"
+                scene a-222 with dissolve
                 ny "That's right. Could you please leave us for a moment, Vincent?"
-                v "What? Aww, okay."
+                scene a-223 with dissolve
+                v "What? Getting rid of me already?"
+                ny "..."
+                v "Aww, okay."
+                scene a-224 with dissolve
+                $ renpy.pause()
+                scene a-225 with dissolve
                 p "I'm slightly freaked out. What did you want to chat about?"
+                scene a-226 with dissolve
                 ma "Nyx?"
+                scene a-227 with dissolve
                 ny "Fine. I'm sorry for what happened with Amanda earlier. I overstepped my boundaries."
                 p "Oh? Haha, I see."
                 p "To be honest, I don't mind really, so don't worry about it. Though, probably don't do it again around Amanda."
                 p "Anyway, shouldn't you be apologising to Amanda, not me?"
+                scene a-228 with dissolve
                 ny "..."
+                scene a-229 with dissolve
                 ny "I've already done so, don't worry. Anyway, as an apology, I wanted to show you something."
+                scene a-230 with dissolve
                 ma "Oh Nyx, are you really?"
                 ny "It'll be fine, Maya."
                 p "..."
+                play music "sounds/alchemy.mp3" fadeout 1
+                scene a-231 with dissolve
                 ny "I wanted to give you something to help you out with your relationship. That is, an aphrodisiac."
                 p "An aphrodisiac?"
+                scene a-232 with dissolve
                 ny "Yes. It's a sexual potion. It's going to drive any woman crazy and lusting for cock."
                 ny "It's the same thing I use to make Maya more lively."
+                scene a-233 with dissolve
                 ma "Nyx! You're {i}far{/i} too forward with these kinds of things."
                 p "Why are you giving me this?"
+                scene a-234 with dissolve
                 ny "Why not? A sexually satisfied Amanda would be beneficial for us both. She's far too frustrated at work."
                 p "Frustrated?"
                 ny "Yeah. Sexually frustrated. She needs a good pounding, [p]. And you need to give it to her."
+                scene a-232 with dissolve
                 ny "Just ask Maya what a good orgasm can do for your mood."
                 ma "..."
                 p "..."
                 ny "Well, Maya?"
+                scene a-235 with dissolve
                 ma "It's good for the soul."
+                scene a-236 with dissolve
                 ny "See [p]? It's something worth considering. Tell me, when was the last time you had sex with Amanda?"
                 p "Excuse me?"
                 ny "I bet it was ages ago, wasn't it?"
                 p "We did it right after the photo shoot, if you really must know!"
+                scene a-237 with dissolve
                 ny "Really? Did she manage to cum?"
                 p "Well to be fair, it was just a handjob, so it's not like I couldn't get her off or anything."
                 "At this rate, a handjob might be the last thing I ever get..."
                 ny "See? You need to get her off, [p]. Try it out, you'll have her over you in no time."
                 "The last thing [mr] said was for me to forget everything that we did togther."
                 "If this sex potion stuff does work, how is she going to deal with it?"
+                scene a-238 with dissolve
+                p "So to be sure, this aphrodisiac is going to make all girls who see my dick horny?"
+                ny "Only those around you when you activate it."
                 "Bah, this is probably all a scam anyway, and I'll look like an idiot in the end."
                 "But still..."
                 p "Well, if it's free, I might as try it out. So do you have it on you?"
+                scene a-239 with dissolve
                 ny "Yes, and I'll show you. But not here. We need to go somewhere private."
                 p "..."
+                scene a-240 with dissolve
                 ma "Just follow us, [p], and indulge Nyx for a bit."
                 p "Okay."
+                scene black with fade
                 # transition
                 p "Well?"
+                scene a-241 with fade
                 ny "It might be a bit cliche, but this stuff comes in a bottle."
                 p "The aphrodisiac?"
                 ny "Yep."
+                scene a-242 with dissolve
                 ny "On it's own it is only mildy effective, but once it comes into contact with an erect penis, it activates completely."
                 ny "The result? All females who come upon your penis will find themselves in heat."
-                ny "Nome of us has experieced the full effect yet."
+                scene a-243 with dissolve
+                ny "None of us has experienced the full effect yet."
+                scene a-244 with dissolve
                 ny "That's the theory, anyway."
-                p "The theory? You haven't tried this out before? This is 100% a dud!"
+                p "The theory? You haven't tried this out before? This is 100 percent a dud!"
                 ny "No, no, trust me. I've seen it work, I think."
+                scene a-245 with dissolve
                 p "So this is why I'm your guinea pig, huh? You don't give a damn about my relationship with Amanda. You just need to try this out."
                 ny "[p], we want the best for you and Amanda but we also want to try this out."
+                scene a-246 with dissolve
                 ma "I'm sorry about Nyx, [p], but there's nothing to lose."
                 p "I guess that's true. So what are you going to do, slather this over my dick?"
+                scene a-247 with dissolve
                 ny "Two things. First, it has to be an erect dick. Second, you can slather it on yourself."
-                p "What, you won't evven do me the courtesy?"
+                p "What, you won't even do me the courtesy?"
+                scene a-248 with dissolve
                 ny "Uh, blame Maya - she'll hate me if I touch someone else. Right Maya?"
+                scene a-249 with dissolve
                 ma "I'll be fine with anything but touching."
+                scene a-250 with dissolve
                 ny "Oooh, that interesting. Hey [p], looks like I can't masturbate you, but I {i}can{/i} give you a show."
                 ny "That's got to be better than nothing, right?"
                 "What a fucking tease."
                 p "Whatever. Let's do this."
-                ny "Deal. First, slather some of this lotion into your hand."
+                scene a-251 with dissolve
+                ny "Deal. First, slather the lotion into your hand."
+                scene a-252 with dissolve
                 p "Done."
-                ny "Now, the fun part. Why don't you start rubbing your cock to me?"
+                scene a-253 with dissolve
+                ny "Now, the fun part..."
+                scene a-254 with dissolve
+                $ renpy.pause()
+                scene a-255 with dissolve
+                $ renpy.pause()
+                scene a-256 with dissolve
+                ny "Why don't you start rubbing your cock to me?"
                 ny "That's right... starting jerking it as I rub my soft tits.."
+                scene a-257 with dissolve
+                ny "Yes... just like that."
                 p "Oh yeah baby."
+                scene a-258 with dissolve
+                ny "Jerking to my perfect breasts~"
+                scene a-259 with dissolve
+                $ renpy.pause()
+                ny "Oooh, look at my perky nipples! You like them, don't you?"
+                scene a-260 with dissolve
+                $ renpy.pause()
+                ny "Looks like I'm getting a bit excited too~"
+                ny "Hehehee!"
+                scene a-261 with dissolve
                 ny "As I... glide my hands over my waist..."
                 # Maya reaction
                 p "{i}Rub rub rub{/i}"
+                scene a-262 with dissolve
                 ny "Keep going, [p], that's right~"
                 ny "Are you hard yet-?"
                 "I was hard ten minutes ago, lady!"
                 ny "Are you-"
                 # turned on
+                scene a-263 with vpunch
                 ny "Oh?"
+                scene a-264 with dissolve
                 ny "Maya... I'm feeling... hot~"
                 ny "My breath- is- becoming-"
+                scene a-265 with dissolve
                 ma "M-mine too."
-                p "Aww fuck!"
+                p "Aww fuck! I'm cumming!"
                 # jizz
+                scene a-266 with dissolve
+                $ renpy.pause()
+                scene a-267 with flash
+                $ renpy.pause()
+                scene a-268 with flash
+                $ renpy.pause()
+                scene a-269 with dissolve
                 ny "The sperm mixed with the aphrodisiac just landed on my skin!"
+                scene a-270 with dissolve
                 ny "It's making me ten times as horny as before~"
+                scene a-271 with dissolve
                 p "Well ladies, I've got a refractory period, but it isn't very long."
                 p "If you just gimme a-"
+                scene a-272 with dissolve
                 ma "No, [p]~ There is one application of the aphrodisiac left, take it..."
                 ma "Nyx is mine alone~"
+                ny "Spread yourself, Maya~!"
+                scene a-273 with fade
                 p "..."
+                ma "Quick, Nyx, put your fingers in me!"
+                image m1 = Movie(play="/animations/m1.mp4")
+                scene m1 with dissolve
+                $ renpy.pause()
+                ny "Oh, Maya, you're so cute but today I just want to make you squirm!"
+                ma "What is happening to us Nyx, I feel so horny!"
+                ny "I'm going to make you cum~!"
                 "This is so hot, I can't miss out on this! I want a threesome with two super models!"
+                p "So, uh-"
+                scene a-274 with hpunch
                 ma "Leave!!"
-                p "Alright, alright."
+                "Wew!"
+                p "Alright, alright! Have your own fun."
+                scene black with fade
                 "At least I didn't come out of this empty handed. With this lotion, I can seduce [mr]."
                 "I should probably wait for [mr] to come home and then apply this to my cock."
                 "Yes, that's a good idea."
@@ -401,47 +492,65 @@ label vincent_studio:
                 jump studio_lobby
             if amandalvl == 17:
                 p "Any news about work, Vincent?"
-                v "Work? I'll tell you what's piece of work."
+                scene a-19_1 with dissolve
+                v "Work? I'll tell you what's a piece of work."
+                scene a-19_2 with dissolve
                 v "Those two models I swear are nagging me every 2 minutes about whether you're in or not."
                 p "Nyx and Maya?"
+                scene a-19_1 with dissolve
                 v "Yup. How are you so popular with them anyway?"
                 p "It's a good question. Though, what do they want?"
-                v "Beats me, and as you can tell, they certainly keep it away from me."
+                v "Beats me, and as you can tell, they certainly keep it secret from me."
                 p "Ah."
+                scene a-232 with hpunch
                 ny "[p]! How did it go? We have to talk!"
                 v "Can I stay here this time? Or will you get me to leave again?"
                 ma "You can stay Vincent, because we're going to one of the studios to talk instead."
+                scene a-220 with dissolve
                 v "Bah."
                 ny "It won't be too long, [p], come!"
                 # transition
+                scene black with fade
+                play music "sounds/witch.mp3" fadeout 1
+                scene a-275 with fade
                 ny "Well? Did it work on Amanda?"
                 p "I didn't get a chance to, unfortunately."
+                scene a-276 with dissolve
                 ny "What?"
                 p "I wanted to, but I didn't get to. I'm planning to do it today."
+                scene a-277 with dissolve
                 ma "That might be for the better."
                 p "How come?"
-                ma "Remember how horny we were when you left us? That effect is only 100% activated when a penis is around."
+                ma "Remember how horny we were when you left us? That effect is only 100 percent activated when a penis is around."
                 ma "But even without a penis present, the sightly weaker effect can still supposedly last weeks to months - until a certain something happens, we learned."
                 p "What has to happen for it to go away?"
+                scene a-278 with dissolve
                 ny "An orgasm."
                 ny "Once Maya and I reached her blissful climaxes, our lust rapidly subsided."
                 p "Good to know."
+                scene a-279 with dissolve
                 ma "We're telling you this because we thought it be useful for you to know that once you made Amanda cum, she'll lose that lust."
                 p "That's fine. I'll just use more aphrodisiac. You guys got more, right?"
+                scene a-280 with dissolve
                 ny "..."
                 ma "..."
                 p "..."
+                scene a-281 with dissolve
                 ny "That was our last bottle, and also one of the reasons why we wanted to try the full activation before we finally all ran out."
                 p "Are you telling me, that if Amanda ever cums, I won't get laid again?"
+                scene a-282 with dissolve
                 ma "Not necessarily. Only the lustful part that made her seduce you will disappear."
                 ma "If she truly has feelings for you, then she should still like you after the artifical lust is gone."
                 p "I see."
+                scene a-283 with dissolve
                 ma "If she doesn't cum, however, then the aphrodisiac will continue to be activated whenever she sees your penis."
+                scene a-284 with dissolve
                 ny "So don't be in too much of a rush, [p], but do enjoy your treat."
                 p "Thanks."
                 ny "We've got to get back to work, and I'm sure you've got something you want to do to, isn't that right~?"
                 ma "Until next time, [p]."
                 p "Seeya."
+                scene black with fade
                 $ amandalvl += 1
                 jump studio_lobby
             else:

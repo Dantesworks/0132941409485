@@ -571,6 +571,16 @@ screen about():
                 text "[gui.about!t]\n"
 
             text _("")
+    imagebutton:
+        focus_mask True
+        idle "logo_patron.png"
+        hover "logo_patron_hover.png"
+        action OpenURL("https://www.patreon.com/danteworks")
+    imagebutton:
+        focus_mask True
+        idle "logo_discord.png"
+        hover "logo_discord_hover.png"
+        action OpenURL("https://discord.gg/mVjjbDG")
 
 
 ## This is redefined in options.rpy to add text to the about screen.

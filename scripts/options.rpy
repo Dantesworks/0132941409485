@@ -29,11 +29,15 @@ define config.version = "0.53"
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""Thank you for playing. Please leave feedback on patreon and f95.
+define gui.about = _p("""Hello, my name is Dante and this is my game, Depravity. Thank you for playing. Please leave feedback on patreon and f95.
 
 Patreon: patreon.com/danteworks
 
+Voice Actress for Splash screens: https://twitter.com/winter_va
+
 Music is comprised of original and unoriginal tracks.
+
+
 """)
 
 

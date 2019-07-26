@@ -3,6 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+define gui.dialogue_text_outlines = [ (1, "#000000", 1, 1) ]
+define gui.name_text_outlines = [ (1, "#000000", 1, 1) ]
 define c = Character("Caroline")
 define p = Character("[player]", color="#55B7DC")
 define m = Character("Amanda")
@@ -30,12 +32,20 @@ define w = Character("Widowmaker")
 # The game starts here.
 
 label splashscreen:
-
+    $ jingle = renpy.random.randint(1, 3)
+    scene black
+    if jingle == 1:
+        play sound "sounds/effects/1.mp3"
+    elif jingle == 2:
+        play sound "sounds/effects/2.mp3"
+    elif jingle == 3:
+        play sound "sounds/effects/3.mp3"
     scene splash3
-    with Dissolve(1)
+    with Dissolve(4)
 
     $ renpy.pause(2.0,hard=False)
     $ renpy.pause()
+    d "This is the beta version of the game, and is not intended for public release. Play at your own risk!"
 
     #call splashlogo
 
@@ -51,11 +61,11 @@ label splashscreen:
     scene black
     with Dissolve(1)
 
-    scene splash6
-    with Dissolve(1)
+    #scene splash6
+    #with Dissolve(1)
 
-    $ renpy.pause(2.0,hard=False)
-    $ renpy.pause()
+    #$ renpy.pause(2.0,hard=False)
+    #$ renpy.pause()
 
     scene splash2
     with Dissolve(1)
