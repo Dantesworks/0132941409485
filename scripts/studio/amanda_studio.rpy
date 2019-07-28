@@ -485,89 +485,205 @@ label amanda_studio:
             "Sometimes when you do something you're not supposed to, you become extra self-concious."
             "I need to calm down, or this might not go smoothly at all."
             "Breathe in.... breathe out..."
+            play music "sounds/cinematic.mp3" fadeout 1
+            scene a-285 with fade
             p "Hello, [mr]."
             m "Good to see you, [p]."
             m "Are you here to do a job or something?"
             m "How is Dante Studios treating you?"
+            scene a-286 with dissolve
             p "I'm not here for that, [mr]. I'm here for something else."
             p "There's something I want to show you."
             m "Something to show me? Oh, I'm excited to see!"
+            scene a-287 with dissolve
             p "I'm glad you think so. But first, you need to uh, go over to that corner and turn around, and don't look until I say so."
+            scene a-288 with dissolve
             m "Turn around? Don't be silly, [p]! You can just show me here!"
             p "Please, [mr], for this to work, you need to turn around."
+            scene a-289 with dissolve
             m "You're acting strangely, [p], is this some sort of prank?"
+            scene a-290 with hpunch
             "Oh what am I thinking? I don't even have confidence that this aphrodisiac will work!"
             "What if Nyx and Maya are just pretending?"
+            scene a-291 with dissolve
             "Oh my god. Don't tell me they're playing me, and just putting tension between me and [mr]."
             "This might end up just a dumb prank - with me being the fool."
+            scene a-292 with dissolve
             p "P-prank?"
             "No! It's too late, I've gone all in so far. Nothing ventured, nothing gained."
             p "Look [mr], you'll understand when you see."
+            scene a-293 with dissolve
             m "This isn't about what we agreed to not talk about, is it?"
             p "..."
+            scene a-294 with dissolve
             m "Well is it?"
             p "It's not, [mr]. This is not that. It's different okay?"
             m "...okay."
+            scene a-295 with fade
             m "I'm facing the corner now and can't see you. You can do your magic trick now."
             "Oh but Amanda, if only you knew what kind of magic trick this was."
             # fap
-            p "{i}Rub rub rub rub{/i}"
+            play music "sounds/alchemy.mp3" fadeout 1
+            scene a-296 with dissolve
+            "Just let me slowly pull my dick out..."
+            "Apply the lotion, and..."
+            scene a-297 with dissolve
+            p "{i}Fap fap fap fap{/i}"
+            scene a-298 with dissolve
+            p "{i}Fap fap fap fap{/i}"
             m "Hey, what is that sound?"
             "Aww fuck I'm definitely all in now. This had better work!!"
-            "But I need to get 100% hard first."
+            "But I need to get 100 percent hard first."
+            scene a-299 with dissolve
             p "Almost ready, just hang on."
+            scene a-300 with dissolve
             "Fuck think of something sexy! I'm picturing..."
+            scene a-301 with dissolve
             "You, [mr], with your sexy curves and voluptuous tits."
+            scene a-302 with dissolve
+            $ renpy.pause()
+            scene a-303 with dissolve
+            $ renpy.pause()
             "That ass, oh with those wide, child-bearing hips."
             "Oh yes, oh yes."
             p "Ah, [mr]... you can... turn around now."
             # turn
+            scene a-304 with dissolve
             m "What's the big-"
+            play music "sounds/hamilton.mp3"
+            scene a-305 with hpunch
             m "WHAT THE FUCK?!"
+            scene a-306 with dissolve
             m "What are you doing young man?!"
+            scene a-307 with vpunch
             p "It-it's not working?!"
+            scene a-308 with hpunch
             m "What's not working? What exactly are you planning to do here, [p]!"
             "Oh fuck I fucked up hard."
             m "Why are you showing me your-"
+            stop music fadeout 1
+            scene a-309 with dissolve
             m "...dick?"
+            play music "sounds/kiss.mp3" fadeout 1
+            scene a-310 with dissolve
             m "That juicy, thick, manly dick..."
             p "Eh?"
+            scene a-311 with dissolve
             m "What... is going on... I feel hot... thirsty..."
-            "The aphrodisiac is working. But remember what Nyx and Maya said..."
+            scene a-312 with dissolve
+            "Phew, the aphrodisiac is working. But remember what Nyx and Maya said..."
             "If [mr] cums, the aphrodisiac will stop working. But until then, the aphrodisiac effect will kick in whenever I whip out my cock."
+            scene a-313 with dissolve
             p "What are you after, [mr]?"
+            scene a-314 with dissolve
             m "I'm after your cock, [p], and I just-"
+            scene a-315 with dissolve
             m "..."
+            scene a-316 with dissolve
             m "I just want to have a small taste... just a small one..."
+            scene a-317 with dissolve
             "She crept towards me with a glazed eyes that could only see one thing: cock."
             "Back when Nyx and Maya were affected by the aphrodisiac, they chose to make up with each other instead of me."
-            "This means that they don't 100% lose control of themselves."
+            "This means that they don't 100 percent lose control of themselves."
             "Based on [mr]'s worship of my cock, does this mean that she's got part of her that desperately wants to be fucked?"
+            scene a-318 with dissolve
             m "Mmmm..."
+            "I can't communicate with her anymore, she's completely infactuated."
+            m "May, I? Just like last time, but this time, I'll make you feel good with my mouth..."
+            scene a-319 with dissolve
+            m "I... really want it in my mouth~"
+            "Her tongue was already outside her mouth, as she was already acting out what was on her mind."
+            scene a-320 with dissolve
+            m "I can't wait anymore~"
+            m "C-can I? Please?"
+            p "Err..."
+            m "I can't wait!"
             # BJ
-            "Oh fuck!"
+            image a3 = Movie(play="/animations/a3.mp4")
+            scene a3 with dissolve
+            p "Oh fuck!"
+            $ renpy.pause()
+            "Without any warning, she thrust herself onto me, enveloping my cock in the velvety smooth textures of her mouth."
+            "While her flesh covered every part of my cock, her tongue carressed me from underneath."
+            m "Mmm...mmm...mmm...mmm..."
+            image a4 = Movie(play="/animations/a4.mp4")
+            scene a4 with dissolve
+            $ renpy.pause()
+            "Seeing [mr] on all fours sucking my dick was a sight to behold indeed."
+            "To see her below me, to see her servicing me."
+            "Wordless. Just here to satsify me and satiate her own desire for cock."
+            "Nothing but the sound of her rhthymic moaning and lust and the sounds of the perverted sounds coming from her mouth."
+            image a5 = Movie(play="/animations/a5.mp4")
+            scene a5 with dissolve
+            $ renpy.pause()
+            "With her eyes still closed, she sped up her rhythm, reaching further, deeper."
+            p "You're going really deep [mr]. You're really well practised, despite not having a man for years."
+            p "You must have practised on a dildo at home or something. Who were you imagining you were blowing?"
+            m "Mm~"
+            p "Was it me?"
+            image a6 = Movie(play="/animations/a6.mp4")
+            scene a6 with dissolve
+            $ renpy.pause()
+            "She did not reply, but continued her pace."
+            "My [mr] is such a beautiful and sexy woman."
+            "Her mouth feels like heaven, and look at those fat tits swinging back and forth!"
+            image a7 = Movie(play="/animations/a7.mp4")
+            scene a7 with dissolve
+            $ renpy.pause()
+            "Her eyes were still closed. She was completely entranced in the sensation of my cock in her mouth."
+            "She explored every groove, ridge and bump."
+            "Her tongue swept through every spot of my dick and then re-explored them again, as if she had forgotten."
+            "Continuously familiarising herself with my cock."
+            "I can see why she keeps her eyes closed - she was completely in love with the way my cock felt."
+            image a8 = Movie(play="/animations/a8.mp4")
+            scene a8 with dissolve
+            $ renpy.pause()
+            "Finally, she opens her eyes."
+            m "Are you ready to cum now, [p]?"
+            p "Yes, fuck, yes..."
+            m "Then cum all over [mr]!"
+            "She was ready to finish the job."
+            p "Argh!!!"
+            scene a-321 with flash
+            $ renpy.pause()
+            scene a-322 with flash
+            $ renpy.pause()
+            scene a-323 with flash
+            $ renpy.pause()
+            scene a-324 with flash
+            $ renpy.pause()
+            scene a-325 with flash
+            $ renpy.pause()
+            scene a-326 with dissolve
             m "Ah~ the sperm is all over my face, and for some reason I feel even hotter than before~!"
             "Oh shit, this was what Nyx had experienced too! But if I put my pants back on, maybe the effect will die down."
-            m "Oh [p], i Feel-"
+            m "Oh [p], I feel-"
+            scene a-327 with dissolve
             m "Better?"
-            p "Hello [mr]. You blew mem, and you did a great job."
+            p "Hello [mr]. You blew me, and you did a great job."
+            scene a-328 with dissolve
             m "I-I couldn't control myself! I am truly a wicked, depraved woman!"
             p "No no no, what just happened was great. Don't you understand, [mr]?"
             p "We can do this, and still go back to being normal, whatever that means."
             p "We should be allowed to live and love."
+            scene a-329 with dissolve
             m "These things are just... physical, [p]. And it was a physical temptation that overcame me."
-            p "But we love each other too! How many times have we told each other."
+            p "But we love each other too! How many times have we told each other?"
             p "I love you I love you I love you, we say it all the time!"
+            scene a-330 with dissolve
             m "This is in a different way."
-            m "We'll pretend this never happened."
+            m "We have to pretend this never happened, yes."
             p "That's what you said last time."
+            scene a-331 with dissolve
             m "I just... want to go back to how things were."
+            scene a-332 with dissolve
             m "..."
+            scene a-333 with dissolve
             m "Thanks for visiting me, [p], but [mr] has got some work to do. I'll see you back at home, alright?"
             p "..."
             "Just like that, she surpresses it."
-            p "Alright [mr], keep going strong, and I'll support you all the way!"
-            m "Thanks!"
+            p "Alright [mr], keep it tight."
+            m "Thanks."
             scene black with fade
             "It's a bit of a sorry sight, with [mr] pretending everything's normal while my cum is splashed over her face."
             "But just wait [mr], I'll show you that some things are worth confronting."
@@ -576,8 +692,10 @@ label amanda_studio:
             "Will she sober up and keep suppressing her urges afterwards?"
             "Or will I be able to break through to her so that still fucks me after?"
             # end
+            scene splash_amanda with fade
             d "Find out next time, on Depravity."
             scene black with fade
+            $ amandalvl += 1
             call daykeep
             jump map
         else:

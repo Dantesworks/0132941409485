@@ -14,6 +14,11 @@ label cgGallery4:
             idle "logo_previous.png"
             hover "logo_previous_hover.png"
             action Jump("cgGallery3")
+        imagebutton: ## next
+            focus_mask True
+            idle "logo_next.png"
+            hover "logo_next_hover.png"
+            action Jump("cgGallery5")
         grid 3 3:
             align (0.5, 0.3)
             spacing 80
@@ -81,8 +86,19 @@ label cgGallery4:
                     action Jump("g36")
             else:
                 null
-            null
+            if carolinelvl > 4:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/37.png"
+                    hover "gallery_buttons/cGGallery/37-h.png"
+                    action Jump("g37")
+            else:
+                null
 
+label g37:
+    scene 37
+    $ renpy.pause()
+    jump cgGallery4
 label g36:
     scene 36
     $ renpy.pause()

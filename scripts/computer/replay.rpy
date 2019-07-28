@@ -1,3 +1,527 @@
+label verc:
+    play music "sounds/alchemy.mp3" fadeout 1
+    scene r-140 with dissolve
+    "She closed her eyes, but winced ever so slightly as I begin to undress her."
+    scene r-141 with dissolve
+    ver "[p], you're-"
+    p "Just a little bit, Miss Veronica. Just enough for me to see your folds."
+    "She acquiesces, as I peel off layer after layer."
+    "Beneath that exterior, she wanted this very much."
+    scene r-142 with dissolve
+    $ renpy.pause()
+    scene r-143 with dissolve
+    $ renpy.pause()
+    scene r-144 with hpunch
+    ver "[p]~!"
+    p "Don't worry, I'm just getting a good look at your pleasure parts."
+    scene r-145 with dissolve
+    "I got down onto my knees, and put my face close enough to smell the musk of a moist pussy."
+    "Miss Veronica did nothing but look at me with her mouth agape."
+    p "I'm just returning the favour."
+    scene r-146 with dissolve
+    ver "O-okay, but do it slowly okay?"
+    p "Of course."
+    scene r-147 with dissolve
+    "She winced as my tongue tasted her moist vagina."
+    "Was she reacting to the sensation of my tongue? Or her shame of how wet she was?"
+    image ver3 = Movie(play="/animations/ver3.mp4")
+    scene ver3 with dissolve
+    $ renpy.pause()
+    "She kept her eyes shut as I licked her pussy over and over again."
+    "From the cool dryness of her external folds to the sweet nectar within."
+    "She trembled everytime I pushed my tongue deeper, to see how far it could go."
+    image ver4 = Movie(play="/animations/ver4.mp4")
+    scene ver4 with dissolve
+    $ renpy.pause()
+    ver "Ah~ ah~ ah~ ah~"
+    "She panted heavily but it was as though she was in pain."
+    "Fighting between sin and pleasure. Her mind at war."
+    p "Relax, Miss Veronica, just enjoy the fun."
+    p "You've got such a beautiful and smoking hot body."
+    p "Let yourself be attacked and consumed by the pleasure."
+    image ver5 = Movie(play="/animations/ver5.mp4")
+    scene ver5 with dissolve
+    $ renpy.pause()
+    "Her eyes finally opened."
+    ver "I.. I'm not used to this feeling, [p]."
+    ver "I feel... tingling... from down there, throughout my whole body."
+    image ver6 = Movie(play="/animations/ver6.mp4")
+    scene ver6 with dissolve
+    $ renpy.pause()
+    "She locked her eyes with mine and gritted her teeth."
+    ver "Ahh... ahhh... ahhh... ahhh..."
+    "Her breath became heavier."
+    ver "I'm... getting... hotter..."
+    ver "Ah~!"
+    ver "It's like waves of pleasure are about to hit me!"
+    image ver7 = Movie(play="/animations/ver7.mp4")
+    scene ver7 with dissolve
+    $ renpy.pause()
+    ver "I... feel... good~"
+    "She could not help a smile creeping over her face as I licked the juices that her pussy was squeezing out."
+    image ver8 = Movie(play="/animations/ver8.mp4")
+    scene ver8 with dissolve
+    $ renpy.pause()
+    p "Feeling like you're about to cum?"
+    ver "I'm getting closer, closer~"
+    ver "Closer....!!!"
+    scene r-148 with flash
+    ver "AHHH!"
+    "She erupted in a climax. I wonder how long it's been."
+    scene r-149 with dissolve
+    p "That wasn't so bad now, was it? You liked it, didn't you? It felt good."
+    scene r-150 with dissolve
+    ver "..."
+    ver "(That feeling of pleasure is something I hadn't ever felt with my husband. Is this how it's supposed to feel like?)"
+    jump computer
+
+label nyma:
+    scene a-250
+    ny "Oooh, that interesting. Hey [p], looks like I can't masturbate you, but I {i}can{/i} give you a show."
+    ny "That's got to be better than nothing, right?"
+    "What a fucking tease."
+    p "Whatever. Let's do this."
+    scene a-251 with dissolve
+    ny "Deal. First, slather the lotion into your hand."
+    scene a-252 with dissolve
+    p "Done."
+    scene a-253 with dissolve
+    ny "Now, the fun part..."
+    scene a-254 with dissolve
+    $ renpy.pause()
+    scene a-255 with dissolve
+    $ renpy.pause()
+    scene a-256 with dissolve
+    ny "Why don't you start rubbing your cock to me?"
+    ny "That's right... starting jerking it as I rub my soft tits.."
+    scene a-257 with dissolve
+    ny "Yes... just like that."
+    p "Oh yeah baby."
+    scene a-258 with dissolve
+    ny "Jerking to my perfect breasts~"
+    scene a-259 with dissolve
+    $ renpy.pause()
+    ny "Oooh, look at my perky nipples! You like them, don't you?"
+    scene a-260 with dissolve
+    $ renpy.pause()
+    ny "Looks like I'm getting a bit excited too~"
+    ny "Hehehee!"
+    scene a-261 with dissolve
+    ny "As I... glide my hands over my waist..."
+    # Maya reaction
+    p "{i}Rub rub rub{/i}"
+    scene a-262 with dissolve
+    ny "Keep going, [p], that's right~"
+    ny "Are you hard yet-?"
+    "I was hard ten minutes ago, lady!"
+    ny "Are you-"
+    # turned on
+    scene a-263 with vpunch
+    ny "Oh?"
+    scene a-264 with dissolve
+    ny "Maya... I'm feeling... hot~"
+    ny "My breath- is- becoming-"
+    scene a-265 with dissolve
+    ma "M-mine too."
+    p "Aww fuck! I'm cumming!"
+    # jizz
+    scene a-266 with dissolve
+    $ renpy.pause()
+    scene a-267 with flash
+    $ renpy.pause()
+    scene a-268 with flash
+    $ renpy.pause()
+    scene a-269 with dissolve
+    ny "The sperm mixed with the aphrodisiac just landed on my skin!"
+    scene a-270 with dissolve
+    ny "It's making me ten times as horny as before~"
+    scene a-271 with dissolve
+    p "Well ladies, I've got a refractory period, but it isn't very long."
+    p "If you just gimme a-"
+    scene a-272 with dissolve
+    ma "No, [p]~ There is one application of the aphrodisiac left, take it..."
+    ma "Nyx is mine alone~"
+    ny "Spread yourself, Maya~!"
+    scene a-273 with fade
+    p "..."
+    ma "Quick, Nyx, put your fingers in me!"
+    image m1 = Movie(play="/animations/m1.mp4")
+    scene m1 with dissolve
+    $ renpy.pause()
+    ny "Oh, Maya, you're so cute but today I just want to make you squirm!"
+    ma "What is happening to us Nyx, I feel so horny!"
+    ny "I'm going to make you cum~!"
+    "This is so hot, I can't miss out on this! I want a threesome with two super models!"
+    p "So, uh-"
+    scene a-274 with hpunch
+    ma "Leave!!"
+    "Wew!"
+    p "Alright, alright! Have your own fun."
+    jump computer
+label amandabj2:
+    scene a-308 with hpunch
+    m "What's not working? What exactly are you planning to do here, [p]!"
+    "Oh fuck I fucked up hard."
+    m "Why are you showing me your-"
+    stop music fadeout 1
+    scene a-309 with dissolve
+    m "...dick?"
+    play music "sounds/kiss.mp3" fadeout 1
+    scene a-310 with dissolve
+    m "That juicy, thick, manly dick..."
+    p "Eh?"
+    scene a-311 with dissolve
+    m "What... is going on... I feel hot... thirsty..."
+    scene a-312 with dissolve
+    "Phew, the aphrodisiac is working. But remember what Nyx and Maya said..."
+    "If [mr] cums, the aphrodisiac will stop working. But until then, the aphrodisiac effect will kick in whenever I whip out my cock."
+    scene a-313 with dissolve
+    p "What are you after, [mr]?"
+    scene a-314 with dissolve
+    m "I'm after your cock, [p], and I just-"
+    scene a-315 with dissolve
+    m "..."
+    scene a-316 with dissolve
+    m "I just want to have a small taste... just a small one..."
+    scene a-317 with dissolve
+    "She crept towards me with a glazed eyes that could only see one thing: cock."
+    "Back when Nyx and Maya were affected by the aphrodisiac, they chose to make up with each other instead of me."
+    "This means that they don't 100 percent lose control of themselves."
+    "Based on [mr]'s worship of my cock, does this mean that she's got part of her that desperately wants to be fucked?"
+    scene a-318 with dissolve
+    m "Mmmm..."
+    "I can't communicate with her anymore, she's completely infactuated."
+    m "May, I? Just like last time, but this time, I'll make you feel good with my mouth..."
+    scene a-319 with dissolve
+    m "I... really want it in my mouth~"
+    "Her tongue was already outside her mouth, as she was already acting out what was on her mind."
+    scene a-320 with dissolve
+    m "I can't wait anymore~"
+    m "C-can I? Please?"
+    p "Err..."
+    m "I can't wait!"
+    # BJ
+    image a3 = Movie(play="/animations/a3.mp4")
+    scene a3 with dissolve
+    p "Oh fuck!"
+    $ renpy.pause()
+    "Without any warning, she thrust herself onto me, enveloping my cock in the velvety smooth textures of her mouth."
+    "While her flesh covered every part of my cock, her tongue carressed me from underneath."
+    m "Mmm...mmm...mmm...mmm..."
+    image a4 = Movie(play="/animations/a4.mp4")
+    scene a4 with dissolve
+    $ renpy.pause()
+    "Seeing [mr] on all fours sucking my dick was a sight to behold indeed."
+    "To see her below me, to see her servicing me."
+    "Wordless. Just here to satsify me and satiate her own desire for cock."
+    "Nothing but the sound of her rhthymic moaning and lust and the sounds of the perverted sounds coming from her mouth."
+    image a5 = Movie(play="/animations/a5.mp4")
+    scene a5 with dissolve
+    $ renpy.pause()
+    "With her eyes still closed, she sped up her rhythm, reaching further, deeper."
+    p "You're going really deep [mr]. You're really well practised, despite not having a man for years."
+    p "You must have practised on a dildo at home or something. Who were you imagining you were blowing?"
+    m "Mm~"
+    p "Was it me?"
+    image a6 = Movie(play="/animations/a6.mp4")
+    scene a6 with dissolve
+    $ renpy.pause()
+    "She did not reply, but continued her pace."
+    "My [mr] is such a beautiful and sexy woman."
+    "Her mouth feels like heaven, and look at those fat tits swinging back and forth!"
+    image a7 = Movie(play="/animations/a7.mp4")
+    scene a7 with dissolve
+    $ renpy.pause()
+    "Her eyes were still closed. She was completely entranced in the sensation of my cock in her mouth."
+    "She explored every groove, ridge and bump."
+    "Her tongue swept through every spot of my dick and then re-explored them again, as if she had forgotten."
+    "Continuously familiarising herself with my cock."
+    "I can see why she keeps her eyes closed - she was completely in love with the way my cock felt."
+    image a8 = Movie(play="/animations/a8.mp4")
+    scene a8 with dissolve
+    $ renpy.pause()
+    "Finally, she opens her eyes."
+    m "Are you ready to cum now, [p]?"
+    p "Yes, fuck, yes..."
+    m "Then cum all over [mr]!"
+    "She was ready to finish the job."
+    p "Argh!!!"
+    scene a-321 with flash
+    $ renpy.pause()
+    scene a-322 with flash
+    $ renpy.pause()
+    scene a-323 with flash
+    $ renpy.pause()
+    scene a-324 with flash
+    $ renpy.pause()
+    scene a-325 with flash
+    $ renpy.pause()
+    scene a-326 with dissolve
+    m "Ah~ the sperm is all over my face, and for some reason I feel even hotter than before~!"
+    "Oh shit, this was what Nyx had experienced too! But if I put my pants back on, maybe the effect will die down."
+    m "Oh [p], I feel-"
+    scene a-327 with dissolve
+    m "Better?"
+    p "Hello [mr]. You blew me, and you did a great job."
+    scene a-328 with dissolve
+    m "I-I couldn't control myself! I am truly a wicked, depraved woman!"
+    p "No no no, what just happened was great. Don't you understand, [mr]?"
+    p "We can do this, and still go back to being normal, whatever that means."
+    p "We should be allowed to live and love."
+    scene a-329 with dissolve
+    m "These things are just... physical, [p]. And it was a physical temptation that overcame me."
+    p "But we love each other too! How many times have we told each other?"
+    p "I love you I love you I love you, we say it all the time!"
+    scene a-330 with dissolve
+    m "This is in a different way."
+    m "We have to pretend this never happened, yes."
+    p "That's what you said last time."
+    scene a-331 with dissolve
+    m "I just... want to go back to how things were."
+    scene a-332 with dissolve
+    m "..."
+    scene a-333 with dissolve
+    m "Thanks for visiting me, [p], but [mr] has got some work to do. I'll see you back at home, alright?"
+    p "..."
+    "Just like that, she surpresses it."
+    p "Alright [mr], keep it tight."
+    m "Thanks."
+    jump computer
+label amandabj1:
+    scene a-200
+    m "(Oh my god...)"
+    scene a-201 with dissolve
+    m "(He has such a good size! It's just like when I saw him and Nicole having sex in the living room...)"
+    scene a-202 with dissolve
+    m "(...the strength and virility of a young man.)"
+    m "(I want it... all to myself.)"
+    p "I'm sorry you have to see this [mr], I'm a guy after all. Sometimes I can't help it."
+    p "Err, [mr]?"
+    scene a-203 with dissolve
+    "Wordlessly, she dropped to her knees and appraoched my member gingerly."
+    m "It... looks a bit tense, [p]. I'm sorry for doing this to you."
+    p "N-not a problem... [mr]."
+    scene a-204 with dissolve
+    m "Won't you... let me help you with... that?"
+    m "After all, it's just-"
+    m "..."
+    m "...been so long since I- since I...."
+    scene a-205 with dissolve
+    "For some reason, I did nothing as her hands delicately glided across my shaft."
+    m "D-does this make it feel better?"
+    p "Ahhh..."
+    scene a-206 with dissolve
+    m "I, I don't know what I'm doing, sorry. It's just been too long."
+    p "No... [mr]?"
+    scene a-207 with dissolve
+    $ renpy.pause()
+    # focus on amanda's face
+    p "Please... go on."
+    # Smile
+    scene a-208 with dissolve
+    $ renpy.pause()
+    m "I'm glad, [p]. Let me help you unload that stress~"
+    # sex scene
+    image a1 = Movie(play="/animations/a1.mp4")
+    scene a1 with dissolve
+    p "Urgh, [mr], I-"
+    m "Shh... [p]..."
+    m "Just relax, and let [mr] do the work~"
+    m "After all, this is what a girlfriend would do..."
+    "She gripped my shaft and twisted as her hand travelled up and down."
+    "It was as though she was making love to my cock with her hand."
+    "Carressing it, milking it, savouring the feeling of a warm rod in her hands."
+    m "Do you want [mr] to go faster, [p]? Will it help you feel better?"
+    p "Ah-"
+    m "Let's go faster, hmm?"
+    image a2 = Movie(play="/animations/a2.mp4")
+    scene a2 with dissolve
+    "Her speed increased and her grip over my shaft tightened like a vice, forcing me closer to the edge."
+    "In this moment, she was in control of me."
+    m "Are you close, [p]? I hope I'm making you feel really good~"
+    p "At this rate, [mr], I'm going to cum!"
+    p "Stay back, I'll hit your clothes!"
+    p "Ah!"
+    scene a-209 with flash
+    $ renpy.pause()
+    scene a-210 with flash
+    $ renpy.pause()
+    scene a-211 with flash
+    $ renpy.pause()
+    m "I leaned back, but it still covered me..."
+    m "This is what it feels like... I remember now..."
+    p "Wow, [mr], wow. We just crossed a line into depravtity."
+    scene a-212 with dissolve
+    m "Any regrets?"
+    menu:
+        "Yes":
+            p "I don't know. We will never be able to go back."
+            p "What will this mean for us?"
+        "No":
+            p "No. To tell you the truth, it's been something I wanted to do."
+    scene a-213 with dissolve
+    m "I don't know, this is new territory for me."
+    p "Me too! What about you? Any regrets?"
+    scene a-214 with dissolve
+    m "..."
+    scene a-215 with dissolve
+    m "I felt like woman today, [p]. You made me feel like a true woman again."
+    m "Like you said, it took crossing the line over into depravity to do that."
+    p "I think there are still a few more lines left to cross."
+    scene a-216 with dissolve
+    m "You know, I don't know how I feel about that. What we did today was... special, but sometimes when we give in to our temptations, things don't work out."
+    p "..."
+    m "If we go any further, we'll never be able to go back. I don't think I'm ready for that."
+    "Fuck, my [mr] was so eager to blow me and now she's having second thoughts?"
+    "It feels bad, being rejected by my own [mr]."
+    p "Yeah, I got something to do anyway, [mr]. It's getting late."
+    scene a-213 with dissolve
+    m "We'll talk again later."
+    scene black with fade
+    "Wow, what a day. What a day indeed."
+    jump computer
+label caroline1:
+    play music "sounds/new.mp3" fadeout 1
+    scene cc-262 with hpunch
+    c "Oh my {i}god{/i}, hahaha!"
+    scene cc-263 with dissolve
+    c "Just let me do the work, [p], and stop talking just a bit."
+    scene cc-264 with dissolve
+    c "I love to hear your voice, but just this once..."
+    ## sexy times
+    scene cc-266 with dissolve
+    "She embraced me and attacked my lips with such voracity that I could never have imagined from her, and I responded in kind."
+    c "Mmm..."
+    "The raw passion overtook me, and suddenly, we were laid bare and I was in a world where there were only two of us."
+    scene cc-267 with dissolve
+    "Just us two, and our undying lust."
+    scene cc-269 with dissolve
+    "We broke apart for a brief respite."
+    p "My, my. Still waters run deep, Caroline."
+    scene cc-268 with dissolve
+    c "What can I say? I like to work hard and play hard."
+    "Her cheeks were flushed and she had a glazed expression in her eyes."
+    scene cc-270 with dissolve
+    c "I hope you're enjoying the foreplay, [p], but let's get back down to earth."
+    c "I think it's time for the main event."
+    scene cc-271 with dissolve
+    "Perhaps it was me with the glazed expression on my face, as I came back to reality."
+    scene cc-272 with dissolve
+    p "You're just so devastatingly beautiful, I got lost in your eyes there. We got time, right girl?"
+    p "Come closer for a bit."
+    scene cc-273 with dissolve
+    "I drew her closer and embraced her. Her soft breasts pushed against my chest and I could feel her nipples hardening."
+    c "You're so strong, just pulling me like that~"
+    scene cc-274 with dissolve
+    c "What are you-"
+    scene cc-275 with dissolve
+    c "Ooh!"
+    scene cc-276 with dissolve
+    "I can't help myself, Caroline. You're too hot. I love your lips."
+    "Your smooth skin... those soft cushions on your chest that make you so lovely to hold in my hands."
+    "After a while, we reluctantly pull away again."
+    scene cc-277 with dissolve
+    c "Enough, enough~!"
+    c "Your lips taste great but I'm more curious about how something else tastes~"
+    scene cc-278 with dissolve
+    c "And I think I'm just about ready down there."
+    c "Lay over there, and let's see who you really are."
+    scene cc-279 with dissolve
+    p "Show me what you got."
+    scene cc-280 with dissolve
+    c "For a girl that is quite comfortable in her skin, I think it's a little funny how I'm feeling a bit shy now."
+    p "There's no need to be, Caroline. You're gorgeous."
+    scene cc-281 with dissolve
+    c "Oh, [p]. I've been wanting to do this for a long time."
+    scene cc-282 with dissolve
+    c "It's a healthy sex drive of a young adult, right?"
+    c "Men turn women on."
+    p "There's no need to justify it, Caroline. Sex is great."
+    scene cc-283 with dissolve
+    c "Hey, you're right."
+    scene cc-284 with dissolve
+    "She nimbly mounted me and my heart rate leapt as I realised I that I was really, truly about to insert my cock in Caroline's pussy."
+    c "I'm so horny right now, you won't believe it."
+    scene white
+    $ renpy.movie_cutscene("animations/c1.mp4", loops=0, stop_music=False)
+    scene cc-285 with dissolve
+    p "Oh my god Caroline, you are so tight."
+    c "That's good, isn't it [p]?"
+    c "Nice and tight for you so we can feel good together!"
+    c "I'm going to start rocking now okay [p]?"
+    image c2 = Movie(play="/animations/c2.mp4")
+    scene c2 with dissolve
+    "Oh my god. Her vagina was gripping my member so tight as my penis thrust in and out of her folds."
+    c "D-does this feel good?"
+    p "Oh Caroline you have no idea."
+    c "I feel really hot right now~"
+    c "Mmm... mmm..."
+    "She pushed herself up off my penis and would let herself fall slowly, gyrating her hips at the very end."
+    "She moaned and exhaled sharply in tandem with these bursts of pleasure."
+    p "You're so slippery down there."
+    c "Yeah? That's because of you, you know, and your wonderful cock."
+    p "The language coming from your mouth!"
+    c "I'm just being honest, [p]. Your cock feels amazing in my pussy."
+    p "Can you go faster?"
+    c "Faster? Say please."
+    p "Please, Caroline you beautiful girl, go faster."
+    c "With pleasure~"
+    image c3 = Movie(play="/animations/c3.mp4")
+    scene c3 with dissolve
+    c "Aa~!"
+    c "The... heat... it just feels so fucking good!"
+    p "Whoa!"
+    c "Fuck me, [p]. Fuck me hard!! Aaah~!!!"
+    "Christ this girl just let pleasure get to her head."
+    c "Harder harder harder harder!"
+    image c4 = Movie(play="/animations/c4.mp4")
+    scene c4 with dissolve
+    "Her tits jiggled in front of my face as she sped up."
+    "I couldn't believe that I was fucking such a naturally beautiful woman."
+    c "Oh fuck me, [p]! I'm close, I'm close!"
+    p "Cum for me, you cock loving slut!"
+    scene cc-286 with flash
+    c "Aah~!!"
+    "Her body shook against mine as she orgasmed."
+    "I was amazed at how such a small body could generate so much force."
+    scene cc-288 with dissolve
+    c "Phew, I just came over your penis, [p]..."
+    c "You just made me climax, oh you..."
+    c "By the way, did you say I was a cock loving slut?"
+    p "Erm, it was a heat of the moment sort of thing, haha."
+    c "I'm just passionate, hehehe~"
+    ## sex over
+    scene cc-289 with fade
+    c "That was great sex, wasn't it [p]?"
+    p "Never expected it from you, you can be such a minx."
+    scene cc-290 with dissolve
+    c "You too!"
+    p "No but, really, you've got a great pussy."
+    c "And your penis was the perfect size. Really filled me out, I think."
+    c "I might have gone a {i}little{/i} too hard..."
+    scene cc-291 with dissolve
+    c "Ouch."
+    p "Man, Caroline, I'm still surprised you go this in you."
+    scene cc-289 with dissolve
+    c "Didn't you say it already? Still waters run deep. There's more than all of us than meets the eye."
+    p "Good for you, Caroline. I think I'm in love."
+    p "So, when again is your trip?"
+    scene cc-291 with dissolve
+    c "I don't exactly know when, I don't like to check. I hope that it'll go away if I don't check."
+    p "What is it, in a few days?"
+    c "Something like that. Week, maybe? I don't know."
+    p "Maybe it's time for me to go on a trip too - a break doesn't sound like a bad idea at all."
+    c "Yours would be a fun trip. Mine would be one of those boring ones."
+    p "I'm sure you'll get to have some fun too, in between all the academic stuff."
+    c "I'm not counting on it."
+    scene cc-289 with dissolve
+    c "That's why I'm planning to have all the fun before I go."
+    p "Amen to that."
+    scene cc-292 with dissolve
+    c "But enough about that. Coffee, [p]?"
+    scene cc-293 with dissolve
+    p "It would be a pleasure."
+    jump computer
 label nicole_bj:
     scene 5-1
     n "Step on through."
