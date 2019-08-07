@@ -73,8 +73,19 @@ label cgGallery5:
                     action Jump("g44")
             else:
                 null
+            if olivialvl > 5:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/45.png"
+                    hover "gallery_buttons/cGGallery/45h.png"
+                    action Jump("g45")
+            else:
+                null
             null
-            null
+label g45:
+    scene 45
+    $ renpy.pause()
+    jump cgGallery5
 label g44:
     scene 44
     $ renpy.pause()

@@ -1,6 +1,6 @@
 default vincent_work = 1
 label vincent_studio:
-    call hidescreens
+    call hidescreens from _call_hidescreens_16
     scene a-16
     menu:
         "Visit Amanda":
@@ -155,7 +155,7 @@ label vincent_studio:
                     v "Come back next time, [p]. See if I can find you more work."
                     scene black with fade
                     $ vincent_work += 1
-                    call daykeep
+                    call daykeep from _call_daykeep_33
                     jump map
                 else:
                     v "Sorry, [p]. We need those 50mm primes."
@@ -284,7 +284,7 @@ label vincent_studio:
                 scene black with fade
                 $ vincent_work += 1
                 $ amandalvl += 1
-                call daykeep
+                call daykeep from _call_daykeep_34
                 jump map
             if amandalvl == 15:
                 scene black

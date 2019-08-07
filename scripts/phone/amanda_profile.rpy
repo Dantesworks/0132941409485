@@ -59,13 +59,13 @@ urges will triumph." justify True size 18
                 text "Go talk to [mr] in the kitchen in the evening." justify True size 18
             elif amandalvl == 10 and amandakitchenlvl == 10:
                 text "Go talk to [mr] in her room in the morning." justify True size 18
-            elif amandalvl == 11 and studio_lobby == False:
+            elif amandalvl == 11 and studio_intro == False:
                 text "Visit [mr] at Dante Studios!" justify True size 18
-            elif amandalvl == 11 and studio_lobby and vincent_work == 1:
+            elif amandalvl == 11 and studio_intro and vincent_work == 1:
                 text "Talk to Vincent about work at Dante Studios." justify True size 18
-            elif amandalvl == 11 and studio_lobby and vincent_work == 2:
+            elif amandalvl == 11 and studio_intro and vincent_work == 2:
                 text "Procure the 50 mm primes lens then talk to Vincent." justify True size 18
-            elif amandalvl == 11 and studio_lobby and vincent_work == 3:
+            elif amandalvl == 11 and studio_intro and vincent_work == 3:
                 text "Talk to Vincent about work at Dante Studios." justify True size 18
             elif amandalvl == 12:
                 text "Visit [mr] at Dante Studios!" justify True size 18

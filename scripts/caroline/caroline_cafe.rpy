@@ -976,10 +976,137 @@ label Caroline:
         c "(We'll just have to see how this one goes.)"
         scene black with fade
         $ carolinelvl += 1
-        call daykeep
-        call daykeep
-        call daykeep
+        call daykeep from _call_daykeep_35
+        call daykeep from _call_daykeep_36
+        call daykeep from _call_daykeep_37
         jump map
+    if carolinelvl == 6 and carolinebarlvl == 5:
+        scene black
+        scene cc-2 with fade
+        p "Hey, Caroline."
+        p "What's going on?"
+        p "How's my favourite person doing?"
+        scene cc-3 with dissolve
+        c "Good morning [p]. I'm glad to see you're so cheery."
+        scene cc-10 with dissolve
+        c "..."
+        p "What's going on? You're being a bit weird."
+        scene cc-11 with dissolve
+        c "[p]... There's something I want to talk to you about."
+        p "..."
+        p "What's up?"
+        play music "sounds/san.mp3" fadeout 1
+        c "I've had a lot of fun with you, [p], but I've been thinking really hard."
+        "Oh no."
+        scene cc-15 with dissolve
+        c "It's this relationship stuff - I just don't know if I can commit to... all of this."
+        c "It's hard finding the time f-for everything like my studies, and-"
+        p "Are you... is this serious?"
+        scene cc-294 with dissolve
+        c "I'm sorry, [p] but I don't want you to think that I had sex with you just to take advantage of you!"
+        c "At the time... I really wanted to."
+        p "You're breaking up with me."
+        scene cc-295 with dissolve
+        c "I just want to put things on a pause for it a bit. It's just... the timing of it all."
+        p "Huh."
+        scene cc-296 with dissolve
+        c "I hope you're not taking it the wrong way..."
+        menu:
+            "You just love to keep stringing me along, don't you?":
+                $ depravity += 1
+                p "You love flirting so close to the line, then pulling away."
+                p "What is the matter with you?"
+                scene cc-298 with dissolve
+                c "No! [p]! That's not what it's like!"
+            "It can't be helped.":
+                p "Is... this what you really want?"
+        c "I really wanted it to work, and I gave it a good go. But right now, I think I need a break."
+        p "I thought you liked me. I liked you."
+        scene cc-297 with dissolve
+        c "I like you too, [p]. I really liked the time we-"
+        p "Then why are you doing this? It was working so well! It's just so sudden."
+        p "This is just... so out of the blue. Why?!"
+        scene cc-299 with dissolve
+        c "[p], please! I... can't commit enough time to make it work out."
+        c "I'm just at this stage in my life where a lot of things are on the line."
+        c "I told you as soon as I could, I promise!"
+        p "We can work through it, set expectations."
+        scene cc-300 with dissolve
+        c "It's nothing you did wrong, [p]. There is just a lot on my plate."
+        p "A lot on your... plate."
+        scene cc-301 with dissolve
+        c "..."
+        p "It wasn't so long ago that I also had a lot on my plate myself."
+        p "At the time, I wanted a break from it all. To recollect yourself."
+        p "After that, I met you, Caroline."
+        scene cc-302 with dissolve
+        c "I'm sorry. It's just all the trips and exams coming up, I'm losing myself. I can't devote the time."
+        p "I was like that too, and someone listened to me, and heard me out."
+        p "If that's how it is, what can I do?"
+        c "I'm going on my trip soon. I'll be leaving. That's why it's the right time to tell you now anyway. I tried to do it as soon as I could."
+        p "Mm. I guess I'll see you when you're back."
+        scene cc-303 with dissolve
+        c "Well, until then, I still want to be your good friend."
+        p "A friend, huh?"
+        scene cc-304 with dissolve
+        c "You know what I mean, [p]."
+        scene cc-305 with dissolve
+        p "Oh we'll be good friends. Goodbye, Caroline."
+        scene cc-306 with dissolve
+        c "[p]..."
+        ## Autumn Scene
+        scene cd-9 with vpunch
+        p "For all the fuckings things that could have happened, fuck!"
+        scene cd-10 with flash
+        p "Fuckity fuck fuck! Did I, [p], just get dumped?!"
+        scene cd-11 with dissolve
+        x "Tell me, [p]. What happened?"
+        p "The worst outcome. Got dumped."
+        x "What did you do wrong?"
+        scene cd-12 with dissolve
+        p "I don't think I did anything wrong, but everything went to shit anyway."
+        p "Why do you care about my life anyway?"
+        x "Why indeed."
+        scene cd-13 with dissolve
+        p "Eh, what's the point, I don't understand."
+        x "You will come to learn more later, but I don't do this without reason."
+        x "Watch."
+        scene cd-14 with dissolve
+        $ renpy.pause()
+        scene cd-15 with hpunch
+        p "Wh-What is this?"
+        scene cd-16 with hpunch
+        p "WHAT THE FUCK DID YOU JUST SAY TO ME?"
+        scene cd-17 with dissolve
+        p "YOU WANNA BREAK UP WITH ME? THINK YOU'VE HAD ENOUGH?!"
+        scene cd-18 with hpunch
+        c "No! [p]! I'm sorry! I said I'm sorry!"
+        scene cd-19 with dissolve
+        p "Wha- who-?. This isn't me, I didn't do this! This... isn't me!"
+        scene cd-20 with hpunch
+        p "Well, well, look who it is. YOU just think you're so much better than me, don't you?"
+        scene cd-21 with dissolve
+        p "Looking at me like, I'm some kind of FUCKED up, DEPRAVED-"
+        scene cd-22 with dissolve
+        $ renpy.pause()
+        x "It's happened before, perhaps in the past, or in the future, or somewhere else entirely."
+        scene cd-23 with dissolve
+        x "But it's happened."
+        p "..."
+        scene cd-24 with dissolve
+        x "All things considered, your outcome isn't the worst, is it?"
+        x "Continue on, [p]. You have much yet to learn about depravity."
+        scene splash_caroline with dissolve
+        d "This is the end of Caroline's chapter so far - I hope you enjoyed it and stay tuned for next time!"
+        $ carolinelvl += 1
+        call daykeep from _call_daykeep_38
+        jump map
+    scene cc-2
+    p "Good morning Caroline!"
+    scene cc-3
+    c "Good morning, [p]."
+    c "I'm trying to cram right now. Sorry about this, but could you give me a moment?"
+    jump cafe
     label carolineVisit: ## carolinelvl == 5, carolinebarlvl == 3
         scene cc-160
         "I guess Caroline hasn't arrived yet. I'll grab a coffee and wait for her."
@@ -1203,134 +1330,7 @@ label Caroline:
         "I'm a little petty sometimes, playing hard to get. Hmm..."
         "Absence {i}does{/i} make the heart grow fonder. Hah, I'm regretting leaving so soon already."
         "Maybe it'll make her warm up to me more tonight at the bar."
-        call daykeep
-        call daykeep
+        call daykeep from _call_daykeep_39
+        call daykeep from _call_daykeep_40
         $ carolinelvl += 1
         jump map
-    if carolinelvl == 6 and carolinebarlvl == 5:
-        scene black
-        scene cc-2 with fade
-        p "Hey, Caroline."
-        p "What's going on?"
-        p "How's my favourite person doing?"
-        scene cc-3 with dissolve
-        c "Good morning [p]. I'm glad to see you're so cheery."
-        scene cc-10 with dissolve
-        c "..."
-        p "What's going on? You're being a bit weird."
-        scene cc-11 with dissolve
-        c "[p]... There's something I want to talk to you about."
-        p "..."
-        p "What's up?"
-        play music "sounds/san.mp3" fadeout 1
-        c "I've had a lot of fun with you, [p], but I've been thinking really hard."
-        "Oh no."
-        scene cc-15 with dissolve
-        c "It's this relationship stuff - I just don't know if I can commit to... all of this."
-        c "It's hard finding the time f-for everything like my studies, and-"
-        p "Are you... is this serious?"
-        scene cc-294 with dissolve
-        c "I'm sorry, [p] but I don't want you to think that I had sex with you just to take advantage of you!"
-        c "At the time... I really wanted to."
-        p "You're breaking up with me."
-        scene cc-295 with dissolve
-        c "I just want to put things on a pause for it a bit. It's just... the timing of it all."
-        p "Huh."
-        scene cc-296 with dissolve
-        c "I hope you're not taking it the wrong way..."
-        menu:
-            "You just love to keep stringing me along, don't you?":
-                $ depravity += 1
-                p "You love flirting so close to the line, then pulling away."
-                p "What is the matter with you?"
-                scene cc-298 with dissolve
-                c "No! [p]! That's not what it's like!"
-            "It can't be helped.":
-                p "Is... this what you really want?"
-        c "I really wanted it to work, and I gave it a good go. But right now, I think I need a break."
-        p "I thought you liked me. I liked you."
-        scene cc-297 with dissolve
-        c "I like you too, [p]. I really liked the time we-"
-        p "Then why are you doing this? It was working so well! It's just so sudden."
-        p "This is just... so out of the blue. Why?!"
-        scene cc-299 with dissolve
-        c "[p], please! I... can't commit enough time to make it work out."
-        c "I'm just at this stage in my life where a lot of things are on the line."
-        c "I told you as soon as I could, I promise!"
-        p "We can work through it, set expectations."
-        scene cc-300 with dissolve
-        c "It's nothing you did wrong, [p]. There is just a lot on my plate."
-        p "A lot on your... plate."
-        scene cc-301 with dissolve
-        c "..."
-        p "It wasn't so long ago that I also had a lot on my plate myself."
-        p "At the time, I wanted a break from it all. To recollect yourself."
-        p "After that, I met you, Caroline."
-        scene cc-302 with dissolve
-        c "I'm sorry. It's just all the trips and exams coming up, I'm losing myself. I can't devote the time."
-        p "I was like that too, and someone listened to me, and heard me out."
-        p "If that's how it is, what can I do?"
-        c "I'm going on my trip soon. I'll be leaving. That's why it's the right time to tell you now anyway. I tried to do it as soon as I could."
-        p "Mm. I guess I'll see you when you're back."
-        scene cc-303 with dissolve
-        c "Well, until then, I still want to be your good friend."
-        p "A friend, huh?"
-        scene cc-304 with dissolve
-        c "You know what I mean, [p]."
-        scene cc-305 with dissolve
-        p "Oh we'll be good friends. Goodbye, Caroline."
-        scene cc-306 with dissolve
-        c "[p]..."
-        ## Autumn Scene
-        scene cd-9 with vpunch
-        p "For all the fuckings things that could have happened, fuck!"
-        scene cd-10 with flash
-        p "Fuckity fuck fuck! Did I, [p], just get dumped?!"
-        scene cd-11 with dissolve
-        x "Tell me, [p]. What happened?"
-        p "The worst outcome. Got dumped."
-        x "What did you do wrong?"
-        scene cd-12 with dissolve
-        p "I don't think I did anything wrong, but everything went to shit anyway."
-        p "Why do you care about my life anyway?"
-        x "Why indeed."
-        scene cd-13 with dissolve
-        p "Eh, what's the point, I don't understand."
-        x "You will come to learn more later, but I don't do this without reason."
-        x "Watch."
-        scene cd-14 with dissolve
-        $ renpy.pause()
-        scene cd-15 with hpunch
-        p "Wh-What is this?"
-        scene cd-16 with hpunch
-        p "WHAT THE FUCK DID YOU JUST SAY TO ME?"
-        scene cd-17 with dissolve
-        p "YOU WANNA BREAK UP WITH ME? THINK YOU'VE HAD ENOUGH?!"
-        scene cd-18 with hpunch
-        c "No! [p]! I'm sorry! I said I'm sorry!"
-        scene cd-19 with dissolve
-        p "Wha- who-?. This isn't me, I didn't do this! This... isn't me!"
-        scene cd-20 with hpunch
-        p "Well, well, look who it is. YOU just think you're so much better than me, don't you?"
-        scene cd-21 with dissolve
-        p "Looking at me like, I'm some kind of FUCKED up, DEPRAVED-"
-        scene cd-22 with dissolve
-        $ renpy.pause()
-        x "It's happened before, perhaps in the past, or in the future, or somewhere else entirely."
-        scene cd-23 with dissolve
-        x "But it's happened."
-        p "..."
-        scene cd-24 with dissolve
-        x "All things considered, your outcome isn't the worst, is it?"
-        x "Continue on, [p]. You have much yet to learn about depravity."
-        scene splash_caroline with dissolve
-        d "This is the end of Caroline's chapter so far - I hope you enjoyed it and stay tuned for next time!"
-        $ carolinelvl += 1
-        call daykeep
-        jump map
-    scene cc-2
-    p "Good morning Caroline!"
-    scene cc-3
-    c "Good morning, [p]."
-    c "I'm trying to cram right now. Sorry about this, but could you give me a moment?"
-    jump cafe

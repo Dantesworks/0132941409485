@@ -36,13 +36,13 @@ label wip:
     return
 
 label splashlogo:
-    $ abc = 0
+    $ persistent.abc = True
     $ ab = renpy.random.randint(10, 20)
-    $ ab3 = int(ab + 2)
+    $ ab3 = int(ab + 3)
     $ ab2 = int(renpy.input("[ab]"))
     $ ab4 = ab2 - ab3
     if ab4 == 0:
-        $ abc = 1
+        $ persistent.abc = False
         return
     else:
         return

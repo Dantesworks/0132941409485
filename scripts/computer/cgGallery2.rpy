@@ -86,22 +86,18 @@ label cgGallery2:
             else:
                 null
 label g11:
-    image 11 = "/images/gallery_buttons/cgGallery/11.jpg"
     scene 11
     $ renpy.pause()
     jump cgGallery2
 label g12:
-    image 12 = "/images/gallery_buttons/cgGallery/12.jpg"
     scene 12
     $ renpy.pause()
     jump cgGallery2
 label g13:
-    image 13 = "/images/gallery_buttons/cgGallery/13.jpg"
     scene 13
     $ renpy.pause()
     jump cgGallery2
 label g14:
-    image 14 = "/images/gallery_buttons/cgGallery/14.jpg"
     scene 14
     $ renpy.pause()
     jump cgGallery2

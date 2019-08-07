@@ -1,6 +1,6 @@
-default abc = 0
+default persistent.abc = True
 label abc:
-    if abc == 0:
+    if persistent.abc:
         $ renpy.quit()
     else:
         return
@@ -94,7 +94,7 @@ label sleep:
             $ daytime += 1
 
         "Sleep until the next day.":
-            #call abc
+            call abc
             $ daytime = 1
             $ day += 1
             call future from _call_future

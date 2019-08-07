@@ -11,6 +11,7 @@ default gym_clothes = False
 
 default dildo = False
 default plug = False
+default so = False
 
 default bogged = False
 default juke = False
@@ -22,6 +23,9 @@ default caroline_theme = False
 default kaira_theme = False
 default nicole_theme = False
 default vincent_theme = False
+default belle_theme = False
+default nyx_theme = False
+default maya_theme = False
 
 label online_shop:
     scene wallpaper
@@ -144,6 +148,13 @@ label sex_shop:
                 $ plug = True
                 "Thank you for your purchase."
             jump sex_shop
+        "Slutty Outfit - $100" if so ==  False:
+            if cash < 100:
+                "Transaction failed - insufficient funds."
+            else:
+                $ cash -= 100
+                $ so = True
+                "Thank you for your purchase."
         "Exit":
             jump online_shop
 label bog:
@@ -197,59 +208,6 @@ label juke:
         "No":
             jump online_shop
 
-label tracks:
-    menu:
-        "Amanda's Theme" if amanda_theme == False:
-            if balanceBTC < 5:
-                "Transaction failed - insufficient funds."
-            else:
-                $ balanceBTC -= 5
-                $ amanda_theme = True
-                "Enjoy the track in the Museum of Patrons."
-            jump tracks
-        "Camille's Theme" if camille_theme == False:
-            if balanceBTC < 5:
-                "Transaction failed - insufficient funds."
-            else:
-                $ balanceBTC -= 5
-                $ camille_theme = True
-                "Enjoy the track in the Museum of Patrons."
-            jump tracks
-        "Caroline's Theme" if caroline_theme == False:
-            if balanceBTC < 5:
-                "Transaction failed - insufficient funds."
-            else:
-                $ balanceBTC -= 5
-                $ caroline_theme = True
-                "Enjoy the track in the Museum of Patrons."
-            jump tracks
-        "Kaira's Theme" if kaira_theme == False:
-            if balanceBTC < 5:
-                "Transaction failed - insufficient funds."
-            else:
-                $ balanceBTC -= 5
-                $ kaira_theme = True
-                "Enjoy the track in the Museum of Patrons."
-            jump tracks
-        "Nicole's Theme" if nicole_theme == False:
-            if balanceBTC < 5:
-                "Transaction failed - insufficient funds."
-            else:
-                $ balanceBTC -= 5
-                $ nicole_theme = True
-                "Enjoy the track in the Museum of Patrons."
-            jump tracks
-        "Vincent's Theme" if vincent_theme == False:
-            if balanceBTC < 5:
-                "Transaction failed - insufficient funds."
-            else:
-                $ balanceBTC -= 5
-                $ vincent_theme = True
-                "Enjoy the track in the Museum of Patrons."
-            jump tracks
-
-        "Back":
-            jump online_shop
 
 ## Juke Box
 label juke_box:
@@ -267,6 +225,12 @@ label juke_box:
             play music "sounds/beach.mp3" fadeout 1
         "Vincent's Theme" if vincent_theme == True:
             play music "sounds/wistful.mp3" fadeout 1
+        "Nyx's Theme" if nyx_theme == True:
+            play music "sounds/witch.mp3" fadeout 1
+        "Maya's Theme" if maya_theme == True:
+            play music "sounds/pretty.mp3" fadeout 1
+        "Belle's Theme" if belle_theme == True:
+            play music "sounds/begins.mp3" fadeout 1
         "Back":
             if from_museum == 1:
                 jump museum

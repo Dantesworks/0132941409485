@@ -23,20 +23,21 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "0.53"
+define config.version = "0.53 Early Release"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""Hello, my name is Dante and this is my game, Depravity. Thank you for playing. Please leave feedback on patreon and f95.
+define gui.about = _p("""Hello, my name is Dante and this is my game, Depravity. Thank you for playing. Please leave feedback on Patreon, Discord and f95.
 
-Patreon: patreon.com/danteworks
+Take a look at 'Book of Depravity' for behind the scenes. 'Updates and Art' are where you can find my frequent posts about the progress of the game and CG that you won't find in the game. See the 'Shop' for real life merch! 
 
-Voice Actress for Splash screens: https://twitter.com/winter_va
+patreon.com/danteworks
+
+Voice Actress for splash screens: https://twitter.com/winter_va
 
 Music is comprised of original and unoriginal tracks.
-
 
 """)
 

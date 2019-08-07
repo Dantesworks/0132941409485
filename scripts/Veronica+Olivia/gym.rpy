@@ -676,7 +676,7 @@ label gym:
         scene splash5 with dissolve
         d "Until next time?"
         $ veronicalvl += 1
-        call daykeep
+        call daykeep from _call_daykeep_32
         jump map
     else:
         scene gym

@@ -414,14 +414,14 @@ label bartalk:
         $ dante = False
         $ russian = False
         $ drinks = False
-        call cryptoChange
+        call cryptoChange from _call_cryptoChange_1
         $ bogged = False
         $ daytimes = str(daytime)
         if "coffee" in items:
             $ items.remove("coffee")
         if "water" in items:
             $ items.remove("water")
-        call daykeep
+        call daykeep from _call_daykeep_46
         jump map
     if carolinelvl == 6 and carolinebarlvl == 4:
         scene black

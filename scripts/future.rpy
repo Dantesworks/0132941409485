@@ -769,7 +769,7 @@ label future:
                 saf "Make sure to treat my sister well, alright [p]?"
                 p "Always."
                 scene n-196 with dissolve
-                n "How are you relationships going, Saffron?"
+                n "How are your relationships going, Saffron?"
                 saf "I'm single at the moment, unfortunately."
                 p "What a tragedy!"
                 scene n-197 with dissolve

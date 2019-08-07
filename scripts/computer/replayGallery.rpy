@@ -14,64 +14,64 @@ label gallery1:
             spacing 80
             imagebutton: ## Replay
                 focus_mask True
-                idle "gallery_buttons/1.png"
-                hover "gallery_buttons/1_hover.png"
+                idle "gallery_buttons/r1.png"
+                hover "gallery_buttons/r1.png"
                 action Jump("nicole_bj")
             imagebutton: ## Replay
                 focus_mask True
-                idle "gallery_buttons/2.png"
-                hover "gallery_buttons/2_hover.png"
+                idle "gallery_buttons/r2.png"
+                hover "gallery_buttons/r2h.png"
                 action Jump("cumswap")
             imagebutton: ## Replay
                 focus_mask True
-                idle "gallery_buttons/3.png"
-                hover "gallery_buttons/3_hover.png"
+                idle "gallery_buttons/r3.png"
+                hover "gallery_buttons/r3.png"
                 action Jump("nicole_ride")
             if nicolelvl >= 5:
                 imagebutton:
                     focus_mask True
-                    idle "gallery_buttons/4.png"
-                    hover "gallery_buttons/4_hover.png"
+                    idle "gallery_buttons/r4.png"
+                    hover "gallery_buttons/r4h.png"
                     action Jump("nicole_event1")
             else:
                 null
             if nicolelvl >= 6:
                 imagebutton:
                     focus_mask True
-                    idle "gallery_buttons/5.png"
-                    hover "gallery_buttons/5_hover.png"
+                    idle "gallery_buttons/r5.png"
+                    hover "gallery_buttons/r5h.png"
                     action Jump("nicole_event2")
             else:
                 null
             if widowlvl > 1:
                 imagebutton:
                     focus_mask True
-                    idle "gallery_buttons/6.png"
-                    hover "gallery_buttons/6_hover.png"
+                    idle "gallery_buttons/r6.png"
+                    hover "gallery_buttons/r6h.png"
                     action Jump("widow_1")
             else:
                 null
             if kairalvl > 5:
                 imagebutton:
                     focus_mask True
-                    idle "gallery_buttons/7.png"
-                    hover "gallery_buttons/7_hover.png"
+                    idle "gallery_buttons/r7.png"
+                    hover "gallery_buttons/r7h.png"
                     action Jump("k_1")
             else:
                 null
             if camillelvl > 3:
                 imagebutton:
                     focus_mask True
-                    idle "gallery_buttons/8.png"
-                    hover "gallery_buttons/8_hover.png"
+                    idle "gallery_buttons/r8.png"
+                    hover "gallery_buttons/r8h.png"
                     action Jump("cam_bj")
             else:
                 null
             if camillelvl > 5:
                 imagebutton:
                     focus_mask True
-                    idle "gallery_buttons/9.png"
-                    hover "gallery_buttons/9_hover.png"
+                    idle "gallery_buttons/r9.png"
+                    hover "gallery_buttons/r9h.png"
                     action Jump("cam_anal_doggy")
             else:
                 null

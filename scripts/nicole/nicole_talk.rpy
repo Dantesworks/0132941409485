@@ -645,7 +645,7 @@ label nicoletalk:
         p "What?"
         n "You wanna come?"
         p "I still don't know anything about it, but sure. I'll take a backseat."
-        scene n-9 with dissolve
+        scene n-10 with dissolve
         n "Excellent."
         p "So when are we going?"
         scene n-12 with dissolve
@@ -995,7 +995,7 @@ label nicoletalk:
         n "She gave me a key."
         p "Oh."
         p "Okay then, I'll see you early tomorrow morning, yay."
-        scene n-21 with dissolve
+        scene n-23 with dissolve
         n "Sound more excited, won't you [p]?"
         p "Believe me Nicole, I am, and I really appreciate the time we spend together."
         scene n-24 with dissolve

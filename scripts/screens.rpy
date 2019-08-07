@@ -322,6 +322,12 @@ screen navigation():
 
         textbutton _("About") action ShowMenu("about")
 
+        textbutton _("Book of Depravity") action OpenURL("https://www.patreon.com/posts/what-is-design-27409571")
+
+        textbutton _("Updates and Art") action OpenURL("https://www.patreon.com/danteworks")
+
+        textbutton _("Shop") action OpenURL("https://www.redbubble.com/people/danteworks/works/40183930-bunny-kaira-landscape-version?asc=u")
+
         if renpy.variant("pc"):
 
             ## Help isn't necessary or relevant to mobile devices.

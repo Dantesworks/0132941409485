@@ -29,5 +29,9 @@ up to [p] to bring her back to earth." justify True size 18
                     text "Use the butt plug from the online shop, then go to the University." justify True size 18
                 else:
                     text "Alternate usage and options until Olivia licks the dildo." justify True size 18
+            elif olivialvl == 4:
+                text "Go the University location on the map." justify True size 18
+            elif olivialvl == 5:
+                text "Buy the slutty outfit then go back to the university." justify True size 18
             else:
                 text "Content complete for now - this is a patreon commissioned character." justify True size 18

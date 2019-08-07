@@ -154,7 +154,7 @@ label amanda_studio:
             scene a-143 with dissolve
             ny "Yes, we thought we'd look cute. I hope you'll agree."
             scene a-144 with dissolve
-            p "For sure! I'm loving it. Both of you girls look excellent"
+            p "For sure! I'm loving it. Both of you girls look excellent."
             scene a-145 with hpunch
             m "Ahem, [p]?"
             scene a-146 with hpunch
@@ -258,7 +258,7 @@ label amanda_studio:
             ma "Whatever it is, you've upset Amanda now. We'll have to make it up to them."
             scene a-178 with dissolve
             ma "And besides, me being innocent is the reason you like me."
-            ny "I guess you're right."
+            ny "You're not wrong, Maya~"
             # back to mc
             scene black with fade
             play music "sounds/alchemy.mp3" fadeout 1
@@ -323,7 +323,7 @@ label amanda_studio:
             p "I'm sorry you have to see this [mr], I'm a guy after all. Sometimes I can't help it."
             p "Err, [mr]?"
             scene a-203 with dissolve
-            "Wordlessly, she dropped to her knees and appraoched my member gingerly."
+            "Wordlessly, she dropped to her knees and approached my member gingerly."
             m "It... looks a bit tense, [p]. I'm sorry for doing this to you."
             p "N-not a problem... [mr]."
             scene a-204 with dissolve
@@ -406,8 +406,8 @@ label amanda_studio:
             scene black with fade
             "Wow, what a day. What a day indeed."
             $ amandalvl += 1
-            call daykeep
-            call daykeep
+            call daykeep from _call_daykeep_43
+            call daykeep from _call_daykeep_44
             jump hallway
         if amandalvl == 14:
             scene black with fade
@@ -435,7 +435,7 @@ label amanda_studio:
             p "..."
             scene a-126 with dissolve
             m "I think I should go back to work now."
-            p "Alright, I'll go."
+            p "...very well."
             scene black with fade
             "Fuck, this is so embarrassing!"
             $ amandalvl += 1
@@ -696,7 +696,7 @@ label amanda_studio:
             d "Find out next time, on Depravity."
             scene black with fade
             $ amandalvl += 1
-            call daykeep
+            call daykeep from _call_daykeep_45
             jump map
         else:
             v "Ooh, Amanda isn't available right now."

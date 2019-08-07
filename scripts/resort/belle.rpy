@@ -21,7 +21,7 @@ label belle:
         p "Oh damn, you're a celebrity! Wow, this is cool."
         scene b-8 with dissolve
         p "My name's [p]. Nice to meet you."
-        b "Pleased to be your acquaintance, [p]!"
+        b "Pleased to make your acquaintance, [p]!"
         scene b-9 with dissolve
         p "All right! By the way, how are things going, what are you doing here by yourself?"
         b "I'm taking a bath, [p], and then collecting the water with this jar, here!"
@@ -173,7 +173,7 @@ label belle:
             b "Did... did I taste like the bath water though?"
             p "Ahahah. Wasn't even close. Maybe you need to drop a few drops into the water or something first."
             b "Not even a little bit?"
-            p "Sorry. I think you need to get some more pussy juice into the pool them extract it."
+            p "Sorry. I think you need to get some more pussy juice into the pool then extract it."
             scene b-44 with dissolve
             b "Ah~"
             scene b-45 with fade
@@ -184,7 +184,7 @@ label belle:
             b "Thanks for the help, [p]!"
             p "My pleasure!"
             $ bellelvl += 1
-            call daykeep
+            call daykeep from _call_daykeep_41
             jump map
     if bellelvl > 2:
         scene black
@@ -266,5 +266,5 @@ label belle:
         scene b-47 with dissolve
         b "Thanks for the help, [p]!"
         p "My pleasure!"
-        call daykeep
+        call daykeep from _call_daykeep_42
         jump map

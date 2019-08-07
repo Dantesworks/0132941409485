@@ -21,6 +21,8 @@ define g2 = Character("Guest 2")
 define wai = Character("Waitress")
 define s1 = Character("Woman #1")
 define s2 = Character("Woman #2")
+define s3 = Character("Man #1")
+define s4 = Character("Man #2")
 define o = Character("Olivia")
 define ver = Character("Veronica")
 define saf = Character("Saffron")
@@ -45,9 +47,8 @@ label splashscreen:
 
     $ renpy.pause(2.0,hard=False)
     $ renpy.pause()
-    d "This is the beta version of the game, and is not intended for public release. Play at your own risk!"
 
-    #call splashlogo
+    call splashlogo
 
     scene black
     with Dissolve(1)
@@ -67,7 +68,7 @@ label splashscreen:
     #$ renpy.pause(2.0,hard=False)
     #$ renpy.pause()
 
-    scene splash2
+    scene splash2_1
     with Dissolve(1)
 
     $ renpy.pause(2.0,hard=True)

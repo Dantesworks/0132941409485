@@ -34,7 +34,15 @@ label drinksmenu:
                 c "You don't have enough money - are you sure you're not drunk already?"
             elif drinks:
                 scene cb-4
-                c "You should finish your drink before you order another one."
+                c "You've already ordered a drink, would you like to order another one?"
+                menu:
+                    "Yes":
+                        $ cash -= 10
+                        $ premiumcount += 10
+                        $ russian = True
+                        call drinks
+                    "No":
+                        jump barask
             else:
                 "Very original!"
                 $ cash -= 20
@@ -47,7 +55,15 @@ label drinksmenu:
                 c "You don't have enough money - are you sure you're not drunk already?"
             elif drinks:
                 scene cb-4
-                c "You should finish your drink before you order another one."
+                c "You've already ordered a drink, would you like to order another one?"
+                menu:
+                    "Yes":
+                        $ cash -= 10
+                        $ premiumcount += 10
+                        $ russian = True
+                        call drinks
+                    "No":
+                        jump barask
             else:
                 c "Fantastic choice."
                 $ cash -= 10

@@ -63,47 +63,38 @@ label cgGallery:
                 hover "gallery_buttons/cGGallery/10-h.png"
                 action Jump("g10")
 label g1:
-    image 1 = "/images/gallery_buttons/cgGallery/1.jpg"
     scene 1
     $ renpy.pause()
     jump cgGallery
 label g2:
-    image 2 = "/images/gallery_buttons/cgGallery/2.jpg"
     scene 2
     $ renpy.pause()
     jump cgGallery
 label g3:
-    image 3 = "/images/gallery_buttons/cgGallery/3.jpg"
     scene 3
     $ renpy.pause()
     jump cgGallery
 label g4:
-    image 4 = "/images/gallery_buttons/cgGallery/4.jpg"
     scene 4
     $ renpy.pause()
     jump cgGallery
 label g5:
-    image 5 = "/images/gallery_buttons/cgGallery/5.jpg"
     scene 5
     $ renpy.pause()
     jump cgGallery
 label g7:
-    image 7 = "/images/gallery_buttons/cgGallery/7.jpg"
     scene 7
     $ renpy.pause()
     jump cgGallery
 label g8:
-    image 8 = "/images/gallery_buttons/cgGallery/8.jpg"
     scene 8
     $ renpy.pause()
     jump cgGallery
 label g9:
-    image 9 = "/images/gallery_buttons/cgGallery/9.jpg"
     scene 9
     $ renpy.pause()
     jump cgGallery
 label g10:
-    image 10 = "/images/gallery_buttons/cgGallery/10.jpg"
     scene 10
     $ renpy.pause()
     jump cgGallery
