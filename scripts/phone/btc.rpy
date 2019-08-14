@@ -5,7 +5,7 @@ default exchangeRate = 10
 default withdrawal_amount = 50
 
 label cryptoChange:
-    $ crypto_int = renpy.random.randint(-40, 67)
+    $ crypto_int = renpy.random.randint(-20, 25)
     $ crypto_float = float(crypto_int)
     $ crypto_ratio = crypto_float/100
     $ delta = exchangeRate*crypto_ratio

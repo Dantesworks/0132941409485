@@ -779,7 +779,7 @@ label kairatalk:
             s "I'm going to think about what to wear."
             s "What do you think [p]?"
             p "Just wear your regular stuff, plus a swimsuit of course."
-            scene k-3
+            scene ke-3
             s "A swimsuit?"
             "Yeah, the one you modelled for me the other day? Hehehe..."
             p "Yeah, we're going swimming. It's the resort."

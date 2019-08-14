@@ -25,6 +25,16 @@ label museum:
         grid 3 3:
             align (0.5, 0.3)
             spacing 80
+            imagebutton: ## vlad
+                focus_mask True
+                idle "/images/gallery_buttons/museum/vlad_i.png"
+                hover "/images/gallery_buttons/museum/vlad_h.png"
+                action Jump("vlad")
+            imagebutton: ## dis
+                focus_mask True
+                idle "/images/gallery_buttons/museum/dis_i.png"
+                hover "/images/gallery_buttons/museum/dis_h.png"
+                action Jump("dis")
             imagebutton: ## coil3
                 focus_mask True
                 idle "/images/gallery_buttons/museum/coil3_i.png"
@@ -60,18 +70,19 @@ label museum:
                 idle "/images/gallery_buttons/museum/yakai_i.png"
                 hover "/images/gallery_buttons/museum/yakai_h.png"
                 action Jump("yakai")
-            imagebutton: ## lyda
-                focus_mask True
-                idle "/images/gallery_buttons/museum/lyda_i.png"
-                hover "/images/gallery_buttons/museum/lyda_h.png"
-                action Jump("lyda")
-            imagebutton: ## lama
-                focus_mask True
-                idle "/images/gallery_buttons/museum/lama_i.png"
-                hover "/images/gallery_buttons/museum/lama_h.png"
-                action Jump("lama")
-
-
+label vlad:
+    scene vlad
+    $ renpy.pause()
+    "Will you put some sunscreen on me? | Vladzer"
+    jump museum
+label dis:
+    scene dis
+    $ renpy.pause()
+    "Make a picture of the female from the game that inspired you the most in making this one | Disimulated"
+    d "The inspiration of my game came from Manic Minxy's Perverted Hotel, which is now apparently discontinued."
+    d "My favourite characters from that game are Hailey and Brooke, the twin sisters."
+    d "I plan to give them a send-off in a future update in a cameo."
+    jump museum
 label coil2:
     scene coil2
     $ renpy.pause()
@@ -112,13 +123,13 @@ label lyda:
     scene lyda
     $ renpy.pause()
     "Looking forward to taming Amanda | Lyda"
-    jump museum
+    jump museum2
 
 label lama:
     scene lama
     $ renpy.pause()
     "J'en ai marre | Lama"
-    jump museum
+    jump museum2
 
 label dante:
     scene dante

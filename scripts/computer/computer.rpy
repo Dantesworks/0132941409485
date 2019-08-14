@@ -1,4 +1,5 @@
 label computer:
+    hide screen player_room
     if renpy.music.get_playing() != "sounds/you.mp3":
         play music "sounds/you.mp3"
     call hidescreens from _call_hidescreens_6

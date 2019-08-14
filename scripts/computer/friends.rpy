@@ -20,8 +20,16 @@ label friends:
                 idle "gallery_buttons/friends/glacerose.png"
                 hover "gallery_buttons/friends/glacerose_hover.png"
                 action OpenURL("https://www.patreon.com/glacerose")
-            null
-            null
+            imagebutton:
+                focus_mask True
+                idle "gallery_buttons/friends/zanith.png"
+                hover "gallery_buttons/friends/zanith_hover.png"
+                action OpenURL("https://www.patreon.com/zanith")
+            imagebutton:
+                focus_mask True
+                idle "gallery_buttons/friends/sir.png"
+                hover "gallery_buttons/friends/sir_hover.png"
+                action OpenURL("https://www.patreon.com/Eternity_Games")
             null
             null
             null

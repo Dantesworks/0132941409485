@@ -29,7 +29,7 @@ label studio_intro:
     v "Soon to be. Just a few shoots, and she'll be immortalised as one of Dante's models."
     v "Here, let me show you."
     ## Transition
-    scene black
+    scene black with fade
     scene a-20 with fade
     v "Hey Amanda, you got a visitor."
     scene a-21 with hpunch

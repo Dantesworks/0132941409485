@@ -375,6 +375,8 @@ label trainer:
             $ daytime = 4
             $ daytimes = str(daytime)
             jump map
+        "Slutty outfit" if olivialvl == 6:
+            jump olivia_outfit
         "Never mind.":
             jump map
 default vdildo = False

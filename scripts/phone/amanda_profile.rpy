@@ -17,7 +17,7 @@ screen amanda_profile():
 finds work in the modelling industry. Despite being widowed for many years, she has continued to be content with being single. The story may have ended there, \
 until she saw [p] again. Having a man in the house stirred some long forgotten emotions within Amanda. One night, she witnessed [p] and Nicole \
 engage in intimacy, and her own reaction surprised her. Despite it being depraved, Amanda found herself lusting after [p]'s phallus, but quickly \
-regained control of the situation. Regardless, living with [p] is a recipe for an interesting story, and there is no telling elif one time her \
+regained control of the situation. Regardless, living with [p] is a recipe for an interesting story, and there is no telling if one time her \
 urges will triumph." justify True size 18
     viewport xalign 0.5 yanchor 0 ypos 410 xsize 350 ysize 40 draggable True mousewheel True arrowkeys True:
         vbox xsize 350:

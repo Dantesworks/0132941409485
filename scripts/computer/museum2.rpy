@@ -21,13 +21,21 @@ label museum2:
         grid 3 3:
             align (0.5, 0.3)
             spacing 80
+            imagebutton: ## lyda
+                focus_mask True
+                idle "/images/gallery_buttons/museum/lyda_i.png"
+                hover "/images/gallery_buttons/museum/lyda_h.png"
+                action Jump("lyda")
+            imagebutton: ## lama
+                focus_mask True
+                idle "/images/gallery_buttons/museum/lama_i.png"
+                hover "/images/gallery_buttons/museum/lama_h.png"
+                action Jump("lama")
             imagebutton: ## dante
                 focus_mask True
                 idle "/images/gallery_buttons/museum/dante_i.png"
                 hover "/images/gallery_buttons/museum/dante_h.png"
                 action Jump("dante")
-            null
-            null
             null
             null
             null

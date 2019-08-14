@@ -280,263 +280,267 @@ label uni:
         jump map
     if olivialvl == 5:
         if so:
-            scene black
-            play music "sounds/alchemy.mp3" fadeout 1
-            scene o-121 with fade
-            p "I'm back with your gift."
-            p "It's what every slut loves. A slutty outfit."
-            scene o-122 with dissolve
-            o "What do you want from me?"
-            p "Whoa. Show some appreciation, won't you?"
-            p "This cost me a pretty penny. I invested money into this for you."
-            p "I care about you."
-            scene o-123 with dissolve
-            o "Your gaslighting won't get to me."
-            p "Think what you will, Slut, but one thing's for certain."
-            p "You're going to wear my present to you. And you will love it."
-            scene o-124 with dissolve
-            o "This?"
-            o "This barely covers anything. Do I like like a punk to you? Those years are behind me."
-            o "What a gross outfit!"
-            scene o-125 with hpunch
-            p "Hey hey hey-"
-            p "Is this the attitude you're going to have? Be a doll, won't you? Put this on."
-            scene o-126 with dissolve
-            o "The way you talk to me is creepy and disgusting. You make my skin crawl."
-            p "Listen up, Slut."
-            p "Either you put this on or I stretch your tight little anus with the dildos."
-            p "It's your choice. I'm running out of patience."
-            scene o-127 with dissolve
-            o "..."
-            o "I only have to wear this?"
-            p "Of course. Have I ever lied to you?"
-            scene o-128 with dissolve
-            o "F-Fine!"
-            o "Turn around!"
-            scene o-129 with dissolve
-            p "That's not how it works. You don't get to hide your body from me."
-            scene o-130 with dissolve
-            p "Strip. Now."
-            scene o-131 with dissolve
-            o "{i}Sob...{/i}"
-            o "(I can't believe I'm getting humiliated again!)"
-            o "(I'm so powerless against him!)"
-            p "Understand?"
-            scene o-132 with dissolve
-            o "..yes."
-            p "Call me master."
-            scene o-133 with vpunch
-            o "Cheh! I'm getting changed for you already, isn't that enough?!"
-            p "Then talk less and strip more."
-            scene o-134 with dissolve
-            o "Hmph!"
-            scene o-135 with dissolve
-            $ renpy.pause()
-            scene o-136 with dissolve
-            $ renpy.pause()
-            scene o-137 with dissolve
-            $ renpy.pause()
-            scene o-138 with dissolve
-            $ renpy.pause()
-            scene o-139 with dissolve
-            $ renpy.pause()
-            scene o-140 with dissolve
-            $ renpy.pause()
-            "Wow, what a strong and fit body."
-            p "Hey, Slut."
-            scene o-141 with dissolve
-            p "Look at me with your pretty face."
-            scene o-142 with dissolve
-            o "..."
-            p "Look me in the eyes."
-            scene o-143 with dissolve
-            p "You're so pretty with your mouth shut."
-            p "Nice and vulnerable. This is where you belong."
-            p "Now let me take those off."
-            scene o-144 with dissolve
-            o "..."
-            scene o-145 with dissolve
-            $ renpy.pause()
-            scene o-146 with dissolve
-            $ renpy.pause()
-            scene o-147 with dissolve
-            $ renpy.pause()
-            "Jesus, what a well-maintained body."
-            "That {i}will{/i} be mine one day, and I look forward to destroying it."
-            scene o-148 with dissolve
-            p "You've got a nice body, Slut."
-            p "I'm going to bend you over one day and fill that ass with cock."
-            scene o-149 with dissolve
-            o "You're just a dirty rapist."
-            p "Rapist? Oh I'm not going to rape you. Believe me, you're going to bend over willingly."
-            p "Now shut up and put this on."
-            scene o-150 with dissolve
-            $ renpy.pause()
-            scene o-151 with dissolve
-            $ renpy.pause()
-            scene o-152 with dissolve
-            $ renpy.pause()
-            scene o-153 with dissolve
-            $ renpy.pause()
-            scene o-154 with dissolve
-            $ renpy.pause()
-            # done
-            o "Happy?"
-            p "Very. You look great in that outfit, Slut. It suits you well."
-            scene o-155 with dissolve
-            $ renpy.pause()
-            p "It doesn't cover too much, and shows off that body you worked so hard for."
-            p "Tell me. Why do you work so hard at the gym if you didn't want people to stare at you?"
-            o "..."
-            scene o-156 with dissolve
-            o "I don't do it for you, creep! It's not for your eyes."
-            p "Oh hoho!"
-            p "So you're working to impress someone else, are you?"
-            p "Who are you trying to impress?"
-            scene o-157 with hpunch
-            o "I-"
-            p "And here I thought you hated all men."
-            scene o-158 with vpunch
-            o "I do! I fucking hate you all. I will {i}never{/i} love or be friends with a male."
-            p "What about the guy that mistreated you? He wasn't your boyfriend?"
-            p "Or was it a random guy who just raped you?"
-            scene o-159 with dissolve
-            o "No such thing ever happened, how disgusting of you to repeat it."
-            scene o-160 with dissolve
-            p "Hmm, so if you're not trying to impress a man, are you possibly trying to impress..."
-            p "...a woman?"
-            scene o-161 with dissolve
-            o "You bastard..."
-            scene o-162 with dissolve
-            p "Oh, thats fascinating. I didn't know you liked chicks, Slut!"
-            p "I still have to wonder why you hate men so much, though. But, it's not something we have to worry about."
-            p "I'm sure you'll come to love me over our time together!"
-            o "Are you quite finished with your stupid monologue?"
-            p "It's not wrong though, is it?"
-            scene o-163 with dissolve
-            o "I'm tired of playing dress up. Can I- I mean, I'm going now!"
-            scene o-160 with dissolve
-            p "Not so soon. Usually I'd have a dildo up your ass by now. We can't just end here."
-            o "B-But you promised that it was either dress up or that!"
-            p "Relax, your holes are safe for today. I just want to take a walk with you, talk about life."
-            scene o-163 with dissolve
-            o "A walk? With me dressed like this?"
-            p "You already know it."
-            o "What if people see me? That- that'll be-"
-            p "Embarassing?"
-            p "Whether you feel embarassed is up to you."
-            p "How does this compare against losing your job, your reputation and possibly your life?"
-            p "This is nothing. So don't make me ask twice. From now on you listen to my orders, understand?"
-            scene o-164 with dissolve
-            "She exhales deeply and there is a quiver at the end."
-            scene o-165 with dissolve
-            o "I... understand."
-            p "Hahaha, gooood."
-            scene black with fade
-            "A few moments later."
-            # outside
-            play music "sounds/path.mp3" fadeout 1
-            scene o-166 with fade
-            o "Why did you take me here?"
-            scene o-167 with dissolve
-            p "I just wanted somewhere with people. A body like yours should be enjoyed and flaunted."
-            scene o-168 with dissolve
-            o "This is... embarassing."
-            p "It's embarassing for me too, having a slut like you walking next to me."
-            scene o-169 with dissolve
-            p "You perverted looking thing. You look just like a cheap hooker on the street."
-            scene o-170 with dissolve
-            o "This is your fault!"
-            p "Look where we are."
-            scene o-171 with dissolve
-            p "We're in the middle of the streets. You're in this situation now."
-            p "I don't even want to be seen around you. Walk ahead of me."
-            p "I don't want people to associate me with you."
-            scene o-172 with dissolve
-            o "I-I'm not that cheap looking, am I?"
-            p "Shut up. Walk forward."
-            scene o-173 with dissolve
-            o "..."
-            scene o-174 with dissolve
-            "God, she looks the perfect amount of slutty."
-            "She must be so uncomfortable right now."
-            p "Just stand there for a bit."
-            scene o-175 with dissolve
-            o "H-Here?"
-            p "Right there. And try it fit in."
-            scene o-176 with dissolve
-            o "How can I with this prostitute outfit!"
-            scene o-177 with dissolve
-            o "(Alright, Olivia, you have to calm down.)"
-            o "(Try not to be self-conscious.)"
-            scene o-178 with fade
-            o "..."
-            s3 "Honey, what do you think of that woman on the street there?"
-            scene o-179 with hpunch
-            s1 "That cheap looking slut? I hope you're not fancying her."
-            s3 "People these days! Morals are like a thing of the past."
-            scene o-180 with dissolve
-            s1 "Don't give her attention, she's just begging for it."
-            s1 "You might get STDs just from being too close."
-            s3 "Don't worry! I won't be leaving you for such a skank."
-            scene o-181 with hpunch
-            o "I- I'm not a prostitute! It's just this outfit, I didn't choose to-"
-            scene o-182 with hpunch
-            s4 "Wow, ma'am, what a nice pair of tits you have!"
-            s4 "How much for a blow job?"
-            scene o-183 with dissolve
-            o "I already said I'm not a whore!"
-            s4 "Stuck up bitch playing hard to get. You're not as hot as you think, bitch."
-            scene o-184 with dissolve
-            s4 "Keep up this shit and someone will be bound to rape your sorry ass."
-            scene o-185 with dissolve
-            o "I-I...!"
-            scene o-186 with hpunch
-            s2 "Your behaviour here is very inappropriate!"
-            scene o-187 with dissolve
-            o "I-I know, this isn't what I-"
-            s2 "Didn't you know? The feminist movement these days are about empowering women, and your whorish attire demeans and objectifies women."
-            s2 "I just want you to know that not all of us are like you. You're alone."
-            scene o-188 with fade
-            o "(Why are people... so cruel to me?)"
-            scene o-190 with dissolve
-            o "(Is this who I am...? Do I... deserve this?)"
-            scene o-191 with dissolve
-            p "What an eye-opening experience."
-            p "I think that took you down a few notches, Slut."
-            p "Do you see now? You have no right to act so haughty."
-            scene o-192 with dissolve
-            o "No, it's all your fault!"
-            scene o-193 with dissolve
-            o "You made me into this!"
-            p "Give me a break, haha!"
-            scene o-194 with dissolve
-            p "You know, I think you liked it. I think you're a sick exhibitionist."
-            p "Was it an arousing experience for you?"
-            scene o-195 with dissolve
-            o "My body is for one person, and one person only. Not you, not them."
-            o "You might be able to blackmail me now, [p], but I swear, I hate every bit of it."
-            p "Well, let's see if we can change that."
-            p "You're probably thinking to yourself: how can I get out of this situation?"
-            p "Give it up, Slut. You're just a pair of tits in the end. You're not that smart."
-            scene o-196 with dissolve
-            o "We'll see."
-            p "Oh we will. But I guarantee you. You'll learn to accept it and love me, or lose your job, your posessions, and maybe even your life."
-            p "You're not that smart, but this should be a no-brainer."
-            scene o-197 with dissolve
-            o "..."
-            p "Staying quiet? Good. A slut is prettiest with their mouth shut."
-            scene o-198 with dissolve
-            p "You've done well today and you may go home now."
-            $ olivialvl += 1
-            scene splash7 with fade
-            d "Thank you for playing so far!"
-            call daykeep
-            jump map
+            label olivia_outfit:
+                scene black
+                play music "sounds/alchemy.mp3" fadeout 1
+                scene o-121 with fade
+                p "I'm back with your gift."
+                p "It's what every slut loves. A slutty outfit."
+                scene o-122 with dissolve
+                o "What do you want from me?"
+                p "Whoa. Show some appreciation, won't you?"
+                p "This cost me a pretty penny. I invested money into this for you."
+                p "I care about you."
+                scene o-123 with dissolve
+                o "Your gaslighting won't get to me."
+                p "Think what you will, Slut, but one thing's for certain."
+                p "You're going to wear my present to you. And you will love it."
+                scene o-124 with dissolve
+                o "This?"
+                o "This barely covers anything. Do I like like a punk to you? Those years are behind me."
+                o "What a gross outfit!"
+                scene o-125 with hpunch
+                p "Hey hey hey-"
+                p "Is this the attitude you're going to have? Be a doll, won't you? Put this on."
+                scene o-126 with dissolve
+                o "The way you talk to me is creepy and disgusting. You make my skin crawl."
+                p "Listen up, Slut."
+                p "Either you put this on or I stretch your tight little anus with the dildos."
+                p "It's your choice. I'm running out of patience."
+                scene o-127 with dissolve
+                o "..."
+                o "I only have to wear this?"
+                p "Of course. Have I ever lied to you?"
+                scene o-128 with dissolve
+                o "F-Fine!"
+                o "Turn around!"
+                scene o-129 with dissolve
+                p "That's not how it works. You don't get to hide your body from me."
+                scene o-130 with dissolve
+                p "Strip. Now."
+                scene o-131 with dissolve
+                o "{i}Sob...{/i}"
+                o "(I can't believe I'm getting humiliated again!)"
+                o "(I'm so powerless against him!)"
+                p "Understand?"
+                scene o-132 with dissolve
+                o "..yes."
+                p "Call me master."
+                scene o-133 with vpunch
+                o "Cheh! I'm getting changed for you already, isn't that enough?!"
+                p "Then talk less and strip more."
+                scene o-134 with dissolve
+                o "Hmph!"
+                scene o-135 with dissolve
+                $ renpy.pause()
+                scene o-136 with dissolve
+                $ renpy.pause()
+                scene o-137 with dissolve
+                $ renpy.pause()
+                scene o-138 with dissolve
+                $ renpy.pause()
+                scene o-139 with dissolve
+                $ renpy.pause()
+                scene o-140 with dissolve
+                $ renpy.pause()
+                "Wow, what a strong and fit body."
+                p "Hey, Slut."
+                scene o-141 with dissolve
+                p "Look at me with your pretty face."
+                scene o-142 with dissolve
+                o "..."
+                p "Look me in the eyes."
+                scene o-143 with dissolve
+                p "You're so pretty with your mouth shut."
+                p "Nice and vulnerable. This is where you belong."
+                p "Now let me take those off."
+                scene o-144 with dissolve
+                o "..."
+                scene o-145 with dissolve
+                $ renpy.pause()
+                scene o-146 with dissolve
+                $ renpy.pause()
+                scene o-147 with dissolve
+                $ renpy.pause()
+                "Jesus, what a well-maintained body."
+                "That {i}will{/i} be mine one day, and I look forward to destroying it."
+                scene o-148 with dissolve
+                p "You've got a nice body, Slut."
+                p "I'm going to bend you over one day and fill that ass with cock."
+                scene o-149 with dissolve
+                o "You're just a dirty rapist."
+                p "Rapist? Oh I'm not going to rape you. Believe me, you're going to bend over willingly."
+                p "Now shut up and put this on."
+                scene o-150 with dissolve
+                $ renpy.pause()
+                scene o-151 with dissolve
+                $ renpy.pause()
+                scene o-152 with dissolve
+                $ renpy.pause()
+                scene o-153 with dissolve
+                $ renpy.pause()
+                scene o-154 with dissolve
+                $ renpy.pause()
+                # done
+                o "Happy?"
+                p "Very. You look great in that outfit, Slut. It suits you well."
+                scene o-155 with dissolve
+                $ renpy.pause()
+                p "It doesn't cover too much, and shows off that body you worked so hard for."
+                p "Tell me. Why do you work so hard at the gym if you didn't want people to stare at you?"
+                o "..."
+                scene o-156 with dissolve
+                o "I don't do it for you, creep! It's not for your eyes."
+                p "Oh hoho!"
+                p "So you're working to impress someone else, are you?"
+                p "Who are you trying to impress?"
+                scene o-157 with hpunch
+                o "I-"
+                p "And here I thought you hated all men."
+                scene o-158 with vpunch
+                o "I do! I fucking hate you all. I will {i}never{/i} love or be friends with a male."
+                p "What about the guy that mistreated you? He wasn't your boyfriend?"
+                p "Or was it a random guy who just raped you?"
+                scene o-159 with dissolve
+                o "No such thing ever happened, how disgusting of you to repeat it."
+                scene o-160 with dissolve
+                p "Hmm, so if you're not trying to impress a man, are you possibly trying to impress..."
+                p "...a woman?"
+                scene o-161 with dissolve
+                o "You bastard..."
+                scene o-162 with dissolve
+                p "Oh, thats fascinating. I didn't know you liked chicks, Slut!"
+                p "I still have to wonder why you hate men so much, though. But, it's not something we have to worry about."
+                p "I'm sure you'll come to love me over our time together!"
+                o "Are you quite finished with your stupid monologue?"
+                p "It's not wrong though, is it?"
+                scene o-163 with dissolve
+                o "I'm tired of playing dress up. Can I- I mean, I'm going now!"
+                scene o-160 with dissolve
+                p "Not so soon. Usually I'd have a dildo up your ass by now. We can't just end here."
+                o "B-But you promised that it was either dress up or that!"
+                p "Relax, your holes are safe for today. I just want to take a walk with you, talk about life."
+                scene o-163 with dissolve
+                o "A walk? With me dressed like this?"
+                p "You already know it."
+                o "What if people see me? That- that'll be-"
+                p "Embarassing?"
+                p "Whether you feel embarassed is up to you."
+                p "How does this compare against losing your job, your reputation and possibly your life?"
+                p "This is nothing. So don't make me ask twice. From now on you listen to my orders, understand?"
+                scene o-164 with dissolve
+                "She exhales deeply and there is a quiver at the end."
+                scene o-165 with dissolve
+                o "I... understand."
+                p "Hahaha, gooood."
+                scene black with fade
+                "A few moments later."
+                # outside
+                play music "sounds/path.mp3" fadeout 1
+                scene o-166 with fade
+                o "Why did you take me here?"
+                scene o-167 with dissolve
+                p "I just wanted somewhere with people. A body like yours should be enjoyed and flaunted."
+                scene o-168 with dissolve
+                o "This is... embarassing."
+                p "It's embarassing for me too, having a slut like you walking next to me."
+                scene o-169 with dissolve
+                p "You perverted looking thing. You look just like a cheap hooker on the street."
+                scene o-170 with dissolve
+                o "This is your fault!"
+                p "Look where we are."
+                scene o-171 with dissolve
+                p "We're in the middle of the streets. You're in this situation now."
+                p "I don't even want to be seen around you. Walk ahead of me."
+                p "I don't want people to associate me with you."
+                scene o-172 with dissolve
+                o "I-I'm not that cheap looking, am I?"
+                p "Shut up. Walk forward."
+                scene o-173 with dissolve
+                o "..."
+                scene o-174 with dissolve
+                "God, she looks the perfect amount of slutty."
+                "She must be so uncomfortable right now."
+                p "Just stand there for a bit."
+                scene o-175 with dissolve
+                o "H-Here?"
+                p "Right there. And try it fit in."
+                scene o-176 with dissolve
+                o "How can I with this prostitute outfit!"
+                scene o-177 with dissolve
+                o "(Alright, Olivia, you have to calm down.)"
+                o "(Try not to be self-conscious.)"
+                scene o-178 with fade
+                o "..."
+                s3 "Honey, what do you think of that woman on the street there?"
+                scene o-179 with hpunch
+                s1 "That cheap looking slut? I hope you're not fancying her."
+                s3 "People these days! Morals are like a thing of the past."
+                scene o-180 with dissolve
+                s1 "Don't give her attention, she's just begging for it."
+                s1 "You might get STDs just from being too close."
+                s3 "Don't worry! I won't be leaving you for such a skank."
+                scene o-181 with hpunch
+                o "I- I'm not a prostitute! It's just this outfit, I didn't choose to-"
+                scene o-182 with hpunch
+                s4 "Wow, ma'am, what a nice pair of tits you have!"
+                s4 "How much for a blow job?"
+                scene o-183 with dissolve
+                o "I already said I'm not a whore!"
+                s4 "Stuck up bitch playing hard to get. You're not as hot as you think, bitch."
+                scene o-184 with dissolve
+                s4 "Keep up this shit and someone will be bound to rape your sorry ass."
+                scene o-185 with dissolve
+                o "I-I...!"
+                scene o-186 with hpunch
+                s2 "Your behaviour here is very inappropriate!"
+                scene o-187 with dissolve
+                o "I-I know, this isn't what I-"
+                s2 "Didn't you know? The feminist movement these days are about empowering women, and your whorish attire demeans and objectifies women."
+                s2 "I just want you to know that not all of us are like you. You're alone."
+                scene o-188 with fade
+                o "(Why are people... so cruel to me?)"
+                scene o-190 with dissolve
+                o "(Is this who I am...? Do I... deserve this?)"
+                scene o-191 with dissolve
+                p "What an eye-opening experience."
+                p "I think that took you down a few notches, Slut."
+                p "Do you see now? You have no right to act so haughty."
+                scene o-192 with dissolve
+                o "No, it's all your fault!"
+                scene o-193 with dissolve
+                o "You made me into this!"
+                p "Give me a break, haha!"
+                scene o-194 with dissolve
+                p "You know, I think you liked it. I think you're a sick exhibitionist."
+                p "Was it an arousing experience for you?"
+                scene o-195 with dissolve
+                o "My body is for one person, and one person only. Not you, not them."
+                o "You might be able to blackmail me now, [p], but I swear, I hate every bit of it."
+                p "Well, let's see if we can change that."
+                p "You're probably thinking to yourself: how can I get out of this situation?"
+                p "Give it up, Slut. You're just a pair of tits in the end. You're not that smart."
+                scene o-196 with dissolve
+                o "We'll see."
+                p "Oh we will. But I guarantee you. You'll learn to accept it and love me, or lose your job, your posessions, and maybe even your life."
+                p "You're not that smart, but this should be a no-brainer."
+                scene o-197 with dissolve
+                o "..."
+                p "Staying quiet? Good. A slut is prettiest with their mouth shut."
+                scene o-198 with dissolve
+                p "You've done well today and you may go home now."
+                if olivialvl == 5:
+                    $ olivialvl += 1
+                scene splash7 with fade
+                d "Thank you for playing so far!"
+                $ daytime = 4
+                $ daytimes = str(daytime)
+                jump map
         else:
             scene black
             scene o-41 with fade
             "I need to buy the slutty outfit from the shop first."
+            jump map
     if olivialvl == 6:
         scene black
         play music "sounds/alchemy.mp3" fadeout 1

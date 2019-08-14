@@ -817,7 +817,7 @@ label camilletalk:
         p "I can't move!"
         x "I appear in your subconcious to guide you, [p]."
         x "This is about the choices you make and how they affect the ending of your story."
-        x "I can't give help you now though, not now. Some things you have to see to the end yourself."
+        x "I can't give you help now though, not now. Some things you have to see to the end yourself."
         p "Help me?"
         p "Why did you summon me here?"
         scene cam-168 with dissolve
@@ -1104,7 +1104,7 @@ label camilletalk:
         p "...this wasn't what I was expecting."
         scene cam-244 with dissolve
         t "I thought, but, I thought you knew everything!"
-        p "Clearly there are a few gaps."
+        p "Clearly there are a few gaps in my understanding."
         scene cam-245 with dissolve
         t "This always happens to me..."
         scene cam-246 with dissolve

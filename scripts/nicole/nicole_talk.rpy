@@ -891,7 +891,7 @@ label nicoletalk:
         scene n-71 with dissolve
         n "Don't fret, [p]. I'll show you something truly fancy and luxurious."
         p "Oh what's this?"
-        n "It's something I've been planning. Well. There's not acutally too much to plan."
+        n "It's something I've been planning. Well. There's not actually too much to plan."
         scene n-72 with dissolve
         n "My father has a holiday park. Something like a country club?"
         n "He owns so many properties I haven't actually been to this one, so I thought we could christen it together."

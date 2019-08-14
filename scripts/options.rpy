@@ -23,7 +23,7 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "0.53 Early Release"
+define config.version = "0.53_Early_Release"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -31,7 +31,7 @@ define config.version = "0.53 Early Release"
 
 define gui.about = _p("""Hello, my name is Dante and this is my game, Depravity. Thank you for playing. Please leave feedback on Patreon, Discord and f95.
 
-Take a look at 'Book of Depravity' for behind the scenes. 'Updates and Art' are where you can find my frequent posts about the progress of the game and CG that you won't find in the game. See the 'Shop' for real life merch! 
+Take a look at 'Book of Depravity' for behind the scenes. 'Updates and Art' are where you can find my frequent posts about the progress of the game and CG that you won't find in the game. See the 'Shop' for real life merch!
 
 patreon.com/danteworks
 

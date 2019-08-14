@@ -155,6 +155,7 @@ label sex_shop:
                 $ cash -= 100
                 $ so = True
                 "Thank you for your purchase."
+            jump sex_shop
         "Exit":
             jump online_shop
 label bog:

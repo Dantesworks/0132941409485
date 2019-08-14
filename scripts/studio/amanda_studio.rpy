@@ -375,7 +375,7 @@ label amanda_studio:
             $ renpy.pause()
             m "I leaned back, but it still covered me..."
             m "This is what it feels like... I remember now..."
-            p "Wow, [mr], wow. We just crossed a line into depravtity."
+            p "Wow, [mr], wow. We just crossed a line into depravity."
             scene a-212 with dissolve
             m "Any regrets?"
             menu:
