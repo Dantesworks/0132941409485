@@ -104,6 +104,7 @@ label sleep:
             $ drinks = False
             call cryptoChange from _call_cryptoChange
             $ bogged = False
+            $ renpy.free_memory()
     $ daytimes = str(daytime)
     if nicolelvl == 4:
         $ nicoleshow = []

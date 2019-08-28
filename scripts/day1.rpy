@@ -29,6 +29,7 @@ define saf = Character("Saffron")
 define ny = Character("Nyx")
 define ma = Character("Maya")
 define b = Character("Belle")
+define an = Character("Angelina")
 
 define w = Character("Widowmaker")
 # The game starts here.
@@ -108,7 +109,7 @@ label start:
     scene 1_v_serious with dissolve
     x "Hey [p], why do you look so upset? What's the matter?"
     p "I'm sorry, I really do like a mess, don't I?"
-    p "Wave after wave of bad things are happening to me. I can barely deal with them."
+    p "Wave after wave of bad things are happening to me! I can barely deal with them."
     x "There, there."
     x "We all get that sometimes. It happens to all of us buddy, happens to all of us. What's going on, brother?"
     p "..."
@@ -116,9 +117,9 @@ label start:
     scene 1_v_shocked with dissolve
     x "What did you lose?" with dissolve
     scene 1_v_serious with dissolve
-    p "Remember when bitcoin was booming? It just kept going up and I thought I could ride the wave."
+    p "Remember when bitcoin was booming? It just kept going up and I... thought I could ride the wave."
     p "I put a lot of money in. A lot of money in at the top! I-I thought it'd keep going up..."
-    p "And now, I've lost everything!"
+    p "And now?! I've lost everything!"
     p "{i}Fucking{/i} bogs took everything from me!"
     scene 1_v_shocked with dissolve
     x "That's awful!"
@@ -291,7 +292,7 @@ label start:
     p "That's alright. What were you doing anyway?"
     s "I was trying on clothes 'coz a lot of them don't fit anymore!"
     p "How come? I thought you had a ton of clothes."
-    s "... My bewbies grew a lot bigger [p]. I was wondering when [mr]'s genes would kick in!"
+    s "My bewbies grew a lot bigger [p]. I was wondering when [mr]'s genes would kick in!"
     p "Uh - ah... I see..."
     "Her tits have definitely gotten bigger, and I can feel them push into me right now! Does she know what she's doing?!"
 
@@ -313,41 +314,41 @@ label start:
     with fade
     pause 1
 
-    scene 2_int22
+    scene 2_int22 with dissolve
     m "You're here [p]! Come come! I've been waiting."
     m "You need to try this burger I've made!"
-    scene 2_int23
+    scene 2_int23 with dissolve
     m "You won't find better even in the restaurants! I've used the juiciest meat - oh it's mouth watering, you have to try it!"
-    scene 2_int24
+    scene 2_int24 with dissolve
     p "Haha, I'm sure it'll be great [mr]! It smells amazing from here."
     m "Sit! Sit! Sit!"
     p "Okay okay!"
-    scene 2_int25
+    scene 2_int25 with dissolve
     "This burger looks amazing. I can tell [mr] put a lot of effort into this. I'm so lucky to have such a wonderful [mr]."
     p "The burger looks as good as it smells, honestly. I didn't know you had this in you! I don't remember you ever being this fancy!"
     m "You and your silver tongue!"
     m "Go ahead and take a bite! Tell me what you think!"
     p "Alright, here goes."
-    scene 2_int26
+    scene 2_int26 with dissolve
     "*Omnomnomnom..."
     m "...well?"
     p "It's good [mr], jesus it's great! You really have gotten good. Let me take another bite..."
-    scene 2_int27
+    scene 2_int27 with dissolve
     m "Fufufu... I'm so happy you think so!"
     m "I bet you regret ever leaving!"
     p "You're right [mr], I should never have left."
-    scene 2_int29
+    scene 2_int29 with dissolve
     m "So, what's taking your [sr] so long? Wasn't she coming with you?"
     p "I don't know, she said she was trying on her clothes or something."
     p "Something about growing out of them."
-    scene 2_int28
+    scene 2_int28 with dissolve
     m "Ah-"
     p "Hmm?"
     m "Your [sr] has 'grown' a lot, hasn't she?"
     p "I'm not sure I-"
-    scene 2_int29
+    scene 2_int29 with dissolve
     m "It's ok [p] hahaha."
-    scene 2_int26
+    scene 2_int26 with dissolve
     m "I get worried sometimes though. She hasn't experienced something like this before."
     m "When I had my spurt, I faced many struggles that I didn't expect."
     m "You'll be there to help her through it, won't you [p]?"
@@ -356,34 +357,34 @@ label start:
     p "I'm not sure exactly what-"
     s "Ahoy!"
 
-    scene 2_int30
+    scene 2_int30 with dissolve
     m "Kaira! You've kept us waiting!"
     s "Sorry [mr], I got held up a little bit but the food smells sooooo good!"
     p "You took your time!"
     scene 2_int31 with dissolve
     s "Hey [p]! When the last time the three of us ate together?"
     p "I don't remember, Kaira, but I'm looking forward to it. Come grab a seat."
-    scene 2_int32
+    scene 2_int32 with dissolve
     pause 1
-    scene 2_int33
+    scene 2_int33 with dissolve
     s "So tell us [p], what have you been up to?"
     p "Oh you know, I was studying, working, fending for myself that sort of thing."
-    scene 2_int34
+    scene 2_int34 with dissolve
     s "Was it fun? It must be so exciting living away from home."
     p "Hahaha, yeah it was pretty fun to start with I guess, but you get used to it eventually."
     s "I can't wait to move out -"
-    scene 2_int35
+    scene 2_int35 with dissolve
     m "Ahem! What about your poor [mr]. I will be so lonely!"
     s "Ahaha, just kidding [mr]!"
-    scene 2_int36
+    scene 2_int36 with dissolve
     p "But in the end, its a great experience. I'm glad to be back home though, to rest and get my bearings back. You know."
-    scene 2_int33
+    scene 2_int33 with dissolve
     s "Stay strong [p], I'm on your side! We can take on the whole world together!"
     p "Haha, thanks Kaira. Love you."
 
     $ menu_flag1 = False
     $ menu_flag2 = False
-    scene 2_int47
+    scene 2_int47 with dissolve
     menu ask:
 
         "Hey [mr], what do you get up to these days?":
@@ -395,53 +396,53 @@ label start:
     label choice2_m:
 
         $ menu_flag1 = True
-        scene 2_int39
+        scene 2_int39 with dissolve
         m "Hmm, let me think.."
-        scene 2_int40
+        scene 2_int40 with dissolve
         m "When I'm not cooking for and looking after your [sr] here, I like to dance and watch movies I suppose."
-        scene 2_int41
+        scene 2_int41 with dissolve
         m "I occasionally work too, but other than that, there's not too much on my plate, so it's good to have you around."
         p "That actually sounds like the perfect life. What kind of job are you working now?"
-        scene 2_int42
+        scene 2_int42 with dissolve
         m "fufu... you might think I'm joking [p], but I'm actually doing a little bit of modelling!"
         p "Wow [mr], that's amazing! How did you land that gig?"
-        scene 2_int41
+        scene 2_int41 with dissolve
         m "Oh please it's nothing big. I knew a friend who knew someone in the business. Who even knows how long it'll go for..."
-        scene 2_int35
+        scene 2_int35 with dissolve
         s "Maybe I should try modelling too, do you think I'll do good?"
         m "Don't get too confident Kaira! Your [mr]'s still got it!"
-        p "Yeah [mr] I'm so happy for you."
-        scene 2_int38
+        p "Good for you, [mr], really that's great."
+        scene 2_int38 with dissolve
         jump choice2_done
 
     label choice2_s:
 
         $ menu_flag2 = True
-        scene 2_int43
+        scene 2_int43 with dissolve
         s "Eh, school's alright. I'm glad I'm almost out."
-        scene 2_int44
+        scene 2_int44 with dissolve
         s "I'm no longer a girl anymore, and I want some more independence. That's why I'm so envious of you."
-        scene 2_int35
+        scene 2_int35 with dissolve
         m "I can see that Kaira, but one day you might look back and miss your days at school."
-        scene 2_int45
+        scene 2_int45 with dissolve
         s "Yeah I don't see how that's possible.."
         p "Did you make any good friends?"
-        scene 2_int34
+        scene 2_int34 with dissolve
         s "I've got a really good friend, her name's Nicole."
         p "How about any good boy friends?"
-        scene 2_int44
+        scene 2_int44 with dissolve
         s "..."
-        scene 2_int42
+        scene 2_int42 with dissolve
         m "Oh Kaira, why don't you tell [p] what you told me the other day?"
-        scene 2_int44
+        scene 2_int44 with dissolve
         s "[mr] I don't even know what you're talking about."
-        scene 2_int41
+        scene 2_int41 with dissolve
         m "Just teasing you~"
-        scene 2_int34
+        scene 2_int34 with dissolve
         s "What about you [p]? Did you find any cute girls?"
-        scene 2_int46
+        scene 2_int46 with dissolve
         p "Aha...ahahah...."
-        scene 2_int34
+        scene 2_int34 with dissolve
         s "In that case, you should meet Nicole sometime!"
         p "Oh, your school mate?"
         s "Yeah!"
@@ -454,28 +455,28 @@ label start:
             scene 2_int38
             jump ask
 
-    scene 2_int47
+    scene 2_int47 with dissolve
     p "It's good to hear you guys are doing well. So what's the plan tomorrow?"
-    scene 2_int33
+    scene 2_int33 with dissolve
     s "Me and Nicole are going shopping tomorrow morning! You should come join us!"
-    scene 2_int42
+    scene 2_int42 with dissolve
     m "Shopping? What for?"
-    scene 2_int43
+    scene 2_int43 with dissolve
     s "For clothes..."
-    scene 2_int41
+    scene 2_int41 with dissolve
     m "Ah~"
     m "It would be a good idea for you to go [p], it'll be nice for you to spend some time with your [sr]."
-    scene 2_int37
+    scene 2_int37 with dissolve
     s "Yes [p], come! I think I'm going to go and do a big haul this time, so I'll needing lots of second opinions."
     s "Nicole will be there too!"
     p "Yeah I got it, your friend. Jeez."
-    scene 2_int43
+    scene 2_int43 with dissolve
     p "..."
     p "Alright I'll go-"
-    scene 2_int34
+    scene 2_int34 with dissolve
     s "Yippie!"
     p "-but I'm really tired, so I'll have go to bed now if I want to wake up tomorrow."
-    scene 2_int48
+    scene 2_int48 with dissolve
     m "That's fine, [p]. Goodnight, and sleep tight, and remember to have fun tomorrow!"
     p "Haha alright, goodnight [mr], goodnight Kaira, I'll see you guys tomorrow."
 

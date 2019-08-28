@@ -28,7 +28,7 @@ up to [p] to bring her back to earth." justify True size 18
                 elif vdildo == False:
                     text "Use the butt plug from the online shop, then go to the University." justify True size 18
                 else:
-                    text "Alternate usage and options until Olivia licks the dildo." justify True size 18
+                    text "Try putting the vaginal dildo into Olivia for her." justify True size 18
             elif olivialvl == 4:
                 text "Go the University location on the map." justify True size 18
             elif olivialvl == 5:

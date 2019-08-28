@@ -28,6 +28,8 @@ label trainer:
             menu:
                 "Put it in for her." if plugged:
                     $ vdildo2 = True
+                    if olivialvl == 3:
+                        $ olivialvl = 4
                     scene o-41 with dissolve
                     p "The butt plug was special in that only another person can take it out, and this is similar."
                     p "Trust me, it's easier to for someone else to help you."
@@ -149,12 +151,8 @@ label trainer:
             $ vdildo = True
             $ daytime = 4
             $ daytimes = str(daytime)
-            if plugged2 and olivialvl == 3:
-                $ olivialvl = 4
-                ## Thankyou for playing
-                scene black with fade
-                scene splash7 with fade
-                d "Thank you for playing Depravity. I hope you enjoyed playing with Olivia, brought to you by esteemed patron Raze."
+            if plugged2 and olivialvl == 6:
+                $ olivialvl = 7
             jump map
         "Butt plug" if plug and vdildo:
             $ plugged = True
@@ -289,7 +287,7 @@ label trainer:
             scene o-106 with dissolve
             o "I'm going to the restroom, I'm done for today..."
             menu:
-                "Follow her" if vdildo2:
+                "Follow her" if vdildo2 and olivialvl >= 6:
                     # toilet sex
                     "I'm following her to the bathroom."
                     scene black with fade
@@ -308,23 +306,36 @@ label trainer:
                     o "What are you doing here?!"
                     o "Can't you see I'm using the toilet?!"
                     p "I know you're dirtying your asshole and pussy with all the shit and piss that you're full of."
-                    scene o-111 with hpunch
-                    o "Get out!"
+                    o "What do you want!"
                     o "I already gave you what you wanted today!"
-                    p "You are a Slut and you will give me whatever I want, whenever I want."
+                    p "You are a slut, and you haven't given me everything I wanted yet."
                     p "And now, I want you to spread your legs."
+                    scene o-111 with hpunch
+                    o "I...!"
+                    o "(Didn't you say, Olivia, that you would just give him what he wants?)"
+                    o "(Yes, make him feel like he's in charge, then screw him over when he least expects it!)"
+                    o "My pleasure!"
+                    o "But it's my dirt getting all over your penis if you think of doing something funny!"
+                    o "In fact, I'd like to see you try!"
+                    p "What, is that a challenge?"
+                    o "Come and get it! Now you're getting cold feet?"
+                    p "You're asking for it now."
                     scene o-112 with flash
-                    o "No, please! I'm dirty down there, at least let me wipe first!"
-                    p "It stinks here too! Who knew a hot woman like you could make such dirty smells?"
-                    o "Stooop!"
+                    o "Whaa-! I'm dirty down there, you're not going to let me wipe first?!"
+                    o "Are you for real?"
+                    p "Woo it stinks here! Who knew a hot woman like you could make such dirty smells?"
+                    o "You bastard!"
                     scene white
                     show o3 with dissolve
                     p "Get used to this, Slut."
                     o "Y-Your penis is picking up my filth and pushing it inside me!"
                     p "You're wet down there. Is that your piss or your pussy juice?"
+                    p "This is what you asked for, wasn't it? Don't tell me you're the one changing your mind?"
                     hide o3
                     show o4 with dissolve
-                    o "I'd rather use my tongue to lick it off myself than have you push it deeper inside me!"
+                    o "You think you're winning? Ah~!"
+                    o "I baited you into rubbing your penis all over my filth! I hope you're proud of yourself now!"
+                    o "But still, I'd rather use my tongue to lick it off myself than have you push it deeper inside me!"
                     p "Be careful what you wish for, Slut."
                     "Damn she has a juicy pussy."
                     p "Show me your tits, whore. Let's see those puppies bounce!"
@@ -338,6 +349,7 @@ label trainer:
                     show o6 with dissolve
                     p "Look at how erect your lewd nipples are!"
                     p "Don't tell me you're getting aroused!"
+                    o "I'm - letting - you - fuck - me - to - prove - a - point!"
                     o "Ah - ah - ah - I'm not-"
                     o "- ah - ah - enjoying this-"
                     o "- ah - ah - at all!"
@@ -353,7 +365,7 @@ label trainer:
                     o "You spread your dirty cum all over my belly! How dare you!"
                     o "I...I..."
                     scene o-117 with dissolve
-                    o "I can't believe you raped me... on the toilet..."
+                    o "I can't believe you actually fucked me... on the toilet..."
                     scene o-119 with dissolve
                     o "...and made my vagina and anus into a mess of my filth and your cum."
                     o "When I walk home tonight, everyone will be able to smell me."

@@ -15,7 +15,6 @@ label lobby:
             hover "camillelobby_hover.png"
             action Jump("Camille")
 label publicbathouse:
-    scene bathhouse with fade
     call screen publicbathouse
     screen publicbathouse():
         add "bathhouse"
@@ -26,7 +25,6 @@ label publicbathouse:
             action Jump("lobby")
 
 label sauna:
-    scene sauna with fade
     call screen sauna
     screen sauna():
         add "sauna"
@@ -37,7 +35,6 @@ label sauna:
             action Jump("lobby")
 
 label pool:
-    scene pool with fade
     call screen pool
     screen pool():
         add "pool"

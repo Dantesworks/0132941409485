@@ -803,7 +803,7 @@ label Caroline:
         "She's really... oh wow."
         scene cc-103 with dissolve
         p "Oh on, I'm not embarassed. I just thought that {i}you{/i} might be?"
-        c "In medical school we get very used to the idea of bodies, and we often practise phsyical exams on each other."
+        c "In medical school we get very used to the idea of bodies, and we often practise physical exams on each other."
         scene cc-102 with dissolve
         c "I guess, I'm pretty used to the idea of people seeing my body."
         c "I probably would have been more insecure about it before medschool though!"
@@ -1058,13 +1058,13 @@ label Caroline:
         scene cd-9 with vpunch
         p "For all the fuckings things that could have happened, fuck!"
         scene cd-10 with flash
-        p "Fuckity fuck fuck! Did I, [p], just get dumped?!"
+        p "Fuckity fuck fuck! What did I do wrong?!"
         scene cd-11 with dissolve
         x "Tell me, [p]. What happened?"
         p "The worst outcome. Got dumped."
         x "What did you do wrong?"
         scene cd-12 with dissolve
-        p "I don't think I did anything wrong, but everything went to shit anyway."
+        p "I don't know."
         p "Why do you care about my life anyway?"
         x "Why indeed."
         scene cd-13 with dissolve

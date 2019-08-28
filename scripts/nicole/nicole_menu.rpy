@@ -4,7 +4,7 @@ label Nicole:
     if nicolelvl == 1:
         jump nicoletalk
     menu:
-        "Talk":
+        "Talk.":
             jump nicoletalk
         "You're looking lonely there." if nicolelvl > 1:
             jump nicolesit

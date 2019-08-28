@@ -131,7 +131,7 @@ label uni:
         p "I own you now, Olivia."
         scene o-33 with dissolve
         o "You, fucking monster!"
-        o "How can you live with yourself, when you can rape a woman and feel nothing?!"
+        o "How can you live with yourself, when you can blackmail a woman and feel nothing?!"
         p "You know what I hate about people like you, Olivia?"
         scene o-34 with dissolve
         p "People like you act all high and mighty. You act so arrogant, like you're above us all."
@@ -167,14 +167,12 @@ label uni:
         play music "sounds/cyberpunk.mp3" fadeout 1
         x "Hello [p]."
         x "What a strong performance. A little out of character, don't you think?"
-        p "Out of character? I treat Nicole the same. Did you see the way I spanked her?"
+        p "Out of character?"
         p "It's power. Domination."
-        x "Nicole enjoyed it. Did Olivia?"
-        p "..."
-        p "She will learn to."
-        x "You cannot deny your nature, but you will see, even in depravity there is redemption."
+        x "You cannot deny your nature, true, and this is one of the most depraved timelines."
+        x "But you will see, even in depravity there is redemption."
         x "After all, how can you rise, if you have not yet fallen?"
-        x "Enjoy your time with her, [p]."
+        x "Enjoy your time with her, [p] of this timeline."
         scene black with fade
         $ daytime = 4
         $ daytimes = str(daytime)

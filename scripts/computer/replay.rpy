@@ -214,7 +214,7 @@ label amandabj2:
     "Seeing [mr] on all fours sucking my dick was a sight to behold indeed."
     "To see her below me, to see her servicing me."
     "Wordless. Just here to satsify me and satiate her own desire for cock."
-    "Nothing but the sound of her rhthymic moaning and lust and the sounds of the perverted sounds coming from her mouth."
+    "Nothing but the sound of her rhythmic moaning and lust and the perverted sounds coming from her mouth."
     image a5 = Movie(play="/animations/a5.mp4")
     scene a5 with dissolve
     $ renpy.pause()
@@ -521,6 +521,7 @@ label caroline1:
     c "But enough about that. Coffee, [p]?"
     scene cc-293 with dissolve
     p "It would be a pleasure."
+    scene black with fade
     jump computer
 label nicole_bj:
     scene 5-1

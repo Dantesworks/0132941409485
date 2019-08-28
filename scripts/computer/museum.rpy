@@ -79,9 +79,8 @@ label dis:
     scene dis
     $ renpy.pause()
     "Make a picture of the female from the game that inspired you the most in making this one | Disimulated"
-    d "The inspiration of my game came from Manic Minxy's Perverted Hotel, which is now apparently discontinued."
+    d "The inspiration of my game came from Manic Minxy's Perverted Hotel."
     d "My favourite characters from that game are Hailey and Brooke, the twin sisters."
-    d "I plan to give them a send-off in a future update in a cameo."
     jump museum
 label coil2:
     scene coil2

@@ -880,7 +880,7 @@ label special:
     x "...someone with...he has black hair and-"
     p "Oh yeah, I saw a man with black hair run off in that direction. If you keep going that way, you should catch up with him!"
     scene 6-17
-    x "S-sorry, I mean, thankyou..."
+    x "S-sorry, I mean, thank you..."
     scene 6-22
     "..."
     p "Seemed like a nice girl. I wonder why he was running away."
@@ -976,12 +976,12 @@ label special:
         scene 7-4
         c "Certainly."
         scene 7-18
-        x "Hey... thankyou, but you don't..."
+        x "Hey... thank you, but you don't..."
         p "Think nothing of it. I can tell you've had a rough day."
         scene 7-16
         x "..."
         scene 7-17
-        x "Thankyou."
+        x "Thank you."
         jump camillet
 
     label notalk:
@@ -999,7 +999,7 @@ label special:
         c "Here, a glass of Original Dante. It's the best in the house!"
         c "Enjoy."
         scene 7-7
-        p "Thankyou."
+        p "Thank you."
         scene 7-4
         "{i}sip{/i}"
         p "You're right, this is some really good stuff."
@@ -1055,7 +1055,7 @@ label special:
         "Fuck did I play a part in upsetting this girl?"
         p "Is there anything I can do to help?"
         scene 7-22
-        t "Y-You're already helping a lot by talking to me, thankyou."
+        t "Y-You're already helping a lot by talking to me, thank you."
         "Deja vu, it's just like when Vincent comforted me when I was sad."
         p "I'm just passing the favour on. Doing my good deed of the day, that sort of thing."
         p "Hey listen, my [sr] and her friend are coming soon, would you like to join us?"
@@ -1065,7 +1065,7 @@ label special:
         t "..but, can we talk again? Sometime?"
         p "Of course, here's my number."
         scene 7-22
-        t "Thankyou!"
+        t "Thank you!"
         t "..."
         scene 7-23
         t "Sorry! I forgot to ask your name!"
@@ -1074,7 +1074,7 @@ label special:
         t "...[p]..."
         p "That's right!"
         scene 7-22
-        t "Thankyou [p]..."
+        t "Thank you [p]..."
         scene 7-24
         t "[p]..."
         p "Yeah, you got it!"

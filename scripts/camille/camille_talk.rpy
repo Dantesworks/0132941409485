@@ -1,7 +1,7 @@
 label camilletalk:
     if camillelvl == 1:
         play music "sounds/armoir.mp3" fadeout 1
-        if talkcamille:
+        if camille_flag:
             scene black
             scene cam-2 with fade
             p "Hey Camille, we've met before!"

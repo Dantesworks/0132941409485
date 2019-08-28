@@ -253,7 +253,7 @@ label future:
         p "Who knows who's going to barge into the door and think we're up to some funny business."
         scene k-163 with dissolve
         s "Funny business? We've been doing this since we were kids, [p]!"
-        p "Please let's talk about this some other time."
+        p "Please, let's talk about this some other time."
         s "Well, [p], you're going to have to tell me all about this funny business later okay!"
         scene k-164 with dissolve
         s "Let's do this again sometime!"

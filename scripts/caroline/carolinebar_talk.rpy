@@ -407,6 +407,7 @@ label bartalk:
         c "But enough about that. Coffee, [p]?"
         scene cc-293 with dissolve
         p "It would be a pleasure."
+        scene black with fade
         $ carolinebarlvl +=1
         $ daytime = 1
         $ day += 1

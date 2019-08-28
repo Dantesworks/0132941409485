@@ -10,7 +10,10 @@ label gym:
         "Hang on... I think this is it."
         scene splash6 with fade
         d "You are about to enjoy content with commissioned side characters with very depraved themes, including blackmail and corruption."
-        d "Proceed at your own risk!"
+        d "This story occurs in an alternate timeline, so proceed at your own risk!"
+        scene future with fade
+        x "Your name is [p], and you are but one [p] of many timelines I am watching over."
+        x "It is my hope that this story will yield something interesting."
         scene r-1 with fade
         "Huh. It's smaller than I expected."
         "It's empty right now, but it wouldn't be able to hold that many people."

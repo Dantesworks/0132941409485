@@ -482,7 +482,7 @@ label amandakitchen:
         m "It was alright! Have you spotted some nice looking clothes I should wear?"
         p "A woman like you doesn't need clothes to look nice!"
         scene ak-7 with dissolve
-        m "Aww, thankyou."
+        m "Aww, thank you."
         "I meant that in multiple ways..."
         p "But really, I got the clothes, [mr]!"
         m "Wow, I can't wait to see what you have in mind!"

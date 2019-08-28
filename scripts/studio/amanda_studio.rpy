@@ -473,8 +473,10 @@ label amanda_studio:
                     "Was I always like this?"
                     p "You're onto something Vincent."
                     p "There's something I'm apprehensive about."
-                    "It might be wrong, but I'm going to do it anyway."
-                    p "And there's nothing you can do for me now."
+                    "I think at the end of it, this is what [mr] really wants. That's why she wanted to see my penis in the first place."
+                    "She wants us to be together, but she just can't get through those boundaries she puts around herself."
+                    "It might seem wrong, but I think this is the right thing to do."
+                    p "There's nothing you can do for me now."
             scene a-19_1 with dissolve
             v "If you say so man."
             v "Just let me know if you need someone to talk to, alright?"
@@ -612,7 +614,7 @@ label amanda_studio:
             "Seeing [mr] on all fours sucking my dick was a sight to behold indeed."
             "To see her below me, to see her servicing me."
             "Wordless. Just here to satsify me and satiate her own desire for cock."
-            "Nothing but the sound of her rhthymic moaning and lust and the sounds of the perverted sounds coming from her mouth."
+            "Nothing but the sound of her rhythmic moaning and lust and the perverted sounds coming from her mouth."
             image a5 = Movie(play="/animations/a5.mp4")
             scene a5 with dissolve
             $ renpy.pause()
@@ -668,13 +670,13 @@ label amanda_studio:
             p "We should be allowed to live and love."
             scene a-329 with dissolve
             m "These things are just... physical, [p]. And it was a physical temptation that overcame me."
-            p "But we love each other too! How many times have we told each other?"
-            p "I love you I love you I love you, we say it all the time!"
+            p "But we love each other too! We tell each other all time!"
             scene a-330 with dissolve
             m "This is in a different way."
             m "We have to pretend this never happened, yes."
             p "That's what you said last time."
             scene a-331 with dissolve
+            m "I don't know how to deal with this."
             m "I just... want to go back to how things were."
             scene a-332 with dissolve
             m "..."
@@ -685,12 +687,11 @@ label amanda_studio:
             p "Alright [mr], keep it tight."
             m "Thanks."
             scene black with fade
-            "It's a bit of a sorry sight, with [mr] pretending everything's normal while my cum is splashed over her face."
-            "But just wait [mr], I'll show you that some things are worth confronting."
-            "But I can't forget. If she orgasms, then the aphrodisiac will wear off."
+            "When she looks at me, how does she see me? I really think she sees me as something more."
+            "She just needs some convincing... right?"
+            "But I can't forget... if she orgasms, the aphrodisiac will wear off."
             "This means the aphrodisiac will only let me have sex with her once."
-            "Will she sober up and keep suppressing her urges afterwards?"
-            "Or will I be able to break through to her so that still fucks me after?"
+            "Once it wears off... will she go back to her boundaries, or will she stay open to me?"
             # end
             scene splash_amanda with fade
             d "Find out next time, on Depravity."
