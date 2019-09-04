@@ -330,7 +330,7 @@ label amandabj1:
     m "After all, this is what a girlfriend would do..."
     "She gripped my shaft and twisted as her hand travelled up and down."
     "It was as though she was making love to my cock with her hand."
-    "Carressing it, milking it, savouring the feeling of a warm rod in her hands."
+    "Caressing it, milking it, savouring the feeling of a warm rod in her hands."
     m "Do you want [mr] to go faster, [p]? Will it help you feel better?"
     p "Ah-"
     m "Let's go faster, hmm?"
@@ -1574,7 +1574,7 @@ label nicole_bj2:
     image n1 = Movie(play="/animations/n1.mp4")
     show n1 with dissolve
     "Without pausing, she went straight forward and made love to my cock."
-    "Carressing it, and putting me in paradise."
+    "Caressing it, and putting me in paradise."
     hide n1
     image n2 = Movie(play="/animations/n2.mp4")
     show n2 with dissolve

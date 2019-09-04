@@ -2,6 +2,8 @@ default gym_intro = False
 default veronicalvl = 1
 default olivialvl = 1
 label gym:
+    scene future with fade
+    "{i}The environment changes; there is something not right with this world...{/i}"
     if gym_intro == False:
         $ gym_intro = True
         play music "sounds/cinematic.mp3" fadeout 1
@@ -411,7 +413,7 @@ label gym:
         "...her depravity is plain for all to see."
         $ veronicalvl += 1
         call daykeep from _call_daykeep_31
-        jump map
+        call map_alt
     if veronicalvl == 2:
         play music "sounds/cinematic.mp3" fadeout 1
         scene r-109 with fade
@@ -684,4 +686,4 @@ label gym:
     else:
         scene gym
         "Veronica isn't here."
-        jump map
+        call map_alt

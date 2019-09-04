@@ -1,5 +1,11 @@
+label map_alt:
+    scene future with fade
+    "{i}The environment changes; things seem back to normal.{/i}"
+    jump map
 default uni_intro = False
 label uni:
+    scene future with fade
+    "{i}The environment changes; there is something not right with this world...{/i}"
     call hidescreens from _call_hidescreens_15
     hide screen fastforward
     if uni_intro == False:
@@ -177,7 +183,7 @@ label uni:
         $ daytime = 4
         $ daytimes = str(daytime)
         $ olivialvl += 1
-        jump map
+        call map_alt
     if olivialvl == 2:
         scene black
         play music "sounds/alchemy.mp3" fadeout 1
@@ -228,7 +234,7 @@ label uni:
         "I should check out the sex shop in the online shop on the computer."
         "I need a dildo at least."
         $ olivialvl += 1
-        jump map
+        call map_alt
     if olivialvl == 3:
         scene black
         play music "sounds/alchemy.mp3" fadeout 1
@@ -275,7 +281,7 @@ label uni:
         p "That's right, a gift. Let me show you."
         "I need to make sure I buy the slutty outfit from the shop."
         $ olivialvl += 1
-        jump map
+        call map_alt
     if olivialvl == 5:
         if so:
             label olivia_outfit:
@@ -533,12 +539,12 @@ label uni:
                 d "Thank you for playing so far!"
                 $ daytime = 4
                 $ daytimes = str(daytime)
-                jump map
+                call map_alt
         else:
             scene black
             scene o-41 with fade
             "I need to buy the slutty outfit from the shop first."
-            jump map
+            call map_alt
     if olivialvl == 6:
         scene black
         play music "sounds/alchemy.mp3" fadeout 1

@@ -25,7 +25,11 @@ label friends:
                 idle "gallery_buttons/friends/sir.png"
                 hover "gallery_buttons/friends/sir_hover.png"
                 action OpenURL("https://www.patreon.com/Eternity_Games")
-            null
+            imagebutton:
+                focus_mask True
+                idle "gallery_buttons/friends/neko.png"
+                hover "gallery_buttons/friends/neko_hover.png"
+                action OpenURL("https://www.patreon.com/NekoFairys")
             null
             null
             null

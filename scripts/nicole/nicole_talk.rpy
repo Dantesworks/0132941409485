@@ -834,7 +834,7 @@ label nicoletalk:
                 image n1 = Movie(play="/animations/n1.mp4")
                 show n1 with dissolve
                 "Without pausing, she went straight forward and made love to my cock."
-                "Carressing it, and putting me in paradise."
+                "Caressing it, and putting me in paradise."
                 hide n1
                 image n2 = Movie(play="/animations/n2.mp4")
                 show n2 with dissolve

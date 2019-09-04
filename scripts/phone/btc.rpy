@@ -86,12 +86,21 @@ screen questionBTC():
         idle "phone/question.png"
         hover "phone/questionhover.png"
         action [Show("btc"), Hide("questionBTC")]
-    hbox xalign 0.5 yalign 0.5 spacing 10:
-        frame:
-            textbutton "$5" action SetVariable("withdrawal_amount", 5)
-        frame:
-            textbutton "$50" action SetVariable("withdrawal_amount", 50)
-        frame:
-            textbutton "$500" action SetVariable("withdrawal_amount", 500)
-        frame:
-            textbutton "$5000" action SetVariable("withdrawal_amount", 5000)
+    vbox xalign 0.5 yalign 0.6 spacing 10:
+        hbox xalign 0.5 yalign 0.5 spacing 10:
+            frame:
+                textbutton "$5" action SetVariable("withdrawal_amount", 5)
+            frame:
+                textbutton "$50" action SetVariable("withdrawal_amount", 50)
+            frame:
+                textbutton "$500" action SetVariable("withdrawal_amount", 500)
+            frame:
+                textbutton "$5000" action SetVariable("withdrawal_amount", 5000)
+        hbox xalign 0.5 yalign 0.5 spacing 10:
+            frame:
+                textbutton "$50,000" action SetVariable("withdrawal_amount", 50000)
+        hbox xalign 0.5 yalign 0.5 spacing 10:
+            frame:
+                textbutton "$500,000" action SetVariable("withdrawal_amount", 500000)
+    hbox xalign 0.5 yalign 0.8 spacing 10:            
+        text "Current withdrawl/deposit amount = $[withdrawal_amount]!" size 18
