@@ -191,7 +191,7 @@ label Caroline:
         p "So for you it's not just about getting the caffeine to help you study."
         scene cc-9 with dissolve
         c "Coffee is an experience."
-        c "From cupping it in your hands, feeling the warmth of the coffee, and the hustle bustle of life."
+        c "From cupping it in your hands, feeling the warmth of the coffee, and the hustle-bustle of life."
         p "What are you thinking of now?"
         scene cc-15 with dissolve
         c "..."

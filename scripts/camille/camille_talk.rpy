@@ -899,7 +899,7 @@ label camilletalk:
         scene cam-191 with dissolve
         p "Erm. I don't know!"
         scene cam-192
-        wai "If I can, Camille is absolute right. We do pancakes and waffles here too!"
+        wai "If I may, Camille is absolute right. We do pancakes and waffles here too!"
         wai "The waffles especially, are great."
         scene cam-193 with dissolve
         wai "In fact, I was going to recommend that to your friend earlier today."

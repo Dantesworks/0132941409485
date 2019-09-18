@@ -1006,6 +1006,45 @@ label nicoletalk:
         call daykeep from _call_daykeep_26
         $ nicolelvl += 1
         jump living_room
+    if nicolelvl == 11 and kairalvl > 8 and amandalvl > 21:
+        p "Hey sister."
+        n "Sister?"
+        p "What, you don't wanna be my sister?"
+        n "I prefer staying your girlfriend, thank you very much."
+        n "You get no action with your sister. That sounds like a terrible idea to me."
+        p "Right."
+        p "Anyway, thanks for taking me out to the holiday park, restaurant and all that."
+        n "Oh, that? Don't worry about it, [p]. It's no big deal."
+        n "But you {i}did{/i} promise me to make it up to me, didn't you?"
+        n "Oh yes, that's right. How {i}were{/i} you going to make it up to me?"
+        n "Should I close my eyes? Will you tie me up?"
+        n "Ahahaha!"
+        p "I thought you were being serious for a bit there! I was getting all jigged up."
+        n "I don't know, was I? Hmm?"
+        n "You know, I expect this sort of stuff to be performed {i}unconditionally{/i}. If you {i}really{/i} wanna do something for me, it better be something huge."
+        n "And I'm not just talking about your penis."
+        p "It's an okay size. I do alright."
+        n "It's on the big side, [p], just to be honest with you. You guys never know how much it feels like - you can't imagine."
+        n "Imagine putting a rod of that size up your ass. You think it's still 'alright'?"
+        p "Well, Nicole, I hope I never have to find out. But let's change subject for a bit."
+        p "I do plan to return the favour, you know, and take you out instead this time. I'm planning something big."
+        n "I'm listening."
+        p "That trip that you were going with Kaira on? I'm planning it now, and I'm fully funding it."
+        n "You sure about this? For a guy that uses his girlfriend's second-hand phone, that's awfully generous."
+        p "Thank you for that too. With your phone, I was given the ability to make some wise investments."
+        p "I am sure those investments will be paying dividends!"
+        n "Don't stress yourself out, [p]. I'm more than happy to chip in. Are you sure about this?"
+        p "Trust me, babe. Just relax. Let me handle the rest. It's my turn to put on a show now!"
+        n "..."
+        n "Alright, [p]. I trust you."
+        n "Let me know more when you have news, okay?"
+        p "Deal."
+        scene black with fade
+        "I need to purchase the holiday related items in the shop now."
+        "They're probably expensive. I'll definitely need to make some serious bank using the BCC app!"
+        call daykeep
+        $ nicole += 1
+        jump living_room
     ## nicolelvl 10 in future
     scene n-4
     p "Still lazing around I see?"

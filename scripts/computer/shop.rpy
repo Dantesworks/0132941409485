@@ -4,6 +4,7 @@ default primes_85 = False
 default Zoom = False
 default tripod = False
 default guide = False
+default shop_holiday = False
 
 default long_gown = False
 default security_dress = False
@@ -30,6 +31,8 @@ default maya_theme = False
 label online_shop:
     scene wallpaper
     menu:
+        "Shop Holidays!" if shop_holiday:
+            jump shop_holiday
         "Camera Equipment":
             jump camera_equipment
         "Outfits":

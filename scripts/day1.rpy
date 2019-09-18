@@ -128,12 +128,11 @@ label start:
     p "Who am I? I'm nobody."
     x "You mentioned home, what about your family? I'm sure they can help?"
     p "F-family? Before I moved, I lived with two others."
-    $ mr = renpy.input("The older woman you live at home with is your?",default="landlord")
+    $ mr = renpy.input("The older woman you live at home with is your?",default="landlady")
     $ mr = mr.strip()
     $ mr = mr.lower()
     if mr == "":
         $ mr = "landlord"
-
     $ sr = renpy.input("The younger woman you live with at home is your?",default="housemate")
     $ sr = sr.strip()
     $ sr = sr.lower()
@@ -146,7 +145,7 @@ label start:
     x "I'm sorry about that."
     p "That's okay, I don't remember much about him anyway."
     x "What about your [mr] and [sr]?"
-    p "I moved out years ago...haha. It's been a while."
+    p "I moved out years ago. It's been a while."
     scene 1_v_determined with dissolve
     x "I don't know a lot about you buddy, but I know that it's important to have a strong support system to get you back onto your feet. When you lose everything, family is what you need."
     p "..."
