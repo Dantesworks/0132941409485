@@ -33,7 +33,7 @@ label cowgirl:
     an "By my blade, I shall deliver your judgement."
     an "Desist, scoundrel, and do not resist, for it is a fool's errand."
     scene tn15 with hpunch
-    p "In this village are also chilren, innocent people who never had a chance to do anything wrong!"\
+    p "In this village are also chilren, innocent people who never had a chance to do anything wrong!"
     scene tn16 with dissolve
     p "In the name of your order, you've persecuted so-called sinners. Folk of a different ilk than you."
     scene tn14 with dissolve

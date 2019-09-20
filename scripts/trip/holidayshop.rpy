@@ -83,17 +83,17 @@ label shop_holiday:
             "...and a large bed for maximum comfort."
             scene t14 with dissolve
             "All this can be rented for a mere $5,000!"
-                menu:
-                    "Cough it up.":
-                        if cash < 5000:
-                            "Transaction failed - insufficient funds."
-                        else:
-                            $ cash -= 5000
-                            $ rv = True
-                            "Thank you for your purchase."
-                        jump shop_holiday
-                    "Too rich for my blood.":
-                        jump shop_holiday
+            menu:
+                "Cough it up.":
+                    if cash < 5000:
+                        "Transaction failed - insufficient funds."
+                    else:
+                        $ cash -= 5000
+                        $ rv = True
+                        "Thank you for your purchase."
+                    jump shop_holiday
+                "Too rich for my blood.":
+                    jump shop_holiday
         "Back":
             if luxurious_hotels and private_jet and rv:
                 $ shop_holiday = False
