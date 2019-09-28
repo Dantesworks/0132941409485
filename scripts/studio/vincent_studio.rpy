@@ -553,24 +553,32 @@ label vincent_studio:
                 scene black with fade
                 $ amandalvl += 1
                 jump studio_lobby
-            if amandallv == 19:
+            if amandalvl == 19:
                 p "Any work, Vince?"
+                scene a-19_1 with dissolve
                 v "It's the dynamic duo, Nyx and Maya. They want you in the studio again."
                 p "Is this to take a shot, or-?"
                 v "Sigh. I don't know man. I wasn't told of any upcoming job. Maybe it's just another one of your secret chats."
                 p "It's... not {i}too{/i} big a deal, really. I'll tell you about it one day."
+                scene a-19 with dissolve
                 v "No, no, nope! I'm just working a job here man, any business with them is business I'd rather stay out of!"
                 p "They seem like nice girls, why do you think that about them?"
                 p "Did they do something to you?"
+                scene a-18 with dissolve
                 v "Don't worry about it, [p]. They're waiting for you."
                 p "You'll tell me one day, deal?"
+                scene a-17 with dissolve
                 v "Maybe one day we can tell each other everything, hahaha!"
                 scene black with fade
+                scene a-284 with fade
                 p "So, you two were waiting here just for me?"
+                scene a-275 with dissolve
                 ny "It's a nice room here, don't you think?"
                 ny "Maya and I feel at home right here."
                 p "I'm sure you two get up to a lot of kinky stuff here, no doubt."
+                scene a-279 with dissolve
                 ma "Ahem."
+                scene a-283 with dissolve
                 ma "We were... curious about, well... you know."
                 menu:
                     "Play dumb":
@@ -579,6 +587,7 @@ label vincent_studio:
                         menu:
                             "Play dumber":
                                 p "You're gonna have to spell it out."
+                                scene a-282 with dissolve
                                 ma "..."
                                 ma "The aphrodisiac."
                             "The aphrodisiac?":
@@ -586,45 +595,59 @@ label vincent_studio:
                     "The aphrodisiac?":
                         jump aphro
                 label aphro:
+                    scene a-284 with dissolve
                     p "Oh!!!"
                     p "Haha."
                     p "It worked great. It worked fine, it really turned her on, and, yeah."
                     p "I... felt like a cheat, in a way."
+                    scene a-278 with dissolve
                     ny "No, need, [p], no need! Sometimes people just need a little encouragement."
                     ny "We knew it worked, to be honest. There was really no need for Maya to ask you."
                     p "How did you know?"
                     ny "Well, Amanda has a spring in her step now. She's definitely happier than before, more free."
                     p "You really think so?"
+                    scene a-279 with dissolve
                     ma "Don't feel too bad, [p]. Every relationship needs a stimulus every now and again."
+                    scene a-281 with dissolve
                     ny "We would know, wouldn't we, Maya?"
                     ma "..."
+                    scene a-283 with dissolve
                     ma "I mean, have some faith in yourself, [p]. The aphrodisiac just lowered her inhibitions."
                     ma "She had sex with you because she wanted to."
                     ny "That's true. We didn't just fuck you when you slapped that sex paste on, did we?"
                     ny "We fucked each other."
+                    scene a-279 with dissolve
                     ma "Nyx..!"
                     p "So you didn't fuck me because you didn't like me... but Amanda did?"
                     ma "There's something deeper beneath it all."
                     p "Thanks guys. But, I feel like there's a catch somewhere. Why are you guys so helpful?"
+                    scene a-284 with dissolve
                     ny "Didn't we say already? A happy Amanda is a happy Nyx and Maya."
                     p "Is it just that?"
+                    scene a-283 with dissolve
                     ma "You think too much of ulterior motivations, [p]. Just run with it!"
+                    scene a-281 with dissovle
                     ny "Hear, hear! Believe in the good of this world, [p]."
                     p "You two must be two very good samaritans."
+                    scene a-280 with dissolve
                     ny "You could say we live a sinful life, but when there's a chance to, you know, redeem things..."
                     ma "To do the good deed of the day, for example."
                     ny "That's where we're coming from."
                     p "Vincent's said something like that before, doing the good deed of the day."
                     p "So, what should I do next?"
+                    scene a-279 with dissolve
                     ma "No doubt Amanda is confused about a lot of things, including those feelings that overwhelmed her."
                     ma "Maybe go talk to her, and smooth it all over."
                     ma "If the use of the aphrodisiac was depraved, then consider this the redemption."
                     p "Sounds... reasonable."
                     p "Thanks for that. What are you two up to in the meantime?"
+                    scene a-284 with dissolve
                     ny "Trying out more sexy lingerie, maybe."
                     ny "When we're ready, we'll invite you over for more photoshoots, how about that?"
+                    scene a-283 with dissolve
                     ma "You'll even get paid too, [p]. Give us some more time, aand hopefully we can get Vincent to arrange something more."
                     p "Cool beans."
+                    scene a-284 with dissolve
                     ny "Seeya, [p]."
                     ma "Goodbye, and good luck."
                     scene black with fade

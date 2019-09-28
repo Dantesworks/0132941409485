@@ -700,56 +700,75 @@ label amanda_studio:
             call daykeep from _call_daykeep_45
             jump map
             if amandalvl == 20:
+                scene a-114 with fade
                 p "Hey [mr]."
+                scene a-124 with hpunch
                 m "[p]! I- um, I'm sorry-"
                 m "I'm just a bit frazzled, I-I-I wasn't expecting you and uh-"
                 p "It's alright, [mr], I'm a little bit like that too, but there's something important we have to do."
                 p "We need to talk, [mr]!"
+                scene a-123 with dissolve
                 m "...what do you wish to talk about?"
                 p "About what happened the other day, about what how we... loved each other."
                 m "Oh, but [p]... you know how I feel about it."
+                scene a-291 with dissolve
                 p "So let's talk about it, please. It's because I understand it now."
                 p "I just want to be honest."
                 m "..."
+                scene a-126 with dissolve
                 m "That day, I'm not sure what overcame me. I acted purely on my impulse, [p]."
                 m "I felt a burning desire, and I acted on it. I felt... an attraction."
                 m "The kind that a woman feels for a man. After all... it's been so long since my husband."
                 m "Can you understand where I'm coming from?"
+                scene a-127 with dissolve
                 p "It's a mutual thing, [mr]."
                 m "I'm sorry to have done this to you."
                 p "No, that- it's not your fault."
                 p "It... it was mine."
+                scene a-290 with dissolve
                 p "It might sound stupid, but I put an aphrodisiac on my penis. I was told it would work. To be honest, I wasn't sure."
-                p "It's dumb, huh? It as all me."
+                p "It's dumb, huh? It was all me."
+                scene a-287 with dissolve
                 p "But, it was because I really believed there's something between us, I know it!"
+                scene a-289 with dissolve
                 m "You would go that far, [p]?"
                 p "..."
                 m "You... like me back?"
                 p "I..."
+                scene a-294 with dissolve
                 p "You couldn't help yourself, [mr], but back then, I couldn't help myself either."
                 p "I wanted it to happen real bad."
+                scene a-289 with dissolve
                 m "(I think I might too...)"
+                scene a-288 with dissolve
                 m "Oh, it's not your fault, [p], you couldn't help yourself. How could you, that means your [mr] has still got it, huh?"
                 p "Ah, haha."
+                scene a-286 with dissolve
                 m "But, how do we know if any of this is... natural? All this could be fake, just because of the aphrodisiac."
                 p "I didn't use it the day when we had the photoshoot with Nyx and Maya. Back then, that was really you."
                 p "And I was devastated afterwards, I really wanted it to continue, and I was selfish."
                 p "Anyway, I said my bit."
                 m "..."
+                scene a-285 with dissolve
                 m "I feel happier already, [p]. Thank you for being honest with me."
                 p "So, what now?"
                 m "What now? We just go about it naturally."
                 p "What does that mean?"
+                scene a-288 with dissolve
                 m "It means we put this behind us, and whatever happens, happens."
+                scene a-291 with hpunch
                 p "But the aphrodisiac, there's something about it which you should know, it's-"
+                scene a-115 with dissolve
                 m "Come on, [p], did you really think there is such thing as a working aphrodisiac?"
                 p "Huh?"
                 p "Hang on, does this mean..."
+                scene a-119 with dissolve
                 m "Thank you for visiting today, [p], you've helped me learn something."
                 m "I've got to get back to work now!"
-                p "Oh, okay, no problem. Seeya [mr]!"
+                p "Oh, okay, no problem. I'll see you later."
                 scene black with fade
                 "Hmm..."
+                "What does this all mean?"
                 $ amandalvl += 1
                 call daykeep
                 jump map
