@@ -1249,7 +1249,7 @@ label kairatalk:
         call daykeep
         jump hallway
     if kairalvl == 7:
-        play music "sounds/automata.mp3" fadeout1
+        play music "sounds/automata.mp3" fadeout 1
         scene black
         scene k-1 with fade
         p "Hey, how'd the test go?"
@@ -1339,75 +1339,117 @@ label kairatalk:
         scene k225 with dissolve
         s "Oh okay, let's go, whoopie!"
         # to museum
+        stop music fadeout 1
+        scene black with fade
         "A few moments later..."
+        play music "sounds/missingyou.ogg" fadeout 1
+        scene k225 with fade
         p "So Kaira, here's an interesting arrangement. What do you think?"
+        scene k227 with dissolve
         s "Wow, there are a lot of pictures here."
+        scene k228 with dissolve
         p "Is there a particular one you like?"
+        scene k229 with dissolve
         s "I like this one, of the landscape! It makes me feel like there's a lot of potential, and I just feel like, freedom."
         p "I like that one too. It's a very optimistic feeling. It reminds me of when you we were on the way to the diner, and you told me to look at the sky."
-        s "Yeah, it was so pretty. I guess I'm that kind of girl."
+        scene k230 with dissolve
+        s "Yeah, it was so pretty."
+        scene k231 with dissolve
+        s "I guess I'm that kind of girl."
         p "You'll like this flower too then, right?"
+        scene k232 with dissolve
         s "What about the flower?"
         p "You think it's pretty?"
         s "It's okay. I like the animals more. Look! The lion!"
+        scene k233 with dissolve
         p "Does it speak to you?"
+        scene k234 with disolve
         s "Speak to me?"
         p "Like, do you feel something inside when you look at it, do you see yourself?"
+        scene k235 with dissolve
         s "Ermm... I don't really see myself as a lion."
+        scene k236 with dissolve
         s "A lion is supposed to be brave right? The lion roars, and makes a huge sound."
+        scene k237 with dissolve
         s "I wish I could be like that."
+        scene k238 with dissolve
         p "You don't feel like you could be brave?"
+        scene k239 with dissolve
         s "I'm actually kind of shy and quiet sometimes..."
         p "Oh, I think you're definitely forthcoming and honest, what do you mean?"
+        scene k240 with dissolve
         s "I'm comfortable with you and Nicole, so I'm less shy with you guys. But at school or when I'm with my other friends, I wish I could speak out more."
+        scene k241 with dissolve
         s "(But even then, [p]... sometimes... I wish I could be more honest with you...)"
+        scene k242 with dissolve
         p "Well, look Kaira. The lion wasn't always brave."
+        scene k243 with dissolve
         s "No?"
         p "Of course not. The lion was once a cub, just a kid. He wasn't alwasy strong. But overtime, he became stronger, louder, braver. It was something that took time."
         p "Maybe that's what the message should be."
+        scene k244 with dissolve
         s "I hope, [p], one day I can be brave."
         s "(I hope, one day, I can be honest with you.)"
         p "Hah, you have my full support, Kaira."
+        scene k245 with dissolve
         s "..."
+        scene k246 with dissolve
         s "Oh yeah, what about... this one?"
         s "How does that make {i}you{/i} feel?"
+        scene k247 with dissolve
         p "It's an interesting mask..."
+        scene k248 with dissolve
         "It's a mask, right? It looks like it's in pain."
         "Why would someone wear a such a sad face?"
         "Don't people typically wear a happy face to cover up a sad interior?"
         "Why would someone purposefully show an expresson of pain?"
         "Is it... penitence?"
         "I wonder what they did."
+        play music "sounds/cyberpunk.mp3" fadeout 1
         x "It is repentance."
+        scene k249 with hpunch
         p "!!"
         x "It is a story of redemption."
+        scene k250 with dissolve
         x "It is often at the point of anagnorisis that the heroes come to this conclusion."
         x "Tragically, it is only after the peripeteia that our hero can repent."
         x "The greeks knew this."
         p "I-who-"
+        scene k251 with dissolve
         x "Focus, [p], what do you see?"
         p "I... see..."
+        scene k252 with dissolve
+        play music "sounds/automata.mp3" fadeout 1
         s "Umm, [p]?"
         s "You're really focussed on that picture. Are things okay?"
+        scene k254 with dissolve
         p "I see regret. I see a man who desperately wants to undo what he had done."
         p "I see man who would give anything to take back what he lost."
         p "He wears the mask because he knows he was responsible."
         p "He wants the world to know as penance."
+        scene k253 with dissolve
         s "Whoa, [p], that's really deep all of a sudden."
         menu:
             "I'm not him.":
                 $ depravity += 1
+                scene k255 with dissolve
                 s "Well, it's like me and the lion picture, right?"
                 s "We aren't anything like the pictures we had a look into."
             "I can relate to him.":
+                scene k255 with dissolve
                 s "Well, you also said that I was more like the lion than I thought."
                 s "Maybe the pictures let us look more into ourselves after all."
+                scene k256 with dissolve
                 s "I think I can see."
+        scene k228 with dissolve
         p "Fascinating stuff Kaira. I think that's enough thinking for the day, for the both of us."
         p "What do you reckon?"
         s "Let's go home~! I'm getting tired."
+        scene k226 with dissolve
         p "It was interesting though, wasn't it? I hope I made up for getting you those wrong answers."
+        scene k231 with dissolve
         s "Erm, I haven't forgiven you yet! You'll have to hang out with me even more times before I do, okay?"
+        scene k233 with dissolve
         p "It would be my pleasure to, Kaira."
         s "Yippie!"
         scene black with fade
@@ -1613,12 +1655,81 @@ label kairatalk:
                         s "Go to rest now, [p], sorry for holding you up for so long."
                         n "Seeya, [p]."
                         p "I'll see you guys real soon."
+                        stop music fadeout 1
                         "Wow, it took a lot of money, but this is really happening."
                         "I haven't looked forward to something so much in a long time."
                         scene black wth fade
                         "On a bright early morning on an exciting day..."
                         $ kairalvl += 1
                         # play lala land
+                        label lala:
+                        play music "sounds/bean.mp3" fadeout 1
+                        scene p1 with dissolve
+                        $ renpy.pause()
+                        scene p2 with dissolve
+                        p "I feel light and happy. Today's finally the day!"
+                        scene p3 with dissolve
+                        "Ahhh! Time to get prepared!"
+                        scene p4 with dissolve
+                        "Hmmm..."
+                        scene p5 with dissolve
+                        "How about..."
+                        scene p6 with dissolve
+                        "The Kishou Arima!"
+                        scene p7 with fade
+                        "The others should be ready by now."
+                        "The flight leaves early in the morning."
+                        "I can't miss my own flight now!"
+                        scene p8 with dissolve
+                        $ renpy.pause()
+                        scene p9 with dissolve
+                        $ renpy.pause()
+                        scene p10 with dissolve
+                        $ renpy.pause()
+                        scene p11 with dissolve
+                        $ renpy.pause()
+                        scene p12 with dissolve
+                        $ renpy.pause()
+                        p "Good morning guys!"
+                        scene p13 with dissolve
+                        n "Good to see that I didn't need to wake you up this time, [p]."
+                        scene p14 with dissolve
+                        n "It's just as well, right? After all, my method of waking you up might have caused us to miss the flight~"
+                        p "Careful, there are other people here!"
+                        scene p15 with dissolve
+                        p "Like Kaira!"
+                        scene p16 with dissolve
+                        s "That's coz we're all going on this trip together!"
+                        s "Not just me, but [mr] too!"
+                        scene p17 with dissolve
+                        m "That's right, [p]. Good morning to you too. So, since we're all together..."
+                        scene p18 with dissolve
+                        m "Remember to behave, alright?"
+                        p "You got that, Nicole?"
+                        n "I'll be on my best behaviour."
+                        m "Fufufu~"
+                        scene p19 with dissolve
+                        p "Let's not dilly dally and let's start loading up the bags."
+                        s "What? Not even a hug for your [sr]?"
+                        n "We'll have plenty of time for that later, Kaira. And I call dibs."
+                        scene p20 with dissolve
+                        m "Let's move out now, and then you can do more shopping later, Kaira!"
+                        s "Hehehe!"
+                        p "By the time we're back, these bags will be full!"
+                        scene black with fade
+                        scene p21 with fade
+                        $ renpy.pause()
+                        "Things are moving forward now, and I can't wait to see what will happen."
+                        "Nicole will be definitely be trying to jump into my pants, but what about Kaira?"
+                        "To be honest, I'm still not sure where I stand with her. If she pushes things forward, if Nicole decides to have her fun..."
+                        "How am I supposed to react? Should I just let it happen?"
+                        "And then there's the issue with [mr]. I still don't know how to interpret what's happened so far."
+                        "Was what we did... a one off thing? Is she open to it again? She makes me feel like maybe its not the aphrodisiac after all."
+                        "..."
+                        "These thoughts occupy my mind as we arrive at the airport. Ha..."
+                        "We don't have to line up though. It's just us on this flight."
+                        "I can't wait to see their reactions!"
+                        jump hol_plane
                     "No":
                         jump kaira_room
             "No, not ready to go yet.":

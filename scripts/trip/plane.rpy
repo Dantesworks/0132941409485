@@ -1,151 +1,309 @@
 label hol_plane:
+    scene black with fade
+    scene p22 with fade
     p "Welcome. Here we are, I guess."
+    scene p23 with hpunch
     m "You guess?! [p]!"
+    scene p24 with dissolve
     n "Wow, you weren't lying."
     p "Why would I lie? What do you think, Kaira?"
+    scene p25 with dissolve
     s "..."
     s "Ah..."
+    scene p26 with dissolve
     s "This. Is. So. Awesome!!"
+    scene p27 with dissolve
     s "Can we just go in?"
     p "Oh yeah it's all good. I didn't pay for service though."
+    scene p28 with dissolve
     p "This whole thing is AI powered. It'll take us there, but we'll have to serve ourselves."
+    scene p29 with dissolve
     m "That's good. Some bit of privacy-"
+    scene p30 with dissolve
     n "..."
     m "-is always something I like to enjoy."
+    scene p31 with dissolve
     s "Well, in that case, it works out, doesn't it [mr]?"
     s "I'm going to go explore!"
     m "Off you go, Kaira."
+    scene p32 with dissolve
+    $ renpy.pause()
+    scene p33 with dissolve
     m "Look how happy you've made her, [p]. I'm very glad to see it."
     m "You know, she's been a lot happier since you've come back."
     p "Really? I imagine she's always had this sort of happy-go-lucky."
+    scene p34 with dissolve
     n "You're selling yourself short, [p]. This jet is really nice."
+    scene p35 with dissolve
     n "It's so classy. I can still barely believe it."
-    n "You're the guy that has my second-hand iDante phone."
+    scene p36 with dissolve
+    n "You're the guy that has my second-hand iDante phone!"
     p "I'll look forward to you making it up to me."
-    n "Haha! I might just follow Kaira and take a look around."
+    scene p37 with dissolve
+    n "Haha! Later. I might just follow Kaira and take a look around."
     p "We can take a good look around later, but we're taking off soon. Make yourselves comfortable and get seated for take-off."
+    scene p38 with dissolve
     m "Is there a bathroom at the back? I might excuse myself before we go."
     p "Oh yeah sure, just around the back."
+    scene p39 with dissolve
     m "I'll be right back."
+    scene p40 with dissolve
+    $ renpy.pause()
+    scene p41 with dissolve
+    n "Well, shall we?"
+    p "Let's get seated."
+    scene black with fade
     ## Nicole talk then rest are seated
+    scene p42 with fade
     n "These chairs feel nice."
+    scene p43 with dissolve
     p "I'd hope so. This ride wasn't cheap."
+    scene p44 with dissolve
     n "Is that how you do things, [p]?"
+    scene p45 with dissolve
     n "Spend money on expensive things to win women over?"
     p "Oh I think I put in a bit more effort than just that!"
     p "But you're impressed, aren't you?"
+    scene p46 with dissolve
     n "I'm not a gold digger, but I do appreciate the effort."
     n "I trust that the rest of the trip will maintain the same high level of standard?"
     p "Haha, bitch."
+    scene p47 with dissolve
     n "Hey!"
     p "It's the people that make the trip enjoyable, you know. It's the company."
     p "And I think we've got mighty fine company here."
+    scene p48 with dissolve
     n "But a first class jet experience wouldn't hurt right?"
+    scene p49 with dissolve
     p "I'm liking it! It's a first for me."
+    scene p50 with dissolve
     n "What do you have here?"
+    scene p51 with dissolve
     p "Some drinks, some food. The bed is pretty comfortable too, but we might not even need to sleep."
     n "Oh actually, we might need to sleep."
+    scene p52 with dissolve
     p "Really? The flight won't take too long, we should be there by night-"
+    scene p53 with dissolve
     n "We'll be using the bed."
     p "Oh."
+    scene p54 with dissolve
     n "Yes. {i}Oh{/i}."
-    p "Whatever the case. it'll have to wait, we're taking off soon."
+    p "Whatever the case, it'll have to wait, we're taking off soon."
+    scene p55 with dissolve
     n "This AI system is going to take off?"
     p "Yeah. Something like that. I didn't really read the manual."
     p "When you pay that much money, you just expect it to work."
-    n "Oh, so should I grab Kaira now?"
+    scene p56 with dissolve
+    n "Wow, wow. We get it. You'r rich."
+    scene p57 with dissolve
+    n "So should I grab Kaira now?"
     p "Let's call em' back."
+    scene p58 with dissolve
     n "KAIRA!"
+    scene p59 with dissolve
     p "Um, [mr]!"
+    scene black with fade
+    "..."
     # Characters back
+    scene p60 with fade
+    $ renpy.pause()
+    scene p61 with dissolve
     s "Wow, that bed is really nice, [p]!"
     s "It'll be a waste if we don't get to use it later."
+    scene p62 with dissolve
     n "It would be."
+    scene p63 with dissolve
     p "What did you think about the back?"
     s "I love it. It's so fancy."
     p "We can take a longer look later. But for now, let's get seated. We're about to take off!"
-    m "Someone called?"
+    scene p64 with fade
+    $ renpy.pause()
+    scene p65 with dissolve
+    $ renpy.pause()
+    scene p66 with dissolve
+    n "Good to see you too Kaira."
+    scene p67 with dissolve
+    s "Nicole! Hey girlfriend~"
+    n "The plane's taking off soon, apparently. I'll talk to you soon girl!"
+    m "Ahem, someone called?"
+    scene p68 with dissolve
     p "Yes, [mr], it's time to go soon!"
-    m "Please get seated!"
+    p "Please get seated!"
+    scene p69 with fade
+    m "Mmmm~"
+    scene p70 with dissolve
     m "Wow, these are some nice chairs."
     p "I knew you like leather."
     ## Plane starts
     play music "sounds/effects/cabin.mp3" fadeout 1
+    scene p71 with hpunch
     s "Wow! Is the plane starting to take off now?"
     p "Should be, yeah."
-    n "I wonder if we're going to get any notification."
-    p "Yeah I don't know, I didn't read the manual!"
+    scene p72 with dissolve
+    n "Hang on, if we're still on the ground, why do I see clouds out of the window?"
+    p "I didn't read the manual, but I think it's got the immersive mode turned on."
+    scene p73 with dissolve
     m "Hmm..."
     play sound "sounds/effects/captain.mp3"
     $ renpy.pause(13.0,hard=True)
     p "Wow, there's even a virtual pilot?"
+    scene p47 with dissolve
     n "You paid for it, not me."
     p "This {i}is{/i} luxurious."
+    scene p44 with dissolve
     p "It's started going up!"
+    scene p74 with dissolve
     s "Oh this feels funny. Kind of like I'm pressed to my seat."
     s "How long until I can get up again?"
     p "I think after it starts climbing... a few moments after that."
+    scene p75 with dissolve
     m "There should be a sound that plays, until then, be a good girl, Kaira!"
     n "I imagine you've flown quite a bit, Amanda."
+    scene p77 with dissolve
     n "As a model, you must have."
     m "Oh, I've flown once or twice!"
     n "My sister's a model, did you know? Her name's Saffron."
+    scene p78 with dissolve
     m "Ah yes, I saw her at the modelling show before."
     n "I think she's quite popular. Were you watching?"
     m "I was one of the models at that show, actually."
     n "Oh, I'm so glad to hear that my sister is maybe even on the same level as you!"
     m "Ah, stop flattering me!"
+    scene p79 with dissolve
     m "You share a striking resemblance of your sister."
     n "Yes, everyone says that. But my goal one day is for people to say that Saffron is a striking resemblance of {i}me{/i}."
+    scene p80 with dissolve
     m "Oh yes, comparison is a thief of joy. I would know."
     n "It really is."
+    scene p81 with dissolve
+    p "..."
+    scene p82 with dissolve
+    n "[p]? Not feeling sick now are we?"
+    p "Oh no, I'm alright. It's just a strange feeling, haha."
+    p "I'm feeling it in my balls actually. We must be rising quickly. I guess this is a jet after all."
+    scene p83 with dissolve
+    n "Let's see if I can fix it. By getting some blood flow to your balls."
+    scene p84 with dissolve
+    p "Uh..."
+    scene p85 with dissolve
+    n "Better?"
+    p "Oi! Psst! Put that away! What are you doing!"
+    scene p86 with dissolve
+    n "Just having some fun~"
+    scene p92 with dissolve
+    m "(Nicole is having [p] all to herself again. And I feel...)"
+    scene p87 with dissolve
+    $ renpy.pause()
+    scene p88 with dissolve
+    $ renpy.pause()
+    scene p89 with dissolve
+    $ renpy.pause()
+    scene p90 with dissolve
+    $ renpy.pause()
+    scene p91 with dissolve
+    $ renpy.pause()
+    scene p92 with dissolve
+    m "(Is she... teasing me?)"
+    scene p93 with dissolve
+    m "(I feel... jealous?)"
+    scene p94 with dissolve
+    m "([p]...)"
+    scene p95 with dissolve
+    m "(What is happening?)"
+    scene p96 with dissolve
+    n "Alright, I had my fun [p]. Hahaha!"
     play sound "sounds/effects/beep.mp3"
     $ renpy.pause()
+    scene p97 with dissolve
     s "That might be it?"
     p "We've definitely levelled off."
+    scene p98 with dissolve
     s "Good! I'm going to take a look here."
+    scene p99 with dissolve
     s "There's so much space up at the front too!"
+    scene p100 with dissolve
     s "Ooh, the cockpit."
     p "Maybe we shouldn't go in there."
+    scene p101 with dissolve
     s "Please, let me! I pwomise I won't touch anything!"
+    scene p102 with dissolve
     p "How can I say no to you, Kaira? Fine."
+    "Hnggg!"
+    scene p103 with dissolve
+    s "Yee!"
+    scene p104 with dissolve
+    s "Oh wow! Look at all these lights, and the sky!"
+    p "Pretty, is it? All those blinking lights?"
+    scene p105 with dissolve
     s "You come in too!"
-    p "Kaira?"
+    scene p106 with dissolve
+    P "Alright, alright. What's up?"
+    s "Take a look around!"
+    scene p107 with dissolve
+    p "Um, Kaira?"
+    scene p108 with dissolve
     s "I just want to see what it feels like. Here, you be my copilot!"
     p "I have no idea how to fly this thing, Kaira, and neither do you."
+    scene p109 with dissolve
     s "It's just for a moment!"
     p "Sigh."
+    scene p110 with fade
     s "Wow, we're up so high I can't even see anything down there!"
     s "We'd be super dead if we were to go down now..."
     p "Don't remind me."
+    scene p111 with dissolve
     s "Hmm, what does this button do, I wonder..."
+    scene p112 with vpunch
     p "Don't!!"
     s "Just kidding, [p]! You're so funny sometimes."
+    scene p113 with dissolve
     s "I'll go back now, and you can finally relax."
     p "Phew."
+    scene 114 with fade
     s "It's such a waste to not have this whole plane filled up."
     p "Hmm?"
+    scene p115 with dissolve
     s "There's just so much space! I can sit here, here, here or there. I can't make up my mind."
+    scene p116 with dissolve
     s "Look, what a huge... couch?"
+    scene p117 with dissolve
     p "This is luxury, my little Kaira, mwa hahaha."
+    scene p118 with dissolve
     p "But... I hope you don't get too used to it."
+    scene p119 with dissolve
     s "I just wanna... lie down right here!"
+    scene p120 with dissolve
     s "And maybe watch from the cockpit a little bit later..."
+    scene p121 with dissolve
     p "Is it wise for me to leave you unsupervised?"
     s "You can trust me!"
     p "..."
+    scene p122 with dissolve
     s "If I get in trouble, I'll yell!"
     p "Alright, have fun."
+    scene p123 with dissolve
+    $ renpy.pause()
+    scene p124 with dissolve
+    $ renpy.pause()
+    p "Mwa!"
+    scene p125 with dissolve
+    $ renpy.pause()
+    scene p126 with dissolve
+    s "Hehehehe."
+    scene p127 with dissolve
     s "I love you, [p]!"
     p "Love you too Kaira."
-    s "No but {i}really{/i}."
-    p "Right back at ya."
+    scene p128 with dissolve
+    s "Ahem, hehe~"
+    scene black with fade
+    "Woo, jesus!"
+    "..."
     # Amanda middle cabin
     p "Whats up. [mr]?"
     m "I'm just taking a look at the drinks we've got here!"
     m "We even have some Dante's Original."
     n "Oh [p] loves that stuff."
-    m "Are you a big social drinker, [p]?"
+    m "Are you a social drinker, [p]?"
     p "Oh no. I only drink in private."
     n "Bahaha."
     n "What are our entertainment options, [p]?"
@@ -165,7 +323,7 @@ label hol_plane:
     m "(Don't tell me Nicole is teasing me about [p]...)"
     m "(She must have seen my look back then!)"
     m "I think all you would see is a warm scented bath!"
-    n "With just yourself, and with a special someone?"
+    n "With just yourself, or with a special someone?"
     n "I do apologise! I can act too familiar sometimes."
     m "Not to worry at all."
     p "Okay let's flick this thing off. I mean, on."
@@ -382,7 +540,7 @@ label hol_plane:
     x "You enter a difficult road [p]."
     p "It doesn't feel so hard."
     x "That's the reason why it's difficult. You don't know, until it happens. Then one day, you will look back and wish you had gone a different route."
-    p "Just tell me what I need to know."
+    p "Just tell me what I need to know already! Even with this cryptic shit."
     x "This route is {i}your{/i} destiny. That is all you need to know."
     x "All will be made clear. In time."
     x "Patience, [p], my old friend.... You need not wait much longer."
@@ -431,8 +589,8 @@ label hol_plane:
     m "It was unforgettable."
     k "I really loved it [p]! Never had I seen such a beautiful sunset before."
     n "Hahaha. So where to next?"
-    p "Well, let's check into our hotel first. And after that, the beach for Kaira. Right Kaira?"
+    p "Well, let's check into our hotel first and stay the night. After that, the beach for Kaira. Right Kaira?"
     k "Yes, I can't wait!"
-    "The plane lands safely, thanks to its robust AI system."
+    "The plane lands safely, thanks to its robust AI system. Thank you Dante's Jets!"
     "We make our way towards the hotel."
     jump hotel1

@@ -172,7 +172,7 @@ label start:
     "I wonder if [mr] or Kaira have changed. Back in school the boys would always talk about how hot [mr] was!"
     "It's so wrong but I'd probably have to agree. It's a pity she hasn't been able to find somebody since dad passed away."
     "Kaira was just a kid when I left, but she's now in her final few years of school."
-    "I guess she's would be almost grown up now, wouldn't she?"
+    "I guess she would be almost grown up now, wouldn't she?"
     scene 1_entrance2
     "Alright, no more idling around. It's time to say hi."
     "{i}Knock knock{/i}"
@@ -328,19 +328,19 @@ label start:
     m "You and your silver tongue!"
     m "Go ahead and take a bite! Tell me what you think!"
     p "Alright, here goes."
-    scene 2_int26 with dissolve
+    scene 2_int27 with dissolve
     "*Omnomnomnom..."
     m "...well?"
     p "It's good [mr], jesus it's great! You really have gotten good. Let me take another bite..."
-    scene 2_int27 with dissolve
+    scene 2_int28 with dissolve
     m "Fufufu... I'm so happy you think so!"
     m "I bet you regret ever leaving!"
     p "You're right [mr], I should never have left."
-    scene 2_int29 with dissolve
+    scene 2_int26 with dissolve
     m "So, what's taking your [sr] so long? Wasn't she coming with you?"
     p "I don't know, she said she was trying on her clothes or something."
     p "Something about growing out of them."
-    scene 2_int28 with dissolve
+    scene 2_int29 with dissolve
     m "Ah-"
     p "Hmm?"
     m "Your [sr] has 'grown' a lot, hasn't she?"
