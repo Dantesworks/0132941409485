@@ -84,10 +84,13 @@ label splashscreen:
 label start:
     default depravity = 0
     stop music fadeout 1
+    scene turn_on_sound with fade
+    $ renpy.pause()
+    scene black with fade
     "It's the feeling of deja vu. I feel - no, I know I've been here before."
     "All of this feels too... familiar."
     ## All endings are also beginnings. Where one chapter ends, another begins.
-    scene quote with dissolve
+    scene quote with fade
     $ renpy.pause(2.0, hard = True)
     $ renpy.pause()
     play music "sounds/hamilton.mp3" fadeout 1
