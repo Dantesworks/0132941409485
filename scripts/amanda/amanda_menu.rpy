@@ -144,17 +144,17 @@ label Amanda:
                     p "Taking you where you're most vulnerable."
                     t "Ah!"
                     scene white
-                    $ renpy.movie_cutscene("animations/cam4.mp4", loops=0, stop_music=False)
+                    $ renpy.movie_cutscene("animations/cam4.webm", loops=0, stop_music=False)
                     scene cam-293
                     "She gasped for air as I thrust my penis into the depths of her asshole."
-                    image cam5 = Movie(play="/animations/cam5.mp4")
+                    image cam5 = Movie(play="/animations/cam5.webm")
                     scene cam5 with fade
                     pause
                     t "It hurts, [p]."
                     p "I know Camille, we're not lubed up."
                     p "Should we slow down?"
                     t "...no. I can take it. Go faster!"
-                    image cam6 = Movie(play="/animations/cam6.mp4")
+                    image cam6 = Movie(play="/animations/cam6.webm")
                     scene cam6 with dissolve
                     pause
                     p "You asked for this girl."
@@ -164,14 +164,14 @@ label Amanda:
                     p "Your dick's still limp though."
                     p "Looks like we still need to go harder!"
                     "I could feel skin tearing against skin as I thrust into her anus and hear her whimpers as she was undoubtedly feeling it too."
-                    image cam7 = Movie(play="/animations/cam7.mp4")
+                    image cam7 = Movie(play="/animations/cam7.webm")
                     scene cam7 with dissolve
                     pause
                     "This feeling heightened ten times."
                     p "I'm getting close!"
                     t "Ahh!!"
                     scene white with flash
-                    $ renpy.movie_cutscene("animations/cam8.mp4", loops=0, stop_music=False)
+                    $ renpy.movie_cutscene("animations/cam8.webm", loops=0, stop_music=False)
                     scene cam-294 with dissolve
                     "Her whole body shuddered."
                     "As she shook, her limp penis shot out semen, coating the floor with her fluid."

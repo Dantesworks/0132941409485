@@ -24,13 +24,13 @@ label verc:
     scene r-147 with dissolve
     "She winced as my tongue tasted her moist vagina."
     "Was she reacting to the sensation of my tongue? Or her shame of how wet she was?"
-    image ver3 = Movie(play="/animations/ver3.mp4")
+    image ver3 = Movie(play="/animations/ver3.webm")
     scene ver3 with dissolve
     $ renpy.pause()
     "She kept her eyes shut as I licked her pussy over and over again."
     "From the cool dryness of her external folds to the sweet nectar within."
     "She trembled everytime I pushed my tongue deeper, to see how far it could go."
-    image ver4 = Movie(play="/animations/ver4.mp4")
+    image ver4 = Movie(play="/animations/ver4.webm")
     scene ver4 with dissolve
     $ renpy.pause()
     ver "Ah~ ah~ ah~ ah~"
@@ -39,13 +39,13 @@ label verc:
     p "Relax, Miss Veronica, just enjoy the fun."
     p "You've got such a beautiful and smoking hot body."
     p "Let yourself be attacked and consumed by the pleasure."
-    image ver5 = Movie(play="/animations/ver5.mp4")
+    image ver5 = Movie(play="/animations/ver5.webm")
     scene ver5 with dissolve
     $ renpy.pause()
     "Her eyes finally opened."
     ver "I.. I'm not used to this feeling, [p]."
     ver "I feel... tingling... from down there, throughout my whole body."
-    image ver6 = Movie(play="/animations/ver6.mp4")
+    image ver6 = Movie(play="/animations/ver6.webm")
     scene ver6 with dissolve
     $ renpy.pause()
     "She locked her eyes with mine and gritted her teeth."
@@ -54,12 +54,12 @@ label verc:
     ver "I'm... getting... hotter..."
     ver "Ah~!"
     ver "It's like waves of pleasure are about to hit me!"
-    image ver7 = Movie(play="/animations/ver7.mp4")
+    image ver7 = Movie(play="/animations/ver7.webm")
     scene ver7 with dissolve
     $ renpy.pause()
     ver "I... feel... good~"
     "She could not help a smile creeping over her face as I licked the juices that her pussy was squeezing out."
-    image ver8 = Movie(play="/animations/ver8.mp4")
+    image ver8 = Movie(play="/animations/ver8.webm")
     scene ver8 with dissolve
     $ renpy.pause()
     p "Feeling like you're about to cum?"
@@ -145,7 +145,7 @@ label nyma:
     scene a-273 with fade
     p "..."
     ma "Quick, Nyx, put your fingers in me!"
-    image m1 = Movie(play="/animations/m1.mp4")
+    image m1 = Movie(play="/animations/m1.webm")
     scene m1 with dissolve
     $ renpy.pause()
     ny "Oh, Maya, you're so cute but today I just want to make you squirm!"
@@ -201,21 +201,21 @@ label amandabj2:
     p "Err..."
     m "I can't wait!"
     # BJ
-    image a3 = Movie(play="/animations/a3.mp4")
+    image a3 = Movie(play="/animations/a3.webm")
     scene a3 with dissolve
     p "Oh fuck!"
     $ renpy.pause()
     "Without any warning, she thrust herself onto me, enveloping my cock in the velvety smooth textures of her mouth."
     "While her flesh covered every part of my cock, her tongue carressed me from underneath."
     m "Mmm...mmm...mmm...mmm..."
-    image a4 = Movie(play="/animations/a4.mp4")
+    image a4 = Movie(play="/animations/a4.webm")
     scene a4 with dissolve
     $ renpy.pause()
     "Seeing [mr] on all fours sucking my dick was a sight to behold indeed."
     "To see her below me, to see her servicing me."
     "Wordless. Just here to satsify me and satiate her own desire for cock."
     "Nothing but the sound of her rhythmic moaning and lust and the perverted sounds coming from her mouth."
-    image a5 = Movie(play="/animations/a5.mp4")
+    image a5 = Movie(play="/animations/a5.webm")
     scene a5 with dissolve
     $ renpy.pause()
     "With her eyes still closed, she sped up her rhythm, reaching further, deeper."
@@ -223,13 +223,13 @@ label amandabj2:
     p "You must have practised on a dildo at home or something. Who were you imagining you were blowing?"
     m "Mm~"
     p "Was it me?"
-    image a6 = Movie(play="/animations/a6.mp4")
+    image a6 = Movie(play="/animations/a6.webm")
     scene a6 with dissolve
     $ renpy.pause()
     "She did not reply, but continued her pace."
     "My [mr] is such a beautiful and sexy woman."
     "Her mouth feels like heaven, and look at those fat tits swinging back and forth!"
-    image a7 = Movie(play="/animations/a7.mp4")
+    image a7 = Movie(play="/animations/a7.webm")
     scene a7 with dissolve
     $ renpy.pause()
     "Her eyes were still closed. She was completely entranced in the sensation of my cock in her mouth."
@@ -237,7 +237,7 @@ label amandabj2:
     "Her tongue swept through every spot of my dick and then re-explored them again, as if she had forgotten."
     "Continuously familiarising herself with my cock."
     "I can see why she keeps her eyes closed - she was completely in love with the way my cock felt."
-    image a8 = Movie(play="/animations/a8.mp4")
+    image a8 = Movie(play="/animations/a8.webm")
     scene a8 with dissolve
     $ renpy.pause()
     "Finally, she opens her eyes."
@@ -322,7 +322,7 @@ label amandabj1:
     $ renpy.pause()
     m "I'm glad, [p]. Let me help you unload that stress~"
     # sex scene
-    image a1 = Movie(play="/animations/a1.mp4")
+    image a1 = Movie(play="/animations/a1.webm")
     scene a1 with dissolve
     p "Urgh, [mr], I-"
     m "Shh... [p]..."
@@ -334,7 +334,7 @@ label amandabj1:
     m "Do you want [mr] to go faster, [p]? Will it help you feel better?"
     p "Ah-"
     m "Let's go faster, hmm?"
-    image a2 = Movie(play="/animations/a2.mp4")
+    image a2 = Movie(play="/animations/a2.webm")
     scene a2 with dissolve
     "Her speed increased and her grip over my shaft tightened like a vice, forcing me closer to the edge."
     "In this moment, she was in control of me."
@@ -443,13 +443,13 @@ label caroline1:
     "She nimbly mounted me and my heart rate leapt as I realised I that I was really, truly about to insert my cock in Caroline's pussy."
     c "I'm so horny right now, you won't believe it."
     scene white
-    $ renpy.movie_cutscene("animations/c1.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/c1.webm", loops=0, stop_music=False)
     scene cc-285 with dissolve
     p "Oh my god Caroline, you are so tight."
     c "That's good, isn't it [p]?"
     c "Nice and tight for you so we can feel good together!"
     c "I'm going to start rocking now okay [p]?"
-    image c2 = Movie(play="/animations/c2.mp4")
+    image c2 = Movie(play="/animations/c2.webm")
     scene c2 with dissolve
     "Oh my god. Her vagina was gripping my member so tight as my penis thrust in and out of her folds."
     c "D-does this feel good?"
@@ -466,7 +466,7 @@ label caroline1:
     c "Faster? Say please."
     p "Please, Caroline you beautiful girl, go faster."
     c "With pleasure~"
-    image c3 = Movie(play="/animations/c3.mp4")
+    image c3 = Movie(play="/animations/c3.webm")
     scene c3 with dissolve
     c "Aa~!"
     c "The... heat... it just feels so fucking good!"
@@ -474,7 +474,7 @@ label caroline1:
     c "Fuck me, [p]. Fuck me hard!! Aaah~!!!"
     "Christ this girl just let pleasure get to her head."
     c "Harder harder harder harder!"
-    image c4 = Movie(play="/animations/c4.mp4")
+    image c4 = Movie(play="/animations/c4.webm")
     scene c4 with dissolve
     "Her tits jiggled in front of my face as she sped up."
     "I couldn't believe that I was fucking such a naturally beautiful woman."
@@ -737,7 +737,7 @@ label cumswap:
     scene 9-41
     n "You should be begging me for this."
     scene
-    $ renpy.movie_cutscene("animations/nicole1.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole1.webm", loops=-1, stop_music=False)
     scene 9-42
     n "Cum for me [p], you know how much I crave your juicy cum."
     n "Come on, don't be a shy boy."
@@ -760,7 +760,7 @@ label cumswap:
     scene 9-49
     n "Fine, I'll share some with you later. Now let me finish him off."
     scene
-    $ renpy.movie_cutscene("animations/nicole2.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole2.webm", loops=-1, stop_music=False)
     scene white
     "I'm spent..."
     scene 9-50
@@ -838,7 +838,7 @@ label nicole_ride:
     n "How does it feel to be straddled?"
     n "Let's edge together all night long~"
     scene
-    $ renpy.movie_cutscene("animations/nicole3.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole3.webm", loops=-1, stop_music=False)
     scene 10-20
     n "Are you coming along?"
     n "Do you want to put it in?"
@@ -863,13 +863,13 @@ label nicole_ride:
     n "Say out loud what you'll do to my voluptuous body [p]."
     p "I will fuck you until your eyes-"
     scene
-    $ renpy.movie_cutscene("animations/nicole4.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole4.webm", loops=0, stop_music=False)
     scene 10-23
     n "Ahhh~!!"
     p "You depraved little bitch, it slid right in."
     n "Hang tight, [p]. I'm about to rock your world!"
     scene
-    $ renpy.movie_cutscene("animations/nicole5.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole5.webm", loops=-1, stop_music=False)
     scene 10-24
     p "I can't believe it. You really are just a horny little slut aren't you?"
     n "It... feels.... so... good~"
@@ -879,13 +879,13 @@ label nicole_ride:
     m "(He's grown so much...)"
     m "(And his thick cock thrusting in and out of her pussy...)"
     scene
-    $ renpy.movie_cutscene("animations/nicole6.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole6.webm", loops=-1, stop_music=False)
     scene 10-25
     n "Faster~ faster~ faster~!"
     scene 10-45
     m "(It's been so long, and somehow... I wish it were me bouncing on that cock!"
     scene
-    $ renpy.movie_cutscene("animations/nicole7.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole7.webm", loops=-1, stop_music=False)
     scene 10-26
     n "Oooh I'm close I'm so fucking close~!"
     scene 10-43
@@ -895,7 +895,7 @@ label nicole_ride:
     scene 10-27
     n "AHHHH~!!!!!"
     scene
-    $ renpy.movie_cutscene("animations/nicole8.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/nicole8.webm", loops=0, stop_music=False)
     scene 10-28
     n "{i}Pant...pant...{/i}"
     p "Just... like a cheap whore."
@@ -936,7 +936,7 @@ label nicole_event1:
     scene ne-74 with dissolve
     "Oh my god, she's actually sucking me off in the middle of the pool."
     scene
-    $ renpy.movie_cutscene("animations/ne1.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ne1.webm", loops=-1, stop_music=False)
     scene ne-74
     "The water makes it rougher and it's more sensitive!"
     scene ne-75 with dissolve
@@ -972,15 +972,15 @@ label nicole_event1:
     scene ne-85 with dissolve
     $ renpy.pause()
     scene
-    $ renpy.movie_cutscene("animations/ne2.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ne2.webm", loops=-1, stop_music=False)
     scene ne-86
     n "Keep-going, faster!!"
     scene
-    $ renpy.movie_cutscene("animations/ne5.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ne5.webm", loops=-1, stop_music=False)
     scene ne-87
     n "Aah~!"
     scene
-    $ renpy.movie_cutscene("animations/ne4.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/ne4.webm", loops=0, stop_music=False)
     scene ne-88
     n "Fuck that was great."
     n "I came like a little whore again~"
@@ -989,13 +989,13 @@ label nicole_event1:
     n "What, no, give me a minute!"
     p "How about a taste of your own medicine?"
     scene
-    $ renpy.movie_cutscene("animations/ne5.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ne5.webm", loops=-1, stop_music=False)
     scene ne-90
     n "[p]-I-need-to-hnngh~!"
     p "Hng!"
     scene white with flash
     scene
-    $ renpy.movie_cutscene("animations/ne3.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/ne3.webm", loops=0, stop_music=False)
     scene ne-91
     n "My darling [p], you have no idea how hot I'm burning right now."
     scene ne-92 with dissolve
@@ -1042,7 +1042,7 @@ label nicole_event2:
     n "I've been a bad girl-"
     "{i}Smack!{/i}"
     scene
-    $ renpy.movie_cutscene("animations/ns1.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ns1.webm", loops=-1, stop_music=False)
     scene ns-27
     n"-Ah!"
     p "You like that?"
@@ -1051,7 +1051,7 @@ label nicole_event2:
     p "A slut like you needs to learn her place!"
     "{i}Smack!{/i}"
     scene
-    $ renpy.movie_cutscene("animations/ns2.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ns2.webm", loops=-1, stop_music=False)
     scene ns-28
     n "AHH!"
     scene ns-30 with dissolve
@@ -1061,11 +1061,11 @@ label nicole_event2:
     p "I'm not stopping till you've learned your fucking lesson."
     "{i}Smack!{/i}"
     scene
-    $ renpy.movie_cutscene("animations/ns1.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ns1.webm", loops=-1, stop_music=False)
     scene ns-30
     n "Ahh~!!!!!!"
     scene
-    $ renpy.movie_cutscene("animations/ns3.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/ns3.webm", loops=0, stop_music=False)
     scene ns-29
     p "You came like a fountain again."
     n "I-love-you-daddy..."
@@ -1074,22 +1074,22 @@ label nicole_event2:
     p "This isn't over yet!"
     "{i}Smack!{/i}"
     scene
-    $ renpy.movie_cutscene("animations/ns5.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ns5.webm", loops=-1, stop_music=False)
     scene ns-30
     n "Stop [p]!"
     "{i}Smack!{/i}"
     scene
-    $ renpy.movie_cutscene("animations/ns4.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ns4.webm", loops=-1, stop_music=False)
     scene ns-31
     n "It's hurting for real- ah~!!"
     "{i}Smack!{/i}"
     scene
-    $ renpy.movie_cutscene("animations/ns5.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ns5.webm", loops=-1, stop_music=False)
     scene ns-31
     n "Fuck, stop!"
     "{i}Smack!{/i}"
     scene
-    $ renpy.movie_cutscene("animations/ns4.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ns4.webm", loops=-1, stop_music=False)
     scene ns-32
     n "HNGGG!"
     scene ns-31
@@ -1111,7 +1111,7 @@ label nicole_event2:
 
             "{i}Smack!{/i}"
             scene
-            $ renpy.movie_cutscene("animations/ns5.mp4", loops=-1, stop_music=False)
+            $ renpy.movie_cutscene("animations/ns5.webm", loops=-1, stop_music=False)
             scene ns-31
             n "What are you doing?!"
             scene ns-37 with fade
@@ -1174,7 +1174,7 @@ label widow_1:
     p "Now come on, I'm not doing your work for you."
     p "Now Lick the tip."
     scene
-    $ renpy.movie_cutscene("animations/w1.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/w1.webm", loops=-1, stop_music=False)
     scene w-22
     p "Good girl."
     p "Now take me in."
@@ -1182,7 +1182,7 @@ label widow_1:
     w "..."
     w "(Just do it Amelie, think of it as my mission...)"
     scene
-    $ renpy.movie_cutscene("animations/w2.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/w2.webm", loops=-1, stop_music=False)
     scene w-24
     "Shit, she's really good. I might not last too long at this rate!"
     p "Stop!"
@@ -1217,12 +1217,12 @@ label widow_1:
     p "Straddle me and enjoy the ride."
     w "This will give me no pleasure!"
     scene
-    $ renpy.movie_cutscene("animations/w3.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/w3.webm", loops=0, stop_music=False)
     scene w-36
     w "It's so big- you're filling me up~"
     p "I slid right into you, slut. Start bouncing you whore."
     scene
-    $ renpy.movie_cutscene("animations/w4.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/w4.webm", loops=-1, stop_music=False)
     scene w-37
     p "You're coming around, good girl!"
     p "What a natural."
@@ -1230,12 +1230,12 @@ label widow_1:
     p "What's this Amelie? Are you close to the edge?"
     p "You've already come so far, keep rocking."
     scene
-    $ renpy.movie_cutscene("animations/w4.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/w4.webm", loops=-1, stop_music=False)
     scene w-36
     w "...I can't...."
     w "Unghh!"
     scene
-    $ renpy.movie_cutscene("animations/w5.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/w5.webm", loops=0, stop_music=False)
     scene w-38
     w "Ahhhh~~~~!"
     "Damn, she came."
@@ -1312,7 +1312,7 @@ label k_1:
     "I felt her juices coat my fingers and could only imagine how it would feel on my cock."
     "And like that, I teased her, again and again, while she moaned in rhythm to my handiwork."
     scene
-    $ renpy.movie_cutscene("animations/k1.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/k1.webm", loops=-1, stop_music=False)
     scene k-131
     p "Are you ready for the next step Kaira?"
     s "Am... I?"
@@ -1321,7 +1321,7 @@ label k_1:
     s "Mmmm..."
     "Well lubricated by her own juices, my fingers slipped in effortlessly."
     scene
-    $ renpy.movie_cutscene("animations/k2.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/k2.webm", loops=-1, stop_music=False)
     scene k-132
     "Her chest rose and fell as she let out breathless labored gasps of air, trying to remain silent herself."
     p "You're having difficulty keeping in Kaira."
@@ -1330,7 +1330,7 @@ label k_1:
     p "Let's bring you over."
     "I increased the speed of my penetration, and Kaira reacted sharply."
     scene
-    $ renpy.movie_cutscene("animations/k3.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/k3.webm", loops=-1, stop_music=False)
     scene k-133
     s "Ahh!!!"
     s "Mmm!!"
@@ -1340,7 +1340,7 @@ label k_1:
     s "I- ahhh!"
     "She buckles under my touch."
     scene
-    $ renpy.movie_cutscene("animations/k4.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/k4.webm", loops=0, stop_music=False)
     scene k-134
     s "Oh, [p]!!!"
     p "Kaira, oh, I think you just had an orgasm."
@@ -1408,7 +1408,7 @@ label k_1:
     "I ignored her thrusted steadily."
     "In. Out. In Out."
     scene
-    $ renpy.movie_cutscene("animations/k5.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/k5.webm", loops=-1, stop_music=False)
     scene k-151
     "Her eyes clenched shut from both pain and pleasure."
     "I continued to tear into her, sending shocks rocking her body."
@@ -1435,7 +1435,7 @@ label cam_bj:
     "There is something more to her, definitely, than meets the eye."
     "And then she took me."
     scene
-    $ renpy.movie_cutscene("animations/cam-1.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/cam-1.webm", loops=-1, stop_music=False)
     scene cam-91
     t "Mmmm."
     p "Argh."
@@ -1444,12 +1444,12 @@ label cam_bj:
     "She sucked my cock with expert technique that she had no right in knowing."
     "It seemed like she knew exactly where a penis is most sensitive."
     scene
-    $ renpy.movie_cutscene("animations/cam-2.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/cam-2.webm", loops=-1, stop_music=False)
     scene cam-92
     "She knew how a penis worked like it was the back of her hand."
     "Her tongue carressed the underside of my shaft and I took her a lot more seriously."
     scene
-    $ renpy.movie_cutscene("animations/cam-3.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/cam-3.webm", loops=-1, stop_music=False)
     scene cam-92
     p "At this rate, Camille, I don't know how much longer I'll last!"
     scene cam-93 with dissolve
@@ -1519,16 +1519,16 @@ label cam_anal_doggy:
     p "Taking you where you're most vulnerable."
     t "Ah!"
     scene
-    $ renpy.movie_cutscene("animations/cam4.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/cam4.webm", loops=0, stop_music=False)
     scene cam-293
     "She gasped for air as I thrust in her ass."
-    image cam5 = Movie(play="/animations/cam5.mp4")
+    image cam5 = Movie(play="/animations/cam5.webm")
     show cam5
     t "It hurts, [p]."
     p "I'm sorry Camille, should we slow down?"
     t "...no. Go faster!"
     hide cam5
-    image cam6 = Movie(play="/animations/cam6.mp4")
+    image cam6 = Movie(play="/animations/cam6.webm")
     show cam6
     "She moaned more as I thrust in and out, her limp penis pushed back and forth."
     p "Is this enough to get you excited?"
@@ -1536,11 +1536,11 @@ label cam_anal_doggy:
     p "Your dick's still limp"
     p "Looks like we still need to go harder!"
     hide cam6
-    image cam7 = Movie(play="/animations/cam7.mp4")
+    image cam7 = Movie(play="/animations/cam7.webm")
     show cam7
     t "Ahh!!"
     hide cam7
-    $ renpy.movie_cutscene("animations/cam8.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/cam8.webm", loops=0, stop_music=False)
     scene cam-294
     "Her whole body shuddered."
     "As she shook, her limp penis shot out semen, coating the floor with her fluid."
@@ -1571,12 +1571,12 @@ label nicole_bj2:
     p "You're on the clock."
     n "It will be my pleasure~"
     scene white
-    image n1 = Movie(play="/animations/n1.mp4")
+    image n1 = Movie(play="/animations/n1.webm")
     show n1 with dissolve
     "Without pausing, she went straight forward and made love to my cock."
     "Caressing it, and putting me in paradise."
     hide n1
-    image n2 = Movie(play="/animations/n2.mp4")
+    image n2 = Movie(play="/animations/n2.webm")
     show n2 with dissolve
     p "Oh Nicole. I've forgotten how good you are."
     m "Mmm~"
@@ -1585,7 +1585,7 @@ label nicole_bj2:
     "She bobbed back and forth rythmically, working me up slowly."
     "Then suddenly, as if to shock me, she picked up the pace!"
     hide n2
-    image n3 = Movie(play="/animations/n3.mp4")
+    image n3 = Movie(play="/animations/n3.webm")
     show n3 with dissolve
     p "Argh!"
     p "You've gotten better since the first time."
@@ -1597,8 +1597,8 @@ label nicole_bj2:
     p "Swallow it whore!"
     hide n3
     scene white with flash
-    $ renpy.movie_cutscene("animations/n4.mp4", loops=0, stop_music=False)
-    $ renpy.movie_cutscene("animations/n5.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/n4.webm", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/n5.webm", loops=0, stop_music=False)
     scene n-89
     n "Mmm-mmm~"
     n "So delicious."
@@ -1686,7 +1686,7 @@ label nicole_park:
             scene n-138 with dissolve
             n "Just watch and be stunned?"
             scene
-            $ renpy.movie_cutscene("animations/n9.mp4", loops=0, stop_music=False)
+            $ renpy.movie_cutscene("animations/n9.webm", loops=0, stop_music=False)
             scene n-139
             p "That was sexy."
             n "You know it."
@@ -1733,7 +1733,7 @@ label nicole_park:
             n "Please daddy~ put your cock in me~!"
             p "Now you've done it."
             scene white
-            image n10 = Movie(play="/animations/n10.mp4")
+            image n10 = Movie(play="/animations/n10.webm")
             show n10 with dissolve
             n "Oh YES it feels SO good~!"
             n "Daddy, you stud! Drill me harder!"
@@ -1742,7 +1742,7 @@ label nicole_park:
             n "Faster faster!"
             p "Hnng!"
             hide n10
-            image n11 = Movie(play="/animations/n11.mp4")
+            image n11 = Movie(play="/animations/n11.webm")
             show n11 with dissolve
             n "Ah~! Ah~! Ah~! Ah~!"
             n "I'm burning so hard!"
@@ -1755,7 +1755,7 @@ label nicole_park:
             n "Yes [p], YES YES YES I'm cumming!!!"
             n "AHHH~~!!!"
             hide n11
-            $ renpy.movie_cutscene("animations/n12.mp4", loops=0, stop_music=False)
+            $ renpy.movie_cutscene("animations/n12.webm", loops=0, stop_music=False)
             scene n-149 with dissolve
             n "Ah~ hah... aha ha...."
             p "Your orgasm fried your brain."
@@ -1767,8 +1767,8 @@ label nicole_park:
             scene n-151 with dissolve
             n "No no no no [p], I, please, just-"
             scene white
-            $ renpy.movie_cutscene("animations/n13.mp4", loops=0, stop_music=False)
-            image n14 = Movie(play="/animations/n14.mp4")
+            $ renpy.movie_cutscene("animations/n13.webm", loops=0, stop_music=False)
+            image n14 = Movie(play="/animations/n14.webm")
             show n14 with dissolve
             n "It's huuurting!!"
             p "You talked so much about making guys cum before, Nicole, and now you're being fucked silly?"
@@ -2068,8 +2068,8 @@ label nicole_park:
             n "I'm still a anal virgin, so don't be too rough, okay?"
             p "You're so cute Nicole."
             scene white
-            $ renpy.movie_cutscene("animations/n15.mp4", loops=0, stop_music=False)
-            image n16 = Movie(play="/animations/n16.mp4")
+            $ renpy.movie_cutscene("animations/n15.webm", loops=0, stop_music=False)
+            image n16 = Movie(play="/animations/n16.webm")
             show n16 with dissolve
             p "How... how does it feel Nicole?"
             n "It's a bit rough, but I like it."
@@ -2080,7 +2080,7 @@ label nicole_park:
             p "I'm picking up the pace okay?"
             n "Not too fast~"
             hide n16
-            image n17 = Movie(play="/animations/n17.mp4")
+            image n17 = Movie(play="/animations/n17.webm")
             show n17 with dissolve
             n "Ahh!"
             p "Does it hurt?"
@@ -2092,7 +2092,7 @@ label nicole_park:
             n "Cumming before me~!"
             p "Argh!"
             hide n17
-            $ renpy.movie_cutscene("animations/n18.mp4", loops=0, stop_music=False)
+            $ renpy.movie_cutscene("animations/n18.webm", loops=0, stop_music=False)
             scene n-229
             "Despite not cumming, Nicole was in a blissful trance."
             n "Oh, I don't think I'll be able to walk in a while."
@@ -2173,8 +2173,8 @@ label nicole_park:
             scene n-252 with dissolve
             n "With pleasure."
             scene white
-            image n19 = Movie(play="/animations/n19.mp4")
-            image n20 = Movie(play="/animations/n20.mp4")
+            image n19 = Movie(play="/animations/n19.webm")
+            image n20 = Movie(play="/animations/n20.webm")
             show n19 with dissolve
             n "Ah~"
             n "My fingers feel pretty good too."
@@ -2187,7 +2187,7 @@ label nicole_park:
             n "Ah~ ah~ ah~ ah~"
             n "Aah~~~!!!"
             hide n20
-            $ renpy.movie_cutscene("animations/n21.mp4", loops=0, stop_music=False)
+            $ renpy.movie_cutscene("animations/n21.webm", loops=0, stop_music=False)
             scene n-253
             n "Am I the sexiest now, [p]?"
             p "Right now? Yes. You certainly are."
@@ -2232,8 +2232,8 @@ label ver_bj:
     ver "(His penis is so much bigger than my husband's!)"
     ver "(Is this what it's like to feel lust after such a long time?)"
     scene white
-    image ver1 = Movie(play="/animations/ver1.mp4")
-    image ver2 = Movie(play="/animations/ver2.mp4")
+    image ver1 = Movie(play="/animations/ver1.webm")
+    image ver2 = Movie(play="/animations/ver2.webm")
     show ver1 with dissolve
     "The timid and uncertain way she licked the tip of my cock was strangely hot."
     "Despite her only licking such a small area, I could tell there was a dark longing there."
@@ -2300,8 +2300,8 @@ label o_bj:
     p "Now choke on it!"
     o "Noo!!"
     scene white
-    image o1 = Movie(play="/animations/o1.mp4")
-    image o2 = Movie(play="/animations/o2.mp4")
+    image o1 = Movie(play="/animations/o1.webm")
+    image o2 = Movie(play="/animations/o2.webm")
     show o1 with dissolve
     p "You're so much prettier when you're not talking Olivia."
     p "Your lips were made to be around a cock."

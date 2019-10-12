@@ -347,7 +347,7 @@ label amanda_studio:
             $ renpy.pause()
             m "I'm glad, [p]. Let me help you unload that stress~"
             # sex scene
-            image a1 = Movie(play="/animations/a1.mp4")
+            image a1 = Movie(play="/animations/a1.webm")
             scene a1 with dissolve
             p "Urgh, [mr], I-"
             m "Shh... [p]..."
@@ -359,7 +359,7 @@ label amanda_studio:
             m "Do you want [mr] to go faster, [p]? Will it help you feel better?"
             p "Ah-"
             m "Let's go faster, hmm?"
-            image a2 = Movie(play="/animations/a2.mp4")
+            image a2 = Movie(play="/animations/a2.webm")
             scene a2 with dissolve
             "Her speed increased and her grip over my shaft tightened like a vice, forcing me closer to the edge."
             "In this moment, she was in control of me."
@@ -601,21 +601,21 @@ label amanda_studio:
             p "Err..."
             m "I can't wait!"
             # BJ
-            image a3 = Movie(play="/animations/a3.mp4")
+            image a3 = Movie(play="/animations/a3.webm")
             scene a3 with dissolve
             p "Oh fuck!"
             $ renpy.pause()
             "Without any warning, she thrust herself onto me, enveloping my cock in the velvety smooth textures of her mouth."
             "While her flesh covered every part of my cock, her tongue carressed me from underneath."
             m "Mmm...mmm...mmm...mmm..."
-            image a4 = Movie(play="/animations/a4.mp4")
+            image a4 = Movie(play="/animations/a4.webm")
             scene a4 with dissolve
             $ renpy.pause()
             "Seeing [mr] on all fours sucking my dick was a sight to behold indeed."
             "To see her below me, to see her servicing me."
             "Wordless. Just here to satsify me and satiate her own desire for cock."
             "Nothing but the sound of her rhythmic moaning and lust and the perverted sounds coming from her mouth."
-            image a5 = Movie(play="/animations/a5.mp4")
+            image a5 = Movie(play="/animations/a5.webm")
             scene a5 with dissolve
             $ renpy.pause()
             "With her eyes still closed, she sped up her rhythm, reaching further, deeper."
@@ -623,13 +623,13 @@ label amanda_studio:
             p "You must have practised on a dildo at home or something. Who were you imagining you were blowing?"
             m "Mm~"
             p "Was it me?"
-            image a6 = Movie(play="/animations/a6.mp4")
+            image a6 = Movie(play="/animations/a6.webm")
             scene a6 with dissolve
             $ renpy.pause()
             "She did not reply, but continued her pace."
             "My [mr] is such a beautiful and sexy woman."
             "Her mouth feels like heaven, and look at those fat tits swinging back and forth!"
-            image a7 = Movie(play="/animations/a7.mp4")
+            image a7 = Movie(play="/animations/a7.webm")
             scene a7 with dissolve
             $ renpy.pause()
             "Her eyes were still closed. She was completely entranced in the sensation of my cock in her mouth."
@@ -637,7 +637,7 @@ label amanda_studio:
             "Her tongue swept through every spot of my dick and then re-explored them again, as if she had forgotten."
             "Continuously familiarising herself with my cock."
             "I can see why she keeps her eyes closed - she was completely in love with the way my cock felt."
-            image a8 = Movie(play="/animations/a8.mp4")
+            image a8 = Movie(play="/animations/a8.webm")
             scene a8 with dissolve
             $ renpy.pause()
             "Finally, she opens her eyes."

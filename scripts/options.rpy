@@ -209,7 +209,7 @@ init python:
     build.classify("game/**.png", "dante")
     build.classify("game/**.webp", "danteworks")
     # animation
-    build.classify("game/**.mp4", "drinks")
+    build.classify("game/**.webm", "drinks")
 
     # sound
     build.classify("game/**.mp3", "creative")

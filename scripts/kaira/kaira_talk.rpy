@@ -1213,7 +1213,7 @@ label kairatalk:
         s "..."
         s "[p]?"
         scene k195 with dissolve
-        p "Fuck, I think I'm hallucinating. They're just so mesmerisng!"
+        "Fuck, I think I'm hallucinating. They're just so mesmerisng!"
         p "Double D's..."
         s "Again?"
         s "The teacher must be trying to prank us or something, good thing I've got you to help!"
@@ -1343,7 +1343,7 @@ label kairatalk:
         scene black with fade
         "A few moments later..."
         play music "sounds/missingyou.ogg" fadeout 1
-        scene k225 with fade
+        scene k226 with fade
         p "So Kaira, here's an interesting arrangement. What do you think?"
         scene k227 with dissolve
         s "Wow, there are a lot of pictures here."
@@ -1363,7 +1363,7 @@ label kairatalk:
         s "It's okay. I like the animals more. Look! The lion!"
         scene k233 with dissolve
         p "Does it speak to you?"
-        scene k234 with disolve
+        scene k234 with dissolve
         s "Speak to me?"
         p "Like, do you feel something inside when you look at it, do you see yourself?"
         scene k235 with dissolve
@@ -1385,7 +1385,7 @@ label kairatalk:
         p "Well, look Kaira. The lion wasn't always brave."
         scene k243 with dissolve
         s "No?"
-        p "Of course not. The lion was once a cub, just a kid. He wasn't alwasy strong. But overtime, he became stronger, louder, braver. It was something that took time."
+        p "Of course not. The lion was once a cub, just a kid. He wasn't always strong. But overtime, he became stronger, louder, braver. It was something that took time."
         p "Maybe that's what the message should be."
         scene k244 with dissolve
         s "I hope, [p], one day I can be brave."
@@ -1419,7 +1419,7 @@ label kairatalk:
         x "Focus, [p], what do you see?"
         p "I... see..."
         scene k252 with dissolve
-        play music "sounds/automata.mp3" fadeout 1
+        play music "sounds/time.mp3"
         s "Umm, [p]?"
         s "You're really focussed on that picture. Are things okay?"
         scene k254 with dissolve
@@ -1661,7 +1661,6 @@ label kairatalk:
                         scene black wth fade
                         "On a bright early morning on an exciting day..."
                         $ kairalvl += 1
-                        # play lala land
                         label lala:
                         play music "sounds/bean.mp3" fadeout 1
                         scene p1 with dissolve

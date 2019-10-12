@@ -151,12 +151,12 @@ label belle:
             b "(Oh my, this [p] fellow is quite good at his tongue!)"
             b "(This might be very exciting!)"
             b "Ah~!"
-            image b1 = Movie(play="/animations/b1.mp4")
+            image b1 = Movie(play="/animations/b1.webm")
             scene b1 with dissolve
             $ renpy.pause()
             b "It's wet enough now, right? Does it... taste the same?"
             p "Let's take our time, Belle. Aren't you liking this?"
-            image b2 = Movie(play="/animations/b2.mp4")
+            image b2 = Movie(play="/animations/b2.webm")
             scene b2 with dissolve
             $ renpy.pause()
             b "..."
@@ -164,7 +164,7 @@ label belle:
             scene b-41 with flash
             b "Ahh~!"
             scene white
-            $ renpy.movie_cutscene("animations/b3.mp4", loops=0, stop_music=False)
+            $ renpy.movie_cutscene("animations/b3.webm", loops=0, stop_music=False)
             scene b-42 with flash
             b "(I feel funny down there!)"
             p "How does it feel to finally do something hardcore?"
@@ -236,12 +236,12 @@ label belle:
         b "(It feels so good, I... I might not mind doing this everyday!)"
         b "(He's just licking up all my juices!)"
         b "Ah~!"
-        image b1 = Movie(play="/animations/b1.mp4")
+        image b1 = Movie(play="/animations/b1.webm")
         scene b1 with dissolve
         $ renpy.pause()
         b "I'm making a pretty little mess, [p]. How embarassing!"
         p "The people need to see you like this, Belle."
-        image b2 = Movie(play="/animations/b2.mp4")
+        image b2 = Movie(play="/animations/b2.webm")
         scene b2 with dissolve
         $ renpy.pause()
         b "..."
@@ -249,7 +249,7 @@ label belle:
         scene b-41 with flash
         b "Ahh~!"
         scene white
-        $ renpy.movie_cutscene("animations/b3.mp4", loops=0, stop_music=False)
+        $ renpy.movie_cutscene("animations/b3.webm", loops=0, stop_music=False)
         scene b-42 with flash
         b "(It's the familiar burning feeling~)"
         p "You love it Belle."

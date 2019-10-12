@@ -207,7 +207,7 @@ label nicoleBathhouse:
     scene ne-74 with dissolve
     "Oh my god, she's actually sucking me off in the middle of the pool."
     scene
-    $ renpy.movie_cutscene("animations/ne1.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ne1.webm", loops=-1, stop_music=False)
     scene ne-74
     "The water makes it rougher and it's more sensitive!"
     scene ne-75 with dissolve
@@ -243,15 +243,15 @@ label nicoleBathhouse:
     scene ne-85 with dissolve
     $ renpy.pause()
     scene
-    $ renpy.movie_cutscene("animations/ne2.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ne2.webm", loops=-1, stop_music=False)
     scene ne-86
     n "Keep-going, faster!!"
     scene
-    $ renpy.movie_cutscene("animations/ne5.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ne5.webm", loops=-1, stop_music=False)
     scene ne-87
     n "Aah~!"
     scene
-    $ renpy.movie_cutscene("animations/ne4.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/ne4.webm", loops=0, stop_music=False)
     scene ne-88
     n "Fuck that was great."
     n "I came like a little whore again~"
@@ -260,13 +260,13 @@ label nicoleBathhouse:
     n "What, no, give me a minute!"
     p "How about a taste of your own medicine?"
     scene
-    $ renpy.movie_cutscene("animations/ne5.mp4", loops=-1, stop_music=False)
+    $ renpy.movie_cutscene("animations/ne5.webm", loops=-1, stop_music=False)
     scene ne-90
     n "[p]-I-need-to-hnngh~!"
     p "Hng!"
     scene white with flash
     scene
-    $ renpy.movie_cutscene("animations/ne3.mp4", loops=0, stop_music=False)
+    $ renpy.movie_cutscene("animations/ne3.webm", loops=0, stop_music=False)
     scene ne-91
     n "My darling [p], you have no idea how hot I'm burning right now."
     scene ne-92 with dissolve

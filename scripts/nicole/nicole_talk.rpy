@@ -460,7 +460,7 @@ label nicoletalk:
         n "I've been a bad girl-"
         "{i}Smack!{/i}"
         scene
-        $ renpy.movie_cutscene("animations/ns1.mp4", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns1.webm", loops=-1, stop_music=False)
         scene ns-27
         n"-Ah!"
         p "You like that?"
@@ -469,7 +469,7 @@ label nicoletalk:
         p "A slut like you needs to learn her place!"
         "{i}Smack!{/i}"
         scene
-        $ renpy.movie_cutscene("animations/ns2.mp4", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns2.webm", loops=-1, stop_music=False)
         scene ns-28
         n "AHH!"
         scene ns-30 with dissolve
@@ -479,11 +479,11 @@ label nicoletalk:
         p "I'm not stopping till you've learned your fucking lesson."
         "{i}Smack!{/i}"
         scene
-        $ renpy.movie_cutscene("animations/ns1.mp4", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns1.webm", loops=-1, stop_music=False)
         scene ns-30
         n "Ahh~!!!!!!"
         scene
-        $ renpy.movie_cutscene("animations/ns3.mp4", loops=0, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns3.webm", loops=0, stop_music=False)
         scene ns-29
         p "You came like a fountain again."
         n "I-love-you-daddy..."
@@ -492,22 +492,22 @@ label nicoletalk:
         p "This isn't over yet!"
         "{i}Smack!{/i}"
         scene
-        $ renpy.movie_cutscene("animations/ns5.mp4", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns5.webm", loops=-1, stop_music=False)
         scene ns-30
         n "Stop [p]!"
         "{i}Smack!{/i}"
         scene
-        $ renpy.movie_cutscene("animations/ns4.mp4", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns4.webm", loops=-1, stop_music=False)
         scene ns-31
         n "It's hurting for real- ah~!!"
         "{i}Smack!{/i}"
         scene
-        $ renpy.movie_cutscene("animations/ns5.mp4", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns5.webm", loops=-1, stop_music=False)
         scene ns-31
         n "Fuck, stop!"
         "{i}Smack!{/i}"
         scene
-        $ renpy.movie_cutscene("animations/ns4.mp4", loops=-1, stop_music=False)
+        $ renpy.movie_cutscene("animations/ns4.webm", loops=-1, stop_music=False)
         scene ns-32
         n "HNGGG!"
         scene ns-31
@@ -529,7 +529,7 @@ label nicoletalk:
                 $ depravity += 1
                 "{i}Smack!{/i}"
                 scene
-                $ renpy.movie_cutscene("animations/ns5.mp4", loops=-1, stop_music=False)
+                $ renpy.movie_cutscene("animations/ns5.webm", loops=-1, stop_music=False)
                 scene ns-31
                 n "What are you doing?!"
                 scene ns-37 with fade
@@ -831,12 +831,12 @@ label nicoletalk:
                 p "You're on the clock."
                 n "It will be my pleasure~"
                 scene white
-                image n1 = Movie(play="/animations/n1.mp4")
+                image n1 = Movie(play="/animations/n1.webm")
                 show n1 with dissolve
                 "Without pausing, she went straight forward and made love to my cock."
                 "Caressing it, and putting me in paradise."
                 hide n1
-                image n2 = Movie(play="/animations/n2.mp4")
+                image n2 = Movie(play="/animations/n2.webm")
                 show n2 with dissolve
                 p "Oh Nicole. I've forgotten how good you are."
                 n "Mmm~"
@@ -845,7 +845,7 @@ label nicoletalk:
                 "She bobbed back and forth rythmically, working me up slowly."
                 "Then suddenly, as if to shock me, she picked up the pace!"
                 hide n2
-                image n3 = Movie(play="/animations/n3.mp4")
+                image n3 = Movie(play="/animations/n3.webm")
                 show n3 with dissolve
                 p "Argh!"
                 p "You've gotten better since the first time."
@@ -857,8 +857,8 @@ label nicoletalk:
                 p "Swallow it whore!"
                 hide n3
                 scene white with flash
-                $ renpy.movie_cutscene("animations/n4.mp4", loops=0, stop_music=False)
-                $ renpy.movie_cutscene("animations/n5.mp4", loops=0, stop_music=False)
+                $ renpy.movie_cutscene("animations/n4.webm", loops=0, stop_music=False)
+                $ renpy.movie_cutscene("animations/n5.webm", loops=0, stop_music=False)
                 scene n-89
                 n "Mmm-mmm~"
                 n "So delicious."

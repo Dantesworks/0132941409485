@@ -329,13 +329,13 @@ label bartalk:
         "She nimbly mounted me and my heart rate leapt as I realised I that I was really, truly about to insert my cock in Caroline's pussy."
         c "I'm so horny right now, you won't believe it."
         scene white
-        $ renpy.movie_cutscene("animations/c1.mp4", loops=0, stop_music=False)
+        $ renpy.movie_cutscene("animations/c1.webm", loops=0, stop_music=False)
         scene cc-285 with dissolve
         p "Oh my god Caroline, you are so tight."
         c "That's good, isn't it [p]?"
         c "Nice and tight for you so we can feel good together!"
         c "I'm going to start rocking now okay [p]?"
-        image c2 = Movie(play="/animations/c2.mp4")
+        image c2 = Movie(play="/animations/c2.webm")
         scene c2 with dissolve
         "Oh my god. Her vagina was gripping my member so tight as my penis thrust in and out of her folds."
         c "D-does this feel good?"
@@ -352,7 +352,7 @@ label bartalk:
         c "Faster? Say please."
         p "Please, Caroline you beautiful girl, go faster."
         c "With pleasure~"
-        image c3 = Movie(play="/animations/c3.mp4")
+        image c3 = Movie(play="/animations/c3.webm")
         scene c3 with dissolve
         c "Aa~!"
         c "The... heat... it just feels so fucking good!"
@@ -360,7 +360,7 @@ label bartalk:
         c "Fuck me, [p]. Fuck me hard!! Aaah~!!!"
         "Christ this girl just let pleasure get to her head."
         c "Harder harder harder harder!"
-        image c4 = Movie(play="/animations/c4.mp4")
+        image c4 = Movie(play="/animations/c4.webm")
         scene c4 with dissolve
         "Her tits jiggled in front of my face as she sped up."
         "I couldn't believe that I was fucking such a naturally beautiful woman."

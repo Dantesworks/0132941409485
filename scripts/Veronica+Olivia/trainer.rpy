@@ -376,10 +376,10 @@ label trainer:
                     o "Bimbo slut... {i}Sob{/i}."
                     p "You've learnt another lesson today."
                     p "Remember it well."
-                    image o3 = Movie(play="/animations/o3.mp4")
-                    image o4 = Movie(play="/animations/o4.mp4")
-                    image o5 = Movie(play="/animations/o5.mp4")
-                    image o6 = Movie(play="/animations/o6.mp4")
+                    image o3 = Movie(play="/animations/o3.webm")
+                    image o4 = Movie(play="/animations/o4.webm")
+                    image o5 = Movie(play="/animations/o5.webm")
+                    image o6 = Movie(play="/animations/o6.webm")
                     $ plugged2 = True
 
                 "Leave":
@@ -387,7 +387,7 @@ label trainer:
             $ daytime = 4
             $ daytimes = str(daytime)
             jump map
-        "Slutty outfit" if olivialvl == 6:
+        "Slutty outfit exhibition" if olivialvl >= 6:
             jump olivia_outfit
         "Never mind.":
             jump map

@@ -472,7 +472,7 @@ label vincent_studio:
                 scene a-273 with fade
                 p "..."
                 ma "Quick, Nyx, put your fingers in me!"
-                image m1 = Movie(play="/animations/m1.mp4")
+                image m1 = Movie(play="/animations/m1.webm")
                 scene m1 with dissolve
                 $ renpy.pause()
                 ny "Oh, Maya, you're so cute but today I just want to make you squirm!"

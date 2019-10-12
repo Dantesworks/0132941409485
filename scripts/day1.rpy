@@ -303,7 +303,7 @@ label start:
     s "Oh it's no joke! This is very serious for me [p]."
     p "I think [mr]'s making us some dinner, we should probably check up on that. Wanna come?"
     s "I'll see you there in a bit, let me cover myself up first. Don't want to make [mr] jealous!"
-    "Somehow, I think the jealousy goes the other way round..."
+    "Somehow, I think the jealousy goes the other way around..."
     p "Alright Kaira, I'll see you soon."
 
     scene black
@@ -348,7 +348,7 @@ label start:
     p "Hmm?"
     m "Your [sr] has 'grown' a lot, hasn't she?"
     p "I'm not sure I-"
-    scene 2_int29 with dissolve
+    scene 2_int28 with dissolve
     m "It's ok [p] hahaha."
     scene 2_int26 with dissolve
     m "I get worried sometimes though. She hasn't experienced something like this before."
@@ -370,7 +370,7 @@ label start:
     pause 1
     scene 2_int33 with dissolve
     s "So tell us [p], what have you been up to?"
-    p "Oh you know, I was studying, working, fending for myself that sort of thing."
+    p "Oh you know, I was studying, working, fending for myself. That sort of thing."
     scene 2_int34 with dissolve
     s "Was it fun? It must be so exciting living away from home."
     p "Hahaha, yeah it was pretty fun to start with I guess, but you get used to it eventually."
@@ -414,7 +414,6 @@ label start:
         s "Maybe I should try modelling too, do you think I'll do good?"
         m "Don't get too confident Kaira! Your [mr]'s still got it!"
         p "Good for you, [mr], really that's great."
-        scene 2_int38 with dissolve
         jump choice2_done
 
     label choice2_s:
@@ -454,10 +453,10 @@ label start:
 
     label choice2_done:
         if not(menu_flag1 and menu_flag2):
-            scene 2_int38
+            scene 2_int38 with dissolve
             jump ask
 
-    scene 2_int47 with dissolve
+    scene 2_int47
     p "It's good to hear you guys are doing well. So what's the plan tomorrow?"
     scene 2_int33 with dissolve
     s "Me and Nicole are going shopping tomorrow morning! You should come join us!"

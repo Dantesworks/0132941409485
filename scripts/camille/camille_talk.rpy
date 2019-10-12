@@ -473,7 +473,7 @@ label camilletalk:
                     "There is something more to her, definitely, than meets the eye."
                     "And then she took me."
                     scene
-                    $ renpy.movie_cutscene("animations/cam-1.mp4", loops=-1, stop_music=False)
+                    $ renpy.movie_cutscene("animations/cam-1.webm", loops=-1, stop_music=False)
                     scene cam-91
                     t "Mmmm."
                     p "Argh."
@@ -482,12 +482,12 @@ label camilletalk:
                     "She sucked my cock with expert technique that she had no right in knowing."
                     "It seemed like she knew exactly where a penis is most sensitive."
                     scene
-                    $ renpy.movie_cutscene("animations/cam-2.mp4", loops=-1, stop_music=False)
+                    $ renpy.movie_cutscene("animations/cam-2.webm", loops=-1, stop_music=False)
                     scene cam-92
                     "She knew how a penis worked like it was the back of her hand."
                     "Her tongue carressed the underside of my shaft and I took her a lot more seriously."
                     scene
-                    $ renpy.movie_cutscene("animations/cam-3.mp4", loops=-1, stop_music=False)
+                    $ renpy.movie_cutscene("animations/cam-3.webm", loops=-1, stop_music=False)
                     scene cam-92
                     p "At this rate, Camille, I don't know how much longer I'll last!"
                     scene cam-93 with dissolve

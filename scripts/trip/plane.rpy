@@ -218,6 +218,7 @@ label hol_plane:
     s "That might be it?"
     p "We've definitely levelled off."
     scene p98 with dissolve
+    play music "sounds/i think.mp3" fadeout 1
     s "Good! I'm going to take a look here."
     scene p99 with dissolve
     s "There's so much space up at the front too!"
@@ -237,7 +238,7 @@ label hol_plane:
     scene p105 with dissolve
     s "You come in too!"
     scene p106 with dissolve
-    P "Alright, alright. What's up?"
+    p "Alright, alright. What's up?"
     s "Take a look around!"
     scene p107 with dissolve
     p "Um, Kaira?"
@@ -259,7 +260,7 @@ label hol_plane:
     scene p113 with dissolve
     s "I'll go back now, and you can finally relax."
     p "Phew."
-    scene 114 with fade
+    scene p114 with fade
     s "It's such a waste to not have this whole plane filled up."
     p "Hmm?"
     scene p115 with dissolve
@@ -299,140 +300,355 @@ label hol_plane:
     "Woo, jesus!"
     "..."
     # Amanda middle cabin
-    p "Whats up. [mr]?"
+    scene p129 with fade
+    p "What's up, [mr]?"
+    scene p130 with dissolve
     m "I'm just taking a look at the drinks we've got here!"
     m "We even have some Dante's Original."
+    scene p131 with dissolve
     n "Oh [p] loves that stuff."
+    scene p132 with dissolve
     m "Are you a social drinker, [p]?"
     p "Oh no. I only drink in private."
+    scene p133 with dissolve
     n "Bahaha."
+    scene p134 with dissolve
     n "What are our entertainment options, [p]?"
     p "There's no in-flight entertainment?"
+    scene p135 with dissolve
     n "I'm sure there is, but this is a luxury experience right? What else is there?"
     p "Aside from the foods and drinks?"
+    scene p136 with dissolve
     n "Well I never intend to sound ungrateful, but I can smell the possibilities."
     p "Sorry to be cheeky, haha. Actually there is a very advanced entertainment system."
+    scene p137 with dissolve
     p "This TV is mostly for show. The real deal is apparently a live projection thing hologram thingy."
+    scene p138 with dissolve
     m "A holographic show?"
+    scene p139 with dissolve
     p "Yeah. Like I said before, I don't really study manuals but I did come across it, I think."
-    p "Apparently it has an entertainment that is tuned in with the customer."
+    p "Apparently it has an entertainment that is tuned in with the customer. It shows you what you want to see."
     p "It's all artifical inteligence mumbo jumbo to me, but this is might be interesting. Let's give it a go."
+    scene p140 with dissolve
     m "And this will show your deepest darkest desires? Fufufu~"
     n "It makes me curious what we would see for your case, Amanda!"
+    scene p141 with dissolve
     m "(What is it that I deeply desire?)"
+    scene p142 with dissolve
     m "(Don't tell me Nicole is teasing me about [p]...)"
     m "(She must have seen my look back then!)"
+    scene p143 with dissolve
     m "I think all you would see is a warm scented bath!"
+    scene p144 with dissolve
     n "With just yourself, or with a special someone?"
+    scene p145 with dissolve
     n "I do apologise! I can act too familiar sometimes."
     m "Not to worry at all."
+    scene p146 with dissolve
     p "Okay let's flick this thing off. I mean, on."
+    scene p147 with dissolve
+    p "I wonder what it'll show for me!"
+    stop music fadeout 1
     "..."
     # Milos
-    n "..."
+    scene p148 with fade
     m "..."
+    scene p149 with fade
+    n "..."
+    scene p150 with fade
     p "..."
+    play music "sounds/milos.mp3"
+    scene p151 with vpunch
+    $ renpy.pause()
+    scene p152 with dissolve
     m "He... looks so life-like."
     n "Ahaha! Is this really your fantasy, [p]?"
+    scene p153 with dissolve
     "What the fuck?"
+    scene p154 with dissolve
+    $ renpy.pause()
+    scene p155 with dissolve
     p "It-it's Milos!"
+    scene p156 with dissolve
     m "Who?"
+    scene p158 with dissolve
     n "Not to worry, [p]! He's everybody's fantasy."
     m "Some kind of stripper?"
     m "[p], what kind of things have you been watching?"
+    scene p159 with dissolve
     p "There must be some kind of mistake."
+    scene p157 with dissolve
     n "He's coming towards you!"
-    n "The flick, look at the flick, hahaha!"
-    p "Ricardo, can you hear me?"
+    scene p161 with dissolve
+    $ renpy.pause()
+    scene p162 with dissolve
+    $ renpy.pause()
+    scene p161 with dissolve
+    $ renpy.pause()
+    scene p162 with dissolve
+    $ renpy.pause()
+    scene p160 with dissolve
     p "..."
+    n "The flick, look at the flick, hahaha!"
+    scene p163 with dissolve
+    p "Ricardo, can you hear me?"
+    scene p164 with dissolve
+    p "..."
+    scene p165 with dissolve
     p "It's just a projection."
     m "Um, can we turn this off?"
+    scene p166 with hpunch
     p "Huh?"
+    scene p167 with dissolve
     p "Oh right. Sorry Ricardo, we have to go. I'm sorry!"
+    stop music fadeout 1
+    scene p168 with dissolve
+    $ renpy.pause()
+    play music "sounds/wisteria.mp3"
     m "That was just a video, [p]. That wasn't the real guy."
+    scene p169 with dissolve
     p "Oh shit. You're right. It was a like a spell was over me."
+    scene p170 with dissolve
     n "They say he can turn straight males gay."
+    scene p171 with dissolve
     n "Amanda saved you from the spell!"
+    scene p172 with dissolve
     p "Whoa that was intense. It was like he was really there."
+    scene p173 with dissolve
     m "Why don't you take a rest, [p]? You... look like you need it."
+    scene p174 with dissolve
     p "Yeah, I'll uh, retire a bit."
     # Leaves
+    scene p175 with dissolve
+    $ renpy.pause()
+    scene p176 with dissolve
     m "Boys, am I right?"
+    scene p177 with dissolve
     n "Tell me about it. But he's fun to have around isn't he?"
+    scene p178 with dissolve
     m "Let's have a toast to that. Want something to drink?"
     n "Sure, why not!"
     # Switch to MC
+    scene p179 with fade
+    play music "sounds/alchemy.mp3" fadeout 1
     "Whoa, the Milos meme is real."
     "Let me empty that out right here..."
+    scene p180 with dissolve
     "Oh that feels nice."
+    scene p181 with dissolve
     "I feel cleaner already."
+    scene p182 with dissolve
     "There is even a shower here. I would feel bad if I didn't get to use everything before the plane lands."
+    scene p183 with dissolve
     "Just feels like a bit of a waste."
     ## Back to Nicole
+    scene p184 with fade
     n "[p]'s taking a while. I might just go check up on him."
+    scene p185 with dissolve
     m "Huh? Oh, sure. I'll just be here."
+    scene p186 with dissolve
+    n "Be right back~"
+    scene p187 with fade
+    play music "sounds/beach.mp3" fadeout 1
     n "Hmm, [p]?"
     n "Are you alright in there?"
+    scene p188 with dissolve
     p "I was just taking a piss."
+    scene p189 with dissolve
     n "I wondered if you needed help, so I came by."
+    scene p190 with dissolve
     p "What were you going to help me with? Were you gonna hold my dick while I pissed?"
+    scene p191 with dissolve
     n "Christ, I just wanted to check up on you. Unless you really want me to hold your dick?"
+    scene p192 with dissolve
     p "What's the real reason you came in, huh?"
+    scene p193 with dissolve
     n "What, can't I just say hi?"
+    scene p194 with dissolve
     p "I'm doing good, that projection stuff just got be a bit dizzy. After a splash of water on my face, I feel much better."
     n "You're not nauseous at all? Not going to throw up?"
     p "Nope."
+    scene p195 with dissolve
     n "Well on the safe side, I think you should just lie down on the bed for a bit."
     p "I don't really-"
+    scene p196 with dissolve
     n "Come on, come on!"
     p "..."
     # migrate
+    scene p197 with fade
+    play music "sounds/effects/cabin.mp3" fadeout 1
     p "I feel the same."
-    # strokes
-    p "Hey that tickles."
-    n "Does it?"
+    n "Tell me, is the bed comfy?"
+    scene p199 with dissolve
+    p "Feels luxurious..."
+    scene p198 with dissolve
+    n "Does it really?"
+    p "Yeah, it's not too bad."
+    scene p199 with dissolve
+    n "Hmm... Scoot over, let me get in."
+    scene p200 with dissolve
+    p "So determined to get in bed, huh?"
+    n "Oof! My plastic tits get in the way sometimes."
+    scene p201 with dissolve
+    p "The same balloons you're so proud of."
+    n "If you help me raise the size, you'll get to be proud of something too."
+    p "Hahaha."
+    scene p202 with dissolve
+    n "Feel any better?"
+    p "Maybe we need to give it a while."
+    scene p203 with dissolve
     n "How about now?"
-    p "That feels different."
+    scene p204 with dissolve
+    $ renpy.pause()
+    scene p205 with dissolve
+    $ renpy.pause()
+    scene p204 with dissolve
+    $ renpy.pause()
+    scene p205 with dissolve
+    p "Hey that tickles."
+    scene p206 with dissolve
     n "Well your breathing got heavier~"
     p "Um. Well that's your fault."
+    scene p207 with dissolve
     n "Is it?"
     n "Is it really babe?"
-    "She continues stroking."
+    scene p204 with dissolve
+    $ renpy.pause()
+    scene p205 with dissolve
+    $ renpy.pause()
+    scene p204 with dissolve
+    $ renpy.pause()
+    scene p205 with dissolve
+    $ renpy.pause()
+    scene p208 with dissolve
+    play music "sounds/kiss.mp3" fadeout 1
     n "It {i}does{/i} look like we have a problem on our hands."
     p "Y-Yeah?"
+    scene p209 with dissolve
     n "Well if I caused it, it means I have to fix it, right?"
     n "Your [mr]'s outside busy drinking, and Kaira is nowhere close."
     p "You can fix it by leaving it alone."
+    scene p210 with dissolve
     n "Or, I can jack you off."
     n "You rather me go with the first option?"
     p "..."
     n "I thought so. Now let me take a look."
     # cock out
+    scene p211 with dissolve
     n "Oh wow, I've been missing this."
+    n "A nice... thick... cock..."
+    scene p212 with dissolve
+    n "Mmmm..."
+    image pv1 = Movie(play="/animations/pv1.webm")
+    scene pv1 with dissolve
+    n "This making you feel better, hmmm?"
+    n "I'm certainly enjoying myself."
+    p "You're so damn sexy Nicole."
+    image pv2 = Movie(play="/animations/pv2.webm")
+    scene pv2 with dissolve
+    n "Oh yeah? Tell me something I don't know."
+    p "Sure. You're sexier than your sister. Right now, anyway."
+    n "Oh really? That's sweet."
+    image pv3 = Movie(play="/animations/pv3.webm")
+    scene pv3 with dissolve
+    n "Are you going to cum yet?"
+    p "You think I'll blow from just this?"
+    p "What's next on the menu?"
+    scene p213 with dissolve
     n "Mmmm, you just took a piss didn't you? I don't feel like tasting piss right now."
     p "You could ride me instead."
+    scene p214 with dissolve
     n "Oh, Mr 'I don't want to be tickled,' now you want sex, huh?"
     n "So you want me to ride you?"
     p "Yes mommy."
+    scene p215 with dissolve
     n "Well since you ask so nicely, I have to indulge, don't I?"
     p "{i}Nods{/i}"
+    scene p216 with dissolve
     n "Atta boy."
+    scene p217 with dissolve
     p "But be quiet!"
     n "Hahaha."
     # sex scene
+    image pv4 = Movie(play="/animations/pv4.webm")
+    scene pv4 with dissolve
+    p "Mm, I see you're warmed up already."
+    p "For us dudes, the boner gives us away."
+    p "But for you Nicole, I can tell your panties have been soaked for such a long time."
+    image pv5 = Movie(play="/animations/pv5.webm")
+    scene pv5 with dissolve
+    n "I can't help being born a slutty whore~"
+    n "But god I love being like this. I know you love it too."
+    n "Ah~"
+    n "Fuck that's deep."
+    image pv6 = Movie(play="/animations/pv6.webm")
+    scene pv6 with dissolve
+    n "Squeeze me harder, [p]. Fucking own me!"
+    n "I wanna be red sore by the time you're done~!"
+    n "Pick me up and slam me down and penetrate me with that hot stick~"
+    image pv7 = Movie(play="/animations/pv7.webm")
+    scene pv7 with hpunch
+    p "Like this?"
+    n "Awww fuck, oh fuck!"
+    n "Aeerhhh!"
+    image pv8 = Movie(play="/animations/pv8.webm")
+    scene pv8 with dissolve
+    n "I feel so fucking full~"
+    n "This beats any dildo!"
+    p "Haha, lost control of your tongue already?"
+    p "That naughty little tongue of yours..."
+    image pv9 = Movie(play="/animations/pv9.webm")
+    scene pv9 with dissolve
+    "She closes her eyes, focussing on the bliss she was experiencing."
+    n "It's. So. Magical~"
+    n "Do you feel this too, babe?"
+    p "Oh, yeah... {i}pant{/i}."
+    p "I'm getting close..."
+    n "I'm getting soooo fuckign close too~!"
+    p "In that case..."
+    image pv10 = Movie(play="/animations/pv10.webm")
+    scene pv10 with dissolve
+    p "Hah!"
+    n "[p]!"
+    n "Oh fuck oh fuck oh fuck oh fuck~!"
+    n "I'm gonna cum I'm gonna cum!"
+    p "Oh shit!"
+    scene white
+    scene p218 with flash
+    $ renpy.pause()
+    scene p219 with flash
+    $ renpy.pause()
+    scene p220 with flash
+    $ renpy.pause()
+    scene p221 with dissolve
     n "Oh, that was great!"
+    scene p222 with dissolve
     n "Um, but it looks like you came before me this time."
     p "That's part of the strategy. If I let you cum, you'll do your bimbo scream."
-    p "I can't have that."
-    n "Oh yeah? But I still think I made a lot of moaning sounds... I hope your [mr] hasn't heard~"
+    p "I can't have that. And besides, your pussy's pretty good."
+    scene p223 with dissolve
+    n "Thank you, [p]. But I still think I made a lot of moaning sounds... I hope your [mr] hasn't heard~"
     p "You probably moaned louder just because you're such an exhibitionist."
+    scene p224 with dissolve
     n "It's called confidence, [p]."
     p "You're just showing off."
+    scene p225 with dissolve
     n "Alright, enough chit chat. I'll head out first, then you follow, okay?"
     p "We've done this routine before."
+    scene p226 with dissolve
     n "It's similar, isn't it?"
     n "I'll see you soon, babe."
     p "See you soon, you nymph."
+    scene p227 with dissolve
+    $ renpy.pause()
+    scene p228 with dissolve
+    $ renpy.pause()
+    scene p229 with dissolve
+    $ renpy.pause()
+    scene p230 with dissolve
+    $ renpy.pause()
+    scene p231 with dissolve
+    $ renpy.pause()
     "Wow, I'm a lucky guy."
     "My, my, my, heh."
     # transition
@@ -591,6 +807,6 @@ label hol_plane:
     n "Hahaha. So where to next?"
     p "Well, let's check into our hotel first and stay the night. After that, the beach for Kaira. Right Kaira?"
     k "Yes, I can't wait!"
-    "The plane lands safely, thanks to its robust AI system. Thank you Dante's Jets!"
+    "The plane lands safely, thanks to its robust AI system. Thank you Dante's Luxurious Jets!"
     "We make our way towards the hotel."
     jump hotel1
