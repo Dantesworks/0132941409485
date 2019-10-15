@@ -40,5 +40,7 @@ unwittingly gains more and more respect for her at every interaction." justify T
                 text "Go to the Bar." justify True size 18
             elif carolinelvl == 6 and carolinebarlvl == 5:
                 text "Go to the Cafe." justify True size 18
+            elif carolinelvl == 7 and (nicolelvl < 11 or kairalvl < 8 or amandalvl < 21):
+                text "Play the other girl's routes." justify True size 18
             else:
                 text "Content complete for this version! Vote for this character on Patreon to see more." justify True size 18

@@ -81,5 +81,19 @@ urges will triumph." justify True size 18
                 text "Chat to Vincent about work." justify True size 18
             elif amandalvl == 18:
                 text "Use the aphrodisiac on [mr] at Dante Studios." justify True size 18
+            elif amandalvl == 19:
+                text "Chat to Vincent about work." justify True size 18
+            elif amandalvl == 20:
+                text "Talk to [mr] at Dante Studios." justify True size 18
+            elif amandalvl == 21 and (kairalvl < 9 or nicolelvl < 12 or carolinelvl < 7):
+                text "Play through the other girl's routes." justify True size 18
+            elif amandalvl == 21 and kairalvl == 9 and nicolelvl == 12:
+                text "Talk to [mr] about the trip." justify True size 18
+            elif kairalvl == 9 and nicolelvl == 12 and amandalvl == 22 and (private_jet == False or luxurious_hotels == False or rv == False):
+                text "Go to the shop on the computer to organise the trip." justify True size 18
+            elif kairalvl == 9 and nicolelvl == 12 and amandalvl == 22 and private_jet and luxurious_hotels and rv:
+                text "Talk to Kaira in her room in the afternoon." justify True size 18
+            elif kairalvl == 10:
+                text "Talk to Kaira again to start the trip!" justify True size 18
             else:
                 text "Content complete for this version! Vote for this character on Patreon to see more." justify True size 18

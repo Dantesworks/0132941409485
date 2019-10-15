@@ -41,5 +41,19 @@ Other than that, her motivations regarding [p] and [sr] are an enigma, and is so
                 text "Talk to Nicole in the afternoon." justify True size 18
             elif nicolelvl == 10:
                 text "Go to sleep." justify True size 18
+            elif nicolelvl == 11 and (carolinelvl < 7 or kairalvl < 8 or amandalvl < 21):
+                text "Play the other girl's routes." justify True size 18
+            elif kairalvl == 8 and nicolelvl == 11:
+                text "Talk to Kaira in her room in the afternoon." justify True size 18
+            elif kairalvl == 9 and nicolelvl == 11:
+                text "Talk to Nicole about the trip." justify True size 18
+            elif kairalvl == 9 and nicolelvl == 12 and amandalvl == 21:
+                text "Talk to [mr] about the trip." justify True size 18
+            elif kairalvl == 9 and nicolelvl == 12 and amandalvl == 22 and (private_jet == False or luxurious_hotels == False or rv == False):
+                text "Go to the shop on the computer to organise the trip." justify True size 18
+            elif kairalvl == 9 and nicolelvl == 12 and amandalvl == 22 and private_jet and luxurious_hotels and rv:
+                text "Talk to Kaira in her room in the afternoon." justify True size 18
+            elif kairalvl == 10:
+                text "Talk to Kaira again to start the trip!" justify True size 18
             else:
                 text "Content complete for this version! Vote for this character on Patreon to see more." justify True size 18

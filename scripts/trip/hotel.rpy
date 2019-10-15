@@ -64,7 +64,7 @@ label hotel1:
     p "Hey girls, what's up?"
     n "{i}Giggle{/i}"
     s "OMG I can't believe you said that."
-    n "I know right, they never saw it coming!"
+    n "I know right, he never saw it coming!"
     p "Uh, girls? It's nice to know that you guys are having fun."
     s "[p]! We're having some girl on girl time, what's up!"
     p "Early day tomorrow guys, we have to pick up a van. So get to bed soonish okay?"
@@ -94,6 +94,7 @@ label hotel1:
     # sleep
     scene black with fade
     "The next day, on a bright and early morning..."
+    jump van1
     p "Yeah, this van ain't as luxurious as the plane, so what?!"
     n "No one is blaming it on you, [p]."
     p "Well I can feel the passive aggresiveness."

@@ -1554,41 +1554,66 @@ label kairatalk:
         scene black with fade
         "I just need ask [mr] to come and Nicole let know."
         $ kairalvl += 1
+        call daykeep
         jump hallway
-    if kairalvl == 9 and nicolelvl == 12 and amandalvl > 21:
+    if kairalvl == 9 and nicolelvl == 12 and amandalvl == 22 and private_jet and luxurious_hotels and rv:
+        play music "sounds/masked.mp3" fadeout 1
+        scene k-3 with fade
         p "Good news, Kaira, good news!"
+        scene k257 with dissolve
         s "Ooh, tell me!"
         p "I've finished the arrangements for the trip, and I've got the essentials planned."
+        scene k258 with dissolve
         s "Um, okay... can you tell me about it?"
         p "What do you want to know?"
+        scene k259 with dissolve
         s "Everything! You said it was going to be really cool and really awesome right?"
+        scene k260 with hpunch
         s "Tell me tell me tell me!"
         p "Alright, alright, gather round! You won't believe what I managed to put together."
+        scene k261 with dissolve
         p "First, we're getting there by jet."
-        s "Weren't we already going to go by plane? I mean, but still, thank you so much for buying tickets!"
+        scene k262 with dissolve
+        s "Weren't we already going to go by plane?"
+        scene k263 with dissolve
+        s "I mean, but still, thank you so much for buying tickets!"
         p "You're welcome Kaira, but it's not just any plane. This is a private jet, just for us four."
+        scene k264 with vpunch
         s "You managed to get a private jet? No way!"
         p "Oh, it's no big deal, you know..."
+        scene k265 with dissolve
         s "You're lying right? You're not telling the truth, are you?"
         p "C'mon Kaira, you don't trust me?"
+        scene k266 with dissolve
         s "..."
+        scene k267 with dissolve
         s "But, how did you get the money? A private jet must've been super expensive, there's no way-!"
         p "It's the power of BCC, Kaira. I'll teach you. One day."
         p "You'll believe it when you see it."
+        scene k268 with dissolve
         s "Hmm, fishy [p], but I'll go along with it for now! What about after the plane ride?"
-        p "Well! I booked out the deluxe lurious double hotel room package. Those rooms are fantastic."
+        scene t8 with dissolve
+        p "Well! I booked out the deluxe luxurious double hotel room package. Those rooms are fantastic."
+        scene t11 with dissolve
         p "Maybe a little excessive, since we won't be staying in the hotel rooms for much of the day, but still!"
         p "I wanted to give you a great experience, Kaira."
+        scene k269 with dissolve
         s "Aww, [p], this had better be super duper real, okay?!"
+        scene k270 with dissolve
         s "Mmm, I can't wait!"
         p "I'm not done yet, I also got the Relaxing RV to take us around the place when we're going to all the different holiday destinations."
-        s "Omg, this is all we need, [p]! I need to tell Nicole and [mr]!"
+        scene k271 with dissolve
+        s "OMG, this is all we need, [p]! I need to tell Nicole and [mr]!"
         s "I-I... when are we going!"
         p "Hmph, I thought you'd never ask."
         p "Let the others know, and we can go as soon as the next day."
+        scene k272 with dissolve
         s "Oh, goodie!"
         $ kairalvl += 1
+        jump kaira_room
     if kairalvl == 10:
+        scene black
+        play music "sounds/sun.mp3"
         menu:
             "Let the others know, and go on the trip!":
                 d "You will not be able to return until the trip is over."
@@ -1596,72 +1621,111 @@ label kairatalk:
                 d "Are you sure you want to go now?"
                 menu:
                     "Yes":
+                        scene k273 with dissolve
                         p "Let the others know, Kaira. Get them ready!"
+                        scene k274 with hpunch
                         s "NICOLE!!!"
                         p "Jesus."
-                        "..."
+                        scene k275 with dissolve
+                        $ renpy.pause()
+                        scene k276 with dissolve
+                        $ renpy.pause()
+                        scene k277 with dissolve
                         n "You called for me, Kaira?"
                         s "Me and [p] were just talking about the trip, and it's all sorted now!"
                         s "[p] says he got us a private jet! Oh, and two huge five star hotel rooms and like, a massive truck to go places with!"
+                        scene k278 with dissolve
                         n "Did you really, [p]?"
                         p "All this doubt, guys! Come on!"
+                        scene k279 with dissolve
                         n "I don't know how the hell you did it, but I think I'm loving you more and more."
                         n "This is going to make an unforgettable trip. You know that, right?"
                         p "That's the plan. Because you girls are worth it."
+                        scene k280 with dissolve
                         n "You're such a nice boyfriend, [p]. I must say I've got a good taste."
                         s "Hmm! [p] is nice to me too, you know!"
                         p "I'm nice to everyone; I'm just a nice guy."
+                        scene k281 with dissolve
                         n "Bleh."
                         n "Us girls like exclusive treatment."
+                        scene k282 with dissolve
                         s "Nicole's right, [p]. I don't mind sharing with Nicole, but you have to like, treat us nicer than the rest, okay?"
                         s "To be fair, Nicole, [p] is already a lot cooler than the boys in our class, right?"
+                        scene k283 with dissolve
                         n "You mean the creeps?"
                         p "..."
                         s "Yeah! Thankfully [p] is not like the rest of them, and that makes me happy."
+                        scene k284 with dissolve
                         s "Coz' there's something special about us, right [p], that makes you so nice to us."
+                        scene k285 with dissolve
                         s "Mm that must be it, bahahaha!"
+                        scene k286 with dissolve
                         n "Kaira's awfully possessive, isn't she? You must mean a lot to her."
                         p "Well, Kaira means a lot to me too. How could someone not love this cuddly, dumb little [sr]?"
+                        scene k287 with dissolve
                         s "Eh- I'm not dumb! But I like cuddly~"
                         p "I say that in the most loving way."
                         s "Aww! [p] should mean a lot to you too Nicole."
                         n "Whatever gives you that idea? Don't give the man an ego~"
+                        scene k288 with dissolve
                         s "Well, I thought you liked him a lot based on all the stories you told me about-"
+                        scene k289 with dissolve
                         n "-Hey! Uh, let's keep that between just us two..."
                         p "Stories, Nicole?"
+                        scene k290 with dissolve
                         n "It's just girl gossip."
                         p "I hope it's PG."
+                        scene k291 with dissolve
                         n "No comment~"
                         p "Never change, Nicole, never change."
                         n "Kaira's a grown girl now though, isn't she? She'll be alright."
+                        scene k292 with dissolve
                         s "I {i}did{/i} say my bewbies have grown a lot, didn't I?"
+                        scene k293 with dissolve
                         s "The proof is in the pudding!"
+                        scene k294 with dissolve
                         n "Two squishy mounds of pudding~"
+                        scene k295 with dissolve
                         s "Hehehe..."
+                        scene k296 with dissolve
                         p "Enough, listen up guys, let me fill you in on the rest of details."
+                        scene black with fade
                         "A few moments later..."
+                        scene k297 with fade
                         p "Alright that's all of it. I'll leave you two girls alone to do girl things now."
+                        scene k298 with dissolve
                         p "Would you please let [mr] know about the plans?"
+                        scene k299 with dissolve
                         s "Oh I can't wait to tell [mr] about the trip when she comes back."
                         s "But whatcha gonna do in the meantime?"
+                        scene k300 with dissolve
                         p "Planning this trip was hard, Kaira. I'm gonna go for a sleep."
                         s "Oh okay, rest well, [p]!"
+                        scene k301 with dissolve
                         n "I guess I shouldn't stay too long either, I've got a lot of things to pack."
                         p "Remember, travel light."
+                        scene k302 with dissolve
                         s "Yes, yes, we can just buy the clothes with the money we saved when we go clothes shopping."
+                        scene k303 with dissolve
                         n "The money we saved thanks to [p]."
+                        scene k304 with dissolve
                         n "Thank you, [p]!"
                         p "You're welcome, you're welcome..."
-                        s "Go to rest now, [p], sorry for holding you up for so long."
+                        scene k305 with dissolve
+                        s "Go to rest now, [p], sleep well!"
+                        scene k306 with dissolve
                         n "Seeya, [p]."
+                        scene k307 with dissolve
                         p "I'll see you guys real soon."
+                        stop music fadeout 1
+                        scene black with fade
                         stop music fadeout 1
                         "Wow, it took a lot of money, but this is really happening."
                         "I haven't looked forward to something so much in a long time."
-                        scene black wth fade
+                        "One very restful night later..."
                         "On a bright early morning on an exciting day..."
                         $ kairalvl += 1
-                        label lala:
+                        label bean:
                         play music "sounds/bean.mp3" fadeout 1
                         scene p1 with dissolve
                         $ renpy.pause()
@@ -1725,7 +1789,7 @@ label kairatalk:
                         "And then there's the issue with [mr]. I still don't know how to interpret what's happened so far."
                         "Was what we did... a one off thing? Is she open to it again? She makes me feel like maybe its not the aphrodisiac after all."
                         "..."
-                        "These thoughts occupy my mind as we arrive at the airport. Ha..."
+                        "These thoughts occupy my mind as we arrive at the airport."
                         "We don't have to line up though. It's just us on this flight."
                         "I can't wait to see their reactions!"
                         jump hol_plane

@@ -94,7 +94,7 @@ label hol_plane:
     p "Yeah. Something like that. I didn't really read the manual."
     p "When you pay that much money, you just expect it to work."
     scene p56 with dissolve
-    n "Wow, wow. We get it. You'r rich."
+    n "Wow, wow. We get it. You're rich."
     scene p57 with dissolve
     n "So should I grab Kaira now?"
     p "Let's call em' back."
@@ -343,12 +343,14 @@ label hol_plane:
     n "With just yourself, or with a special someone?"
     scene p145 with dissolve
     n "I do apologise! I can act too familiar sometimes."
-    m "Not to worry at all."
+    m "I...see."
     scene p146 with dissolve
     p "Okay let's flick this thing off. I mean, on."
+    "Giggity!"
     scene p147 with dissolve
-    p "I wonder what it'll show for me!"
     stop music fadeout 1
+    p "I wonder what it'll show for me!"
+    scene p147 with flash
     "..."
     # Milos
     scene p148 with fade
@@ -604,7 +606,7 @@ label hol_plane:
     n "Do you feel this too, babe?"
     p "Oh, yeah... {i}pant{/i}."
     p "I'm getting close..."
-    n "I'm getting soooo fuckign close too~!"
+    n "I'm getting soooo fucking close too~!"
     p "In that case..."
     image pv10 = Movie(play="/animations/pv10.webm")
     scene pv10 with dissolve
@@ -652,161 +654,300 @@ label hol_plane:
     "Wow, I'm a lucky guy."
     "My, my, my, heh."
     # transition
+    play music "sounds/missingyou.ogg" fadeout 1
+    scene p232 with fade
+    $ renpy.pause()
+    n "Oh hey Amanda!"
+    scene p233 with dissolve
+    n "Had a few to drink?"
+    scene p234 with dissolve
+    m "Oh, just a little."
+    scene p235 with dissolve
     m "Is [p] alright?"
     n "I think so, he's just taking some time to recover."
     n "That whole experience threw him off a little!"
     m "You guys took a while!"
+    scene p236 with dissolve
     n "Ah, I was just trying to help my boyfriend feel better."
     m "I see."
-    n "I think he's all better now. In fact, there he is!"
+    scene p237 with dissolve
+    n "I think he's all better now."
+    scene p238 with dissolve
+    n "In fact, there he is!"
+    scene p239 with dissolve
     p "That hologram gave me a bit of a headache, I'm sorry."
+    scene p240 with dissolve
     m "That's okay, [p]. Perhaps a drink is not such a good idea then."
+    scene p241 with dissolve
     p "It's hard for me to say no, but you're right [mr]. I should hold off on the booze!"
     p "What about Kaira, is she drinking?"
+    scene p242 with dissolve
     m "You know that Kaira can't take any alcohol at all! Remember the little party at the bar you guys had?"
+    scene p243 with dissolve
     n "Oh yes we remember. We wouldn't want Kaira to get drunk again, would we, [p]?"
     p "Oh yeah? I thought it was kind of funny."
+    scene p244 with dissolve
     n "You know how much I enjoyed it."
+    scene p245 with dissolve
     m "Hey now, be responsible! I trust you to take care of Kaira, [p]. She looks up to you."
     p "Does she now?"
+    scene p246 with dissolve
     m "Kaira doesn't have a father figure, as you know. Maybe she sees you as that senior male figure instead."
+    scene p247 with dissolve
     p "Oh man, I don't know about that!"
+    scene p248 with dissolve
     n "That makes sense, doesn't it? Maybe you can get Kaira to call you daddy~"
     p "No thank you. Maybe another time."
+    scene p249 with dissolve
     m "But seriously, [p], treat Kaira well. She's a nice girl."
     p "You know I love her [mr]. Is she still at the front?"
+    scene p250 with dissolve
     m "I'd think so."
     p "I'll go check on her."
     # back to cockpit
+    play music "sounds/automata.mp3" fadeout 1
+    scene p251 with fade
     p "Kaira! You're back in the cockpit."
-    s "I'm super careful not to touch anything..."
+    scene p252 with dissolve
+    s "Oh hi [p]! I'm super careful not to touch anything..."
+    scene p253 with dissolve
     s "But I just couldn't resist this view. Wow!"
     s "Just... watching the clouds go by."
+    scene p254 with dissolve
     p "Aww, that's cute. Those fluffy clouds, they're fluffy just like you."
+    scene p255 with dissolve
     p "Let me be your co-pilot."
+    scene p256 with dissolve
     p "Where would you like to go, Kaira?"
+    scene p257 with dissolve
     s "I wanna go... to the beach!"
     p "The beach?"
+    scene p258 with dissolve
     s "Yeah! I know we've been to the pool, but the beach is 10x better!"
+    scene p259 with dissolve
     p "I'm sure we can fit it in."
     s "Where's the beach?"
+    scene p260 with dissolve
     p "It's a bit far away, we'd have to drive for a bit."
     s "It's not too far away, is it?"
+    scene p261 with dissolve
     p "Of course not, it's why we got a van! A relaxing RV."
+    scene p262 with dissolve
     s "Awesome, when are we going?"
+    scene p263 with dissolve
     p "Well, anytime you want I guess. Do you want to go there as soon as possible?"
     s "Umm... sure!"
     p "Alrighty then. Let's make that our first destination. Actually, second destination."
     s "What, why!"
+    scene p264 with dissolve
     p "We have to check into the accommodation first, Kaira. Dump our stuff down."
     s "Oh like the hotels?"
     p "Yup."
     s "Hehe, I can't wait to see what rooms you've gotten for us!"
+    scene p265 with dissolve
     s "You set a high expectation, [p], especially after this flight! And this beautiful view..."
-    p "You always liked clouds. I remember the day you took me to that diner. You told me to look at the sky at the pretty clouds, or something."
+    p "You always liked clouds. I remember the day you took me to that diner. You told me to look at the sky, at the pretty clouds, or something."
     p "Does the sky mean something to you?"
     p "Is it potential? Does it inspire you?"
+    scene p266 with dissolve
     s "Hmm, that's really deep [p]. I like the sky because... it's pretty."
-    s "That's really all there is. Life is nice when things are just straight forward, don't you think?"
+    s "That's really all there is. Life is nice when things are just straightforward, don't you think?"
     p "I guess there's no need to complicate things, is there?"
     s "Yup! I just like to do what what my heart tells me. That way, you know you can't go wrong."
     p "That's a nice way of living life."
+    scene p267 with dissolve
     s "It is. After all, it's brought me closer to you."
     p "What do you mean?"
+    scene p268 with dissolve
     s "Sometimes, some girls are like, more shy, right? But with you, I can talk to you about really brave things! Well, most of the time."
     p "Hmm, give me an example."
+    scene p269 with dissolve
     s "Remember when I asked you if I was sexy, and other naughty things I did?"
     s "I just did what my heart said, and I trusted you not to judge me and make me feel bad for it, and you didn't. Everytime you make me feel good inside."
+    scene p270 with dissolve
     s "See? I just did what my heart told me to do."
     p "Ah, gotcha. Your heart belongs to me, Kaira!"
+    scene p271 with dissolve
     s "Well, I wouldn't put it that way, but... it's nice, heehee!"
     p "Ahaha."
+    scene p272 with dissolve
     p "..."
+    scene p273 with dissolve
     s "..."
+    scene p274 with dissolve
     p "..."
+    scene p275 with dissolve
     s "So uh, [p], have you ever..."
     p "Hmm?"
+    scene p276 with dissolve
     s "Actually, never mind, haha."
     p "Oh, alright."
+    scene p277 with dissolve
     p "Do you want something to drink - ah actually [mr] wouldn't like that."
+    scene p278 with dissolve
     s "That's okay [p]. Why don't we just watch the horizon together?"
     p "Sure. Sounds interesting. Look at that, a cloud."
     s "What does it look like?"
     p "Looks fluffy like you."
     s "Hehehe. What about that one? That one reminds me of pizza."
+    scene p279 with dissolve
     p "Pizza, huh?"
     "This is relaxing, and I'm getting drowsy..."
     "Zzz...."
+    stop music fadeout 1
+    scene black with fade
+    "A few moments later..."
     # Sleep
     "Ah... groggy..."
+    scene p280 with fade
     "Man, time has really passed."
+    scene p281 with dissolve
     p "Kaira?"
+    scene p282 with dissolve
     "She must've headed back into the cabin."
+    scene p283 with fade
     p "Hey guys!"
     p "Guys?"
+    play music "sounds/time.mp3" fadeout 1
+    scene p284 with vpunch
     p "!!"
+    scene p285 with dissolve
+    $ renpy.pause()
+    scene p286 with dissolve
+    $ renpy.pause()
+    scene p287 with dissolve
+    $ renpy.pause()
+    scene p288 with dissolve
+    $ renpy.pause()
+    scene p289 with dissolve
+    $ renpy.pause()
+    scene p290 with dissolve
+    $ renpy.pause()
+    scene p291 with dissolve
     x "Happy flying, [p], and welcome to the mile high club."
     p "You were watching, huh?"
-    x "Things are escalating. Events are more significant. It's coming together, [p]. Do you feel it?"
+    scene p292 with dissolve
+    x "Things are escalating. Events are more significant. It's coming together, [p]."
+    scene p293 with dissolve
+    x "Do you feel it?"
     p "What am I supposed to feel?"
+    scene p294 with dissolve
     x "Temptation, lust. Of things to come and things that have past."
+    scene p295 with dissolve
     x "Longing, nostalgia. Of things that have gone and will never be."
-    x "Your actions have led you to this very moment in time. And I have been waiting for this."
+    x "Your actions have led you closer to me. And I have been waiting for this."
     p "I don't understand."
+    scene p296 with dissolve
     x "You enter a difficult road [p]."
     p "It doesn't feel so hard."
-    x "That's the reason why it's difficult. You don't know, until it happens. Then one day, you will look back and wish you had gone a different route."
+    scene p297 with dissolve
+    x "That's the reason why it is difficult. You canot know until it is too late. But one day, you will look back and wish you had chosen a different route."
+    x "I promise you that."
     p "Just tell me what I need to know already! Even with this cryptic shit."
+    scene p298 with dissolve
     x "This route is {i}your{/i} destiny. That is all you need to know."
+    scene p299 with dissolve
     x "All will be made clear. In time."
     x "Patience, [p], my old friend.... You need not wait much longer."
     # wake
+    scene black with fade
+    stop music fadeout 1
     "Another dream?"
+    scene p300 with hpunch
+    play music "sounds/sacrifice.mp3" fadeout 1
     p "Kaira!"
+    scene p301 with dissolve
     p "..."
+    scene p302:
+        pos (0.0, -1.76)
+        linear 6 pos (0.0, 0.0)
+    $ renpy.pause(6.0,hard=True)
+    $ renpy.pause ()
+    scene p303 with dissolve
     "We both fell asleep."
     "It's evening now, we might be landing at any time. I should wake her up."
+    scene p304 with dissolve
     p "Kaira, you little baby. It's time to get up now, we might be landing at any time."
+    scene p305 with dissolve
     s "Hng..."
     p "Wakey wakey, little one."
-    s "It's getting dark."
-    p "We're landing soon."
+    scene p306 with dissolve
+    s "[p]...?"
+    p "It's getting dark. We're landing soon."
+    scene p307 with dissolve
     s "The sunset... it's sooo pwetty..."
-    p "We should strap down. I'll meet you in the cabin okay?"
+    scene p308 with dissolve
+    s "Woooow...."
+    scene p309 with dissolve
+    $ renpy.pause()
+    scene p310 with dissolve
+    p "Beautiful, isn't it?"
+    s "Mmm..."
+    p "This trip is going to be a good one. For the two of us."
+    s "Thanks [p]... Thank you."
+    s "I feel... so warm and... happy."
+    scene p311 with dissolve
+    s "I just... want to look at it a little longer."
+    p "Of course, Kaira, of course. Take your time."
+    p "We should strap down soon though. I'll meet you in the cabin a little later okay?"
+    scene p312 with dissolve
     s "Okay~"
-    p "Atta girl."
+    p "I love you, my little Kaira."
     # transition
+    scene p313 with fade
     n "Glad you're finally up. You slept for most of the flight. A bit of a waste for this luxury experience, don't you think?"
     p "I slept with my [sr]. Kinky right?"
-    n "You should've let het climb onto you. Sleeping in separate chairs doesn't count."
+    n "You should've let her climb onto you. Sleeping in separate chairs doesn't count."
+    scene p314 with dissolve
     p "Anyway, where's my [mr]?"
     n "She also decided to take a nap on the bed."
     p "The bed inside?"
+    scene p315 with dissolve
     n "Yes, the bed we fucked on. I wonder if she can smell the juices."
     p "That's sick."
     p "Did you get some shut-eye?"
+    scene p316 with dissolve
     n "Nope. I just watched some TV and drank some wine. Great way to pass time."
     p "Let's talk more later. We're landing soon, you know. And Kaira still isn't here."
+    scene p317 with dissolve
     n "Go wake her up."
     p "I did. Looks like I'll have to go again."
     p "Could you get my [mr] in the meantime?"
+    scene p318 with dissolve
     n "Hey, just something before everyone's back..."
     p "Hmm?"
+    scene p319 with dissolve
+    $ renpy.pause()
     # Kiss
+    scene p320 with dissolve
+    $ renpy.pause()
+    scene p321 with dissolve
+    $ renpy.pause()
+    scene p322 with dissolve
+    $ renpy.pause()
+    scene p323 with dissolve
     p "Haha, thanks."
     n "You're welcome~"
     p "But I can smell the booze in your breath."
     n "I hope it doesn't take away from my attractiveness."
     p "Don't worry, it complements it actually."
+    scene p324 with dissolve
     n "Aww."
     n "Thanks [p]."
+    scene black with fade
+    play music "sounds/i think.mp3" fadeout 1
+    scene p325 with fade
     # back together
     p "I hope you guys enjoyed the ride on this luxury experience!"
+    scene p326 with dissolve
     m "It was unforgettable."
-    k "I really loved it [p]! Never had I seen such a beautiful sunset before."
+    s "I really loved it [p]! Never had I seen such a beautiful sunset before."
+    scene p327 with dissolve
     n "Hahaha. So where to next?"
     p "Well, let's check into our hotel first and stay the night. After that, the beach for Kaira. Right Kaira?"
-    k "Yes, I can't wait!"
+    scene p328 with dissolve
+    s "Yes, I can't wait!"
+    scene black with dissolve
     "The plane lands safely, thanks to its robust AI system. Thank you Dante's Luxurious Jets!"
     "We make our way towards the hotel."
     jump hotel1

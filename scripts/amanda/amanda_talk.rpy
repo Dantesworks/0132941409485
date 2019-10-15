@@ -517,28 +517,39 @@ label amandatalk:
         p "...Anything for you, [mr]."
         m "It's time to go now, the show's waiting for us!"
         jump runway
-    if amandalvl == 21 and kairalvl > 8:
+    if amandalvl == 21 and kairalvl == 9 and nicolelvl == 12:
+        scene black
+        scene a-1 with fade
         p "Good morning, [mr]."
         m "Here to say good morning to your beautiful [mr]?"
+        scene a-2 with dissolve
         p "Eww."
         p "Well, there's that, but there's also something exciting I wanted to bring up."
         m "What is it?"
         p "I think we all deserve a rest. Nicole and Kaira were planning to go on a trip, and I've decided to tag along."
         p "In fact, I've taken over the planning now, and it's kinda going to be my treat."
         p "I'd like to invite you too, you know, if you have time."
+        scene a-5 with dissolve
         m "A trip, hmm? You don't need to borrow any money?"
         p "I've got the funds, or I'll find a way to get it. You know, I've been really industrious these past few weeks."
+        scene a-4 with dissolve
         m "A holiday would be nice. After all, I've been working for so long."
         m "So, is it going to be us four?"
         p "Yup, Kaira, you, me and Nicole."
+        scene a-6 with dissolve
         m "I think it'll be a good getaway. It'll be a nice change of environment."
+        scene a-5 with dissolve
         m "(It'll also be good for a [mr] to spend more time with him. To get to know him better.)"
-        m "(To find out more of the truth behind this effect he described an aphrodisiac.)"
+        m "(To find out more of the truth behind this effect he described as an aphrodisiac.)"
         p "Haha, it's going to be lots of fun. It would be healthy for all of us to... spend more time together."
         "I hope it won't be awkward!"
+        scene a-9 with dissolve
         m "Well, [p], I'm not sure exactly what to expect, but I'll trust you with this one."
         p "You guys will be impressed, I promise!"
         scene black with fade
+        "I need to purchase the holiday related items in the shop now."
+        "They're probably expensive. I'll definitely need to make some serious bank using the BCC app!"
+        $ shop_holiday = True
         $ amandalvl += 1
         jump hallway
     scene a-1

@@ -571,6 +571,7 @@ label vincent_studio:
                 v "Maybe one day we can tell each other everything, hahaha!"
                 scene black with fade
                 scene a-284 with fade
+                play music "sounds/witch.mp3" fadeout 1
                 p "So, you two were waiting here just for me?"
                 scene a-275 with dissolve
                 ny "It's a nice room here, don't you think?"
@@ -626,7 +627,7 @@ label vincent_studio:
                     p "Is it just that?"
                     scene a-283 with dissolve
                     ma "You think too much of ulterior motivations, [p]. Just run with it!"
-                    scene a-281 with dissovle
+                    scene a-281 with dissolve
                     ny "Hear, hear! Believe in the good of this world, [p]."
                     p "You two must be two very good samaritans."
                     scene a-280 with dissolve
@@ -652,7 +653,7 @@ label vincent_studio:
                     ma "Goodbye, and good luck."
                     scene black with fade
                     $ amandalvl += 1
-                    jump studiolobby
+                    jump studio_lobby
             else:
                 v "What's up [p]?"
                 v "Sorry, no work for you just yet!"

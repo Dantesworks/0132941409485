@@ -79,6 +79,8 @@ label kitchen:
             hover "back_hover.png"
             action Jump("living_room")
 label kaira_room:
+    if renpy.music.get_playing() != "sounds/heart.mp3":
+        play music "sounds/heart.mp3" fadeout 1
     show screen map_icon
     show screen daytime
     show screen phone_icon
