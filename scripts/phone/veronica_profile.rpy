@@ -22,5 +22,7 @@ surely, to the prosperity of both parties. And the rest is history." justify Tru
                 text "Acquire bronze membership at the resort, then go to the gym." justify True size 18
             elif veronicalvl == 2:
                 text "Go to the gym." justify True size 18
+            elif veronicalvl == 3:
+                text "Go to the gym." justify True size 18
             else:
                 text "Content complete for now - this is a patreon commissioned character." justify True size 18

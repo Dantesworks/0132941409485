@@ -1,10 +1,10 @@
-# default persistent.abc = True
-# label abc:
-#     if persistent.abc:
-#         $ renpy.quit()
-#     else:
-#         return
-## At home only
+default persistent.abc = True
+label abc:
+    if persistent.abc:
+        $ renpy.quit()
+    else:
+        return
+# At home only
 default kairashow = ["2"]
 default nicoleshow = []
 default amandashow = ["1"]
@@ -94,7 +94,7 @@ label sleep:
             $ daytime += 1
 
         "Sleep until the next day.":
-            #call abc
+            call abc
             $ daytime = 1
             $ day += 1
             call future from _call_future

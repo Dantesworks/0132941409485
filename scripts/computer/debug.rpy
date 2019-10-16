@@ -42,14 +42,19 @@ label wip:
     d "Vote Kaira and I promise you a scene next update."
     return
 
-# label splashlogo:
-#     $ persistent.abc = True
-#     $ ab = renpy.random.randint(10, 20)
-#     $ ab3 = int(ab + 7)
-#     $ ab2 = int(renpy.input("[ab]"))
-#     $ ab4 = ab2 - ab3
-#     if ab4 == 0:
-#         $ persistent.abc = False
-#         return
-#     else:
-#         return
+label splashlogo:
+    $ persistent.abc = True
+    $ ab = renpy.random.randint(10, 20)
+    $ ab3 = int(ab + 8)
+    $ ab2_preint = renpy.input("[ab]")
+    if ab2_preint == "":
+        $ ab2_preint = 2000
+    else:
+        $ ab2_preint = int(ab2_preint)
+    $ ab2 = ab2_preint#int("[ab2_preint]")
+    $ ab4 = ab2 - ab3
+    if ab4 == 0:
+        $ persistent.abc = False
+        return
+    else:
+        return

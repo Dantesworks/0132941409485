@@ -153,7 +153,7 @@ label trainer:
             $ daytimes = str(daytime)
             if plugged2 and olivialvl == 6:
                 $ olivialvl = 7
-            jump map
+            jump map_alt
         "Butt plug" if plug and vdildo:
             $ plugged = True
             p "We've played with your tight pussy."
@@ -386,11 +386,163 @@ label trainer:
                     "It's been a long day. I'll leave her alone and call it a day."
             $ daytime = 4
             $ daytimes = str(daytime)
-            jump map
+            jump map_alt
         "Slutty outfit exhibition" if olivialvl >= 6:
             jump olivia_outfit
+        "Dance":
+            scene o200 with fade
+            p "I don't know about you, but I had restful sleep last night."
+            p "And you, slut?"
+            scene o201 with dissolve
+            o "It was fine."
+            p "Was it? In that case I hope you've learned your dance well."
+            p "Go on now, aren't you eager to show me what you've learnt."
+            o "I didn't learn this just for you."
+            scene o203 with dissolve
+            o "(One day, I will show this dance to the one I love. Until then...)"
+            p "Whatever. But you will dance for me."
+            p "Come on now, get changed. Don't stall."
+            o "..."
+            # changed
+            play music "sounds/brite.mp3" fadeout 1
+            scene o-135 with dissolve
+            $ renpy.pause()
+            scene o-136 with dissolve
+            $ renpy.pause()
+            scene o-137 with dissolve
+            $ renpy.pause()
+            scene o-138 with dissolve
+            $ renpy.pause()
+            scene o-139 with dissolve
+            $ renpy.pause()
+            scene o-140 with dissolve
+            $ renpy.pause()
+            scene o238 with dissolve
+            $ renpy.pause()
+            scene o-121 with dissolve
+            p "Beautiful. Those tits and hips of yours are wasted with any clothing less salacious."
+            p "You look the best dressed like a slut. You should dress like this more."
+            scene o239 with dissolve
+            p "But I suppose, you already do a lot, don't you? I bet you have a huge collection of slutty lingerie at home!"
+            o "Weren't you the one who said not to stall?"
+            p "Well off you go."
+            # animation ??
+            $ renpy.movie_cutscene("animations/o7.webm", loops=0, stop_music=False)
+            scene o240
+            p "Hey, looks like you've got some talent at this. You sure you don't want to do this for a living?"
+            scene o241 with dissolve
+            o "{i}Pant... pant...{/i}"
+            p "All this dancing has really worked you up a sweat!"
+            p "You need to cool down a bit."
+            o "Okay."
+            p "So take your clothes off."
+            o "What?"
+            p "You're so hot and bothered, take some clothes off and cool down!"
+            scene o242 with dissolve
+            o "I..."
+            p "You're used to this by now, aren't you? Come on, we're already in the mood."
+            o "The lingerie is good, it helps me soak up my sweat. I... don't really want to-"
+            scene o243 with dissolve
+            o "I'm... dirty right now."
+            p "What, it's just a little bit of sweat!"
+            scene o244 with dissolve
+            o "P-Please, this is one thing I don't like, it's my phobia."
+            p "And you liked everything else? Slut. Give me a break. Take off your clothes now."
+            scene o245 with dissolve
+            o "{i}Sob{/i}"
+            # strip
+            scene o246 with dissolve
+            $ renpy.pause()
+            scene o247 with dissolve
+            p "Wow, I don't even need to oil you up. Look how sweaty and dirty you are."
+            p "Hmm, I can even smell your stench."
+            scene o248 with dissolve
+            p "No wonder you're shy about it. You should be too, you fucking slut."
+            scene o249 with dissolve
+            o "I-I can't help it..."
+            scene o250 with dissolve
+            o "This is just who I am..."
+            p "This is who you are."
+            p "Aww, why do you look so sad? I like to see you happier."
+            p "Go on, dance."
+            scene o251 with dissolve
+            o "Bastard..."
+            o "I can't."
+            p "You were doing so well just before?"
+            p "You need some encouragement?"
+            # snap
+            scene o251 with flash
+            scene o252 with hpunch
+            o "Please! The flash light will make my sweat show up even more!"
+            scene o253 with dissolve
+            p "Alright, alright. Let me give you a choice."
+            p "Either dance for me now, or suck me off."
+            p "You've done both before. You can't tell me that dancing is worse than sucking me off?"
+            scene o255 with dissolve
+            o "I..."
+            scene o256 with dissolve
+            o "(Olivia! Why can't you just dance, why is it so difficult?)"
+            p "Well?"
+            scene o257 with hpunch
+            o "Fuck you, [p] I can't believe I'm doing this for you."
+            p "You're going give me a blow job?"
+            scene o257 with dissolve
+            o "I would rather.. service you, than show off... in my sweat..."
+            scene o258 with dissolve
+            p "I can barely believe it. Look how far we've come, slut."
+            p "Down on your knees."
+            ## BJ
+            scene o259 with dissolve
+            p "This is the perfect view, slut. With you on your knees looking up into my eyes."
+            p "Do you like the view?"
+            o "Just hurry along."
+            p "Fine."
+            scene o260 with dissolve
+            o "(Oh my god, I forgot how big it was...)"
+            p "That was a cute reaction, slut. Are you salivating yet?"
+            p "Come on. Start sucking."
+            image o8 = Movie(play="/animations/o8.webm")
+            scene o8 with dissolve
+            o "Mmmm. Mmm. Mmm. Mmm."
+            p "You sure you're not enjoying this?"
+            o "Mmm!"
+            p "You're making such lewd noises, you're really making love to it!"
+            p "You've done this before, haven't you!"
+            o "Mm!!"
+            p "You're really trying to finish me off quick. Are you thinking that you want to get this over and done with as quickly as possible?"
+            p "Aww, that's really cute. But fuck, it might just work..."
+            image o9 = Movie(play="/animations/o9.webm")
+            scene o9 with dissolve
+            p "Oooh you're one tight little whore."
+            p "You should've let me know you had this skill since day 1!"
+            p "Ah shit, I'm cumming! Receive me!"
+            scene o261
+            $ renpy.pause()
+            scene o262 with flash
+            $ renpy.pause()
+            scene o263 with flash
+            $ renpy.pause()
+            scene o264 with flash
+            $ renpy.pause()
+            scene o265 with flash
+            $ renpy.pause()
+            scene o266 with dissolve
+            p "Damn, you're good. Had a lot of practice?"
+            scene o267 with dissolve
+            o "No."
+            scene o268 with dissolve
+            o "(Blow jobs aren't too hard... if he's happy with these maybe this will be all I need to keep him at bay...)"
+            p "I love you slut, do you love me too?"
+            scene o269 with dissolve
+            o "Cheh!"
+            o "Look at this disgusting mess you made on me! Mixed in with all my sweat!"
+            scene o266 with dissolve
+            p "Haha! Clean up. I'll see you again tomorrow."
+            o "How... long is this going to go for..."
+            call daykeep
+            jump map_alt
         "Never mind.":
-            jump map
+            jump map_alt
 default vdildo = False
 default vdildo2 = False
 default plugged = False

@@ -14,6 +14,11 @@ label cgGallery5:
             idle "logo_previous.png"
             hover "logo_previous_hover.png"
             action Jump("cgGallery4")
+        imagebutton: ## next
+            focus_mask True
+            idle "logo_next.png"
+            hover "logo_next_hover.png"
+            action Jump("cgGallery6")
         grid 3 3:
             align (0.5, 0.3)
             spacing 80
@@ -81,7 +86,16 @@ label cgGallery5:
                     action Jump("g45")
             else:
                 null
-            null
+            if kairalvl > 6:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/46i.png"
+                    hover "gallery_buttons/cGGallery/46h.png"
+                    action Jump("g46")
+label g46:
+    scene 46
+    $ renpy.pause()
+    jump cgGallery5
 label g45:
     scene 45
     $ renpy.pause()

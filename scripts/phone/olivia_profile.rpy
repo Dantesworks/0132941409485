@@ -25,13 +25,23 @@ up to [p] to bring her back to earth." justify True size 18
             elif olivialvl == 3:
                 if dildo == False:
                     text "Go purchase the dildo from the online shop, then go to the University." justify True size 18
-                elif vdildo == False:
-                    text "Use the butt plug from the online shop, then go to the University." justify True size 18
-                else:
-                    text "Try putting the vaginal dildo into Olivia for her." justify True size 18
+                elif vdildo == True and plugged == False:
+                    text "Buy and use the butt plug from the online shop, then go to the University." justify True size 18
+                elif plugged == True:
+                    text "Put the vaginal dildo in for her." justify True size 18
             elif olivialvl == 4:
                 text "Go the University location on the map." justify True size 18
             elif olivialvl == 5:
                 text "Buy the slutty outfit then go back to the university." justify True size 18
+            elif olivialvl == 6:
+                text "Go the University location on the map." justify True size 18
+            elif olivialvl == 7:
+                text "Acquire a camera with kit lens, then go the University location on the map." justify True size 18
+            elif olivialvl == 8:
+                text "Go the University location on the map." justify True size 18
+            elif olivialvl == 9:
+                text "Go the University location on the map." justify True size 18
+            elif olivialvl == 10 and plugged2 == False:
+                text "Put in the butt plug for her and follow her at the end." justify True size 18
             else:
                 text "Content complete for now - this is a patreon commissioned character." justify True size 18

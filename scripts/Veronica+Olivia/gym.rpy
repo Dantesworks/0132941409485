@@ -862,6 +862,8 @@ label gym:
         scene r221 with dissolve
         ver "We will talk again later."
         p "Goodbye, Miss V."
+        scene splash5 with fade
+        $ renpy.pause()
         $ veronicalvl += 1
         $ daytime = 4
         $ daytimes = str(daytime)

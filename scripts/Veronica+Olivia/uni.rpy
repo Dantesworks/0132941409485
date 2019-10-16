@@ -536,6 +536,7 @@ label uni:
                 p "Staying quiet? Good. A slut is prettiest with their mouth shut."
                 scene o-198 with dissolve
                 p "You've done well today and you may go home now."
+                $ olivialvl += 1
                 scene black with fade
                 $ daytime = 4
                 $ daytimes = str(daytime)
@@ -905,6 +906,8 @@ label uni:
         scene o266 with dissolve
         p "Haha! Clean up. I'll see you again tomorrow."
         o "How... long is this going to go for..."
+        call daykeep
+        $ olivialvl += 1
         call map_alt
     if olivialvl == 10:
         scene black

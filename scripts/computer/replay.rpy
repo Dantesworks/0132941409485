@@ -1,3 +1,182 @@
+label verc2:
+    scene r179 with fade
+    play music "sounds/cinematic.mp3" fadeout 1
+    "Ah, my beloved Veronica."
+    "I think I've got something to win her over."
+    p "Hello Miss V."
+    scene r180 with dissolve
+    ver "Oh, [p], hello."
+    p "Before you say anymore, I got you something."
+    scene r181 with dissolve
+    ver "What did you get me?"
+    p "It's a tab for the bar at the loft. All on me."
+    scene r182 with dissolve
+    ver "You're trying to take me out on a date?"
+    scene r183 with dissolve
+    ver "You know that I'm already taken."
+    p "Should you really be saying that?"
+    scene r184 with dissolve
+    ver "..."
+    scene r185 with dissolve
+    p "It's just a meet up. I know how much you like your wine."
+    p "In the meantime, what are you doing?"
+    ver "I was about to do some sit ups."
+    p "Well, I'll let you get onto it then."
+    # sit ups
+    scene r186 with fade
+    p "Hmm."
+    scene r187 with dissolve
+    ver "Is there something wrong with my technique?"
+    p "If we get that suit off, I'll be able to tell."
+    scene r188 with hpunch
+    ver "[p]!"
+    ver "I know that we've done some things already, but do you have to be this forward?"
+    scene r189 with dissolve
+    p "Alright, I'm sorry."
+    p "But I think there is something that you could fix up."
+    p "Start doing sit ups again?"
+    scene r190 with dissolve
+    ver "How is this?"
+    scene r191 with dissolve
+    p "You sure you can't take your pants off?"
+    scene r192 with dissolve
+    ver "It's suit that covers my whole body. If i take it off, it all comes off."
+    p "Too bad, because I think I see your problem."
+    scene r193 with dissolve
+    ver "What is it?"
+    scene r194 with dissolve
+    p "The problem is... hehehe..."
+    # shift
+    play music "sounds/alchemy.mp3" fadeout 1
+    scene r195 with vpunch
+    p "You are far too horny. In attempt to right it, you've squeezed your legs together far too much."
+    scene r196 with hpunch
+    ver "[p]! What are you-!"
+    ver "No..."
+    p "Please be honest, Miss Veronica."
+    scene r197 with dissolve
+    p "I can feel the squelching from here."
+    ver "It-it's not true!"
+    image ver9 = Movie(play="/animations/ver9.webm")
+    scene ver9 with dissolve
+    ver "Ah~"
+    p "It's all swollen and engorged."
+    ver "[p]! I- what are you doing!"
+    ver "Y-You're rubbing my-!"
+    image ver10 = Movie(play="/animations/ver10.webm")
+    scene ver10 with dissolve
+    p "And you still haven't told me to stop yet."
+    p "I'll give you the luxury of keeping face. And I'll take your lack of resistance as consent."
+    ver "Why, I... hngg..."
+    ver "Your fingers~ why do they feel..."
+    scene r198 with flash
+    ver "Ahh!!!!"
+    # rub
+    scene r199 with dissolve
+    p "You're finished."
+    p "See, now you're so much more relaxed. And had a great work out too!"
+    p "You're so beautiful, Miss Veronica. If I'm right, it should be super sensitive, right now."
+    ver "W-What's sensitive?"
+    scene r200 with vpunch
+    ver "Ah!"
+    image ver11 = Movie(play="/animations/ver11.webm")
+    scene ver11 with dissolve
+    p "Right here, Miss Veronica."
+    ver "Stop, please!"
+    p "Alright, if you say so."
+    scene r201 with dissolve
+    p "Hmm, let's see."
+    p "Now try the sit ups again, but this time, take it off, all of it."
+    scene r202 with dissolve
+    ver "What, why?"
+    p "Because then you open yourself up, and you'll have nothing to hide."
+    p "You won't feel like you have to close your legs eventually. It's like a confidence exercise."
+    scene r203 with dissolve
+    ver "(I think I see what he's trying to do... but I just can't bring myself... not yet..."
+    scene r204 with dissolve
+    ver "I think I know what you're after... but I can't go there."
+    scene r205 with dissolve
+    ver "It would be very inappropriate."
+    p "Oh I see."
+    ver "Thank you [p]."
+    scene r206 with dissolve
+    p "But hang on, I made you feel good. Shouldn't you return the favour?"
+    p "I mean, you've done it before."
+    scene r207 with dissolve
+    ver "(He has a point...)"
+    scene r208 with dissolve
+    ver "You're right, I have been just taking all this time."
+    ver "But, I just don't know how to feel about taking in your- you know."
+    scene r210 with dissolve
+    p "You could just do a few naked sit ups."
+    scene r207 with dissolve
+    ver "But then you'd come in for more."
+    p "Miss Veronica."
+    ver "..."
+    scene r209 with dissolve
+    play music "sounds/brite.mp3" fadeout 1
+    ver "Sigh, very well. It's nothing I haven't done already."
+    # strip
+    scene r211 with fade
+    $ renpy.pause()
+    scene r212 with dissolve
+    p "Oh my, you're a beautiful woman, [p]. Your husband is missing out. It's his loss. What a loser."
+    ver "(It feels nice to be appreciated.)"
+    "Those well-defined abs complements that gorgeous skin tone, coated with a bit of sweat."
+    scene r213 with dissolve
+    "What a great set of breasts too. The boys in the class always wondered what Miss V's tits looked like."
+    "I can't believe I might be the only one to be lucky enough to finally find out!"
+    scene r214 with dissolve
+    "And that sweet pussy... I just want to savour it one more time..."
+    # shift
+    scene r215 with dissolve
+    ver "Um, [p]?"
+    p "We both knew this was coming, now let's both enjoy this."
+    scene r216 with dissolve
+    ver "I'm just repaying the favour, right?"
+    scene r217 with dissolve
+    ver "Oh~"
+    ver "It feels good~"
+    image ver12 = Movie(play="/animations/ver12.webm")
+    scene ver12 with dissolve
+    ver "This doesn't count as sex, right? I'm still faithful, right?"
+    p "Faithful to your depraved desires."
+    image ver13 = Movie(play="/animations/ver13.webm")
+    scene ver13 with dissolve
+    ver "No, wait, I can't do this if I'm cheating."
+    ver "I'm still figuring things out, I'm not just listening to my desires!"
+    p "Do you want me to stop?"
+    ver "..."
+    p "I thought so."
+    image ver14 = Movie(play="/animations/ver14.webm")
+    scene ver14 with dissolve
+    ver "You-!"
+    ver "You're. So. Fast!"
+    ver "(But why does it feel so good?!)"
+    ver "(Why does it not feel like this with my husband?)"
+    ver "(Is this what I'm missing out on?!)"
+    ver "(My mind is clouding up with pleasure... I can't think!"
+    ver "Oh, [p]!"
+    scene r218 with flash
+    $ renpy.pause()
+    p "I'm getting better at making you cum. You're getting warmed up over time."
+    p "Much less frigid than before, and mmm, tasty!"
+    scene r219 with dissolve
+    ver "[p], I'm still figuring things out, okay?"
+    p "If you say so."
+    ver "No, really."
+    p "..."
+    scene r222 with dissolve
+    p "Just leave your husband already. He's not going to give you any dick."
+    p "And I know you want it."
+    scene r220 with dissolve
+    ver "That's not what it's all about! Maybe one day, you'll understand."
+    p "I'm sorry, I went too far."
+    ver "I... you..."
+    scene r221 with dissolve
+    ver "We will talk again later."
+    p "Goodbye, Miss V."
+    jump computer
 label verc:
     play music "sounds/alchemy.mp3" fadeout 1
     scene r-140 with dissolve

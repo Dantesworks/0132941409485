@@ -9,6 +9,11 @@ label gallery2:
             idle "logo_previous.png"
             hover "logo_previous_hover.png"
             action Jump("gallery1")
+        imagebutton: ## next
+            focus_mask True
+            idle "logo_next.png"
+            hover "logo_next_hover.png"
+            action Jump("gallery3")
         grid 3 3:
             align (0.5, 0.3)
             spacing 80
