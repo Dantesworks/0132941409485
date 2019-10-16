@@ -25,6 +25,11 @@ label museum:
         grid 3 3:
             align (0.5, 0.3)
             spacing 80
+            imagebutton: ## tnvl
+                focus_mask True
+                idle "/images/gallery_buttons/museum/tnvl_i.png"
+                hover "/images/gallery_buttons/museum/tnvl_h.png"
+                action Jump("tnvl")
             imagebutton: ## vlad
                 focus_mask True
                 idle "/images/gallery_buttons/museum/vlad_i.png"
@@ -65,11 +70,17 @@ label museum:
                 idle "/images/gallery_buttons/museum/born2game_i.png"
                 hover "/images/gallery_buttons/museum/born2game_h.png"
                 action Jump("born2game")
-            imagebutton: ## yakai
-                focus_mask True
-                idle "/images/gallery_buttons/museum/yakai_i.png"
-                hover "/images/gallery_buttons/museum/yakai_h.png"
-                action Jump("yakai")
+
+label tnvl:
+    scene tnvl
+    $ renpy.pause()
+    "A voice calls you into the painting."
+    menu:
+        "Listen to it.":
+            "Enjoy this bonus content, brought to you by TNVL!"
+            jump cowgirl
+        "Resist it.":
+            jump museum
 label vlad:
     scene vlad
     $ renpy.pause()
@@ -116,7 +127,7 @@ label yakai:
     scene yakai
     $ renpy.pause()
     "The picture we've all been waiting for | Yakai"
-    jump museum
+    jump museum2
 
 label lyda:
     scene lyda

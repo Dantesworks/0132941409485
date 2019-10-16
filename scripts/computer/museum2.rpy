@@ -36,7 +36,11 @@ label museum2:
                 idle "/images/gallery_buttons/museum/dante_i.png"
                 hover "/images/gallery_buttons/museum/dante_h.png"
                 action Jump("dante")
-            null
+            imagebutton: ## yakai
+                focus_mask True
+                idle "/images/gallery_buttons/museum/yakai_i.png"
+                hover "/images/gallery_buttons/museum/yakai_h.png"
+                action Jump("yakai")
             null
             null
             null

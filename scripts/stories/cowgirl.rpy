@@ -1,10 +1,19 @@
 label cowgirl:
     scene black with fade
+    play music "sounds/path.mp3" fadeout 1
     "In a mysterious, fantastical land far away..."
+    "It is a world where the strong survive and the weak are persecuted."
+    "It is a theocratic world where power stems from the knights of the holy order and their mistress."
+    "They govern with impunity. They hold jurisdiction over all things and none are beyond their inqusition."
+    "Impurity. Black magic. Witches. Anyone even suspected of this will be brought to their justice."
+    "It is their world to rule, but our protoganist sees their hypocrisy."
+    "They are no better than the rest of the depraved souls, are they?"
+    "They need to be brought down a notch."
     # Angelina kills a woman off and smiles
-    scene t2 with dissolve
+    play music "sounds/selfish.mp3" fadeout 1
+    scene tn2 with dissolve
     $ renpy.pause()
-    scene t3 with dissolve
+    scene tn3 with dissolve
     $ renpy.pause()
     scene tn4 with dissolve
     $ renpy.pause()
@@ -14,18 +23,22 @@ label cowgirl:
     $ renpy.pause()
     scene tn7 with hpunch
     $ renpy.pause()
-    p "Eek!"
-    scene tn8
+    scene tn8 with dissolve
     $ renpy.pause()
+    x "The blood coats my blade, hungry for more sinners."
+    x "And just like that, another heathen sent back to hell."
+    x "Thank you, mistress!"
     scene tn9 with dissolve
     $ renpy.pause()
-    scene tn10
+    scene tn10 with dissolve
     $ renpy.pause()
+    x "Please, keep them coming."
     scene tn11 with dissolve
     $ renpy.pause()
     p "Y-you just killed her..."
     p "S-She didn't even fight back..."
     scene tn12 with dissolve
+    play music "sounds/eden.mp3" fadeout 1
     an "My name is Angelina, knight of the holy order."
     an "Blessed by her will, I am invincible."
     an "By her will, you and your village have been judged to have violated our holy strictures."
@@ -84,7 +97,7 @@ label cowgirl:
     scene tn35 with flash
     $ renpy.pause()
     scene tn36 with hpunch
-    an "I can't a single muscle!"
+    an "I can't move a single muscle!"
     scene tn37 with dissolve
     p "How does it feel now? To be finally against someone else with magical powers?"
     scene tn38 with dissolve
@@ -115,37 +128,72 @@ label cowgirl:
     scene tn49 with flash
     $ renpy.pause()
     scene black with flash
-    an "Ah!!!"
+    an "AH!!!"
+    stop music fadeout 1
+    "..."
+    "Some time passes."
     ## Black out # naked
+    play music "sounds/alchemy.mp3"
+    scene tn50 with dissolve
+    an "Urgh..."
+    scene tn51 with dissolve
     an "(Where.... am I?)"
     an "(I was just fighting a man... he immobilised me... and then...)"
     an "(My memory is fuzzy...)"
+    scene tn52 with hpunch
     an "(Why am I naked..?)"
-    an "(I hear someone is coming!)"
-    an "My name is Angelina, holy knight of the order. I am vulnerable, and demand you tell me-"
+    scene tn53 with dissolve
+    an "(Wait... I hear someone coming!)"
+    scene tn54 with dissolve
+    an "My name is Angelina, holy knight of the order!"
+    scene tn56 with dissolve
+    an "I am vulnerable, and demand you tell me-"
     p "Hey Angelina."
-    an "You were the one who incapacitated me, but as I have told you, I cannot be killed!"
+    scene tn55 with hpunch
+    an "!!"
+    scene tn57 with hpunch
+    $ renpy.pause()
+    scene tn58 with dissolve
+    p "You're finally awake."
+    scene tn59 with hpunch
+    an "You were the one who incapacitated me, but as I have told you, I am blessed and cannot be killed!"
     an "Now you will regret your existence!"
+    scene tn60 with dissolve
     p "It's far too late for that now."
     p "Take a good look at yourself."
     an "What?"
+    scene tn61 with dissolve
     an "I-I..."
     an "I'm... so weak... I can barely focus..."
+    an "I can't move!"
+    scene tn62 with dissolve
     an "What... did you do to me?"
-    p "You dont't have the energy to leave. So don't bother."
+    p "You don't have the energy to leave. So don't bother."
     p "Like I said, I'm giving you a fate worse than death."
+    scene tn63 with dissolve
     an "What... is happening..."
+    an "But I'm of the holy order!"
     p "Look at you, you've struggled so much, and only ended up tiring yourself out."
+    scene tn64 with dissolve
     p "Go back to sleep and gain some more energy, and we can talk about your fate tomorrow."
+    scene tn65 with dissolve
     an "(Somebody... help...)"
     ## sleep # boob touch
+    scene tn66 with dissolve
     an "(I am Angelina, knight of-)"
     an "(-the holy order?)"
+    scene tn67 with dissolve
     an "(Yes, that's right, the holy order...)"
+    scene tn68 with dissolve
+    $ renpy.pause()
+    "To be continued..."
+    scene splash_tnvl with fade
+    $ renpy.pause()
+    jump museum
     p "Wakey wakey, Angelina."
     an "You scoundrel."
     p "Scoundrel? That's no way to call your master."
-    an "Cheh, I only have one mistress."
+    an "I only have one mistress."
     an "Ah!"
     an "I feel even heavier than the day before!"
     p "I see the curse is doing its work."
