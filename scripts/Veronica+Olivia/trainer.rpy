@@ -153,7 +153,7 @@ label trainer:
             $ daytimes = str(daytime)
             if plugged2 and olivialvl == 6:
                 $ olivialvl = 7
-            jump map_alt
+            call map_alt
         "Butt plug" if plug and vdildo:
             $ plugged = True
             p "We've played with your tight pussy."
@@ -381,12 +381,13 @@ label trainer:
                     image o5 = Movie(play="/animations/o5.webm")
                     image o6 = Movie(play="/animations/o6.webm")
                     $ plugged2 = True
-
+                    scene splash7 with fade
+                    $ renpy.pause()
                 "Leave":
                     "It's been a long day. I'll leave her alone and call it a day."
             $ daytime = 4
             $ daytimes = str(daytime)
-            jump map_alt
+            call map_alt
         "Slutty outfit exhibition" if olivialvl >= 6:
             jump olivia_outfit
         "Dance":
@@ -540,9 +541,9 @@ label trainer:
             p "Haha! Clean up. I'll see you again tomorrow."
             o "How... long is this going to go for..."
             call daykeep
-            jump map_alt
+            call map_alt
         "Never mind.":
-            jump map_alt
+            call map_alt
 default vdildo = False
 default vdildo2 = False
 default plugged = False

@@ -326,7 +326,7 @@ screen navigation():
 
         textbutton _("Updates and Art") action OpenURL("https://www.patreon.com/danteworks")
 
-        textbutton _("Shop") action OpenURL("https://www.redbubble.com/people/danteworks/works/40183930-bunny-kaira-landscape-version?asc=u")
+        textbutton _("Shop Merch") action OpenURL("https://www.redbubble.com/people/danteworks/works/40183930-bunny-kaira-landscape-version?asc=u")
 
         if renpy.variant("pc"):
 
@@ -384,7 +384,7 @@ screen main_menu():
         focus_mask True
         idle "logo_patron.png"
         hover "logo_patron_hover.png"
-        action OpenURL("https://www.patreon.com/danteworks")
+        action OpenURL("https://www.patreon.com/danteworks?utm_source=depravity")
     imagebutton:
         focus_mask True
         idle "logo_discord.png"
@@ -581,7 +581,7 @@ screen about():
         focus_mask True
         idle "logo_patron.png"
         hover "logo_patron_hover.png"
-        action OpenURL("https://www.patreon.com/danteworks")
+        action OpenURL("https://www.patreon.com/danteworks?utm_source=depravity")
     imagebutton:
         focus_mask True
         idle "logo_discord.png"

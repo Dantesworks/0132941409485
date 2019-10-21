@@ -15,7 +15,7 @@ screen computer():
         focus_mask True
         idle "logo_patron.png"
         hover "logo_patron_hover.png"
-        action OpenURL("https://www.patreon.com/danteworks")
+        action OpenURL("https://www.patreon.com/danteworks?utm_source=depravity")
     imagebutton:
         focus_mask True
         idle "logo_discord.png"

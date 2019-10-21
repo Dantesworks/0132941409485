@@ -56,7 +56,6 @@ label splashscreen:
 
     scene splash4
     with Dissolve(1)
-
     $ renpy.pause(2.0,hard=False)
     $ renpy.pause()
 
@@ -69,7 +68,7 @@ label splashscreen:
     #$ renpy.pause(2.0,hard=False)
     #$ renpy.pause()
 
-    scene splash2_2
+    scene splash2_1
     with Dissolve(1)
 
     $ renpy.pause(2.0,hard=True)
@@ -176,6 +175,9 @@ label start:
     "It's so wrong but I'd probably have to agree. It's a pity she hasn't been able to find somebody since dad passed away."
     "Kaira was just a kid when I left, but she's now in her final few years of school."
     "I guess she would be almost grown up now, wouldn't she?"
+    "To my surprise, they didn't ask too many questions about why I was coming back."
+    "All they knew was that I ran into some trouble and had to pull out."
+    "I hope they'll understand."
     scene 1_entrance2
     "Alright, no more idling around. It's time to say hi."
     "{i}Knock knock{/i}"
@@ -221,8 +223,8 @@ label start:
 
     scene 2_int8
     m "Remember, [p], we'll always be here for you."
-    p "Haha, I know."
-    m "You must be starving [p]! Let me go cook something for you!"
+    p "Thank you, [mr]."
+    m "Ah, but you must be starving [p]! Let me go cook something for you!"
     m "Go say hi to your [sr] in the meantime. She's probably locked up in her room and didn't even hear you come in!"
     p "Sure thing, I'll be looking forward to that meal!"
 

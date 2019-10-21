@@ -69,7 +69,7 @@ label cowgirl:
     an "This is your final chance. Do not resist and let judgement be delivered."
     p "Come get me!"
     scene tn22 with dissolve
-    an "I hope you'd say that."
+    an "I hope'd you'd say that."
     scene tn23 with flash
     an "Ha!"
     scene tn24 with hpunch

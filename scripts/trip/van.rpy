@@ -113,7 +113,7 @@ label van1:
     n "That's not fair, the person who sucks you second will have a harder job since you already came."
     p "Hmm good point."
     n "You're not even thinking about the actual competition. You just want to get sucked off my two hotties, don't you!"
-    p "Dman, I got found."
+    p "Damn, I got found."
     scene v40 with dissolve
     n "How about this..."
     scene v41 with dissolve
@@ -162,7 +162,7 @@ label van1:
     s "Oh, she thinks he does..."
     scene v56 with dissolve
     s "But she's not sure! That's... why she's so nervous, maybe."
-    p "Well if she's honest about it, then she probably doesn't have much to afraid of."
+    p "Well if she's honest about it, then she probably doesn't have much to be afraid of."
     scene v57 with dissolve
     s "Why?"
     p "Well, all you can hope is to be honest right? And if it's meant to be, then it'll happen."
@@ -225,4 +225,16 @@ label van1:
     scene p21 with fade
     d "To be continued next time..."
     d "Thank you for playing!"
+    scene black with fade
+    d "Oh yeah, quick heads up..."
+    scene merch with fade
+    d "Merch is available!"
+    scene merch
+    $ renpy.pause()
+    scene merch2 with fade
+    $ renpy.pause()
+    scene merch3 with fade
+    "The Art of Depravity, a 54 page book with character descriptions and character art is also on special. Come check it out!"
+    scene merch3
+    $ renpy.pause()
     $ renpy.full_restart()

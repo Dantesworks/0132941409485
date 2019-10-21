@@ -1255,7 +1255,7 @@ label kairatalk:
         p "Hey, how'd the test go?"
         scene k202 with hpunch
         s "[p]! They were all the wrong answers!"
-        s "Oh no, Kaira! What went wrong?"
+        p "Oh no, Kaira! What went wrong?"
         s "They were the answers you gave me!"
         scene k203 with dissolve
         s "I was so confident they were right, I trusted you..."
@@ -1552,7 +1552,7 @@ label kairatalk:
         s "So let's be happy together!"
         p "Yes Kaira, let's."
         scene black with fade
-        "I just need ask [mr] to come and Nicole let know."
+        "I just need to ask [mr] to come and let Nicole know."
         $ kairalvl += 1
         call daykeep
         jump hallway

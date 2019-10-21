@@ -806,7 +806,7 @@ label gym:
         scene r211 with fade
         $ renpy.pause()
         scene r212 with dissolve
-        p "Oh my, you're a beautiful woman, [p]. Your husband is missing out. It's his loss. What a loser."
+        p "Oh my, you're a beautiful woman. Your husband is missing out. It's his loss. What a loser."
         ver "(It feels nice to be appreciated.)"
         "Those well-defined abs complements that gorgeous skin tone, coated with a bit of sweat."
         scene r213 with dissolve

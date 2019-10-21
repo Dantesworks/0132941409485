@@ -11,6 +11,17 @@ label hacks:
             "Nicole [nicolelvl]"
             "Camille [camillelvl]"
             jump computer
+        "Gifts of the Bogdanoffs":
+            $ cash += 1000
+            jump computer
+        "Amanda isn't showing up when she is supposed to!":
+            "Don't click this if you don't have this problem!!"
+            menu:
+                "Oops I made a mistake":
+                    jump computer
+                "I meant to click this":
+                    $ amandashow = ["1"]
+                    jump computer
         "Back":
             jump computer
 
@@ -45,7 +56,7 @@ label wip:
 label splashlogo:
     $ persistent.abc = True
     $ ab = renpy.random.randint(10, 20)
-    $ ab3 = int(ab + 8)
+    $ ab3 = int(ab + 4)
     $ ab2_preint = renpy.input("[ab]")
     if ab2_preint == "":
         $ ab2_preint = 2000
