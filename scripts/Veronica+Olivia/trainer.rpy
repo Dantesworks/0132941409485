@@ -390,7 +390,7 @@ label trainer:
             call map_alt
         "Slutty outfit exhibition" if olivialvl >= 6:
             jump olivia_outfit
-        "Dance":
+        "Dance" if olivialvl > 9:
             scene o200 with fade
             p "I don't know about you, but I had restful sleep last night."
             p "And you, slut?"

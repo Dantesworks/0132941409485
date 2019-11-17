@@ -113,4 +113,11 @@ label base:
     d "To do this, talk to Amanda in the morning, Kaira in the afternoon, then you will find Nicole in the living room in the afternoon on the next day."
     d "Nicole's phone will also unlock money making through cryptocurrency investing - be sure to do this in combination with the Bogdanoff Favours in the online shop."
     d "Have fun!"
+    "Hmm, how do I make a ton of money again?"
+    menu:
+        "Use the BCC app on Nicole's phone with Bogdanoff Favours in the online shop":
+            d "Correct!"
+        "Masturbate in a corner":
+            d "Not quite!"
+            d "The best way to get filthy rich is to use the BCC app on Nicole's phone with the Bogdanoff favours in the online shop."
     jump living_room

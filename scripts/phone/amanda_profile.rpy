@@ -88,7 +88,7 @@ urges will triumph." justify True size 18
             elif amandalvl == 21 and (kairalvl < 9 or nicolelvl < 12 or carolinelvl < 7):
                 text "Play through the other girl's routes." justify True size 18
             elif amandalvl == 21 and kairalvl == 9 and nicolelvl == 12:
-                text "Talk to [mr] about the trip." justify True size 18
+                text "Talk to [mr] about the trip in the morning." justify True size 18
             elif kairalvl == 9 and nicolelvl == 12 and amandalvl == 22 and (private_jet == False or luxurious_hotels == False or rv == False):
                 text "Go to the shop on the computer to organise the trip." justify True size 18
             elif kairalvl == 9 and nicolelvl == 12 and amandalvl == 22 and private_jet and luxurious_hotels and rv:

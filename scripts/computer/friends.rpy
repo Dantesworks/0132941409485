@@ -19,7 +19,7 @@ label friends:
                 focus_mask True
                 idle "gallery_buttons/friends/zanith.png"
                 hover "gallery_buttons/friends/zanith_hover.png"
-                action OpenURL("https://www.patreon.com/zanith")
+                action OpenURL("https://www.patreon.com/zanith?utm_source=dante")
             imagebutton:
                 focus_mask True
                 idle "gallery_buttons/friends/sir.png"

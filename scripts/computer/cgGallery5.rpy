@@ -92,6 +92,8 @@ label cgGallery5:
                     idle "gallery_buttons/cGGallery/46i.png"
                     hover "gallery_buttons/cGGallery/46h.png"
                     action Jump("g46")
+            else:
+                null
 label g46:
     scene 46
     $ renpy.pause()

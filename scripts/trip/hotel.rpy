@@ -112,7 +112,6 @@ label hotel1:
     scene h33 with fade
     p "Hey girls, what's up?"
     n "{i}Giggle{/i}"
-    scene h33 with dissolve
     s "OMG I can't believe you said that."
     scene h34 with dissolve
     n "I know right, he never saw it coming!"

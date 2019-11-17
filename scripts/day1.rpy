@@ -49,7 +49,7 @@ label splashscreen:
     $ renpy.pause(2.0,hard=False)
     $ renpy.pause()
 
-    call splashlogo
+    #call splashlogo
 
     scene black
     with Dissolve(1)
@@ -68,7 +68,7 @@ label splashscreen:
     #$ renpy.pause(2.0,hard=False)
     #$ renpy.pause()
 
-    scene splash2_1
+    scene splash2
     with Dissolve(1)
 
     $ renpy.pause(2.0,hard=True)
@@ -84,6 +84,7 @@ label start:
     default depravity = 0
     stop music fadeout 1
     scene turn_on_sound with fade
+    $ renpy.pause(2.0, hard = True)
     $ renpy.pause()
     scene black with fade
     "It's the feeling of deja vu. I feel - no, I know I've been here before."
