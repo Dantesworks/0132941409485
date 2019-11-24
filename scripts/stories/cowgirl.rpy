@@ -249,7 +249,7 @@ label cowgirl:
     p "You're super sensitive. And it's only going to get better from here."
     p "Soon, just a stroke of your nipples will send you over the edge."
     an "{i}Pant{/i}"
-    an "Clever trick. But a holy knight is beset on all sides by temptation and sin."s
+    an "Clever trick. But a holy knight is beset on all sides by temptation and sin."
     an "Do you think something so simple will cause me to break?"
     an "You had better kill me first."
     p "..."
@@ -326,3 +326,4 @@ label cowgirl:
     p "Looks like you're completely gone, Angelina."
     an "Moo?"
     p "Don't worry, don't worry. I'll make you feel good real soon."
+    # sex scene

@@ -459,7 +459,7 @@ label start:
             scene 2_int38 with dissolve
             jump ask
 
-    scene 2_int47
+    scene 2_int47 with dissolve
     p "It's good to hear you guys are doing well. So what's the plan tomorrow?"
     scene 2_int33 with dissolve
     s "Me and Nicole are going shopping tomorrow morning! You should come join us!"
