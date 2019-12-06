@@ -1,5 +1,5 @@
 label Carolinebar:
-    call hidescreens
+    call hidescreens from _call_hidescreens_8
     scene cb-1
     p "Hey Caroline!"
     scene cb-2
@@ -34,7 +34,15 @@ label drinksmenu:
                 c "You don't have enough money - are you sure you're not drunk already?"
             elif drinks:
                 scene cb-4
-                c "You should finish your drink before you order another one."
+                c "You've already ordered a drink, would you like to order another one?"
+                menu:
+                    "Yes":
+                        $ cash -= 10
+                        $ premiumcount += 10
+                        $ russian = True
+                        call drinks
+                    "No":
+                        jump barask
             else:
                 "Very original!"
                 $ cash -= 20
@@ -47,7 +55,15 @@ label drinksmenu:
                 c "You don't have enough money - are you sure you're not drunk already?"
             elif drinks:
                 scene cb-4
-                c "You should finish your drink before you order another one."
+                c "You've already ordered a drink, would you like to order another one?"
+                menu:
+                    "Yes":
+                        $ cash -= 10
+                        $ premiumcount += 10
+                        $ russian = True
+                        call drinks
+                    "No":
+                        jump barask
             else:
                 c "Fantastic choice."
                 $ cash -= 10
@@ -61,8 +77,6 @@ label drinksmenu:
 
 label nobardrink:
     scene black
-    "Are you fucking retarded?"
     "At least buy a drink before you talk to the lady."
-    "Try again, fool!"
     scene cb-1
     jump barask

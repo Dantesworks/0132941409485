@@ -25,14 +25,47 @@ label cgGallery6:
                     action Jump("g47")
             else:
                 null
+            if veronicalvl > 4:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/48i.png"
+                    hover "gallery_buttons/cGGallery/48h.png"
+                    action Jump("g48")
+            else:
+                null
+            if olivialvl > 11:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/49i.png"
+                    hover "gallery_buttons/cGGallery/49h.png"
+                    action Jump("g49")
+            else:
+                null
+            if cowgirl == True:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/50i.png"
+                    hover "gallery_buttons/cGGallery/50h.png"
+                    action Jump("g49")
+            else:
+                null
             null
             null
             null
             null
             null
-            null
-            null
-            null
+label g50:
+    scene 50
+    $ renpy.pause()
+    jump cgGallery6
+label g49:
+    scene 49
+    $ renpy.pause()
+    jump cgGallery6
+label g48:
+    scene 48
+    $ renpy.pause()
+    jump cgGallery6
 label g47:
     scene 47
     $ renpy.pause()

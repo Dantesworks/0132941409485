@@ -1,4 +1,5 @@
 default bellelvl = 1
+
 label belle:
     if bellelvl == 1:
         scene black
@@ -96,7 +97,7 @@ label belle:
         scene b-24 with dissolve
         b "Tell me, [p], what's the patreon password?"
         $ b_password = renpy.input("")
-        if b_password == "timelines":
+        if times + lines == b_password:
             jump b_lick
         else:
             scene b-26 with dissolve

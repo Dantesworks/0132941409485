@@ -1246,7 +1246,7 @@ label kairatalk:
         s "Will do!"
         scene black with fade
         $ kairalvl += 1
-        call daykeep
+        call daykeep from _call_daykeep_49
         jump hallway
     if kairalvl == 7:
         play music "sounds/automata.mp3" fadeout 1
@@ -1454,8 +1454,8 @@ label kairatalk:
         s "Yippie!"
         scene black with fade
         $ kairalvl += 1
-        call daykeep
-        call daykeep
+        call daykeep from _call_daykeep_50
+        call daykeep from _call_daykeep_51
         jump map
     if kairalvl == 8 and nicolelvl >= 10:
         play music "sounds/automata.mp3" fadeout 1
@@ -1554,7 +1554,7 @@ label kairatalk:
         scene black with fade
         "I just need to ask [mr] to come and let Nicole know."
         $ kairalvl += 1
-        call daykeep
+        call daykeep from _call_daykeep_52
         jump hallway
     if kairalvl == 9 and nicolelvl == 12 and amandalvl == 22 and private_jet and luxurious_hotels and rv:
         play music "sounds/masked.mp3" fadeout 1

@@ -129,12 +129,11 @@ label kairatalk:
             $ kairatalk = day
             $ nicoledelay = day + 1
             $ nicoleshow = ["2"]
-            call daykeep
+            call daykeep from _call_daykeep_23
             play music "sounds/heart.mp3" fadeout 1
             jump kaira_room
     if kairalvl == 2:
         $ amandakitchen = True
-        $ amandashow = ["1"]
         scene black
         scene k-1 with fade
         play music "sounds/automata.mp3" fadeout 1
@@ -780,7 +779,7 @@ label kairatalk:
             s "I'm going to think about what to wear."
             s "What do you think [p]?"
             p "Just wear your regular stuff, plus a swimsuit of course."
-            scene k-3
+            scene ke-3
             s "A swimsuit?"
             "Yeah, the one you modelled for me the other day? Hehehe..."
             p "Yeah, we're going swimming. It's the resort."
@@ -1091,6 +1090,714 @@ label kairatalk:
             jump kaira_room
         "Hang on, I need that gold membership first."
         jump kaira_room
+    if kairalvl == 6:
+        scene black
+        scene k-3 with fade
+        play music "sounds/missingyou.ogg" fadeout 1
+        s "Hey, [p]! I hope you haven't missed me too much!"
+        p "Eh?"
+        p "That's right, a minute without me in your life is a minute too long."
+        s "Ack!"
+        p "Haha. So what are you doing?"
+        scene k-11 with dissolve
+        s "Planning on how to sneak into your room to cuddle without you noticing at night!"
+        p "You want a repeat of what happened last time?"
+        scene k-12 with dissolve
+        s "Oh I know, I know. You think it's weird and you don't want [mr] to know."
+        p "It's not that I particularly mind. I just don't want to send off the wrong impressions."
+        scene k-8 with dissolve
+        s "You don't trust me!"
+        p "It's more like I don't trust myself."
+        scene k-6 with dissolve
+        s "Umm, what do you mean you don't trust yourself?"
+        p "..."
+        p "It's fine. You're old enough."
+        p "You remember when we were at the pool?"
+        scene k-4 with dissolve
+        s "Mmm, mmm!"
+        p "Well, I had a little accident downstairs, remember?"
+        s "Downstairs?"
+        s "Oh! That!"
+        p "Well, when all the blood goes downstairs, there's not enough for upstairs, you know what I mean?"
+        scene k-7 with dissolve
+        s "Nope."
+        p "As in, I might not think clearly, and do something dumb. You get me?"
+        s "I don't get it. But I've already seen your thing down there before. What's the big deal?"
+        p "Yeah maybe, when we were kids. That's different."
+        scene k-6 with dissolve
+        s "What's the difference?"
+        menu:
+            "Well, the size for one.":
+                $ depravity += 1
+                scene k-10 with dissolve
+                s "Oh really? Then I really have to see!"
+                p "..."
+            "The dynamic is different.":
+                s "I don't really get it, but if that's what you think is appropriate."
+        p "Did someone turn up the temperature? Let's change the topic for a bit, haha."
+        p "So, really, what are you up to?"
+        scene k-5 with dissolve
+        s "I'm about to start this quiz for homework. Wanna help me?"
+        p "Sure, it should be stuff I've already done before."
+        scene k169 with dissolve
+        p "How many questions?"
+        scene k170 with dissolve
+        s "Just five!"
+        p "When we do homework, we do homework, alright? No distractions."
+        scene k171 with dissolve
+        p "We got to put our thinking caps on. You have a thinking cap?"
+        s "Hmm, when I want to focus, there's nothing that I put on."
+        p "That was a metaphor, dummy Kaira! There's no such thing as a thinking cap in real life."
+        scene k172 with dissolve
+        s "Hey! I'm not dumb! People at school think I'm dumb because of my boobies."
+        s "But I'm not!"
+        p "Oh man, I'm sorry Kaira, I was just teasing you. I take it back."
+        scene k173 with dissolve
+        s "You can say it because you're my [p], but nobody else can okay?"
+        p "No one else will. I'll tell them off if they do. Now what were you going to say?"
+        scene k174 with dissolve
+        s "I was going to say, I don't put things on to focus...."
+        scene k175 with dissolve
+        s "Instead, I take things off!"
+        p "You take... things off?"
+        scene k176 with dissolve
+        s "Yes, I feel less constrained and less tight. It helps the blood flow!"
+        p "Well, don't take too much off."
+        scene k177 with dissolve
+        s "Nope, just my top!"
+        # strip off top
+        scene k178 with dissolve
+        $ renpy.pause()
+        scene k179 with dissolve
+        $ renpy.pause()
+        scene k180 with dissolve
+        $ renpy.pause()
+        scene k181 with dissolve
+        $ renpy.pause()
+        scene k182 with dissolve
+        s "Much better~!"
+        scene k183 with dissolve
+        p "Wow. Didn't I say no distractions?"
+        scene k184 with dissolve
+        s "You're not too distracted by my boobies are you, [p]?"
+        scene k185 with dissolve
+        s "My floofy boobies?"
+        p "No, of course not..."
+        scene k186 with dissolve
+        s "Good, you're not like the rest of the guys, so it's fine right?"
+        scene k187 with dissolve
+        s "Of course, I wouldn't do this at school."
+        p "So uh, let's get on with it. What did you need help with?"
+        scene k188 with dissolve
+        s "Let's take a look at this page here..."
+        s "What do you think?"
+        scene k189 with dissolve
+        s "A, B, C, or D?"
+        scene k190 with dissolve
+        "Fuck, her tits are so large I just want to sink my head into those puppies."
+        "Surely she knows what this is doing to me."
+        "I can't concentrate!"
+        "They look so soft!"
+        scene k191 with dissolve
+        s "Um, [p]? Which one?"
+        p "..."
+        scene k192 with dissolve
+        s "[p]! Are you stuck on the first question already?"
+        scene k193 with dissolve
+        p "Oh erm! I- uh, double D's."
+        scene k194 with dissolve
+        s "Both of them are D?"
+        s "Oh, you've already moved onto the next question already - I was worried that you might have forgotten this part, ahaha!"
+        s "Okay, what about this next question?"
+        s "I think it's A, but I'm not sure..."
+        s "..."
+        s "[p]?"
+        scene k195 with dissolve
+        "Fuck, I think I'm hallucinating. They're just so mesmerisng!"
+        p "Double D's..."
+        s "Again?"
+        s "The teacher must be trying to prank us or something, good thing I've got you to help!"
+        s "Okay, final question. Is this one going to be D as well?"
+        s "I think if I were the teacher, I would change the final question's answer just to confuse people."
+        s "What do you think, [p]?"
+        p "..."
+        p "...all the D's... all of 'em...."
+        s "You sure? Okay!"
+        scene k196 with hpunch
+        p "Oh shit, what?"
+        s "I must say, [p], you looked like you were in a trance!"
+        scene k197 with dissolve
+        s "So this must be what you're like when you're really focussed on something."
+        p "Oh I was focussed on something alright..."
+        scene k198 with dissolve
+        s "Thanks for your help, [p]! I can't wait to get full marks tomorrrow."
+        p "No worries, Kaira!"
+        p "Just curious, by the way..."
+        p "Is this quiz... important?"
+        scene k199 with dissolve
+        s "Important?"
+        p "Like, will you fail if you don't pass?"
+        scene k200 with dissolve
+        s "Nope! But I just wanted to impress the teacher by getting full marks."
+        p "Oh ok, fair enough."
+        "Phew! I feel better about the answers now."
+        p "So uh, let me know how it goes tomorrow okay?"
+        scene k201 with dissolve
+        s "Will do!"
+        scene black with fade
+        $ kairalvl += 1
+        call daykeep
+        jump hallway
+    if kairalvl == 7:
+        play music "sounds/automata.mp3" fadeout 1
+        scene black
+        scene k-1 with fade
+        p "Hey, how'd the test go?"
+        scene k202 with hpunch
+        s "[p]! They were all the wrong answers!"
+        p "Oh no, Kaira! What went wrong?"
+        s "They were the answers you gave me!"
+        scene k203 with dissolve
+        s "I was so confident they were right, I trusted you..."
+        s "Then everyone in the class laughed at me! {i}Sob{/i}."
+        p "Oh, geez Kaira. I didn't mean to, I promise!"
+        p "Guess I got a little distracted, I broke my own rule."
+        scene k204 with dissolve
+        s "How come all my answers were wrong?"
+        p "Well..."
+        scene k205 with dissolve
+        s "I knew it, you weren't paying attention!"
+        scene k206 with dissolve
+        s "You were distracted by my bewbies!"
+        p "Y-you can't prove that!"
+        p "..."
+        scene k207 with dissolve
+        p "Alright, it's true. Sorry Kaira, you know what I said earlier about blood rushing downstairs?"
+        s "Hmmm..."
+        p "It leaves less blood in the brain, to think."
+        scene k208 with dissolve
+        s "Oh. Did... my boobs do that do you?"
+        p "I know you're my [sr] and all, but I couldn't help it, I swear! It's purely physiological."
+        scene k209 with dissolve
+        s "I don't know how to feel, [p]..."
+        s "On one hand, I got laughed at by the class. On the other hand, I'm kinda happy that this means I'm more sexy than cute."
+        p "Huh?"
+        scene k210 with dissolve
+        s "Remember when we at the clothing store? I asked you if I was sexy or cute."
+        scene k211 with dissolve
+        s "I like being sexy, it beats being cute by a mile!"
+        p "How come it's so important to you?"
+        scene k212 with dissolve
+        s "Well, for one, sexy is like Nicole, and that's like, more power, right?"
+        p "Being cute is really powerful as well. You could get away with a lot."
+        scene k213 with dissolve
+        s "But {i}I{/i} think, I could get away with {i}much{/i} more being sexy."
+        scene k214 with dissolve
+        s "I'm not a little girl anymore, [p]!"
+        p "You're... definitely coming of age, Kaira. Listen, I'm sorry about all this."
+        p "It hurts me to hear you got made fun of at school. I'll make it up to you, I promise."
+        scene k215 with dissolve
+        s "You'll make it up to me?"
+        p "Sure. Hmm, would twenty bucks do?"
+        scene k216 with hpunch
+        s "[p]!!"
+        p "Of course, you're right. How about fifty? That's a shift at the cafe, by the way."
+        scene k217 with dissolve
+        s "...!"
+        p "I'm kidding, I'm kidding!"
+        scene k218 with dissolve
+        p "I'll make it up to you with some quality time, hmm? Just the two of us."
+        s "That... sounds nice? Where are we going?"
+        p "We'll go wherever {i}you{/i} want to go. Wherever Kaira's little heart desires."
+        scene k219 with dissolve
+        s "I've got a big heart, [p]! I'm kind and I'm caring!"
+        p "Haha, you're right, my bad. So, where do you wanna go?"
+        scene k220 with dissolve
+        s "Let me see..."
+        s "What's a nice place for two people to go?"
+        p "Are you hungry?"
+        s "Mm, not really."
+        p "What's a nice hippy place that couples go to?"
+        p "Let me take you to the local gallery, Kaira. Wouldn't that be nice?"
+        p "We could look at some pretty pictures."
+        scene k221 with dissolve
+        s "Is that what couples do?"
+        p "I think it is. It should be a nice. Art is not just about something to look at, you know?"
+        p "When you look at art, it's also a chance to look at yourself."
+        s "To look at myself? I have the mirror for that!"
+        p "You spend a lot of time looking at yourself, do you Kaira?"
+        scene k222 with dissolve
+        s "To compare how my body changes day by day, of course. I think I'm still a growing girl."
+        p "And also to check yourself out, I'd bet."
+        scene k223 with dissolve
+        s "There's a bit of that too~"
+        p "But I mean, when you look at yourself with art, you look within yourself. You get to do some soul searching."
+        p "You know, to look at yourself introspectively."
+        scene k224 with dissolve
+        s "Hmmm..."
+        p "Come on, let's go. I'll show you."
+        scene k225 with dissolve
+        s "Oh okay, let's go, whoopie!"
+        # to museum
+        stop music fadeout 1
+        scene black with fade
+        "A few moments later..."
+        play music "sounds/missingyou.ogg" fadeout 1
+        scene k226 with fade
+        p "So Kaira, here's an interesting arrangement. What do you think?"
+        scene k227 with dissolve
+        s "Wow, there are a lot of pictures here."
+        scene k228 with dissolve
+        p "Is there a particular one you like?"
+        scene k229 with dissolve
+        s "I like this one, of the landscape! It makes me feel like there's a lot of potential, and I just feel like, freedom."
+        p "I like that one too. It's a very optimistic feeling. It reminds me of when you we were on the way to the diner, and you told me to look at the sky."
+        scene k230 with dissolve
+        s "Yeah, it was so pretty."
+        scene k231 with dissolve
+        s "I guess I'm that kind of girl."
+        p "You'll like this flower too then, right?"
+        scene k232 with dissolve
+        s "What about the flower?"
+        p "You think it's pretty?"
+        s "It's okay. I like the animals more. Look! The lion!"
+        scene k233 with dissolve
+        p "Does it speak to you?"
+        scene k234 with dissolve
+        s "Speak to me?"
+        p "Like, do you feel something inside when you look at it, do you see yourself?"
+        scene k235 with dissolve
+        s "Ermm... I don't really see myself as a lion."
+        scene k236 with dissolve
+        s "A lion is supposed to be brave right? The lion roars, and makes a huge sound."
+        scene k237 with dissolve
+        s "I wish I could be like that."
+        scene k238 with dissolve
+        p "You don't feel like you could be brave?"
+        scene k239 with dissolve
+        s "I'm actually kind of shy and quiet sometimes..."
+        p "Oh, I think you're definitely forthcoming and honest, what do you mean?"
+        scene k240 with dissolve
+        s "I'm comfortable with you and Nicole, so I'm less shy with you guys. But at school or when I'm with my other friends, I wish I could speak out more."
+        scene k241 with dissolve
+        s "(But even then, [p]... sometimes... I wish I could be more honest with you...)"
+        scene k242 with dissolve
+        p "Well, look Kaira. The lion wasn't always brave."
+        scene k243 with dissolve
+        s "No?"
+        p "Of course not. The lion was once a cub, just a kid. He wasn't always strong. But overtime, he became stronger, louder, braver. It was something that took time."
+        p "Maybe that's what the message should be."
+        scene k244 with dissolve
+        s "I hope, [p], one day I can be brave."
+        s "(I hope, one day, I can be honest with you.)"
+        p "Hah, you have my full support, Kaira."
+        scene k245 with dissolve
+        s "..."
+        scene k246 with dissolve
+        s "Oh yeah, what about... this one?"
+        s "How does that make {i}you{/i} feel?"
+        scene k247 with dissolve
+        p "It's an interesting mask..."
+        scene k248 with dissolve
+        "It's a mask, right? It looks like it's in pain."
+        "Why would someone wear a such a sad face?"
+        "Don't people typically wear a happy face to cover up a sad interior?"
+        "Why would someone purposefully show an expresson of pain?"
+        "Is it... penitence?"
+        "I wonder what they did."
+        play music "sounds/cyberpunk.mp3" fadeout 1
+        x "It is repentance."
+        scene k249 with hpunch
+        p "!!"
+        x "It is a story of redemption."
+        scene k250 with dissolve
+        x "It is often at the point of anagnorisis that the heroes come to this conclusion."
+        x "Tragically, it is only after the peripeteia that our hero can repent."
+        x "The greeks knew this."
+        p "I-who-"
+        scene k251 with dissolve
+        x "Focus, [p], what do you see?"
+        p "I... see..."
+        scene k252 with dissolve
+        play music "sounds/time.mp3"
+        s "Umm, [p]?"
+        s "You're really focussed on that picture. Are things okay?"
+        scene k254 with dissolve
+        p "I see regret. I see a man who desperately wants to undo what he had done."
+        p "I see man who would give anything to take back what he lost."
+        p "He wears the mask because he knows he was responsible."
+        p "He wants the world to know as penance."
+        scene k253 with dissolve
+        s "Whoa, [p], that's really deep all of a sudden."
+        menu:
+            "I'm not him.":
+                $ depravity += 1
+                scene k255 with dissolve
+                s "Well, it's like me and the lion picture, right?"
+                s "We aren't anything like the pictures we had a look into."
+            "I can relate to him.":
+                scene k255 with dissolve
+                s "Well, you also said that I was more like the lion than I thought."
+                s "Maybe the pictures let us look more into ourselves after all."
+                scene k256 with dissolve
+                s "I think I can see."
+        scene k228 with dissolve
+        p "Fascinating stuff Kaira. I think that's enough thinking for the day, for the both of us."
+        p "What do you reckon?"
+        s "Let's go home~! I'm getting tired."
+        scene k226 with dissolve
+        p "It was interesting though, wasn't it? I hope I made up for getting you those wrong answers."
+        scene k231 with dissolve
+        s "Erm, I haven't forgiven you yet! You'll have to hang out with me even more times before I do, okay?"
+        scene k233 with dissolve
+        p "It would be my pleasure to, Kaira."
+        s "Yippie!"
+        scene black with fade
+        $ kairalvl += 1
+        call daykeep
+        call daykeep
+        jump map
+    if kairalvl == 8 and nicolelvl >= 10:
+        play music "sounds/automata.mp3" fadeout 1
+        scene black
+        scene k-2 with fade
+        p "So, I was thinking, Kaira."
+        scene k-3 with dissolve
+        s "Hmm?"
+        p "You were talking about that trip with Nicole, and you said you had bought the tickets already or something."
+        scene k-4 with dissolve
+        s "We've booked the hotels! I invited you before too! Are you coming?"
+        p "I've been thinking about it, and I've love to. Tell me more. Where are you guys going?"
+        scene k-5 with dissolve
+        s "We're actually going to where you were studying. Is that going to be alright?"
+        p "..."
+        s "Ah, [p], maybe it isn't the best idea, I'm sorry."
+        p "No at all, it's a great area. Plenty of tourism, lots of shops around and young people. It's a great holiday destination."
+        scene k-9 with dissolve
+        s "So you don't mind?"
+        p "Haha, of course not, I'm totally over it anyway. What's your plan for the trip?"
+        scene k-12 with dissolve
+        s "Well... haha, we haven't reaaally planned it out too much. We only have the hotel so far, and it was because we thought it looked awesome."
+        p "Oh yeah? So you haven't bought plane tickets yet?"
+        scene k-11 with dissolve
+        s "Nope."
+        p "What about hotel rooms? How many have you booked?"
+        s "Just one for me and Nicole."
+        p "How am I gonna fit?"
+        scene k-5 with dissolve
+        s "It's a big bed, [p]. I'm sure you'll squeeze in."
+        p "Hmm, Nicole could sleep in the middle. That could work."
+        scene k-9 with dissolve
+        s "Huh? No! {i}You{/i} can sleep in the middle! I'm sure Nicole wouldn't mind."
+        p "She's my girlfriend."
+        scene k-8 with dissolve
+        s "And I'm your [sr]. We can share, ok?"
+        p "Why don't we invite [mr] as well? Woman's been working for so long. Now that she's in Dante Studios, it seems like a nice time for her to take a break."
+        scene k-9 with dissolve
+        s "Hmm, but that's four people in one bed!"
+        p "You don't want [mr] along?"
+        scene k-5 with dissolve
+        s "Of course I do, but it looks like we'll have to change our plans a bit, hmm..."
+        p "Let me grab a seat and talk about this."
+        scene k-15 with fade
+        p "Let's change the topic to plane tickets for a bit."
+        scene k-19 with dissolve
+        s "There's not much to think about, right? Just economy there and back. We can buy them whenever."
+        p "There's more than just economy class, you know?"
+        scene k-17 with dissolve
+        s "Like business class?"
+        scene k-21 with dissolve
+        s "[p]! I-I don't have too much savings, you know that right?"
+        scene k-20 with dissolve
+        s "I think it's better to spend money on other things instead, right?"
+        s "Like, clothes... food... mmm...."
+        p "You know, business isn't the only alternative to economy. There's first class too."
+        scene k-19 with dissolve
+        s "First class? That's like super expensive! I super-duper can't afford that."
+        p "If [mr] comes along, we'll need more hotel rooms too."
+        scene k-25 with dissolve
+        s "That's going to be more money. I saved up reaaally hard for this, [p]."
+        p "I know, little Kaira, I know. Let me make you a deal."
+        scene k-22 with dissolve
+        s "Huh?"
+        p "I'll cover all the expenses. In return, you'll have to forgive me for giving you the wrong answers from before."
+        p "Deal?"
+        scene k-25 with dissolve
+        s "You'll pay for... everything?"
+        p "I'll plan it all out too. Just leave it all to me."
+        s "Are you joking?"
+        p "Nope. I'll make sure it's the best trip you've had."
+        s "How are you going to get the money?"
+        p "I'm a master investor. Buy low sell high."
+        scene k-19 with dissolve
+        s "What's an investor?"
+        p "I'll teach you all about it one day. So what do you say?"
+        scene k-17 with dissolve
+        s "You promise to make the bestest trip ever?"
+        p "I promise."
+        scene k-24 with vpunch
+        s "Yippie yippie!"
+        s "I love you I love you I love you [p]!"
+        scene ke-1 with vpunch
+        s "I can't wait to go, when are we going? What should I pack? Do I even need to pack?"
+        s "I have more money left now to buy clothes, maybe I'll just buy it there!"
+        p "Haha, easy easy. I'll go chat to [mr] and Nicole about my plans, and I'll come back once I've got everything ready and set to go, alright?"
+        s "Wow, [p], I never imagined this. This is so awesome!"
+        s "We're going to have so much fun, aren't we? What a treat!"
+        scene ke-4 with dissolve
+        p "I'm doing this for you, Kaira, I just want to see you happy girl."
+        s "I like to see you happy too, [p]."
+        s "I'm happy if you're happy."
+        p "Likewise."
+        s "So let's be happy together!"
+        p "Yes Kaira, let's."
+        scene black with fade
+        "I just need to ask [mr] to come and let Nicole know."
+        $ kairalvl += 1
+        call daykeep
+        jump hallway
+    if kairalvl == 9 and nicolelvl == 12 and amandalvl == 22 and private_jet and luxurious_hotels and rv:
+        play music "sounds/masked.mp3" fadeout 1
+        scene k-3 with fade
+        p "Good news, Kaira, good news!"
+        scene k257 with dissolve
+        s "Ooh, tell me!"
+        p "I've finished the arrangements for the trip, and I've got the essentials planned."
+        scene k258 with dissolve
+        s "Um, okay... can you tell me about it?"
+        p "What do you want to know?"
+        scene k259 with dissolve
+        s "Everything! You said it was going to be really cool and really awesome right?"
+        scene k260 with hpunch
+        s "Tell me tell me tell me!"
+        p "Alright, alright, gather round! You won't believe what I managed to put together."
+        scene k261 with dissolve
+        p "First, we're getting there by jet."
+        scene k262 with dissolve
+        s "Weren't we already going to go by plane?"
+        scene k263 with dissolve
+        s "I mean, but still, thank you so much for buying tickets!"
+        p "You're welcome Kaira, but it's not just any plane. This is a private jet, just for us four."
+        scene k264 with vpunch
+        s "You managed to get a private jet? No way!"
+        p "Oh, it's no big deal, you know..."
+        scene k265 with dissolve
+        s "You're lying right? You're not telling the truth, are you?"
+        p "C'mon Kaira, you don't trust me?"
+        scene k266 with dissolve
+        s "..."
+        scene k267 with dissolve
+        s "But, how did you get the money? A private jet must've been super expensive, there's no way-!"
+        p "It's the power of BCC, Kaira. I'll teach you. One day."
+        p "You'll believe it when you see it."
+        scene k268 with dissolve
+        s "Hmm, fishy [p], but I'll go along with it for now! What about after the plane ride?"
+        scene t8 with dissolve
+        p "Well! I booked out the deluxe luxurious double hotel room package. Those rooms are fantastic."
+        scene t11 with dissolve
+        p "Maybe a little excessive, since we won't be staying in the hotel rooms for much of the day, but still!"
+        p "I wanted to give you a great experience, Kaira."
+        scene k269 with dissolve
+        s "Aww, [p], this had better be super duper real, okay?!"
+        scene k270 with dissolve
+        s "Mmm, I can't wait!"
+        p "I'm not done yet, I also got the Relaxing RV to take us around the place when we're going to all the different holiday destinations."
+        scene k271 with dissolve
+        s "OMG, this is all we need, [p]! I need to tell Nicole and [mr]!"
+        s "I-I... when are we going!"
+        p "Hmph, I thought you'd never ask."
+        p "Let the others know, and we can go as soon as the next day."
+        scene k272 with dissolve
+        s "Oh, goodie!"
+        $ kairalvl += 1
+        jump kaira_room
+    if kairalvl == 10:
+        scene black
+        play music "sounds/sun.mp3"
+        menu:
+            "Let the others know, and go on the trip!":
+                d "You will not be able to return until the trip is over."
+                d "Make sure to do things you want to do before you embark."
+                d "Are you sure you want to go now?"
+                menu:
+                    "Yes":
+                        scene k273 with dissolve
+                        p "Let the others know, Kaira. Get them ready!"
+                        scene k274 with hpunch
+                        s "NICOLE!!!"
+                        p "Jesus."
+                        scene k275 with dissolve
+                        $ renpy.pause()
+                        scene k276 with dissolve
+                        $ renpy.pause()
+                        scene k277 with dissolve
+                        n "You called for me, Kaira?"
+                        s "Me and [p] were just talking about the trip, and it's all sorted now!"
+                        s "[p] says he got us a private jet! Oh, and two huge five star hotel rooms and like, a massive truck to go places with!"
+                        scene k278 with dissolve
+                        n "Did you really, [p]?"
+                        p "All this doubt, guys! Come on!"
+                        scene k279 with dissolve
+                        n "I don't know how the hell you did it, but I think I'm loving you more and more."
+                        n "This is going to make an unforgettable trip. You know that, right?"
+                        p "That's the plan. Because you girls are worth it."
+                        scene k280 with dissolve
+                        n "You're such a nice boyfriend, [p]. I must say I've got a good taste."
+                        s "Hmm! [p] is nice to me too, you know!"
+                        p "I'm nice to everyone; I'm just a nice guy."
+                        scene k281 with dissolve
+                        n "Bleh."
+                        n "Us girls like exclusive treatment."
+                        scene k282 with dissolve
+                        s "Nicole's right, [p]. I don't mind sharing with Nicole, but you have to like, treat us nicer than the rest, okay?"
+                        s "To be fair, Nicole, [p] is already a lot cooler than the boys in our class, right?"
+                        scene k283 with dissolve
+                        n "You mean the creeps?"
+                        p "..."
+                        s "Yeah! Thankfully [p] is not like the rest of them, and that makes me happy."
+                        scene k284 with dissolve
+                        s "Coz' there's something special about us, right [p], that makes you so nice to us."
+                        scene k285 with dissolve
+                        s "Mm that must be it, bahahaha!"
+                        scene k286 with dissolve
+                        n "Kaira's awfully possessive, isn't she? You must mean a lot to her."
+                        p "Well, Kaira means a lot to me too. How could someone not love this cuddly, dumb little [sr]?"
+                        scene k287 with dissolve
+                        s "Eh- I'm not dumb! But I like cuddly~"
+                        p "I say that in the most loving way."
+                        s "Aww! [p] should mean a lot to you too Nicole."
+                        n "Whatever gives you that idea? Don't give the man an ego~"
+                        scene k288 with dissolve
+                        s "Well, I thought you liked him a lot based on all the stories you told me about-"
+                        scene k289 with dissolve
+                        n "-Hey! Uh, let's keep that between just us two..."
+                        p "Stories, Nicole?"
+                        scene k290 with dissolve
+                        n "It's just girl gossip."
+                        p "I hope it's PG."
+                        scene k291 with dissolve
+                        n "No comment~"
+                        p "Never change, Nicole, never change."
+                        n "Kaira's a grown girl now though, isn't she? She'll be alright."
+                        scene k292 with dissolve
+                        s "I {i}did{/i} say my bewbies have grown a lot, didn't I?"
+                        scene k293 with dissolve
+                        s "The proof is in the pudding!"
+                        scene k294 with dissolve
+                        n "Two squishy mounds of pudding~"
+                        scene k295 with dissolve
+                        s "Hehehe..."
+                        scene k296 with dissolve
+                        p "Enough, listen up guys, let me fill you in on the rest of details."
+                        scene black with fade
+                        "A few moments later..."
+                        scene k297 with fade
+                        p "Alright that's all of it. I'll leave you two girls alone to do girl things now."
+                        scene k298 with dissolve
+                        p "Would you please let [mr] know about the plans?"
+                        scene k299 with dissolve
+                        s "Oh I can't wait to tell [mr] about the trip when she comes back."
+                        s "But whatcha gonna do in the meantime?"
+                        scene k300 with dissolve
+                        p "Planning this trip was hard, Kaira. I'm gonna go for a sleep."
+                        s "Oh okay, rest well, [p]!"
+                        scene k301 with dissolve
+                        n "I guess I shouldn't stay too long either, I've got a lot of things to pack."
+                        p "Remember, travel light."
+                        scene k302 with dissolve
+                        s "Yes, yes, we can just buy the clothes with the money we saved when we go clothes shopping."
+                        scene k303 with dissolve
+                        n "The money we saved thanks to [p]."
+                        scene k304 with dissolve
+                        n "Thank you, [p]!"
+                        p "You're welcome, you're welcome..."
+                        scene k305 with dissolve
+                        s "Go to rest now, [p], sleep well!"
+                        scene k306 with dissolve
+                        n "Seeya, [p]."
+                        scene k307 with dissolve
+                        p "I'll see you guys real soon."
+                        stop music fadeout 1
+                        scene black with fade
+                        stop music fadeout 1
+                        "Wow, it took a lot of money, but this is really happening."
+                        "I haven't looked forward to something so much in a long time."
+                        "One very restful night later..."
+                        "On a bright early morning on an exciting day..."
+                        $ kairalvl += 1
+                        label bean:
+                        play music "sounds/bean.mp3" fadeout 1
+                        scene p1 with dissolve
+                        $ renpy.pause()
+                        scene p2 with dissolve
+                        p "I feel light and happy. Today's finally the day!"
+                        scene p3 with dissolve
+                        "Ahhh! Time to get prepared!"
+                        scene p4 with dissolve
+                        "Hmmm..."
+                        scene p5 with dissolve
+                        "How about..."
+                        scene p6 with dissolve
+                        "The Kishou Arima!"
+                        scene p7 with fade
+                        "The others should be ready by now."
+                        "The flight leaves early in the morning."
+                        "I can't miss my own flight now!"
+                        scene p8 with dissolve
+                        $ renpy.pause()
+                        scene p9 with dissolve
+                        $ renpy.pause()
+                        scene p10 with dissolve
+                        $ renpy.pause()
+                        scene p11 with dissolve
+                        $ renpy.pause()
+                        scene p12 with dissolve
+                        $ renpy.pause()
+                        p "Good morning guys!"
+                        scene p13 with dissolve
+                        n "Good to see that I didn't need to wake you up this time, [p]."
+                        scene p14 with dissolve
+                        n "It's just as well, right? After all, my method of waking you up might have caused us to miss the flight~"
+                        p "Careful, there are other people here!"
+                        scene p15 with dissolve
+                        p "Like Kaira!"
+                        scene p16 with dissolve
+                        s "That's coz we're all going on this trip together!"
+                        s "Not just me, but [mr] too!"
+                        scene p17 with dissolve
+                        m "That's right, [p]. Good morning to you too. So, since we're all together..."
+                        scene p18 with dissolve
+                        m "Remember to behave, alright?"
+                        p "You got that, Nicole?"
+                        n "I'll be on my best behaviour."
+                        m "Fufufu~"
+                        scene p19 with dissolve
+                        p "Let's not dilly dally and let's start loading up the bags."
+                        s "What? Not even a hug for your [sr]?"
+                        n "We'll have plenty of time for that later, Kaira. And I call dibs."
+                        scene p20 with dissolve
+                        m "Let's move out now, and then you can do more shopping later, Kaira!"
+                        s "Hehehe!"
+                        p "By the time we're back, these bags will be full!"
+                        scene black with fade
+                        scene p21 with fade
+                        $ renpy.pause()
+                        "Things are moving forward now, and I can't wait to see what will happen."
+                        "Nicole will be definitely be trying to jump into my pants, but what about Kaira?"
+                        "To be honest, I'm still not sure where I stand with her. If she pushes things forward, if Nicole decides to have her fun..."
+                        "How am I supposed to react? Should I just let it happen?"
+                        "And then there's the issue with [mr]. I still don't know how to interpret what's happened so far."
+                        "Was what we did... a one off thing? Is she open to it again? She makes me feel like maybe its not the aphrodisiac after all."
+                        "..."
+                        "These thoughts occupy my mind as we arrive at the airport."
+                        "We don't have to line up though. It's just us on this flight."
+                        "I can't wait to see their reactions!"
+                        jump hol_plane
+                    "No":
+                        jump kaira_room
+            "No, not ready to go yet.":
+                jump kaira_room
+
     scene k-1
     p "How's my beautiful [sr] doing?"
     scene k-3

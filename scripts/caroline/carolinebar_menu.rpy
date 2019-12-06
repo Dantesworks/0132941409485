@@ -40,7 +40,7 @@ label drinksmenu:
                         $ cash -= 10
                         $ premiumcount += 10
                         $ russian = True
-                        call drinks
+                        call drinks from _call_drinks_2
                     "No":
                         jump barask
             else:
@@ -61,7 +61,7 @@ label drinksmenu:
                         $ cash -= 10
                         $ premiumcount += 10
                         $ russian = True
-                        call drinks
+                        call drinks from _call_drinks_3
                     "No":
                         jump barask
             else:

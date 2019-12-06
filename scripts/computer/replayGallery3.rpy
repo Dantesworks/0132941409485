@@ -20,7 +20,14 @@ label gallery3:
                     action Jump("verc2")
             else:
                 null
-            null
+            if veronicalvl > 4:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/r20.png"
+                    hover "gallery_buttons/r20h.png"
+                    action Jump("verc3")
+            else:
+                null
             null
             null
             null

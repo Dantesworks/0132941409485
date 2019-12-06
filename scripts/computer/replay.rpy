@@ -1,3 +1,91 @@
+label ver3:
+    play music "sounds/brite.mp3" fadeout 1
+    # change
+    scene r312 with dissolve
+    $ renpy.pause()
+    scene r313 with dissolve
+    $ renpy.pause()
+    scene r314 with dissolve
+    $ renpy.pause()
+    scene r315 with dissolve
+    $ renpy.pause()
+    scene r316 with dissolve
+    $ renpy.pause()
+    scene r317 with dissolve
+    $ renpy.pause()
+    scene r318 with dissolve
+    $ renpy.pause()
+    scene r319 with dissolve
+    $ renpy.pause()
+    scene r320 with dissolve
+    $ renpy.pause()
+    ver "I'm a little shy... like this."
+    ver "Are you staring at me?"
+    p "Of course, Miss Veronica. After all, you're a beautiful woman."
+    p "Your body would be wasted if nobody looked at it."
+    p "Now, hop up on that desk, and close your eyes."
+    scene r321 with dissolve
+    ver "Yes."
+    scene r322 with dissolve
+    $ renpy.pause()
+    scene r323 with dissolve
+    $ renpy.pause()
+    ver "L-Like this?"
+    p "Just lie down."
+    scene r324 with dissolve
+    $ renpy.pause()
+    "Her breath got heavier as she lay down on the desk, her beautiful pussy in full display."
+    p "Close your eyes, darling."
+    scene r325 with dissolve
+    ver "Please, be gentle."
+    # sex
+    scene r326 with dissolve
+    p "I like it rough, Miss Veronica. I hope you do too."
+    ver "I-"
+    image ver15 = Movie(play="/animations/ver15.webm")
+    scene ver15 with dissolve
+    ver "AHHH!"
+    p "How long have you waited for this, Miss Veronica?"
+    p "Does it feel good, huh?!"
+    ver "Ah~!"
+    image ver16 = Movie(play="/animations/ver16.webm")
+    scene ver16 with dissolve
+    ver "It.. feels... so... big!"
+    p "You're just tight, Miss. How long has it been since you last had sex?"
+    p "This is what you've been missing all this time!"
+    p "Does it feel good?"
+    ver "Ah~ ah~ ah~ yes.. [p].. it feels good~"
+    ver "But... faster..."
+    p "Faster?"
+    image ver17 = Movie(play="/animations/ver17.webm")
+    scene ver17 with dissolve
+    p "You horny, horny teacher."
+    "As I thrust in and out of her leaking pussy, her breasts bounced up and down."
+    "They were clearly natural, but were large, supple and firm at the same time."
+    p "Do you know how lewd your body is? Your large tits and well toned body?"
+    p "I can't believe your husband hasn't given you cock."
+    p "Poor Miss Veronica, spending so much effort to look good, but nobody to fuck her!"
+    p "Let's see those breasts jiggle more."
+    image ver18 = Movie(play="/animations/ver18.webm")
+    scene ver18 with dissolve
+    ver "Thank you... for fucking me~!"
+    p "I'm fucking close to cumming, Miss, and it's all because of how sexy you are."
+    ver "I think I'm cumming too!"
+    scene r327 with flash
+    $ renpy.pause()
+    scene r328 with flash
+    $ renpy.pause()
+    scene r329 with flash
+    $ renpy.pause()
+    scene r330 with flash
+    $ renpy.pause()
+    scene r331 with dissolve
+    p "Oh fuck, that was great."
+    p "That was great, wasn't it?"
+    scene r322 with dissolve
+    "Damn, she must have cum so hard she fainted."
+    "I guess we're spending the night here."
+    jump computer
 label verc2:
     scene r179 with fade
     play music "sounds/cinematic.mp3" fadeout 1

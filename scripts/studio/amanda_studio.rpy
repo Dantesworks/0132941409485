@@ -769,7 +769,7 @@ label amanda_studio:
             "Hmm..."
             "What does this all mean?"
             $ amandalvl += 1
-            call daykeep
+            call daykeep from _call_daykeep_55
             jump map
 
         else:

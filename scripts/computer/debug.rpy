@@ -23,6 +23,8 @@ label hacks:
                     $ amandashow = ["1"]
                     $ amandakitchen = True
                     jump computer
+        "Go back to the trip" if teleport:
+            jump teleporter
         "Back":
             jump computer
 

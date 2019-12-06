@@ -198,46 +198,8 @@ label van1:
     s "I believe that."
     "Kaira and I shared a moment, and we smiled to ourselves."
     "With wheels spinning and music blaring, we make our way towards the beach."
-    scene splash_kaira with fade
-    stop music fadeout 1
-    d "Make your save before this point!"
-    d "This is as far as we go for the trip update for 0.54 so far."
-    d "Coming up are a bunch of fun, sexy, and depraved events that you can choose for the next update on patreon!"
-    d "Here's a special preview of just some of the possible upcoming content!"
-    scene v64 with fade
-    $ renpy.pause()
-    d "Beach trip!"
-    scene v65 with fade
-    $ renpy.pause()
-    d "Heading to the shops with the girls!"
-    scene v66 with fade
-    $ renpy.pause()
-    d "Hit the casino and look the part!"
-    scene v67 with fade
-    $ renpy.pause()
-    d "XXX action with Nicole and Kaira!"
-    scene v68 with fade
-    $ renpy.pause()
-    d "A familiar face?"
-    scene v69 with fade
-    $ renpy.pause()
-    d "Have a ball!"
-    scene p21 with fade
-    d "To be continued next time..."
-    d "Thank you for playing!"
     scene black with fade
-    d "Oh yeah, quick heads up..."
-    scene merch with fade
-    d "Merch is available!"
-    scene merch
-    $ renpy.pause()
-    scene merch2 with fade
-    $ renpy.pause()
-    scene merch3 with fade
-    "The Art of Depravity, a 54 page book with character descriptions and character art is also on special. Come check it out!"
-    scene merch3
-    $ renpy.pause()
-    #$ renpy.full_restart()
+    stop music fadeout 1
     "A few moments later..."
     scene v70 with fade
     s "Are we there yet?"
@@ -259,7 +221,7 @@ label van1:
     p "Wait I need to do some settings on the RV first, I can't ditch just yet."
     n "Well then that's too bad isn't it? We'll head off first."
     scene v76 with dissolve
-    p "Hey, I won't be taking too long, I just need to-"
+    p "Hey, I won't be take too long, I just need to-"
     scene v77 with dissolve
     n "Join us when you please~"
     scene v78 with dissolve
@@ -272,9 +234,9 @@ label van1:
     scene v81 with dissolve
     p "..."
     scene v82 with dissolve
-    "I power down the jeep as the girls are already outside having fun."
-    "I suppose I did volunteer to organise the trip. I guess it's onto me to handle the loose ends."
-    "I wonder what they've chosen to wear. Girls probably put a lot of thought into it."
+    "I power down the relaxing RV as the girls are already outside having fun."
+    "I suppose I did volunteer to organise the trip. I guess it's on me to handle the loose ends."
+    "I wonder what they've chosen to wear. The girls probably put a lot of thought into it."
     "Me on the other hand? A pair of shorts will just be fine."
     # Change to swimwear
     scene black with fade
@@ -386,7 +348,7 @@ label van1:
     s "It's okay, [p]! I'm not a child anymore!"
     scene v124 with dissolve
     s "I'm old enough to know about these things, you know..."
-    p "You know... but still..."
+    p "I know... but still..."
     scene v125 with dissolve
     n "Look, Kaira doesn't mind, right Kaira? That we talk about this stuff."
     scene v126 with dissolve
@@ -499,7 +461,7 @@ label van1:
             m "But, thank you~"
         "Compare her mental attributes":
             p "You're a more mature, kind woman."
-            p "I trust you as my [mr] and I owe you everything."
+            p "I trust you as my [mr] and I owe you everything, really."
             scene v160 with dissolve
             m "That makes me feel happy, [p]. Thank you."
     scene v161 with dissolve
@@ -688,14 +650,14 @@ label van1:
     scene v218 with dissolve
     n "I wanna check off having sex on the beach off my bucketlist."
     scene v219 with dissolve
-    p "I would usually be more subtle, Kaira, but you good with me and Nicole just going off and leaving you?"
+    p "I would usually be more subtle, Kaira, but you're good with me and Nicole just going off and leaving you?"
     scene v220 with dissolve
     s "Yup~! I love the beach, I'll be all good!"
     scene v221 with dissolve
     n "See? Kaira's a good girl. She knows when mommy and daddy have to do their thing."
     p "Haha, so now we're mommy and daddy."
     scene v222 with dissolve
-    n "Mommy might bit too much for me, but you're always my daddy~"
+    n "Mommy might be a bit too much for me, but you're always my daddy~"
     n "So come on, let's go, daddy~"
     p "Alright, alright. See you soon, Kaira?"
     scene v223 with vpunch
@@ -714,18 +676,30 @@ label van1:
     scene v227 with dissolve
     s "..."
     scene black with fade
+    play music "sounds/emotion.mp3" fadeout 1
+    scene v228 with fade
+    p "We're far enough. This looks like a good spot."
+    scene v229 with dissolve
     n "So listen. I want to try anal again."
     p "Sounds good to me!"
+    scene v230 with dissolve
     n "But it might hurt. For me that is. But I hope I can control my tight little anus a bit better. I have to train it if I want to get better."
     p "Again, no complaints from me!"
+    scene v231 with dissolve
     n "Good, good."
+    scene v232 with dissolve
     n "Oh my god, I can't wait. Let's just go here. I'm just going to prepare first."
+    scene v233 with dissolve
     p "How do you prepare for anal?"
     n "It hurts, you know. I have to get mentally prepared."
+    scene v234 with dissolve
     p "I don't want you to suffer too much. You don't have to feel pressured."
+    scene v235 with dissolve
     n "No no, that's alright. My tight little anus is going to squeeze your cock so hard, I'll make you cum way quicker than you can make me cum."
     p "Oh so it's a competition!"
+    scene v236 with dissolve
     n "It makes me feel powerful. And besides, I love pain, didn't you know?"
+    scene v237 with dissolve
     n "To feel pushed down, violated in a place that wasn't made for cock, forced to use all my holes to please. Does that sound depraved?"
     menu:
         "A little":
@@ -735,123 +709,315 @@ label van1:
             $ depravity += 1
             p "This is how all slutty little whores should be."
             p "You were made just for this."
+    scene v238 with dissolve
     n "Thanks babe."
-    n "Ah~ I'm done preparing. My pussy is getting wet, but of course, that has nothing to do with my butthole."
+    n "I didn't know you were so insightful."
+    p "Oh but I am!"
+    scene v229 with dissolve
+    n "Hehe~"
+    n "Ah~ I'm done preparing."
+    scene v230 with dissolve
+    n "My pussy is getting wet, but of course, that has nothing to do with my butthole."
+    scene v231 with dissolve
+    play music "sounds/kiss.mp3" fadeout 1
     n "So come, [p]. Violate me~"
+    scene v242 with dissolve
+    p "You dirty little minx. Spread apart just for me?"
+    n "Oh yeah babe~"
+    n "Just for you. Can you imagine going into my tight little anus?"
+    scene v241 with dissolve
+    n "You must be sooo hard."
+    p "You bet. And I'm going to take it out on you."
     # Anal sex scene
-    # back to the beach - niocole stays behind - doesn't want kaira to see her like this - brings up feeling bad for kaira
+    image n22 = Movie(play="/animations/n22.webm")
+    scene n22 with dissolve
+    $ renpy.pause()
+    n "Fuuuuck~!"
+    p "A dirty mouth and a dirty ass. You're quite the combination."
+    n "God, am I tight or are you just big?"
+    n "I thought I relaxed already!"
+    image n23 = Movie(play="/animations/n23.webm")
+    scene n23 with dissolve
+    p "What does it feel like?"
+    n "It's a burning feeling every time you push yourself in, but it turns me on- ah~"
+    n "It turns me on so much~!"
+    p "Do you want me to switch to your pussy?"
+    n "N-No. I... need... to... get... better~!"
+    n "Ah~!"
+    n "By the way..."
+    n "If it makes you cum first... it's worth it..."
+    image n24 = Movie(play="/animations/n24.webm")
+    scene n24 with dissolve
+    n "Ohh... {i}sob{/i}."
+    p "Nicole?"
+    n "Just... tearin'... up a little..."
+    n "(Fuck, just bear in there a little bit, Nicole!)"
+    n "A-are you... close?"
+    "She whimpered, but she had an ego to maintain, and couldn't go back here. Not now."
+    p "I'm getting there. I'm going to speed up, okay?"
+    n "Fucking speed up already~! Rail me hard!"
+    image n25 = Movie(play="/animations/n25.webm")
+    scene n25 with dissolve
+    n "AHHH!"
+    "I sped up, thrusting myself into her ass. Nicole buckled as I slammed my hips against her, making slapping sounds that echoed round the cave."
+    "This was mirrored by her screams every time she felt the pain, her eyes tearing up from pain and pleasure."
+    "She had wanted to relax herself, but her asshole only squeezed harder, trying to expel the cock that was violating her."
+    "And suddenly, it was too much."
+    scene v243 with flash
+    p "Kaira, I'm cumming!"
+    scene v244 with flash
+    $ renpy.pause()
+    scene v245 with flash
+    $ renpy.pause()
+    scene v246 with flash
+    $ renpy.pause()
+    scene v247 with flash
+    $ renpy.pause()
+    scene v248 with flash
+    $ renpy.pause()
+    scene v249 with dissolve
+    play music "sounds/missingyou.ogg" fadeout 1
+    n "Oh my..."
+    n "I think this time I definitely won't be able to move."
+    scene v250 with dissolve
+    n "And it's all because of you, stud."
+    scene v251 with dissolve
+    n "I can feel the sticky all over my back. It's going to be a bitch to clean up."
+    n "Looks like you came quite a bit. Looks like I did my job pretty well~"
+    p "Are you alright there? You look wasted."
+    n "Hang on, I can get up. I think."
+    scene v252 with dissolve
+    n "Fuuuck."
+    n "My asshole is so sore right now. It's spasming."
+    n "I'm scared to spread my legs now."
+    n "And you just get off with no consequences."
+    scene v253 with dissolve
+    n "Now, I was probably distracted back there, but I think I heard you call out Kaira when you came."
+    p "Ahaha... did I?"
+    n "Oh? So you {i}do{/i} think of Kaira when you have sex with me. I bet this wasn't the first time either."
+    p "..."
+    scene v254 with dissolve
+    n "Poor girl. Did you see the way she look at me back there?"
+    n "I like teasing other girls, but even I think I went too far there."
+    p "Yeah, I feel bad for her too. But, I don't know why she came to my mind."
+    scene v255 with dissolve
+    n "Having lewd thoughts of your [sr] is so sexy. I would know about it. Trust me."
+    p "You're talking about Saffron."
+    n "Let's talk more about Kaira."
+    scene v256 with dissolve
+    n "She likes you too, you know."
+    p "What are you, a wingman?"
+    n "Why don't you tell her how you feel?"
+    p "What a dumb question."
+    n "It's the truth though, isn't it? It's better that she finds out from you, and not in other ways."
+    n "I mean, what if she found out by watching us have sex and overhearing this?"
+    p "S-she's not watching right now, is she?!"
+    scene v257 with dissolve
+    n "Relax, [p]. I wouldn't do that to you."
+    n "Now go back, please. I need some time to rest up, and I don't want Kaira to see me like this."
+    p "Man, you're just like a used up sex toy. Only available for sex and once that's done you're out."
+    scene v258 with dissolve
+    n "Are you hitting on me?"
+    p "Damn Nicole, you're just too sexy."
+    scene v253 with dissolve
+    n "I love you too, [p]."
+    p "Love ya, Nicky. See you soon."
+    # back to the beach - nicole stays behind - doesn't want kaira to see her like this - brings up feeling bad for kaira
+    play music "sounds/automata.mp3" fadeout 1
+    scene v259 with fade
     p "Kaira!"
+    scene v260 with dissolve
     s "[p]!"
+    scene v261 with dissolve
     s "Eh, where's Nicole?"
     p "She's just uh, cleaning up. She'll be right here."
+    scene v262 with dissolve
     s "Oh, is she okay? Should I go check on her?"
     p "Don't worry, fuck her. We got some time to ourselves. Let's just hang out."
+    scene v263 with dissolve
     s "Oh, okay, hehe!"
     ## Move
+    scene v264 with fade
     p "So what did you get up to in the meantime?"
+    scene v265 with dissolve
     s "Just, enjoying the beach... waiting for you guys to come back, haha."
     p "So sorry to just ditch you like that."
+    scene v266 with dissolve
     s "It's okay, [p]. It was a little lonely, but I don't mind."
     p "Ah."
+    scene v267 with dissolve
     s "So how was your... time with Nicole?"
+    scene v268 with dissolve
     p "Ha, you really want to hear about it? Feels a little weird."
+    scene v269 with dissolve
     s "I know I'm your [sr], but Nicole tells me a lot too!"
+    scene v270 with dissolve
     p "Well in that case, I might just let Nicole clue you in on what happened."
-    p "But ti sum it up, it was pretty great."
+    scene v271 with dissolve
+    p "But to sum it up, it was pretty great."
     s "Grr, I feel like I'm missing out!"
     s "Eh... feeling a little jealous."
+    scene v272 with dissolve
     s "Nicole gets to have what she wants, and she has all the fun."
     p "She {i}is{/i} very attractive."
+    scene v273 with hpunch
     s "But I'm sexy too! Right?"
     p "You are, Kaira, you're a beautiful girl in and out."
+    scene v274 with vpunch
     s "Good!"
     p "..."
+    scene v275 with dissolve
     s "(What if I wasn't [p]'s [sr]?)"
+    scene v276 with dissolve
     s "Hey, [p]. Do you think you'd date me if I wasn't your [sr]?"
+    scene v277 with dissolve
     s "Oh, I wouldn't be able to compete with Nicole anyway..."
     s "(Maybe it's better off that I'm his [sr], so that I have an excuse to be close to him without being his girlfriend.)"
+    scene v278 with dissolve
     p "C'mon Kaira, who wouldn't want to date you? You gotta have some confidence!"
     s "It's hard to not feel insecure around Nicole."
+    scene v279 with dissolve
     p "No way you'd say that - for example, you're really proud of your boobs right?"
     p "That's something you've got against Nicole."
+    scene v280 with dissolve
     s "Hehe, I suppose. But I just feel lonely sometimes. I want some love too."
     p "There got to be a ton of boys out there jumping to get into your pants."
+    scene v281 with dissolve
     s "Yeah, you already said. But they're all different from what I want. They're not like... you."
     p "Very few people are. I like to think I'm special."
+    scene v282 with dissolve
     s "Ahaha. I wish I was special."
     p "You are. I wish you knew how much of an attractive girl you are."
+    stop music fadeout 1
+    scene v283 with dissolve
     s "..."
+    s "I..."
+    scene v284 with dissolve
+    play music "sounds/worlds.mp3"
     s "You're so nice to me. I hope Nicole really appreciates you."
+    "Fuck, should I just let Kaira know about what I said to Nicole?"
+    "Nicole's going to tell her anyway, right? It's best I say it."
     p "Hey. I'm going to let you on to a little something."
+    scene v285 with dissolve
     p "Hell... Nicole is probably going to tell you this anyway, so let me just say it to you instead."
     p "When I do it with Nicole... I can't help it, but..."
     p "..."
     p "Sometimes... I think about you Kaira."
+    scene v286 with vpunch
     s "!!"
     s "Y-you think about me?"
+    scene v287 with dissolve
     s "W-what do you mean?"
     p "I keep you in my mind. You've gotten into me."
+    scene v288 with dissolve
     s "[p], I don't know what to say..."
     p "How do you feel?"
     s "M-my heart is beating really fast, I feel like I'm going to faint b-but!"
     s "I feel... happy?"
+    scene v289 with dissolve
     p "Haha, what am I saying. I'm saying the strangest things today."
+    scene v290 with dissolve
     s "No, no, don't say that!"
+    scene v291 with dissolve
     s "I mean, it is a little strange, but I liked hearing that."
-    s "I like you when you're being honest. It... means you even more attractive."
+    s "I like you when you're being honest. It... makes you even more attractive."
+    scene v292 with dissolve
     s "And to think, maybe you feel a little bit of that about me."
     s "Thank you."
     p "Hang on, are you having a bit of a crush on me then?"
+    scene v293 with dissolve
     s "Heh, guys are soo dense."
     p "Well. I had an inkling. I didn't know if you were just having fun or if it was something more."
+    scene v294 with dissolve
     s "Girls really have to spell it out to the guys."
     p "Yeah, I'm not that smart, Kaira."
     s "I was afraid to say it. I was afraid of what you would think. I am your [sr], after all."
-    p "Some time ago, I might have felt that way. But if I did now, I would be hypocrite."
+    p "Some time ago, I might have felt that way. But if I did now, I would be a hypocrite."
+    scene v295 with dissolve
     s "A hippo-what?"
     p "Never mind, haha."
+    scene v296 with dissolve
     s "So... you don't mind?"
     p "Mind what?"
+    scene v297 with dissolve
     s "You're going to make me say it!"
     p "Haha. All it is that you find me attractive. And I also find you attractive."
     p "So what are are you going to do about it?"
+    scene v298 with dissolve
     s "Huh?"
+    scene v299 with dissolve
     s "What I want to do?"
     p "Yeah."
+    scene v300 with dissolve
     s "I..."
+    scene v301 with dissolve
     s "...can I please kiss you?"
     p "Oh?"
     s "But this time, I want it to be different."
     p "Different huh?"
+    scene v302 with dissolve
     "I looked her in the eyes. Those large, soft eyes with a hint of vulnerability."
-    "What would it do if I rejected her request here?"
+    "What would she do if I rejected her request here?"
     "I couldn't do that."
     "I leaned in."
-    # Kiss
+    scene v303 with flash
+    $ renpy.pause()
+    scene v304 with flash
+    $ renpy.pause()
+    scene v305 with flash
+    $ renpy.pause()
+    scene white with fade
+    play music "sounds/cyberpunk.mp3" fadeout 1
+    scene v306 with fade
     n "Well, well, well. Look at who's coming out of their shell."
     n "A part of me thought it'd never happen."
+    scene v307 with dissolve
     x "You shouldn't have. After all, it's happened every time so far."
+    scene v308 with dissolve
     n "Has it now? Depraved much?"
+    scene v309 with dissolve
     x "Embracing depravity is not as important as coming to terms with one's own depravity."
     x "It's about the insight."
-    n "So why did you show up now? What have you got to tell me."
+    scene v310 with dissolve
+    n "So why did you show up now? What have you got to tell me?"
+    scene v311 with dissolve
     x "Things are in motion now, more so than before. You're not the only main character."
     n "That's alright. I'm just here to have fun."
+    scene v312 with dissolve
     x "..."
-    n "(Gone already.)"
+    scene v313 with dissolve
+    n "You should have some fun too-"
+    n "(Damn, she's gone already.)"
+    scene v314 with hpunch
+    play music "sounds/emotion.mp3" fadeout 1
     s "Ah, oh, Nicole is back."
+    scene v315 with dissolve
     n "Hey, you beautiful couple!"
+    scene v317 with dissolve
     p "Couple? What are you on about."
+    scene v316 with dissolve
     n "Hahaha!"
+    scene v318 with dissolve
     s "What took you so long, Nicole? I was getting worried!"
+    scene v319 with dissolve
     n "You see, when [p] took his time penetrating me, he left me in a bit of a mess and I needed to take a little time to rest."
     n "It was pretty damn wild!"
     s "Wow, that sounds like it was really fun."
+    scene v320 with dissolve
     n "Alright, alright, I'll stop showing off."
+    scene v321 with dissolve
     p "If you really were that destroyed after our session, we might have to call it a day, Nicole."
     n "Huh? I wouldn't want to be a wet blanket. Why don't we ask Kaira?"
+    scene v322 with dissolve
     s "Well, I had a lot of fun too today, more than my fill! So I'm happy to go."
     n "I'm sure you did, Kaira."
+    scene v323 with dissolve
     n "I passed by the van on the way here, and Amanda is chilling there. I think everyone's ready to wrap up."
     s "Are you ready to go, [p]?"
     p "Alright, it's been an eventful day. Time to go back to the hotel and rest!"
+    stop music fadeout 1
+    scene black with fade
+    "How I managed to drive all the way back to the hotel was a mystery, but we made it somehow."
+    "We were all so tired, we fell asleep almost immediately."
+    "Too bad there was no time for any further shenanigans!"
+    jump caroline_trip

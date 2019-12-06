@@ -1057,7 +1057,7 @@ label nicoletalk:
         n "Let me know more when you have news, okay?"
         p "Deal."
         "Now time to tell [mr] about the trip!"
-        call daykeep
+        call daykeep from _call_daykeep_48
         $ nicolelvl += 1
         jump living_room
     ## nicolelvl 10 in future

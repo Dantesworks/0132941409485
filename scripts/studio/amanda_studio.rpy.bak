@@ -347,7 +347,7 @@ label amanda_studio:
             $ renpy.pause()
             m "I'm glad, [p]. Let me help you unload that stress~"
             # sex scene
-            image a1 = Movie(play="/animations/a1.mp4")
+            image a1 = Movie(play="/animations/a1.webm")
             scene a1 with dissolve
             p "Urgh, [mr], I-"
             m "Shh... [p]..."
@@ -355,11 +355,11 @@ label amanda_studio:
             m "After all, this is what a girlfriend would do..."
             "She gripped my shaft and twisted as her hand travelled up and down."
             "It was as though she was making love to my cock with her hand."
-            "Carressing it, milking it, savouring the feeling of a warm rod in her hands."
+            "Caressing it, milking it, savouring the feeling of a warm rod in her hands."
             m "Do you want [mr] to go faster, [p]? Will it help you feel better?"
             p "Ah-"
             m "Let's go faster, hmm?"
-            image a2 = Movie(play="/animations/a2.mp4")
+            image a2 = Movie(play="/animations/a2.webm")
             scene a2 with dissolve
             "Her speed increased and her grip over my shaft tightened like a vice, forcing me closer to the edge."
             "In this moment, she was in control of me."
@@ -375,7 +375,7 @@ label amanda_studio:
             $ renpy.pause()
             m "I leaned back, but it still covered me..."
             m "This is what it feels like... I remember now..."
-            p "Wow, [mr], wow. We just crossed a line into depravtity."
+            p "Wow, [mr], wow. We just crossed a line into depravity."
             scene a-212 with dissolve
             m "Any regrets?"
             menu:
@@ -406,8 +406,8 @@ label amanda_studio:
             scene black with fade
             "Wow, what a day. What a day indeed."
             $ amandalvl += 1
-            call daykeep
-            call daykeep
+            call daykeep from _call_daykeep_43
+            call daykeep from _call_daykeep_44
             jump hallway
         if amandalvl == 14:
             scene black with fade
@@ -473,8 +473,10 @@ label amanda_studio:
                     "Was I always like this?"
                     p "You're onto something Vincent."
                     p "There's something I'm apprehensive about."
-                    "It might be wrong, but I'm going to do it anyway."
-                    p "And there's nothing you can do for me now."
+                    "I think at the end of it, this is what [mr] really wants. That's why she wanted to see my penis in the first place."
+                    "She wants us to be together, but she just can't get through those boundaries she puts around herself."
+                    "It might seem wrong, but I think this is the right thing to do."
+                    p "There's nothing you can do for me now."
             scene a-19_1 with dissolve
             v "If you say so man."
             v "Just let me know if you need someone to talk to, alright?"
@@ -599,21 +601,21 @@ label amanda_studio:
             p "Err..."
             m "I can't wait!"
             # BJ
-            image a3 = Movie(play="/animations/a3.mp4")
+            image a3 = Movie(play="/animations/a3.webm")
             scene a3 with dissolve
             p "Oh fuck!"
             $ renpy.pause()
             "Without any warning, she thrust herself onto me, enveloping my cock in the velvety smooth textures of her mouth."
             "While her flesh covered every part of my cock, her tongue carressed me from underneath."
             m "Mmm...mmm...mmm...mmm..."
-            image a4 = Movie(play="/animations/a4.mp4")
+            image a4 = Movie(play="/animations/a4.webm")
             scene a4 with dissolve
             $ renpy.pause()
             "Seeing [mr] on all fours sucking my dick was a sight to behold indeed."
             "To see her below me, to see her servicing me."
             "Wordless. Just here to satsify me and satiate her own desire for cock."
-            "Nothing but the sound of her rhthymic moaning and lust and the sounds of the perverted sounds coming from her mouth."
-            image a5 = Movie(play="/animations/a5.mp4")
+            "Nothing but the sound of her rhythmic moaning and lust and the perverted sounds coming from her mouth."
+            image a5 = Movie(play="/animations/a5.webm")
             scene a5 with dissolve
             $ renpy.pause()
             "With her eyes still closed, she sped up her rhythm, reaching further, deeper."
@@ -621,13 +623,13 @@ label amanda_studio:
             p "You must have practised on a dildo at home or something. Who were you imagining you were blowing?"
             m "Mm~"
             p "Was it me?"
-            image a6 = Movie(play="/animations/a6.mp4")
+            image a6 = Movie(play="/animations/a6.webm")
             scene a6 with dissolve
             $ renpy.pause()
             "She did not reply, but continued her pace."
             "My [mr] is such a beautiful and sexy woman."
             "Her mouth feels like heaven, and look at those fat tits swinging back and forth!"
-            image a7 = Movie(play="/animations/a7.mp4")
+            image a7 = Movie(play="/animations/a7.webm")
             scene a7 with dissolve
             $ renpy.pause()
             "Her eyes were still closed. She was completely entranced in the sensation of my cock in her mouth."
@@ -635,7 +637,7 @@ label amanda_studio:
             "Her tongue swept through every spot of my dick and then re-explored them again, as if she had forgotten."
             "Continuously familiarising herself with my cock."
             "I can see why she keeps her eyes closed - she was completely in love with the way my cock felt."
-            image a8 = Movie(play="/animations/a8.mp4")
+            image a8 = Movie(play="/animations/a8.webm")
             scene a8 with dissolve
             $ renpy.pause()
             "Finally, she opens her eyes."
@@ -668,13 +670,13 @@ label amanda_studio:
             p "We should be allowed to live and love."
             scene a-329 with dissolve
             m "These things are just... physical, [p]. And it was a physical temptation that overcame me."
-            p "But we love each other too! How many times have we told each other?"
-            p "I love you I love you I love you, we say it all the time!"
+            p "But we love each other too! We tell each other all time!"
             scene a-330 with dissolve
             m "This is in a different way."
             m "We have to pretend this never happened, yes."
             p "That's what you said last time."
             scene a-331 with dissolve
+            m "I don't know how to deal with this."
             m "I just... want to go back to how things were."
             scene a-332 with dissolve
             m "..."
@@ -685,19 +687,91 @@ label amanda_studio:
             p "Alright [mr], keep it tight."
             m "Thanks."
             scene black with fade
-            "It's a bit of a sorry sight, with [mr] pretending everything's normal while my cum is splashed over her face."
-            "But just wait [mr], I'll show you that some things are worth confronting."
-            "But I can't forget. If she orgasms, then the aphrodisiac will wear off."
+            "When she looks at me, how does she see me? I really think she sees me as something more."
+            "She just needs some convincing... right?"
+            "But I can't forget... if she orgasms, the aphrodisiac will wear off."
             "This means the aphrodisiac will only let me have sex with her once."
-            "Will she sober up and keep suppressing her urges afterwards?"
-            "Or will I be able to break through to her so that still fucks me after?"
+            "Once it wears off... will she go back to her boundaries, or will she stay open to me?"
             # end
-            scene splash_amanda with fade
-            d "Find out next time, on Depravity."
             scene black with fade
+            $ amandalvl += 1
+            call daykeep from _call_daykeep_45
+            jump map
+        if amandalvl == 20:
+            play music "sounds/wisteria.mp3" fadeout 1
+            scene a-114 with fade
+            p "Hey [mr]."
+            scene a-124 with hpunch
+            m "[p]! I- um, I'm sorry-"
+            m "I'm just a bit frazzled, I-I-I wasn't expecting you and uh-"
+            p "It's alright, [mr], I'm a little bit like that too, but there's something important we have to do."
+            p "We need to talk, [mr]!"
+            scene a-123 with dissolve
+            m "...what do you wish to talk about?"
+            p "About what happened the other day, about what how we... loved each other."
+            m "Oh, but [p]... you know how I feel about it."
+            scene a-291 with dissolve
+            p "So let's talk about it, please. It's because I understand it now."
+            p "I just want to be honest."
+            m "..."
+            scene a-126 with dissolve
+            m "That day, I'm not sure what overcame me. I acted purely on my impulse, [p]."
+            m "I felt a burning desire, and I acted on it. I felt... an attraction."
+            m "The kind that a woman feels for a man. After all... it's been so long since my husband."
+            m "Can you understand where I'm coming from?"
+            scene a-127 with dissolve
+            p "It's a mutual thing, [mr]."
+            m "I'm sorry to have done this to you."
+            p "No, that- it's not your fault."
+            p "It... it was mine."
+            scene a-290 with dissolve
+            p "It might sound stupid, but I put an aphrodisiac on my penis. I was told it would work. To be honest, I wasn't sure."
+            p "It's dumb, huh? It was all me."
+            scene a-287 with dissolve
+            p "But, it was because I really believed there's something between us, I know it!"
+            scene a-289 with dissolve
+            m "You would go that far, [p]?"
+            p "..."
+            m "You... like me back?"
+            p "I..."
+            scene a-294 with dissolve
+            p "You couldn't help yourself, [mr], but back then, I couldn't help myself either."
+            p "I wanted it to happen real bad."
+            scene a-289 with dissolve
+            m "(I think I might too...)"
+            scene a-288 with dissolve
+            m "Oh, it's not your fault, [p], you couldn't help yourself. How could you, that means your [mr] has still got it, huh?"
+            p "Ah, haha."
+            scene a-286 with dissolve
+            m "But, how do we know if any of this is... natural? All this could be fake, just because of the aphrodisiac."
+            p "I didn't use it the day when we had the photoshoot with Nyx and Maya. Back then, that was really you."
+            p "And I was devastated afterwards, I really wanted it to continue, and I was selfish."
+            p "Anyway, I said my bit."
+            m "..."
+            scene a-285 with dissolve
+            m "I feel happier already, [p]. Thank you for being honest with me."
+            p "So, what now?"
+            m "What now? We just go about it naturally."
+            p "What does that mean?"
+            scene a-288 with dissolve
+            m "It means we put this behind us, and whatever happens, happens."
+            scene a-291 with hpunch
+            p "But the aphrodisiac, there's something about it which you should know, it's-"
+            scene a-115 with dissolve
+            m "Come on, [p], did you really think there is such thing as a working aphrodisiac?"
+            p "Huh?"
+            p "Hang on, does this mean..."
+            scene a-119 with dissolve
+            m "Thank you for visiting today, [p], you've helped me learn something."
+            m "I've got to get back to work now!"
+            p "Oh, okay, no problem. I'll see you later."
+            scene black with fade
+            "Hmm..."
+            "What does this all mean?"
             $ amandalvl += 1
             call daykeep
             jump map
+
         else:
             v "Ooh, Amanda isn't available right now."
             v "Try again later!"

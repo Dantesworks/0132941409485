@@ -43,5 +43,9 @@ up to [p] to bring her back to earth." justify True size 18
                 text "Go the University location on the map." justify True size 18
             elif olivialvl == 10 and plugged2 == False:
                 text "Put in the butt plug for her and follow her at the end." justify True size 18
+            elif olivialvl == 11:
+                text "Go the University location on the map." justify True size 18
+            elif olivialvl == 12:
+                text "Go the University location on the map." justify True size 18
             else:
                 text "Content complete for now - this is a patreon commissioned character." justify True size 18
