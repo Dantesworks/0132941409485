@@ -29,7 +29,7 @@ label drinksmenu:
     c "What would the gentleman like today?"
     menu:
         "Original Dante - $20":
-            if cash - 10 < 0:
+            if cash - 20 < 0:
                 scene cb-3
                 c "You don't have enough money - are you sure you're not drunk already?"
             elif drinks:
@@ -37,10 +37,11 @@ label drinksmenu:
                 c "You've already ordered a drink, would you like to order another one?"
                 menu:
                     "Yes":
-                        $ cash -= 10
-                        $ premiumcount += 10
+                        $ cash -= 20
+                        $ premiumcount += 20
                         $ russian = True
                         call drinks from _call_drinks_2
+                        jump barask
                     "No":
                         jump barask
             else:
@@ -62,6 +63,7 @@ label drinksmenu:
                         $ premiumcount += 10
                         $ russian = True
                         call drinks from _call_drinks_3
+                        jump barask
                     "No":
                         jump barask
             else:

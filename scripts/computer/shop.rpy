@@ -164,33 +164,33 @@ label sex_shop:
 label bog:
     scene bog
     menu:
-        "Reset BCC value to 10 - $200":
+        "Reset BCC value to 10 - $100":
             "Are you sure?"
             menu:
                 "Yes":
-                    if cash < 200:
+                    if cash < 100:
                         "Transaction failed - insufficient funds."
                     else:
                         $ exchangeRate = 10
-                        $ cash -= 200
+                        $ cash -= 100
                         $ bogged = True
                         "We're all going to make it."
                 "No":
                     jump bog
-        "Pump it (Increases BCC value by 100) - $200":
-            if cash < 200:
+        "Pump it (Increases BCC value by 100) - $100":
+            if cash < 100:
                 "Transaction failed - insufficient funds."
             else:
                 $ exchangeRate += 100
-                $ cash -= 200
+                $ cash -= 100
                 $ bogged = True
                 "We're all going to make it."
-        "Dump it (Decreases BCC value by 20 percent) - $200":
-            if cash < 200:
+        "Dump it (Decreases BCC value by 20 percent) - $100":
+            if cash < 100:
                 "Transaction failed - insufficient funds."
             else:
                 $ exchangeRate = exchangeRate*0.8
-                $ cash-= 200
+                $ cash-= 100
                 $ bogged = True
                 "We're all going to make it."
         "Back":

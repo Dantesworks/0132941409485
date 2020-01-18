@@ -31,6 +31,7 @@ define ma = Character("Maya")
 define b = Character("Belle")
 define an = Character("Angelina")
 define thug = Character("Druglord")
+define spa = Character("Spa Girl")
 
 define w = Character("Widowmaker")
 # The game starts here.

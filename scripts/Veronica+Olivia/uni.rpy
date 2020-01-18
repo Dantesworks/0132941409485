@@ -304,7 +304,7 @@ label uni:
                 p "You're going to wear my present to you. And you will love it."
                 scene o-124 with dissolve
                 o "This?"
-                o "This barely covers anything. Do I like like a punk to you? Those years are behind me."
+                o "This barely covers anything. Do I look like a punk to you? Those years are behind me."
                 o "What a gross outfit!"
                 scene o-125 with hpunch
                 p "Hey hey hey-"

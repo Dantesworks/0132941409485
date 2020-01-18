@@ -529,7 +529,7 @@ label vincent_studio:
                 ny "Once Maya and I reached her blissful climaxes, our lust rapidly subsided."
                 p "Good to know."
                 scene a-279 with dissolve
-                ma "We're telling you this because we thought it be useful for you to know that once you made Amanda cum, she'll lose that lust."
+                ma "We're telling you this because we thought it would be useful for you to know that once you made Amanda cum, she'll lose that lust."
                 p "That's fine. I'll just use more aphrodisiac. You guys got more, right?"
                 scene a-280 with dissolve
                 ny "..."
@@ -547,7 +547,7 @@ label vincent_studio:
                 scene a-284 with dissolve
                 ny "So don't be in too much of a rush, [p], but do enjoy your treat."
                 p "Thanks."
-                ny "We've got to get back to work, and I'm sure you've got something you want to do to, isn't that right~?"
+                ny "We've got to get back to work, and I'm sure you've got something you want to do too, isn't that right~?"
                 ma "Until next time, [p]."
                 p "Seeya."
                 scene black with fade

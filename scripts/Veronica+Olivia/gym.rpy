@@ -1001,7 +1001,7 @@ label gym:
         wai "Knowing the occassion, may I make a recommendation?"
         p "Go ahead, I'm curious."
         scene r270 with dissolve
-        wai "Veronica comes here a lot. I know her tastes, and I know what she finds {i]stimulating{/i}."
+        wai "Veronica comes here a lot. I know her tastes, and I know what she finds {i}stimulating{/i}."
         scene r271 with dissolve
         wai "Are you interested?"
         p "Will it make her more adventurous?"

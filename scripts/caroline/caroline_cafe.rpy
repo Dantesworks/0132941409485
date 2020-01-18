@@ -1164,6 +1164,7 @@ label Caroline:
         scene black with fade
         "A few moments later..."
         ## Scene change Attack on titan
+        label aot:
         play music "sounds/effects/aot1.mp3"
         scene aot-1 with hpunch
         p "V-Vincent?"

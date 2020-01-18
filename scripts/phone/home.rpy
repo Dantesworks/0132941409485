@@ -49,9 +49,12 @@ screen homescreen():
             action [Hide("homescreen"), Show("olivia_profile")]
         imagebutton:
             focus_mask True
+            idle "phone/icon/angelina_icon.png"
+            action [Hide("homescreen"), Show("angelina_profile")]
+        imagebutton:
+            focus_mask True
             idle "phone/icon/BCC_icon.png"
             action [Hide("homescreen"), Show("btc"), Play("voice", "sounds/boom.mp3"), PauseAudio("music", True)]
-        null
         null
         null
         null

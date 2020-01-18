@@ -1,4 +1,5 @@
 default cowgirl = False
+
 label cowgirl:
     scene black with fade
     play music "sounds/path.mp3" fadeout 1
