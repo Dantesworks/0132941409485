@@ -365,7 +365,7 @@ label kairatalk:
         p "I- I just got distracted for a bit. Sorry, what's up?"
         s "..."
         s "Never mind, [p]~"
-        s "We've here!"
+        s "We're here!"
         scene k-32 with fade
         play music "sounds/missingyou.ogg" fadeout 1
         s "Let's go grab a seat, go go go!"
@@ -1613,7 +1613,7 @@ label kairatalk:
         jump kaira_room
     if kairalvl == 10:
         scene black
-        play music "sounds/sun.mp3"
+        play music "sounds/wanderer.mp3"
         menu:
             "Let the others know, and go on the trip!":
                 d "You will not be able to return until the trip is over."

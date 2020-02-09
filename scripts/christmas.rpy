@@ -108,7 +108,7 @@ label christmasdone:
     scene c-25
     s "It's not easy, I know, but you're going to be okay, do you hear me!"
     scene c-26
-    s "You're going a good job [p]."
+    s "You're doing a good job [p]."
     p "... Thanks Kaira, that... means something to me."
     scene c-29
     s "I just want you to accept yourself."

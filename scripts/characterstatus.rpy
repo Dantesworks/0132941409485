@@ -13,7 +13,7 @@ default camilleshow = []
 default carolineshow = ["1", "4"]
 
 default times = "gamer"
-default lines = "boi"
+default lines = "grill"
 
 ## Character lvl
 default amandalvl = 1

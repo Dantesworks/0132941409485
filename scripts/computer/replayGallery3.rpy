@@ -25,7 +25,7 @@ label gallery3:
                     focus_mask True
                     idle "gallery_buttons/r20.png"
                     hover "gallery_buttons/r20h.png"
-                    action Jump("verc3")
+                    action Jump("ver3")
             else:
                 null
             null

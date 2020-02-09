@@ -1096,8 +1096,7 @@ label Caroline:
         scene cd-24 with dissolve
         x "All things considered, your outcome isn't the worst, is it?"
         x "Continue on, [p]. You have much yet to learn about depravity."
-        scene splash_caroline with dissolve
-        d "This is the end of Caroline's chapter so far - I hope you enjoyed it and stay tuned for next time!"
+        scene black with fade
         $ carolinelvl += 1
         call daykeep from _call_daykeep_38
         jump map

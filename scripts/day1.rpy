@@ -32,7 +32,7 @@ define b = Character("Belle")
 define an = Character("Angelina")
 define thug = Character("Druglord")
 define spa = Character("Spa Girl")
-
+define douche = Character("Douche")
 define w = Character("Widowmaker")
 # The game starts here.
 
@@ -70,7 +70,7 @@ label splashscreen:
     #$ renpy.pause(2.0,hard=False)
     #$ renpy.pause()
 
-    scene splash2
+    scene splash2_2
     with Dissolve(1)
 
     $ renpy.pause(2.0,hard=True)

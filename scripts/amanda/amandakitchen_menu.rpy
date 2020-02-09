@@ -610,8 +610,11 @@ label amandakitchen:
         "Should I use the aphrodisiac... or not?"
         "I don't even know if it works... but if it does..."
         "Should I even try it?"
+        label aphro_choice:
         menu:
             "Don't use it.":
+                d "Sorry, this route is a WIP!!"
+                jump aphro_choice
                 default wildbillvariant = False
                 $ wildbillvariant = True
                 "There must be another way to do this."

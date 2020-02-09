@@ -171,176 +171,314 @@ label hotel2:
     scene black with fade
     "Man, it's been a long day."
     "But the girls should be back by now."
+    play music "sounds/wisteria.mp3" fadeout 1
     p "Hello? Are you there [mr]?"
+    scene ct290 with fade
     m "[p]! I was wondering where you had went."
     p "Haha, maybe I should have left a note like you did."
     p "I didn't think I'd be gone as long as I was."
     p "How is everything?"
+    scene ct291 with dissolve
     m "We went shopping for some formal clothing. Something nice and classy."
     p "Oh really?"
+    scene ct292 with dissolve
     m "Kaira and Nicole got outfits too."
     p "Oh cool. I can't wait to see what you guys have picked."
     p "So do I get to see?"
+    scene ct293 with dissolve
     m "Of course not!"
     p "What, why?"
+    scene ct294 with dissolve
     m "It's a surprise. Tell you what."
     m "Let's organise to go to a place, a fancy restaurant."
     m "Somewhere where we have a reason to wear these kinds of outfits."
     p "We can do that."
+    scene ct295 with dissolve
     p "How about... tomorrow night?"
     m "That sounds great. Let's tell the others tomorrow morning."
+    scene ct296 with dissolve
     m "Now come to bed, and tell me all about your day."
     p "Haha, alright, coming, coming..."
+    scene ct297 with dissolve
     "After what [mr] and I had gone through, sleeping next to her would never be the same."
     "However, It was a long day for me and my limbs were giving way."
+    scene ct298 with dissolve
     "Amanda nodded off and I soon followed."
     scene black with fade
+    stop music fadeout 1
+    scene p21 with fade
+    $ renpy.pause()
+    "The next day..."
+    scene black with fade
     # in the morning Now
+    play music "sounds/coffee.mp3" fadeout 1
+    scene ct299 with fade
     p "Big day yesterday, huh?"
     s "Hmm. It was okay!"
+    scene ct300 with dissolve
     s "Where is this place again?"
     p "It's a coffee place."
+    scene ct301 with dissolve
     s "Coffee? You like coffee, [p]?"
     p "I've uh, started appreciating it more recently."
     p "I remember you and Nicole going to the local cafe before."
     p "Where is she anyway?"
+    scene ct302 with dissolve
     s "She doesn't like coffee to be honest, I think. So she's just getting a drink from somewhere else."
     s "What's so good about coffee anyway?"
+    scene ct303 with dissolve
     s "I only drink it because that's what all the other grown-ups do."
     p "Haha, do you?"
+    scene ct304 with dissolve
     s "Mm!"
     p "Well uh, it wakes you up in the morning. That's because it's bitter."
     p "It's also... about the experience."
+    scene ct305 with dissolve
     p "About being in a cafe, surrounded by people, noise, activity and life."
     p "It's the hustle-bustle of life."
     p "Yes, that's what coffee is."
     s "Okayyy..."
     p "You might not understand today, but I think you will get what I'm saying. One day."
     p "As I have done."
+    scene ct306 with vpunch
     s "You sound so... cool!"
+    scene ct307 with dissolve
     s "I'll drink the coffee because [p] drinks the coffee."
     p "Ay, that's good enough for me."
     p "So, uh, what do you think about the fancy restaurant tonight?"
+    scene ct308 with dissolve
     s "Nicole and I love it!"
     s "It'll be a great chance to show off what we spent so long shopping for the other day, hehe."
-    p "Gonna dress to impress, huh?"
+    p "Speaking of that. That's a new outfit, right? Did you buy that one too?"
+    scene ct309 with dissolve
+    s "Yup!"
+    scene ct310 with dissolve
+    p "It shows quite a bit of skin."
+    s "Do you like it?"
+    p "Do you?"
+    scene ct311 with dissolve
+    s "I'll like it if you like it!"
+    p "Well you clearly like it, don't you Kaira? You bought it right?"
+    scene ct312 with dissolve
+    s "Nicole told me to put it on, and she said I look good in it!"
+    scene ct313 with dissolve
+    s "Something about showing off ass-ets..."
+    p "Those pants hike real high don't they. They're almost like panties."
+    scene ct314 with dissolve
+    s "[p]~!"
+    p "Haha, who am I to say. You're a grown up girl now."
+    p "Gonna dress to impress tonight as well?"
+    scene ct315 with dissolve
     s "I'm going to be impressing everyone at the restaurant!"
     p "Looking forward to drawing eyes, hmm? From all the dudes out there?"
+    scene ct316 with dissolve
     s "Well, girls too... right?"
     p "Some girls too, sure. But there's gonna be lots of guys."
     p "Lots of horny, creepy guys."
+    scene ct317 with dissolve
     s "Eh, if you put it that way..."
     s "But I don't mind, it won't shake me, I'm sure."
+    scene ct318 with dissolve
     p "Haha, I'm just messing around. I'm sure you'll look great."
     p "Hey, tell me about about Nicole."
+    scene ct319 with dissolve
     s "Isn't she your girlfriend?"
     p "Sure she is. But still, you've known her longer."
     p "And she doesn't tell me all the secrets between you two."
+    scene ct320 with dissolve
     s "Ah, so that's what it's about!"
     s "I can't share the gossip with you, [p], Nicole wouldn't want me to!"
     p "Fuck Nicole-"
+    scene ct321 with dissolve
     s "Haven't you done that already?"
     p "..."
     p "Yeah. Yeah I have. Wanna hear about it?"
+    scene ct322 with dissolve
     s "H-Huh?"
     p "Do you want me to describe sex to you?"
     p "You haven't had it before, have you?"
+    scene ct323 with dissolve
     s "Y-You know I haven't done it before..."
     p "So you're a virgin!"
+    scene ct324 with hpunch
     s "Ah! Not so loud, [p]!"
+    scene ct325 with dissolve
     s "What's so bad about being a virgin, anyway? Maybe I'm saving up~"
     p "There's nothing wrong with it. I'm just saying. Maybe then you'd be curious about how sex works?"
+    scene ct326 with dissolve
     s "I'm shyyy... can we do this somewhere else? Please, [p]..."
     p "If you don't want to talk about it, we can talk about Nicole instead. How does that sound?"
+    scene ct327 with dissolve
     s "{i}Sigh{/i}."
+    scene ct328 with dissolve
     s "Okay, but I don't know if I know things you don't aleady know."
     p "I think there's plenty I don't know about."
     p "For instance. The other day, when I walked in on you two giggling. What was that about?"
+    scene ct329 with dissolve
     s "..."
     # kaira blushes
+    scene ct330 with dissolve
     s "Are you sure you wanna know?"
     p "Now I'm super curious."
+    scene ct331 with dissolve
     s "It's just a little embarassing..."
     p "You gotta say it now."
+    scene ct332 with dissolve
     s "..."
     "Don't tell me they're laughing at me behind my back!"
     "A-Are they talking about that funny spot behind my back?"
     "Are my elbows too pointy?"
     "So what if I always skip leg day?!"
     s "She talks about..."
+    scene ct333 with dissolve
     s "...how good your penis feels inside her, and how much... I'm missing out on."
     p "Hey, that's not too bad."
     p "What can I say, Kaira? I'm somewhat of a champ. Thanks for that."
     p "Hahaha!"
+    scene ct334 with dissolve
     s "..."
     s "Is sex that great, [p]?"
     p "It's so good that even when it's bad, it's good."
+    scene ct335 with dissolve
     s "Ehh..."
     p "You should definitely try it sometime."
     s "I'm not just going to have sex with the first stranger that I see!"
     p "I joke, I joke."
     p "I think you're doing the right thing. Wait for the right opportunity to come up."
     s "The right opportunity..."
+    scene ct336 with dissolve
     s "Just like the kiss? Hehe."
+    scene ct337 with dissolve
     s "We kissed, remember?"
     p "It wasn't a dream?"
     s "Hehehe!"
     p "Kissing your [sr] is something very natural. People who are close and love each other do it all the time."
+    scene ct338 with dissolve
     s "Yes, you're right!"
     s "I wasn't sure how I was going to explain it to Nicole."
     p "I don't think you have to. I don't think she even minds."
+    scene ct339 with dissolve
     s "Maybe you're right there too, hehe."
+    scene ct340 with dissolve
     s "After all, I'm your [sr]."
+    scene ct341 with dissolve
     s "Just... your [sr]..."
+    scene ct342 with dissolve
     s "(Was it nothing more? Was [p] just saying I was attractive because I'm his [sr]?)"
     s "(I'm going to look like an idiot! You silly girl, Kaira.)"
     s "(No, but-! Ah, Kaira, you second guess yourself all the time!)"
     s "(What should I do now, Nicole?)"
+    scene ct343 with dissolve
     p "(Nicole, what are you thinking I should do?)"
     p "(Kaira is clearly setting boundaries here.)"
     p "(Are you making things easier for me, or more difficult?)"
     p "(God it's awkward and I don't want to damage my relationship with my [sr].)"
     p "Anyway, since the dinner is tonight, when are you guys getting changed?"
+    scene ct344 with dissolve
     s "Oh, it'll be a long day. Make-up, hair, clothes..."
     s "Nicole will help me through it! She is quite good at it you know?"
     s "I'm always jealous since it looks so effortless from her!"
+    scene ct345 with dissolve
+    play music "sounds/beach.mp3" fadeout 1
     p "Speaking of which, here she is."
-    n "Good morning your gorgeous couple~"
+    scene ct346 with dissolve
+    n "Good morning you gorgeous couple~"
     n "I'm here to grab Kaira."
+    scene ct347 with dissolve
     s "Here!"
+    scene ct348 with dissolve
     p "Morning, Nicole. Have fun with your dress up."
+    scene ct349 with dissolve
     n "Remember to dress up nice too, okay?"
     p "No one looks at guys, it's alright. I think my Kishou Arima outfit will serve be quite nicely!"
     n "If you say so, babe."
+    scene ct350 with dissolve
     n "Come here, quick kiss."
     p "My lips are right here."
-    # kiss
+    scene ct351 with dissolve
+    $ renpy.pause()
+    scene ct352 with dissolve
+    n "Mmm..."
+    scene ct353 with dissolve
+    p "Nicole's lips were juicy and thick, just like her figure. I couldn't get enough."
+    scene ct354 with dissolve
+    n "Well?"
+    p "Yum."
+    scene ct355 with dissolve
+    n "Hmm..."
     # kaira's jealous expression
+    scene ct356 with dissolve
+    $ renpy.pause()
     # perks up, determined
+    scene ct357 with dissolve
     n "Gotta run now~"
+    scene ct358 with dissolve
     s "Seeya, [p]!"
+    scene ct359 with dissolve
     s "But before that, let me give you a kiss too!"
+    scene ct360 with dissolve
     p "Huh?"
+    scene ct361 with dissolve
+    $ renpy.pause()
+    scene ct362 with dissolve
+    s "Mmmmmm"
+    scene ct363 with dissolve
     s "Mwa!"
     s "Okay, time to go!"
     # nicole looks at her incredulously
+    scene ct380 with dissolve
+    n "Kaira... you..."
+    scene ct364 with dissolve
     n "You're a lucky guy, [p]. I'm jealous~"
     p "Yeah, yeah."
+    scene ct365 with dissolve
     p "She's copying all your bad habits."
     n "But it's the part about me you like the most. Isn't that sexy?"
     p "Not as sexy as you lot when you're all dolled up tonight. Off you go!"
+    scene ct366 with dissolve
     n "Just a second."
     n "I want the last kiss."
     # super wet kiss
-    n "I can taste the coffee."
+    scene ct367 with hpunch
+    $ renpy.pause()
+    scene ct368 with dissolve
+    "Nicole attacked me with such ferocity, it was like she was trying to suck my soul out!"
+    scene ct369 with dissolve
+    $ renpy.pause()
+    scene ct370 with dissolve
+    $ renpy.pause()
+    "!!"
+    "Nicole forced her tongue into my mouth, and I found myself playing a game of tongues with her, seeing which one was more dominant."
+    scene ct371 with dissolve
+    $ renpy.pause()
+    scene ct372 with dissolve
+    $ renpy.pause()
+    n "I could taste the coffee."
     n "That was good, [p]."
     p "You're such a vixen."
+    scene ct373 with dissolve
     n "I'll see you tonight."
+    scene ct374 with dissolve
+    n "Keep it tight. For me, okay?"
+    scene ct375 with dissolve
+    $ renpy.pause()
+    scene ct376 with dissolve
+    $ renpy.pause()
+    scene ct377 with dissolve
+    s "See you tonight, [p]~"
+    scene ct378 with dissolve
+    $ renpy.pause()
+    scene ct379 with dissolve
+    $ renpy.pause()
     "Wow, that was hot!"
     "I can't wait for tonight."
+    scene ct381 with fade
     n "Now, my dear Kaira, are you ready to get it on!"
+    scene ct382 with dissolve
     s "How should we start?"
+    scene ct383 with dissolve
     n "Hair first!"
     s "Yus!"
+    stop music fadeout 1
+    jump ball1
     #  LALALAND
-    
