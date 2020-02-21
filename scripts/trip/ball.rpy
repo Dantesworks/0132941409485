@@ -766,26 +766,25 @@ label ball1:
     p "So, did we miss much?"
     scene bd95 with dissolve
     m "Not too much!"
-    scene bd95 with dissolve
-    m "But, Kaira's getting a bit of attention from the boy on the other table."
     scene bd96 with dissolve
-    $ renpy.pause()
+    m "But, Kaira's getting a bit of attention from the boy on the other table."
     scene bd97 with dissolve
+    $ renpy.pause()
+    scene bd98 with dissolve
     s "Ah, [mr]!"
     "Kaira looks down, as if unwilling to meet the eyes of the table nearby."
     m "Don't be shy, Kaira! Enjoy it! Isn't it time you got a boyfriend, anyway?"
     m "If you meet his gaze, he might come talk to you!"
-    scene bd98 with dissolve
-    s "Why would he talk to me? He'll probably talk to you or Nicole first..."
     scene bd99 with dissolve
+    s "Why would he talk to me? He'll probably talk to you or Nicole first..."
     n "Not me. Everyone in the room knows I'm with [p]."
     m "You're the first one they'll look at, Kaira."
     s "Ehh..."
     scene bd100 with dissolve
     n "How does that sound, [p]?"
     n "Your [sr] might finally find a partner just like you with me!"
-    n "She'll finally be able to experience what we're experiencing together, and she won't be missing out anymore."
     scene bd101 with dissolve
+    n "She'll finally be able to experience what we're experiencing together, and she won't be missing out anymore."
     p "Man, really?"
     n "Aren't you happy?"
     p "..."
@@ -1095,12 +1094,12 @@ label ball1:
     s "..."
     scene bd187 with dissolve
     s "Can I have another kiss?"
-    "[p]? What is happening?"
+    "Hang on, [p], What is happening?"
     p "Sure."
     # kiss
-    scene b188 with dissolve
+    scene bd188 with dissolve
     $ renpy.pause()
-    scene b189 with dissolve
+    scene bd189 with dissolve
     $ renpy.pause()
     scene bd190 with dissolve
     $ renpy.pause()
@@ -1149,6 +1148,7 @@ label ball1:
     "My heart rate rose. It thudded against my chest. I try to keep still. I don't want it to betray myself."
     "The words struggled from my mouth. I realise I haven't been breathing."
     "As I'm running out of air, I squeeze it out:"
+    stop music fadeout 1
     p "Do you... want me to show you?"
     # Kaira's eyes widen
     scene bd199 with flash
@@ -1157,7 +1157,7 @@ label ball1:
     $ renpy.pause()
     # 360 view shot, Kaira considers
     scene bd201 with vpunch
-    play music "sounds/emotion.mp3" fadeout 1
+    play music "sounds/emotion.mp3"
     n "Sorry to interrupt~!"
     scene bd202 with vpunch
     p "Nicole!"
@@ -1307,7 +1307,7 @@ label ball1:
     n "Well, you can't tell me you're not having fun either."
     n "Do you know how many guys would want to be in your position right now?"
     p "You have a point."
-    p "But still I'll get you back. Afer all I-"
+    p "But still I'll get you back. After all I-"
     image pv14 = Movie(play="/animations/pv14.webm")
     scene pv14 with dissolve
     "Nicole pursed her lips and focussed, and squeezed my cock between her bimbo breasts even quicker."
