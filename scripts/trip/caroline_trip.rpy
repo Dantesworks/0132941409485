@@ -214,7 +214,7 @@ label caroline_trip:
     scene ct30 with dissolve
     c "Sometimes, life needs to be bitter for us to know how sweet it can be."
     scene ct31 with dissolve
-    p "That has a sort of mascochistic vibe to it."
+    p "That has a sort of masochistic vibe to it."
     p "But there's wisdom in that, I'm sure."
     # Caroline sips
     scene ct32 with dissolve

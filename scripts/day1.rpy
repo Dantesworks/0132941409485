@@ -34,6 +34,8 @@ define thug = Character("Druglord")
 define spa = Character("Spa Girl")
 define douche = Character("Douche")
 define w = Character("Widowmaker")
+define esc = Character("Escort")
+define verh = Character("Veronica's husband.")
 # The game starts here.
 
 label splashscreen:

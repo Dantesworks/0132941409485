@@ -841,7 +841,7 @@ label hol_plane:
     x "You enter a difficult road [p]."
     p "It doesn't feel so hard."
     scene p297 with dissolve
-    x "That's the reason why it is difficult. You canot know until it is too late. But one day, you will look back and wish you had chosen a different route."
+    x "That's the reason why it is difficult. You cannot know until it is too late. But one day, you will look back and wish you had chosen a different route."
     x "I promise you that."
     p "Just tell me what I need to know already! Even with this cryptic shit."
     scene p298 with dissolve

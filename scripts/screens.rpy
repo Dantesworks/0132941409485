@@ -181,7 +181,7 @@ screen input(prompt):
             xalign gui.dialogue_text_xalign
             xpos gui.dialogue_xpos
             xsize gui.dialogue_width
-            ypos gui.dialogue_ypos
+            ypos -500
 
             text prompt style "input_prompt"
             input id "input"
@@ -1456,6 +1456,7 @@ screen quick_menu():
 
             textbutton _("Back") action Rollback()
             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton ("Hide") action If(renpy.get_screen("say"), HideInterface(), None)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Menu") action ShowMenu()
 

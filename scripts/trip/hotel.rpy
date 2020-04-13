@@ -280,7 +280,7 @@ label hotel2:
     s "But I don't mind, it won't shake me, I'm sure."
     scene ct318 with dissolve
     p "Haha, I'm just messing around. I'm sure you'll look great."
-    p "Hey, tell me about about Nicole."
+    p "Hey, tell me about Nicole."
     scene ct319 with dissolve
     s "Isn't she your girlfriend?"
     p "Sure she is. But still, you've known her longer."

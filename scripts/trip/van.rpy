@@ -75,7 +75,7 @@ label van1:
     s "Hey [p]! How much longer till' we at the beach!"
     p "Be patient, my little Kaira. It'll be a good few hours, so grab a drink, or take a nap."
     scene v27 with dissolve
-    s "Ah! What is it so far away?"
+    s "Ah! Why is it so far away?"
     p "Why? I don't know why the beach is all the way over there. Go ask the beach."
     scene v28 with dissolve
     s "Hmph."

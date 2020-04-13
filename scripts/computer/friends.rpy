@@ -30,7 +30,11 @@ label friends:
                 idle "gallery_buttons/friends/neko.png"
                 hover "gallery_buttons/friends/neko_hover.png"
                 action OpenURL("https://www.patreon.com/NekoFairys")
-            null
+            imagebutton:
+                focus_mask True
+                idle "gallery_buttons/friends/droid.png"
+                hover "gallery_buttons/friends/droid_hover.png"
+                action OpenURL("https://www.patreon.com/droidproductions")
             null
             null
             null
