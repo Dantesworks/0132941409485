@@ -613,8 +613,6 @@ label amandakitchen:
         label aphro_choice:
         menu:
             "Don't use it.":
-                d "Sorry, this route is a WIP!!"
-                jump aphro_choice
                 default wildbillvariant = False
                 $ wildbillvariant = True
                 "There must be another way to do this."
@@ -686,82 +684,154 @@ label amandakitchen:
                 ny "We've got to get back to work, and I'm sure you've got something you want to do too, isn't that right~?"
                 ma "Until next time, [p]."
                 p "Seeya."
+                scene black with fade
                 "Whoa, that was some pretty confident talk from me, to some stunning super models."
                 "But I think this might just work. I don't need no aphrodisiac!"
                 ## Later tonight..
-                scene black with fade
                 "A few hours later, into the evening..."
+                scene a334 with fade
                 n "Couldn't get enough of me, could you?"
                 p "Oh yeah."
                 n "Do you remember when we did it in this very room?"
                 n "It was the first day I met you."
+                scene a335 with dissolve
                 p "Oof, if you put it like that, it sounds pretty slutty."
                 n "It's how I am~"
+                scene a336 with dissolve
                 p "I'm glad to hear that. I could use your services."
                 n "I bet you could."
                 n "So what would you like me to do for you, daddy?"
+                scene a337 with dissolve
                 p "{i}Gulp!{/i}"
                 p "You see, Nicole. There's a tension, somewhere down there."
                 n "Ooh! Let me play, heheh."
+                scene a338 with dissolve
                 n "Is it... here?"
-                "She prods me in the abdomen."
+                scene a339 with dissolve
+                "She gestures at my abdomen."
+                scene a340 with dissolve
                 p "Not quite, I feel like it's... lower down."
-                n "Ooh, I think I know what you mean~"
+                n "Ooh, I think I know what you mean, hehe~"
+                n "How about... here?"
+                scene a341 with dissolve
+                $ renpy.pause()
+                p "I'd say you're on the money."
+                n "Well then, let's see..."
+                scene a342 with fade
                 "Her well practised hand whipped my cock out."
                 n "You {i}do{/i} have a tension."
+                scene a343 with dissolve
                 n "Jokes aside, I could see a tent in your pants the moment I sat down here with you."
+                scene a344 with dissolve
                 n "You horny, horny, boy~!"
                 p "Oh come on. This is your fault. It's your special ability."
+                scene a345 with dissolve
                 n "My ability? To give guys around me instant boners?"
                 n "Hahaha!"
                 n "What about you? What's your power?"
+                scene a346 with dissolve
                 p "My power is to be able to keep up with a sex kitten like you."
                 p "Now... we better get started or she'll get-"
+                scene a347 with dissolve
                 p "I mean..."
+                scene a348 with dissolve
                 n "Or what? Are we in a rush?"
                 p "You talk too much Nicole. I prefer you with your mouth full."
+                scene a349 with dissolve
                 n "As you wish~"
                 # BJ
+                image a13 = Movie(play="/animations/a13.webm")
+                scene a13 with dissolve
+                n "Mmm, mmm, mmm, mmm."
+                "I can't get over how good she is at this. How is she even going out with me?"
+                "Her mouth felt like a pussy, the walls warm and moist."
+                "She sucked as she went up and down my shaft."
+                "Meanwhile, her tongue swirled around the head of my cock, just gently."
+                "She wasn't even trying hard. She was just teasing."
+                "Ah fuck, but I can't afford to blow my load too quickly, not now!"
+                p "Hang on Nicole-"
+                scene a350 with dissolve
+                p "Just slow down a tick!"
+                n "Mm~!"
+                scene a351 with dissolve
+                $ renpy.pause()
                 # Amanda walks in
+                scene a352 with hpunch
                 m "!!"
                 m "(T-This has happened before!)"
                 m "(I can't believe it...)"
+                scene a353 with dissolve
                 m "(I need to go... but why can't I stop watching?)"
+                scene a354 with dissolve
                 m "(Seeing Nicole have her way with my [p]...)"
+                scene a355 with dissolve
                 m "(Is this the way it's meant to be?)"
                 m "(The one time I gave in to my desires, I have to hide from it and shun myself.)"
+                scene a356 with dissolve
                 m "(But with Nicole...)"
                 m "(She gets to enjoy [p] over, over, and over again. Making me watch, just as she did before~!)"
+                scene a357 with dissolve
                 m "(Making me watch... [p]'s thick cock cleaned by her slutty little tongue...)"
+                scene a359 with dissolve
                 m "(His balls carressed... as he looks into her eyes... full of lust, love, acceptance...)"
+                scene a358 with dissolve
                 m "(Will someone ever look that way at me?)"
                 m "..."
+                scene a360 with dissolve
                 m "(To look at me, as he mounts me...)"
+                scene a361 with dissolve
                 m "(As I grasp his rod, guiding it towards my folds...)"
+                scene a362 with dissolve
                 m "(I could use both my hands to hold his cock... and the tip would still be enough to sink my mouth into...)"
+                scene a363 with dissolve
                 m "(I'm getting hot...)"
+                scene a364 with dissolve
                 m "(Faster... [p]... faster~!)"
                 p "I'm cumming!"
+                scene a365 with hpunch
                 m "!!"
                 m "(I can't be found out!)"
+                scene a366 with dissolve
+                $ renpy.pause()
                 # Amanda disappears
+                scene a367 with dissolve
+                $ renpy.pause()
+                scene a368 with dissolve
+                $ renpy.pause()
+                scene a369 with dissolve
                 p "Phew, that was good."
                 n "I swallowed every last drop like a good little girl~!"
+                scene a370 with dissolve
                 p "Good one Nicole, god you're great."
                 p "Hey just wondering, did you hear the door open at all?"
+                scene a371 with dissolve
                 n "The door there?"
+                scene a372 with dissolve
                 n "I was too busy sucking the juices from your penis, sir."
+                scene a373 with dissolve
                 n "Were you expecting someone? Come to think about it, your [mr] should be home about now."
                 p "The timings a little suspicious, you think?"
+                scene a374 with dissolve
                 n "Maybe you're just an exhibitionist like me."
                 p "Haha."
                 p "Keep it tight."
                 scene black with fade
                 "The next day, at Dante's studios."
+                scene a-16 with fade
                 "The master plan is in motion."
                 "I let [mr] see me fucking Nicole's mouth, just to see how she would react."
                 "Nicole did perfectly, and put on a great show."
                 "Time to check up on [mr]."
+                scene a-17 with dissolve
+                v "Yes, buddy?"
+                v "Here to see your [mr]?"
+                p "Hey, there's nothing wrong with that right?"
+                scene a-19 with dissolve
+                v "I don't know man, you seem a little bit deep in thought."
+                p "Oh, nothing much. I'll see you soon, huh?"
+                scene a-18 with dissolve
+                v "Good to see you too."
+                
                 p "Hi [mr], how's it going?"
                 p "Feels like ages since the last time we met... but it probably wasn't so long ago, was it?"
                 m "T-The last time we met?"
@@ -777,12 +847,11 @@ label amandakitchen:
                 p "Haha, juicy hotdogs? What on earth made you think of that?"
                 m "What? I, uh-"
                 m "Hang on, why are you so curious, [p]?"
-                m "Your [mr] needs to get back to work now."
+                m "Your [mr] needs to do some more photo shoots."
                 p "Fair enough, [mr]. I'm just having some fun."
-                m "I'll see you later, [p]."
+                m "I'll head off now, [p]."
                 p "Take care, [mr]."
-                m "{i}Sigh.{/i} You need to hold it together, Amanda!"
-                scene black with fade
+                # nyx and maya come in
                 ny "Hey, [p]!"
                 p "Nyx!"
                 ny "What exactly was your plan? Amanda has been super sexually frustrated today."
@@ -822,7 +891,139 @@ label amandakitchen:
                 p "Thanks."
                 "Phew. Everytime I talk to that pair, it's an adrenalin rush."
                 "I hope I get to know them better one day. What an interesting couple."
-                jump map
+                "But in the meantime, I need to prove to myself that I don't need the aphrodisiac."
+                "I have to up the ante with [mr], somehow. Somehow..."
+                scene black with fade
+                n "You're acting so passionately recently, I love it."
+                n "So, what is the reason that you've been so damn horny?"
+                p "I'm just hungry for your pussy."
+                n "I'm so glad to have met you."
+                n "So how are we going to do it today? We have to change it up, you know."
+                n "The same positions gets boring if we do it for too long~"
+                p "Oh yeah? What kinky shit do you have in mind?"
+                n "That stuff yesterday was quite kinky, wasn't it? Your [mr] could have walked in on us at any time."
+                n "You knew that, didn't you?"
+                p "It's true, she comes home in the evenings."
+                n "And it's the evening now, isn't it?"
+                p "Also true."
+                n "Oh~  I wonder~"
+                n "Does your [mr] ever get jealous of me?"
+                p "Jealous?"
+                n "Yeah, I mean, I get to fuck such a thick stud {i}whenever{i} I want, and all she can do is touch herself while she listens to my moans~"
+                p "Whoa, that's my [mr] you're talking about, haha."
+                n "Hey, I'm only joking. She's pretty hot, for her age especially."
+                n "I'm sure she'd be able to find all kinds of guys to give her cock."
+                n "With how she looks... even younger guys too."
+                n "Guys around {i}your{/i} age. Your friends even."
+                p "Nah, I don't have friends. Not likely."
+                n "Oh, but you know what I mean. Your [mr] could be getting so much dick if she wanted to. Why doesn't she?"
+                n "After all, cock is the best."
+                p "Well, let me consult your expert opinion."
+                n "Oh, finally someone cares about what's between my ears and not what's between my legs~!"
+                p "You know I love you Nicole. Don't do this to me."
+                n "Haha, ask away, [p], ask away."
+                p "What do you think my [mr] needs to realise that she needs... you know, a guy?"
+                n "You mean a cock? A hard, thick, spurting cock?"
+                p "Yeah, that too."
+                n "Well, she needs to know what she's missing out on."
+                p "Ah, the penis yeah. But how?"
+                n "Well, I've got a great idea. In fact, you probably know it too."
+                p "Do tell."
+                n "Haha, alright. Listen closely then. It's-"
+                m "Oh, hello you two!"
+                m "I just came back from work, and wow, what a day."
+                p "Oh hey [mr]. Welcome home!"
+                n "Miss Amanda!"
+                m "I hope I didn't intrude or anything. Just pretend I'm not here, okay?"
+                m "Make yourselves at home."
+                n "Will do."
+                m "I'm just going to pop off into the kitchen and do the standard routine."
+                p "Cooking some more meat again?"
+                m "Haha, not today."
+                n "No meat today, Amanda? You don't know what you're missing out on!"
+                m "Ah, hahaha. Alright, I'll get onto my work."
+                p "Yo. Stop that."
+                n "Why? She didn't think anything. I'm just having some fun."
+                n "Anyway, about the idea I was talking to you about-"
+                p "Uh, not now. She's literally a few feet away from us."
+                n "Oh my dear [p]. That's the point~"
+                p "You... I.... err...."
+                n "Oh my gosh, boys can be so stupid."
+                n "But then again, you {i}are{/i} more visual creatures. Let me just show you."
+                "Wordlessly, she started stripping, revealing her two bolted on tits."
+                # strip
+                p "Psst!! Nicole!!"
+                p "We don't even have the excuse of being stumbled on!"
+                p "If we do it now, we're obviously spiting her!"
+                p "..."
+                p "Where are you going! Come back now!"
+                # Nicole walks to the wall
+                "Wordlessly, she gestured me over, and bent over, her butt cheeks spreading apart, inviting me into her pussy."
+                m "You two are really quiet. Remember, just pretend I'm not here. I don't mind some noise."
+                "Nicole smirked."
+                n "Hey Amanda?"
+                m "Yes Nicole?"
+                n "I think something might need your attention back here..."
+                p "Alright Nicole, alright!"
+                "I fiercely whispered."
+                n "Oh never mind. It's been sorted out~"
+                m "Good!"
+                n "See, [p]? You just need a little encouragement."
+                n "Don't get stage fright on me now. That would be so embarassing."
+                p "And what you're doing now isn't?!"
+                p "Fuck me."
+                n "Deal."
+                p "I mean... shit."
+                n "Hard yet? Enter me."
+                p "Fucking hell..."
+                # fuck against wall
+                n "Eek~!"
+                m "What was that?"
+                p "Nothing, that was nothing!"
+                m "Are you sure?"
+                n "Just~ a little~ surprised~"
+                n "Ah~"
+                m "You sound a bit breathless, are you okay Nicole?"
+                n "Oh, I feel great~!"
+                m "W-Well, if you say so."
+                n "It's a...  hard feeling to describe."
+                p "Shh..!"
+                n "But sometimes in the moment... it feels like everything is bliss."
+                n "And everything... consequences... responsiblities... it's all secondary~"
+                n "Do you... know what I mean?"
+                m "Just... living in the moment..."
+                m "It's the smell of..."
+                m "(It's the smell of sex...)"
+                n "It's in the air.. you can feel it."
+                m "(Are they having sex again?)"
+                m "(Do I dare look?)"
+                m "(But who am I? An aging woman, to interrupt their fun?)"
+                m "(But oh does it take me back to those days when I was young, when I took risks.)"
+                m "(When I lived for the moment.)"
+                m "(When I craved cocks, and had my fair share to choose from!)"
+                m "(Could I not return to those days?)"
+                m "(What a curse it is, to have [p], a well endowed male living with me, and not be able to take advantage of it.)"
+                m "(What a curse it is, to have them doing it right next to me, taunting me.)"
+                m "(Revealing to me, how far I am from what I was.)"
+                m "(But... I could embrace how I used to be... couldn't I?)"
+                m "(I-I could take risks again, be naughty! Be young...)"
+                m "(My body is telling me too. I can feel my pussy getting wet, and images of [p]'s cock is just flooding my mind.)"
+                m "(Flooding... cum... all into me...)"
+                m "(How I've missed the feeling of warm semen in my womb, making me feel safe and secure.)"
+                m "(I can't help myself any more...)"
+                m "(After all... if they're doing it... why can't I?)"
+                m "(Let's play this game... together~)"
+                # amanda masturbate
+                # both cum
+                "No way. It all went to Nicole's plan. It was like she had done this before."
+                p "What's next?"
+                n "Haven't I done enough for you? [p]?"
+                n "You'll be able to figure the rest out. Can't make it too easy for you, after all."
+                n "Anyway, I'm sure you'll find the way. You always manage to."
+                n "You know, you're better with women than you think."
+                p "Huh, very nice of you."
+                n "Goodnight, [p]."
+                p "Goodnight, Nicole."
             "Use it.":
                 "Wow, it's like she's completely forgotten what happened before."
         "Time to bring that back up. I can't wait to see [mr] crawling over my cock."

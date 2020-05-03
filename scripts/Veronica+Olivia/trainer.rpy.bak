@@ -42,7 +42,7 @@ label trainer:
                     scene o-52 with dissolve
                     p "What a beautiful view. You should spend more time in this position, Slut."
                     o "What are you waiting for?"
-                    p "Hurry up and put it inside me!"
+                    o "Hurry up and put it inside me!"
                     scene o-53 with dissolve
                     o "Aah!"
                     p "See? Nice and quick. Look how much easier it is if we work together."
@@ -153,7 +153,7 @@ label trainer:
             $ daytimes = str(daytime)
             if plugged2 and olivialvl == 6:
                 $ olivialvl = 7
-            call map_alt
+            call map_alt from _call_map_alt_17
         "Butt plug" if plug and vdildo:
             $ plugged = True
             p "We've played with your tight pussy."
@@ -386,7 +386,7 @@ label trainer:
                     "It's been a long day. I'll leave her alone and call it a day."
             $ daytime = 4
             $ daytimes = str(daytime)
-            call map_alt
+            call map_alt from _call_map_alt_18
         "Slutty outfit exhibition" if olivialvl >= 6:
             jump olivia_outfit
         "Dance" if olivialvl > 9:
@@ -539,95 +539,9 @@ label trainer:
             scene o266 with dissolve
             p "Haha! Clean up. I'll see you again tomorrow."
             o "How... long is this going to go for..."
-            call daykeep
-            call map_alt
-        "Naked Dance" if olivia lvl > 11:
-            scene black
-            play music "sounds/cinematic.mp3" fadeout 1
-            scene o270 with fade
-            o "(I wonder if he's going to come around again.)"
-            scene o271 with dissolve
-            o "(Doesn't he know I have class to teach? Does he even know how disruptive he is?)"
-            scene o272 with dissolve
-            o "(Who am I kidding, he doesn't even care.)"
-            scene o273 with dissolve
-            o "(Hang on, why am I worried about him disrupting my classes?)"
-            scene o274 with dissolve
-            o "(I should be furious about him having his way with me!)"
-            o "..."
-            scene o275 with dissolve
-            o "(But... I'm not.)"
-            scene o276 with dissolve
-            o "(Am I getting used to this?)"
-            o "(Am I being desensitised?)"
-            scene o277 with hpunch
-            o "(Am I... secretly liking the way he treats me?)"
-            scene o278 with dissolve
-            o "No! I am a strong woman, and I hate men!"
-            o "(But why do I hate men again?)"
-            scene o279 with dissolve
-            o "(It's because... I'm jealous.)"
-            scene o280 with dissolve
-            o "(I'm jealous because-)"
-            scene o281 with hpunch
-            play music "sounds/path.mp3" fadeout 1
-            thug "Found you, you whore!"
-            scene o282 with hpunch
-            o "What?! W-Why are you here! I thought we had something sorted out!"
-            scene o283 with dissolve
-            thug "Didn't you get our letter?! Where the fuck is the shipment?"
-            scene o284 with dissolve
-            thug "You're making deals with the other rival gangs, aren't you!"
-            thug "I'll teach you what we do to traitors!"
-            scene o285 with dissolve
-            o "No! I've been working hard, I swear! There have just been... distractions."
-            scene o286 with hpunch
-            thug "What the fuck?"
-            scene o287 with dissolve
-            thug "Distractions?"
-            scene o288 with dissolve
-            play music "sounds/jojofight.mp3" fadeout 1
-            p "She's talking about me, thug."
-            o "[p]! Stay back! You're only going to make it worse!"
-            scene o289 with dissolve
-            $ renpy.pause()
-            scene o290 with vpunch
-            $ renpy.pause()
-            scene o291 with dissolve
-            thug "And who the fuck is this?"
-            scene o292 with dissolve
-            p "I own this woman, not you. You don't tell her what to do."
-            thug "So you're from a rival gang, huh?"
-            p "Who I am isn't important. Just beat it."
-            scene o293 with dissolve
-            thug "Well, if you're not important, maybe I'll just take you out here and now!"
-            p "Come."
-            scene o294 with hpunch
-            thug "HAAA!"
-            scene o295 with dissolve
-            p "Stand!"
-            scene o296 with hpunch
-            $ renpy.pause()
-            # knocks him out
-            scene o297 with dissolve
-            $ renpy.pause()
-            scene o298 with dissolve
-            p "Lights out."
-            scene o299 with dissolve
-            o "Y-You knocked him out!"
-            p "You're my property, Slut. And I protect my property."
-            scene o300 with dissolve
-            o "..."
-            scene o301 with dissolve
-            p "Call the cops, and get him out of here. I'm going to split."
-            p "I'll come back tomorrow."
-            scene o302 with dissolve
-            o "I-"
-            scene o303 with dissolve
-            o "...okay."
-            call daykeep
-            $ olivialvl += 1
-            call map_alt
+            call daykeep from _call_daykeep_53
+            call map_alt from _call_map_alt_19
+        "Naked Dance" if olivialvl > 11:
             scene black
             scene o304 with fade
             p "Good day, Slut."
@@ -652,7 +566,7 @@ label trainer:
             scene o311 with dissolve
             o "Heh, well. If you must call yourself a master, there's not much I can do about it."
             p "I think we can get along just fine, Slut."
-            P "I'll even make you a promise. Since apparently you hate men, I'll lay off on violating you."
+            p "I'll even make you a promise. Since apparently you hate men, I'll lay off on violating you."
             p "But in return, you must play the role of a dutiful slut, slave to her master."
             scene o312 with dissolve
             o "How degrading. But this offers more stability in our relationship."
@@ -750,9 +664,10 @@ label trainer:
             scene o331 with dissolve
             o "W-why am I like this?"
             o "Hold it together, Olivia!"
-            call map_alt
+            call daykeep
+            call map_alt from _call_map_alt_21
         "Never mind.":
-            call map_alt
+            call map_alt from _call_map_alt_22
 default vdildo = False
 default vdildo2 = False
 default plugged = False

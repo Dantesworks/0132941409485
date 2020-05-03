@@ -30,7 +30,7 @@ label cgGallery5:
                     action Jump("g38")
             else:
                 null
-            if amandalvl > 13:
+            if amandalvl > 13 and wildbillvariant:
                 imagebutton:
                     focus_mask True
                     idle "gallery_buttons/cGGallery/39.png"

@@ -5,7 +5,7 @@ label map_alt:
 default uni_intro = False
 label uni:
     stop music fadeout 1
-    call hidescreens
+    call hidescreens from _call_hidescreens_17
     hide screen fastforward
     scene future
     "{i}The environment changes; there is something not right with this world...{/i}"
@@ -186,7 +186,7 @@ label uni:
         $ daytime = 4
         $ daytimes = str(daytime)
         $ olivialvl += 1
-        call map_alt
+        call map_alt from _call_map_alt
     if olivialvl == 2:
         scene black
         play music "sounds/alchemy.mp3" fadeout 1
@@ -237,7 +237,7 @@ label uni:
         "I should check out the sex shop in the online shop on the computer."
         "I need a dildo at least."
         $ olivialvl += 1
-        call map_alt
+        call map_alt from _call_map_alt_1
     if olivialvl == 3:
         scene black
         play music "sounds/alchemy.mp3" fadeout 1
@@ -284,7 +284,7 @@ label uni:
         p "That's right, a gift. Let me show you."
         "I need to make sure I buy the slutty outfit from the shop."
         $ olivialvl += 1
-        call map_alt
+        call map_alt from _call_map_alt_2
     if olivialvl == 5:
         if so:
             label olivia_outfit:
@@ -304,7 +304,7 @@ label uni:
                 p "You're going to wear my present to you. And you will love it."
                 scene o-124 with dissolve
                 o "This?"
-                o "This barely covers anything. Do I like like a punk to you? Those years are behind me."
+                o "This barely covers anything. Do I look like a punk to you? Those years are behind me."
                 o "What a gross outfit!"
                 scene o-125 with hpunch
                 p "Hey hey hey-"
@@ -540,12 +540,12 @@ label uni:
                 scene black with fade
                 $ daytime = 4
                 $ daytimes = str(daytime)
-                call map_alt
+                call map_alt from _call_map_alt_3
         else:
             scene black
             scene o-41 with fade
             "I need to buy the slutty outfit from the shop first."
-            call map_alt
+            call map_alt from _call_map_alt_4
     if olivialvl == 6:
         play music "sounds/cinematic.mp3" fadeout 1
         scene o-41 with fade
@@ -569,7 +569,7 @@ label uni:
         scene black with fade
         "I need to make sure I have a camera with some kits lens."
         $ olivialvl += 1
-        call map_alt
+        call map_alt from _call_map_alt_5
     if olivialvl == 7:
         if DSLR:
             play music "sounds/cinematic.mp3" fadeout 1
@@ -671,11 +671,11 @@ label uni:
             $ daytime = 4
             $ daytimes = str(daytime)
             $ olivialvl += 1
-            call map_alt
+            call map_alt from _call_map_alt_6
         else:
             scene black with fade
             "I need to buy a camera first!"
-            call map_alt
+            call map_alt from _call_map_alt_7
     if olivialvl == 8:
         play music "sounds/cinematic.mp3" fadeout 1
         scene o200 with fade
@@ -755,7 +755,7 @@ label uni:
         $ olivialvl += 1
         $ daytime = 4
         $ daytimes = str(daytime)
-        call map_alt
+        call map_alt from _call_map_alt_8
     if olivialvl == 9:
         scene o200 with fade
         p "I don't know about you, but I had restful sleep last night."
@@ -906,9 +906,9 @@ label uni:
         scene o266 with dissolve
         p "Haha! Clean up. I'll see you again tomorrow."
         o "How... long is this going to go for..."
-        call daykeep
+        call daykeep from _call_daykeep_31
         $ olivialvl += 1
-        call map_alt
+        call map_alt from _call_map_alt_9
     if olivialvl == 10:
         scene black
         play music "sounds/cinematic.mp3" fadeout 1
@@ -993,9 +993,10 @@ label uni:
         o "I-"
         scene o303 with dissolve
         o "...okay."
-        call daykeep
+        $ daytime = 4
+        $ daytimes = str(daytime)
         $ olivialvl += 1
-        call map_alt
+        call map_alt from _call_map_alt_10
     if olivialvl == 11:
         scene black
         scene o304 with fade
@@ -1021,7 +1022,7 @@ label uni:
         scene o311 with dissolve
         o "Heh, well. If you must call yourself a master, there's not much I can do about it."
         p "I think we can get along just fine, Slut."
-        P "I'll even make you a promise. Since apparently you hate men, I'll lay off on violating you."
+        p "I'll even make you a promise. Since apparently you hate men, I'll lay off on violating you."
         p "But in return, you must play the role of a dutiful slut, slave to her master."
         scene o312 with dissolve
         o "How degrading. But this offers more stability in our relationship."
@@ -1121,8 +1122,341 @@ label uni:
         o "Hold it together, Olivia!"
         scene splash7 with fade
         $ renpy.pause()
-        call daykeep
+        $ daytime = 4
+        $ daytimes = str(daytime)
+        $ olivialvl += 1
+        call map_alt from _call_map_alt_11
+    if olivialvl == 12:
+        scene o333 with fade
+        play music "sounds/selfish.mp3" fadeout 1
+        o "How again did this all begin?"
+        scene o334 with dissolve
+        o "Why did he threaten me in the first place? Is it because he wants my body?"
+        scene o335 with dissolve
+        o "Or was it because I yelled at him in the gym?"
+        scene o336 with dissolve
+        o "Did I do this to myself?"
+        scene o337 with dissolve
+        o "Whatever the case, he's providing protection to me right now, and I need that until I can finish the drugs."
+        o "Hopefully, the druglords will forgive me if I finally deliver them."
+        o "It's just a few weeks longer, but I in the meantime, I'll have to learn to enjoy [p]'s presence."
+        scene o338 with dissolve
+        o "That asshole will just break me harder if I resist harder."
+        o "And I think that sicko might even be turned on when I fight back."
+        scene o339 with dissolve
+        o "I can't give him what he wants. But deep down, I..."
+        o "Deep down-"
+        scene o340 with dissolve
+        play music "sounds/cinematic.mp3" fadeout 1
+        p "Hey Slut."
+        scene o341 with dissolve
+        o "..."
+        scene o342 with dissolve
+        o "Hello, [p]. You surprised me."
+        p "Were you deep in thought?"
+        p "There are always things to think about, aren't there?"
+        p "Like, our relationship."
+        scene o343 with dissolve
+        o "..."
+        scene o344 with dissolve
+        p "Bingo!"
+        p "I'd like to talk about our relationship."
+        scene o345 with dissolve
+        o "There's not much to talk about."
+        p "Oh well. It's not really up to you."
+        p "I know this place, the local cafe. It's usually closed at around this time, but seeing as I work there, I've got a key."
+        p "This also means that we won't be disturbed, if you get what I mean."
+        scene o346 with dissolve
+        o "You've done worse to me I suppose, than a chat."
+        p "Good, good. Slut."
+        scene o347 with dissolve
+        o "Sigh."
+        scene black with fade
+        "A few moments later..."
+        # transition to cafe
+        play music "sounds/alchemy.mp3" fadeout 1
+        scene o348 with fade
+        p "So, Slut. It's good to have a face to face."
+        p "I think you've done a good job. I think you're coming around. I know you like getting fucked too. Can't you see this is mutually beneficial?"
+        scene o349 with dissolve
+        o "..."
+        o "I don't think I will truly ever enjoy this, [p]."
+        p "It's an acquired taste, Slut."
+        scene o350 with dissolve
+        o "Slut... you keep calling me that."
+        scene o351 with dissolve
+        o "But I'm not like the women you find on the streets. I'm not like that."
+        p "No? You sure are acting like one though. Would anyone be able to tell the difference?"
+        p "Even your body, your proportions. You were made for this. Don't deny your nature."
+        p "This is destiny."
+        scene o352 with dissolve
+        o "I'm not that at all."
+        p "Maybe in another timeline."
+        scene o353 with dissolve
+        o "What's the point?"
+        scene o354 with dissolve
+        p "I dragged you all the way here to tell you something cool. I think you're better trained now. For sure."
+        p "Compared to how you were at the start? If only you could see yourself back then!"
+        scene o355 with dissolve
+        o "(Just a bit longer of this stuff. I'll just go along with it... put up less resistance.)"
+        o "(To... make it easier for my tired body.)"
+        scene o356 with dissolve
+        o "So are you saying I'm behaving? Is that it?"
+        scene o357 with dissolve
+        p "There are some things that work better when both parties are agreement."
+        p "I've got many plans for us, Slut."
+        p "But, I need you to put your own spirit into it. It's not enough just doing the motions. You must really believe in it, bathe in it, and live it."
+        scene o358 with dissolve
+        o "Looks like there's no other way around this, is there?"
+        p "Do you consent to be my slave? My play thing?"
+        scene o359 with dissolve
+        o "..."
+        scene o360 with dissolve
+        o "Haha!"
+        scene o361 with vpunch
+        o "What have I been doing all this time?"
+        "Cheeky bitch."
+        p "I expect you to embrace it now. Debauchery, hedonism, pain, and pleasure."
+        p "Do you consent?"
+        play music "sounds/cyberpunk.mp3" fadeout 1
+        # flash back of getting rape
+        scene o-27 with flash
+        $ renpy.pause()
+        scene o-53 with flash
+        $ renpy.pause()
+        scene o-65 with flash
+        $ renpy.pause()
+        scene o-119 with flash
+        $ renpy.pause()
+        scene o362 with fade
+        $ renpy.pause()
+        play music "sounds/eden.mp3" fadeout 1
+        o "You... promise you won't violate me?"
+        p "I have said that before, haven't I? Behave, like you truly believe that you're a slave slut, and I won't violate you."
+        scene o363 with dissolve
+        o "(I... don't have a choice.... I need to learn to live with this...)"
+        scene o364 with dissolve
+        o "Yes..."
+        scene o365 with dissolve
+        $ renpy.pause()
+        scene o366 with dissolve
+        $ renpy.pause()
+        scene o367 with dissolve
+        $ renpy.pause()
+        o "I consent."
+        scene black with flash
+        $ renpy.pause()
+        # A few months later....
+        "A few months later..."
+        play music "sounds/brite.mp3" fadeout 1
+        image o1 = Movie(play="/animations/o1.webm")
+        scene o1 with fade
+        $ renpy.pause()
+        p "Oh fuck you're getting so much better at this."
+        o "MM~~"
+        p "Make me cum you fucking Slut!"
+        image o2 = Movie(play="/animations/o2.webm")
+        scene o2 with dissolve
+        $ renpy.pause()
+        o "Mmm~ mmm~ mmm~"
+        p "Oh you devil!"
+        # cums
+        scene o368 with flash
+        $ renpy.pause()
+        scene o369 with flash
+        $ renpy.pause()
+        scene o370 with flash
+        $ renpy.pause()
+        scene o371 with flash
+        $ renpy.pause()
+        scene o372 with flash
+        $ renpy.pause()
+        scene o373 with dissolve
+        o "That was faster than yesterday. I must be doing a good job."
+        scene o374 with fade
+        p "Alright that's enough. I got some other things to do now."
+        p "After all, your only value are your slutty depraved little acts."
+        scene o375 with dissolve
+        o "T-That's it? Is that all for today?"
+        p "Eager are you? Sucking a dick isn't enough for you? Slut?"
+        scene o376 with dissolve
+        o "I-I mean!"
+        scene o377 with dissolve
+        p "Did you enjoy it?"
+        o "Enjoy what?"
+        scene o378 with dissolve
+        p "My cock in your mouth. You were making some real horny slurping noises."
+        scene o379 with dissolve
+        o "... yes, I loved your... cock in my mouth."
+        p "You even swallowed too!"
+        scene o380 with dissolve
+        o "I just thought... maybe you were tired for today and so cut the activities short... that's all!"
+        p "Oh there will be more."
+        scene o381 with dissolve
+        p "Meet me again tonight. I've got a surprise for you."
+        scene o382 with dissolve
+        o "I understand."
+        p "Hmm?"
+        scene o383 with dissolve
+        o "I mean..."
+        scene o384 with dissolve
+        o "Yes master."
+        p "Good."
+        # transition
+        stop music fadeout 1
+        scene black with fade
+        "..."
+        play music "sounds/alchemy.mp3" fadeout 1
+        scene o385 with fade
+        p "It's always super weird to meet up in the university at night time."
+        P "It's like a completely different place. How exciting."
+        scene o386 with dissolve
+        p "What about you? Are you excited?"
+        scene o387 with dissolve
+        o "Excited about what?"
+        p "Excited about our little date tonight!"
+        scene o388 with dissolve
+        o "Sure, I'm excited."
+        scene o389 with dissolve
+        o "...what are we going to do?"
+        p "Well, I understand that violation is off limits, so I've got the next best thing."
+        scene o390 with dissolve
+        p "A sexy outfit, and a leash."
+        o "A leash?"
+        p "We're going to go for a walk! Perfect treatment for a bitch like you."
+        scene o391 with dissolve
+        o "(At night? That's not too bad... with any luck, there won't be much people around.)"
+        scene o392 with dissolve
+        o "Fine."
+        p "Good."
+        # strip sequence and puts on outfit
+        scene o393 with dissolve
+        o "(Easy enough...)"
+        scene o394 with dissolve
+        $ renpy.pause()
+        scene o395 with dissolve
+        $ renpy.pause()
+        scene o396 with dissolve
+        $ renpy.pause()
+        scene o397 with dissolve
+        $ renpy.pause()
+        scene o398 with dissolve
+        $ renpy.pause()
+        scene o399 with dissolve
+        $ renpy.pause()
+        scene o400 with dissolve
+        $ renpy.pause()
+        scene o401 with dissolve
+        $ renpy.pause()
+        scene o402 with dissolve
+        $ renpy.pause()
+        scene o403 with dissolve
+        $ renpy.pause()
+        scene o404 with dissolve
+        $ renpy.pause()
+        p "You forgot something."
+        o "..."
+        scene o405 with dissolve
+        $ renpy.pause()
+        p "Good, good. Great body."
+        p "But of course, you've heard it all before."
+        scene o406 with dissolve
+        o "Take a good look. You can't violate it though, you promised."
+        p "Haha, I like it!"
+        scene o407 with dissolve
+        p "Is that some moisture I see around yoru pussy lips? There's a glistening there."
+        o "So what? It gets sweaty there sometimes."
+        p "Juicy."
+        p "Alright, put it on."
+        scene o408 with dissolve
+        $ renpy.pause()
+        scene o409 with dissolve
+        $ renpy.pause()
+        scene o410 with dissolve
+        $ renpy.pause()
+        scene o411 with dissolve
+        p "Gosh, that looks fantastic. You had no problem putting it on. You used to outfits like this?"
+        o "Only from you."
+        p "That's what I like to hear."
+        scene o412 with dissolve
+        p "That chain looks nice around your neck."
+        p "It suits you."
+        scene o413 with dissolve
+        o "Good."
+        p "Good indeed. Let's go now doggy!"
+        scene o414 with dissolve
+        $ renpy.pause()
+        scene black with fade
+        "..."
+        "Ah fuck. It's cold. But I bet she's feeling colder."
+        scene o415 with fade
+        p "We're just going for a walk around the park."
+        scene o416 with dissolve
+        o "(The cold air on my skin is making my hairs rise...)"
+        o "(And my nipples pert!)"
+        o "(It would be very embarassing if someone saw me like this.)"
+        scene o417 with dissolve
+        o "(And the leash too! How humiliating!)"
+        scene o418 with dissolve
+        o "(This thing... whatever it is... is pulling up so tight against my crotch, it's so stuffy!)"
+        o "(Couldn't I have at least had something that covered more of my body, so I wouldlnt' be so cold?)"
+        scene o419 with dissolve
+        o "(But this is still better than being bent backwards and fucked like a hooker. You can deal with this, Olivia.)"
+        scene o420 with dissolve
+        o "This doesn't even embarrass me at all!"
+        o "If you wanted to, you should have done it during the day."
+        p "Are you slipping me ideas there?"
+        scene o421 with dissolve
+        o "Hmph."
+        p "Just walk."
+        scene o422 with dissolve
+        $ renpy.pause()
+        scene o423 with dissolve
+        $ renpy.pause()
+        scene o424 with dissolve
+        $ renpy.pause()
+        scene o425 with dissolve
+        $ renpy.pause()
+        p "How does it feel, being on display? Being paraded?"
+        o "There's hardly an audience."
+        p "There should be. Next time then."
+        o "(Ha! I've won this round!)"
+        p "You little Slut. Why are you walking so proudly?"
+        p "You look like you're happy displaying your body for all to see."
+        o "There's nothing to be ashamed of, didnt you say that my body was hot?"
+        o "Shouldn't I be proud of it?"
+        p "Oh, very good."
+        p "You don't run the show though. Get on the ground. All fours."
+        o "Easy~!"
+        p "No resistance huh? Really taking the fun out of this."
+        p "But damn does your ass look great from this angle."
+        o "Enjoy it all you want! But you can't touch~"
+        p "..."
+        o "That's right, I-"
+        o "Stop!! What are you doing!"
+        p "..."
+        o "You promised me you wouldn't violate me!"
+        p "Relax, I didn't. Mind your tone, you Slut!"
+        p "Get back over here."
+        # pulls leash
+        o "It's hurting me!"
+        p "Shut the fuck up and start sucking my cock."
+        o "..."
+        p "That's right. Don't forget who the master is."
+        p "Don't even answer. I just want to hear the sounds of you dutifully sucking my cock."
+        o "Mm... mm... mm..."
+        p "Good."
+        "I snatched her head back."
+        o "Ow~!"
+        # cums over face
+        o "I'm all dirty now!"
+        p "Good. Now go away and clean yourself up. I'm done with you."
+        p "I'll play with you another time."
+        o "..."
+        o "Yes master."
+        $ daytime = 4
+        $ daytimes = str(daytime)
         $ olivialvl += 1
         call map_alt
-    if olivialvl == 12:
+    if olivialvl == 13:
         jump trainer

@@ -664,7 +664,7 @@ label trainer:
             scene o331 with dissolve
             o "W-why am I like this?"
             o "Hold it together, Olivia!"
-            call daykeep
+            call daykeep from _call_daykeep_32
             call map_alt from _call_map_alt_21
         "Never mind.":
             call map_alt from _call_map_alt_22

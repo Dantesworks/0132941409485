@@ -1254,7 +1254,6 @@ label gym:
         p "..."
         # she leaves
         $ veronicalvl += 1
-        scene splash5 with fade
         $ renpy.pause()
         call map_alt from _call_map_alt_15
     if veronicalvl == 5:
@@ -1325,6 +1324,7 @@ label gym:
         scene r362 with dissolve
         p "...Hmm?"
         scene r357 with vpunch
+        play music "sounds/alchemy.mp3" fadeout 1
         ver "[p]!!"
         scene r363 with hpunch
         p "Miss Veronica!"
@@ -1358,11 +1358,13 @@ label gym:
         scene r374 with dissolve
         p "You know, I can see how moist your pussy is."
         p "Your cheeks are a nice shade of red, you know that?"
+        stop music fadeout 1
         scene r375 with dissolve
         ver "(Grr, my mind is even more cloudy than before. I can't even think straight!)"
         p "I could relieve that tension off you."
         scene r376 with vpunch
         ver "Huh?"
+        play music "sounds/brite.mp3" fadeout 1
         ver "(My mind is racing, my heart is pounding. I want it so bad, and here he is, right in front of me!)"
         scene r377 with dissolve
         p "All you have to do is ask for it."
@@ -1414,6 +1416,7 @@ label gym:
         ver "Ahh~!!!!"
         ver "Fuck me already! Fuck me fuck me fuck me~!!!"
         # instant slide in
+        play music "sounds/kiss.mp3" fadeout 1
         image ver25 = Movie(play="/animations/ver25.webm")
         scene ver25 with dissolve
         $ renpy.pause()
@@ -1487,10 +1490,12 @@ label gym:
         $ veronicalvl += 1
         $ daytime = 4
         $ daytimes = str(daytime)
-        call map_alt
+        call map_alt from _call_map_alt_23
     if veronicalvl == 6:
+        label sixoh:
         scene black
         scene r406 with fade
+        play music "sounds/cinematic.mp3" fadeout 1
         p "Ah, there you are."
         p "How are we feeling today, Miss Veronica?"
         scene r407 with dissolve
@@ -1500,7 +1505,7 @@ label gym:
         p "That's good, right?"
         scene r409 with dissolve
         ver "I think so, maybe it was the exercise."
-        P "Yeah, the {i}exercise{/i}."
+        p "Yeah, the {i}exercise{/i}."
         ver "The world feels different, somehow."
         p "Maybe it's a change of perspective."
         scene r410 with dissolve
@@ -1514,7 +1519,9 @@ label gym:
         p "Come along, and find out."
         scene black with fade
         "A few moments later..."
+        stop music fadeout 1
         scene r413 with fade
+        play music "sounds/alchemy.mp3" fadeout 1
         ver "This is oddly luxrious, [p]. Where... are you taking me?"
         scene r414 with dissolve
         p "I haven't seen you in ages, Miss V. In that time, I've been doing some homework."
@@ -1592,113 +1599,250 @@ label gym:
         ver "..."
         # A few moments later...
         scene black with fade
+        "A few moments later..."
+        play music "sounds/ereve.mp3" fadeout 1
+        scene r440 with fade
         p "Guess where we are."
+        scene r441 with dissolve
         ver "Looks like some sort of fancy mansion."
+        scene r442 with dissolve
         ver "You don't own this, do you?"
-        p "No. This place is for rent thought. I rented it for a bit."
+        scene r443 with dissolve
+        p "No. This place is for rent though. I rented it for a bit."
+        scene r444 with dissolve
         ver "Wow, and this is... just for us?"
         p "There will be some people swinging by later to finish some loose ends. The people who rented this place before."
         p "After that, however, it'll be ours."
+        scene r445 with dissolve
         ver "Is... is this your idea of trying to impress me?"
         p "Haha. You could think of it like that."
+        scene r446 with dissolve
         ver "You must be quite rich yourself!"
         p "Let's just say I have powerful friends."
         p "Hmm, looks like we made it just in time."
+        scene r447 with dissolve
         ver "In time? For what?"
         p "Quick, come this way. We need to hide."
+        scene r448 with dissolve
         ver "Hide?"
+        scene r449 with fade
+        $ renpy.pause()
+        scene r450 with dissolve
+        $ renpy.pause()
+        ver "Somebody's going to come?"
+        p "Any minute now."
+        play music "sounds/path.mp3" fadeout 1
+        scene r453 with dissolve
         x "Look babe, I don't like being back too."
         x "Besides, don't you want to spend time with me? I pay well."
         esc "If you say so, daddy!"
+        scene r451 with dissolve
+        ver "Who, who is it? Why do we have to hide?"
+        scene r453 with dissolve
         x "I just left something behind here. Must have dropped it last night."
         x "If it weren't important to me, I wouldn't have come back."
         x "Never know when I might bump into my wife..."
         esc "What did you say daddy?"
         x "Erm, nothing, never mind."
+        scene r451 with dissolve
         ver "That voice... sounds so familiar."
+        scene r452  with dissolve
         p "I'm surprised you haven't recognised it yet."
         p "But then again, it must have been a long time since you heard it."
+        scene r454 with hpunch
         ver "!!"
         ver "Impossible! How could this..!"
+        scene r455 with hpunch
         ver "You...!"
+        scene r456 with dissolve
         verh "Listen babe, I paid you for you and your tits. I'm gonna get my money's worth before you go back to your little agency, alright?"
-        verh "Now get here and earn your keep."
+        verh "Now I'm going to make you earn your keep."
+        scene r457 with dissolve
         esc "Yes daddy~!"
         # sex scene
+        scene r458 with dissolve
         ver "That's my, that's my!"
+        scene r459 with dissolve
+        ver "That's my husband~!"
         verh "Oh yeah, you slut, how are you still so tight?"
+        scene r460 with vpunch
         ver "My husband!"
         p "Take a good look, Miss Veronica."
         ver "..."
         ver "I can't!"
-        p "That's your husband, railing a whore he found at a brother."
+        image ver29 = Movie(play="/animations/ver29.webm")
+        scene ver29 with dissolve
+        p "That's your husband, railing a whore he found at a brothel."
         p "Tomorrow, it'll be another one. Another mansion. Another business trip."
         p "Look how much he's enjoying himself!"
+        scene r461 with dissolve
         ver "He... never seems that way with me... why?"
         ver "Is there something... wrong with me?"
+        image ver30 = Movie(play="/animations/ver30.webm")
+        scene ver30 with dissolve
         p "There's nothing wrong with you Miss V. He doesn't know what he's missing out on."
         p "You need someone in your life who can and will appreciate you."
         esc "Oh your cock is hot! You must be so turned on by me!"
         verh "I am, I am!"
         p "He doesn't appreciate you."
+        image ver31 = Movie(play="/animations/ver31.webm")
+        scene ver31 with dissolve
         ver "I... you're right. But I can't confront him - I don't know how!"
         p "One step at at a time, Miss Veronica. We'll let this play out."
         verh "I'm cumming!"
         verh "Fuck!"
+        scene r461 with dissolve
         esc "Oh you're so hot daddy~!"
         esc "Cum all over my tits!"
         # cum
+        scene r462 with flash
+        $ renpy.pause()
+        scene r463 with flash
+        $ renpy.pause()
+        scene r464 with flash
+        $ renpy.pause()
+        scene r465 with flash
+        $ renpy.pause()
         verh "Ah shit."
         esc "What's up babe?"
+        scene r466 with dissolve
         verh "There's someone else who rented out this place. I might have stayed past my time."
+        scene r467 with dissolve
         verh "Hang on, why did I come back again? Oh right. I was here to get something."
+        scene r468 with dissolve
+        verh "Ah, there it is."
+        scene r470 with dissolve
         esc "Can we go now?"
+        scene r471 with dissolve
         verh "Right. I got what I needed. Let's go. Before that loser gets here. He's probably not even as rich as I am!"
         verh "Hahaha!"
-        "Oh I do pretty alright for myself..."
+        scene r472 with dissolve
+        p "Oh I do pretty alright for myself..."
+        scene r473 with dissolve
         verh "Prepare yourself, babe. I might need a blowjob in the car.. hehehe!"
         esc "Yes daddy~!"
+        scene r474 with dissolve
         # leaves
+        play music "sounds/brite.mp3" fadeout 1
         ver "Are they... are they gone?"
         p "Yeah. Thankfully."
+        scene r475 with dissolve
         ver "All this time... I convinced myself that I was wrong for having sex with men outside my marriage..."
         ver "But, he was doing it too the whole time!"
-        ver "This makes it all okay, right?"
+        scene r476 with dissolve
+        ver "I was forced to watch... to be a cuck queen!"
+        ver "This... this makes everything between us justified, doesn't it!"
+        scene r477 with dissolve
+        ver "This makes it all okay, right?!"
         p "Of course. You don't owe him anything."
+        scene r478 with dissolve
         ver "Oh gosh, I'm starting to feel angry, I want to kill him!"
         p "All normal feelings."
+        scene r479 with dissolve
         ver "This is bullshit! I need to get back at him now. I don't need him!"
         ver "He doesn't know how much he's missing out on!"
         p "Conveniently, I've rented out this place just for us two. This is your perfect opportunity."
+        scene r480 with dissolve
         ver "Very well. Get on the bed, [p]. I'm going to ride you."
         p "Certainly!"
+        scene r481 with fade
+        "Veronica climbed on top of me. Her meaty thighs hugged my hips as she settled on, and her voluptuous tits hung erotically."
+        "Her brows were furrowed, her lips coming together."
+        "My hands grasped at her firm ass - the source of her beautiful figure in that dress."
+        "Veronica was a mature woman - but she looked beautiful."
+        "Our eyes met - her eyes! Her beautiful eyes just above her rosy cheeks."
+        "Vulnerable but courageous."
+        "Her hips started to rock, her pussy anticipating my thick member."
+        "Her hips, the perfect blend of athleticism and curviness."
+        "Wasn't she angry just before?"
         # cowgirl
+        image ver32 = Movie(play="/animations/ver32.webm")
+        scene ver32 with dissolve
+        $ renpy.pause()
+        ver "This time, [p], it's different..."
+        ver "This time, I feel like I deserve this."
+        ver "I still blame myself... but maybe this is who I am."
+        p "You're that busty, sexy teacher I had, and this is a dream come true."
+        p "I wanted to penetrate you, did you know, Miss V?"
+        p "To have your large breasts bounce over my face."
+        ver "I never saw you as such a man before, but perhaps..."
+        ver "You are more man than my husband..."
+        ver "Your cock for one, feels much better~"
+        image ver33 = Movie(play="/animations/ver33.webm")
+        scene ver33 with dissolve
+        ver "Ah~ ah~ ah~"
+        ver "Sorry for all the lewd sounds I'm making~"
+        p "Don't be. Your tits are so much better than the escort's."
+        p "Your husband is missing out."
+        ver "Oh thank you~"
+        p "God you're such a thicc woman."
+        ver "I'll... take.... that.... as... a... c-compliment!"
+        p "Getting close are you? We're not even going that fast yet."
+        ver "I can't help it... [p]~ it just feels sooo good~!"
+        ver "Hng, fuck!"
+        scene
+        $ renpy.movie_cutscene("animations/ver34.webm", loops=0, stop_music=False)
         # end sex
+        scene r482 with flash
+        $ renpy.pause()
+        play music "sounds/ereve.mp3" fadeout 1
         p "I love you when you're so angry, Miss V. It really comes out through your passion in sex."
+        scene r483 with dissolve
         ver "It definitely helped me vent out my emotions. It's almost like sex is the... my... coping mechanism."
+        scene r484 with dissolve
         ver "Ahh, that can't be healthy."
         p "What are you talking about, Miss? You're glowing."
+        scene r485 with dissolve
         ver "Maybe."
+        scene r486 with fade
         p "What are you feeling?"
+        scene r487 with dissolve
         ver "Some post sex regret."
         p "Is that legit? I only know of post masturbation regret."
         p "I get it all the time, hehe. Just kidding."
+        scene r488 with dissolve
         ver "It's a moment of clarity. All this time, I've been thinking as though I'm a married, stable, woman."
         ver "Now I'm not sure. I guess technically, I'm still married. And his money {i}is{/i} kind of nice."
+        scene r489 with dissolve
         ver "Am I considering an open relationship now? Oh dear Veronica, how far you've fallen."
+        scene r490 with dissolve
         ver "Quick warning for you, however..."
         p "Hmm?"
+        scene r491 with dissolve
         ver "I'm not going to be like that escort whore my husband just slept with. This will be on my terms."
         p "Fair enough."
+        scene r492 with dissolve
         "But one day, I'll have you around my finger, my sex kitten, Miss Veronica."
+        scene r493 with dissolve
         ver "Oh, er, good. It's just good to set boundaries, I think."
         p "Well, we're far from home. Relatively anyway. Wanna stay the night?"
+        scene r494 with dissolve
         ver "Um..."
         ver "I've got... work tomorrow. Anyway, we can't do this too quickly, after all..."
+        scene r495 with dissolve
         ver "This has been happening rather quickly. Maybe another time?"
         p "Playing hard to get till the very end. Don't worry Miss V, I will treat you right."
         p "Another day then."
+        scene r496 with dissolve
         ver "Good bye, [p]."
+        scene r497 with dissolve
+        $ renpy.pause()
+        scene r498 with dissolve
+        $ renpy.pause()
+        scene r499 with dissolve
+        $ renpy.pause()
+        scene r500 with dissolve
+        $ renpy.pause()
+        scene r501 with dissolve
+        $ renpy.pause()
+        scene r502 with dissolve
+        $ renpy.pause()
+        scene r503 with dissolve
+        $ renpy.pause()
+        scene r504 with dissolve
+        $ renpy.pause()
+        scene splash5 with fade
+        $ renpy.pause()
         # end
         $ veronicalvl += 1
         jump map
