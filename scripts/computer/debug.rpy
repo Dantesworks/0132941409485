@@ -4,6 +4,9 @@ label hacks:
         "Renamer":
             call renamer from _call_renamer
             jump hacks
+        "Play Amanda alternative route" if amandalvl >= 21 and wildbillvariant == False:
+            play music "sounds/alchemy.mp3" fadeout 1
+            jump aphro_choice
         "Debugging":
             "Amanda [amandalvl] [amandakitchenlvl]"
             "Caroline [carolinelvl] [carolinebarlvl]"

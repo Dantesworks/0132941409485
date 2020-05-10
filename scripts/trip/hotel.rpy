@@ -95,9 +95,14 @@ label hotel1:
     m "Yes..."
     m "Boundaries."
     m "I..."
-    "It's why I tried the aphrodisiac."
-    "I wondered if it would help me crack through."
-    "But now I'm thinking, maybe the aphrodisiac was us all along. Is that right, [mr]?"
+    if wildbillvariant == False:
+        "It's why I tried the aphrodisiac."
+        "I wondered if it would help me crack through."
+        "But now I'm thinking, maybe the aphrodisiac was us all along. Is that right, [mr]?"
+    if wildbillvariant:
+        "It's why I considered the aphrodisiac."
+        "I wondered if it would help me crack through."
+        "But now. I think this could happen. Naturally."
     m "(Sometimes, all people need is an excuse to do things. Something they can blame it on.)"
     scene h31 with dissolve
     m "Ahem... what time do we get up tomorrow?"

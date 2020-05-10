@@ -1417,13 +1417,8 @@ label ball1:
         scene splash_caroline2 with fade
         $ renpy.pause()
         d "Make your save before this point!"
-        d "This is as far as we go for the trip update for 0.56 so far."
-        d "The next update will be focussed on side character content."
-        scene splash6 with fade
-        $ renpy.pause()
-        scene splash_tnvl with fade
-        $ renpy.pause()
-        scene p21 with fade
+        d "This is as far as we go for version 0.57 so far."
+        d "The next update will feature more trip content!"
         d "To be continued next time..."
         d "Thank you for playing!"
         scene black with fade
@@ -1435,7 +1430,7 @@ label ball1:
         scene merch2 with fade
         $ renpy.pause()
         scene merch3 with fade
-        d "The Design of Depravity, a 32 page book about the game design and character art is also on special. Come check it out!"
+        d "The Art of Depravity, a 66 page book about the game design and character art is also on special. Come check it out!"
         scene merch3
         $ renpy.pause()
         scene black with fade

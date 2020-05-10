@@ -46,4 +46,6 @@ up to [p] to bring her back to earth." justify True size 18
             elif olivialvl == 11:
                 text "Go the University location on the map." justify True size 18
             elif olivialvl == 12:
+                text "Go the University location on the map." justify True size 18
+            elif olivialvl == 13:
                 text "Content complete for now - this is a patreon commissioned character." justify True size 18

@@ -598,6 +598,7 @@ label amandakitchen:
         call daykeep from _call_daykeep_16
         jump kitchen
     if amandalvl == 16:
+        label aphro_choice:
         scene black
         scene ak-1 with fade
         p "Hey [mr]."
@@ -610,7 +611,6 @@ label amandakitchen:
         "Should I use the aphrodisiac... or not?"
         "I don't even know if it works... but if it does..."
         "Should I even try it?"
-        label aphro_choice:
         menu:
             "Don't use it.":
                 default wildbillvariant = False
@@ -625,6 +625,7 @@ label amandakitchen:
                 scene black with fade
                 ## Wild Bill
                 "The next day, at Dante studios..."
+                play music "sounds/want.mp3" fadeout 1
                 p "Any news about work, Vincent?"
                 scene a-19_1 with dissolve
                 v "Work? I'll tell you what's a piece of work."
@@ -679,7 +680,7 @@ label amandakitchen:
                 scene a-283 with dissolve
                 ma "Look at his confidence, Nyx. Maybe he might pull it off after all."
                 scene a-284 with dissolve
-                ny "My, my~ As long as Amanda becomes less sexualy frustrated, I think we'd all be happy."
+                ny "My, my~ As long as Amanda becomes less sexually frustrated, I think we'd all be happy."
                 p "I got this."
                 ny "We've got to get back to work, and I'm sure you've got something you want to do too, isn't that right~?"
                 ma "Until next time, [p]."
@@ -687,8 +688,10 @@ label amandakitchen:
                 scene black with fade
                 "Whoa, that was some pretty confident talk from me, to some stunning super models."
                 "But I think this might just work. I don't need no aphrodisiac!"
+                stop music fadeout 1
                 ## Later tonight..
                 "A few hours later, into the evening..."
+                play music "sounds/kiss.mp3" fadeout 1
                 scene a334 with fade
                 n "Couldn't get enough of me, could you?"
                 p "Oh yeah."
@@ -757,6 +760,7 @@ label amandakitchen:
                 $ renpy.pause()
                 # Amanda walks in
                 scene a352 with hpunch
+                play music "sounds/path.mp3" fadeout 1
                 m "!!"
                 m "(T-This has happened before!)"
                 m "(I can't believe it...)"
@@ -794,6 +798,7 @@ label amandakitchen:
                 scene a366 with dissolve
                 $ renpy.pause()
                 # Amanda disappears
+                play music "sounds/alchemy.mp3" fadeout 1
                 scene a367 with dissolve
                 $ renpy.pause()
                 scene a368 with dissolve
@@ -816,8 +821,10 @@ label amandakitchen:
                 p "Haha."
                 p "Keep it tight."
                 scene black with fade
+                stop music fadeout 1
                 "The next day, at Dante's studios."
                 scene a-16 with fade
+                play music "sounds/want.mp3" fadeout 1
                 "The master plan is in motion."
                 "I let [mr] see me fucking Nicole's mouth, just to see how she would react."
                 "Nicole did perfectly, and put on a great show."
@@ -831,159 +838,295 @@ label amandakitchen:
                 p "Oh, nothing much. I'll see you soon, huh?"
                 scene a-18 with dissolve
                 v "Good to see you too."
-                
+                scene black with fade
+                play music "sounds/wisteria.mp3" fadeout 1
+                scene a375 with fade
                 p "Hi [mr], how's it going?"
                 p "Feels like ages since the last time we met... but it probably wasn't so long ago, was it?"
+                scene a376 with hpunch
                 m "T-The last time we met?"
                 # flash back
+                scene a351 with flash
+                $ renpy.pause()
+                scene a354 with flash
+                $ renpy.pause()
+                scene a364 with flash
+                $ renpy.pause()
+                scene a377 with dissolve
                 p "Yeah, the last time. You remember?"
+                scene a378 with dissolve
                 m "Ah...."
                 p "Uh, [mr]?"
+                scene a379 with dissolve
                 m "Ah, sorry, I... got distracted by something."
                 p "Really? What's on your mind?"
+                scene a380 with dissolve
                 m "What's... on my mind?"
                 p "Yeah, what are you thinking?"
+                scene a381 with dissolve
                 m "I was thinking of... juicy... hotdogs."
                 p "Haha, juicy hotdogs? What on earth made you think of that?"
+                scene a382 with vpunch
                 m "What? I, uh-"
+                scene a383 with dissolve
                 m "Hang on, why are you so curious, [p]?"
+                scene a384 with dissolve
                 m "Your [mr] needs to do some more photo shoots."
                 p "Fair enough, [mr]. I'm just having some fun."
                 m "I'll head off now, [p]."
                 p "Take care, [mr]."
+                scene a385 with dissolve
+                $ renpy.pause()
+                scene a386 with dissolve
+                $ renpy.pause()
                 # nyx and maya come in
+                play music "sounds/pretty.mp3" fadeout 1
+                scene a387 with dissolve
+                $ renpy.pause()
+                scene a388 with dissolve
+                $ renpy.pause()
+                scene a389 with dissolve
+                $ renpy.pause()
+                scene a390 with dissolve
+                $ renpy.pause()
+                scene a391 with dissolve
                 ny "Hey, [p]!"
                 p "Nyx!"
+                scene a392 with dissolve
                 ny "What exactly was your plan? Amanda has been super sexually frustrated today."
+                scene a393 with dissolve
                 ny "When Maya gets that way, the only solution is to eat her out, right Maya?"
+                scene a394 with dissolve
                 ma "Nyx..."
+                scene a395 with dissolve
                 ny "You're so cute."
+                scene a396 with dissolve
                 ny "You think Amanda would let me eat her out?"
+                scene a397 with dissolve
                 ma "Maybe if we didn't give the last bit of aphrodisiac to [p], we could have used it on Amanda."
+                scene a398 with dissolve
                 ny "She is far too lusty. Poor girl is barely concentrating at work."
+                scene a399 with dissolve
                 ny "And her hands, Maya, did you see them stray towards her pussy?"
+                scene a400 with dissolve
                 ma "I try not to look."
+                scene a401 with dissolve
                 p "Ladies, ladies!"
                 p "I'm sorry your aphrodisiac didn't get used, okay?"
                 p "And also, that's my [mr] you're talking about!"
+                scene a402 with dissolve
                 ma "I'm sorry about Nyx, [p]. You know how forward she can be."
+                scene a403 with dissolve
                 ma "I suppose you don't have to tell us, but what did you do?"
+                scene a404 with dissolve
                 ny "You must have done something. Amanda is so hot she's going insane."
+                scene a405 with dissolve
                 p "You could say I did something similar to giving an aphrodisiac."
                 ma "That would explain how lustful she seems to be."
                 ny "You made her that way, but you didn't satisfy her lust?"
                 p "All I did was have sex with my girlfriend in front of her. I think that might have stimulated her."
+                scene a406 with dissolve
                 ny "Haha, I get it now. You are a cruel man, [p]!"
+                scene a407 with dissolve
                 ma "I see. So [p]'s plan is to test Amanda and explore their boundaries. He's making her go to him."
+                scene a408 with dissolve
                 ny "The payoff will be slower, but it might be sweeter. But then again, all sex is very sweet already."
+                scene a409 with dissolve
                 ny "Isn't that right, Maya?"
+                scene a410 with dissolve
                 ma "Shouldn't I be asking you that? You're the one eating me out all the time..."
+                scene a411 with dissolve
                 ny "That's right - it's always me doing the work. Shouldn't you be having a taste of me too? See how sweet I am~"
                 ma "I'll pass, Nyx. After all, I don't know what you've put up there. Or who, for that matter."
+                scene a412 with dissolve
                 ny "Hey~ hey~!"
+                scene a413 with dissolve
                 ny "How did we get side tracked? Let's talk more about [p]."
+                scene a414 with dissolve
                 ny "Anyway, [p], that's such a cruel idea, it's so freakin' cool."
                 ny "And if you are as cool as that idea, maybe you'll be one of them that I'll 'put up there' as Maya would say~"
                 ny "Maybe we could even make Amanda watch! How exciting!"
+                scene a415 with dissolve
                 ma "..."
+                scene a416 with dissolve
                 ma "I think it's time for us to go, [p]. Nyx needs to cool her imagination."
+                scene a417 with dissolve
                 ma "All the best, [p]."
+                scene a418 with dissolve
                 p "Thanks."
+                scene a419 with dissolve
+                $ renpy.pause()
                 "Phew. Everytime I talk to that pair, it's an adrenalin rush."
                 "I hope I get to know them better one day. What an interesting couple."
                 "But in the meantime, I need to prove to myself that I don't need the aphrodisiac."
                 "I have to up the ante with [mr], somehow. Somehow..."
                 scene black with fade
+                "Later on today..."
+                scene a420 with fade
+                play music "sounds/missingyou.ogg" fadeout 1
                 n "You're acting so passionately recently, I love it."
+                scene a421 with dissolve
                 n "So, what is the reason that you've been so damn horny?"
+                scene a422 with dissolve
                 p "I'm just hungry for your pussy."
+                scene a423 with dissolve
                 n "I'm so glad to have met you."
+                scene a424 with dissolve
                 n "So how are we going to do it today? We have to change it up, you know."
+                scene a425 with dissolve
                 n "The same positions gets boring if we do it for too long~"
                 p "Oh yeah? What kinky shit do you have in mind?"
+                scene a426 with dissolve
                 n "That stuff yesterday was quite kinky, wasn't it? Your [mr] could have walked in on us at any time."
                 n "You knew that, didn't you?"
                 p "It's true, she comes home in the evenings."
+                scene a427 with dissolve
                 n "And it's the evening now, isn't it?"
                 p "Also true."
+                scene a428 with dissolve
                 n "Oh~  I wonder~"
+                scene a429 with dissolve
                 n "Does your [mr] ever get jealous of me?"
                 p "Jealous?"
+                scene a430 with dissolve
                 n "Yeah, I mean, I get to fuck such a thick stud {i}whenever{i} I want, and all she can do is touch herself while she listens to my moans~"
                 p "Whoa, that's my [mr] you're talking about, haha."
+                scene a431 with dissolve
                 n "Hey, I'm only joking. She's pretty hot, for her age especially."
+                scene a432 with dissolve
                 n "I'm sure she'd be able to find all kinds of guys to give her cock."
                 n "With how she looks... even younger guys too."
+                scene a433 with dissolve
                 n "Guys around {i}your{/i} age. Your friends even."
                 p "Nah, I don't have friends. Not likely."
                 n "Oh, but you know what I mean. Your [mr] could be getting so much dick if she wanted to. Why doesn't she?"
                 n "After all, cock is the best."
                 p "Well, let me consult your expert opinion."
+                scene a434 with dissolve
                 n "Oh, finally someone cares about what's between my ears and not what's between my legs~!"
                 p "You know I love you Nicole. Don't do this to me."
+                scene a435 with dissolve
                 n "Haha, ask away, [p], ask away."
+                scene a436 with dissolve
                 p "What do you think my [mr] needs to realise that she needs... you know, a guy?"
+                scene a437 with dissolve
                 n "You mean a cock? A hard, thick, spurting cock?"
                 p "Yeah, that too."
+                scene a438 with dissolve
                 n "Well, she needs to know what she's missing out on."
                 p "Ah, the penis yeah. But how?"
+                scene a439 with dissolve
                 n "Well, I've got a great idea. In fact, you probably know it too."
                 p "Do tell."
+                scene a440 with dissolve
                 n "Haha, alright. Listen closely then. It's-"
+                scene a441 with vpunch
+                play music "sounds/wisteria.mp3" fadeout 1
                 m "Oh, hello you two!"
+                scene a442 with dissolve
                 m "I just came back from work, and wow, what a day."
+                scene a443 with dissolve
                 p "Oh hey [mr]. Welcome home!"
                 n "Miss Amanda!"
                 m "I hope I didn't intrude or anything. Just pretend I'm not here, okay?"
                 m "Make yourselves at home."
                 n "Will do."
+                scene a444 with dissolve
                 m "I'm just going to pop off into the kitchen and do the standard routine."
                 p "Cooking some more meat again?"
                 m "Haha, not today."
+                scene a445 with dissolve
                 n "No meat today, Amanda? You don't know what you're missing out on!"
                 m "Ah, hahaha. Alright, I'll get onto my work."
+                scene a446 with dissolve
                 p "Yo. Stop that."
+                scene a447 with dissolve
                 n "Why? She didn't think anything. I'm just having some fun."
+                scene a448 with dissolve
                 n "Anyway, about the idea I was talking to you about-"
+                scene a449 with dissolve
                 p "Uh, not now. She's literally a few feet away from us."
+                scene a450 with dissolve
                 n "Oh my dear [p]. That's the point~"
                 p "You... I.... err...."
+                scene a451 with dissolve
                 n "Oh my gosh, boys can be so stupid."
                 n "But then again, you {i}are{/i} more visual creatures. Let me just show you."
+                scene a452 with dissolve
+                $ renpy.pause()
                 "Wordlessly, she started stripping, revealing her two bolted on tits."
+                scene a453 with dissolve
+                $ renpy.pause()
                 # strip
+                scene a454 with hpunch
                 p "Psst!! Nicole!!"
                 p "We don't even have the excuse of being stumbled on!"
                 p "If we do it now, we're obviously spiting her!"
-                p "..."
+                scene a455 with dissolve
+                n "..."
+                scene a456 with dissolve
+                n "Hehe.."
+                scene a457 with dissolve
+                $ renpy.pause()
+                scene a458 with dissolve
+                $ renpy.pause()
+                p "W-What are you..."
+                scene a459 with dissolve
+                $ renpy.pause()
+                scene a460 with dissolve
+                $ renpy.pause()
+                scene a461 with dissolve
+                $ renpy.pause()
+                scene a462 with dissolve
                 p "Where are you going! Come back now!"
                 # Nicole walks to the wall
+                play music "sounds/kiss.mp3" fadeout 1
                 "Wordlessly, she gestured me over, and bent over, her butt cheeks spreading apart, inviting me into her pussy."
+                scene a463 with dissolve
+                $ renpy.pause()
+                "Oh god."
+                scene a464 with dissolve
                 m "You two are really quiet. Remember, just pretend I'm not here. I don't mind some noise."
+                scene a465 with dissolve
                 "Nicole smirked."
+                scene a466 with dissolve
                 n "Hey Amanda?"
                 m "Yes Nicole?"
                 n "I think something might need your attention back here..."
+                scene a467 with vpunch
                 p "Alright Nicole, alright!"
                 "I fiercely whispered."
+                scene a468 with dissolve
                 n "Oh never mind. It's been sorted out~"
                 m "Good!"
+                scene a470 with dissolve
                 n "See, [p]? You just need a little encouragement."
+                scene a471 with dissolve
                 n "Don't get stage fright on me now. That would be so embarassing."
                 p "And what you're doing now isn't?!"
-                p "Fuck me."
+                p "Fuck me!!"
+                scene a472 with dissolve
                 n "Deal."
                 p "I mean... shit."
                 n "Hard yet? Enter me."
+                scene a473 with dissolve
                 p "Fucking hell..."
                 # fuck against wall
+                image a14 = Movie(play="/animations/a14.webm")
+                scene a14 with dissolve
                 n "Eek~!"
+                n "Mmm...!"
+                p "Shut the fuck up you dirty bitch."
+                p "Don't you dare give us away."
                 m "What was that?"
                 p "Nothing, that was nothing!"
                 m "Are you sure?"
+                scene a474 with dissolve
                 n "Just~ a little~ surprised~"
                 n "Ah~"
                 m "You sound a bit breathless, are you okay Nicole?"
+                image a15 = Movie(play="/animations/a15.webm")
+                scene a15 with dissolve
                 n "Oh, I feel great~!"
                 m "W-Well, if you say so."
                 n "It's a...  hard feeling to describe."
@@ -991,39 +1134,341 @@ label amandakitchen:
                 n "But sometimes in the moment... it feels like everything is bliss."
                 n "And everything... consequences... responsiblities... it's all secondary~"
                 n "Do you... know what I mean?"
+                scene a475 with dissolve
                 m "Just... living in the moment..."
+                scene a476 with dissolve
                 m "It's the smell of..."
+                scene a477 with dissolve
                 m "(It's the smell of sex...)"
+                scene a478 with dissolve
                 n "It's in the air.. you can feel it."
                 m "(Are they having sex again?)"
                 m "(Do I dare look?)"
+                scene a479 with dissolve
                 m "(But who am I? An aging woman, to interrupt their fun?)"
+                scene a480 with dissolve
                 m "(But oh does it take me back to those days when I was young, when I took risks.)"
                 m "(When I lived for the moment.)"
+                scene a481 with dissolve
                 m "(When I craved cocks, and had my fair share to choose from!)"
                 m "(Could I not return to those days?)"
+                scene a482 with dissolve
                 m "(What a curse it is, to have [p], a well endowed male living with me, and not be able to take advantage of it.)"
                 m "(What a curse it is, to have them doing it right next to me, taunting me.)"
+                scene a483 with dissolve
                 m "(Revealing to me, how far I am from what I was.)"
+                scene a484 with dissolve
                 m "(But... I could embrace how I used to be... couldn't I?)"
                 m "(I-I could take risks again, be naughty! Be young...)"
+                scene a485 with dissolve
                 m "(My body is telling me too. I can feel my pussy getting wet, and images of [p]'s cock is just flooding my mind.)"
                 m "(Flooding... cum... all into me...)"
                 m "(How I've missed the feeling of warm semen in my womb, making me feel safe and secure.)"
                 m "(I can't help myself any more...)"
+                scene a486 with dissolve
                 m "(After all... if they're doing it... why can't I?)"
                 m "(Let's play this game... together~)"
                 # amanda masturbate
+                image a16 = Movie(play="/animations/a16.webm")
+                scene a16 with dissolve
+                $ renpy.pause()
+                a "Ah~"
+                a "(Have to... keep my voice low~)"
+                a "(But my pussy... is making squelching noises!)"
+                image a17 = Movie(play="/animations/a17.webm")
+                scene a17 with dissolve
+                $ renpy.pause()
+                n "Ah~ ah~ ah~ ah~!"
+                m "Nng... nng... nng..."
+                m "(Faster... I need to get my release quickly or they'll find me!)"
+                p "Speed up, we need to finish this quickly!"
+                image a18 = Movie(play="/animations/a18.webm")
+                scene a18 with dissolve
+                $ renpy.pause()
+                m "(I'm cumming, I'm cumming!)"
+                p "Fuck Nicole, pull out, pull out!"
+                scene a487 with flash
+                $ renpy.pause()
+                scene a488 with flash
+                $ renpy.pause()
+                scene a489 with flash
+                $ renpy.pause()
                 # both cum
+                scene a490 with dissolve
+                m "Ooooh~!"
+                scene a490 with flash
+                $ renpy.pause()
+                scene a491 with dissolve
+                m "Ahh..."
+                scene a492 with dissolve
+                play music "sounds/masked.mp3" fadeout 1
+                m "(Oh dear, I really have spent myself.)"
+                m "(My mind has suddenly cleared..)"
+                scene a493 with dissolve
+                m "(What have I done!)"
+                m "(I need to get dresssed and get up quickly!)"
+                m "(How embarassing it would be if they discovered I was nude?)"
+                m "(But at least Nicole would finally see how large my breasts are, and that might humble her a little.)"
+                scene a494 with dissolve
+                $ renpy.pause()
+                scene a495 with dissolve
+                $ renpy.pause()
+                scene a496 with dissolve
+                $ renpy.pause()
+                scene a497 with dissolve
+                $ renpy.pause()
+                m "Sigh."
+                scene a498 with dissolve
+                m "(Alright, time to step outside. Look normal, Amanda, look normal.)"
                 "No way. It all went to Nicole's plan. It was like she had done this before."
-                p "What's next?"
+                scene a499 with hpunch
+                p "She's coming, she's coming! I hear footsteps!"
+                scene a500 with dissolve
+                m "Finally finished~"
+                m "Don't stay up too late, okay guys?"
+                scene a501 with dissolve
+                p "Ahaha, hey [mr]!"
+                p "We're not doing anything at all!"
+                n "..."
+                scene a502 with dissolve
+                m "Alright, alright!"
+                scene a503 with dissolve
+                m "(I might just have been able to masturbate secretly...)"
+                scene a504 with dissolve
+                n "Did you end up making that meat, Amanda?"
+                m "Haha, I must be going now. Good night, you two!"
+                scene a505 with dissolve
+                $ renpy.pause()
+                p "Phew."
+                scene a506 with dissolve
+                n "You always get so nervous."
+                n "It's going to be alright, see?"
+                n "{i}Kiss kiss{/i}*"
+                scene a507 with dissolve
+                n "Come around. You did a good job today."
+                n "It was fun playing with you!"
+                scene a508 with dissolve
+                p "Fine. What's next?"
+                scene a509 with dissolve
                 n "Haven't I done enough for you? [p]?"
+                scene a510 with dissolve
                 n "You'll be able to figure the rest out. Can't make it too easy for you, after all."
                 n "Anyway, I'm sure you'll find the way. You always manage to."
+                scene a511 with dissolve
                 n "You know, you're better with women than you think."
                 p "Huh, very nice of you."
+                scene a512 with dissolve
                 n "Goodnight, [p]."
                 p "Goodnight, Nicole."
+                scene black with fade
+                stop music fadeout 1
+                "I wonder if Nicole's and my outrageous actions have caused [mr] to be more open to satisfying her own pleasure."
+                "I just want her to be happy."
+                "Maybe I could be part of that picture."
+                "After all, she's been intimate with me once before. After all this, she might be open again."
+                "The next day..."
+                play music "sounds/want.mp3" fadeout 1
+                scene a-17 with fade
+                v "Welcome back, [p]!"
+                p "Yeah Vince! Nice to stop by!"
+                scene a-18 with dissolve
+                v "So, what are you here for? Business or pleasure?"
+                p "I'm here on serious business!"
+                scene a-19 with dissolve
+                v "Where to?"
+                p "Here to visit Amanda."
+                v "She's got many visitors today!"
+                p "Really?"
+                scene a-16 with dissolve
+                v "Nyx and Maya dropped by earlier. They might still be there."
+                p "Oh, what are they up to?"
+                scene a-19_1 with dissolve
+                v "They have some kind of grievance with Amanda. Some girl issue. I try to stay out of stuff like that."
+                p "Wise."
+                v "They said something about giving her advice or something. Who knows?"
+                p "Ah, guess I'll go check it out."
+                scene a-19 with dissolve
+                v "Haha, alright man. Have fun!"
+                scene black with fade
+                play music "sounds/witch.mp3" fadeout 1
+                scene a513 with fade
+                "Hmm. Hang on, what's this?"
+                scene a514 with dissolve
+                ny "That's what we're saying, Amanda."
+                scene a515 with dissolve
+                ny "It's not that hard."
+                scene a516 with dissolve
+                ma "Nyx and I do it all the time. It's healthy."
+                scene a517 with dissolve
+                m "Girls, it's not like you think. It's more complicated."
+                scene a518 with dissolve
+                ny "[p]'s going to probably swing around some time. That's your chance."
+                ny "Didn't you get pissed at me for flirting with [p]?"
+                ny "If you can't prove that he's your boyfriend, shouldn't I then get a chance at him?"
+                scene a519 with vpunch
+                ma "Uh, Nyx..."
+                scene a520 with dissolve
+                ny "Oh, this is awkward."
+                scene a521 with dissolve
+                p "Sorry to interrupt. What's going on here... Amanda?"
+                scene a522 with dissolve
+                ny "We were just giving some friendly advice, but I think things got heated."
+                ny "We just wanted Amanda to treat you better, [p]."
+                scene a523 with dissolve
+                m "I {i}do{/i} treat my s- I mean boyfriend well!"
+                scene a524 with vpunch
+                ny "Then show us! And we can finally stop having to deal with your mood swings!"
+                scene a525 with dissolve
+                m "Fine! I'll show you!"
+                scene a526 with hpunch
+                m "[p], come and whip your cock out. Don't pretend you're not used to it young man!"
+                scene a527 with dissolve
+                p "W-what?!"
+                scene a528 with dissolve
+                m "I'm not saying it again! Are you trying to make me look bad in front of the other models here?"
+                p "Alright..."
+                scene a529 with dissolve
+                m "We'll show you how it's done. This is how a woman with years of experience does it."
+                play music "sounds/kiss.mp3" fadeout 1
+                scene a530 with dissolve
+                "Without wasting a moment, [mr] threw off her clothes while Nyx and Maya could only watch in awe at that sudden change in Amanda's demeanour."
+                scene a531 with dissolve
+                $ renpy.pause()
+                scene a532 with dissolve
+                $ renpy.pause()
+                scene a533 with dissolve
+                "With a ferocity that I hadn't seen before, she jumped onto me, and my member was plunged into her mouth."
+                scene a543 with dissolve
+                a "Ahh~"
+                scene a544 with hpunch
+                a "How long I've waited for this..."
+                image a19 = Movie(play="/animations/a19.webm")
+                scene a19 with dissolve
+                $ renpy.pause()
+                p "I-I... [mr]! If you go too fast, I'll-!"
+                "I couldn't believe it. My [mr]'s head was bobbing up and down on my cock, and I had super models watching from the side."
+                "They were... jealous that they couldn't get in on the action!"
+                "Her tongue stimulated my cock in sweeping motions, making me grit my teeth every time her tongue brushed over the most sensitive parts."
+                "My [mr] must have been like Nicole when she was younger - but natural."
+                "This is a natural vixen. An absolute milf. What a lucky guy I am."
+                image a20 = Movie(play="/animations/a20.webm")
+                scene a20 with dissolve
+                $ renpy.pause()
+                ma "Nyx... her mouth..."
+                ma "She has some skill."
+                ny "I could do better!"
+                ma "But... her motion. I wonder how that would feel on me..."
+                ny "Maya! I could do it too!"
+                ma "Amanda... I didn't know you had this~"
+                image a21 = Movie(play="/animations/a21.webm")
+                scene a21 with dissolve
+                m "(The girls are judging me, but I'm not focussed on them. I only want to give pleasure to my [p].)"
+                m "(To have my lips gliding over his shaft. To do what I've dreamt of doing.)"
+                m "(Does this feel good, [p]? This is what I can do~ This is what my experience brings~!)"
+                p "I'm cumming, I'm cumming!"
+                scene a536 with dissolve
+                m "Good boy, [p]~ show them how horny I've made you, show them how much I've made you cum!"
+                p "Ah!!"
+                scene a537 with flash
+                $ renpy.pause()
+                scene a538 with flash
+                $ renpy.pause()
+                scene a539 with flash
+                $ renpy.pause()
+                scene a540 with flash
+                $ renpy.pause()
+                scene a541 with dissolve
+                $ renpy.pause()
+                scene a542 with dissolve
+                $ renpy.pause()
+                scene a543 with dissolve
+                $ renpy.pause()
+                scene a544 with dissolve
+                $ renpy.pause()
+                scene a545 with dissolve
+                $ renpy.pause()
+                scene a546 with dissolve
+                $ renpy.pause()
+                m "Good, good boy~"
+                p "Oooh..."
+                scene a547 with dissolve
+                play music "sounds/pretty.mp3" fadeout 1
+                m "That's how it's done, Nyx."
+                m "Would any of you want to sample my tongue after seeing what it can do?"
+                scene a548 with dissolve
+                m "Maya?"
+                scene a549 with dissolve
+                $ renpy.pause()
+                # maya blushes
+                scene a550 with dissolve
+                ny "You... impress me, Amanda."
+                scene a551 with dissolve
+                ny "I think we're more alike than we are different."
+                ny "If you're willing to share one day-"
+                scene a552 with dissolve
+                m "[p] is all mine, Nyx. Only my mouth can make him cum as hard."
+                m "I know he's got a nice, thick cock, but you need a woman of my experience to tame it."
+                scene a553 with dissolve
+                ny "I've got some experience too, Amanda. Perhaps we can learn a thing or two from each other."
+                scene a554 with dissolve
+                ny "I don't know, what do you think, [p]?"
+                p "Hahaha."
+                p "Sharing is caring?"
+                scene a555 with dissolve
+                m "Say that again, [p]?"
+                p "I mean!"
+                p "I'm going to have to say that Amanda is the champion at giving blow jobs. No one comes quite as close as her."
+                scene a556 with dissolve
+                m "Good."
+                scene a557 with dissolve
+                ma "Let's go Nyx. I think Amanda has showed us that she can definitely satisfy [p]. She doesn't need our help anymore."
+                scene a558 with dissolve
+                ny "I see."
+                scene a559 with dissolve
+                ny "Interesting. I'd like to have a go at sucking your cock, [p]."
+                scene a560 with dissolve
+                ny "I'd be curious to hear your feedback. Until next time, [p]."
+                # disappears
+                scene a561 with dissolve
+                $ renpy.pause()
+                scene a562 with dissolve
+                $ renpy.pause()
+                play music "sounds/wisteria.mp3" fadeout 1
+                scene a563 with dissolve
+                m "Phew!"
+                scene a564 with dissolve
+                m "Those girls get too much sometimes, don't they!"
+                p "Um, [mr]... You had your mouth on my cock just before."
+                scene a565 with dissolve
+                m "I couldn't have those girls thinking that I couldn't have my way around, could I?"
+                m "They thought I was irrelevant!"
+                p "Was it pleasurable for you? I mean, it felt great for me."
+                m "I won't lie, [p]. You have a nice cock. Nicole must be very happy with it."
+                p "What about you?"
+                scene a566 with dissolve
+                m "What about me?"
+                p "..."
+                scene a567 with dissolve
+                m "Look, I know what happened. It was... a sort of... impulsive thing that I did."
+                scene a568 with dissolve
+                m "Now that it's happened, my mind's cleared and-"
+                scene a569 with dissolve
+                m "Maybe we shouldn't talk about it any more."
+                m "There's no need to."
+                p "But-!"
+                scene a570 with dissolve
+                m "I really need to get backt to work [p], I.."
+                m "...I need to get back to work."
+                p "... I see."
+                scene a571 with dissolve
+                m "Oh dear, I... let's not bring this up again."
+                scene a572 with dissolve
+                "Would [mr] have still given me a blow job if I didn't do all that set up before?"
+                "Surely, I must be getting closer."
+                scene black with fade
+                call daykeep
+                $ amandalvl = 21
+                jump map
             "Use it.":
                 "Wow, it's like she's completely forgotten what happened before."
         "Time to bring that back up. I can't wait to see [mr] crawling over my cock."
