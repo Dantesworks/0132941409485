@@ -536,7 +536,7 @@ label uni:
                 p "Staying quiet? Good. A slut is prettiest with their mouth shut."
                 scene o-198 with dissolve
                 p "You've done well today and you may go home now."
-                $ olivialvl += 1
+                $ olivialvl = 6
                 scene black with fade
                 $ daytime = 4
                 $ daytimes = str(daytime)
@@ -1369,7 +1369,7 @@ label uni:
         o "Take a good look. You can't violate it though, you promised."
         p "Haha, I like it!"
         scene o407 with dissolve
-        p "Is that some moisture I see around yoru pussy lips? There's a glistening there."
+        p "Is that some moisture I see around your pussy lips? There's a glistening there."
         o "So what? It gets sweaty there sometimes."
         p "Juicy."
         p "Alright, put it on."
@@ -1608,7 +1608,10 @@ label uni:
         $ renpy.pause()
         $ daytime = 4
         $ daytimes = str(daytime)
-        $ olivialvl += 1
+        $ olivialvl = 13
         call map_alt from _call_map_alt_20
     if olivialvl == 13:
         jump trainer
+    else:
+        "There's been a problem. Let Dante know in the comments."
+        jump map

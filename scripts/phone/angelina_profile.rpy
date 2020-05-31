@@ -19,4 +19,4 @@ screen angelina_profile():
             if cowgirl:
                 text "View her art in the museum of patrons." justify True size 18
             else:
-                text "Content complete for this version! Vote for this character on Patreon to see more." justify True size 18
+                text "Content complete for this version - this is a patreon commissioned character." justify True size 18

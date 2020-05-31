@@ -36,6 +36,8 @@ define douche = Character("Douche")
 define w = Character("Widowmaker")
 define esc = Character("Escort")
 define verh = Character("Veronica's husband.")
+define tifa = Character("Tifa")
+
 # The game starts here.
 
 label splashscreen:
@@ -72,7 +74,7 @@ label splashscreen:
     #$ renpy.pause(2.0,hard=False)
     #$ renpy.pause()
 
-    scene splash2_2
+    scene splash2
     with Dissolve(1)
 
     $ renpy.pause(2.0,hard=True)

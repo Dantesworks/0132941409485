@@ -18,6 +18,11 @@ label publicbathouse:
     call screen publicbathouse
     screen publicbathouse():
         add "bathhouse"
+        imagebutton: ## tifa
+            focus_mask True
+            idle "tifa_idle.png"
+            hover "tifa_hover.png"
+            action Jump("tifa_story")
         imagebutton: ## back
             focus_mask True
             idle "back.png"

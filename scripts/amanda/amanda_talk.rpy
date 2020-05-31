@@ -540,7 +540,7 @@ label amandatalk:
         m "I think it'll be a good getaway. It'll be a nice change of environment."
         scene a-5 with dissolve
         m "(It'll also be good for a [mr] to spend more time with him. To get to know him better.)"
-        m "(To find out more of the truth behind this effect he described as an aphrodisiac.)"
+        m "(To find out more of the truth behind his effect on me.)"
         p "Haha, it's going to be lots of fun. It would be healthy for all of us to... spend more time together."
         "I hope it won't be awkward!"
         scene a-9 with dissolve

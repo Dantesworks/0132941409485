@@ -1172,9 +1172,9 @@ label amandakitchen:
                 image a16 = Movie(play="/animations/a16.webm")
                 scene a16 with dissolve
                 $ renpy.pause()
-                a "Ah~"
-                a "(Have to... keep my voice low~)"
-                a "(But my pussy... is making squelching noises!)"
+                m "Ah~"
+                m "(Have to... keep my voice low~)"
+                m "(But my pussy... is making squelching noises!)"
                 image a17 = Movie(play="/animations/a17.webm")
                 scene a17 with dissolve
                 $ renpy.pause()
@@ -1338,10 +1338,10 @@ label amandakitchen:
                 $ renpy.pause()
                 scene a533 with dissolve
                 "With a ferocity that I hadn't seen before, she jumped onto me, and my member was plunged into her mouth."
-                scene a543 with dissolve
-                a "Ahh~"
-                scene a544 with hpunch
-                a "How long I've waited for this..."
+                scene a534 with dissolve
+                m "Ahh~"
+                scene a535 with hpunch
+                m "How long I've waited for this..."
                 image a19 = Movie(play="/animations/a19.webm")
                 scene a19 with dissolve
                 $ renpy.pause()
@@ -1457,7 +1457,7 @@ label amandakitchen:
                 m "There's no need to."
                 p "But-!"
                 scene a570 with dissolve
-                m "I really need to get backt to work [p], I.."
+                m "I really need to get back to work [p], I.."
                 m "...I need to get back to work."
                 p "... I see."
                 scene a571 with dissolve

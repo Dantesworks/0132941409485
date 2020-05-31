@@ -322,7 +322,7 @@ screen navigation():
 
         textbutton _("About") action ShowMenu("about")
 
-        textbutton _("Book of Depravity") action OpenURL("https://www.patreon.com/posts/29778717")
+        textbutton _("Book of Depravity") action OpenURL("https://www.patreon.com/posts/art-of-depravity-36955156")
 
         textbutton _("Updates and Art") action OpenURL("https://www.patreon.com/danteworks")
 

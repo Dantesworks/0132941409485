@@ -1787,7 +1787,7 @@ label kairatalk:
                         "To be honest, I'm still not sure where I stand with her. If she pushes things forward, if Nicole decides to have her fun..."
                         "How am I supposed to react? Should I just let it happen?"
                         "And then there's the issue with [mr]. I still don't know how to interpret what's happened so far."
-                        "Was what we did... a one off thing? Is she open to it again? She makes me feel like maybe its not the aphrodisiac after all."
+                        "Was what we did... a one off thing? Is she open to it again? She makes me feel like maybe there's something deeper to it all."
                         "..."
                         "These thoughts occupy my mind as we arrive at the airport."
                         "We don't have to line up though. It's just us on this flight."

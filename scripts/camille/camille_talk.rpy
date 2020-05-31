@@ -1,4 +1,5 @@
 label camilletalk:
+    default camille_flag = False
     if camillelvl == 1:
         play music "sounds/armoir.mp3" fadeout 1
         if camille_flag:

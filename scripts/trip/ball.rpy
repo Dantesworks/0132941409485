@@ -1416,10 +1416,9 @@ label ball1:
         play music "sounds/solanum.mp3" fadeout 1
         scene splash_caroline2 with fade
         $ renpy.pause()
-        d "Make your save before this point!"
+        d "Make your save BEFORE the To Be Continued!"
         d "This is as far as we go for version 0.57 so far."
         d "The next update will feature more trip content!"
-        d "To be continued next time..."
         d "Thank you for playing!"
         scene black with fade
         d "Oh yeah, quick heads up..."
@@ -1434,8 +1433,51 @@ label ball1:
         scene merch3
         $ renpy.pause()
         scene black with fade
-        d "Now is a chance to hack your way back to the map if there are some side character content you would like to do."
-        d "Make sure to not touch anything else and return via the hacks menu in computer!"
+        play music "sounds/wasted.mp3" fadeout 1
+        scene nextversion
+        $ renpy.pause()
+        d "Currently a work in progress... version 0.58!!"
+        d "For more sexy pictures and ability to vote for content like characters and sexy clothing, visit the patreon."
+        d "Thank you again for all the patience, help and feedback so far - I am committed to finishing this game."
+        d "Here's a taste!"
+        scene bonus1 with dissolve
+        n "A taste, you say?"
+        n "Now you're speaking my language~"
+        scene bonus2 with dissolve
+        n "What do you think, Kaira? Do you want to give them a peek?"
+        scene bonus3 with dissolve
+        s "Um! Ah!"
+        s "A-A peek?"
+        scene bonus4 with dissolve
+        n "Of course, Kaira. Just like we practised~"
+        s "Ehh..."
+        scene bonus5 with dissolve
+        n "Don't you want to prove yourself? Aren't you usually proud of those tits of yours?"
+        n "Come on now, on the count of three!"
+        n "One..."
+        n "Two..."
+        n "Three!"
+        scene bonus6 with flash
+        $ renpy.pause()
+        n "There you go Kaira! In full display!"
+        s "Mmm~!"
+        scene bonus7 with dissolve
+        an "Is this really appropriate? I must admit, I'm more conservative than most..."
+        scene bonus8 with dissolve
+        n "Ahem, I wouldn't say that if I were you. After all, I've seen how your story ends!"
+        scene bonus9 with dissolve
+        c "Well, no matter how the story ends, it's about the journey, isn't it?"
+        c "This won't last forever, but it's important, I think, to have fun while doing it!"
+        scene bonus10 with dissolve
+        c "Wouldn't you agree?"
+        scene bonus11 with dissolve
+        $ renpy.pause()
+        scene bonus12 with dissolve
+        $ renpy.pause()
+        scene bonus10 with dissolve
+        c "Now is a chance to hack your way back to the map if there are some side character content you would like to do."
+        c "Make sure to not touch anything else and return to this place via the hacks menu on the computer!"
+        c "The hacks menu is top left of the screen when you click the computer."
         menu:
             "Go to the map":
                 jump map

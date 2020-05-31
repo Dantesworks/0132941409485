@@ -49,11 +49,55 @@ label cgGallery6:
                     action Jump("g49")
             else:
                 null
+            if olivialvl > 12:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/51i.png"
+                    hover "gallery_buttons/cGGallery/51h.png"
+                    action Jump("g51")
+            else:
+                null
+            if olivialvl > 12:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/52i.png"
+                    hover "gallery_buttons/cGGallery/52h.png"
+                    action Jump("g52")
+            else:
+                null
+            if veronicalvl > 5:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/53i.png"
+                    hover "gallery_buttons/cGGallery/53h.png"
+                    action Jump("g53")
+            else:
+                null
+            if veronicalvl > 5:
+                imagebutton:
+                    focus_mask True
+                    idle "gallery_buttons/cGGallery/54i.png"
+                    hover "gallery_buttons/cGGallery/54h.png"
+                    action Jump("g54")
+            else:
+                null
             null
-            null
-            null
-            null
-            null
+label g54:
+    scene 54
+    $ renpy.pause()
+    jump cgGallery6
+label g53:
+    scene 53
+    $ renpy.pause()
+    jump cgGallery6
+label g52:
+    scene 52
+    $ renpy.pause()
+    jump cgGallery6
+label g51:
+    scene 51
+    $ renpy.pause()
+    jump cgGallery6
 label g50:
     scene 50
     $ renpy.pause()

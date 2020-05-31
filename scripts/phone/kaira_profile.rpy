@@ -40,7 +40,7 @@ force to be reckoned with indeed. She put these skills to practise on the second
             elif kairalvl == 8 and nicolelvl == 11:
                 text "Talk to Kaira in her room in the afternoon." justify True size 18
             elif kairalvl == 9 and nicolelvl == 11:
-                text "Talk to Nicole about the trip." justify True size 18
+                text "Talk to Nicole about the trip, or finish Amanda's content if not finished already." justify True size 18
             elif kairalvl == 9 and nicolelvl == 12 and amandalvl == 21:
                 text "Talk to [mr] about the trip in the morning." justify True size 18
             elif kairalvl == 9 and nicolelvl == 12 and amandalvl == 22 and (private_jet == False or luxurious_hotels == False or rv == False):

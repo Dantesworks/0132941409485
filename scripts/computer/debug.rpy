@@ -26,6 +26,10 @@ label hacks:
                     $ amandashow = ["1"]
                     $ amandakitchen = True
                     jump computer
+        "No new Olivia content!":
+            $ olivialvl = 11
+            "Fixed!"
+            jump computer
         "Go back to the trip" if teleport:
             jump teleporter
         "Back":
